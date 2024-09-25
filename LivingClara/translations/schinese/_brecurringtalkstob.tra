@@ -1,0 +1,1263 @@
+// 定期对话。每4天播放一次 - 第一行启动一切
+@0 /*玛兹*/ = ~是的，<CHARNAME>？有什么你想说的吗？~
+@1 /*CHARNAME*/ = ~不，玛兹。我们继续吧。~
+
+@2 /*CHARNAME*/ = ~我只是想告诉你你有多美。~
+@3 /*玛兹*/ = ~谢谢你，<CHARNAME>。这让我的<DAYNIGHTALL>变得明亮。~
+
+@4 /*CHARNAME*/ = ~我可以吻你吗？~
+@5 /*玛兹*/ = ~在公开场合？好吧，公共场合一个吻。私人场合更多的吻。~
+
+@6 /*CHARNAME*/ = ~我只是想给你这朵花。~
+@7 /*玛兹*/ = ~谢谢你，<CHARNAME>，我会把它别在我的盔甲上。一个人身上永远不会有太多的花。~
+
+@8 /*CHARNAME*/ = ~根据我的经验，玛兹，大多数半身人不会冒险进入这个世界。你不应该在家种庄稼和养孩子吗？~
+@9 /*玛兹*/ = ~那是摆在我面前的生活。我只需要接受它，它就会是我的。但我不能那样生活，每天看着同样的人，做着同样的事情，在我出生的地方几英里内变老。~
+
+@10 /*玛兹*/ = ~我想看看这个世界，<CHARNAME>！我想考验自己对抗那些企图伤害他人的人。你可能会觉得我很愚蠢，但我梦想成为一名圣骑士。~
+
+@11 /*CHARNAME*/ = ~我不认为有半身人圣骑士。~
+@12 /*CHARNAME*/ = ~*哼* 好像。你只是一个半身人，玛兹，你不应该尝试成为你无法成为的人。~
+@13 /*CHARNAME*/ = ~你为什么要成为那些固执的人之一？~
+@14 /*CHARNAME*/ = ~对你有好处，玛兹。每个人都应该有这么大的梦想。~
+
+@15 /*玛兹*/ = ~据我所知，没有。我将是第一个。~
+@16 /*玛兹*/ = ~你不是第一个怀疑我的人，但我仍将坚持。显然，我不会期望你提供太多帮助。~
+
+@17 /*玛兹*/ = ~一些圣骑士可能过于拘泥于规则，这是真的，但他们仍然是正义的力量：保护无辜者，让世界变得更美好。这是我的使命。~
+@18 /*玛兹*/ = ~到目前为止，我并不完全成功，但我不后悔我的选择。~
+
+@19 /*玛兹*/ = ~我们可以在其他时间更详细地讨论这个。现在让我们继续。~
+
+@20 /*CHARNAME*/ = ~你似乎非常喜欢帕拉。你和你妹妹关系很近吗？~
+@21 /*玛兹*/ = ~是的，我们是，尽管她没有我漫游的需求。帕拉梦想有一个丈夫和一个家庭，而不是剑和战斗，但她一直尊重我的愿望，就像我承认她的一样。~
+
+@22 /*玛兹*/ = ~尽管如此，她是一位强大的战士，为了保护我们的家，参加过许多小规模战斗。她很像我们的父亲。他是一位伟大的战士，但他总是说真正的战士留在家里保护他们所爱的人。~
+
+@23 /*玛兹*/ = ~我没有遵循他的愿望。~
+@24 /*CHARNAME*/ = ~我相信他仍然会为你感到骄傲。~
+@25 /*CHARNAME*/ = ~他听起来很了不起，帕拉也是。我希望我能更好地了解她。~
+
+@26 /*CHARNAME*/ = ~我想知道他会怎么看我。~
+@27 /*玛兹*/ = ~我希望如此，虽然我怀疑。~
+@28 /*玛兹*/ = ~然而，我现在不想谈论这个。让我们继续旅行。~
+
+@29 /*玛兹*/ = ~我愿意，<CHARNAME>。~
+@30 /*玛兹*/ = ~哦，很可能是可怕的事情。我父亲从不喜欢任何敢于追求他女儿的人。但他也教会了我们独立思考，我相信他会尊重我的选择。~
+
+@31 /*CHARNAME*/ = ~你是在商贸集会长大的吗？那是什么样子？~
+@32 /*玛兹*/ = ~我想我的童年和其他人一样。我和朋友玩耍，和妹妹共度时光。我父亲是当地民兵的一部分，所以他教我如何战斗。我们经常去乡下拜访家人。这是一个正常、快乐的生活。~
+
+@33 /*CHARNAME*/ = ~听起来确实不错。~
+@34 /*CHARNAME*/ = ~我希望我的童年也这么田园诗般的。~
+@35 /*CHARNAME*/ = ~一个正常、快乐的生活。我想知道那会是什么样子。~
+
+@36 /*玛兹*/ = ~你不喜欢烛光守卫吗？你过去曾满怀深情地谈论过它。~
+@37 /*CHARNAME*/ = ~*耸肩* 这是我唯一知道的家。~
+@38 /*CHARNAME*/ = ~我并不不开心。但有时我很无聊。~
+
+@39 /*CHARNAME*/ = ~学者们更喜欢书而不是孩子。我想这就是为什么我和爱蒙变得如此亲近的原因。~
+
+@40 /*玛兹*/ = ~当我们还是孩子的时候，世界是如此之小。实际上它有多大，我们看得多么少，真是令人惊讶。我即使活上一千年，也无法看遍它的全部。~
+
+@41 /*玛兹*/ = ~生活中还有比无聊更糟糕的事情，<CHARNAME>。~
+
+@42 /*玛兹*/ = ~并且你因此获得了一个终身朋友。一个你愿意冒险到天涯海角去拯救的朋友。在我看来，这是一个有价值的童年。~
+
+@43 /*玛兹*/ = ~但来吧，让我们继续前进。~
+
+@44 /*CHARNAME*/ = ~我看到你的母亲，瓦拉，施展了几个小法术。她是某种法师吗？~
+@45 /*玛兹*/ = ~她是一个召唤者，也是我所知道的唯一的半身人施法者。正是因为她，我始终相信我能成为一名圣骑士。~
+
+@46 /*玛兹*/ = ~如果你问她，她会说她只是一个小法师，但对一个农民的女儿来说，这仍然是一个重大的成就。她更喜欢普通的、有用的魔法：耕种土地、烹饪餐点或修补屋顶的法术。她总是说，用来伤害他人的魔法只会毒害施法者。~
+
+@47 /*CHARNAME*/ = ~你的母亲听起来非常明智。我想我们会相处得很好。~
+@48 /*CHARNAME*/ = ~根据我所看到的，你的母亲可能是对的。~
+
+@49 /*CHARNAME*/ = ~这就是为什么我所有的战斗都是用武器进行的。只是到处进行一次好的、干净的刺杀。~
+
+@50 /*CHARNAME*/ = ~但是……那是我最喜欢的魔法类型。如果没有攻击性法术，我们可能都已经死了。~
+
+@51 /*玛兹*/ = ~我希望如此，<CHARNAME>。~
+@52 /*玛兹*/ = ~我也相信如此，<CHARNAME>，尽管在必要时我也愿意造成死亡。~
+
+@53 /*玛兹*/ = ~*笑* 有些日子我非常同意。但你大概不应该在她能听到的地方说。~
+
+@54 /*玛兹*/ = ~有些日子我非常同意。但你大概不应该在她能听到的地方说。~
+
+@55 /*CHARNAME*/ = ~你有其他兄弟姐妹吗？~
+@56 /*玛兹*/ = ~不，只有我和我妹妹。对于半身人来说，这是一个小家庭，我知道，但我母亲说两个已经足够了。多年来，我们确实给她带来了很多麻烦。~
+
+@57 /*CHARNAME*/ = ~你能告诉我关于达诺的事吗？~
+@58 /*玛兹*/ = ~达诺是一位强壮的战士，一个善良的灵魂，虽然他有点愚蠢，但他非常爱我妹妹。他们小时候在警卫室一起训练时相遇，从那时起就形影不离。~
+
+@59 /*玛兹*/ = ~我父亲一直很喜欢达诺，并且像对待从未有过的儿子一样训练他。~
+
+@60 /*CHARNAME*/ = ~我可以问问你父亲发生了什么事吗？~
+@61 /*玛兹*/ = ~你想了解我父亲？~
+@62 /*玛兹*/ = ~嗯……我……~
+@63 /*玛兹*/ = ~不，<CHARNAME>，今天不行。下次吧。~
+
+@64 /*CHARNAME*/ = ~我一直想在这样一个地方发生性关系。~
+@65 /*玛兹*/ = ~在这里一起躺着？~
+@66 /*玛兹*/ = ~嗯，我确实喜欢户外。阳光、天空、微风。我们只需要找个远离窥探眼睛和耳朵的地方。~
+
+@67 /*CHARNAME*/ = ~我现在就想要你。~
+@68 /*玛兹*/ = ~我也想要你，<CHARNAME>，但你目前的状态不适合我们在一起。我们应该在能休息的时候休息，之后会有时间让我们玩耍。~
+
+@69 /*CHARNAME*/ = ~你能告诉我关于帕特里克的事吗？~
+@70 /*玛兹*/ = ~他是我曾经的爱人，尽管我只认识他很短的时间。他善良、仁慈、美丽，现在他已经倒下了。~
+
+@71 /*玛兹*/ = ~但他将永远留在我的心中。现在我只想说这些。~
+
+@72 /*CHARNAME*/ = ~你愿意多谈谈帕特里克吗？~
+@73 /*玛兹*/ = ~他不再在了，<CHARNAME>。这就是需要说的全部。~
+@74 /*玛兹*/ = ~我爱他，我失去了他，但我将永远带着他的勇气和荣誉的记忆。~
+
+@75 /*CHARNAME*/ = ~谢谢你，玛兹。这就是我要问的。~
+@76 /*CHARNAME*/ = ~如果不太痛苦的话，我想知道他的生活。你们是怎么认识的，他是什么样的？~
+@77 /*CHARNAME*/ = ~但你为什么一开始就爱他呢？~
+@78 /*CHARNAME*/ = ~他是你生命中的爱人，但我对他一无所知。你能告诉我些什么吗？~
+
+@79 /*玛兹*/ = ~我们在商贸集会相遇。帕特里克是一位英俊的战士，从头到脚穿着神奇的暗甲，手持比他还要高的传奇战斧Duskblade。强大、英俊、勇敢、善良、对朋友忠诚，对敌人仁慈。~
+
+@80 /*玛兹*/ = ~他总是相信我们的差异应该尽可能用言语而不是暴力来解决。这就是我们那么容易落入阴影领主的陷阱的原因。有些生物是不应该与之谈判的。~
+
+@81 /*玛兹*/ = ~当他去世时，他带走了我心中的一部分。~
+
+@82 /*玛兹*/ = ~今天只能说这么多。让我们继续前进。~
+
+@83 /*CHARNAME*/ = ~只是我爱你的一切。你愉快的微笑，你美丽的身材，你致命的箭矢……~
+
+@84 /*玛兹*/ = ~谢谢你，<CHARNAME>，我会接受你的奉承。~
+
+@85 /*CHARNAME*/ = ~实际上，还有件事…… 在烛光守卫时，有本书里有最惊人的图片。那本书是关于情侣……嗯……结合的手册，有些东西看起来相当有趣。~
+
+@86 /*玛兹*/ = ~现在你想尝试一下吗？~
+@87 /*CHARNAME*/ = ~如果你不介意的话。~
+@88 /*CHARNAME*/ = ~嗯，我不想让你觉得无聊。~
+
+@89 /*CHARNAME*/ = ~我可能没那么灵活，但我觉得值得一试。~
+
+@90 /*玛兹*/ = ~我总是愿意尝试新事物。下次我们在一起时，你必须告诉我所有的事情。~
+
+@91 /*CHARNAME*/ = ~是的，我在想我们的未来。~
+
+@92 /*玛兹*/ = ~我们怎么样？~
+
+@93 /*CHARNAME*/ = ~玛兹，你对我有什么期待？对我们有什么期待？~
+
+@94 /*CHARNAME*/ = ~你对我们的关系是认真的吗？或者这只是玩玩而已？~
+
+@95 /*CHARNAME*/ = ~我刚刚在想我有多爱你，我永远不会放弃你。~
+
+@96 /*玛兹*/ = ~我想要我们现在拥有的。这就是我一直梦寐以求的生活。我们正在看世界，保护那些需要帮助的人，杀死那些以伤害无辜为乐的人。~
+
+@97 /*玛兹*/ = ~我喜欢战斗的刺激，把我的身体和技能推向极限。我喜欢看到我们帮助的人的祈祷最终得到回应时的喜悦。而且我喜欢每天晚上，筋疲力尽地躺在你的怀里，感到满足。~
+
+@98 /*玛兹*/ = ~我很开心，<CHARNAME>，但我也很认真。这就是我一直想要的生活。我们正在看世界，保护那些需要帮助的人，清除这些土地上那些以伤害他人为乐的人。~
+
+@99 /*玛兹*/ = ~我也爱你，<CHARNAME>，但我不会假装我能永远拥有你。毕竟，变化是我们生活中唯一不变的。我知道你今天在这里，这对我来说已经足够了。~
+
+@100 /*玛兹*/ = ~我很幸福。这就是我一直想要的生活，<CHARNAME>。我们正在看世界，保护那些需要帮助的人，清除这些土地上那些以伤害他人为乐的人。~
+
+@101 /*玛兹*/ = ~这是否回答了你的疑虑？~
+
+@102 /*CHARNAME*/ = ~那么未来呢？~
+
+@103 /*CHARNAME*/ = ~明天怎么办？还有后天？~
+
+@104 /*CHARNAME*/ = ~很高兴听到这个。我也有同样的感觉。~
+
+@105 /*玛兹*/ = ~未来会怎样就是怎样。我们很可能在一年内都会勇敢地死去。~
+
+@106 /*CHARNAME*/ = ~嗯，我希望我们能活得更久。我喜欢和你在一起的时光。~
+
+@107 /*CHARNAME*/ = ~哦，好的，我担心你变得情感上依恋了。~
+
+@108 /*CHARNAME*/ = ~你知道我的意思。这一切结束后，你看到和我在一起的生活了吗？~
+
+@109 /*CHARNAME*/ = ~只要我们在一起倒下，我就可以接受。或者死，顺其自然。~
+
+@110 /*CHARNAME*/ = ~我承诺，如果你先去世，我会为你复仇。~
+
+@111 /*玛兹*/ = ~我在情感上依恋，<CHARNAME>。我爱你并关心你，如果你死了或离开了我，我会伤心并哀悼。但之后我会向前看。别担心，我不想拿走你不想给的任何东西，如果我需要的东西你无法提供，那么我会简单地说再见。~
+
+@112 /*玛兹*/ = ~现在我们在一起，这对我来说已经足够了。~
+
+@113 /*玛兹*/ = ~我不知道。这将取决于我对我的生活想要什么，以及你对你的生活想要什么。如果我们对未来的愿景是兼容的，那么我们可能会继续在一起。如果不是，那我们就不会。~
+
+@114 /*玛兹*/ = ~我唯一能确定的是，今天我们在一起，我很幸福。让这就足够了。~
+
+@115 /*CHARNAME*/ = ~是的。~
+
+@116 /*CHARNAME*/ = ~我想那现在就可以了。~
+
+@117 /*CHARNAME*/ = ~对不起，但不是。~
+
+@118 /*玛兹*/ = ~谢谢。~
+
+@119 /*玛兹*/ = ~"现在"就是我所要求的。~
+
+@120 /*玛兹*/ = ~接受我按我的条件，或者结束我们之间的事情；这些是你的选择。~
+
+@121 /*CHARNAME*/ = ~那样的话，我会处理的。~
+
+@122 /*CHARNAME*/ = ~如果那些是我唯一的选择，那我就接受我能得到的。~
+
+@123 /*CHARNAME*/ = ~好吧，玛兹。我太爱你了，不能离开。~
+
+@124 /*CHARNAME*/ = ~那我就不得不选择说再见了。~
+
+@125 /*CHARNAME*/ = ~哦，我们到了最后通牒的地步了，是吗？那样的话，我们结束了。~
+
+@126 /*玛兹*/ = ~我期望我们会一起倒下。如果你独自死去，我会尽一切可能让你复活，我想你也会做同样的事情。~
+
+@127 /*玛兹*/ = ~不需要复仇，<CHARNAME>。只要继续以一种会让我感到骄傲的方式生活。~
+
+@128 /*CHARNAME*/ = ~实际上，玛兹，我认为我们最好不要再在一起了。~
+
+@790 /*玛兹*/ = ~你确定吗，<CHARNAME>？我不想失去你。~
+
+@791 /*CHARNAME*/ = ~对不起，我说错了。我希望继续我们的关系。~
+
+@793 /*玛兹*/ = ~我很高兴听到这个。下次说话要更小心。~
+
+@792 /*CHARNAME*/ = ~是的，我确定。是时候结束了。~
+
+@129 /*玛兹*/ = ~哦。好的……好吧。如果那是你想要的。~
+
+@130 /*玛兹*/ = ~现在让我们出发吧，我需要刺点什么。~
+
+@131 /*CHARNAME*/ = ~玛兹，我失去了你是个傻瓜。我想让你在我身边。你能原谅我吗？~
+
+@132 /*玛兹*/ = ~就这一次，<CHARNAME>。一次是错误，两次是模式。~
+
+@133 /*CHARNAME*/ = ~我一直在思考，玛兹，我终究还是想和你在一起。我会做出任何你想要的承诺，只要你是我的。~
+
+@134 /*玛兹*/ = ~我很高兴听到这个，<CHARNAME>。如果你真的能承诺忠诚，那么我还愿意和你在一起。只是不要再改变主意了。并且为了回答我认为你想问的问题，我很乐意和你一起度过这个夜晚。~
+
+@135 /*玛兹*/ = ~但首先我们必须洗澡，让我们找个旅馆。我们俩都沾满了污垢、污秽和血迹，我更愿意在我们亲密之前至少稍微干净一些。~
+
+@136 /*CHARNAME*/ = ~这对我来说听起来不错。~
+
+@137 /*CHARNAME*/ = ~我等不及了。~
+
+@138 /*CHARNAME*/ = ~去旅馆！~
+
+@139 /*CHARNAME*/ = ~我一直在思考，玛兹，尽管我仍然希望有一天能和你结婚，但我更想和你在一起。我愿意等到你准备好，永远等待，如果需要的话。~
+
+@140 /*玛兹*/ = ~我很高兴听到这个，<CHARNAME>。那一天可能永远不会到来，但我愿意现在享受你的陪伴。并且为了回答我认为你想问的问题，我很乐意和你一起度过这个夜晚。~
+
+@141 /*CHARNAME*/ = ~我一直在思考，玛兹，尽管我还不确定我是否喜欢身体接触，但我想尝试一下。~
+@142 /*Mazzy*/ = ~我不想让你感到不舒服，<CHARNAME>，但如果你真的愿意，我很高兴和你一起度过一个夜晚。~
+
+@143 /*CHARNAME*/ = ~我一直在思考，玛兹，终究我还是想和你在一起。我为我之前的拒绝道歉。~
+@144 /*Mazzy*/ = ~谢谢你，<CHARNAME>。我感谢你的道歉，我仍然很高兴和你一起躺在床上。但是，我的心不能承受这种反复无常。如果你再次犹豫，你将没有机会再和我一起躺在床上。~
+
+@145 /*Mazzy*/ = ~让我们找另一个旅馆。我们俩都沾满了污垢、污秽和血迹，我仍然更愿意在我们亲密之前保持干净。~
+
+@146 /*CHARNAME*/ = ~玛兹，我最终决定我想追求你。~
+@1450 /*CHARNAME*/ = ~玛兹，我最终决定我想成为你的情人。~
+@147 /*Mazzy*/ = ~对不起，<CHARNAME>。我会一直关心你，但那已经太晚了。你只能满足于友谊。~
+
+@148 /*CHARNAME*/ = ~我想谈谈性。~
+@149 /*Mazzy*/ = ~总是一个值得讨论的话题。在关系中沟通很重要。你想要讨论什么？~
+
+@150 /*CHARNAME*/ = ~我们可以改变我们的做法吗？~
+@151 /*Mazzy*/ = ~下次我们在一起时，你想做什么？~
+
+@152 /*CHARNAME*/ = ~嗯，我可以骑在你脸上，你舔我吗？~
+@153 /*CHARNAME*/ = ~你可以骑在我脸上，我舔你吗？~
+@154 /*CHARNAME*/ = ~我们可以尝试面对面相反的方向，这样我们可以同时给对方快感吗？~
+@155 /*CHARNAME*/ = ~当你用嘴时，你可以把一两个手指伸进去，向上按压并慢慢移动吗？~
+@156 /*CHARNAME*/ = ~你可以在舔我的时候，用嘴亲我的胸部，同时在下面摩擦我吗？~
+@157 /*CHARNAME*/ = ~当你的嘴在我腿间时，你也可以玩弄我的胸部吗？~
+@158 /*CHARNAME*/ = ~好的，我来直说：我想让你一边亲我，一边把你的整只手一个指头一个指头地放进去。我们需要一些油，可能需要一段时间。~
+@159 /*CHARNAME*/ = ~我想花更多的时间亲吻彼此。你总是太快忙于其他地方的嘴。~
+@160 /*CHARNAME*/ = ~你可以亲吻和触摸我身体的每个地方吗？慢慢地，完全地？想花多长时间就花多长时间。~
+@161 /*CHARNAME*/ = ~没有冒犯的意思，但有时候我真的想要别的东西在我里面。~
+@162 /*CHARNAME*/ = ~我们可以只是拥抱吗？有时候我不想要更多。~
+@163 /*CHARNAME*/ = ~没关系。我们继续吧。~
+@164 /*Mazzy*/ = ~当然，只要记得偶尔让我呼吸。~
+@165 /*CHARNAME*/ = ~很好。~
+@166 /*CHARNAME*/ = ~只通过鼻子呼吸。不允许暂停。~
+@167 /*Mazzy*/ = ~哈，现在你听起来像我了。~
+@168 /*Mazzy*/ = ~还有别的吗？~
+@169 /*CHARNAME*/ = ~暂时这样。我们继续吧。~
+@170 /*Mazzy*/ = ~任何时候你愿意。~
+@171 /*Mazzy*/ = ~当然。虽然我希望你不介意我在上面。~
+@172 /*Mazzy*/ = ~这是一个合理的请求，尽管我假设你希望在我开始之前等我足够湿润。就我个人而言，我不想有任何东西进入我的身体，直到我至少完成一次，有时是两次。~
+@173 /*Mazzy*/ = ~我以为我已经做到了，但我很乐意再做一次。~
+@174 /*Mazzy*/ = ~我上次尝试了，亲爱的，但我够不到。对不起。你可以帮我。~
+@175 /*Mazzy*/ = ~是的，当然，任何有助于提高肩部灵活性的事情。~
+@176 /*Mazzy*/ = ~哦……哇……这是一个相当大的请求。很好，我们将尝试这个，但我不确定我们是否会成功。~
+@177 /*Mazzy*/ = ~对不起，我忘了。我在过去几年里只和男人在一起，他们总是希望我尽快到别的地方。~
+@178 /*Mazzy*/ = ~我会在你的皮肤上徘徊数小时。如果你喜欢，可以是几天。~
+@179 /*Mazzy*/ = ~我相信有商人出售各种各样的选择。我们可以在旅行中留意他们。~
+@180 /*Mazzy*/ = ~当然，我的女士。一个骑士总是旨在取悦。~
+@181 /*Mazzy*/ = ~我想现在不是时候。然而，请在未来不要犹豫提出你的喜好。~
+@182 /*Mazzy*/ = ~当然，<CHARNAME>，讨论这个是我的荣幸。虽然，我希望你不要等太久才叫休息。毕竟，我们应该把这些话付诸实践。~
+
+@1820 /*CHARNAME*/ = ~你会愿意让我们的床上多一个男人吗？~
+@183 /*Mazzy*/ = ~老实说，亲爱的，有时候我只想要一个男人在我里面。但这取决于那个男人。恐怕我有时候很挑剔。~
+@184 /*Mazzy*/ = ~你想找谁？~
+@185 /*CHARNAME*/ = ~多恩。~
+@1850 /*CHARNAME*/ = ~沙洛佛克。~
+@186 /*CHARNAME*/ = ~寇根。~
+@187 /*CHARNAME*/ = ~艾德温。~
+@188 /*CHARNAME*/ = ~明斯克。~
+@189 /*CHARNAME*/ = ~瑟恩。~
+@190 /*CHARNAME*/ = ~拉萨德。~
+@191 /*CHARNAME*/ = ~凯东。~
+@192 /*CHARNAME*/ = ~阿诺门。~
+@1920 /*CHARNAME*/ = ~我想要阿诺门再来一次。~
+@193 /*CHARNAME*/ = ~我说过你我想找阿诺门。~
+@194 /*CHARNAME*/ = ~姚恩.。~
+@1940 /*CHARNAME*/ = ~姚恩再来一次！~
+@195 /*CHARNAME*/ = ~海尔达利.~
+@1950 /*CHARNAME*/ = ~海尔达利再来一次！~
+@196 /*CHARNAME*/ = ~当然是海尔达利。我之前和你说过的。~
+
+@197 /*CHARNAME*/ = ~瓦里格.~
+@1970 /*CHARNAME*/ = ~我想再次和瓦里格在一起.~
+@198 /*CHARNAME*/ = ~没关系。我想不到其他人。~
+@199 /*Mazzy*/ = ~多恩? 他是一个邪恶、卑鄙的杀人犯。他甚至在我们的团队里，让我感到恶心。~
+@1990 /*Mazzy*/ = ~不。这是一个如此荒谬的建议，我拒绝甚至列出我拒绝的理由。~
+@200 /*Mazzy*/ = ~选择别人。~
+@201 /*Mazzy*/ = ~寇根? 寇根!? 绝对不行。他是个酒鬼。一个强奸犯。一个恶棍。一个最自私的雇佣兵。~
+@202 /*Mazzy*/ = ~你一定是在开玩笑。即使地球上只剩下艾德温一个男人，我也不会和他睡觉，即使给我世界上所有的黄金。~
+@203 /*Mazzy*/ = ~明斯克很可爱，布布也很可爱，但这个男人是我的两倍大，当他兴奋时他会发狂。那似乎是个坏主意。~
+@204 /*Mazzy*/ = ~他结婚了。~
+@205 /*CHARNAME*/ = ~不，他没有。~
+@206 /*CHARNAME*/ = ~你怎么知道？~
+@207 /*Mazzy*/ = ~我见过足够多的已婚男人，我知道什么时候看到一个。他结婚了，但他抛弃了他的妻子。相信我，选择别人。~
+@208 /*Mazzy*/ = ~瑟恩? 一个抛弃了他的妻子的男人？绝对不行。~
+@209 /*CHARNAME*/ = ~我想你是对的。~
+@210 /*CHARNAME*/ = ~所以他是个糟糕的丈夫。他可能仍然是个不错的情人。~
+@211 /*Mazzy*/ = ~当然我是。选择别人。~
+@212 /*Mazzy*/ = ~不，<CHARNAME>。选择别人。~
+@213 /*Mazzy*/ = ~拉萨德曾经是个好人，但他已经走上了太黑暗的道路，我不想让他和我们在一起。~
+@214 /*Mazzy*/ = ~不，<CHARNAME>。尽管我非常钦佩凯东，多年来他一直是我的英雄之一，我真的没有那样想过他。~
+@215 /*Mazzy*/ = ~另外，这将非常不合适，考虑到你为了我离开了那个男人。请选择别人。~
+@216 /*Mazzy*/ = ~那个自私的、傲慢的，海姆神职人员？绝对不行。~
+@217 /*Mazzy*/ = ~阿诺门…… 当我们开始一起旅行时，我并不喜欢他，但我承认他已经成熟了。~
+@218 /*Mazzy*/ = ~是的，我们可以给他一个尝试，假设他愿意倾听。~
+@219 /*Mazzy*/ = ~是的，我承认你做到了。我承认，当我们第一次见面时，我不喜欢他，但我承认他已经成熟了。~
+@220 /*Mazzy*/ = ~好吧，我同意。我们可以请他和我们分享床，假设他愿意正确地听从指示。~
+@221 /*Mazzy*/ = ~对不起，阿诺门。<CHARNAME>和我有一个提议给你。我们希望你加入我们的床一晚，完全按照我们的要求行事。你有兴趣吗？你能这样做吗？~
+@222 /*阿诺门 - romance*/ = ~公平的骑士，我的耳朵听到你的话，感到高兴。当然，我会加入你，我希望我的努力能证明我值得你们对我的信任。~
+@223 /*阿诺门 - romance*/ = ~自从<CHARNAME>谈到<PRO_HISHER>的爱，我们同意分享以来，我一直在等待这一刻。~
+@224 /*阿诺门 - CN female*/ = ~公平的骑士，你说话非常直白。我没有预料到这样直接的邀请，但也许这一次我们可以暂时放下礼仪。~
+@225 /*阿诺门*/ = ~我会按照你的要求加入你，我希望我的微薄努力能证明我值得你们两位对我的信任。~
+@234 /*阿诺门 - if CN male*/ = ~你说话非常直白，玛兹。我没有预料到这样的邀请。~
+@235 /*阿诺门 - if CN male*/ = ~然而，既然你似乎打算在这个<DAYNIGHTALL>抛开礼仪，那么是的，我相信我会加入你。我只希望我的微薄努力能证明我值得你对我的信任。~
+@226 /*Mazzy*/ = ~愉快地，他之前是完美的骑士典范。~
+@227 /*Mazzy*/ = ~哦，阿诺门，你介意加入我们吗？我们再次需要你。~
+@228 /*阿诺门*/ = ~当然，我的女士。一个骑士必须在需要时服务。~
+
+@229 /*Mazzy*/ = ~姚恩？真的吗？我没想到会是他。他有点年纪了，而且我不确定他头脑是否正常。~
+@230 /*CHARNAME*/ = ~年龄只是意味着经验丰富，你不能否认他的双手很有才华。~
+@231 /*CHARNAME*/ = ~他是个古怪的单身汉，但我相信他喜欢女性。拜托！他不会拒绝两个年轻女性一起的，而且我一直想要得到他。~
+@232 /*CHARNAME*/ = ~他可能有点古怪，但我相信他不会拒绝我们。或者至少，问问也无妨。~
+@233 /*Mazzy*/ = ~很好，但他必须按照我们说的做，而且你得先和他搞。到那时我会保留我的判断。~
+@236 /*Mazzy*/ = ~姚恩!说句话。~
+@237 /*姚恩*/ = ~你一定是在想别人，玛兹。我什么时候因为有那么多的句话可以选择而只说一句话呢？实际上这让我想起了那个时候……~
+@238 /*Mazzy*/ = ~不。安静，听我说。姚恩，<CHARNAME>想让你今晚加入我们，做爱，我同意了。~
+@239 /*Mazzy*/ = ~你必须完全按照我们说的去做，完全按照我们说的做。我们不做任何承诺，我们不会发展成任何形式的关系，而且这可能不会再发生。~
+@240 /*Mazzy*/ = ~如果它再次发生，也只会是我们决定的，我们不想被打扰或纠缠于此。事实上，最好的做法是你加入我们，然后忘记这一切曾经发生过。~
+@241 /*姚恩*/ = ~嗯，玛兹，自从我们开始一起旅行以来，这是你对我说过的最多的话。如果你继续保持这样，你将会比我的二表妹还要健谈。她出生时从未被赋予名字，她通过……~
+@242 /*Mazzy*/ = ~你已经让我开始后悔这个决定了。我已经陈述了我们的提议，我需要一个回答！~
+@243 /*姚恩*/ = ~好的。~
+@244 /*Mazzy*/ = ~只是“好的。”？不，“好的，我有个故事……”或者“哇，那让我想起了那个时候……”，或者一些关于芜菁的故事？！~
+@245 /*姚恩 - CN male*/ = ~两个美丽的姑娘刚刚邀请我与她们共度良宵。真的还需要说些什么别的吗？~
+@246 /*姚恩 - CN female*/ = ~一个美丽的姑娘和一个英俊的小伙子刚刚邀请我与他们共度一个夜晚。真的还需要说些什么别的吗？~
+@247 /*Mazzy*/ = ~我想也是。让我们开始吧。~
+@248 /*Mazzy*/ = ~姚恩，我欠你一个道歉。当你停下说话时，你实际上和你自称的一样有才华。你是我们床上的绝佳增色，我并不反对再来一次。~
+@249 /*Mazzy*/ = ~我不会反对。那个老色鬼在哪里？~
+@250 /*Mazzy*/ = ~姚恩，我们需要你再次施展你的才华。保持沉默，准备好自己。~
+@251 /*姚恩 - CNF*/ = ~玛兹，我要如何准备？为露营准备吗？为在我们分心时怪物对我们生活的攻击做准备吗？为与两个专横但迷人的姑娘度过一个晚上做准备，她们决心把我累到死，直到我老骨头断裂，心脏停止跳动吗？~
+@252 /*姚恩 - CNM*/ = ~如何准备自己，玛兹？为露营做准备？为我们在分心时可能遭受怪物袭击的生活做准备？为与两个专横但令人愉悦的年轻人共度一个晚上做准备，他们决心让我劳累至死，直到我老迈的骨头碎裂，心脏停止跳动？~
+@253 /*Mazzy*/ = ~所有上述情况，姚恩。为一切做好准备。~
+
+@254 /*Mazzy*/ = ~嗯，他英俊且有些魅力，尽管他努力得有点过火……~
+@255 /*Mazzy*/ = ~……很好，他可以胜任。~
+@256 /*Mazzy*/ = ~他已经告诉我们不行了，<CHARNAME>，而且只要我们和艾黎一起旅行，我认为他不会改变主意的。~
+@257 /*Mazzy*/ = ~也许这位多变的吟游诗人并不那么多变。~
+@258 /*Mazzy*/ = ~现在艾黎已经离开了，我想他可能会愿意。很好，我们去问问看。~
+@259 /*Mazzy*/ = ~所以你确实做到了，<CHARNAME>。我得承认他英俊且有些魅力…… 我觉得他有点过于努力，但肯定有某种内在品质让你如此爱他。~
+@260 /*Mazzy*/ = ~很好，我们今晚会邀请他与我们共享床榻。~
+@261 /*Mazzy*/ = ~不好意思，海尔达利？<CHARNAME> 和我想问问你，当我们停下来休息时，你是否愿意加入我们的床上活动。我们认为你会是我们夜间活动中值得拥有的一员。~
+@262 /*HaerDalis - 艾黎*/ = ~这只麻雀感到好奇，但必须拒绝。如果我离开她去黑暗中寻找其他翅膀的欢愉，我的鸽子会悲伤地歌唱。~
+@263 /*HaerDalis - 艾黎*/ = ~如果我的鸽子和我将来分开，我勇猛的鹰，再来找我。~
+@2620 /*HaerDalis*/ = ~嗯，这是一个非常有趣的提议。这只麻雀愿意与猛禽一起翱翔……一丝危险总是能让肉体的欢愉更加尖锐。~
+@2621 /*多恩*/ = ~这是什么意思，提夫林？我知道你是个多变的生物，但这太过分！~
+@2622 /*HaerDalis*/ = ~你的愤怒用错地方了，我的秃鹫……而且相当令人困惑。你不是想与<CHARNAME>共度春宵吗？只有盲人或傻瓜才会邀请我们中的一个而不邀请另一个，你经常表达对我们勇敢领袖身材的钦佩。~
+@2624 /*多恩*/ = ~<CHARNAME>已经有过<PRO_HISHER>的机会了。我不会卑躬屈膝地回去。~
+@2625 /*多恩*/ = ~如果是<CHARNAME>一个人，那也许是可以接受的。~
+@2626 /*Mazzy*/ = ~我不会和那个无赖睡觉的！我宁愿自杀！~
+@2627 /*多恩*/ = ~厌恶是相互的，半身人。~
+@2628 /*HaerDalis*/ = ~啊……看来这位吟游诗人误判了情况。我向你道歉，<CHARNAME>，但你得在没有这只麻雀陪伴的情况下寻找你的快乐了。~
+@2629 /*HaerDalis*/ = ~这只麻雀很感兴趣，但必须拒绝邀请。我的秃鹫伴侣占有欲很强，所以在他不能加入的情况下，我的翅膀必须留在这个巢里。~
+@2630 /*HaerDalis*/ = ~也许你可以换个时间再问一次。~
+@264 /*HaerDalis*/ = ~鹰和乌鸦邀请麻雀玩耍？但一只小麻雀能在巨人的游戏中生存下来吗，还是会被活生生地吞噬？~
+@265 /*HaerDalis - romance*/ = ~单独的乌鸦在我们的肉体欢愉中已经证明是消耗巨大的。我们三个将会在狂喜中燃烧，就像我腰间携带的刀刃一样锋利。~
+@266 /*Mazzy*/ = ~你会被活生生地吞噬。你加入还是不加入？~
+@267 /*HaerDalis*/ = ~这只麻雀尚未加入，但我希望很快能加入。如果我今天死去，我会回顾我的终点，我会呼喊……~
+@268 /*HaerDalis*/ = ~……“这是一个与美好人生相称的死亡。”~
+@269 /*Mazzy*/ = ~<CHARNAME>，真不敢相信我们即将陷入什么境地，但让我们做吧。他年纪不小了；也许他在路上学到了一些小把戏。~
+@270 /*Mazzy*/ = ~海尔达利，我们同意。我认为我代表我们俩说，你应该成为我们床上的永久成员。~
+@271 /*HaerDalis*/ = ~这只麻雀不能被关在笼子里，我的鹰，否则它的喙会下垂，颜色会黯淡。但如果你们呼唤，我会来的。~
+@272 /*Mazzy - if romance*/ = ~海尔达利，我衷心赞同。我现在完全理解<CHARNAME>看中你什么了。我们可能会再次邀请你加入我们的床上活动。~
+@273 /*HaerDalis*/ = ~这只麻雀与我的乌鸦一起歌唱得非常甜美，但听到我的努力没有让人失望，我感到很高兴。我很乐意在适当的时候再次分享这些来自不同世界的愉快技巧。一旦我的羽毛从这样甜蜜的吞噬中恢复过来，只需呼唤，我就会来。~
+@274 /*Mazzy*/ = ~明智的选择。那个疯狂的吟游诗人去哪儿了？~
+@275 /*Mazzy*/ = ~海尔达利，<CHARNAMAE> 和我再次需要你的服务。~
+@276 /*HaerDalis*/ = ~当然，我的鹰。如我所承诺的，这只麻雀会响应你甜蜜的呼唤。~
+
+@277 /*Mazzy*/ = ~是的，正是我在想的那个人。~
+@278 /*Mazzy*/ = ~侍从瓦里格！<CHARNAME>和我有个任务给你。今晚你愿意加入我们并做我们要求的一切吗？~
+@279 /*瓦里格*/ = ~作为侍从，与他们的骑士同床是侍从的职责之一吗？我以前没听说过这个。~
+@280 /*Mazzy - CNF*/ = ~嗯，大多数骑士和侍从都是男性，瓦里格，尽管你可能会感到惊讶，这并不会阻止他们。而且，我们是两个有吸引力的女性，虽然我们非常享受彼此的陪伴，但我们一直在想，你会是一个令人兴奋的增补。~
+@281 /*Mazzy - CNM*/ = ~虽然大多数骑士和侍从都是男性，你可能会感到惊讶，这并不会阻止他们。而且，如果你真的不感兴趣，我们就不必再谈这个了。然而，当<CHARNAME>和我非常享受彼此的陪伴时，我们相信，你会是我们床上令人兴奋的增补。~
+@282 /*Mazzy*/ = ~如果你能很好地履行你的职责，这甚至可能成为经常发生的事情。~
+@283 /*瓦里格 - CNF*/ = ~如我的女士们所命令。~
+@284 /*瓦里格 - CNM*/ = ~你不需要担心我的感情。我对一个人本身比他们穿戴的装饰更感兴趣。~
+@285 /*瓦里格*/ = ~我很荣幸能在这个<DAYNIGHTALL>加入你们两位。~
+@286 /*Mazzy*/ = ~我也一样。~
+@287 /*瓦里格*/ = ~那我在这里是件好事。~
+@288 /*Mazzy*/ = ~这样做真的很不绅士。~
+@289 /*瓦里格*/ = ~我很抱歉，女士。~
+@290 /*Mazzy*/ = ~我只是在开玩笑。你悄无声息地进出的能力是你众多优点之一。你是骑士所期望的一切。~
+@291 /*Mazzy*/ = ~现在，让我们搭建营地并脱掉衣服。~
+@292 /*Mazzy*/ = ~也许我们将来会找到一个更能接受的人。我们现在应该继续旅行。~
+
+@293 /*CHARNAME*/ = ~我再次感到了对男人的渴望。~
+@294 /*CHARNAME*/ = ~当然，我的爱人。我很乐意讨论我们的选择。~
+
+@295 /*CHARNAME*/ = ~你觉得把另一个女人带到我们的床上怎么样？~
+@296 /*Mazzy*/ = ~或许可以。<CHARNAME>。但我从来都不喜欢和其他女人分享我的爱人。~
+@297 /*Mazzy*/ = ~你心里有合适的人选吗？~
+@298 /*CHARNAME*/ = ~维康妮亚怎么样？我知道你们俩关系很近。~
+@299 /*CHARNAME*/ = ~我想要维康妮亚。我已经告诉过你了。~
+@300 /*CHARNAME*/ = ~艾德温怎么样？他变成女性很吸引人，这是千载难逢的机会。~
+@301 /*CHARNAME*/ = ~克莱拉。~
+@302 /*CHARNAME*/ = ~艾黎。~
+@303 /*CHARNAME*/ = ~贾希拉。~
+@304 /*CHARNAME*/ = ~涅拉。~
+@305 /*CHARNAME*/ = ~娜里亚。~
+@306 /*CHARNAME*/ = ~赫克塞特。~
+@307 /*CHARNAME*/ = ~维康妮亚。~
+@308 /*CHARNAME*/ = ~爱蒙。~
+@309 /*CHARNAME*/ = ~我们可以再问问维康妮亚。~
+@310 /*CHARNAME*/ = ~算了。我不喜欢我们的选择。~
+@311 /*Mazzy*/ = ~我不会否认她很吸引人，但我想再独自拥有你一段时间。也许将来可以。~
+@312 /*Mazzy*/ = ~不要开这种玩笑。不管是男是女，我都不会和艾德温睡觉。选别人吧。~
+@313 /*Mazzy*/ = ~虽然她很吸引人，但我不认为她对女性有那种兴趣。~
+@314 /*Mazzy*/ = ~真不敢相信你会这么建议，<CHARNAME>。考虑到你选择了我而不是她，那只是在伤口上撒盐。~
+@315 /*Mazzy*/ = ~和吸血鬼一起旅行已经够糟糕的了，<CHARNAME>，我不会和吸血鬼睡觉的。选别人吧。~
+@316 /*Mazzy*/ = ~维康妮亚的美丽就像一只有毒的蜘蛛。可爱，但最好还是远观为妙。如果我们把她带到我们的床上，我不确定我是否能活下来。~
+@317 /*Mazzy*/ = ~我们应该继续旅行，但我们可以在其他时间再讨论这个问题。~
+@318 /*Mazzy*/ = ~我钦佩爱蒙的精神，确实她可能愿意，但目前我更愿意独自拥有你。那份友谊太新了，还不适合用嫉妒来考验。~
+@3180 /*Mazzy*/ = ~还不到时候，<CHARNAME>。也许在未来，当爱蒙准备好的时候。~
+@3181 /*Mazzy*/ = ~所以你终于厌倦了每晚上独自无聊度过？我相信她会非常高兴的。~
+@3182 /*Mazzy*/ = ~那么像往常一样，当然。~
+@319 /*Mazzy*/ = ~很好的选择。上次非常有趣，我很乐意再次与维康妮亚共享我们的床。~
+@320 /*Mazzy*/ = ~维康妮亚，当我们停下来休息时，你愿意加入<CHARNAME>和我吗？~
+@321 /*维康妮亚*/ = ~当然了，我亲爱的小圣武士。我知道一旦你见识过我的技巧，你就无法抗拒了。实际上，我必须确保<CHARNAME>没有忘记<PRO_HISHER>如何正确地取悦爱人的课程。~
+@322 /*维康妮亚*/ = ~告诉<CHARNAME>我们现在要休息了。我不想等。~
+
+@323 /*CHARNAME*/ = ~我仍然想邀请另一个女人加入我们。~
+@324 /*Mazzy*/ = ~好的。我们可以再次讨论我们的选择。~
+
+//First blowjob tale
+@325 /*CHARNAME*/ = ~我只是想知道，你是如何学会用你的嘴……做……你所做的……？~
+@326 /*Mazzy*/ = ~就像掌握任何技能一样，这需要大量的练习。大量的热情练习。~
+@327 /*CHARNAME*/ = ~你这个妓女！真不敢相信我曾经喜欢过你。~
+@328 /*CHARNAME*/ = ~哦，那好吧。我并不是在抱怨。我们应该停下来多练习。~
+@329 /*CHARNAME*/ = ~我想你不介意我再多问一些关于它的事……~
+@330 /*Mazzy*/ = ~不好意思？你希望你的女人有技巧，但又不希望她有获得那种技巧所必需的经验？~
+@331 /*Mazzy*/ = ~我想你从现在起要一个人睡了。~
+@332 /*Mazzy*/ = ~你是领导者。你可以随时叫大家休息。~
+@333 /*Mazzy*/ = ~你是在询问我是如何学会我的技能的私密历史吗？这似乎有点过于好奇，<CHARNAME>，你确定你想知道吗？~
+@334 /*CHARNAME*/ = ~转念一想…… 不了。~
+@335 /*CHARNAME*/ = ~是的，请继续。~
+@336 /*Mazzy*/ = ~明智的选择。让我们继续前行。
+
+~
+
+@361 /*CHARNAME*/ = ~我想我还是想听听你与其他男人的经历。~
+@337 /*Mazzy*/ = ~那么…… 当我年轻的时候，我是一支军队的一部分。那里没有很多女人，所以我们为了安全都一起露营。~
+@338 /*Mazzy*/ = ~一些女性为了钱与男性士兵发生亲密关系。由于男女士兵之间的巨大不平衡，她们可以收取非常高的价格，对自己的快乐有一定的要求，而且仍然有大量急切的顾客。~
+@339 /*Mazzy*/ = ~我是那里最年轻的女人之一，也是唯一的半身人，所以其他人照顾我，保护我不受男人们注意。然而，由于我自己只有最少的经验，我多少有些好奇。~
+@340 /*Mazzy*/ = ~我和其中几个女人成了好朋友，我有时观察她们与顾客使用的技巧。在那些营房里是没有隐私的。~
+@341 /*Mazzy*/ = ~我自己并没有做到让我感到舒服那么多，但理论知识对我后来的尝试很有帮助。~
+@342 /*CHARNAME*/ = ~那么后来的尝试是什么呢？~
+@343 /*CHARNAME*/ = ~迷人的故事，但我觉得今天已经听得够多了。~
+@344 /*CHARNAME*/ = ~你的朋友们后来怎么样了？~
+@345 /*Mazzy*/ = ~今天不讲那个故事，<CHARNAME>。也许改天吧。~
+@346 /*Mazzy*/ = ~遗憾的是，我被迫杀死了他们。~
+@347 /*CHARNAME*/ = ~你做了什么？~
+@348 /*CHARNAME*/ = ~那么你在哪里应用了你的理论知识？~
+
+//2nd blowjob tale
+@362 /*CHARNAME*/ = ~你愿意继续你的故事吗？你最后说到你的军中伙伴们教你技巧。~
+@349 /*Mazzy*/ = ~是吗？嗯……战争结束后的一段时间，我和我妹妹在马戏团做吞剑表演。~
+@350 /*Mazzy*/ = ~除了那些“剑”是经过打磨和上油的栩栩如生的不同尺寸的模型之外，即使按照半身人的标准来看，整件事情也是冒失的。~
+@351 /*CHARNAME*/ = ~你参加过马戏团？~
+@352 /*CHARNAME*/ = ~你的表演受欢迎吗？~
+@353 /*CHARNAME*/ = ~谢谢你告诉我。 ~
+@354 /*Mazzy*/ = ~虽然只演了一年，但你可以试着做一把野蛮人大小的“剑”，看看你有多大的天赋。~
+@355 /*CHARNAME*/ = ~你的表演受欢迎吗？ ~
+@356 /*CHARNAME*/ = ~好吧，我想我们最好走了。 ~
+@357 /*Mazzy*/ = ~哦，非常受欢迎。它既性感、搞笑，又令人印象深刻。其中任何一项都能卖座，但同时做到这三点，就能吸引大批观众，并一举成名。~
+@358 /*Mazzy*/ = ~但一年的时间已经足够了。观众还是一如既往地多，但我们已经准备好去做其他事情了。~
+
+//3rd blowjob tale
+@363 /*Mazzy*/ = ~So what happened after the circus?~
+@359 /*Mazzy*/ = ~Let me see…… Next would be Korrich, my former betrothed. He was the first man I truly loved, and since we spent many lazy days together in blissful passion, he is responsible for most of what I know of men.~
+@360 /*Mazzy*/ = ~Well…… except for my half-ogres, Glounder and Farooq. I will tell you about them another time. Today I am speaking about Korrich.~
+@511 /*Mazzy*/ = ~I first met him one night at home. Palo and Danno were making a horrible din as usual and I was so annoyed that I marched right into their room and asked them to keep it down because I was trying to sleep.~
+@512 /*Mazzy*/ = ~Korrich was there as well. He looked up, and without missing a beat he asked me to join them instead, and at that moment, I knew I wanted him.~
+@513 /*Mazzy*/ = ~I do not know what fit of boldness came over me, but I clearly remember myself saying, "Absolutely not, I am going to bed. However, should you wish to leave these fools and join me, I would not object."~
+@514 /*Mazzy*/ = ~Korrich got up, right then and there, much to the shock of his bedmates, and followed me to my room where we spent the rest of the night in frenzied passion. He never went back to Danno and Pala again.~
+@515 /*Mazzy*/ = ~He's a good man, I miss him.~
+@516 /*CHARNAME*/ = ~When did he pass away?~
+@517 /*CHARNAME*/ = ~It sounds like it. What happened?~
+@518 /*CHARNAME*/ = ~Why aren't you still together?~
+@519 /*Mazzy*/ = ~Halflings are so strange.~
+@520 /*Mazzy*/ = ~He didn't. I broke off our engagement and went into service at the temple of Arvoreen.~
+@521 /*Mazzy*/ = ~I broke off our engagement and went into service at the temple of Arvoreen.~
+@522 /*Mazzy*/ = ~And many other races are quite prudish. Should Korrich and I not have enjoyed our time together?~
+@523 /*Mazzy*/ = ~He is married now, with a beautiful wife and three intelligent and adorable children. They are happy and successful and are loved and respected by everyone who knows them.~
+@524 /*Mazzy*/ = ~I still see him from time to time and think, “That could have been me.” But it was not the life I wanted.~
+@525 /*Mazzy*/ = ~I think I am done with this topic today. Let us move on.~
+
+//Ogre tale
+@364 /*CHARNAME*/ = ~You were going to tell me a story about you and some half-ogres……~
+@365 /*Mazzy*/ = ~Ahh, my sweet half ogres, Farooq and Glounder. I met them at the temple of Arvoreen where they had been brought up.~
+@366 /*Mazzy*/ = ~This temple was high in the mountains and was a tiny, insular community of halflings. One of the monks had stumbled across young Farooq and Glounder during his travels, and in an act of compassion and foolishness, he brought the orphaned half-ogres back to the temple.~
+@367 /*Mazzy*/ = ~The first time I was there, I found them to be good-natured children, always helpful and friendly. Despite their young age, they were much bigger and stronger than everyone else in the temple, and they took pride in their strength, doing difficult jobs with ease.~
+@368 /*Mazzy*/ = ~The pair took an instant liking to me and I trained them to fight, which they practised first with me and then daily with each other. They cried when I left and returned to my family.~
+@369 /*Mazzy*/ = ~Some years later when I returned, Farooq and Glounder had grown into young men. At nearly eight feet tall and four hundred pounds of solid muscle, they were impressive creatures, and while they were like halflings in their speech and mannerisms, the sheer size and strength disparity between them and those around them kept them somewhat apart.~
+@370 /*Mazzy*/ = ~All three of us lacked romantic partners and this led us together. They had no experience with women, but were quick and eager studies, and had practice being extremely gentle with the miniature people and world they had grown up with.~
+@371 /*Mazzy*/ = ~Their company was both safely familiar and so completely different from the relationship I had fled that I found them appealing.~
+@372 /*Mazzy*/ = ~Doing things the usual way was a logistical impossibility, but we experimented as we could and eventually found mutual satisfaction.~
+@372000 /*Mazzy*/ = ~I did eventually manage success with my mouth and to tell the truth, my love, after them you are hardly a challenge.~
+@372001 /*Mazzy*/ = ~Their fighting skills improved tremendously as well and eventually they felt it was time to see the world. They travelled to the south, hoping to take jobs as mercenaries in a nearby kingdom that hired their kind.~
+@372002 /*Mazzy*/ = ~I didn't realize how attached I had become to them until they left but I was miserable for weeks after their departure. I never did see them again, though I found out later, third-hand, that they had found work as guards.~
+@372003 /*Mazzy*/ = ~I still miss them…… though I suppose I am lucky they did not die young…… like most of my friends have.~
+@372004 /*Mazzy*/ = ~My apologies, <CHARNAME>, I think I am done speaking on this for now.~
+
+//Male Sex Talk
+@373 /*Mazzy*/ = ~Change it? We always make some adjustments as the moment requires, but the basic plan has sound reasoning behind every step.~
+@374 /*Mazzy*/ = ~However, I suppose I should try to compromise. Let us walk through our usual experience so you may make suggestions and perhaps I can be more obliging.~
+@375 /*Mazzy*/ = ~First, after becoming as clean as our accommodations allow, I take you in my mouth. I perform with my normal impressive skill, modifying my movements as you request, until you are finished.~
+@376 /*Mazzy*/ = ~Are you with me so far?~
+@377 /*CHARNAME*/ = ~Why are you so calm and analytical about this? Shouldn't you be at least a little embarrassed?~
+@378 /*CHARNAME*/ = ~What is your obsession with cleanliness? We are adventurers! Adventuring is not clean.~
+@379 /*CHARNAME*/ = ~Um, why do you always start with that? Not that I'm complaining, mind you……~
+@380 /*CHARNAME*/ = ~You don't have to start that way. I'd prefer to start with you.~
+@381 /*CHARNAME*/ = ~Last time when my hands were on your head, you smacked them away and I don't know why.~
+@382 /*CHARNAME*/ = ~You can spit it out when you're done if you want to. You don't have to swallow.~
+@383 /*CHARNAME*/ = ~I have no complaints with this part. Let's move on.~
+@384 /*Mazzy*/ = ~Like an innocent blushing maiden? Life is too short for games, my love. If you want someone tentative and afraid, you will have to look elsewhere.~
+@385 /*Mazzy*/ = ~Just because I spend each day drenched head-to-toe in the dust of the road and the blood of my enemies does not mean that I enjoy it, <CHARNAME>. It is disgusting to sleep covered in sweat and blood and I will continue to avoid it as much as possible.~
+@386 /*Mazzy*/ = ~Every day I am thankful that our occupation pays well enough that whenever we reach civilization, I can afford the cleanest room available and a hot bath.~
+@387 /*Mazzy*/ = ~Because you are are young and overly-eager and after this you gain a measure of relaxation and patience. This way you can take your time as you pleasure me.~
+@388 /*CHARNAME*/ = ~Well, I have no complaints. Let's move on.~
+@389 /*CHARNAME*/ = ~But why and how do you manage me entirely? I have known women twice your size who could only do that half as well.~
+@390 /*Mazzy*/ = ~Why not? In truth, I am demanding enough that I aim to please where I can. Besides, I am good at it and I take pride in my skill.~
+@392 /*Mazzy*/ = ~As to how I do what I do, I will only say that practice makes perfect and I am considerably older than you are.~
+@393 /*Mazzy*/ = ~Well, I do it because you are young and more enthusiastic than needed at times. Once we finish this, you are more willing to take the time I require before entering me.~
+@394 /*Mazzy*/ = ~But if you promise to be patient and do what I ask without any hurry, we could start with the next step.~
+@395 /*CHARNAME*/ = ~Yes I can do that.~
+@396 /*CHARNAME*/ = ~Actually, no. If it's going to take a while, I'd rather continue as we were.~
+@397 /*Mazzy*/ = ~All right, <CHARNAME>. Then I will move on.~
+@398 /*Mazzy*/ = ~It takes focus and skill to do what I do, <CHARNAME>, and I do not need you pushing my head down like some three-gold-whore, disrupting my rhythm, and causing me to gag. Have some patience and let me work. I will manage all of you, I promise.~
+@399 /*Mazzy*/ = ~Thank you, my love, but if I am going to do this, I prefer to do it to the best of my abilities. I take pride in excellence.~
+@400 /*Mazzy*/ = ~And honestly the taste of you or any man is not that bad compared to the horrible excuses for food that we consume on a daily basis.~
+
+@401 /*Mazzy*/ = ~We kiss each other repeatedly, followed by you exploring my body as I direct. Your mouth eventually finds its way my breasts and then between my legs where you lick for as long as I require. If your hands stroke my breasts while doing so, that is also enjoyable.~
+@402 /*Mazzy*/ = ~Alternately, I may decide to keep your mouth on my breasts while your hand rubs in-between my legs with a liberal application of oil.~
+@403 /*Mazzy*/ = ~Any problems with this?~
+@404 /*CHARNAME*/ = ~Do I have to lick you down there?~
+@405 /*CHARNAME*/ = ~Do we have to kiss for so long and so slowly? Can't we just get to the good stuff?~
+@406 /*CHARNAME*/ = ~The problem is I'm really not sure where or how to kiss. There are too many options and I'm lost.~
+@407 /*CHARNAME*/ = ~Last time I tried to put a finger inside you and you moved my hand away. Why?~
+@408 /*CHARNAME*/ = ~It takes too long! My tongue gets tired.~
+@409 /*CHARNAME*/ = ~You always say: "between my legs," but I am not sure where you mean.~
+@410 /*CHARNAME*/ = ~I know I said I wanted to start with this step, but can you start with your mouth.~
+@411 /*CHARNAME*/ = ~I have no complaints about this part.~
+@412 /*Mazzy*/ = ~Any other complaints?~
+@413 /*CHARNAME*/ = ~No. Let's move on to the next part.~
+@414 /*CHARNAME*/ = ~I changed my mind. I don't want to talk about this after all.~
+@415 /*CHARNAME*/ = ~Of course, <CHARNAME>. As long as you continue to follow my lead in bed.~
+@416 /*Mazzy*/ = ~Why wouldn't you? It is only fair for us to pleasure each other equally.~
+@417 /*Mazzy*/ = ~Clearly the humans who raised you did not explain things properly. Most humans seem to think that only men should have any fun in bed. But that's quite short-sighted of them and this relationship will only last if we both enjoy ourselves.~
+@418 /*CHARNAME*/ = ~Well, I will not do it.~
+@419 /*CHARNAME*/ = ~Oh, that makes sense. I'm sure I'll learn to appreciate the experience more.~
+@420 /*CHARNAME*/ = ~I want you to be happy, but I really hate doing THAT. Can I pleasure you another way instead?~
+@421 /*Mazzy*/ = ~Hah, well then you cannot have me. Will you reconsider?~
+@422 /*CHARNAME*/ = ~No. I'm sorry this has come between us.~
+@423 /*CHARNAME*/ = ~Whoa, let's not get drastic. I'm sure I'll enjoy it more with practice.~
+@424 /*Mazzy*/ = ~As am I.~
+@425 /*Mazzy*/ = ~Excellent. I am glad to hear that.~
+@426 /*Mazzy*/ = ~Well, I certainly don't want to force you into something you despise. With practice and persistence, we'll find something that works for both of us. For now, I suppose your hands will do.~
+@427 /*Mazzy*/ = ~You're so impatient; foreplay is half the fun. That is why I like to start by pleasing you.~
+@428 /*CHARNAME*/ = ~I will do it. I can learn patience.~
+@429 /*Mazzy*/ = ~Seriously? Well then you cannot have me. Will you please reconsider?~
+@430 /*CHARNAME*/ = ~No, don't cut me off. I will do it. I can learn patience.~
+@431 /*Mazzy*/ = ~You are adorable. If I am telling you nothing, then you can keep moving as the wind takes you. Do not be afraid of making a mistake; I will let you know if I want something different.~
+@432 /*Mazzy*/ = ~It was earlier than I desired. I prefer to be dripping wet before you enter me.~
+@433 /*Mazzy*/ = ~You poor thing. Very well, you may rest your tongue as needed. Over time, you will gain in strength and stamina.~
+@434 /*Mazzy*/ = ~Sometimes I forget that you really do know nothing. When I am on my back and you are looking at my sex, there is a small nub between the two vertical lips. That is what I mean.~
+@435 /*CHARNAME*/ = ~Got it.~
+@436 /*CHARNAME*/ = ~So you're on your back. I'm looking at you from the front. And then…… something about lips……~
+@437 /*Mazzy*/ = ~*sigh * Next time we are together, I will show you exactly where. The only required skill is your ability to follow directions.~
+@438 /*Mazzy*/ = ~Not as patient as you thought, my love? But yes, I can begin with that.~
+
+@439 /*Mazzy*/ = ~All right then. Once I have had enough foreplay, my body writhes in pleasure, my back arches, and I pull away. Then I am ready to have you inside me.~
+@440 /*Mazzy*/ = ~You lie down on your back, I mount you like any good knight should, and ride you to our mutual satisfaction.~
+@441 /*Mazzy*/ = ~Do you have any thoughts on this?~
+@442 /*CHARNAME*/ = ~This is my favorite part, but could we try another position?~
+@443 /*CHARNAME*/ = ~Would it be okay, Mazzy, if I  tried…… you know…… the other hole?~
+@444 /*CHARNAME*/ = ~It seems like I often finish and then go soft while you still wish to continue. Is there anything I can do?~
+@445 /*CHARNAME*/ = ~I think that is everything.~
+@446 /*Mazzy*/ = ~I am sorry, <CHARNAME>, you are so much larger than me and it is such a tight fit even with you covered in oil and me dripping wet. In that position, I can move at my own pace…… were we in another position, I worry you might hurt me.~
+@447 /*CHARNAME*/ = ~I wouldn't want that. I will be your steed.~
+@448 /*CHARNAME*/ = ~That makes sense. Whatever makes you happiest.~
+@449 /*CHARNAME*/ = ~Sorry, I can't always be beneath you. You will have to find someone else to play with.~
+@450 /*CHARNAME*/ = ~But I could be exceedingly careful and gentle. Moving slowly and stopping as soon as you said.~
+@451 /*Mazzy*/ = ~Thank you, <CHARNAME>. I appreciate your understanding.~
+@452 /*Mazzy*/ = ~Is there anything else you'd like to ask?~
+@453 /*Mazzy*/ = ~I am sorry that we did not work out.~
+@454 /*Mazzy*/ = ~I know you would, and I love you, but we barely know each other. I need more time to trust.~
+@455 /*CHARNAME*/ = ~I understand. I will be your steed.~
+@456 /*CHARNAME*/ = ~I can be patient. This will work for now.~
+@457 /*Mazzy*/ = ~Of course, I only started on top because I was worried that I would find your tool a little large, but now I know that I have nothing to worry about.~
+
+@458 /*Mazzy*/ = ~What would you like to try?~
+@459 /*CHARNAME*/ = ~Wait…… are you saying that I have a small…… um…… tool?~
+@460 /*CHARNAME*/ = ~I would like you on all fours with me behind you.~
+@461 /*CHARNAME*/ = ~I want to lie down, you beneath me, with your legs on my shoulders.~
+@462 /*CHARNAME*/ = ~I want you beneath me, legs open.~
+@463 /*CHARNAME*/ = ~I want to carry you.~
+@464 /*CHARNAME*/ = ~I want you on your stomach as I enter you from behind.~
+@465 /*CHARNAME*/ = ~We both lie on our sides and I take you from behind.~
+@466 /*CHARNAME*/ = ~Can you sit on my lap with your legs wrapped around me?~
+@467 /*Mazzy*/ = ~I am saying that it is a perfectly good tool for the job, my love. It is functional and non-threatening. Were it too large, it would limit our options.~
+@468 /*Mazzy*/ = ~Like a hound or a stallion? Of course, my love, that can be arranged.~
+@469 /*Mazzy*/ = ~One of my favourites.~
+@470 /*Mazzy*/ = ~Ahh, the classic human pose. Man riding, woman meekly accepting. Sure, why not? It would be an interesting change, though do make sure to support your own weight.~
+@471 /*Mazzy*/ = ~Well there are some worthwhile options here. I can wrap my legs around you with you supporting my bottom, which is always enjoyable.~
+@472 /*Mazzy*/ = ~Or I can have my legs higher with you holding me at the knees and supporting my back.~
+@473 /*Mazzy*/ = ~Oh I know, I can have my ankles around your neck as you carry me.~
+@474 /*Mazzy*/ = ~All of them; we will have to do all of them.~
+@475 /*Mazzy*/ = ~Oh I have not done that in a while. Just remember to enter the correct place.~
+@476 /*CHARNAME*/ = ~And if I try the other one?~
+@477 /*CHARNAME*/ = ~Will do.~
+@478 /*CHARNAME*/ = ~Fair enough.~
+@479 /*Mazzy*/ = ~I will stab you. We barely know each other, <CHARNAME>, and that requires trust built over time…… and oil, vast quantities of oil.~
+@480 /*Mazzy*/ = ~The spoons! Just remember to hold tight.~
+@481 /*Mazzy*/ = ~While I bounce, yes. Though I will need your help to raise me as well. That position can be a bit awkward.~
+@482 /*Mazzy*/ = ~My arse? You really were raised by monks.~
+@483 /*Mazzy*/ = ~I am joking. Yes I have done it before, but trying to get clean afterward is impossible and truthfully I never want you there more than I want you the other way. Now, if it were you and another man, things might be different, but no…… ideas such as that require trust and we are not there yet.~
+@484 /*CHARNAME*/ = ~I understand.~
+@485 /*CHARNAME*/ = ~Wait…… did you just casually mention being taken by two men at the same time?~
+@486 /*CHARNAME*/ = ~Are you saying there were other men you trusted more than me?~
+@487 /*Mazzy*/ = ~I am a halfling, <CHARNAME>, we have at least two festivals that are largely excuses for orgies, and it is generally accepted that a woman has a better chance of being satisfied by two men than one alone.~
+@487000 /*Mazzy*/ = ~However, I usually prefer my men to take turns.~
+@488 /*Mazzy*/ = ~You are not the centre of the known realms, <CHARNAME>, and we have not been together long. Of course there were other men I trusted more than you.~
+@489 /*Mazzy*/ = ~Please get over yourself and enjoy what you have.~
+@490 /*CHARNAME*/ = ~You slut, I can't believe I ever cared for you.~
+@491 /*CHARNAME*/ = ~Of course, Mazzy. I was just surprised.~
+@492 /*Mazzy*/ = ~*sigh * Clearly we are done here.~
+@493 /*Mazzy*/ = ~I hope I never stop surprising you, my love.~
+@494 /*Mazzy*/ = ~Try harder? I am sorry, love; I am not a man, and I cannot give you advice on that. But there are many things you can do for me until you are ready to go again, and you should be able to last longer over time.~
+@495 /*Mazzy*/ = ~Practice will make perfect, I believe.~
+@496 /*CHARNAME*/ = ~I hope you are right.~
+@497 /*CHARNAME*/ = ~So why are we still talking and not practicing?~
+@498 /*Mazzy*/ = ~You are the leader, my love. You decide when we rest, not me.~
+@499 /*Mazzy*/ = ~Good. Working this out was a pleasure.~
+@500 /*Mazzy*/ = ~Please call a rest as soon as you can. I have never wanted you more.~
+
+@501 /*CHARNAME*/ = ~Would you be open to inviting another person to our bed?~
+@502 /*CHARNAME*/ = ~Can we discuss sleeping with someone else again?~
+@503 /*Mazzy*/ = ~Perhaps, <CHARNAME>. But I have never been that fond of sharing my lovers, particularly not with other women.~
+@504 /*CHARNAME*/ = ~Actually, I wanted to ask another man.~
+@505 /*CHARNAME*/ = ~I was hoping to discuss other men again.~
+@506 /*Mazzy*/ = ~While she is quite attractive, I do not believe she cares for women and I do not wish to end up watching the two of you together. The goal of this is pleasure, not bitter jealousy.~
+@507 /*Mazzy*/ = ~I suppose that is a possibility. But it would depend on the man. As you know, I am quite picky about who I allow into my bed.~
+@508 /*Mazzy*/ = ~Of course, <CHARNAME>. We can talk about our options, though I reserve the right to tell you no.~
+
+@509 /*CHARNAME*/ = ~Why did your sister say that you took one of hers?~
+@510 /*Mazzy*/ = ~One of "theirs", hers and Danno's, and she is referring to Korrich, my former betrothed.~
+//Below dialogue is the same as the 3rd blowjob tale.
+//@511 /*Mazzy*/ = ~I first met him one night at home. Pala and Danno were making a horrible din as usual and I was so annoyed that I marched right into their room and asked them to keep it down because I was trying to sleep.~
+//@512 /*Mazzy*/ = ~Korrich was there as well. He looked up, and without missing a beat he asked me to join them instead, and at that moment, I knew I wanted him.~
+//@513 /*Mazzy*/ = ~I do not know what fit of boldness came over me, but I clearly remember myself saying, "Absolutely not, I am going to bed. However, should you wish to leave these fools and join me, I would not object."~
+//@514 /*Mazzy*/ = ~Korrich got up, right then and there, much to the shock of his bedmates, and followed me to my room where we spent the rest of the night in frenzied passion. He never went back to Danno and Pala again.~
+//@515 /*Mazzy*/ = ~He's a good man, I miss him.~
+//@516 /*CHARNAME*/ = ~When did he pass away?~
+//@517 /*CHARNAME*/ = ~It sounds like it. What happened?~
+//@518 /*CHARNAME*/ = ~Why aren't you still together?~
+//@519 /*CHARNAME*/ = ~Halflings are so strange.~
+//@520 /*Mazzy*/ = ~He didn't. I broke off our engagement and went into service at the temple of Arvoreen.~
+//@521 /*Mazzy*/ = ~I broke off our engagement and went into service at the temple of Arvoreen.~
+//@522 /*Mazzy*/ = ~And many other races are quite prudish. Should Korrich and I not have enjoyed our time together?~
+//@523 /*Mazzy*/ = ~He is married now, with a beautiful wife and three intelligent and adorable children. They are happy and successful and are loved and respected by everyone who knows them.~
+//@524 /*Mazzy*/ = ~I still see him from time to time and think, "That could have been me." But it was not the life I wanted.~
+//@525 /*Mazzy*/ = ~I think I am done with this topic today. Let us move on.~
+
+@526 /*CHARNAME*/ = ~Mazzy, how many people have you slept with?~
+@527 /*Mazzy*/ = ~This seems like a rather prying question.~
+@528 /*Mazzy*/ = ~However, I have been romantically involved with three halfling men.~
+@529 /*Mazzy*/ = ~However, before you I was romantically involved with three other halfling men.~
+@530 /*Mazzy*/ = ~One was Patrick, who was possessed by the Shade Lord. One was Korrich; we were once engaged. And the last was just a boy who I knew growing up.~
+@531 /*CHARNAME*/ = ~Are any of them still alive?~
+@532 /*CHARNAME*/ = ~And how many women have you slept with?~
+@533 /*CHARNAME*/ = ~Really? You always act like you're so experienced.~
+@534 /*CHARNAME*/ = ~Have you ever had more than one man at the same time?~
+@535 /*CHARNAME*/ = ~You said three *halfling* men. How about non-halflings?~
+@536 /*CHARNAME*/ = ~Sorry, I'll stop prying.~
+@537 /*Mazzy*/ = ~One. And this conversation is over.~
+@538 /*Mazzy*/ = ~You want me to count? It is common for halfling girls to play together in that way and I had many friends.~
+@539 /*Mazzy*/ = ~I was with each one more than once, my love.~
+@540 /*Mazzy*/ = ~Hah, you just get more and more personal, do you not? If you must know, I prefer my men to take turns.~
+@541 /*Mazzy*/ = ~You answered a slightly different question than I asked.~
+@542000 /*Mazzy*/ = ~How many non-halfling men? I shall have to think……~
+@542 /*Mazzy*/ = ~Other than my pair of half-ogres? None, none at all.~
+@543 /*Mazzy*/ = ~Let's move on.~
+@544 /*Mazzy*/ = ~I did, didn't I?~
+
+@545 /*CHARNAME*/ = ~Mazzy, how tall are you anyway?~
+@546 /*Mazzy*/ = ~What? Why?~
+@547 /*CHARNAME*/ = ~Just curious.~
+@548 /*CHARNAME*/ = ~You're so touchy about it, I thought it would be nice to know.~
+@549 /*CHARNAME*/ = ~You cannot let it bother you so much, Mazzy. So tell me, please.~
+@550 /*CHARNAME*/ = ~Sorry, I won't pry.~
+@551 /*Mazzy*/ = ~If you must know, I am three feet, one inch tall. Are you happy?~
+@552 /*CHARNAME*/ = ~Very, thank you.~
+@553 /*CHARNAME*/ = ~Above three feet! That is a major milestone.~
+@554 /*Mazzy*/ = ~Actually, I am a little shorter than average for a halfling woman.~
+@555 /*Mazzy*/ = ~I am trying to make my peace with it.~
+@556 /*CHARNAME*/ = ~You cannot let it bother you so much. No one is going to be above average in everything.~
+@557 /*CHARNAME*/ = ~From a human perspective, you're all short so what's a couple of inches?~
+@558 /*Mazzy*/ = ~This is true. Even a tall halfling makes for an awfully short human.~
+@559 /*Mazzy*/ = ~It is how the humans mock us that annoys me. Not just me, but all of the smaller races. They think that we cannot be taken seriously. No matter how many humans I kill, they will never consider me a great warrior.~
+@560 /*CHARNAME*/ = ~You mean no matter how many evil creatures you kill?~
+@561 /*CHARNAME*/ = ~Maybe you haven't killed enough of them.~
+@562 /*CHARNAME*/ = ~We should probably move on.~
+@563 /*Mazzy*/ = ~Yes. Isn't that what I said? No matter how many evil creatures I vanquish……~
+@564 /*CHARNAME*/ = ~Actually you said, "No matter how many humans I kill……"~
+@565 /*Mazzy*/ = ~It will never be enough. I could single-handedly defeat an army of ogres and the next peasant I met would still see a silly halfling lass pretending to be a warrior.~
+@566 /*Mazzy*/ = ~*sigh * I suppose I must accept that. Let's move on for now.~
+@567 /*Mazzy*/ = ~Oh. Well I meant evil humans, naturally. I could single-handedly defeat an army of ogres and the next peasant I met would still see a silly halfling lass pretending to be a warrior.~
+
+@568 /*CHARNAME*/ = ~Mazzy, how much do you weigh?~
+@569 /*Mazzy*/ = ~Last time I weighed myself I was sixty-one pounds. Why?~
+@570 /*CHARNAME*/ = ~No reason, just curious.~
+@571 /*CHARNAME*/ = ~You answered that so easily. I assumed you'd be touchier about it.~
+@572 /*Mazzy*/ = ~Well now you know.~
+@573 /*Mazzy*/ = ~It's just weight. Who's touchy about their weight?~
+
+@574 /*CHARNAME*/ = ~Can we stop talking for a while? I need to focus on our quest.~
+@575 /*Mazzy*/ = ~If that is what you wish, <CHARNAME>. I shall check back in several weeks.~
+
+@576 /*CHARNAME*/ = ~Do you want to play a game?~
+@577 /*Mazzy*/ = ~Right now, <CHARNAME>? Shouldn't we focus on our mission?~
+@578 /*CHARNAME*/ = ~Yeah, you're probably right.~
+@579 /*CHARNAME*/ = ~And we will. But everyone needs a break sometimes.~
+@580 /*CHARNAME*/ = ~What? Are you afraid you'll lose?~
+@581 /*CHARNAME*/ = ~Come on, it'll be fun.~
+@582 /*Mazzy*/ = ~I suppose you are correct. What did you want to play?~
+@583 /*Mazzy*/ = ~You think I'M going to lose? I accept your challenge, <CHARNAME>. Choose your field of battle.~
+@584 /*Mazzy*/ = ~I guess I could have…… fun. Did you have something in mind?~
+@585 /*Player1*/ = ~I would like to play:~
+@586 /*CHARNAME*/ = ~Dragon Chess.~
+@587 /*CHARNAME*/ = ~A game of dice.~
+@588 /*CHARNAME*/ = ~I Spy. We can play while traveling.~
+@589 /*CHARNAME*/ = ~Cards.~
+
+@590 /*Mazzy*/ = ~All right. Set up the board and let's begin.~
+@591 /*Mazzy*/ = ~Agreed. You may go first.~
+@592 /*Mazzy*/ = ~A proper game of strategy. I approve. You make take the attackers. I like a challenge.~
+@593 /*CHARNAME*/ = ~All right. Peasant to Red Five.~
+@594 /*CHARNAME*/ = ~Okay…… Knight to White Cleric.~
+@595 /*CHARNAME*/ = ~Why don't you go first instead?~
+@596 /*Mazzy*/ = ~A good opener. This shall be fun after all.~
+@597 /*Mazzy*/ = ~This may be harder than I thought.~
+@598 /*Mazzy*/ = ~Good. You know what you are doing. My Peasant shall do the same.~
+@599 /*Mazzy*/ = ~I see this will be quick. Well, let us get it over with.~
+@600 /*Mazzy*/ = ~A poor beginning. Your Knight will be captured on its own.~
+@601 /*Mazzy*/ = ~You do know the rules? That was a foolish move to make.~
+@602 /*Mazzy*/ = ~I suppose you may choose since you made the invitation. But next time, red is mine. So, Peasant to Red Five. The standard opening. Do you have a counter?~
+@603 /*Mazzy*/ = ~Not this time, <CHARNAME>. Perhaps later, if we decide to play again. Now make your move.~
+@604 /*Mazzy*/ = ~Hmm, Peasant to Red Five. A boring choice, but practical.~
+@605 /*Mazzy*/ = ~You are comfortable in your skills. I like that. But if we must play chess, I will be playing the defenders. Which means that you move first; what will you choose?~
+@606 /*Mazzy*/ = ~Knight to White Cleric; that is interesting. Bold, but risky.~
+@607 /*CHARNAME*/ = ~Wait and see. The game isn't finished yet.~
+@608 /*CHARNAME*/ = ~I do have a plan.~
+@609 /*CHARNAME*/ = ~Beginner's luck will get me through.~
+@610 /*Mazzy*/ = ~I move here…… you counter there. I take the Dragon, my Knight is captured. And then……~
+@611 /*Mazzy*/ = ~Yes, your Castle falls. Well fought, my friend, but I have my victory.~
+@612 /*Mazzy*/ = ~That was…… entertaining. We may play again sometime.~
+@613 /*Mazzy*/ = ~All right, show me what you can do.~
+@614 /*Mazzy*/ = ~……A foolish choice. I have your Cleric……~
+@615 /*Mazzy*/ = ~……My Knight! How did I miss that?~
+@616 /*Mazzy*/ = ~I must protect my Castle. Perhaps, if I move here……~
+@617 /*Mazzy*/ = ~No! You have beaten me! I must have a rematch later on.~
+@618 /*Mazzy*/ = ~Yes, it is. I have you. Three moves and we are done.~
+@619 /*Mazzy*/ = ~You must have been distracted, my friend. That was no challenge. If we are to do this again, you must put up a better fight.~
+@620 /*Mazzy*/ = ~Why don't I believe you? But we shall see. Cleric to Grey Seven. Your move.~
+@621 /*Mazzy*/ = ~Knight to Peasant? Truly?.. Well, I answer you in kind…… White Knight to Black Six.~
+@622 /*Mazzy*/ = ~Dragon takes Knight…… My wizard? No, you are tricky…… My Castle?! You have won but I fought fairly. I would not mind another game later on.~
+@623 /*Mazzy*/ = ~That's what you always say, yet your plans fall to pieces at the first clash of blades. This shall be no different. Knight to Black Seven. What say you now?~
+@624 /*Mazzy*/ = ~……Dragon takes Cleric. A bold choice…… Hah, I have your Knights…… You thought I would fall for that?~
+@625 /*Mazzy*/ = ~And my Peasant storms the Castle. This game is mine. Well played, but MY plan won out. Let this be a reminder when you ignore my strategies.~
+@626 /*Mazzy*/ = ~Perhaps you do. But I shall win anyway. Wizard to Grey Four.~
+@627 /*Mazzy*/ = ~…… Cleric takes Knight…… Peasant turns to Squire…… You may have my Wizard, but I have your Dragon in exchange. You will pay dearly for each square.~
+@628 /*Mazzy*/ = ~If I move…… no…… How about…… no…… What if…… No. I cannot move, but I have trapped you. I suppose this is a tie. I did not expect that outcome, but I did enjoy myself.~
+@629 /*Mazzy*/ = ~I'm afraid that it will not. Five moves and we are done; I can see it now.~
+@630 /*Mazzy*/ = ~If we do this again, I expect a better fight.~
+@631 /*Mazzy*/ = ~Perhaps. Perhaps not. Peasant to Grey Three.~
+@632 /*Mazzy*/ = ~……Dragon to Black Two? Why would you?…… My Peasant for your Cleric. A poor trade, my friend…… Wizard to Grey Four; I have you on the defensive.~
+@633 /*Mazzy*/ = ~Knight to take your Cleric. You return as I expected. My Dragon to your Castle and I have won. You need more practice, <CHARNAME>. We shall have to play again another time.~
+@634 /*Mazzy*/ = ~We shall see. Knight to Black Six. What say you?~
+@635 /*Mazzy*/ = ~Cleric to Red Peasant? Are you simply placing your pieces randomly? But you have removed your hand; the move is done…… My Wizard takes your Cleric and threatens both your Knights.~
+@636 /*Mazzy*/ = ~Dragon to Black Five. Your move……. Knight to Grey Four…… And mine.. I- I- I am checkmated. That is most unexpected. I must think on this before we play again.~
+
+@637 /*Mazzy*/ = ~I do not like dice. There is too much luck involved. But I suppose we can play once.~
+@638 /*Mazzy*/ = ~That will do. Call your bet and roll.~
+@639 /*Mazzy*/ = ~All right. Let us get this over with. Three rolls to finish quickly.~
+@640 /*CHARNAME*/ = ~Great, I call evens.~
+@641 /*CHARNAME*/ = ~I call odds.~
+@642 /*CHARNAME*/ = ~One of each, that's my bet.~
+@643 /*CHARNAME*/ = ~A total of seven, in exchange for a kiss.~
+@644 /*Mazzy*/ = ~You have this round. But the next is mine.~
+@645 /*Mazzy*/ = ~Hah! Your bet is lost. My turn to roll.~
+@646 /*Mazzy*/ = ~The dice are in my favour today.~
+@647 /*Mazzy*/ = ~This time the roll is yours. Call again.~
+@648 /*Mazzy*/ = ~Seven. Tymora smiles on you today. You shall have your kiss.~
+@649 /*Mazzy*/ = ~The dice fall otherwise, but I shall kiss you anyway.~
+@650 /*Mazzy*/ = ~Sorry, my love. Roll again.~
+@651 /*CHARNAME*/ = ~A total of ten with Tymora's favor.~
+@652 /*CHARNAME*/ = ~Evens. Dice don't fail me now.~
+@653 /*CHARNAME*/ = ~I will take odds. Two out of out three.~
+@654 /*CHARNAME*/ = ~A five for the point. I'm feeling lucky.~
+@655 /*Mazzy*/ = ~You have it. One more roll and we shall see. Call your bet again.~
+@656 /*Mazzy*/ = ~The point is mine. Are you ready to end this nonsense?~
+@657 /*Mazzy*/ = ~One toward, one against and the last is cocked. I shall count that as a tie.~
+@658 /*CHARNAME*/ = ~Evens for the win.~
+@659 /*CHARNAME*/ = ~Go big or go home. I shall bet eighteen.~
+@660 /*CHARNAME*/ = ~I call a majority of odds. The final roll.~
+@661 /*Mazzy*/ = ~The dice have fallen in your favour. Congratulations. I wish to continue now.~
+@662 /*Mazzy*/ = ~This is why I do not play dice. There is no skill in winning via luck. But you may celebrate your victory if you must.~
+@663 /*Mazzy*/ = ~And we have tied. I suppose that was somewhat diverting, but we should continue on.~
+@664 /*Mazzy*/ = ~Hmm, I have won. Perhaps dice games are not so annoying after all.~
+
+@665 /*Mazzy*/ = ~Interesting choice, <CHARNAME>. A fine game with which to test our skills at observation. That will prove useful later on.~
+@666 /*Mazzy*/ = ~I suppose this will make the trip pass faster. You may begin.~
+@667 /*Mazzy*/ = ~You're on. Choose your first item.~
+@668 /*CHARNAME*/ = ~I spy with my little eye something beginning with A.~
+@669 /*CHARNAME*/ = ~How about something that is red?~
+@670 /*CHARNAME*/ = ~Something small and deadly, that's my choice this time.~
+@671 /*Mazzy*/ = ~That is too easy, <CHARNAME>. The answer is an arrow.~
+@672 /*Mazzy*/ = ~Something beginning with A……. Anger…… 艾黎…… 阿诺门……~
+@673 /*Mazzy*/ = ~No. It would not be one of those. Are you thinking of an apple?~
+@674 /*Mazzy*/ = ~Nothing too complicated. An acorn?~
+@675 /*CHARNAME*/ = ~That's right. I guess you've won. Time for us to move on.~
+@676 /*CHARNAME*/ = ~No, that's not the answer.~
+@677 /*CHARNAME*/ = ~Guess again.~
+@678 /*Mazzy*/ = ~A quick game. But diverting enough. We may play again later on.~
+@679 /*Mazzy*/ = ~Next time you must try harder, <CHARNAME>. If we are to waste our time on games, then they must be challenging.~
+@680 /*Mazzy*/ = ~Hmm. This is surprisingly difficult…… But I know, is it an axe?~
+@681 /*Mazzy*/ = ~All right. I believe you're looking at the antidote hanging on my belt.~
+@682 /*Mazzy*/ = ~Ants, <CHARNAME>. There are ants everywhere.~
+@683 /*CHARNAME*/ = ~Sorry, that's still wrong.~
+@684 /*CHARNAME*/ = ~Correct. You've gotten it.~
+@685 /*Mazzy*/ = ~*sigh* I do not have time for this nonsense. I concede the victory. May we continue now?~
+@686 /*Mazzy*/ = ~Then I suppose you have won this round. Next time you will lose.~
+@687 /*Mazzy*/ = ~Something red? There are many options here.~
+@688 /*Mazzy*/ = ~Is it the wizard, 艾德温? He takes great pride in those red robes. ~
+@689 /*Mazzy*/ = ~Are you thinking about the Red Wizards? If one is near, we should attack.~
+@690 /*Mazzy*/ = ~Do I have the answer now?~
+@691 /*Mazzy*/ = ~Are you thinking of an autumn leaf? There's probably one around here somewhere and those are often red as flame.~
+@692 /*Mazzy*/ = ~Hmm, an apple would be too easy and my arrows are fletched with black today.~
+@693 /*Mazzy*/ = ~Is it the red flag over there?~
+@694 /*Mazzy*/ = ~All right……. My gloves then. They have a reddish shade.~
+@695 /*Mazzy*/ = ~Hmm, really? I was sure I had it right.~
+@696 /*Mazzy*/ = ~But if not, were you thinking of an apple after all?~
+@697 /*Mazzy*/ = ~I know. Is it the beads tied in my hair? That was a tricky choice, <CHARNAME>, but technically allowed.~
+@698 /*Mazzy*/ = ~Seriously, <CHARNAME>? You are not supposed to choose me. Though I suppose small and deadly is slightly flattering.~
+@699 /*Mazzy*/ = ~Small and deadly? A dagger. That is an easy choice.~
+@700 /*Mazzy*/ = ~We are adventurers. Everything is deadly in our hands. But if I had to choose one thing, a wand would fit the bill.~
+@701 /*Mazzy*/ = ~Okay, then. I see a snake there in the shadows. Is that your lethal choice?~
+@702 /*Mazzy*/ = ~Well, if that's not the right choice, then how about that poison on your belt? It's a dishonourable way to fight but I can't deny its deadliness.~
+@703 /*Mazzy*/ = ~Hmm, this is harder than I thought. Small and deadly……. an arrow? You know those are quite lethal in my hands.~
+
+@704 /*Mazzy*/ = ~Shall we play Go Fish?~
+@705 /*Mazzy*/ = ~I am a fair hand at poker. That shall do.~
+@706 /*Mazzy*/ = ~If we're going to play then I choose Three Dragon Ante. That should be quick at least.~
+@707 /*CHARNAME*/ = ~Sure. I haven't played since Candlekeep.~
+@708 /*CHARNAME*/ = ~That's not what I expected. But why not?~
+@709 /*CHARNAME*/ = ~Sounds good. I'll deal a hand.~
+@710 /*Mazzy*/ = ~Hmm. Do you have any Twos?~
+@711 /*Mazzy*/ = ~Four Aces to start, <CHARNAME>, I think I have the lead. But the game must continue; do you have any Knaves?~
+@712 /*Mazzy*/ = ~My move first, then. Do you have any Queens?~
+@713 /*CHARNAME*/ = ~Sorry, go fish.~
+@714 /*CHARNAME*/ = ~Yes, I do. Here you are.~
+@715 /*Mazzy*/ = ~All right. It's your turn, <CHARNAME>.~
+@716 /*CHARNAME*/ = ~Okay, do you have any Kings?~
+@717 /*CHARNAME*/ = ~Got any Threes?~
+@718 /*CHARNAME*/ = ~I'm feeling lucky. Do you have a Seven?~
+@719 /*Mazzy*/ = ~Thank you, <CHARNAME>…… Now, what should I ask now?~
+@720 /*Player1*/ = ~*Twenty minutes later, the battle has been hard fought. But you have been unable to catch Mazzy's early lead.*~
+@721 /*Mazzy*/ = ~And there's the last pair. I've beaten you. I admit, that was diverting. But we should keep moving now.~
+@722 /*Mazzy*/ = ~Hmmm, choices, choices……. Do you have any Fives?~
+@723 /*Player1*/ = ~*Fifteen minutes later, the sweat drips from your brow as you frown in concentration. One more question and the game is yours.*~
+@724 /*Mazzy*/ = ~I can't believe it. I almost never lose Go Fish. You owe me a rematch later on.~
+@725 /*Mazzy*/ = ~Let's finish this quickly. Give me your Tens.~
+@726 /*Player1*/ = ~*Five minutes later, you look down at your cards in disbelief. This game has been a rout from start to finish and you can only hope that Mazzy finishes you off painlessly.*~
+@727 /*Mazzy*/ = ~Well, I suppose that was quick, though I was not expecting to win that easily. We should do this again another time.~
+@728 /*Mazzy*/ = ~You know. I believe I am actually having fun now.~
+@729 /*Player1*/ = ~*Ten minutes later, you are paying more attention to Mazzy's grin than to your questions. Which may be why her take is far outstripping yours.*~
+@730 /*Mazzy*/ = ~Yes, very fun. This game is mine. We may play again in the future, but we should not take too much time. There are many souls in need of help.~
+@731 /*Mazzy*/ = ~No, <CHARNAME>. Go fish. I guess it's my turn again. Do you have a Nine?~
+@732 /*Player1*/ = ~*Ten minutes later, you've discovered that Mazzy is unreadable and her skills at Go Fish are far better than your own.~
+@733 /*Mazzy*/ = ~A good game, but you're dealing with a master. Now that I've won, we should be going anyway.~
+@734 /*Mazzy*/ = ~Unfortunately, yes. Take this and ask again.~
+@735 /*Player1*/ = ~*Twenty minutes later, Lady Tymora has been smiling down upon you. Despite Mazzy's best efforts, nearly every card has been matched and laid down on your side.*~
+@736 /*Mazzy*/ = ~You've beaten me. That's impossible. I'll get you on the rematch, wait and see.~
+@737 /*Mazzy*/ = ~Here you are. Your next request?~
+@738 /*Player1*/ = ~*Fifteen minutes later, the game has passed in jokes and banter as Mazzy's competitive side rushes to the fore. Apparently no one trash talks quite as fiercely as a Truesword of Arvoreen.*~
+@739 /*Mazzy*/ = ~And the game is mine, just as expected. Let us continue travelling.~
+@740 /*Mazzy*/ = ~Hah! Go fish! Now what should I choose……~
+@741 /*Player1*/ = ~*Ten minutes later, a string of bad draws has put a storm cloud on your companion's face. She is now losing badly in terms of matches played.*~
+@742 /*Mazzy*/ = ~How? I was doing so well…… I do not like games of luck. We had best be moving on.~
+
+@743 /*CHARNAME*/ = ~Poker really? I did not expect that.~
+@744 /*CHARNAME*/ = ~All right, we'll see who's better then.~
+@745 /*CHARNAME*/ = ~Sure thing. Just tell me the rules.~
+@746 /*Mazzy*/ = ~My family used to play when I was younger. The games grew quite vicious sometimes so I learned to hold my own.~
+@747 /*Mazzy*/ = ~I have spent much time with soldiers, <CHARNAME>. It's not truly that surprising. While I don't believe in gambling, the rules aren't difficult.~
+@748 /*Mazzy*/ = ~You don't know everything about me, <CHARNAME>. I'm glad I can still surprise you now and then.~
+@749 /*Mazzy*/ = ~You've laid down the challenge, <CHARNAME>, but I assure you I shall win.~
+@750 /*Mazzy*/ = ~You are very confident. That is a dangerous stance to take.~
+@751 /*Mazzy*/ = ~Hah! You are right, my friend. We shall see.~
+@752 /*Mazzy*/ = ~Do not worry, <CHARNAME>. We shall play an easy variation and I'll walk you through the steps.~
+@753 /*Mazzy*/ = ~Right, I often forget that you were raised by monks and librarians. But the rules are fairly simple so I believe you will be fine.~
+@754 /*Mazzy*/ = ~This is your lucky day, <CHARNAME>. I will treat you kindly and teach you how to play.~
+@755 /*CHARNAME*/ = ~Good to know. Would you deal?~
+@756 /*CHARNAME*/ = ~I still think it's weird. But we can play anyway.~
+@757 /*CHARNAME*/ = ~So am I, Mazzy. Now let's play.~
+@758 /*CHARNAME*/ = ~Okay, I will deal.~
+@759 /*CHARNAME*/ = ~Let me start.~
+@760 /*CHARNAME*/ = ~Dealer goes first. Make your move.~
+@761 /*CHARNAME*/ = ~Okay, I trust you.~
+@762 /*CHARNAME*/ = ~Show me what to do.~
+@763 /*CHARNAME*/ = ~Great. This should be fun.~
+@764 /*Player1*/ = ~*One hour later, both you and Mazzy have won your share of hands. You think several of your other companions may have been betting on the outcome, but you've decided to let it slide for now.*~
+@765 /*Player1*/ = ~*One hour later, Mazzy has destroyed you. If you were gambling for money, she would be much richer now.*~
+@766 /*Player1*/ = ~*One hour later, you have won more than you lost. Although you weren't playing cards for money, it has been entertaining anyway.*~
+@767 /*Mazzy*/ = ~That was fun, <CHARNAME>. Perhaps you were right about relaxing. But we should continue now.~
+
+@768 /*CHARNAME*/ = ~Okay, that works for me.~
+@769 /*CHARNAME*/ = ~Good choice. I enjoy that game.~
+@770 /*CHARNAME*/ = ~If that's what you want.~
+@771 /*Mazzy*/ = ~Okay. I shall deal first. Two Dragons and a Knave. Your move?~
+@772 /*Mazzy*/ = ~A Three, a Two, and a Five. What's your call?~
+@773 /*Mazzy*/ = ~Two Tens and a King. Your bet?~
+@774 /*CHARNAME*/ = ~Another card.~
+@775 /*CHARNAME*/ = ~I will hold.~
+@776 /*CHARNAME*/ = ~Two cards and I will raise a walnut.~
+@777 /*CHARNAME*/ = ~Ante, nothing more.~
+@778 /*Mazzy*/ = ~I will take another card.~
+@779 /*Mazzy*/ = ~I deal a Knave. Your move again.~
+@780 /*Mazzy*/ = ~I will raise you two acorns. Do you wish to match?~
+@781 /*Mazzy*/ = ~Ante only.~
+@782 /*CHARNAME*/ = ~Just deal me a new hand.~
+@783 /*CHARNAME*/ = ~I will hold and raise three cashews.~
+@784 /*CHARNAME*/ = ~One more card, please.~
+@785 /*CHARNAME*/ = ~My cards are terrible. Ante.~
+@786 /*Mazzy*/ = ~Set down your cards, <CHARNAME>…… I have beaten you. Hand over your nuts.~
+@787 /*Mazzy*/ = ~You have won, <CHARNAME>. The cards are in your favour.~
+@788 /*Mazzy*/ = ~A poor hand for both of us. But I believe that I have victory.~
+@789 /*Mazzy*/ = ~A close game, but you have won, <CHARNAME>. Congratulations.~
+
+@794 /*CHARNAME*/ = ~You know, Mazzy, for a warrior of virtue, you're a bit violent.~
+@795 /*Mazzy*/ = ~Excuse me? There are many dangers in the world and I fight them. What would you have me do?~
+@796 /*CHARNAME*/ = ~You're right, forget I said anything.~
+@797 /*CHARNAME*/ = ~Yes, but you seem to really enjoy combat. You always want to find evil to fight and you're bored and miserable otherwise.~
+@798 /*CHARNAME*/ = ~Sometimes there are peaceful solutions. You don't always have to reach for an arrow.~
+@799 /*Mazzy*/ = ~I fight because it is the right thing to do. I enjoy saving the innocent and defeating those that prey on them, and I refuse to believe that might be wrong.~
+@800 /*Mazzy*/ = ~When all the lords of evil are dead, you may try a peaceful approach. Until then, I will be here to help you end their existence.~
+
+@801 /*CHARNAME*/ = ~Tell me how you became a Truesword of Arvoreen.~
+@802 /*Mazzy*/ = ~I once spent a year at a temple of Arvoreen, high in the mountains some distance from Trademeet. They took me in during a difficult time.~
+@803 /*Mazzy*/ = ~It was more of a monastery than a temple; they were almost completely self-sufficient and had little contact with the outside world.~
+@804 /*Mazzy*/ = ~The halflings there prayed and served the occasional visitor from the outside community, but mountain halflings are insular, even for halflings. Most spend their whole lives without ever travelling more than a few miles from where they were born.~
+@805 /*Mazzy*/ = ~It was peaceful there, but they received almost no news from the outside world and I missed my family. I spent my days praying and studying.~
+@806 /*Mazzy*/ = ~When I arrived, I knew very little about the halfling god; I'd never even known a halfling Cleric, but there was a peace there that I found nowhere else.~
+@807 /*Mazzy*/ = ~Some years later, I returned to finish my training and dedicate my life to Arvoreen as a Truesword.~
+@808 /*CHARNAME*/ = ~You make it sound as if you went to the temple before you knew you wanted to be a Truesword. Why were you there?~
+@809 /*CHARNAME*/ = ~Thank you for telling me. That sounds like a good memory.~
+@810 /*CHARNAME*/ = ~I just can't see you in a monastery.~
+@811 /*CHARNAME*/ = ~I am glad you found your calling. I might not have met you otherwise.~
+@812 /*Mazzy*/ = ~That, <CHARNAME>, is a story for another time.~
+@813 /*Mazzy*/ = ~In truth, I have not thought about that place in many years, but sometimes it is good to be reminded of peace as well as war.~
+@814 /*Mazzy*/ = ~It was certainly an adjustment. But even I must rest sometimes.~
+@815 /*Mazzy*/ = ~It hasn't always been the easiest road, but I am glad as well.~
+
+//Post Wraith Questions, TOB Only
+@816 /*CHARNAME*/ = ~You said you went to war when you were young. Why?~
+@817 /*Mazzy*/ = ~Because I was young and foolish…… is that not always the reason?~
+@818 /*Mazzy*/ = ~There was talk of an invading army and several lords banded together to create their own army in defence. I was young and idealistic and wanted to protect my homeland against the evil invaders.~
+@819 /*Mazzy*/ = ~There were many hardened veterans, but many young faces as well, though I was one of the only halflings. It was scary, but also exhilarating to be part of something so grand.~
+@820 /*Mazzy*/ = ~A couple of older women who had fought many battles took me under their wing. We sparred daily and I learned many tricks of combat. They also showed me how to safely deflect the advances of the other soldiers and how to manage all the mundane logistics of being on the march.~
+@821 /*Mazzy*/ = ~Whatever discipline and glory that army had lasted only until the first city we came to. They were not even our enemy; in fact, they were happy to trade with us provided we camped outside their walls.~
+@822 /*Mazzy*/ = ~Their gates were open so we soldiers came and went freely, spending our coin on whatever we could.~
+@823 /*Mazzy*/ = ~But there was some affront and suddenly word spread through the camp that there was fighting in the city and we were all supposed to rush in and help.~
+@824 /*Mazzy*/ = ~The city guards tried to close the gates, but there were so many of our soldiers already inside that they were overwhelmed.~
+@825 /*Mazzy*/ = ~And that was that.~
+
+@826 /*CHARNAME*/ = ~You said your army attacked a nearby city. What happened afterwards?~
+@827 /*Mazzy*/ = ~What always happens in war. I was a young soldier who stupidly thought we were fighting for honour and glory.~
+@828 /*Mazzy*/ = ~But there was no honour in what happened. The army dissolved in chaos and violence as soon as it was inside the walls.~
+@829 /*Mazzy*/ = ~Have you ever witnessed the fall of a city, <CHARNAME>? The bloodlust and the screaming? Our soldiers pillaged, raped, and murdered the townsfolk without mercy.~
+@830 /*Mazzy*/ = ~I ran crying until I found the two women who had befriended me during the march.~
+@831 /*Mazzy*/ = ~They were in a house torturing an old man to find where he had hidden his valuables, while another soldier raped a girl in the corner.~
+@832 /*Mazzy*/ = ~I said what they were doing was wrong and they laughed at me; they did not even pause their actions.~
+@833 /*Mazzy*/ = ~I drew my sword and demanded their compliance, and do you know what one said? "Little halfling girls do not belong in war. Now put your knife away before we have to hurt you."~
+@834 /*CHARNAME*/ = ~This ends poorly, doesn't it?~
+@835 /*CHARNAME*/ = ~So you killed them all.~
+@836 /*CHARNAME*/ = ~*sigh* That was a mistake.~
+@837 /*CHARNAME*/ = ~I'm not sure you've ever been a "little halfling girl."~
+@838 /*Mazzy*/ = ~I killed two of them…… they were so surprised. The man ran away.~
+@839 /*Mazzy*/ = ~The next thing I remember, I was in the woods with the old man and the girl, his granddaughter. I had saved them.~
+@840 /*Mazzy*/ = ~We walked for days without pausing…… I do not remember where we were going, or if we had a direction at all.~
+@841 /*Mazzy*/ = ~I was a deserter and a traitor; I could not return home. We stayed in the wilds, avoiding any other people, just trying to move farther and farther away from the horrors behind us.~
+@842 /*Mazzy*/ = ~Somehow, nestled high on a mountain, cut off from all other civilization, I found a temple of Arvoreen.~
+@843 /*Mazzy*/ = ~I would stay there for the next year.~
+
+@844 /*CHARNAME*/ = ~Do you want to talk about your father? How did he die?~
+@845 /*Mazzy*/ = ~I suppose I have put it off long enough.~
+@846 /*Mazzy*/ = ~While I was hiding in the temple of Arvoreen, my father received word that the army I had been part had been defeated.~
+@847 /*Mazzy*/ = ~Defeated is a rather strong word since it implies there was even a fight. I heard the full story later:~
+@848 /*Mazzy*/ = ~While my former comrades were busy sleeping off their days of pillage and rape, the opposing army found them and moved to surround the city. Normally an army spreading their forces so thin would have been risky, but the attackers were in no danger.~
+@849 /*Mazzy*/ = ~They bombarded and burned the city until no one was left alive. Everyone who tried to flee was slaughtered. I visited it again later and it was horrible to look at it. No one lives there, even now.~
+@850 /*Mazzy*/ = ~My father knew none of that at the time; all he heard was that the army, his daughter's army, was under attack. He took his weapons and armour and left and no one ever heard from him again.~
+@851 /*Mazzy*/ = ~I assume he tried to rescue me, but I do not know where he went or how he fell. I do not even know for sure that he is dead, but I believe he is.~
+@852 /*Mazzy*/ = ~My mother tried for years to find him magically, but to no avail.~
+@853 /*Mazzy*/ = ~And that is all I know. I wish there was more to tell.~
+
+@854 /*CHARNAME*/ = ~How did you return home after your time in the army?~
+@855 /*Mazzy*/ = ~I spent a year in the mountain temple of Arvoreen, cut off from news of the world.~
+@856 /*Mazzy*/ = ~One day news arrived that my old army had been destroyed. Had I stayed, I would have been killed along with them.~
+@857 /*Mazzy*/ = ~This meant that no one knew I was a traitor; no one knew that I had killed my fellow soldiers to save two townsfolk.~
+@858 /*Mazzy*/ = ~So I gathered my belongings and returned home. My mother and sister were overjoyed to see me; they had both given me up for dead.~
+@859 /*Mazzy*/ = ~But then they told me the story of my father, how he had left to find me and never returned. And while they never said it, I knew that it was my fault.~
+@860 /*Mazzy*/ = ~He was most likely dead, and it was because of me. He had not wanted me to leave; he said that involving ourselves in the wars of humans was a mistake, but I refused to listen.~
+@861 /*Mazzy*/ = ~And gradually life returned to normal. I joined the militia, I met my love Korrich, and I spent years living as I thought I should, but I could not find peace. The only peace I had found since leaving for the army was at that temple of Arvoreen.~
+@862 /*Mazzy*/ = ~So I left and returned to the temple and finished my training. I broke Korrich's heart, but I knew it was what I had to do. I could not return to the life I had known before the war.~
+@863 /*CHARNAME*/ = ~I understand. I cannot even imagine going back to Candlekeep.~
+@864 /*CHARNAME*/ = ~It's not your fault, you know. You did not kill your father.~
+@865 /*CHARNAME*/ = ~This explains so much. But you shouldn't let guilt drive you.~
+@866 /*CHARNAME*/ = ~Maybe when this over, we can discover what happened to your father.~
+@867 /*CHARNAME*/ = ~*say nothing*~
+@868 /*Mazzy*/ = ~Yes, I thought you would. Our histories are similar and I appreciate your willingness to listen. It has helped, though I'm not sure if I will ever be able to set my burdens down.~
+@869 /*Mazzy*/ = ~Maybe, but he's dead because of me. Nothing you say can change that.~
+@870 /*Mazzy*/ = ~It is not that simple. I cannot simply forget what I have done.~
+@871 /*Mazzy*/ = ~There is blood on my hands, <CHARNAME>, the blood of innocents and someone that I loved. I will spend the rest of my life trying to atone.~
+@872 /*Mazzy*/ = ~That is probably a hopeless quest, <CHARNAME>. If my father lived, he would have returned to Trademeet years ago.~
+@873 /*Mazzy*/ = ~But I appreciate the offer and if you are truly willing, I would like to make one last attempt to discover how he died.~
+
+//Sex-love complaint.
+@874 /*CHARNAME*/ = ~Sometimes I feel like our relationship is only about sex.~
+@875 /*Mazzy*/ = ~Oh? And do you feel that is less than ideal?~
+@876 /*CHARNAME*/ = ~Nope, that's exactly how I like it.~
+@877 /*CHARNAME*/ = ~Yes, I want to matter to you as a person.~
+@8770 /*CHARNAME*/ = ~Of course. I want you to love me as much as I love you.~
+@878 /*Mazzy*/ = ~Then I am glad that we have found a mutually beneficial arrangement.~
+@879 /*Mazzy*/ = ~However, you should know that I find myself caring about you more and more with each passing day.~
+@880 /*Mazzy*/ = ~You do matter to me, <CHARNAME>, and despite my best efforts to remain distant and unattached, I find myself falling more in love with you each day.~
+@881 /*CHARNAME*/ = ~Oh, I'm glad to hear it. Carry on then.~
+@882 /*CHARNAME*/ = ~Wait, why are you trying not to love me?~
+@883 /*Mazzy*/ = ~Because the more I love you, the more pain it will cause me when you die.~
+@884 /*Mazzy*/ = ~How can I bear your loss when I still hurt daily from all of the others who have fallen before you?~
+@885 /*Mazzy*/ = ~I fell in love with Patrick. I knew him only briefly, but I loved him more than I have ever loved anyone before…… or since. When I watched him fall, a piece of myself died with him.~
+@886 /*Mazzy*/ = ~I do not know how I could survive that again.~
+@887 /*CHARNAME*/ = ~That's a good reason. I take back what I said.~
+@888 /*CHARNAME*/ = ~I won't die, Mazzy. You have my word.~
+@889 /*CHARNAME*/ = ~We all die, Mazzy, but love makes life worth living.~
+@890 /*Mazzy*/ = ~Thank you, <CHARNAME>. I do love you, just…… just be patient with me.~
+@891 /*Mazzy*/ = ~I should trust you not to die?~
+@892 /*Mazzy*/ = ~I may be a halfling, my love, but I am not *that* foolish.~
+@893 /*Mazzy*/ = ~Still, I do love you, <CHARNAME>. Please just be patient with me.~
+@894 /*Mazzy*/ = ~That was rather poetic of you, and you are correct.~
+@895 /*Mazzy*/ = ~*sigh* I suppose one cannot be a hero and expect one's friends to live out long, full lives. Death is an occupational hazard……~
+@896 /*Mazzy*/ = ~……but that does not make it any less painful for those who survive……~
+
+//Lack of romance complaint.
+@897 /*CHARNAME*/ = ~I feel that our romance is seriously lacking in romance.~
+@898 /*Mazzy*/ = ~My love? I do not understand.~
+@899 /*Mazzy*/ = ~We say we love each other and we spend each night in blissful passion.~
+@900 /*Mazzy*/ = ~What else is missing in our relationship?~
+@901 /*CHARNAME*/ = ~I suppose you're right. Forget I said anything.~
+@902 /*CHARNAME*/ = ~Poems, flowers, extravagant romantic gestures that show how much I mean to you!~
+@9020 /*CHARNAME*/ = ~You never give me compliments or whisper sweet nothings in my ears.~
+@903 /*Mazzy*/ = ~I love you, <CHARNAME>, and you can trust that I mean it because I do not lie.~
+@904 /*Mazzy*/ = ~I have found that the more romantic embellishment there is in someone's speech and actions, the less sincere their heart. I prefer simple truth.~
+@905 /*Mazzy*/ = ~If that is not enough then I do not know how to help you.~
+@906 /*CHARNAME*/ = ~That is enough for me.~
+@907 /*CHARNAME*/ = ~You still could be more romantic. I'll show you.~
+@9070 /*CHARNAME*/ = ~Come on, Mazzy. Let's at least try to keep the spark alive.~
+@908 /*Mazzy*/ = ~*sigh* I suppose that I should attempt to make an effort if this is important to you.~
+@909 /*Mazzy*/ = ~Very well, <CHARNAME>, show me what to do and I will try my best to sweep you off your feet.~
+
+//Talk about love.
+@910 /*CHARNAME*/ = ~Would you be interested in a philosophical discussion about love?~
+@911 /*Mazzy*/ = ~A discussion about love? In Common? I could not imagine anything more frustrating.~
+@912 /*Mazzy*/ = ~Common has but one word for all the many kinds of love in the world……~
+@913 /*Mazzy*/ = ~Most seem to have no direct translation at all and I must use several sentences to describe them.~
+@914 /*Mazzy*/ = ~The entire process is exhausting.~
+@915 /*CHARNAME*/ = ~What kinds of love are there?~
+@916 /*CHARNAME*/ = ~Do you mean that Common is not your mother tongue?~
+@917 /*CHARNAME*/ = ~Can we try to discuss love anyway?~
+@918 /*Mazzy*/ = ~Too many to list. In my own language, they're broken into broad categories, roughly translated as love of family, love of friends, love of lovers, and love of the world.~
+@919 /*Mazzy*/ = ~Perhaps we should narrow it down?~
+@920 /*CHARNAME*/ = ~Tell me about love between lovers.~
+@921 /*CHARNAME*/ = ~Let's talk about love for your family.~
+@922 /*CHARNAME*/ = ~I want to speak of the general feeling of love. For everything around us.~
+@923 /*CHARNAME*/ = ~We should speak about love between friends.~
+@924 /*Mazzy*/ = ~Goodness, no. Of course it isn't. What halfling grows up only speaking Common?~
+@925 /*Mazzy*/ = ~Common is the language used outside of the clan…… the language every race and tribe has in common.~
+@926 /*Mazzy*/ = ~It is not the language of the home and hearth, and certainly not the language of love.~
+@927 /*CHARNAME*/ = ~I'm a halfling and I only speak Common.~
+@928 /*CHARNAME*/ = ~Can we try to speak about love anyway?~
+@929 /*CHARNAME*/ = ~Could you teach me your language? Does it have a name?~
+@930 /*Mazzy*/ = ~I suppose there is no harm in trying. Which kind of love did you wish to discuss?~
+@931 /*CHARNAME*/ = ~Let's not talk about this any more today.~
+@932 /*Mazzy*/ = ~*chuckles* "Lovers" is an excellent Common term, but also an example of my problem. There are so many kinds of lovers. I do not even know where to begin.~
+@933 /*CHARNAME*/ = ~You could start with your past lovers?~
+@934 /*CHARNAME*/ = ~So how do you feel about me?~
+@935 /*Mazzy*/ = ~I have been lucky to know so many kinds. For my father, my mother, my sister, and even for Danno.~
+@936 /*Mazzy*/ = ~Maybe we should pick one.~
+@937 /*CHARNAME*/ = ~How about for your father?~
+@938 /*CHARNAME*/ = ~Your mother, Vara.~
+@939 /*CHARNAME*/ = ~What about your sister, Pala?~
+@940 /*CHARNAME*/ = ~Danno?~
+@941 /*Mazzy*/ = ~Ah, "baongubo", the love that allows the world to continue to turn.~
+@942 /*Mazzy*/ = ~The opposite of fear and hate, and the sister of kindness, this love is the true source of power in the battle between good and evil.~
+@943 /*Mazzy*/ = ~My people use it to cast charms and spells of protection and healing. In fact, that is how I channel the power of Arvoreen to heal myself and give courage to my allies.~
+@944 /*Mazzy*/ = ~The more I learn to channel baongubo, the more I can align myself with the powers of light in this world.~
+@945 /*Mazzy*/ = ~I am afraid that I know of that the least. I find it difficult to form bonds of friendship……~
+@946 /*CHARNAME*/ = ~What about me?~
+@947 /*CHARNAME*/ = ~You seem friendly with 艾黎.~
+@948 /*CHARNAME*/ = ~You and 贾希拉 get along well.~
+@949 /*CHARNAME*/ = ~Are you and 维康妮亚 not friends?~
+@950 /*CHARNAME*/ = ~You and 爱蒙 seem quite friendly……~
+@950001 /*CHARNAME*/ = ~What about 瓦里格?~
+@951 /*Mazzy*/ = ~Yes…… about that……~
+@952 /*Mazzy*/ = ~You were born a halfling, it is true, but you were raised by humans and you are human in speech, dress, and mannerisms.~
+@953 /*Mazzy*/ = ~However, I should not be one to judge. How many halflings dress in mail and dream of being paladins?~
+@954 /*CHARNAME*/ = ~Can we speak of love? What kinds of love are there?~
+@955 /*Mazzy*/ = ~Teach a non-halfling? That would be highly improper. We don't even speak our language in front of outsiders.~
+@95500 /*Mazzy*/ = ~No non-halfling must learn so much as a phrase. Come to think of it, I'm stretching tradition even by saying individual words.~
+@956 /*CHARNAME*/ = ~Well then, can we speak of love? What kinds of love are there?~
+@957 /*CHARNAME*/ = ~Even though we're together? Do halflings never teach their language to their non-halfling spouses no matter how long they're wed?~
+@958 /*Mazzy*/ = ~Of course, I would be glad to teach you! We can practice as we travel.~
+@959 /*Mazzy*/ = ~Though tradition demands that we not speak halfling in front of the big folk. No non-halfling must learn so much as a phrase, though I suppose there's no harm in individual words.~
+@960 /*Mazzy*/ = ~It will take some time, but do not be discouraged. This shall be fun!~
+@961 /*Mazzy*/ = ~My lovers? I shall have to think.~
+@962 /*Mazzy*/ = ~There was Patrick, of course, the love of my life.~
+@963 /*Mazzy*/ = ~My love for him was so intense. We call it "viettatchu", where you want a person's company as much as you want to eat or even breathe.~
+@964 /*Mazzy*/ = ~It is a hunger, passionate and all-consuming, like a fire…… and like a fire it cannot last forever. It will either burn out or transform.~
+@965 /*Mazzy*/ = ~But poor Patrick died before it could do either.~
+@966 /*Mazzy*/ = ~Before Patrick were my half-ogres, Glounder and Farooq. That love was calmer, and it blossomed during a time of peace and study.~
+@967 /*Mazzy*/ = ~*chuckle* We have a word, "bungbatcoc", which roughly translated means "a teacher in love with a former student who has become her equal."~
+@968 /*Mazzy*/ = ~It's something of a pejorative, but I've never been one overly concerned about the opinions of my neighbours…… and in this case, it is rather applicable.~
+@969 /*Mazzy*/ = ~I taught that pair to fight when they were younger, mere boys…… but when I saw them many years later, they were such…… men.~
+@970 /*Mazzy*/ = ~I was somewhat in awe of what they had become; half-ogres are always big and strong, but they had grace and skill to match.~
+@971 /*Mazzy*/ = ~So I taught them something new…… and I still love them very much.~
+@972 /*Mazzy*/ = ~Before my half-ogres was Korrich, my "thuchiendung".~
+@973 /*Mazzy*/ = ~"Thuchiendung", refers to the love for someone you have chosen to yoke yourself to forever. And as always, it can also refer to the object of that affection as well.~
+@974 /*Mazzy*/ = ~The image is of two horses, cows, or oxen, who pulling together can move far more than their individual strengths combined.~
+@975 /*Mazzy*/ = ~It also refers to a family, a home…… to a joint farm or business run by a married couple.~
+@976 /*Mazzy*/ = ~And, of course, to growing old together…… and seeing your children have children of their own.~
+@977 /*Mazzy*/ = ~It is the love for a person with whom you have chosen to experience life……~
+@978 /*Mazzy*/ = ~I felt that for Korrich,.. I swear by Arvoreen's name that I really did…… but then I left him anyway……~
+@979 /*Mazzy*/ = ~I suppose before Korrich there was Perrin, a boy I knew when growing up.~
+@980 /*Mazzy*/ = ~It was not a strong love, merely, "nongcaycokhieu", which is yet another pejorative.~
+@981 /*Mazzy*/ = ~It literally means, "The love of two young people who believe they're strongly in love only because they have nothing to compare it to."~
+@982 /*Mazzy*/ = ~This was true, of course; my love for him was shallow compared to that which followed, but it was still real.~
+@983 /*Mazzy*/ = ~He was murdered by bandits and I cried for days. This is one of the many, many reasons that I despise bandits and thugs of every form.~
+@984 /*Mazzy*/ = ~You may have noticed, <CHARNAME>, that there are few things I enjoy quite as much as a bandit ambush.~
+@985 /*Mazzy*/ = ~They attack our group believing, for some inexplicable reason, that we will be easy prey, and then we slaughter them, ending their reign of murder, rape, and general misery.~
+@986 /*Mazzy*/ = ~And with every one I kill, I think to myself, "I eliminated another one for you, Perrin……"~
+@987 /*Mazzy*/ = ~……and I smile.~
+@988 /*Mazzy*/ = ~That is it. I have told you about every lover of any importance.~
+@989 /*Mazzy*/ = ~The rest were all "totthanmat", merely friends with whom one is sexually involved.~
+@990 /*Mazzy*/ = ~Girls, mostly…… I was popular growing up and had many friends……~
+@991 /*Mazzy*/ = ~But those were careless nights of meaningless passion and pleasure…… after all, sleeping with another is usually preferable to sleeping alone……~
+@992 /*Mazzy*/ = ~And I believe that is all I shall say about that. We can talk more on this topic another day.~
+@993 /*Mazzy*/ = ~How do I feel about you? You wish to know what kind of love I feel?~
+@994 /*Mazzy*/ = ~I……~
+@995 /*Mazzy*/ = ~I'm……~
+@996 /*Mazzy*/ = ~I'm sorry, I do not know the answer.~
+@997 /*CHARNAME*/ = ~Your language has a hundred words for love and you don't know?~
+@998 /*CHARNAME*/ = ~Seriously?~
+@999 /*CHARNAME*/ = ~Hah, I don't believe I've ever seen you so speechless before.~
+@1000 /*Mazzy*/ = ~"Bidaoco", the love of a daughter for an honourable and respected father.~
+@1001 /*Mazzy*/ = ~It includes the gratitude for raising me and teaching me about the world……~
+@1002 /*Mazzy*/ = ~The pride I felt when I saw the esteem with which he was held in our community……~
+@1003 /*Mazzy*/ = ~And the knowledge that I was absolutely and completely safe under his protection.~
+@1004 /*Mazzy*/ = ~I miss him very much.~
+@1005 /*Mazzy*/ = ~For my mother, I feel "donghieng", the love of a daughter for the mother who bore her, raised her, and taught her how to be a woman by example.~
+@1006 /*Mazzy*/ = ~It includes my thanks for her inspiration as the only halfling mage I have ever met. She showed me that the impossible was not truly out of reach.~
+@1007 /*Mazzy*/ = ~She was a source of kindness and caring as far back as I remember, not to mention the source of my food and shelter.~
+@1008 /*Mazzy*/ = ~Without her, I would not be here, and she has become in many ways a close friend.~
+@1009 /*Mazzy*/ = ~We should visit her again soon.~
+@1010 /*Mazzy*/ = ~"Hoangtucong", the love of an older sister for a younger one.~
+@1011 /*Mazzy*/ = ~Pala can be trying at times, as all sisters are, but I am very protective of her.~
+@1012 /*Mazzy*/ = ~I cannot thank you enough for helping me save her life.~
+@1013 /*Mazzy*/ = ~Her love for me is "caodienvan," since I am the elder. That word implies the emulation of me as a role model rather than protectiveness.~
+@1014 /*Mazzy*/ = ~We should visit her again soon.~
+@1015 /*Mazzy*/ = ~My love for Danno is "banmausu", love for someone who brings happiness to an immediate family member.~
+@1016 /*Mazzy*/ = ~Should my mother ever remarry, I would hope to develop the same love for her husband.~
+@1017 /*Mazzy*/ = ~Pala and Danno have been inseparable for years, but their love always seemed like "totthanmat", what we call the light playful love between friends who are romantically involved.~
+@1018 /*Mazzy*/ = ~It is only recently that this has evolved into something stronger and more enduring. I don't think either has strayed into another bed for quite some time; they are thoroughly attached to one another.~
+@1019 /*Mazzy*/ = ~I expect we will be invited to their wedding within a year.~
+@1020 /*Mazzy*/ = ~Of course. How foolish of me.~
+@1021 /*Mazzy*/ = ~You are my friend, <CHARNAME>, not to mention the one who saved my life.~
+@1022 /*Mazzy*/ = ~I suppose my love for you would be "buoigiet", the love between comrades-in-arms who have fought death together. We have saved each other's lives, and we trust each other in battle.~
+@1023 /*Mazzy*/ = ~A friend who hopes to be something more? That love is reciprocal; I desire the same thing. And that makes it "dedat".~
+@1024 /*Mazzy*/ = ~I would hope that you consider us more than friends, <CHARNAME>. At the very least we are a romantic couple.~
+@1025 /*Mazzy*/ = ~Thank you for the reminder. Sometimes I think myself alone against the world.~
+@1026 /*Mazzy*/ = ~You are right, <CHARNAME>, I am quite protective of her, and she is partial to my company as well.~
+@1027 /*Mazzy*/ = ~I would consider our love for each other to be true "buoigiet", the love between warriors who would gladly die fighting back-to-back.~
+@1028 /*Mazzy*/ = ~My little cousin. She is my "buoigiet", of course. Someone I trust to fight at my back.~
+@1029 /*Mazzy*/ = ~But she is also a "dichechlam", a friend with whom I share sorrow.~
+@1030 /*Mazzy*/ = ~Each term can be used multiple ways. 贾希拉 is my dichechlam. I feel dichechlam for her. I could even say that we are dichechlam. It is all the same.~
+@1031 /*Mazzy*/ = ~维康妮亚? Well I suppose I must feel "buoigiet" for her; the love one feels for the soldier next to them. But it is also "radino", the love for someone who needs me.~
+@1032 /*Mazzy*/ = ~As a knight in shining armour, I do have a weakness for damsels in distress, even terrifying ones.~
+@1033 /*Mazzy*/ = ~维康妮亚 is a gateway to a plane of darkness. It is my duty to stand watch and defend the world from what may escape.~
+@1034 /*Mazzy*/ = ~But I also care for her, and believe that she has been misjudged. She is not as evil as humans believe her to be, and she can be saved.~
+@1035 /*Mazzy*/ = ~Silly me, how could I forget about 爱蒙. She is a good friend, though she would like to be more.~
+@1036 /*Mazzy*/ = ~I have not yet decided how I feel about that. If I decide I feel the same way then we would be "dedat", but I am not there yet.~
+@1037 /*Mazzy*/ = ~The love I feel for her is primarily "radino", a protective love for someone who looks to me for aid.~
+@1038 /*Mazzy*/ = ~I had classified 爱蒙 more as a romantic partner than a friend.~
+@1039 /*Mazzy*/ = ~Though I believe what she feels for me is "totthanmat", love for a friend with whom she is also intimately involved.~
+@1040 /*Mazzy*/ = ~I am, as usual, becoming more attached than I would prefer.~
+@1041 /*Mazzy*/ = ~My faithful squire…… Yes, I suppose I have grown to care for him.~
+@1042 /*Mazzy*/ = ~Certainly it is my duty to protect him. Therefore I declare my love for him to be "toaquy", love for someone you are sworn to protect.~
+@1043 /*Mazzy*/ = ~I…… I do not know. I have never, ever, heard of a halfling marrying a member of another race. Never.~
+@1044 /*Mazzy*/ = ~Well then, after we get married, you should teach me. There's no rule that says you can't.~
+@1045 /*Mazzy*/ = ~At a time like this, I take comfort in the fact that Common only has one word for love. You are <CHARNAME>, you saved my life, and I am fully in love with you.~
+@1046 /*Mazzy*/ = ~I do not wish to limit what we could be by naming that love now.~
+@1047 /*Mazzy*/ = ~IF we get married……~
+@1048 /*Mazzy*/ = ~……then yes. Yes, I will teach you.~
+@1049 /*Mazzy*/ = ~And that is as far as this conversation is going to go today.~
+@1050 /*CHARNAME*/ = ~Can we continue our philosophical discussion on love?~
+@1051 /*Mazzy*/ = ~Again, <CHARNAME>? Why not a discussion on botany in Dwarvish?~
+@1052 /*Mazzy*/ = ~There are so many kinds of love and this silly language has only one word for all of them.~

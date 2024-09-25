@@ -1,0 +1,105 @@
+// If you steal the necklace and don't bring it back in seven days.
+@2 /*TalosPriestessAda*/ = ~You! You are <CHARNAME>, are you not? Where is my necklace?!~
+@3 /*CHARNAME*/ = ~Me? No, I am not <CHARNAME>. Who's <CHARNAME>?~
+@4 /*CHARNAME*/ = ~Mae'Var has your necklace, but I will kill him and return it to you soon.~
+@5 /*CHARNAME*/ = ~It is right here. My apologies.~
+@6 /*CHARNAME*/ = ~I lost it. I'm sorry. Can I pay you for a new one?~
+@7 /*CHARNAME*/ = ~Wait... how did you know that I took your necklace?~
+@8 /*CHARNAME*/ = ~The necklace is mine and I'm keeping it.~
+@8001 /*CHARNAME*/ = ~Right. I'll be leaving now.~
+@9 /*TalosPriestessAda*/ = ~That is a good question. Let me read you this note:~
+@10 /*TalosPriestessAda*/ = ~"Dear Mistress Ada, High Priestess of Talos, I am Mazzy Fentan, a companion of <CHARNAME>. Mae'Var of the Shadow Thieves desired your necklace and so we stole it from you in order to infiltrate his guild. You have my sincerest apologies. I promise to bring it back within a week along with news of Mae'Var's death."~
+@11 /*TalosPriestessAda*/ = ~It has not yet been a week, but you shall receive no services from me until my necklace is returned. Now begone!~
+@12 /*TalosPriestessAda*/ = ~It has been a week, so I will ask you again. Where is my necklace?!~
+@13 /*TalosPriestessAda*/ = ~You honestly thought it would be that easy? You thought you could walk into this temple, steal a necklace from the high priestess of Talos, and I would never catch you? I will ask you again. Where is my necklace?~
+@14 /*TalosPriestessAda*/ = ~Do so quickly or suffer my wrath. You shall receive no services from me until you do. Now begone!~
+@15 /*TalosPriestessAda*/ = ~Do so or you will continue to suffer my wrath. Now begone!~
+@16 /*CHARNAME*/ = ~*leave*~
+@17 /*CHARNAME*/ = ~Maybe I will kill you instead!~
+@18 /*TalosPriestessAda*/ = ~Hah! Kill me and Talos will strike you down. Now leave, I have things to do.~
+@19 /*TalosPriestessAda*/ = ~Yes! I should kill you for this insult, but I would rather leave you alive to kill my enemies. Now be a good <PRO_GIRLBOY> and go wipe out the Shadow Thieves. Or slaughter that new guild instead; they're quite annoying as well.~
+@20 /*TalosPriestessAda*/ = ~Or the best idea yet, kill both guilds down to the last man. But whatever you decide to do, leave me now!~
+@21 /*TalosPriestessAda*/ = ~Only if you pay me its full value: Twelve gold, thirteen silver, and seventy-nine copper!~
+@22 /*CHARNAME*/ = ~I have thirteen gold. Can you give me change?~
+@23 /*CHARNAME*/ = ~Okay. Here.~
+@24 /*CHARNAME*/ = ~I don't have that much.~
+@25 /*TalosPriestessAda*/ = ~Talos does not deign to offer change! Round it up or suffer my wrath!~
+@26 /*TalosPriestessAda*/ = ~Then you will suffer. Return my necklace or give me the gold when you wish your suffering to cease. Leave now!~
+@27 /*TalosPriestessAda*/ = ~You are making a mistake. You will feel the full wrath of Talos in time. Now begone!~
+@28 /*TalosPriestessAda*/ = ~Again? What do you want now?~
+@29 /*CHARNAME*/ = ~I have your necklace here.~
+@30 /*CHARNAME*/ = ~I lost your necklace but here's 13 gold instead.~
+@31 /*CHARNAME*/ = ~Nothing. Sorry to bother you.~
+@32 /*CHARNAME*/ = ~I've decided to kill you!~
+
+//Mazzy comments if you agree to steal the necklace.
+@33 /*Mazzy*/ = ~Stealing is wrong, even from a priestess of Talos. If we can think of no other way to accomplish this task, then we must do our utmost to return the necklace afterwards.~
+
+//Priest of Cyric wants the necklace or statue.
+@34 /*Priest of Cyric*/ = ~Um... Mae'Var... sir... that ship left yesterday morning.~
+@35 /*Mae'Var*/ = ~You are interrupting me and that is a dangerous habit. Hmmm... <CHARNAME>, have it back. We have enough clutter around here.~
+@36 /*Mae'Var*/ = ~Now where was I? Ahh... yes, my petty burglars. Do not be too proud of your success. That was an easy job with little danger, though you may want to watch out for storms.~
+@37 /*Mae'Var*/ = ~You are interrupting me and that is a dangerous habit. Hmmm... <CHARNAME>, have it back. We have enough clutter around here.~
+@38 /*Mae'Var*/ = ~Now where was I? Ahh... yes, my petty burglars. Do not be too proud of your success; that was an easy job with little danger.~
+
+//Dawnmaster Kreel comments if you steal the statue and come back.
+@39 /*DawnmasterKreel*/ = ~You are the thieves who stole from this temple. You will have no service from Lathander until you return the statuette. Please leave.~
+@40 /*CHARNAME*/ = ~I have it here. My apologies for taking it but the theft was necessary.~
+@41 /*CHARNAME*/ = ~Fine. Here's the statue but I'm not sorry.~
+@42 /*CHARNAME*/ = ~I'm sorry that your statuette was stolen, but it wasn't me.~
+@43 /*CHARNAME*/ = ~How do you know that I took it?~
+@44 /*CHARNAME*/ = ~Whatever. I didn't want anything from you anyway.~
+@45 /*DawnmasterKreel*/ = ~Lathander blesses you for making amends. You will always be welcome here in the future.~
+@46 /*DawnmasterKreel*/ = ~Your actions have made amends regardless of your intent. You will always be welcome here in the future.~
+@460 /*DawnmasterKreel*/ = ~We would prefer that our relic be returned. However, if it is truly beyond your reach, a donation of 100 gold would allow us to commission another one.~
+@461 /*DawnmasterKreel*/ = ~Then it is time for you to leave. Return when you are able to make amends for your ill deed.~
+@47 /*DawnmasterKreel*/ = ~You were seen entering our temple before the statuette was taken and it was missing when you left. The statuette also carries a small part of Lathander's power and I can feel its traces on you now.~
+@48 /*Mazzy*/ = ~Also, did I not tell you? I wrote him a note saying that we took the statuette and promising its return.~
+@480 /*Clara*/ = ~Mazzy! You're not supposed to tell the mark. That's like rule number one.~
+@49 /*DawnmasterKreel*/ = ~Please return our relic. I do not have the time or the resources to seek it out myself.~
+
+//Mazzy talks if you have the statue or necklace and are in the docks.
+@50 /*Mazzy*/ = ~Let us finish our work with Mae'Var quickly, <CHARNAME>. Then we can kill him, destroy his guild, and return what we stole to the temple.~
+@51 /*Korgan*/ = ~Aye, Mazzy, that is what I like to hear! Let's kill 'em all, take their gold, an' burn th' place to the ground!~
+@52 /*Minsc*/ = ~Boo agrees with the little paladin! No more sneaking around. We must break down evil's door and smite until no evil is left to be smoten!~
+@53 /*Yoshimo*/ = ~When you are busy carving your path of death, Mazzy, do remember that this thief is on your side and would like to remain among the living.~
+@54 /*Viconia*/ = ~I do not need an excuse to slaughter a whole building full of rivvin males, and especially not for killing Shadow Thieves; two of them were foolish enough to accost me the first night I entered this city. They wanted to put me to work for them, but first they wanted to try me out for free.~
+@55 /*Viconia*/ = ~I had to finish them far too quickly and slip away before the guards arrived, but with this group we can take our time. We should flay them all, bathe in their blood, and rip their breaths from their bodies scream by scream. Their deaths should last weeks, <CHARNAME>, not the few minutes that you grant me normally.~
+@56 /*_bClara*/ = ~Um... Mazzy? When you say that you're going to kill all of the Shadow Thieves, you're not including me, right?~
+@57 /*Mazzy*/ = ~When the time comes, Clara, I shall inform you so that you may choose your side.~
+@58 /*_bClara*/ = ~Do I have to choose a side? I really don't want to die.~
+@59 /*Mazzy*/ = ~Then I recommend you choose my side and I shall do my utmost to protect you. Or if you wish, you may simply lie low while I kill your compatriots.~
+@60 /*_bClara*/ = ~But that's dangerous too. They'll know that I was with you and <CHARNAME> and might decide to take revenge. I think I'll just stay close to you. And behind you... definitely behind you.~
+@61 /*Mazzy*/ = ~<CHARNAME>, I should also mention that I left a note at the temple apologizing for our theft and promising to return the item within a week. So we had best be moving.~
+@62 /*CHARNAME*/ = ~You did WHAT?!~
+@63 /*CHARNAME*/ = ~*sigh* Of course you did. I shouldn't even be surprised.~
+@64 /*CHARNAME*/ = ~Mazzy, you do know the meaning of incognito, don't you? Because this really isn't it.~
+@65 /*CHARNAME*/ = ~That was a good idea. Hopefully we can get through this situation with our honor left intact.~
+@66 /*CHARNAME*/ = ~Then we must hurry. I would not wish to incur the wrath of the gods just yet.~
+@67 /*Mazzy*/ = ~I did not want them to worry about the theft; it would have caused them grief and anxiety, and by writing a note to explain our good intentions, I have prevented that.~
+@68 /*Mazzy*/ = ~Really, <CHARNAME>, I do not know why you are surprised. Come, let us get a move on; the <DAYNIGHTALL> is wasting.~
+@69 /*Mazzy*/ = ~I do not move incognito, <CHARNAME>. I stride forward in the light, my armour glistening in the sun as I cry out a challenge to my enemies so that they will be prepared to meet me in honourable combat upon the field of battle.~
+@70 /*Mazzy*/ = ~Really, <CHARNAME>, I do not know why you are surprised. Now let us get a move on; the <DAYNIGHTALL> is wasting.~
+
+//Journal Entries
+/*Necklace of Talos*/
+@1000 = ~Necklace of Talos~
+/*1001 in _bbaldur.tra*/
+@1002 = ~Necklace of Talos: Necklace Retained.
+
+Mae'Var gave me the necklace back. The chief thief did not truly want the item, he only wanted to test my willingness to jump at his command. He also gave me a cryptic warning about watching out for storms, I assume because Talos is a god of lightning. Perhaps I should return it.~
+@1003 = ~Necklace of Talos: All's Well That Ends Well
+
+I have made amends with Mistress Ada, the Priestess of Talos, and will once again be able to receive services at that temple.~
+
+/*Statuette of Lathander*/
+@1004 = ~Statuette of Lathander~
+@1005 = ~Statuette of Lathander: Statuette Retained.
+
+Mae'Var gave me the statuette back. The chief thief did not truly want the item, he only wanted to test my willingness to jump at his command.~
+@1006 = ~Statuette of Lathander: The Statue Returned
+
+I returned the statuette I stole to the Temple of Lathander and received Dawnmaster Kreel's thanks. The temple will once again offer me services.~
+@1007 = ~Statuette of Lathander: A Donation Made
+
+Although I did not return the temple's relic, I have made a donation to Dawnmaster Kreel as compensation and the temple of Lathander will once again offer me services.~

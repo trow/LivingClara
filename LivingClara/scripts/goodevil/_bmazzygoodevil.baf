@@ -1,0 +1,1959 @@
+IF	//Trigger for Mazzy leaving the party forever.
+	Global("_bMazzyLeavesForever","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("KickedOut","LOCALS",2)
+	GivePartyAllEquipment()
+	LeaveParty() 
+	EscapeArea()
+	Continue()
+END
+
+
+//Triggers for 1st new Korgan-Mazzy Dialogue (in _bmazzykorgansoa.d). First scripts in _bkorgangoodevil
+IF
+	Global("_bkoma","GLOBAL",1)
+	GlobalTimerExpired("_bmazzykorgantimer1","GLOBAL")
+	IfValidForPartyDialog("Korgan") 
+	IfValidForPartyDialog("Mazzy") 
+	InMyArea("Korgan")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bkoma","GLOBAL",3) //Sets to 3 instead of 2 because one dialogue was turned off.
+END
+
+//Turned off. Used to start 2nd Korgan-Mazzy dialogue.
+//IF
+//	Global("_bkoma","GLOBAL",3)
+//THEN
+//	RESPONSE #100
+//	StartDialogNoSet(Player1)
+//END
+
+//Last Korgan-Mazzy banter after he's raised (in _bmazzykorgansoa.d)
+IF	
+	Global("_BKTRM","GLOBAL",4)
+	InPartyAllowDead("Korgan") 
+	InPartyAllowDead("Mazzy") 
+THEN	
+	RESPONSE #100
+	SetGlobal("_BKTRM","GLOBAL",5)
+	SetGlobalTimer("_bmazzykorgantimer2","GLOBAL",THREE_DAYS)
+END
+
+IF	
+	Global("_BKTRM","GLOBAL",5)
+	GlobalTimerExpired("_bmazzykorgantimer2","GLOBAL")
+	IfValidForPartyDialog("Korgan") 
+	InMyArea("Korgan")
+	IfValidForPartyDialog("Mazzy") 
+	CombatCounter(0)
+THEN	
+	RESPONSE #100
+	SetGlobal("_BKTRM","GLOBAL",6)
+END
+	
+IF
+	Global("_BKTRM","GLOBAL",6)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+	
+
+IF	//Sets the trigger for Mazzy writing a note to the temples if you steal from them.
+	InParty("Mazzy")
+	OR(2)
+		PartyHasItem("MISC4Y")
+		PartyHasItem("MISC4X")
+	OR(2)
+		Global("MaeVarWork","GLOBAL",3)
+		Global("MaeVarWork","GLOBAL",1)
+	Global("_bMazzyWritesNoteToTemple","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyWritesNoteToTemple","GLOBAL",1)
+	Continue()
+END
+
+
+IF	//Starts dialogue if you have either necklace or statue for Mae'Var and you enter the docks with Mazzy in your party. (_btemplesmaevar.d)
+	AreaCheck("AR0300")
+	IfValidForPartyDialog("Mazzy")
+	Global("_bMazzyWritesNoteToTemple","GLOBAL",1)
+	!Dead("MaeVar")
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyWritesNoteToTemple","GLOBAL",2)
+END
+
+IF	
+	Global("_bMazzyWritesNoteToTemple","GLOBAL",2)
+THEN 
+RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+
+IF	//2nd Mazzy-Edwin conversation. (The scripting for the first one is in Edwin.baf). 
+	Global("_bedwinmazzy","GLOBAL",3)
+THEN
+	RESPONSE #100
+	SetGlobal("_bedwinmazzy","GLOBAL",4)
+	SetGlobalTimer("_bedwinmazzy2","GLOBAL",FIVE_DAYS)
+END
+
+IF
+	Global("_bedwinmazzy","GLOBAL",4)
+	GlobalTimerExpired("_bedwinmazzy2","GLOBAL")
+	IfValidForPartyDialog("Edwin") 
+	IfValidForPartyDialog("Mazzy") 
+	CombatCounter(0)
+	InMyArea("Edwin")
+THEN
+	RESPONSE #100
+	SetGlobal("_bedwinmazzy","GLOBAL",5)
+END
+
+IF
+	Global("_bedwinmazzy","GLOBAL",5)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+
+IF	//3rd Mazzy-Edwin conversation (actually just about Edwin). 
+	Global("_bedwinmazzy","GLOBAL",6)
+	InParty("Edwin") 
+	InParty("Mazzy")
+THEN
+	RESPONSE #100
+	SetGlobal("_bedwinmazzy","GLOBAL",7)
+	SetGlobalTimer("_bedwinmazzy3","GLOBAL",FIVE_DAYS)
+END
+
+IF
+	Global("_bedwinmazzy","GLOBAL",7)
+	GlobalTimerExpired("_bedwinmazzy3","GLOBAL")
+	IfValidForPartyDialog("Edwin") 
+	IfValidForPartyDialog("Mazzy") 
+	InMyArea("Edwin")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bedwinmazzy","GLOBAL",8)
+END
+
+IF
+	Global("_bedwinmazzy","GLOBAL",8)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+
+IF	//4th Edwin-Mazzy conversation
+	Global("_bedwinmazzy","GLOBAL",9)
+THEN
+	RESPONSE #100	
+	SetGlobal("_bedwinmazzy","GLOBAL",10)
+	SetGlobalTimer("_bedwinmazzy4","GLOBAL",TWO_DAYS)
+END
+
+IF
+	Global("_bedwinmazzy","GLOBAL",10)
+	GlobalTimerExpired("_bedwinmazzy4","GLOBAL")
+	IfValidForPartyDialog("Edwin")
+	IfValidForPartyDialog("Mazzy")
+	CombatCounter(0)
+	InMyArea("Edwin")
+THEN
+	RESPONSE #100
+	SetGlobal("_bedwinmazzy","GLOBAL",11)
+END
+
+IF
+	Global("_bedwinmazzy","GLOBAL",11)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Remaining Trigger for Mazzy/Edwin talk after his mother appears in romance, 1st in Edwin
+IF
+	Global("_bedwinmazzy","GLOBAL",13)
+	GlobalTimerExpired("_bedwinmazzy5","GLOBAL")
+	IfValidForPartyDialog("Edwin")
+	IfValidForPartyDialog("Mazzy") 
+	Global("EdwinRomanceActive","GLOBAL",2) //so this won't play if you somehow break up with him
+	InMyArea("Edwin")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bedwinmazzy","GLOBAL",14)
+END
+
+IF
+	Global("_bedwinmazzy","GLOBAL",14)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+
+
+IF 	//Triggers for 1st Mazzy-Jan dialogue. Next script in Mazzyd.baf
+	Global("_bmazzyjan","GLOBAL",0)
+	IfValidForPartyDialog("Jan") 
+	IfValidForPartyDialog("Mazzy") 
+THEN
+	RESPONSE #100
+	SetGlobal("_bmazzyjan","GLOBAL",1)
+	SetGlobalTimer("_bmjtimer1","GLOBAL",THREE_DAYS)
+END	
+
+IF	//1st Jan conversation. Previous trigger in Mazzyd.baf. Dialogue in _bmazzyjan.d
+	Global("_bmazzyjan","GLOBAL",2)
+	AreaType(DUNGEON)
+	IfValidForPartyDialog("Jan") 
+	IfValidForPartyDialog("Mazzy") 
+	CombatCounter(0)
+	InMyArea("Jan")
+THEN
+	RESPONSE #100
+	StartMovie("restdung")
+	SetGlobal("_bmazzyjan","GLOBAL",3)
+END
+
+IF
+	Global("_bmazzyjan","GLOBAL",2)
+	AreaType(OUTDOOR)
+	IfValidForPartyDialog("Jan") 
+	IfValidForPartyDialog("Mazzy") 
+	CombatCounter(0)
+	InMyArea("Jan")
+THEN
+	RESPONSE #100
+	StartMovie("rest")
+	SetGlobal("_bmazzyjan","GLOBAL",3)
+END
+
+IF
+	Global("_bmazzyjan","GLOBAL",3)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	StartDialogNoSet(Player1)
+END
+
+//Mazzy-Jaheira Talk (Timer set in Jaheira's file)
+
+IF
+	Global("_BJMChat","GLOBAL",1)
+	GlobalTimerExpired("_bmjtimer1","GLOBAL")
+	IfValidForPartyDialog("Jaheira") 
+	IfValidForPartyDialog("Mazzy") 
+	InMyArea("Jaheira")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_BJMChat","GLOBAL",2)
+END
+
+IF
+	Global("_BJMChat","GLOBAL",2)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+
+//Turns off Mazzy-Viconia's in game banter if Mazzy rescues Viconia.
+IF
+Global("_bMazzySavesViconia","GLOBAL",1)
+Global("_bBMazzy9","LOCALS",0)
+THEN
+	RESPONSE #100
+SetGlobal("BMazzy9","LOCALS",1)
+SetGlobal("_bBMazzy9","LOCALS",1)
+END
+
+IF	//Timer for 2nd Mazzy-conversation - between Mazzy & CN talk (1st in Viconia's baf file)
+	Global("_bMazzySavesViconia","GLOBAL",0)
+	Global("_bMazVicConv","GLOBAL",1)
+	!Global("_bBMazzy9","LOCALS",1)
+	Global("BMazzy9","LOCALS",1)
+	InParty("Viconia")
+	InParty("Mazzy")
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",2)
+	SetGlobalTimer("_bmazvictimer2","GLOBAL",ONE_DAY)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",2)
+	GlobalTimerExpired("_bmazvictimer2","GLOBAL")
+	IfValidForPartyDialog("Viconia") 
+	IfValidForPartyDialog("Mazzy")
+	InMyArea("Viconia")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",3)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",3)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+IF	//Timer for 3rd Mazzy-Viconia talk (next timer in Viconia baf)
+	Global("_bMazVicConv","GLOBAL",4)
+	Global("_bMazzySavesViconia","GLOBAL",0)
+	InParty("Viconia")
+	InParty("Mazzy") 
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",5)
+	SetGlobalTimer("_bmazvictimer3","GLOBAL",THREE_DAYS)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",5)
+	GlobalTimerExpired("_bmazvictimer3","GLOBAL")
+	IfValidForPartyDialog("Viconia") 
+	IfValidForPartyDialog("Mazzy")
+	InMyArea("Viconia")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",6)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",6)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+
+IF //5th Viconia talk (4th in Viconia's file)
+	Global("_bMazVicConv","GLOBAL",10)
+	InParty("Viconia")
+	InParty("Mazzy")
+	Global("_bMazzyVicFriends","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",11)
+	SetGlobalTimer("_bmazvictimer5","GLOBAL",THREE_DAYS)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",11)
+	GlobalTimerExpired("_bmazvictimer5","GLOBAL")
+	IfValidForPartyDialog("Viconia") 
+	IfValidForPartyDialog("Mazzy")
+	InMyArea("Viconia")
+	CombatCounter(0)
+	Global("_bMazzyVicFriends","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",12)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",12)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//6th Conversation - next trigger in d script
+IF
+	Global("_bMazVicConv","GLOBAL",13)
+	Global("_bMazzyVicFriends","GLOBAL",1)
+	IfValidForPartyDialog("Viconia") 
+	IfValidForPartyDialog("Mazzy")
+	InMyArea("Viconia")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",14)
+	SetGlobalTimer("_bmazvictimer6","GLOBAL",THREE_DAYS)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",15)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//7th Conversation
+IF
+	Global("_bMazVicConv","GLOBAL",16)
+	InParty("Viconia")
+	InParty("Mazzy")
+	Global("_bMazzyVicFriends","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",17)
+	SetGlobalTimer("_bmazvictimer7","GLOBAL",TWO_DAYS)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",17)
+	GlobalTimerExpired("_bmazvictimer7","GLOBAL")
+	IfValidForPartyDialog("Viconia") 
+	IfValidForPartyDialog("Mazzy")
+	InMyArea("Viconia")
+	CombatCounter(0)
+	Global("_bMazzyVicFriends","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",18)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",18)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//9th conversation - duel
+IF
+	Global("_bMazVicConv","GLOBAL",22)
+	IfValidForPartyDialog("Viconia")
+	IfValidForPartyDialog("Mazzy")
+	PartyRested()
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",23)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",23)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//10th conversation - post duel
+IF
+	Global("_bMazVicConv","GLOBAL",24)
+	IfValidForPartyDialog("Viconia") 
+	IfValidForPartyDialog("Mazzy")
+	InMyArea("Viconia")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",25)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",25)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Bath Talk 1- no romance (1st trigger in d script)
+IF
+	Global("_bMazzyVicFriends","GLOBAL",2)
+	IfValidForPartyDialog("Viconia") 
+	IfValidForPartyDialog("Mazzy")
+	InMyArea("Viconia")
+	CombatCounter(0)
+	Global("_bMVBathTalk","GLOBAL",1)
+	Global("_bMazzyRomance","GLOBAL",0)
+	!Global("SleptViconia","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Floating Text
+IF
+	Global("_bMVBathTalk","GLOBAL",2)
+	IfValidForPartyDialog("Viconia")
+	IfValidForPartyDialog("Mazzy")
+THEN
+	RESPONSE #100
+	UndoExplore()
+	AdvanceTime(TEN_MINUTES)
+	ActionOverride(Player1,DisplayStringNoNameHead(Player1,@1)) /*A short time later.*/
+	SetGlobal("_bMVBathTalk","GLOBAL",3)
+	Continue()
+END
+
+IF
+	Global("_bMVBathTalk","GLOBAL",3)
+	IfValidForPartyDialog("Viconia")
+	IfValidForPartyDialog("Mazzy")
+THEN
+	RESPONSE #100
+	Wait(2)
+	StartDialogNoSet(Player1)
+END
+
+//12th Conversation
+IF
+	Global("_bMazVicConv","GLOBAL",29)
+	InParty("Viconia")
+	InParty("Mazzy")
+	Global("_bMazzyVicFriends","GLOBAL",2)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",30)
+	SetGlobalTimer("_bmazvictimer10","GLOBAL",THREE_DAYS)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",30)
+	GlobalTimerExpired("_bmazvictimer10","GLOBAL")
+	IfValidForPartyDialog("Viconia") 
+	IfValidForPartyDialog("Mazzy")
+	InMyArea("Viconia")
+	PartyRested()
+	CombatCounter(0)
+	Global("_bMazzyVicFriends","GLOBAL",2)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",31)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",31)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//14th Conversation
+IF
+	Global("_bMazVicConv","GLOBAL",35)
+	InParty("Viconia")
+	InParty("Mazzy")
+	Global("_bMazzyVicFriends","GLOBAL",2)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",36)
+	SetGlobalTimer("_bmazvictimer12","GLOBAL",TWO_DAYS)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",36)
+	GlobalTimerExpired("_bmazvictimer12","GLOBAL")
+	IfValidForPartyDialog("Viconia") 
+	IfValidForPartyDialog("Mazzy")
+	InMyArea("Viconia")
+	CombatCounter(0)
+	Global("_bMazzyVicFriends","GLOBAL",2)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazVicConv","GLOBAL",37)
+END
+
+IF
+	Global("_bMazVicConv","GLOBAL",37)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+
+
+//ClaraSex scene trigger (no romance version)
+IF
+	Global("_bSleepsWithClara","GLOBAL",4) 
+	InMyArea("_bClara")
+	IfValidForPartyDialog("Mazzy")
+	Global("_bSWCM","GLOBAL",0)
+	!Global("_BMazzyFriendship","GLOBAL",3)
+	!Global("_BMazzyTQuest","GLOBAL",1) 
+	!Global("_BMazzyTQuest","GLOBAL",2)
+	!Global("_BMazzyRomance","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//ClaraSex scene trigger (romance version)
+IF
+	Global("_bSleepsWithClara","GLOBAL",4) 
+	InMyArea("_bClara")
+	IfValidForPartyDialog("Mazzy") 
+	Global("_bSWCM","GLOBAL",0)
+	!Global("_BMazzyFriendship","GLOBAL",3)
+	Global("_BMazzyRomance","GLOBAL",1)
+	OR(2)
+	Global("_BMazzyTQuest","GLOBAL",1) 
+	Global("_BMazzyTQuest","GLOBAL",2)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Prelate conversation trigger for Mazzy joining order
+IF
+	Global("_bMazzyJoinOrder","GLOBAL",4)
+	IfValidForPartyDialog("Mazzy") 
+	IfValidForPartyDialog("Keldorn") 
+	InMyArea("Keldorn")
+	CombatCounter(0)
+	Global("_bMazzyPrelateTalkFix","GLOBAL",0)
+THEN
+	RESPONSE #100
+	MoveToObject("hprelate")
+	SetGlobal("_bMazzyPrelateTalkFix","GLOBAL",1)
+END
+
+IF
+	Global("_bMazzyPrelateTalkFix","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride("hprelate",StartDialogueNoSet(Player1))
+END
+
+//Friendship Talks
+IF
+	InParty("Mazzy") 
+	Global("_bMFT","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobalTimer("_bmazfriend1","GLOBAL",TWO_DAYS)
+	SetGlobal("_bMFT","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Mazzy") 
+	Global("_bMFT","GLOBAL",1)
+	GlobalTimerExpired("_bmazfriend1","GLOBAL")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMFT","GLOBAL",2)
+END
+
+IF
+	Global("_bMFT","GLOBAL",2)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	StartDialogNoSet(Player1)
+END
+
+//Second Talk Timer - About Imoen
+IF
+	InParty("Mazzy") 
+	Global("_bMFT","GLOBAL",3)
+	Global("_BMazzyFriendship","GLOBAL",1)
+	GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
+	Global("C#IM_ImoenStays","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobalTimer("_bmazfriend2","GLOBAL",FIVE_DAYS)
+	SetGlobal("_bMFT","GLOBAL",4)
+END
+
+IF
+	IfValidForPartyDialog("Mazzy") 
+	Global("_bMFT","GLOBAL",4)
+	GlobalTimerExpired("_bmazfriend2","GLOBAL")
+	Global("_BMazzyFriendship","GLOBAL",1)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMFT","GLOBAL",5)
+END
+
+IF
+	Global("_bMFT","GLOBAL",5)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	StartDialogNoSet(Player1)
+END
+
+IF//This code makes it so you skip Imoen's talk if after chapter 3 or Imoen forever installed
+	IfValidForPartyDialog("Mazzy") 
+	Global("_bMFT","GLOBAL",3)
+	Global("_BMazzyFriendship","GLOBAL",1)
+	OR(2)
+	GlobalGT("Chapter","GLOBAL",%bg2_chapter_3%)
+	!Global("C#IM_ImoenStays","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMFT","GLOBAL",6)
+END
+
+//Third Talk Timer - Irenicus
+IF
+	InParty("Mazzy") 
+	Global("_bMFT","GLOBAL",6)
+	Global("_BMazzyFriendship","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobalTimer("_bmazfriend3","GLOBAL",TWO_DAYS)
+	SetGlobal("_bMFT","GLOBAL",7)
+END
+
+IF
+	IfValidForPartyDialog("Mazzy") 
+	Global("_bMFT","GLOBAL",7)
+	GlobalTimerExpired("_bmazfriend3","GLOBAL")
+	CombatCounter(0)
+	Global("_BMazzyFriendship","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMFT","GLOBAL",8)
+END
+
+IF
+	Global("_bMFT","GLOBAL",8)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	StartDialogNoSet(Player1)
+END
+
+//Jon Dream Talk
+IF
+	InParty("Mazzy")
+	GlobalTimerExpired("JonDream2","GLOBAL")
+	Global("HadJonDream2","GLOBAL",0)
+	Global("_bMDT1","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMDT1","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Mazzy")
+	Global("_BMazzyFriendship","GLOBAL",1)
+	Global("HadJonDream2","GLOBAL",1)
+	Global("_bMDT1","GLOBAL",1)
+	GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
+	PartyRested()
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMDT1","GLOBAL",2)
+END
+
+IF
+	Global("_bMDT1","GLOBAL",2)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//2nd Dream Talk - Does not Require First
+IF
+	InParty("Mazzy") 
+	Global("_BMazzyFriendship","GLOBAL",1)
+	Global("HadJonDream2","GLOBAL",1)
+	GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
+	Global("_bMDT2","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMDT2","GLOBAL",1)
+	SetGlobalTimer("_bmazdream1","GLOBAL",ONE_DAY)
+END
+
+IF
+	IfValidForPartyDialog("Mazzy") 
+	Global("_bMDT2","GLOBAL",1)
+	GlobalTimerExpired("_bmazdream1","GLOBAL")
+	Global("_BMazzyFriendship","GLOBAL",1)
+	PartyRested()
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	SetGlobal("_bMDT2","GLOBAL",2)
+END
+
+IF
+	Global("_bMDT2","GLOBAL",2)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	StartDialogNoSet(Player1)
+END
+
+//Slum Talk. Weirdly, no friendship required. Not playing music b/c it's more like an interjection.
+IF
+	AreaCheck("AR0400")
+	IfValidForPartyDialog("Mazzy")
+	Global("_bMTAS","GLOBAL",0)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMTAS","GLOBAL",1)
+END
+
+IF
+	Global("_bMTAS","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Shade Lord Talk in Underdark - first trigger in dream script
+IF
+	Global("_bmazzyShadeLT","GLOBAL",1)
+	Global("_BMazzyFriendship","GLOBAL",1)
+	IfValidForPartyDialog("Mazzy") 
+	AreaCheck("AR2100")
+	Global("_bmazzyShadeLTExtra","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bmazzyShadeLTExtra","GLOBAL",1)
+END
+
+IF
+	Global("_bmazzyShadeLT","GLOBAL",1)
+	Global("_BMazzyFriendship","GLOBAL",1)
+	IfValidForPartyDialog("Mazzy") 
+	AreaCheck("AR2100")
+	Global("_bmazzyShadeLTExtra","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("_bmazzyShadeLTExtra","GLOBAL",2)
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	ActionOverride(Player1,SetDialog("Player1"))
+END
+
+IF
+	Global("_bmazzyShadeLTExtra","GLOBAL",2)
+	Global("_bmazzyShadeLT","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Code to kill Mazzy if fails "Shade Lord Survive"
+IF
+	Global("_bMazzySLSurvive","GLOBAL",0)
+	IfValidForPartyDialog("Mazzy") 
+	Global("_bmazzyShadeLT","GLOBAL",2)
+	Global("_bMazzyBeatShadeLord","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzySLSurvive","GLOBAL",3)
+	SetGlobal("_bMazzyBeatShadeLord","GLOBAL",2)
+	Continue()
+END
+
+IF
+	Global("_bMazzySLSurvive","GLOBAL",3)
+	Global("_bMazzyBeatShadeLord","GLOBAL",2)
+	Global("_bMazzySLSurviveExtra","GLOBAL",0)
+THEN
+	RESPONSE #100
+	Kill("Mazzy")
+	SetGlobal("_bMazzySLSurviveExtra","GLOBAL",1)
+	SetGlobal("_bMazzySLSurvive","GLOBAL",1)
+END
+
+//Last Shade Lord talk trigger - after rested or raised
+IF
+	IfValidForPartyDialog("Mazzy") 
+	Global("_bmazzyShadeLT","GLOBAL",2)
+	CombatCounter(0)
+	Global("_bMazzySLSurvive","GLOBAL",1)
+	Global("_bMazzyBeatShadeLordExtra","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyBeatShadeLordExtra","GLOBAL",1)
+	SetGlobal("_bMazzyBeatShadeLord","GLOBAL",2)
+END
+
+IF
+	Global("_bMazzyBeatShadeLordExtra","GLOBAL",1)
+	Global("_bmazzyShadeLT","GLOBAL",2)
+	Global("_bMazzyBeatShadeLord","GLOBAL",2)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+
+//Irenicus/Elf Queen Talk
+IF
+	IfValidForPartyDialog("Mazzy") 
+	Global("_BMazzyFriendship","GLOBAL",1)
+	Global("DerminJob","GLOBAL",1)
+	Global("_bMEQT","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMEQT","GLOBAL",1)
+	SetGlobalTimer("_bmazelf1","GLOBAL",ONE_HOUR)
+END
+
+IF
+	IfValidForPartyDialog("Mazzy") 
+	Global("_bMEQT","GLOBAL",1)
+	GlobalTimerExpired("_bmazelf1","GLOBAL")
+	CombatCounter(0)
+	Global("_BMazzyFriendship","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMEQT","GLOBAL",2)
+END
+
+IF
+	Global("_bMEQT","GLOBAL",2)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+
+//Code to make sure you took Mazzy to Underdark for romance
+IF
+	InParty("Mazzy")
+	AreaCheck("AR2100")
+	Global("ShadowLordDead","GLOBAL",1) //so you've already done Mazzy's temple quest
+	Global("_bMazzyGriefTime","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyGriefTime","GLOBAL",1)
+	Continue()
+END
+
+//Romance courtship trigger
+IF
+	IfValidForPartyDialog("Mazzy") 
+	Global("_BMazzyFriendship","GLOBAL",1)
+	!Global("BMazzy7","LOCALS",1)
+	Global("_BMazzyCourt","GLOBAL",0)
+	Global("_bMazzyGriefTime","GLOBAL",1)
+	AreaType(CITY)
+	Global("Chapter","GLOBAL",%bg2_chapter_6%)
+	OR(3)
+	!Dead("aran") //Just to be safe.
+	!Dead("MaeVar")
+	!Dead("c6bodhi")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_BMazzyCourt","GLOBAL",1)
+END
+
+IF
+	Global("_BMazzyCourt","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	StartDialogNoSet(Player1)
+END
+
+//Viconia talk - romance quest started - 1st trigger in d file
+IF
+	Global("_bMazzyVicFriends","GLOBAL",2)
+	IfValidForPartyDialog("Viconia")
+	IfValidForPartyDialog("Mazzy")
+	Global("_bMVCNLoveTalk","GLOBAL",1)
+	Global("_bMazzyRomance","GLOBAL",1)
+	Global("_bMazNotVic","GLOBAL",0)
+	GlobalLT("_bMazzyTQuest","GLOBAL",4)
+	GlobalLT("_bMazzyVQuest","GLOBAL",4)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	StartDialogNoSet(Player1)
+END
+
+
+//Triggers to end other romances if you choose Mazzy - individual globals for future dialogues
+IF 
+	Global("PGNaliaRomanceActive","GLOBAL",2)
+	Global("_bMazNotNalia","GLOBAL",0)
+	Global("_bCNChoseMazzy","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("PGNaliaRomanceActive","GLOBAL",3) 
+	SetGlobal("_bMazNotNalia","GLOBAL",1)
+END
+
+IF 
+	Global("EdwinRomanceActive","GLOBAL",2)
+	Global("_bMazNotEdwin","GLOBAL",0)
+	Global("_bCNChoseMazzy","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("EdwinRomanceActive","GLOBAL",3) 
+	SetGlobal("_bMazNotEdwin","GLOBAL",1)
+END
+
+IF 
+	Global("B!KeldornRA","GLOBAL",2)
+	Global("_bMazNotKeld","GLOBAL",0)
+	Global("_bCNChoseMazzy","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("B!KeldornRA","GLOBAL",3) 
+	SetGlobal("_bMazNotKeld","GLOBAL",1)
+END
+
+IF 
+	Global("YoshimoRomanceActive","GLOBAL",2) 
+	!Dead("Yoshimo")
+	Global("_bMazNotYosh","GLOBAL",0)
+	Global("_bCNChoseMazzy","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("YoshimoRomanceActive","GLOBAL",3) 
+	SetGlobal("_bMazNotYosh","GLOBAL",1)
+END
+
+IF 
+	Global("AerieRomanceActive","GLOBAL",2) 
+	Global("_bMazNotAerie","GLOBAL",0)
+	Global("_bCNChoseMazzy","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("AerieRomanceActive","GLOBAL",3) 
+	SetGlobal("_bMazNotAerie","GLOBAL",1)
+END
+
+IF 
+	Global("JaheiraRomanceActive","GLOBAL",2) 
+	Global("_bMazNotJaheira","GLOBAL",0)
+	Global("_bCNChoseMazzy","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("JaheiraRomanceActive","GLOBAL",3) 
+	SetGlobal("_bMazNotJaheira","GLOBAL",1)
+END
+
+IF 
+	Global("ViconiaRomanceActive","GLOBAL",2) 
+	Global("_bMazNotVic","GLOBAL",0)
+	Global("_bCNChoseMazzy","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("ViconiaRomanceActive","GLOBAL",3) 
+	SetGlobal("_bMazNotVic","GLOBAL",1)
+END
+
+IF 
+	Global("NeeraRomanceActive","GLOBAL",2) 
+	Global("_bMazNotNeera","GLOBAL",0)
+	Global("_bCNChoseMazzy","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("NeeraRomanceActive","GLOBAL",3) 
+	SetGlobal("_bMazNotNeera","GLOBAL",1)
+END
+
+IF 
+	Global("RasaadRomanceActive","GLOBAL",2) 
+	Global("_bMazNotRasaad","GLOBAL",0)
+	Global("_bCNChoseMazzy","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("RasaadRomanceActive","GLOBAL",3) 
+	SetGlobal("_bMazNotRasaad","GLOBAL",1)
+END
+
+IF 
+	Global("DornRomanceActive","GLOBAL",2) 
+	Global("_bMazNotDorn","GLOBAL",0)
+	Global("_bCNChoseMazzy","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("DornRomanceActive","GLOBAL",3) 
+	SetGlobal("_bMazNotDorn","GLOBAL",1)
+END
+
+IF 
+	Global("HexxatRomanceActive","GLOBAL",2) 
+	Global("_bMazNotHex","GLOBAL",0)
+	Global("_bCNChoseMazzy","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("HexxatRomanceActive","GLOBAL",3) 
+	SetGlobal("_bMazNotHex","GLOBAL",1)
+END
+
+IF 
+	Global("AnomenRomanceActive","GLOBAL",2) 
+	Global("_bMazNotAnomen","GLOBAL",0)
+	Global("_bCNChoseMazzy","GLOBAL",1)
+	!Global("AnomenIsKnight","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("AnomenRomanceActive","GLOBAL",3) 
+	SetGlobal("_bMazNotAnomen","GLOBAL",1)
+END
+
+
+//Trigger for Mazzy to talk during optional Thief Quest Line (1st is if you said yes. 2nd is if you said no)
+IF
+	IfValidForPartyDialog("Mazzy") 
+	Global("D0Maevar2","GLOBAL",34)
+	Global("_bMazzyTQuest","GLOBAL",1)
+	Global("_bMazzyRomance","GLOBAL",1)
+	Global("_bToldBregaYes","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bToldBregaYes","GLOBAL",1)
+END
+
+IF
+	Global("_bToldBregaYes","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+IF
+	IfValidForPartyDialog("Mazzy") 
+	Global("D0Maevar2","GLOBAL",33)
+	Global("_bMazzyTQuest","GLOBAL",1)
+	Global("_bMazzyRomance","GLOBAL",1)
+	Global("_bToldBregaNo","GLOBAL",0)
+	!Global("_bToldBregaYes","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("_bToldBregaNo","GLOBAL",1)
+END
+
+IF
+	Global("_bToldBregaNo","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Mazzy romance code to move quest forward/journal entry once thief leaders are dead
+IF
+	InParty("Mazzy")
+	Global("_bMazzyTQuest","GLOBAL",2)
+	Dead("aran")
+	Dead("MaeVar")
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyTQuest","GLOBAL",3)
+	AddJournalEntry(@1024,QUEST) /*Mazzy's Heart – The Shadow Thieves
+
+We have defeated the leaders of the Shadow Thieves after a long and bloody battle. The organization is broken and scattered, though a few survivors may have gone to ground. We should return to Council Secretary Ewenn to inform him that the deed is done.*/
+	Continue()
+END
+
+//Mazzy romance code to move quest forward/journal entry once Bodhi is dead
+IF
+	InParty("Mazzy")
+	Global("_bMazzyVQuest","GLOBAL",2)
+	Dead("c6bodhi")
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyVQuest","GLOBAL",3)
+	AddJournalEntry(@1027,QUEST) /*Mazzy's Heart – The Vampires
+	
+We have defeated Bodhi at last, breaking their power and regaining Imoen's soul. We should return to Council Secretary Ewenn to inform him that the deed is done.*/
+	Continue()
+END
+
+//Trigger for post-quest romance conversation
+IF
+	IfValidForPartyDialog("Mazzy") 
+	Global("_bMazzyRomance","GLOBAL",1)
+	Global("_bMazzyCourted","GLOBAL",0)
+	OR(2)
+	Global("_bMazzyTQuest","GLOBAL",4)
+	Global("_bMazzyVQuest","GLOBAL",4)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyCourted","GLOBAL",1)
+END
+
+IF
+	Global("_bMazzyCourted","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+
+//Inn Conversation
+IF
+	IfValidForPartyDialog("Mazzy") 
+	Global("_bMazzyRomance","GLOBAL",1)
+	Global("_bMazzyCourted","GLOBAL",2)
+	OR(11)
+		AreaCheck("AR0021")        // City Gates - Crooked Crane 1st floor
+		AreaCheck("AR0313")        // Docks - Sea's Bounty 1st floor
+		AreaCheck("AR0406")        // Slums - Copper Coronet
+		AreaCheck("AR0509")        // Bridge - Five Flagons 1st floor
+		AreaCheck("AR0513")        // Bridge - Calbor's Inn 1st floor
+		AreaCheck("AR0522")        // Bridge - Five Flagons 1st floor (stronghold)
+		AreaCheck("AR0704")        // Waukeen's Promenade - Mithrest Inn
+		AreaCheck("AR0709")        // Waukeen's Promenade - Den of the Seven Vales
+		AreaCheck("AR1105")        // Umar Hills - Imnesvale Inn
+		AreaCheck("AR1602")        // Brynnlaw - Brynnlaw Inn
+		AreaCheck("AR2010")        // Trademeet - Vytori's Pub
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyCourted","GLOBAL",3)
+	SetGlobal("_brestcheck","GLOBAL",2)
+END
+
+IF
+	Global("_bMazzyCourted","GLOBAL",3)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	StartDialogNoSet(Player1)
+END
+
+//Post-rest Inn Conversation
+IF
+	IfValidForPartyDialog("Mazzy") 
+	Global("_bMazzyCourted","GLOBAL",4)
+	Global("_bMazzyRomance","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyCourted","GLOBAL",5)
+	ApplySpellRES("_BTIRED","Mazzy")
+	ApplySpellRES("_BTIRED",Player1)
+END
+
+IF
+	Global("_bMazzyCourted","GLOBAL",5)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+
+//Code so that if you screw up the Mazzy Friendship, it will also turn off the Romance. Just to be safe.
+IF 
+	Global("_BMazzyFriendship","GLOBAL",3)
+	OR(2)
+	Global("_bMazzyRomance","GLOBAL",1)
+	Global("_bMazzyRomance","GLOBAL",2)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyRomance","GLOBAL",3)
+END
+
+//Trigger for friendship fix conversation w/ & w/o romance (can only fix once)
+IF
+	InParty("Mazzy") 
+	Global("_BMazzyFriendship","GLOBAL",3)
+	GlobalLT("_bMazzyForgives","GLOBAL",2)
+	Global("_bCNNoFix","GLOBAL",0)
+	Global("_bMazzyForgivesExtra","GLOBAL",0)
+THEN	
+	RESPONSE #100
+	SetGlobal("_bMazzyForgivesExtra","GLOBAL",1)
+	SetGlobalTimer("_bMazzyForgivesTimer","GLOBAL",TEN_MINUTES)
+END
+
+IF
+	GlobalTimerExpired("_bMazzyForgivesTimer","GLOBAL")
+	IfValidForPartyDialog("Mazzy") 
+	Global("_BMazzyFriendship","GLOBAL",3)
+	GlobalLT("_bMazzyForgives","GLOBAL",2)
+	Global("_bCNNoFix","GLOBAL",0)
+	Global("_bMazzyForgivesExtra","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyForgivesExtra","GLOBAL",2)
+END
+
+IF
+	Global("_bMazzyForgivesExtra","GLOBAL",2)
+	Global("_bCNNoFix","GLOBAL",0)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+
+//Trigger for Romance talk right before you go fight Irenicus - should not affect existing tree talks
+IF
+	IfValidForPartyDialog("Mazzy") 
+	Global("_bMazzyRomance","GLOBAL",2)
+	AreaCheck("AR2805")
+	Global("_bMazzyFTT","GLOBAL",0)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyFTT","GLOBAL",1)
+END
+
+IF
+	Global("_bMazzyFTT","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	StartDialogNoSet(Player1)
+END
+
+
+//Recurring Talks Timer
+IF
+	InParty("Mazzy")
+	Global("_BMazzyFriendship","GLOBAL",1)
+	Global("_bMazzyTalk","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyTalk","GLOBAL",1)
+	SetGlobalTimer("_bTalkCycle","GLOBAL",FOUR_DAYS)
+END
+
+IF
+	IfValidForPartyDialog("Mazzy")
+	Global("_BMazzyFriendship","GLOBAL",1)
+	Global("_bMazzyTalk","GLOBAL",1)
+	GlobalTimerExpired("_bTalkCycle","GLOBAL")
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyTalk","GLOBAL",5)
+	SetGlobalTimer("_bTalkCycle","GLOBAL",ONE_HOUR)
+END
+
+IF
+	IfValidForPartyDialog("Mazzy")
+	Global("_BMazzyFriendship","GLOBAL",1)
+	Global("_bMazzyTalk","GLOBAL",5)
+	GlobalTimerExpired("_bTalkCycle","GLOBAL")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyTalk","GLOBAL",2)
+END
+
+IF
+	Global("_bMazzyTalk","GLOBAL",2)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Post-Sex Timer for RT
+IF
+	InParty("Mazzy")
+	Global("_bMazzyRomance","GLOBAL",2)
+	Global("_bMazzySex","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzySex","GLOBAL",1)
+	SetGlobalTimer("_bMazSexTimer","GLOBAL",THREE_DAYS)
+END
+
+//Jan Apology Trigger
+IF
+	IfValidForPartyDialog("Mazzy")
+	IfValidForPartyDialog("Jan")
+	Global("_bCNChoosesJan3","GLOBAL",1)
+	Global("_bJanAwesome","GLOBAL",0)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bJanAwesome","GLOBAL",1)
+END
+
+IF
+	Global("_bJanAwesome","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//HaerDalis Apology Trigger
+IF
+	IfValidForPartyDialog("Mazzy")
+	IfValidForPartyDialog("HaerDalis")
+	Global("_bCNChoosesHD3","GLOBAL",1)
+	Global("_bHDAwesome","GLOBAL",0)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	ApplySpellRES("_BTIRED","HaerDalis")
+	SetGlobal("_bHDAwesome","GLOBAL",1)
+END
+
+IF
+	Global("_bHDAwesome","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Pause in Recurring Talks Timer
+IF 
+	Global("_bMazzySilent","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyTalk","GLOBAL",3)
+	SetGlobal("_bMazzySilent","GLOBAL",2)
+	SetGlobalTimer("_bMazQuiet","GLOBAL",FOURTEEN_DAYS)
+END
+
+IF
+	Global("_bMazzySilent","GLOBAL",2)
+	GlobalTimerExpired("_bMazQuiet","GLOBAL")
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyTalk","GLOBAL",0)
+	SetGlobal("_bMazzySilent","GLOBAL",0)
+END
+
+//Wake Up Trigger post Vic 3Some
+IF
+	Global("_bMazzyVicFriends","GLOBAL",2)
+	PartyRested()
+	IfValidForPartyDialog("Viconia")
+	IfValidForPartyDialog("Mazzy")
+	Global("_bMazzyRomance","GLOBAL",2)
+	Global("_bMVSexTalk3","GLOBAL",2)
+	OR(2)
+	Global("_bVicJoin","GLOBAL",1)
+	Global("_bVicWatch","GLOBAL",1)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMVSexTalk3","GLOBAL",3)
+END
+
+IF
+	Global("_bMVSexTalk3","GLOBAL",3)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Imoen & Mazzy Bath Fade/Floating Text
+IF
+	IfValidForPartyDialog("Imoen2") 
+	IfValidForPartyDialog("Mazzy")
+	Global("_bIMBathTalk","GLOBAL",2)
+THEN
+	RESPONSE #100
+	FadeToColor([20.0],0)
+	SetGlobal("_bIMBathTalk","GLOBAL",3)
+END
+
+IF
+	Global("_bIMBathTalk","GLOBAL",3)
+THEN
+	RESPONSE #100
+	AdvanceTime(TEN_MINUTES)
+	ActionOverride(Player1,DisplayStringNoNameHead(Player1,@1)) /*A short time later.*/
+	Wait(2)
+	SetGlobal("_bIMBathTalk","GLOBAL",4)
+END
+
+IF
+	Global("_bIMBathTalk","GLOBAL",4)
+	OR(3)
+	AreaCheck("AR1602") // Brynnlaw - Brynnlaw Inn
+	AreaCheck("AR2202") //Ust Natha Inn 1st Floor
+	AreaCheck("AR2203") //Ust Natha Inn 2nd Floor
+THEN
+	RESPONSE #100
+	UndoExplore()
+	StartDialogNoSet(Player1)
+END
+
+IF
+	Global("_bIMBathTalk","GLOBAL",4)
+	Detect("udsvir04") //Grey gnome innkeeper in Underdark	
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+
+//All the pre-romance talk triggers
+IF
+	InParty("Imoen2") 
+	InParty("Mazzy")
+	Global("_bImoenMazzyRomance","GLOBAL",1)
+	Global("bImMazCrushTalk","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("bImMazCrushTalk","GLOBAL",1)
+	SetGlobalTimer("_bImMaz3","GLOBAL",ONE_DAY)
+END
+
+IF
+	IfValidForPartyDialog("Imoen2") 
+	IfValidForPartyDialog("Mazzy")
+	Global("bImMazCrushTalk","GLOBAL",1)
+	GlobalTimerExpired("_bImMaz3","GLOBAL")
+	!Global("MRSleptImoen","GLOBAL",1)
+	Global("_bMazzyRomance","GLOBAL",0)
+	CombatCounter(0)
+	OR(2)
+	Global("ImoenRomanceActive","GLOBAL",1)
+	Global("_BMazzyFriendship","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("bImMazCrushTalk","GLOBAL",2)
+END
+
+IF
+	Global("bImMazCrushTalk","GLOBAL",2)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+
+//Code to make Guard Captain Appear if doesn't existing
+IF
+	AreaCheck("AR0332")
+	!InMyArea("docsol03")
+THEN
+	RESPONSE #100
+	CreateCreature("docsol03",[457.366],S)
+	Continue()
+END
+
+
+//Timer for post-slayer talk
+IF 
+	InParty("Mazzy")
+	GlobalGT("SelfTalk","GLOBAL",2) //First slayer transformation is over
+	AreaCheck("AR1514")
+	Global("_bMazSlayer","GLOBAL",0)
+	Global("_BMazzyFriendship","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobalTimer("_bMSlayer","GLOBAL",TWO_HOURS)
+	SetGlobal("_bMazSlayer","GLOBAL",1)
+END
+
+IF 
+	IfValidForPartyDialog("Mazzy")
+	Global("_bMazSlayer","GLOBAL",1)
+	GlobalTimerExpired("_bMSlayer","GLOBAL")
+	Global("_BMazzyFriendship","GLOBAL",1)
+	!Global("drowTalk","GLOBAL",2) //Second slayer transformation isn't starting (sets to 4 when finished)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazSlayer","GLOBAL",2)
+END
+
+IF 
+	Global("_bMazSlayer","GLOBAL",2)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("_bMaz1")
+	StartDialogNoSet(Player1)
+END
+
+
+//Trigger for Minsc Talk - 1st Trigger in Minsc
+IF
+	GlobalTimerExpired("_bMazzyMinscTime","GLOBAL")
+	Global("_bMazzyMinscTalk","GLOBAL",1)
+	IfValidForPartyDialog("Minsc")
+	IfValidForPartyDialog("Mazzy")
+	CombatCounter(0)
+	InMyArea("Minsc")
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyMinscTalk","GLOBAL",2)
+END
+
+IF
+	Global("_bMazzyMinscTalk","GLOBAL",2)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Trigger for Minsc-Jan Talk - 1st Trigger in Minsc
+IF
+	GlobalTimerExpired("_bMazzyMinscJanTime","GLOBAL")
+	Global("_bMazzyMinscJanTalk","GLOBAL",1)
+	IfValidForPartyDialog("Minsc")
+	IfValidForPartyDialog("Mazzy")
+	IfValidForPartyDialog("Jan")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyMinscJanTalk","GLOBAL",2)
+END
+
+IF
+	Global("_bMazzyMinscJanTalk","GLOBAL",2)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Trigger for 1st Valygar Talk
+IF
+	InParty("Mazzy")
+	InParty("Valygar")
+	GlobalGT("MazzyValygar","GLOBAL",1)
+	Global("_bMazzyValygar","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyValygar","GLOBAL",1)
+	SetGlobalTimer("_bMVTimer1","GLOBAL",TWO_DAYS)
+END
+
+IF
+	IfValidForPartyDialog("Mazzy")
+	IfValidForPartyDialog("Valygar")
+	Global("_bMazzyValygar","GLOBAL",1)
+	GlobalTimerExpired("_bMVTimer1","GLOBAL")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyValygar","GLOBAL",2)
+END
+
+IF
+	Global("_bMazzyValygar","GLOBAL",2)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Mazzy wears sex change belt.
+IF
+	HasItemEquiped("_BBELT2",Myself)
+	Gender(Myself,FEMALE)
+	Global("_bMazzyGoesMale","GLOBAL",0)
+THEN
+	RESPONSE #100
+	CreateVisualEffectObject("SPPOLYMP",Myself)
+	ChangeGender(Myself,MALE)
+	Polymorph(FIGHTER_MALE_HALFLING)
+	SetGlobal("_bMazzyGoesMale","GLOBAL",1)
+END
+
+IF
+	!HasItemEquiped("_BBELT2",Myself)
+	Gender(Myself,MALE)
+	Global("_bMazzyGoesMale","GLOBAL",1)
+THEN
+	RESPONSE #100
+	CreateVisualEffectObject("SPPOLYMP",Myself)
+	ChangeGender(Myself,FEMALE)
+	Polymorph(FIGHTER_FEMALE_HALFLING)
+	SetGlobal("_bMazzyGoesMale","GLOBAL",0)
+END
+
+
+//Aerie Wing Response
+IF
+	Global("_bAerieWingResponse","GLOBAL",1)
+	IfValidForPartyDialog("Mazzy")
+	Global("_bMazzyWingResponse","GLOBAL",0)
+	CombatCounter(0)
+THEN 
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Jaheira - Mazzy/CN Romance Talk
+IF
+	Global("_BJahMazFriends","GLOBAL",1)
+	Global("_bJMCNDoubt","GLOBAL",0)
+	Global("_bMazzyRomance","GLOBAL",1) //Started Mazzy romance 
+	!Global("JaheiraRomanceActive","GLOBAL",2)  //No Jaheira romance
+	!Global("_bMazNotJaheira","GLOBAL",1)  //didn't break up Jaheira-CN
+	IfValidForPartyDialog("Jaheira") 
+	IfValidForPartyDialog("Mazzy") 
+THEN 
+	RESPONSE #100
+	SetGlobal("_bJMCNDoubt","GLOBAL",1)
+END
+
+IF
+	Global("_bJMCNDoubt","GLOBAL",1)
+THEN 
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Timer for Clara Talks after 1st Banter   (2nd/6th Talk Timer in Clara)
+IF
+	InParty("_bClara")
+	InParty("Mazzy") 
+	GlobalGT("_BBCLARAMAZ","GLOBAL",0)  //using GT in multiple banters happen
+	OR(4)
+	Global("_BMazzyClara","GLOBAL",0)
+	Global("_BMazzyClara","GLOBAL",6)
+	Global("_BMazzyClara","GLOBAL",9)
+	Global("_BMazzyClara","GLOBAL",12)
+THEN
+	RESPONSE #100
+	IncrementGlobal("_BMazzyClara","GLOBAL",1)
+	SetGlobalTimer("_bMClaraTimer","GLOBAL",THREE_DAYS)
+END
+
+IF
+	IfValidForPartyDialog("_bClara")
+	IfValidForPartyDialog("Mazzy")
+	GlobalTimerExpired("_bMClaraTimer","GLOBAL")
+	OR(4)
+	Global("_BMazzyClara","GLOBAL",1)
+	Global("_BMazzyClara","GLOBAL",7)
+	Global("_BMazzyClara","GLOBAL",10)
+	Global("_BMazzyClara","GLOBAL",13)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	IncrementGlobal("_BMazzyClara","GLOBAL",1)
+END
+
+IF
+	OR(4)
+	Global("_BMazzyClara","GLOBAL",2)
+	Global("_BMazzyClara","GLOBAL",8)
+	Global("_BMazzyClara","GLOBAL",11)
+	Global("_BMazzyClara","GLOBAL",14)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Timer for Optional Talks
+IF
+	GlobalGT("_BMazzyClara","GLOBAL",11)
+	IfValidForPartyDialog("_bClara")
+	IfValidForPartyDialog("Mazzy")
+	OR(2)
+		Global("_bClaraAndCor","GLOBAL",1) 
+		Global("_bAnomenClaraRomance","GLOBAL",2)
+	Global("_bMCLoveTalk","GLOBAL",0)
+THEN
+	RESPONSE #100
+	IncrementGlobal("_bMCLoveTalk","GLOBAL",1)
+	SetGlobalTimer("_bMClaraTimer2","GLOBAL",ONE_DAY)
+END
+
+IF
+	IfValidForPartyDialog("_bClara")
+	IfValidForPartyDialog("Mazzy")
+	Global("_bMCLoveTalk","GLOBAL",1)
+	GlobalTimerExpired("_bMClaraTimer2","GLOBAL")
+	CombatCounter(0)
+	OR(2)
+		Global("_bClaraAndCor","GLOBAL",1) 
+		Global("_bAnomenClaraRomance","GLOBAL",2)
+THEN
+	RESPONSE #100
+	IncrementGlobal("_bMCLoveTalk","GLOBAL",1)
+END
+
+IF
+	Global("_bMCLoveTalk","GLOBAL",2)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Windspear Hills Quest
+IF
+	Global("MostNobleOrder","GLOBAL",0)
+	Global("_bMazzyFearsOrder","GLOBAL",0)
+	IfValidForPartyDialog("Mazzy")
+	OR(2)
+		Global("FollowGarren","GLOBAL",1)
+		Global("FollowedGarren","GLOBAL",1)
+	OR(8)
+		AreaCheck("AR0020") // City Gates
+		AreaCheck("AR0300") //  The docks
+		AreaCheck("AR0400") // The slums
+		AreaCheck("AR0500") // Bridge district
+		AreaCheck("AR0700") // Waukeen's Promenade
+		AreaCheck("AR0800") // Graveyard
+		AreaCheck("AR0900") // Temple District
+		AreaCheck("AR1000") // Government District
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyFearsOrder","GLOBAL",1)
+END
+
+IF
+	Global("_bMazzyFearsOrder","GLOBAL",1)
+THEN RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//You've been to Mazzy's house check
+IF
+	Global("_bMazzyHome","GLOBAL",0)
+	AreaCheck("AR2002")
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyHome","GLOBAL",1)
+	Continue()
+END
+
+//Mazzy quest. Put in Mazzy.bcs
+IF
+	!Global("_bMazzyRomance","GLOBAL",1)
+	!Global("_bMazzyRomance","GLOBAL",2)
+	!AreaCheck("AR0808")
+	 !AreaCheck("AR0809")
+	Dead("c6bodhi")
+	Global("_BFightThieves","GLOBAL",0)
+	Global("_bMazzySTQuestFriend","GLOBAL",0)
+	OR(2)
+		!Dead("aran") 
+		!Dead("MaeVar")
+THEN
+	RESPONSE #100
+	SetGlobalTimer("_bMFThiefTimer","GLOBAL",THIRTY_MINUTES)
+	SetGlobal("_bMazzySTQuestFriend","GLOBAL",10)
+END 
+
+IF
+	GlobalTimerExpired("_bMFThiefTimer","GLOBAL")
+	Global("_bMazzySTQuestFriend","GLOBAL",10)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzySTQuestFriend","GLOBAL",1)
+END
+
+IF
+	Global("_bMazzySTQuestFriend","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogueNoSet(Player1)
+END 
+
+//Timer for Lilarcor dialogue. 
+IF
+	Global("_bMazzyLilarcor1","GLOBAL",0)
+	IfValidForPartyDialog("Mazzy")  
+	PartyHasItem("SW2H14")  // Lilarcor
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyLilarcor1","GLOBAL",1)
+	SetGlobalTimer("_bSwordTimer","GLOBAL",TWO_HOURS)
+END
+
+IF
+	Global("_bMazzyLilarcor1","GLOBAL",1)
+	IfValidForPartyDialog("Mazzy")  
+	GlobalTimerExpired("_bSwordTimer","GLOBAL")
+	!ActuallyInCombat()
+	PartyHasItem("SW2H14")  // Lilarcor
+THEN
+	RESPONSE #100
+	CreateCreatureObject("_bSW2H14","Mazzy",0,0,0)  // Lilarcor	
+	SetGlobal("_bMazzyLilarcor1","GLOBAL",2)
+END
+
+IF
+	Global("_bMazzyLilarcor1","GLOBAL",2)
+THEN
+	RESPONSE #100
+	ActionOverride("Lilarcor",StartDialogNoSet(Player1))
+END
+
+//Timer for Second Lilarcor talk
+IF	
+	InPartyAllowDead("Mazzy") 
+	Global("_bMazzyLilarcor1","GLOBAL",3)
+	PartyHasItem("SW2H14")  // Lilarcor
+THEN	
+	RESPONSE #100
+	SetGlobalTimer("_bSwordTimer","GLOBAL",FIVE_DAYS)
+	SetGlobal("_bMazzyLilarcor1","GLOBAL",4)
+END
+
+IF
+	Global("_bMazzyLilarcor1","GLOBAL",4)
+	IfValidForPartyDialog("Mazzy")  
+	GlobalTimerExpired("_bSwordTimer","GLOBAL")
+	!ActuallyInCombat()
+	PartyHasItem("SW2H14")  // Lilarcor
+THEN
+	RESPONSE #100
+	CreateCreatureObject("_bSW2H14","Mazzy",0,0,0)  // Lilarcor	
+	SetGlobal("_bMazzyLilarcor1","GLOBAL",5)
+END
+
+IF
+	Global("_bMazzyLilarcor1","GLOBAL",5)
+THEN
+	RESPONSE #100
+	ActionOverride("Lilarcor",StartDialogNoSet(Player1))
+END
+
+//Mazzy friendship code to move quest forward/journal entry once thief leaders are dead
+IF
+	InParty("Mazzy")
+	Global("_bMazzySTQuestFriend","GLOBAL",4)
+	Dead("aran")
+	Dead("MaeVar")
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzySTQuestFriend","GLOBAL",5)
+	AddJournalEntry(@1030,QUEST) /*Victory at Last
+
+We have defeated the leaders of the Shadow Thieves after a long and bloody battle. The organization is broken and scattered, though a few survivors may have gone to ground. We should return to Council Secretary Ewenn to inform him that the deed is done.*/
+	Continue()
+END
+
+IF	//Dialogue after you kill Shadow Dragon
+	AreaCheck("AR1402")
+	IfValidForPartyDialog("Mazzy")
+	Global("_bMazzyRespondsShadowDragon","GLOBAL",0)
+	Dead("ShaDra01")
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyRespondsShadowDragon","GLOBAL",1)
+END
+
+IF	
+	Global("_bMazzyRespondsShadowDragon","GLOBAL",1)
+THEN 
+RESPONSE #100
+	StartDialogNoSet(Player1)
+END

@@ -1,0 +1,118 @@
+IF	//Trigger for Anomen leaving the party forever.
+	Global("_bAnoLeavesForever","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("KickedOut","LOCALS",2)
+	GivePartyAllEquipment()
+	LeaveParty() 
+	EscapeArea()
+END
+
+//Anomen Romance Fix
+IF	
+	InParty("Anomen") 
+	!StateCheck("Anomen",CD_STATE_NOTVALID)
+	CombatCounter(0)
+	Global("AnomenRomanceActive","GLOBAL",3)
+	Global("_bAnomenRomanceFix","GLOBAL",0)
+THEN 
+	RESPONSE #100
+	SetGlobal("_bAnomenRomanceFix","GLOBAL",1)
+END
+
+IF
+	InParty("Anomen") 
+	!StateCheck("Anomen",CD_STATE_NOTVALID)
+	CombatCounter(0)
+	Global("_bAnomenRomanceFix","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobalTimer("_bAnomenFixTimer","GLOBAL",ONE_HOUR)
+	SetGlobal("_bAnomenRomanceFix","GLOBAL",2)
+END
+
+IF
+	InParty("Anomen") 
+	!StateCheck("Anomen",CD_STATE_NOTVALID)
+	CombatCounter(0)
+	Global("_bAnomenRomanceFix","GLOBAL",2)
+	GlobalTimerExpired("_bAnomenFixTimer","GLOBAL")
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//To change Anomen's sounds when he fails his order test.
+IF
+	Global("AnomenIsNotKnight","GLOBAL",1)
+	Global("_bDarksideAnomenSounds","GLOBAL",0)
+THEN
+	RESPONSE #100
+SetPlayerSound(Myself,70837,UNHAPPY_SERIOUS)  // *sigh* Mayhap it is time I thought of leaving. I can almost endure no more of your actions!
+SetPlayerSound(Myself,70838,LEADER)  // Are you sure? I had enough of leadership in the Order. Oh, very well. *sigh* But it's a week vacation for everyone. *chuckle*
+SetPlayerSound(Myself,70839,TIRED)  // A bottle of wine, a blanket, a little music as we rest... are these things too much to ask?
+SetPlayerSound(Myself,70840,BORED)  // *chuckle* Hurry up and wait, hurry up and wait. Hm. Sounds like my days in the Order.
+SetPlayerSound(Myself,70841,BATTLE_CRY1)  // Helm's fury upon you all!
+SetPlayerSound(Myself,70842,BATTLE_CRY2)  // By skill and might, we shall prevail!
+SetPlayerSound(Myself,70843,AREA_CITY)  // Hmm. I don't think I have ever looked upon the bustle of the city without keeping a watchful eye out for evil. It seems... quieter.
+SetPlayerSound(Myself,70844,SELECT_COMMON1)  // I am ready to act.
+SetPlayerSound(Myself,70845,SELECT_COMMON4)  // Yes?
+SetPlayerSound(Myself,70846,SELECT_ACTION1)  // Of course.
+SetPlayerSound(Myself,70847,SELECT_ACTION4)  // Not a problem.
+SetPlayerSound(Myself,70848,SELECT_ACTION5)  // *chuckle* So long as I never have to breathe the same stuffy air as those rusted suits of armor in the Order... well, I'm with you.
+SetGlobal("_bDarksideAnomenSounds","GLOBAL",1)
+END
+
+//Trigger for initial talk that lets you choose Anomen's past
+IF	
+	InParty("Anomen") 
+	!StateCheck("Anomen",CD_STATE_NOTVALID)
+	Alignment("Anomen",LAWFUL_NEUTRAL)
+	Global("_bChooseAnomen","GLOBAL",0)
+	AreaCheck("AR4500") //Your pocket plane.
+	Global("_bChooseAnomenFix","GLOBAL",0)
+THEN 
+	RESPONSE #100
+	SetGlobal("_bChooseAnomenFix","GLOBAL",1)
+END
+
+IF
+	Global("_bChooseAnomenFix","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Post Clara Wraith Talk
+IF
+	GlobalGT("WraithPunish","GLOBAL",2) //So doesn't play until after 3rd punish talk
+	IsValidForPartyDialog("_bClara")
+	IsValidForPartyDialog("Anomen")
+	Global("_bClaraAnomenWraith","GLOBAL",3)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bClaraAnomenWraith","GLOBAL",4)
+END
+
+IF
+	IsValidForPartyDialog("_bClara")
+	IsValidForPartyDialog("Anomen")
+	Global("_bClaraAnomenWraith","GLOBAL",4)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	Wait(4)
+	StartDialogNoSet(Player1)
+END
+
+//To fix his stats if not taken through the endgame
+IF
+	OR(2)
+	Global("_bLordAndLadyDelryn","GLOBAL",5)
+	Global("ShesHere","LOCALS",1)
+	CheckStatLT("Anomen",16,WIS)
+THEN
+	RESPONSE #100
+	ChangeStat("Anomen",WIS,16,SET)
+END
