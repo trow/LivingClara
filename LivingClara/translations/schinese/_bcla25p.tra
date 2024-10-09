@@ -10,13 +10,13 @@
 //If she's waiting for you in PP
 @7 /*Clara*/ = ~嗨，<CHARNAME>。我可以离开这里吗？*拜托了*。~
 @8 /*Player*/ = ~是的。那就来吧。~
-@9 /*Player*/ = ~对不起，克莱拉。我还不需要你。~
+@9 /*Player*/ = ~对不起，克拉拉。我还不需要你。~
 @10 /*Clara*/ = ~好的，终于！我们走吧！~
 @11 /*Clara*/ = ~呃，好吧。我去和塞斯潘纳谈谈。他一直在给我讲关于地狱位面的故事，它们真的很有趣。~
 
 //Not in PP
 @12 /*Clara*/ = ~嗨，<CHARNAME>。你是来带我回去的吗？~
-@13 /*Player*/ = ~对不起，克莱拉。就在这里等我吧。~
+@13 /*Player*/ = ~对不起，克拉拉。就在这里等我吧。~
 @14 /*Clara*/ = ~当然，<CHARNAME>。直到我收到更好的要求。~
 
 //Dialogue to change kit.

@@ -1,54 +1,54 @@
 //First ToB Talk
-@0 /*芭荻*/ = ~I am alive, <CHARNAME>, but do I have a soul?~
+@0 /*菩提*/ = ~I am alive, <CHARNAME>, but do I have a soul?~
 @1 /*CHARNAME*/ = ~Yes, you took Imoen's soul. It's yours.~
 @2 /*CHARNAME*/ = ~No, we killed you and took Imoen's soul back.~
-@3 /*芭荻*/ = ~Yes, I remember now. It feels good to be whole.~
-@4 /*芭荻*/ = ~Then I will not make the same mistake twice. I will find another cure for my affliction.~
+@3 /*菩提*/ = ~Yes, I remember now. It feels good to be whole.~
+@4 /*菩提*/ = ~Then I will not make the same mistake twice. I will find another cure for my affliction.~
 
-//Aerie Objects to 芭荻
-@5 /*Aerie*/ = ~I... I cannot believe you would allow 芭荻to live! W-we are through!~
+//Aerie Objects to 菩提
+@5 /*Aerie*/ = ~I... I cannot believe you would allow 菩提to live! W-we are through!~
 @6 /*Haer'Dalis*/ = ~Wherever my sweet mourning dove goes, I shall surely follow.~
 @7 /*Aerie*/ = ~Goodbye, <CHARNAME>.~
 
-//Imoen Objects to 芭荻
+//Imoen Objects to 菩提
 @8 /*Imoen*/ = ~<CHARNAME>, how could you do this? We grew up together!~
 @9 /*Imoen*/ = ~Without my soul, I'll keep getting weaker... I cannot stay here a moment longer.~
 
-//Keldorn Objects to 芭荻
-@10 /*Keldorn*/ = ~You saved 芭荻? She who has stolen the soul of your own kin?~
+//Keldorn Objects to 菩提
+@10 /*Keldorn*/ = ~You saved 菩提? She who has stolen the soul of your own kin?~
 @11 /*Keldorn*/ = ~Torm take you! I must warn the Order!~
 
-//Anomen Objects to 芭荻(if he hasn't failed his test)
+//Anomen Objects to 菩提(if he hasn't failed his test)
 @12 /*Anomen*/ = ~你会站在正义力量的对立面吗？~
-@13 /*Anomen*/ = ~如果你称芭荻为朋友，那么你就不是我的朋友！~
+@13 /*Anomen*/ = ~如果你称菩提为朋友，那么你就不是我的朋友！~
 
-//Jaheira Objects to 芭荻
+//Jaheira Objects to 菩提
 @14 /*Jaheira*/ = ~我们教了你这么多，我真不敢相信你会这样背叛我们！~
-@15 /*Jaheira*/ = ~如果你和芭荻在一起，我们就完了！~
+@15 /*Jaheira*/ = ~如果你和菩提在一起，我们就完了！~
 
-//Cernd Objects to 芭荻
-@16 /*Cernd*/ = ~芭荻是一个不自然的存在，你背叛自己的妹妹并不说明你有多高尚。~
+//Cernd Objects to 菩提
+@16 /*Cernd*/ = ~菩提是一个不自然的存在，你背叛自己的妹妹并不说明你有多高尚。~
 @17 /*Cernd*/ = ~我将独自走进森林……远离你的腐蚀。~
 
-//Minsc Objects to 芭荻
+//Minsc Objects to 菩提
 @18 /*Minsc*/ = ~你会背叛小爱蒙，让吸血鬼保留她的灵魂吗？布布因愤怒而颤抖，我和你完了！~
 @19 /*Neera*/ = ~等等……我们要走了吗？明斯克，当你要这么做的时候，你得提醒我！~
 @20 /*Minsc*/ = ~我们带着正义的愤怒离开！~
 
-//Rasaad Objects to 芭荻
+//Rasaad Objects to 菩提
 @21 /*Rasaad*/ = ~你走的道路对我来说太黑暗了，我的朋友。~
-@22 /*Rasaad*/ = ~当心芭荻在你睡觉时结束你的生命。~
+@22 /*Rasaad*/ = ~当心菩提在你睡觉时结束你的生命。~
 
-//Valygar Objects to 芭荻
-@23 /*Valygar*/ = ~芭荻过着一种不自然的生活。她每天以牺牲其他生命为代价来恢复自己的力量。~
+//Valygar Objects to 菩提
+@23 /*Valygar*/ = ~菩提过着一种不自然的生活。她每天以牺牲其他生命为代价来恢复自己的力量。~
 @24 /*Valygar*/ = ~如果她是你的朋友，那我就知道我站在哪里了。~
 
-//Nalia Objects to 芭荻
-@25 /*Nalia*/ = ~我真不敢相信你，<CHARNAME>！芭荻猎杀的正是我们应该帮助的人！~
+//Nalia Objects to 菩提
+@25 /*Nalia*/ = ~我真不敢相信你，<CHARNAME>！菩提猎杀的正是我们应该帮助的人！~
 @26 /*Nalia*/ = ~我要离开了。我希望再也见不到你。~
 
-//Mazzy Objects to 芭荻
-@27 /*Mazzy*/ = ~你会为了和这个怪物结盟而牺牲爱蒙的灵魂吗？！芭荻每天都在屠杀无辜！~
+//Mazzy Objects to 菩提
+@27 /*Mazzy*/ = ~你会为了和这个怪物结盟而牺牲爱蒙的灵魂吗？！菩提每天都在屠杀无辜！~
 @28 /*Mazzy*/ = ~我会带着足够的盟友回来，永远结束你们两个的生命。~
 
 
