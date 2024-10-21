@@ -28,3 +28,8 @@ For the Evil组件（除芭荻）
 
 需修改：
 克拉拉相关对话中，修改令人不适的色情内容（与寇根去矮人酒馆群交，可以考虑修改成去打黑拳）
+
+Notice：如果要开始修这个LivingClara，最好是从原AllThingMazzy [https://github.com/Ratatoskr589/All-Things-Mazzy] 开始改，而不是此项目。
+这个LivingClara的tp2文件是很粗暴的注释删除掉了很多“我觉得可能看起来像是似乎不需要的东西”，然后让它看起来似乎能正常安装了而已，我甚至不知道我删掉东西里有没有我想要保留的内容。
+
+所以最好是从AllThingMazzy开始改，然后LivingClara里翻译文件可以直接用就是了。
