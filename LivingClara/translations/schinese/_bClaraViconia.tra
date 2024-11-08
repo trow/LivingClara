@@ -63,7 +63,20 @@
 @59 /*Journal Entry*/ = ~维康妮亚花了几个月的时间在安姆的每个人身上下毒，但她需要一个人类来激活最后一步。克拉拉答应给维康妮亚她想要的任何东西以换取知识，所以维康妮亚要求她激活毒药以兑现她的承诺。克拉拉需要在我们开始之前给她的朋友们解药，并希望我们去大桥区和萝丝·布凯谈谈。~
 @36 /*维康妮亚*/ = ~我等了好几年，<CHARNAME>。我可以再等一会儿。~
 @37 /*维康妮亚*/ = ~范围？我不确定……我从未见过这种毒药发挥作用。我在很久以前的一本书中找到了细节……但我从未有机会测试它。~
-
+@38 /*Viconia*/ = ~Whether the poison reaches the length of one house or one city is not overly important. We can adjust. The only important thing is this...~
+//@39 is above.
+@40 /*Viconia*/ = ~Why? Because I want peace, <CHARNAME>. I want to sleep without fear. I want to walk with my face in the sun.~
+@41 /*Viconia*/ = ~Perhaps when this is over, I could settle in Amn and live my life. I cannot do that if rivvin are everywhere, but with them dead, other races would take control and I would have room to breathe.~
+@42 /*Viconia*/ = ~I would still have to fight for my place in the world... I am not so naive as to think that violence ends when the rivvin die, but at least I would have a chance at peace.~
+@43 /*Viconia*/ = ~That is all I want, <CHARNAME>, a chance. Will you give it to me?~
+@44 /*Viconia*/ = ~It shouldn't. The mongrel half-breeds will be protected by their non-human blood.~
+@45 /*Viconia*/ = ~Though I have never tested this... I am not completely sure what will happen.~
+@46 /*Viconia*/ = ~I found this incantation in an old drow book cataloging poisons that could be made in the world above, so I cannot say for certain what percentage of human blood is required.~
+@47 /*Viconia*/ = ~But I wish to move forward regardless.~
+@48 /*Viconia*/ = ~I am not so foolish as to suggest that we tell anyone else. This is a secret the three of us must take to our graves.~
+@49 /*Viconia*/ = ~When the rivvin fall, do try to act surprised. People will assume that it's a plague and we will give them no reason to believe otherwise.~
+@50 /*Viconia*/ = ~I am sorry to hear that, but I must accept your decision. Let us continue.~
+@51 /*Viconia*/ = ~I am the monster they made me, <CHARNAME>. Farewell.~
 //Dialogue if you tell 维康妮亚 to wait a week. Loops back above.
 @52 /**维康妮亚**/ = ~已经过了一周了。你怎么说？人类会倒下吗？~
 
@@ -413,7 +426,7 @@
 @306 /*维康妮亚*/ = ~你……爱我？我从没意识到……我甚至没有给你一个机会。~
 @307 /*维康妮亚*/ = ~然而你比我以往任何时候都更让我高兴，无论是男性还是女性。~
 @308 /*维康妮亚*/ = ~我接受，<CHARNAME>。我是你的，你是我的。~
-@309 /*维康妮亚*/ = ~你……爱我？
+@309 /*维康妮亚*/ = ~你……爱我？~
 //@310在上面。~
 @311 /*维康妮亚*/ = ~我完全同意。我们应该不停，直到我们清除了这片土地上的每一个人。~
 @312 /*克拉拉*/ = ~除了克拉拉。你的意思是：“……除了克拉拉和她的朋友们。”~
