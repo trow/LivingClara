@@ -26,7 +26,13 @@ ALWAYS
   END
 END
 
-LANGUAGE ~Simplified Chinese~ //List all available languages here. Each needs its own folder.
+LANGUAGE ~English~//List all available languages here. Each needs its own folder.
+			~english~
+			~LivingClara/translations/english/install.tra~ 
+LANGUAGE ~Russian~
+			~russian~
+			~LivingClara/translations/russian/install.tra~
+LANGUAGE ~Simplified Chinese~
 			~schinese~
 			~LivingClara/translations/schinese/prompts.tra~
 			~LivingClara/translations/schinese/install.tra~
