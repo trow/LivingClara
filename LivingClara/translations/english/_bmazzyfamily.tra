@@ -1,0 +1,166 @@
+//Pala Talk
+@1 /*Pala*/ = ~Well, aren't you a fine one? I don't suppose my sister would be willing to share.~
+@2 /*Mazzy*/ = ~You and Danno already have each other. There is no need to get greedy.~
+@3 /*Pala*/ = ~Well, if we cannot *have* <CHARNAME>, maybe we can simply borrow <PRO_HIMHER> for a while? We would return <PRO_HIMHER> unharmed.~
+@4 /*Pala*/ = ~You took one of ours... it would only be fair.~
+@5 /*Mazzy*/ = ~Absolutely not.~
+@6 /*CHARNAME*/ = ~Are you sure? Your sister is cute.~
+@7 /*CHARNAME*/ = ~She was joking, I take it? I only want you of course.~
+@8 /*CHARNAME*/ = ~How did you take one of theirs? What does that mean?~
+@9 /*Mazzy*/ = ~It would not just be my sister, <CHARNAME>. She does not cheat on Danno. They share.~
+@10 /*CHARNAME*/ = ~Both of them? Count me in!~
+@11 /*CHARNAME*/ = ~Oh. In that case, I'm not interested.~
+@12 /*Mazzy*/ = ~I am pleased by your adventurous spirit, my love. But... no.~
+@13 /*Mazzy*/ = ~A silly reason to refuse... you should refuse because we are together and I do not wish you to accept.~
+@14 /*Mazzy*/ = ~I am glad to hear it, but she was only joking in that she knew I would not agree. She was quite serious about wanting you.~
+@15 /*Mazzy*/ = ~She is referring to Korrich, my second love. I'll tell you about it later.~
+
+//Vara Grand-Kids Talks
+@16 /*Vara*/ = ~Hello, <CHARNAME>, it's good to see you again.~
+@161 /*Vara*/ = ~Mazzy wrote me saying that you were courting her so let me have another look at you.~
+@162 /*Vara*/ = ~Mazzy wrote me saying that you are now together so let me have another look at you.~
+@17 /*Vara*/= ~Strong, healthy, reasonably graceful.~
+@18 /*Vara*/ = ~Have you thought about settling down, raising a family, having children?~
+@19 /*Mazzy*/ = ~Mother! Behave yourself.~
+@20 /*Vara*/ = ~Oh very well, but you can't blame a mother for trying.~
+@21 /*Vara*/ = ~Be welcome here, <CHARNAME>. Our home and hearth are yours.~
+
+@22 /*Vara*/ = ~And you must be Imoen! Graceful, beautiful, well done, Mazzy!~
+@23 /*Vara*/ = ~I don't suppose YOU want children?~
+@24 /*Mazzy*/ = ~Seriously, mother? I bring home a woman and you still pester her about grandchildren?~
+@25 /*Mazzy*/ = ~Must I explain to you the mechanics of reproduction?~
+@26 /*Vara*/ = ~Don't mock me. I thought that this might happen. I found this item years ago and I've been saving it just for this moment.~
+@27 /*Vara*/ = ~You can use this magical girdle to temporarily become a man and get Imoen pregnant. Or vice versa. The transformation is safe, instant, and complete; I've double-checked.~
+@28 /*Vara*/ = ~Here you go. Enjoy!~
+@29 /*Edwin-female*/ = ~Finally! I've been searching for that girdle. Let me see that!~
+@30 /*Edwin-female*/ = ~Yes, now fools I will... (Why is this so hard to put on?)~
+@31 /*Edwin-female*/ = ~Nothing is happening! Why is nothing happening?~
+@32 /*Vara*/ = ~Is that Edwin Odesseiron ? I didn't recognize you.~
+@33 /*Vara*/ = ~The belt is magically enchanted to fit everyone, but it only changes halflings.~
+@34 /*Edwin-female*/ = ~Bah, useless! Get it away from me.~
+@35 /*Vara*/ = ~Sorry to disappoint you.~
+@36 /*Mazzy*/ = ~Fine, mother, you've had your fun and one of us can now become a man. However, you do see that Imoen is human, do you not?~
+@37 /*Mazzy*/ = ~A human and a halfling cannot produce children.~
+@38 /*Vara*/ = ~Maybe Imoen would rather be a halfling?~
+@39 /*Vara*/ = ~I have this spell that turns people into halflings. It took me two years to learn and the components cost almost as much as this house, but I've tested it and it works perfectly.~
+@40 /*Mazzy*/ = ~I'm sorry, what?~
+@41 /*Vara*/ = ~I said that I can turn Imoen into a halfling, if she doesn't mind.~
+@42 /*Imoen*/ = ~Oooh, yaay! Halfling me!~
+@43 /*Mazzy*/ = ~Imoen, are you sure about this? Please do not do this just for me. I am not even sure that I want a family.~
+@44 /*Mazzy*/ = ~In addition, I am fairly certain that my mother has no idea how to change you back.~
+@45 /*Imoen*/ = ~You worry too much, Mazzy. This is a great opportunity; when am I going to have another chance like this again?~
+@46 /*Imoen*/ = ~If I don't like it, I'll figure something out.~
+@47 /*Vara*/ = ~So, Imoen, this is going to take some time. The rest of your companions might as well go see the town.~
+@48 /*Vara*/ = ~First you're going to need to remove your clothes, take this jar, and spread it all over your body.~
+@49 /*Mazzy*/ = ~*sigh* Here we go.~
+@50 /*Mazzy*/ = ~I will help you, Imoen... you have no idea what you have gotten yourself into.~
+
+@51 /*Vara*/ = ~It worked! I haven't done that in years.~
+@52 /*Mazzy*/ = ~That is amazing. I... I cannot believe my eyes.~
+@53 /*Mazzy*/ = ~Imoen, you make a good-looking halfling.~
+@54 /*Mazzy*/ = ~*chuckles* I suppose this means I should not break up with you.~
+@55 /*Vara*/ = ~Now, Imoen, your body has just undergone a momentous transformation and you are going to feel a bit odd.~
+@56 /*Vara*/ = ~You should probably stay in bed for a day and then take it slow after that.~
+
+@57 /*Edwin*/ = ~That spell! What was that spell!~
+@58 /*Edwin*/ = ~I must have it. You must change me into an elf.~
+@59 /*Vara*/ = ~An elf? My apologies, I only know how to make people into halflings.~
+@60 /*Vara*/ = ~Why would I care about making someone into an elf?~
+@61 /*Edwin*/ = ~Because halflings are not immortal, you useless crone! What good would it do to turn me into a halfling?!~
+@62 /*Vara*/ = ~It couldn't hurt, any.~
+@63 /*Vara*/ = ~You know... the wizard who taught me the spell could turn people into anything... elves, dwarves, minotaurs, even dragons.~
+@64 /*Vara*/ = ~But he wanted me to turn him into a halfling so that was the only version I learned.~
+@65 /*Edwin*/ = ~His name! What was his name? Where can I find him?~
+@66 /*Vara*/ = ~His name is eluding me right now, you know how us old folks are. Sometimes I can't even remember yesterday.~
+@67 /*Vara*/ = ~Harrold, or Haggoth, or Horgot. Or was it Frederickson?~
+@68 /*Vara*/ = ~The name won't help you anyway because he's dead. Passed away years ago. No apprentices that I know of; he didn't really like people.~
+@69 /*Vara*/ = ~So I'm sorry, Edwin, but it's halflings or nothing.~
+
+@70 /*Mazzy*/ = ~<CHARNAME>, you make a good-looking halfling.~
+@71 /*Vara*/ = ~Now, <CHARNAME>, your body has just undergone a momentous transformation and you are going to feel a bit odd.~
+@72 /*Mazzy*/ = ~<CHARNAME>, Imoen, you make two good-looking halflings.~
+@73 /*Vara*/ = ~Now, <CHARNAME> and Imoen, your bodies have just undergone a momentous transformation and you are going to feel a bit odd.~
+
+@74 /*Vara*/ = ~You can use this magical girdle to temporarily become a man and get <CHARNAME> pregnant. Or vice versa. The transformation is safe, instant, and complete; I've double-checked.~
+@75 /*Mazzy*/ = ~I do not believe this, mother! I thought that for once I would be free of your nonsense!~
+@76 /*Mazzy*/ = ~We have had this discussion already and I will not have it again.~
+@77 /*Vara*/ = ~Well you can't blame a mother for trying. Keep the girdle; maybe you'll have some fun with it anyway.~
+
+@78 /*Vara*/ = ~Have either of you thought about settling down, raising a family, having children?~
+@79 /*Mazzy*/ = ~Seriously, mother? I bring home two women and you're still going to pester them about grandchildren?~
+@80 /*Vara*/ = ~You can use this magical girdle to temporarily become a man and get one of your lovers pregnant. Or vice versa. The transformation is safe, instant, and complete... I've double-checked.~
+
+@81 /*Mazzy*/ = ~Mother, you do see that <CHARNAME> is a <PRO_RACE>, don't you? <PRO_HESHE> cannot get me pregnant.~
+@82 /*Vara*/ = ~Maybe <PRO_HESHE> would rather be a halfling?~
+@83 /*Vara*/ = ~I said I can turn <CHARNAME> into a halfling, if <PRO_HESHE> doesn't mind.~
+@84 /*CHARNAME*/ = ~Really? Great. Let's do it now.~
+@85 /*CHARNAME*/ = ~What are the components? You said they're expensive?~
+@86 /*CHARNAME*/ = ~No, I'm sorry, I'm really happy being a <PRO_RACE>.~
+@87 /*Vara*/ = ~Oh well, you can't blame a mother for trying.~
+@88 /*Vara*/ = ~If you ever change your mind, you know where to find me.~
+@89 /*Vara*/ = ~Oh, no need to worry about that. I gathered everything I needed years ago just in case Pala or Mazzy developed a taste for the exotic.~
+@90 /*Mazzy*/ = ~Why am I not surprised?~
+@91 /*Vara*/ = ~So how about it <CHARNAME>?~
+@92 /*CHARNAME*/ = ~Yes. Let's do it now.~
+
+@93 /*Vara*/ = ~Excellent! I'll start the preparations immediately.~
+@94 /*Mazzy*/ = ~<CHARNAME>, are you sure about this? Please do not do this just for me. I am not even sure whether or not I want a family.~
+@95 /*CHARNAME*/ = ~Oh, well in that case I've changed my mind.~
+@96 /*CHARNAME*/ = ~It's not just for you, Mazzy. I've always wanted to be a halfling.~
+@97 /*CHARNAME*/ = ~Who cares? I gotta try this.~
+@98 /*Vara*/ = ~So, <CHARNAME>, this is going to take some time. The rest of your companions might as well go see the town.~
+@99 /*Mazzy*/ = ~I will help you, <CHARNAME>... you have no idea what you have gotten yourself into.~
+
+@100 /*Mazzy*/ = ~Seriously, mother? <CHARNAME> is a <PRO_RACE> and Imoen's both a human and a woman. I cannot have children with either of them.~
+@102 /*Mazzy*/ = ~My earlier statement still stands. I cannot have a baby with either Imoen or <CHARNAME>.~
+@103 /*Vara*/ = ~Maybe one of them would rather be a halfling?~
+@104 /*Vara*/ = ~I said I can turn <CHARNAME> and Imoen into halflings, if they don't mind.~
+@105 /*Imoen*/ = ~Well count me in. This sounds fun! What about you, <CHARNAME>?~
+@106 /*CHARNAME*/ = ~I'm in too. Let's do it now.~
+
+@107 /*Vara*/ = ~Oh well, one is still better than nothing.~
+@108 /*CHARNAME*/ = ~<CHARNAME>, if you ever change your mind, you know where to find me.~
+@109 /*Vara*/ = ~Imoen, I will get started immediately.~
+@110 /*Mazzy*/ = ~Are you absolutely certain that you want to do this, Imoen?~
+@111 /*Mazzy*/ = ~<CHARNAME>, Imoen, are you sure about this? Please do not do it just for me. I am not even sure whether or not I want a family.~
+@112 /*Vara*/ = ~So, <CHARNAME>, Imoen, this is going to take some time.~
+@113 /*Mazzy*/ = ~I will help you both... you have no idea what you have gotten yourself into.~
+
+@114 /*Mazzy*/ = ~Fine, mother, you've had your fun and one of us can now become a man, but you do see that <CHARNAME> is a <PRO_RACE>, don't you?~
+@115 /*Mazzy*/ = ~A <PRO_RACE> and a halfling cannot produce children.~
+
+@116 /*Mazzy*/ = ~Seriously, mother? Both Imoen and <CHARNAME> are women and both are not halflings.~
+@117 /*Mazzy*/ = ~I cannot have children with either of them. Must I explain to you the mechanics of reproduction?~
+@118 /*Mazzy*/ = ~Fine, mother, you've had your fun and one of us can now become a man, but neither of them is a halfling.~
+
+@119 /*Vara*/ = ~You must be Imoen! Graceful, beautiful, well done, Mazzy!~
+
+@120 /*CHARNAME*/ = ~Vara, I've reconsidered. Please make me into a halfling.~
+@121 /*CHARNAME*/ = ~Hello, Vara. It's good to see you again.~
+
+//Viconia-Vara Talk
+@122 /*Vara*/ = ~Hello, Viconia. I am Vara, Mazzy's mother.~
+@123 /*Vara*/ = ~Please make yourself at home.~
+@124 /*Viconia*/ = ~Hah, that phrase has such a different meaning when applied to a drow.~
+@125 /*Viconia*/ = ~But... thank you.~
+@126 /*Vara*/ = ~I understand you have no home of your own. If you would like, you may shelter here when not travelling with <CHARNAME>.~
+@127 /*Viconia*/ = ~Really? I could stay in this little halfling house? Would your neighbors not object?~
+@128 /*Vara*/ = ~Trademeet is not a large city. You would be under my care and everyone would understand.~
+@129 /*Vara*/ = ~Or they would at least have the sense to keep their opinions to themselves.~
+@130 /*Pala*/ = ~Yes, stay with us. You are a friend, and friends must always be given the warmth of the hearth.~
+@131 /*Pala*/ = ~And of the bed. You could share ours... the erotic secrets of the drow are legendary.~
+@132 /*Danno*/ = ~Really, Pala, there is no need to pressure the poor woman.~
+@133 /*Danno*/ = ~I am sure she is tired of every man and woman she meets trying to talk her clothes off.~
+@134 /*Danno*/ = ~Of course if she was willing...~
+@135 /*Vara*/ = ~Viconia, you must forgive them, they forget their manners sometimes.~
+@136 /*Vara*/ = ~I have tried to teach Pala that not every attractive man or woman who walks by is a potential bed-mate.~
+@137 /*Vara*/ = ~Large folk are more discrete about such things.~
+@138 /*Vara*/ = ~You are welcome to stay either way.~
+@139 /*Viconia*/ = ~The nights are cold and potential lovers are few...~
+@140 /*Viconia*/ = ~I accept your offer. Thank you.~
+
+@141 /*Viconia*/ = ~I take my leave of you.~
+@142 /*Viconia*/ = ~On second thought, I will accept the offer of friendship I received from Mazzy's mother. You will find me at House Fentan.~
+@143 /*CHARNAME*/ = ~We'll meet you at Mazzy's house if we need your services again.~
+@144 /*CHARNAME*/ = ~Just wait here, Viconia. If we need you again, we'll come back for you.~
+@145 /*Viconia*/ = ~On second thought, I will return to Mazzy's house. Her family's hospitality was... quaint but comforting.~

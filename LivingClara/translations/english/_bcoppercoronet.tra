@@ -1,0 +1,4 @@
+//Lehtinan Conversation to Remove Guard in Back
+@0 /*CHARNAME*/ = ~I am always in the market for slaves, do you mind if I look at yours?~
+@1 /*Lehtinan*/ = ~(Hurrmm) Slavery is illegal in this city so I resent your implication that we have them in this establishment.~
+@2 /*Lehtinan*/ = ~But if you wish to go in the back and look around I will tell the guards not to stop you.~

@@ -1,0 +1,323 @@
+//First Jaheira-Wilson Love talk
+@0 /*Wilson*/ = ~Growl...~ [OH87168]
+@1 /*Jaheira*/ = ~Of course you attract their attention; it is not often that a bear tramps about the city.~
+@2 /*Jaheira*/ = ~If you are going to travel with us then you will have to get used to it.~
+@3 /*Wilson*/ = ~Snuffle, grff?~
+@4 /*Jaheira*/ = ~You're right... if you were alone, the guards probably would attack you. But when we are together, they assume you must be an animal companion.~
+@5 /*Wilson*/ = ~Sniff sniff?~
+@6 /*Jaheira*/ = ~Some adventurers summon animals or travel with them. These creatures aid them in battle, or carry their belongings.~
+@7 /*Jaheira*/ = ~Horses are the most common, but you will see wolves or various large cats as well.~
+@8 /*Wilson*/ = ~Gruh, growl... sniff.~
+@9 /*Jaheira*/ = ~You remain your own master, but it is nice to travel without conflict, is it not? Let people assume what they will.~
+@10 /*CHARNAME*/ = ~Jaheira, Wilson, if you're going to keep having these conversations, please do it far away where I can't hear you.~
+@11 /*CHARNAME*/ = ~*Say nothing. Let them speak.*~
+
+//Second Jaheira-Wilson Love talk
+@12 /*Jaheira*/ = ~Mmph... no... no... NO! Wha... what? What?~ [JAHEIR76]
+@13 /*Wilson*/ = ~Grrf!~ [OH87169]
+@14 /*Jaheira*/ = ~I... I am sorry. I did not wish to disturb you with this. In my... my dream, we WERE under attack, in a battle we had long since won, but it was different.~
+@15 /*Jaheira*/ = ~Khalid was there, and he died when he should have lived. I could do nothing.~
+@16 /*Wilson*/ = ~Roar?~
+@17 /*Jaheira*/ = ~Yes, he was my husband. Jon Irenicus murdered him when we were captured.~
+@18 /*Wilson*/ = ~Snorfle, grunt, snort.~
+@19 /*Jaheira*/ = ~"None of us can affect the past, but we each shape our tomorrows in the light of it." That is from the prophecies of Alaundo, I did not expect you to know them.~
+@20 /*Jaheira*/ = ~There is more to you than meets the eye.~
+@21 /*Wilson*/ = ~Snort.~
+@22 /*Jaheira*/ = ~Yes, well, we should be going. I am fine now. Thank you.~
+
+//Third Jaheira-Wilson Love talk
+@23 /*Wilson*/ = ~Snort... grff?~ [OH87172]
+@24 /*Jaheira*/ = ~*sigh* It has been some time since I have traveled this far south. I recall seeing Gorion here some years ago. He seemed a bit out of place away from his books, but...~ [JAHEIR74]
+@25 /*Wilson*/ = ~Snort, mrrf?~
+@26 /*Jaheira*/ = ~Gorion was <CHARNAME>'s foster father and a good friend of mine. He died saving <CHARNAME> from <PRO_HISHER> evil half-brother, Sarevok.~
+@27 /*Wilson*/ = ~Roar?~
+@28 /*Jaheira*/ = ~Yes, *that* Sarevok. <CHARNAME>, Khalid, and I killed him and avenged Gorion, but it seems that we were not as thorough as I thought.~
+@29 /*Jaheira*/ = ~Hmm... it seems I cannot help speaking about the dead of late.~
+@30 /*Jaheira*/ = ~Gorion used to tell me tales that could last for days, a snippet at a time. He built a history with words, so you felt like you were there.~
+@31 /*Wilson*/ = ~Growl... roar!~
+@32 /*Jaheira*/ = ~Your father told you stories as well?~
+@33 /*Wilson*/ = ~Grrr, growl.~
+@34 /*Jaheira*/ = ~Yes, Gorion was the same. When he talked, his stories became yours, and thus you took them with you.~
+@35 /*Wilson*/ = ~Snort! Roar.~
+@36 /*Jaheira*/ = ~I had not thought of it like that. Perhaps he does still live through those stories in a way. You are wise to see it as such.~
+
+//4th J-W Love Talk
+@37 /*Jaheira*/ = ~A copper for your thoughts. You are looking rather pensive today. Doubts about your current path, perhaps?~ [JAHEIR77]
+@38 /*Wilson*/ = ~Growl...roar.~ [OH87170]
+@39 /*Jaheira*/ = ~Is that your feeling? I was taught we all had choices. And yet perhaps I agree with you. I also tend to feel as though my actions are determined by forces other than myself.~
+@40 /*Wilson*/ = ~Snort.~
+@41 /*Jaheira*/ = ~Ah, I understand. In the forest, things are simpler. You do what you need to in order to survive and protect those closest to you. But in civilized lands, there are such complications.~
+@42 /*Jaheira*/ = ~I am from the city and was pulled toward nature. You are the reverse, but we each attempt to maintain balance in our lives.~
+@43 /*Wilson*/ = ~Growl... Grrf?~
+@44 /*Jaheira*/ = ~A solution? A solution to what? To life? To existence? I do not think such a thing exists.~
+@45 /*Wilson*/ = ~Snuffle. Growl.~
+@46 /*Jaheira*/ = ~Aye, but who knows when such an end will come? We work for balance in case the final count is taken today. Live each day as if the last, just in case it is.~
+@47 /*Jaheira*/ = ~"The present will pass by if you live in the past. Neither should you wait too long for the future to find you." Who said this? It was... Khalid.~
+@48 /*Jaheira*/ = ~He did not dwell on things and wished I would not either. I wonder what...~
+@49 /*Jaheira*/ = ~Now look, foolish things in my head. Still, talking with you always makes me feel... better.~
+
+//5th J-W Love Talk
+@50 /*Jaheira*/ = ~Mmph... mmph... oh... Khal... oh... Khal— NOO! I...~ [JAHEIR78]
+@51 /*Wilson*/ = ~Grrr... growl!~ [OH87182]
+@52 /*Jaheira*/ = ~What? I'm awake. Do not worry.~
+@53 /*Wilson*/ = ~Sniff?~
+@54 /*Jaheira*/ = ~I... I am not so bad. This one was not so cruel as the others. Khalid was in the distance, but he would not come closer, and I could not see the way to him.~
+@55 /*Jaheira*/ = ~He walked with us, from a distance. He smiled that I was content. I guess... I guess I was.~
+@56 /*Wilson*/ = ~Growl.~
+@57 /*Jaheira*/ = ~It... it was not the whole group. Just... it was just you and I...~
+@58 /*Jaheira*/ = ~Well... um... shall we be off? It is already late in the <DAYNIGHTALL>. Plenty to do.~
+
+//6th talk.
+@59 /*Wilson*/ = ~Groargh?~ [OH87185]
+@60 /*Jaheira*/ = ~It is good to be back in Amn, even under these conditions. Still, I would have wished us to travel even further south. I have not seen the land of Tethyr in quite some time.~ [JAHEIR79]
+@61 /*Wilson*/ = ~Growl, growl, sniff?~
+@62 /*Jaheira*/ = ~It certainly would, though not how you'd expect. Tethyr is one of the few places where I would cause more stir than you. They are not fond of Harpers.~
+@63 /*Wilson*/ = ~Growl?~
+@64 /*Jaheira*/ = ~We like to think so, but it does not always work out that way. I believe it began a century ago, with what seems a curse in retrospect.~
+@65 /*Jaheira*/ = ~A royal house of Tethyr devastated by murder and death, specifically seven princesses that met their end on the same night.~
+@66 /*Jaheira*/ = ~Only those that did the deed know for sure, but Harpers were rumored to have aided in the deaths. None have been welcome in Tethyr since.~
+@67 /*Jaheira*/ = ~Tragic atrocities abounded, the exile of the Harpers being the least of them. I wish the tale had a happy ending, or a moral about balance, but I have yet to find one in it.~
+
+//7th talk.
+@68 /*Jaheira*/ = ~Blast! Our progress is not as it could be, I am sure. Ah, perhaps it is just me. I grow tired of these pursuits. My life was not always such.~ [JAHEIR80]
+@69 /*Wilson*/ = ~Gruh.~ [OH87188]
+@70 /*Jaheira*/ = ~Oh, I am certainly meant to be this way, but I once lived quite peacefully. Druids took me in very young, and you can only be calm when surrounded by balance.~
+@71 /*Wilson*/ = ~Gruffle, sniff sniff.~
+@72 /*Jaheira*/ = ~It was like that for a long time, but I always felt I should do more. Balance needed to be... encouraged. I felt I should be a more active guardian.~
+@73 /*Wilson*/ = ~Sniff... roar?~
+@74 /*Jaheira*/ = ~Why I left the druids to become a Harper? Maybe I tired of life among the trees.~
+@75 /*Jaheira*/ = ~Is that not also why you are here? You could be living a simpler life in the woods, yet you choose to be with us and all of our accompanying complications.~
+@76 /*Wilson*/ = ~Growl mrrf sniff.~
+@77 /*Jaheira*/ = ~Do not worry about it; I'm just rambling on. Talking to a trusted friend helps ease the soul. I hope I do as much for you as well.~
+@78 /*Jaheira*/ = ~I mean... for the good of the party.~
+
+//8th talk
+@79 /*Jaheira*/ = ~I... This may be a bad time or not, but you asked a question of me, and I brushed it aside. I would speak of it now, if you still wish to hear.~ [JAHEIR81]
+@80 /*Wilson*/ = ~Growl?~ [OH87186]
+@81 /*Jaheira*/ = ~I did, but I... it is not important enough to keep aside. I would rather such things be talked of openly. We know little of each other.~
+@82 /*Jaheira*/ = ~You asked what made me seek out the Harpers. I was made aware of what had come before, and what still happened outside of the forest.~
+@83 /*Jaheira*/ = ~I came to the druids after my family was slain during a king's fall. No, I am not royalty, and neither do I grieve. I do not feel their loss in such a way.~
+@84 /*Jaheira*/ = ~But I was angry that a life was taken from me, even though I survived. It had happened far from the grove, but I brought the conflict with me in my heart.~
+@85 /*Jaheira*/ = ~I decided that the balance needed help beyond the forest, or it would eventually fail there as well. Simple reasoning, I suppose.~
+@86 /*Jaheira*/ = ~I... I don't know why I didn't wish this known. Maybe I thought such a history would be inconsequential by the standards of others such as... well... such as yourself.~
+@87 /*Wilson*/ = ~Growl. Growl. Roar!~
+@88 /*Jaheira*/ = ~I thank you for those words. I find myself drawing strength from you in our close quarters. It has been... a great help.~
+@89 /*Jaheira*/ = ~I... I am sorry. We should continue on.~
+
+//9th talk
+@90 /*Jaheira*/ = ~We continue on our path, and I cannot help but wonder if we walk in balance. I have a role to follow...~ [JAHEIR82]
+@91 /*Wilson*/ = ~Growl, growl, growl?~ [OH87192]
+@92 /*Jaheira*/ = ~As Harper and as druid. They are complimentary, despite bards being thought of as the Harper's standard-bearers. Both seek balance over all. I... I think I have done so.~
+@93 /*Jaheira*/ = ~Sometimes the proper course is hard to see; what is best overall may seem barbaric at first. You will know this when... if you deal with Harpers in the future.~
+@94 /*Wilson*/ = ~Snort!~
+@95 /*Jaheira*/ = ~I meant *real* Harpers, naturally.~
+@96 /*Jaheira*/ = ~The goal is what matters even if the methods are questionable. Balance in politics, balance in nature, balance in one's self—all take strong measures to maintain.~
+@97 /*Jaheira*/ = ~I think... I think I am the one out of balance, not you. I think... well, I think many things. I... I need more time to consider this.~
+@98 /*Jaheira*/ = ~I'm afraid you'll have to indulge my silence for a time. I... I apologize for interrupting you.~
+
+//10th talk
+@99 /*Wilson*/ = ~Growl?~ [OH87194]
+@100 /*Jaheira*/ = ~I... I worry sometimes...~ [JAHEIR83]
+@101 /*Jaheira*/ = ~Wilson, do you worry about missing friends? About those missing or... lost? Of course you do, I don't know what prompted me to ask.~
+@102 /*Wilson*/ = ~Sniff, snort?~
+@103 /*Jaheira*/ = ~I'm not sure why I brought it up. I just needed to know that... the living and dead are still entwined. They grow distant, but vengeance must still come.~
+@104 /*Jaheira*/ = ~I am becoming used to the aftermath of death, but I will not forget what must be avenged. There must be closure. I must do this even as I... as we... move on.~
+@105 /*Wilson*/ = ~Snort... snort!~
+@106 /*Jaheira*/ = ~That is good to know. Those who have passed beyond will be glad that we do not carry them in our hearts as a burden, but that we seek justice in their names.~
+@107 /*Jaheira*/ = ~I... I don't brood all the time; I was just thinking of the past and what is to come. I'm trying to balance... Well, enough whining for today. Let's move on.~
+
+//11th talk.
+@108 /*Jaheira*/ = ~Ah, I do wish these scars would heal. I've a life to continue, and I do not need to be picking at old wounds.~ [JAHEIR84]
+@109 /*Wilson*/ = ~Graaah.~ [OH87196]
+@110 /*Jaheira*/ = ~True enough, but I was speaking of emotional markings.~
+@111 /*Wilson*/ = ~Gruh. Roar!~
+@112 /*Jaheira*/ = ~Ah, I see. They are one and the same in the long run, are they not? I imagine both will heal in time, given favorable conditions to do so.~
+@113 /*Jaheira*/ = ~I think we will be fine.~
+
+//12th talk.
+@114 /*Jaheira*/ = ~Hm... This is a dangerous life we seem to lead, it does seem. I wonder... if you always think it will be so?~ [JAHEIR85]
+@115 /*Wilson*/ = ~Roar.~ [OH87199]
+@116 /*Jaheira*/ = ~Not at all? There must be some planning in place eventually. What happens when age begins to take you? Even I know it will happen at some point.~
+@117 /*Jaheira*/ = ~Have you... given any thought to this?~
+@118 /*Wilson*/ = ~Grraaa, growl. Roar.~
+@119 /*Jaheira*/ = ~A fine aspiration, if not the king's choice. I know very few kings that live in peace. Equally few inspire true loyalty in their followers, or their... companions.~
+@120 /*Wilson*/ = ~Sniff, sniff?~
+@121 /*Jaheira*/ = ~*chuckles* Yes, I know bears do not have kings. You are each your own animal and I think your world is better for it.~
+@122 /*Jaheira*/ = ~I am becoming increasingly tired of spending time in civilization. I wish to walk among the trees, bathe in streams, and hunt for my daily food.~
+@123 /*Wilson*/ = ~Roar?~
+@124 /*Jaheira*/ = ~Yes. You would be welcome to accompany me.~
+
+//13th talk.
+@125 /*Jaheira*/ = ~So, what do you think of Amn so far? It is certainly not without its charms, or its hardships lately.~ [JAHEIR92]
+@126 /*Wilson*/ = ~Snuffle!~ [OH87201]
+@127 /*Jaheira*/ = ~There is as much beauty as you are able to see. The forests are grand, and the cities are tolerable in moderation. How much are you willing to seek out?~
+@128 /*Wilson*/ = ~Growl... sniff.~
+@129 /*Jaheira*/ = ~Then I will show you when we have the time. I will take you through the deepest lands, and you will see the beauty that I know is there.~
+@129000 /*Jaheira*/ = ~Or maybe you can show me the lands you know and I will see the trails and waterways through your eyes.~
+@130 /*Jaheira*/ = ~That is, if you have not tired of my company yet.~
+@131 /*Wilson*/ = ~Whine. Growl.~
+@132 /*Jaheira*/ = ~W... well. I would... I would miss your company too, Wilson.~
+@133 /*Jaheira*/ = ~*cough* We should be moving on. Enough of this idle musing.~
+
+//14th talk.
+@134 /*Wilson*/ = ~Roar?~ [OH87197]
+@135 /*Jaheira*/ = ~We have had many people seek our deaths so far. Some would have been friends had things been different. This weighs on my mind.~ [JAHEIR93]
+@136 /*Jaheira*/ = ~They acted out of fear. I do not know what to suggest. I... I don't know what to do.~
+@137 /*Wilson*/ = ~Snuffle, sniff... roar! Roar... growl, sniff sniff. Snort... growl. ROAR!~
+@138 /*Jaheira*/ = ~Like all good advice, that was absolutely no help at all. It was poetic though...~
+@139 /*Jaheira*/ = ~Come, let's get going.~
+
+//15th talk.
+@140 /*Jaheira*/ = ~Again I must say how much I prefer the forest to artificial structures. Everything I see simply reinforces that to no end.~ [JAHEIR94]
+@141 /*Wilson*/ = ~Growl!~ [OH87197]
+@142 /*Jaheira*/ = ~Ah, but only if you choose not to look. Nature falls into balance, whereas man must work for his. I just prefer the simpler... the simpler roles in nature.~
+@143 /*Wilson*/ = ~Sniff. Sniff?~
+@144 /*Jaheira*/ = ~No, I find comfort because of you. Others cannot see what I do, and it is their intolerance that makes things difficult. That the wilderness is your home is a mark in your favor.~
+@145 /*Wilson*/ = ~Snort, snuffle, grrf?~
+@146 /*Jaheira*/ = ~I see... I see a confidant. I see someone undeserving of the scorn of the ignorant. I see... I...~
+@147 /*Jaheira*/ = ~Now I am babbling like a brook. We should not dawdle like this.~
+
+//16th talk.
+@148 /*Wilson*/ = ~Groogah.~ [OH87199]
+@149 /*Jaheira*/ = ~I have been in a similar place as this before, though it was in the company of other Harpers. I will miss those times.~ [JAHEIR95]
+@150 /*Jaheira*/ = ~This is a hard season to let pass. Fall and winter are bearable because spring will certainly follow. There is no guarantee that I can emerge from my winter.~
+@151 /*Wilson*/ = ~Grugh. Growl. Roar.~
+@152 /*Jaheira*/ = ~No better comfort could I ask, Wilson. I will continue to stand for you if you do the same for me. Together we can... togeth...~
+@153 /*Jaheira*/ = ~I'm sorry, I'm a bit out of sorts. Let's continue this another time.~
+
+//17th talk.
+@154 /*Jaheira*/ = ~There is an ill wind in the air. Do you feel it? I feel a storm inside, in the distance.~ [JAHEIR99]
+@155 /*Wilson*/ = ~Roar!~ [OH87205]
+@156 /*Jaheira*/ = ~I don't know what I meant. They say you shiver when someone walks across your grave. I feel as though something is marching back and forth over mine.~
+@157 /*Wilson*/ = ~Sniff. Whine?~
+@158 /*Jaheira*/ = ~I don't know. Let's just get going, and it will pass. If you don't mind, Wilson, I would walk in step with you. I... just need someone near me.~
+
+//18th talk.
+@159 /*Jaheira*/ = ~Blast, my armor could do with a cleaning.~ [JAHEIRA3]
+@160 /*Wilson*/ = ~Growl.~ [OH87206]
+@161 /*Jaheira*/ = ~*smiles* I suppose that is the advantage of not having any.~
+@162 /*Wilson*/ = ~Roar, snort!~
+@163 /*Jaheira*/ = ~Yes, I did actually smile. I am far from my old self, however. I thank you for putting up with me.~
+@164 /*Wilson*/ = ~Snuffle, grrrugh!~
+@165 /*Jaheira*/ = ~I am fine. Let's just keep going.~
+
+//19th talk.
+@166 /*Wilson*/ = ~Urrgh.~ [OH87204]
+@167 /*Jaheira*/ = ~*sigh* Your old injuries feeling all right? I thought I saw you wince a moment ago.~ [JAHEIRA4]
+@168 /*Wilson*/ = ~Roar, roar!~
+@169 /*Jaheira*/ = ~Oh. I... I see. I am flattered, I suppose.~
+@170 /*Wilson*/ = ~Growl, roar. Grrf?~
+@171 /*Jaheira*/ = ~Oh, no, not in the least, really. I am just... I have to deal with a few things... I have to decide some things.~
+@172 /*Jaheira*/ = ~I apologize for being in a foul mood. I wish I could say it would end soon, but I don't know. It's not you, though. It's not...~
+
+//20th talk.
+@173 /*Jaheira*/ = ~So—ah... Could I— Could I have a few moments of your time?~ [JAHEIRA5]
+@174 /*Wilson*/ = ~Growl.~ [OH87202]
+@175 /*Jaheira*/ = ~Thank you. I wished to speak of the future a bit. I know we have discussed this in brief before, but I need to... clarify a few things.~
+@176 /*Wilson*/ = ~Grf?~
+@177 /*Jaheira*/ = ~No, no, not as such. I just wished to know how you fare on the path that you have chosen. Granted, I am right here with you, but I don't know what you... think.~
+@178 /*Jaheira*/ = ~Do you still find my company beneficial? Do you still think of your missing friends as often as you did? What of your fight to remain in balance?~
+@179 /*Wilson*/ = ~Roar.~
+@180 /*Jaheira*/ = ~I am sorry then. I did not mean to test you so. Perhaps this can wait for another time. Forget I said anything.~
+@181 /*Jaheira*/ = ~What? Let's just go.~
+
+//21st talk.
+@182 /*Jaheira*/ = ~I... I need to speak with you a moment.~ [JAHEIRA6]
+@183 /*Wilson*/ = ~Growl.~ [OH87189]
+@184 /*Jaheira*/ = ~I wished to apologize for my questions earlier. I was too forward. I just needed to know that you remain the same bear that I began traveling with.~
+@185 /*Wilson*/ = ~Sniff, whine?~
+@186 /*Jaheira*/ = ~There has been change all around. You may have been affected in ways that you don't know.~
+@187 /*Jaheira*/ = ~My ties to the civilized world are being broken, one by one. Yet you seem more at home in the city with each passing day.~
+@188 /*Wilson*/ = ~Roar, roar!~
+@189 /*Jaheira*/ = ~That does not ease my mind. I must know what is truth, or I cannot trust myself. My decisions have affected many, and I do not wish to endanger anyone else.~
+@190 /*Jaheira*/ = ~This life is dangerous and I have so few friends left.~
+@191 /*Wilson*/ = ~Snuffle, sniff growl... snuffle. Roar, roar! Grrr... growl, growl, moan, whine! Roar!~
+@192 /*Jaheira*/ = ~I... I don't know what to say to that. I still have many concerns that must be addressed, but you seem so...~
+@193 /*Jaheira*/ = ~I need to think on this some more. Let's get moving.~
+
+//22nd talk.
+@194 /*Jaheira*/ = ~Ahh! The dawning of our day. Though it is very rarely that we seem to match our sleep cycle to the day or night.~ [JAHEIRB1]
+@195 /*Wilson*/ = ~Roar.~ [OH87174]
+@196 /*Jaheira*/ = ~Do not trouble yourself over it. I was merely saying I enjoy the dawn, not that we should order our lives around it. The sun is beautiful, but I know it is there.~
+@197 /*Jaheira*/ = ~Besides, do I strike you as a person that would adjust well to a strict timeline?~
+@198 /*Wilson*/ = ~Growl, gruh... sniff! Roar snuffle growl, grrf snort!~
+@199 /*Jaheira*/ = ~Such talk! Have you found some poor apprentice bard to draft you lines, or are you practicing on the maidens that we meet?~
+@200 /*Wilson*/ = ~Snort roar...~
+@201 /*Jaheira*/ = ~Perhaps, though I intend no malice. I would laugh at you as I laugh at myself, and... hopefully I will come to know you just as well.~
+@202 /*Jaheira*/ = ~Your words were pleasing; do not think otherwise. But, eh, perhaps we should just get moving for now.~
+@203 /*CHARNAME*/ = ~I'm glad you're getting along.~
+@204 /*CHARNAME*/ = ~*say nothing.*~
+@205 /*CHARNAME*/ = ~I'm not sure where this is going and I don't want to find out. Both of you keep silent from now on.~
+@206 /*CHARNAME*/ = ~Okay, I'm out. Please stop talking where I can hear you.~
+
+//23rd talk.
+@207 /*Jaheira*/ = ~Ugh, it is about time we rested. I have seen enough waking hours, thank you very much.~ [JAHEIRB3]
+@208 /*Wilson*/ = ~Gruff.~ [OH87200]
+@209 /*Jaheira*/ = ~I do not wish to be cheerful; I wish to be miserable, hating everything that has led to what we are.~
+@210 /*Wilson*/ = ~Growl gruff snort.~
+@211 /*Jaheira*/ = ~Stop being so damned reasonable. Get mad and say that you won't stand for it. Act like you should!~
+@212 /*Wilson*/ = ~Roar?~
+@213 /*Jaheira*/ = ~Because you are a bear! You should be on your own in the woods not traveling by my side. Bears do not travel in packs... why are you even here?~
+@214 /*Wilson*/ = ~Roar, growl. Snort!~
+@215 /*Jaheira*/ = ~Bah! What does the heart know? It makes you do foolish things for no cause. It makes you forget the dead before you should. It makes you fall in...~
+@216 /*Jaheira*/ = ~It... makes you do things that wreak havoc on your mind. I'm sorry, Wilson, you should not have to hear this. You have been good and true.~
+@217 /*Jaheira*/ = ~I should be happy, but I am not. Even with all we have done to make things right, I am still troubled.~
+@218 /*Wilson*/ = ~Snuffle... mmrf.~
+@219 /*Jaheira*/ = ~I know, and I need your company. I am just not comfortable with needing it. Let's get some rest for now. I'll try to straighten myself out.~
+
+//24th talk.
+@220 /*Jaheira*/ = ~You needn't keep a distance between us. I am in less of a mood now.~ [JAHEIRB5]
+@221 /*Wilson*/ = ~Roar.~ [OH87199]
+@222 /*Jaheira*/ = ~Yes, I shouldn't expect a warm reaction after what I have been like. Simple feelings complicated beyond recognition. I hope I have not soured your view of me.~
+@223 /*Wilson*/ = ~Growl, growl snort.~
+@224 /*Jaheira*/ = ~It must have been confusing for you, and I cannot say how sorry I am. You have shown the patience of a saint, despite my... fluctuations.~
+@225 /*Jaheira*/ = ~Know that I care for you, even if I do not show it well. If this meant nothing, it would have been easy to deal with. Small consolation, I know.~
+@226 /*Wilson*/ = ~Snuffle roar!~
+@227 /*Jaheira*/ = ~I am trying. You have shown such caring so far. I have taken you for granted as someone that would always be here, even as I questioned our very friendship.~
+@228 /*Jaheira*/ = ~I will not make such a mistake again. Of this I am sure.~
+@229 /*Jaheira*/ = ~We should get moving. Walk with me, Wilson.~
+
+//25th talk.
+@230 /*Wilson*/ = ~Gruh...growl.~ [OH87195]
+@231 /*Jaheira*/ = ~I have... had a realization. I have been walking with my eyes downcast for so long I had forgotten the beauty of the land. Aye, all we have seen... I had thought never to feel the warmth of nature again.~ [JAHEIRB6]
+@232 /*Wilson*/ = ~Sniff sniff sniff.~
+@233 /*Jaheira*/ = ~The chasms we walk in jut from the earth like a spear, kept in check by a lack of balance, which means helping them would damn another land. It is chaos...~
+@234 /*Jaheira*/ = ~Forests, grasslands; they have been in harmony for untold years, complementing, not competing. I have walked by many but had forgotten. They stir my soul.~
+@235 /*Wilson*/ = ~Growl, roar. Snuffle...~
+@236 /*Jaheira*/ = ~Yes, and if the balance can be struck there, it can happen where I am willing. It was my calling as a druid and as a Harper. I had forgotten...~
+@237 /*Jaheira*/ = ~I forgot that balance does not mean conformity; equilibrium does not need to sacrifice variety. Dermin forgot that too. Difference does not have to be chaos.~
+@238 /*Wilson*/ = ~Snuffle sniff snort.~
+@239 /*Jaheira*/ = ~Oh, stop it. I'm being serious here.~
+@240 /*Jaheira*/ = ~No, no, don't stop it. I have been far too serious and have worried about too much for far too long. What is so wrong with this? Nothing!~
+@241 /*Jaheira*/ = ~Wilson, I care for you. I have not always shown as such, and my words may seem harsh on occasion, but my feelings are true just the same.~
+@242 /*Wilson*/ = ~Growl gruh, roar! Snuffle... sniff?~
+@243 /*Jaheira*/ = ~Perhaps this changes nothing, perhaps everything. I don't care anymore. My heart cannot have nature within and be ashamed as well.~
+@244 /*Wilson*/ = ~Roar! Snuffle snuffle.~
+@245 /*Jaheira*/ = ~What? Had we not done all of this, we would have missed out on all the fun.~
+@246 /*Wilson*/ = ~Yes, I am joking. Let's go, Wilson. I feel happy for the first time in far too long.~
+
+//26th talk.
+@247 /*Jaheira*/ = ~Can I— I would— *ahem* Hear my words while I have the nerve.~ [JAHEIRB8]
+@248 /*Jaheira*/ = ~Wilson, as we learn of our situation, I want to say... that there is much to come, and I find I need your company more and more. You are a great comfort in this time.~
+@249 /*Wilson*/ = ~Growl, roar.~ [OH87175]
+@250 /*Jaheira*/ = ~I know. We are great friends... and more. Your words ease my thoughts, and many are the times we have saved one another in battle. We have grown quite close.~
+@251 /*Wilson*/ = ~Sniff mrrf?~
+@252 /*Jaheira*/ = ~You can be yourself, be there for me. You can... be here for me as well.~
+@253 /*Jaheira*/ = ~Perhaps what I have to say next will be more convincing in another form.~
+
+//After shapeshift
+@254 /*Jaheira*/ = ~Growl growl whine?~
+@255 /*Wilson*/ = ~Whine growl?~
+@256 /*Jaheira*/ = ~Sniff snuffle sniff... growl. Roar.~
+@257 /*Wilson*/ = ~Roar.~
+
+//After rest.
+@258 /*Jaheira*/ = ~Mrrf.~
+
+//After shapeshift back into human.
+@259 /*Jaheira*/ = ~Good morning! Shall we get ourselves ready for the road? We've much to do, so we should get an early start.~ [JAHEIRB9]
+@260 /*Wilson*/ = ~Grugh?~ [OH87168]
+@261 /*Jaheira*/ = ~Shhh, nothing to be said. Let's get going now.~
+
+
+

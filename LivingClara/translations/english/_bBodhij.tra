@@ -1,0 +1,144 @@
+
+@0 /*Bodhi*/ = ~No, no it's mine! This life is mine!~ [BODHIX41.WAV]
+@1 /*Bodhi*/ = ~<CHARNAME>, I flee. When I am whole I will find you, if you live.~
+@2 /*Bodhi*/ = ~The sun, it burns! I will find you later.~
+
+//1st Hexxat Talk
+@3 /*Hexxat*/ = ~You are wearing my cloak.~
+@4 /*Bodhi*/ = ~It was Dragomir's cloak, was it not? <CHARNAME> killed Dragomir which makes it <CHARNAME>'s cloak, and <CHARNAME> gave it to me.~
+@5 /*Hexxat*/ = ~You must return it to me.~
+@6 /*Bodhi*/ = ~Must I? It was a treasured gift.~
+@7 /*Bodhi*/ = ~I think I will keep it. Any complaints must go to our leader.~
+@8 /*Hexxat*/ = ~This is unacceptable, <CHARNAME>. I cannot move in sunlight without it.~
+@9 /*CHARNAME*/ = ~Sorry, Hexxat, I need Bodhi more than you.~
+@10 /*CHARNAME*/ = ~You'll just have to find another one.~
+@11 /*CHARNAME*/ = ~There's two vampires and one cloak; you'll just have to learn to share.~
+@12 /*CHARNAME*/ = ~Hexxat's right, Bodhi, you need to return it.~
+@13 /*Hexxat*/ = ~This is disappointing. I hope you will change your mind.~
+@14 /*Bodhi*/ = ~You give it to me only to ask for its return? My heart is broken, <CHARNAME>. With the sun denied me, I will sulk in the dark.~
+
+//2nd Hexxat Talk
+@15 /*Bodhi*/ = ~It seems that Dragomir's cloak is not as unique as I thought.~
+@16 /*Hexxat*/ = ~He was a large vampire. When I had an opportunity, I recut his cloak and made two. I did not need the spare until now.~
+@17 /*Hexxat*/ = ~It is clear that <CHARNAME> relies on you. I will have to accept your company as well.~
+
+//Dead Lover talk in Bodhi's Lair
+@18 /*Bodhi*/ = ~Your sweet love is dead. Shall I raise him back to be your mindless slave forever?~
+@19 /*CHARNAME*/ = ~Tell me how to cure him!~
+@20 /*CHARNAME*/ = ~I will find a way to restore him!~
+@21 /*Bodhi*/ = ~Your sweet love is dead. Shall I raise her back to be your mindless slave forever?~
+@22 /*CHARNAME*/ = ~Tell me how to cure her!~
+@23 /*CHARNAME*/ = ~I will find a way to restore her!~
+@24 /*Bodhi*/ = ~After I acquired Imoen's soul, I researched my condition to see if I could remove my vampirism and become an elf once again.~
+@25 /*Bodhi*/ = ~You will find the results of my research in a chest of tomes in yonder room.~
+
+//2nd talk after you get the books.
+@26 /*Bodhi*/ = ~Ah yes, those are the books. That I had set a trap on their container completely slipped my mind.~
+@27 /*Bodhi*/ = ~The books mention a temple, but I have not yet found it. Perhaps those spineless lackeys of Oghma would know more. I stole the books from their temple in the Docks district.~
+@28 /*Bodhi*/ = ~There is no salvation for me, however, as a needed component is the heart of the vampire who turned me, and my brother obliterated him. Not even his dust remains.~
+@29 /*CHARNAME*/ = ~So we need your heart?~
+@30 /*Bodhi*/ = ~Yes, but have no fear on that account. I shall remove it for you and then regenerate another. It turns out a heart is not fully necessary for my continued existence.~
+@31 /*Bodhi*/ = ~And here you are. You are a lucky <PRO_MANWOMAN>, <CHARNAME>, to hold a beautiful woman's heart within your hands.~
+
+//Talk once you go upstairs.
+@32 /*Bodhi*/ = ~So what now, <CHARNAME>? Do I return to Elhan, bound and chained? Elhan is not your friend.~
+@33 /*Bodhi*/ = ~And he will not be happy to see me.~
+@34 /*CHARNAME*/ = ~Can't we use the Rhynn Lanthorn to just walk to Suldanesselar without him?~
+@35 /*CHARNAME*/ = ~Happy or not, he must help us. Only we can stop Irenicus.~
+@36 /*CHARNAME*/ = ~What's the deal with you and Elhan, anyway?~
+@37 /*CHARNAME*/ = ~You are wearing no chains, Bodhi. You move freely.~
+@38 /*CHARNAME*/ = ~Forget about Elhan. Remember the last time we were in your lair... you led me to your coffin... and we...~
+@39 /*CHARNAME*/ = ~Forget about Elhan. I have chased you across half the world and now I have you. Let's spend some time alone.~
+@40 /*CHARNAME*/ = ~Off we go then.~
+@41 /*Bodhi*/ = ~One could, but only if one were an elf of the city, and I... am not. No... we must go to Elhan.~
+@42 /*Bodhi*/ = ~True, but he is a stubborn fool, and not one you can trust. Were he strong enough, he would kill you in a heartbeat and take the Rhynn Lanthorn for himself.~
+@43 /*Bodhi*/ = ~Nothing so interesting as to concern you, <CHARNAME>... Merely the usual sordid tale of love and betrayal.~
+@44 /*Bodhi*/ = ~Not all chains are visible to the eye. Lead the way and we will meet with Elhan.~
+@45 /*Bodhi*/ = ~Yes... the blood of the gods. I drank from you and Imoen while Irenicus held you captive and it was like imbibing pure power... but to have you give your blood to me willingly as you crested the waves of pleasure was especially sublime.~
+@46 /*CHARNAME*/ = ~I remember it well. I wanted you then and I want you now.~
+@47 /*CHARNAME*/ = ~And ever since then I've been chasing you. Now that I've finally caught you, I want my reward.~
+@48 /*CHARNAME*/ = ~You must have enjoyed it a lot since we also did it about a hundred times on the ship to Spellhold...~
+@49 /*Bodhi*/ = ~But you are not as you were, that divine spark is missing... and I am not as I was either.~
+@50 /*Bodhi*/ = ~As a vampire, I was a beast... an animal... I could feel only the excitement of the hunt.~
+@51 /*Bodhi*/ = ~I remember love, but I cannot experience it. It is the payment for my curse.~
+@52 /*Bodhi*/ = ~The only intimate pleasure I could feel was what I drank from others... like I drank from you. But now even that is denied me...~
+@53 /*Bodhi*/ = ~Imoen's soul awakened the elf inside me, and she remembers. I do not want to rut like a beast of the fields... I want to fly among the clouds on waves of pleasure... the way I used to in my City of Trees.~
+@54 /*Bodhi*/ = ~I want to dance in passion with the most skilled of lovers... those who have spent a lifetime perfecting all of the finer arts...~
+@55 /*Bodhi*/ = ~I want to be loved...~
+@56 /*CHARNAME*/ = ~Oh, never mind then.~
+@57 /*CHARNAME*/ = ~But I do love you, Bodhi. I stormed Spellhold for you. I braved the dangers of the Underdark. I sacrificed my own sister's soul.~
+@58 /*Bodhi*/ = ~Hmm, perhaps you will do.~
+@59 /*Bodhi*/ = ~It was clear from our previous encounters that while you are proficient at satisfying yourself, you know nearly nothing about the workings of the female body.~
+@60 /*Bodhi*/ = ~But you are a quick study... your progress in so many fields has been nothing short of astounding. Why could you not learn this as well?~
+@61 /*Bodhi*/ = ~All right then, I accept. But you must follow all of my commands exactly. Obsequiousness is the greatest aphrodisiac.~
+@62 /*CHARNAME*/ = ~Of course you would say that. Very well.~
+@63 /*CHARNAME*/ = ~As you command, Mistress.~
+@64 /*CHARNAME*/ = ~Nah, I'm not interested.~
+@65 /*Bodhi*/ = ~Yes, this might work. Love me with all your heart and I shall drink that love in your moments of greatest passion. Perhaps it shall be enough.~
+@66 /*Bodhi*/ = ~And why should I be interested? I will admit a desire for tasting your divine blood, but that spark is gone. You are merely mortal.~
+@67 /*CHARNAME*/ = ~I guess you're right.~
+@68 /*CHARNAME*/ = ~I am <CHARNAME> and even without what your brother stole, I was mighty enough to defeat you.~
+@69 /*Bodhi*/ = ~Before my acquisition of your sister's soul, I might have accepted, but now the elf inside me recoils from the idea.~
+@70 /*Bodhi*/ = ~I do not want to rut like a beast of the fields... I want to fly among the clouds on waves of pleasure... the way I used to in the City of Trees.~
+
+//Post-Sex Dialogue
+@71 /*Bodhi*/ = ~Hmm...~
+@72 /*CHARNAME*/ = ~So how was it for you?~
+@73 /*CHARNAME*/ = ~Was that a good "hmm" or a bad "hmm"?~
+@74 /*CHARNAME*/ = ~That was awesome!~
+@75 /*CHARNAME*/ = ~That didn't work, did it?~
+@76 /*Bodhi*/ = ~That... did not meet my hopes.~
+@77 /*Bodhi*/ = ~Your performance was sufficiently competent. In my old life, I would've considered it a worthwhile experience, but now I am conflicted.~
+@78 /*Bodhi*/ = ~The elf inside of me remembers a love that my vampire heart cannot produce and a pleasure my vampire body cannot experience.~
+@79 /*Bodhi*/ = ~It is enough to make one slaughter a small city in frustration.~
+@80 /*CHARNAME*/ = ~Maybe a different partner?~
+@81 /*CHARNAME*/ = ~So we cure your vampirism!~
+@82 /*CHARNAME*/ = ~Perhaps we just need to try again!~
+@83 /*CHARNAME*/ = ~So what will you do now?~
+@84 /*Bodhi*/ = ~You are sweet, but no; that would be a wishful delusion. The problem is most definitely with me. I lost what I was and even a stolen divine soul cannot bring me back.~
+@85 /*Bodhi*/ = ~My brother is no different. He has your soul, but it has not brought him peace. He is empty of all except rage.~
+@86 /*Bodhi*/ = ~I shall just have to accept that sensual pleasures will never again be part of my life.~
+@87 /*Bodhi*/ = ~There is no cure! I poured over dozens of tomes in three different languages and the only recorded instance of vampirism being cured involved someone recently turned and required the heart of their master.~
+@88 /*Bodhi*/ = ~I was turned years ago and I consumed my master's ashes after my brother incinerated him.~
+@89 /*Bodhi*/ = ~There is no hope for me. I will just have to accept that.~
+@90 /*Bodhi*/ = ~You are persistent, my succulent godling, but a repeat experience would yield a similar result, and the elf within me could not handle the continual disappointment.~
+@91 /*Bodhi*/ = ~The problem is not a lack of practice, technique, or application... the problem is that my heart cannot love. The problem is who I am.~
+@92 /*Bodhi*/ = ~At this moment? I shall fly into the night and slaughter the first person unlucky enough to cross my path.~
+@93 /*Bodhi*/ = ~And when they have suffered my wrath, I shall find the next and the next... until my mood improves.~
+@94 /*CHARNAME*/ = ~Have fun.~
+@95 /*CHARNAME*/ = ~Can I come? Killing people always makes me feel better too.~
+@96 /*CHARNAME*/ = ~Well, I suppose I did sign up for this. Enjoy but try to stay discreet.~
+@97 /*Bodhi*/ = ~I hope to. Sleep and regain your strength. I shall return before you wake.~
+@98 /*Bodhi*/ = ~Not this <DAYNIGHTALL>, <CHARNAME>. This <DAYNIGHTALL> I hunt alone. Sleep and regain your strength. I shall return before you wake.~
+
+//Dialogue with Elhan after you have Bodhi.
+@99 /*c6Elhan2*/ = ~How could you side with the defiled one, <CHARNAME>? She cannot be trusted!~
+@100 /*_bBodhij*/ = ~You wound me with your harsh words, my love. I am so cold, will you not warm me in your arms? Am I not worthy of your sweet caresses?~
+@101 /*CHARNAME*/ = ~Clearly there is more to this story than you have told me.~
+@102 /*CHARNAME*/ = ~I demand to know what is going on!~
+@103 /*CHARNAME*/ = ~You claimed to know nothing about Bodhi, but she certainly seems to know you. Talk!~
+@104 /*Elhan*/ = ~Bodhi is not known to any elf! Neither is the Exile, Irenicus! They do not exist in our eyes, and you would benefit by shutting yours to them as well!~
+@105 /*Elhan*/ = ~I can't tell you more, <CHARNAME>. It is not my place to do so. The Exiles, Irenicus and Bodhi, are criminals. Their crime was great, their punishment greater.~
+@106 /*Elhan*/ = ~If you wish to know more, you'll have to talk to one of those involved.~
+@107 /*Bodhi*/ = ~*You* were not involved? I suppose in a sense you weren't. To be involved, one must have the spine to actually risk something.~
+@108 /*Elhan*/ = ~Demin, the high priestess, she will tell you. We will have to breach the city to find her. Fortunately, my sages have instructed me in the use of the Lanthorn.~
+@109 /*Elhan*/ = ~We must go, but most of my elves must remain here to hold back the drow. We cannot be struggling on two fronts when we face what is in the city.~
+@110 /*Elhan*/ = ~The queen pleaded with me in a vision to admit you, no matter who were your companions... But... no, the defiled one running loose about the streets... It would create a panic!~
+@111 /*Elhan*/ = ~What should I do...?~
+@112 /*Bodhi*/ = ~Jon has destroyed your temple, stolen your city, and laid waste to your defenses and you're worried that I might frighten some weak-hearted citizens? How misguidedly touching.~
+@113 /*warsage*/ = ~I have a spell which will render her disguised to our people, and even to the city's defenses.~
+@114 /*warsage*/ = ~As long as she offers them no harm, she will slip their notice and their memory. If they notice her at all, it will be as a nondescript companion of <CHARNAME>.~
+@115 /*warsage*/ = ~Even her voice will be heard merely as the sound of the wind whistling through the trees.~
+@116 /*Bodhi*/ = ~So they will be saved the indignity of having to pretend they cannot see and hear me as Elhan does? How fortunate for them.~
+@117 /*Elhan*/ = ~Yes, that will work. Now give the Lanthorn to me.~
+@118 /*CHARNAME*/ = ~Here you go.~
+@119 /*CHARNAME*/ = ~You know I must have forgotten it in my other backpack. I'll be back.~
+@120 /*Elhan*/ = ~You forgot it? Go! Get it now before it is lost to us forever!~
+@121 /*Elhan*/ = ~You have the Lanthorn! It is in the hands of the murderous vampire Bodhi no longer! I feel the tide of this crisis is certainly changing.~
+@122 /*Bodhi*/ = ~Are you serious, my love? Your ability to have a conversation as if I were not present is truly impressive. If only you put as much effort into more worthwhile pursuits.~
+@123 /*Elhan*/ = ~Now give the Lanthorn to me.~
+@124 /*CHARNAME*/ = ~Not just yet.~
+
+
+
+

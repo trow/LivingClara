@@ -1,0 +1,106 @@
+//Extra Courtesan Options- PIRCOR01
+@31 /*CHARNAME*/ = ~May I have a moment of your time?~
+@32 /*Prost*/ = ~Oh, you like what you see, do you? Does your ship need a welcoming port?~
+@33 /*Prost*/ = ~Oh I'm sorry, but you must go elsewhere. She'll kill me.~
+@34 /*Prost*/ = ~Oh it's the two of you. Have a pleasant day now.~
+@35 /*Prost*/ = ~Oh it's you. Pleasure to see you, sailor. Up for another round?~
+
+@36 /*CHARNAME*/ = ~No thank you.~
+@37 /*CHARNAME*/ = ~It does. How much?~
+@38 /*CHARNAME*/ = ~Sure, sounds good.~
+@39 /*Jaheira*/ = ~<CHARNAME>, we are not sharing our bed with a courtesan.~
+@40 /*Jaheira*/ = ~Good lady, here is your gold, but you must find yourself another customer.~
+@41 /*Viconia*/ = ~You, the common, diseased, rivvin filth who opens her legs to any male with coin. Do you fear me?~
+@42 /*Prost*/ = ~You're a dark elf, but my uncle is the Pirate Lord! You hurt me and he'll... he'll...~
+@43 /*Viconia*/ = ~Hah! This male is mine and I own him. He is not for you to use, or touch, or please in any way, and if you try, you will both die slowly and painfully by my hand.~
+@44 /*Viconia*/ = ~I will burn you alive... or perhaps skin you first, healing you throughout to prolong your agony.~
+@45 /*Viconia*/ = ~And when death finally comes, you will greet it as a welcome friend, but even death will not release you from your anguish. I will raise you from the dead and repeat the process, again and again, until my thirst for blood is satiated.~
+@46 /*Viconia*/ = ~And your uncle? He will never even find you. Am I making myself clear?~
+@47 /*Prost*/ = ~Very clear. I'll be going now.~
+
+@48 /*Prost*/ = ~200 gold for several hours of my time. In the finest room available, of course.~
+@49 /*Prost*/ = ~I am not one of Miss Galvena's slaves. I can choose my customers.~
+@50 /*Jaheira*/ = ~I cannot believe that you would sleep with this woman. Clearly I was mistaken about you.~
+@51 /*Aerie*/ = ~I... I... I think I was wrong about you, <CHARNAME>. I don't think you should be doing this... and I don't think you are the kind of man that I should care for.~
+@52 /*Neera*/ = ~This is certainly an unpleasant surprise, <CHARNAME>. I thought you were going to be different. Consider us finished from now on.~
+@53 /*Mazzy*/ = ~We clearly have different ideas of what it means to be in a relationship, <CHARNAME>. You had best enjoy your courtesan since you'll have me no longer.~
+@54 /*Dorn*/ = ~She's only pretending to like us in order to lighten our purse. Take her if you want, <CHARNAME>, but I want no part of this.~
+@55 /*Prost*/ = ~And you are clearly a man worth choosing. But can you afford me?~
+
+@58 /*CHARNAME*/ = ~I can. I will pay for the finest room with all the luxuries.~
+@59 /*CHARNAME*/ = ~I have changed my mind. Perhaps another time.~
+
+@62 /*Prost*/ = ~I think you will be my new favorite. Follow me.~
+@63 /*Prost*/ = ~I will endeavor to give you a time you never forget.~
+@65 /*Prost*/ = ~Mmm, you sure know how to make a girl feel good. Come back anytime.~
+@66 /*Prost*/ = ~I'll be waiting.~
+
+@67 /*CHARNAME*/ = ~Viconia? Don't worry about her, she's all bluster.~
+@68 /*CHARNAME*/ = ~It's okay, we're not together anymore.~
+@69 /*CHARNAME*/ = ~But Viconia's not even here.~
+@70 /*CHARNAME*/ = ~Don't worry about it. The drow is dead.~
+@71 /*Prost*/ = ~One can never be too careful. The other girls will help you.~
+@72 /*Jaheira*/ = ~And to you as well.~
+@73 /*CHARNAME*/ = ~With you? Of course. How much is it again?~
+
+@74 /*Prost*/ = ~Is there something I can help you with?~
+@75 /*CHARNAME*/ = ~No, nothing.~
+@76 /*CHARNAME*/ = ~Yes, I want you.~
+@77 /*CHARNAME*/ = ~Yes, we want you.~
+
+@78 /*Prost*/ = ~I'm not what you're looking for. There are other girls who would be happy to have you.~
+@79 /*CHARNAME*/ = ~Fine, I'll go find them.~
+@80 /*CHARNAME*/ = ~I have money; just pretend you like me. Treat me like a rich man you aren't attracted to.~
+@800 /*CHARNAME*/ = ~Well it isn't just me. Rasaad will be joining us too.~
+@801 /*Prost*/ = ~This one is yours? He's gorgeous!~
+@802 /*Prost*/ = ~Fine, you win. I'll do whatever ye want if I can borrow him.~
+@803 /*Rasaad*/ = ~<CHARNAME>, this is unexpected... but I am not foolish enough to decline. I will follow.~
+@804 /*CHARNAME*/ = ~We are agreed then. Before you can enjoy each other though, you both have to focus on me. I expect enthusiasm.~
+@81 /*Prost*/ = ~I want 500 gold.~
+@82 /*CHARNAME*/ = ~You want too much. I'll find someone else.~
+@83 /*CHARNAME*/ = ~Done. It's time to start your act. I expect enthusiasm.~
+@84 /*Prost*/ = ~Ohh, sailor, I can't wait to welcome your ship.~
+@85 /*Prost*/ = ~Or my ship? Neither of us have ships. What do girls do together?~
+@86 /*Prost*/ = ~I guess I will find out soon.~
+@87 /*Prost*/ = ~Well that was a change of pace. I'm happy to do that whenever you want. Provided you have the gold, of course.~
+
+@88 /*Dorn*/ = ~Interesting. Yes, I approve of this idea. I will share the whore with you.~
+@89 /*Prost*/ = ~Oh we are both going to share this big one here? That can be arranged.~
+@90 /*Prost*/ = ~Oh, an orc... oh... I see...~
+@91 /*Prost*/ = ~That's... that's not a problem. I'll just follow your lead. I'll need 1000 gold too.~
+@92 /*Dorn*/ = ~Hah, you are terrified of me, but your greed compels you to act. Do I frighten you more than the scum you normally service?~
+@93 /*Prost*/ = ~No pirate or sailor would dare hurt me. My uncle, the Pirate Lord, would make an example of them. But you...~
+@94 /*Dorn*/ = ~You are right; I do not fear him or any man. But I will not hurt you.~
+@95 /*Dorn*/ = ~The more handsome the man, the more selfish. <CHARNAME> and I will pleasure you as you never have been before.~
+@96 /*Prost*/ = ~Well you two, that was wonderful. Please come back anytime. Anytime you can afford it, that is.~
+
+@97 /*Anomen*/ = ~I am sorry, my lady, but I must decline your offer, generous as it is. My name may not be as spotless as I would prefer, but we cannot share this woman. Word would spread quickly among the sailors and my name would be tarnished further.~
+@98 /*Prost*/ = ~Another time then.~
+
+@99 /*Hexxat*/ = ~Now that is regrettable. You are truly delectable. I could just eat you alive, and I'd pay heavily for the privilege.~
+@100 /*CHARNAME*/ = ~Nevermind then.~
+@101 /*CHARNAME*/ = ~You heard her; we'll pay. How about it?~
+@102 /*CHARNAME*/ = ~Hexxat, are you saying you want her or you WANT her?~
+@103 /*Hexxat*/ = ~Both. First we have her, then I have her, though you may join in that too if you wish.~
+@104 /*Prost*/ = ~Two women? But I've never...~
+@105 /*Prost*/ = ~I want 1000 gold.~
+@106 /*Hexxat*/ = ~You'll have everything you could ever desire. Just follow us.~
+@107 /*Prost*/ = ~Time to sail on a new adventure.~
+
+@108 /*Prost*/ = ~A pleasure to see you two again. I could use some company.~
+@109 /*Dorn*/ = ~Hah, her fear is gone and now she hungers for us again.~
+@110 /*Dorn*/ = ~What say you, <CHARNAME>? Shall we give her another night to remember?~
+@111 /*CHARNAME*/ = ~Not at the moment.~
+@112 /*CHARNAME*/ = ~Sure, let's do it.~
+@113 /*Prost*/ = ~Wonderful. Follow me.~
+
+@114 /*Prost*/ = ~Oh it's you. Do you want to go again?~
+@115 /*CHARNAME*/ = ~I don't have time right now.~
+@116 /*CHARNAME*/ = ~Yes, let's go to your room.~
+@117 /*CHARNAME*/ = ~Actually you'll be joining me and Dorn this time.~
+@118 /*Prost*/ = ~Oh good, follow me. I have had some new ideas since last time.~
+@119 /*Prost*/ = ~I will soon have you screaming in ecstasy.~
+@120 /*Prost*/ = ~Is this one yours? You must bring him too. He's gorgeous!~
+@121 /*Rasaad*/ = ~<CHARNAME>, this is unexpected... but I am not foolish enough to decline. I will follow.~
+@122 /*Prost*/ = ~And Rasaad's coming again too? Well isn't it my lucky day?~
+@123 /*Rasaad*/ = ~A lucky day for me as well. May I say that you are looking lovely as ever?~

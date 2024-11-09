@@ -1,0 +1,355 @@
+//First talk
+@1 /*Imoen*/ = ~Mazzy! You're here!~
+@2 /*Mazzy*/ = ~Yes, it seems that <CHARNAME> needed us both.~
+@11 /*Imoen*/ = ~I'm really glad you're here too. Ever since I got my essence back from Bodhi, the walls have been breaking down or are covered with blood. I'm having so many murder dreams I can't tell what's real any more.~
+@12 /*Imoen*/ = ~Mazzy, can I stay next to you? You make me feel better; I'm not sure why. Makes me feel like I might actually live through this.~
+@13 /*Viconia*/ = ~You are drawn to her because you are the mongrel offspring of a god and the little paladin provides an aura of calm. A protection against gods, if you will.~
+@14 /*Viconia*/ = ~She is the flame which draws lost creatures such as ourselves.~
+@15 /*Imoen*/ = ~Oh hi, Viconia, I didn't see you there.~
+@16 /*Imoen*/ = ~You have god problems too? I never knew that.~
+@17 /*Viconia*/ = ~Lolth has a piece of my soul in her clutches. She uses it to track me down and torture me on occasion.~
+@18 /*Imoen*/ = ~Wait... what? Wow. We traveled together for so long and yet I know nothing about you. We should talk more.~
+@19 /*Imoen*/ = ~Also are you nicer now? You've never talked this much to me before and I have so many questions.~
+@20 /*Viconia*/ = ~We never converse because you are an over-curious puppy who chatters enough for the both of us. Look at you, your mind is shattering and you look like you haven't slept in weeks, yet you want to stop and ask me questions.~
+@21 /*Imoen*/ = ~Aww, I missed you too, Viconia.~
+@22 /*Imoen*/ = ~Mazzy, can I rest on your shoulder for a moment? I'm still not quite sure what's real here, and Viconia is right, I haven't slept a full night in so long.~
+@23 /*Mazzy*/ = ~Of course, Imoen. I will support you.~
+
+//Viconia Talk
+@24 /*Imoen*/ = ~So, hey, you're the new nicer Viconia now?~
+@25 /*Imoen*/ = ~I mean, it seems to come and go since occasionally you're as vile as ever. But some of the things you say to us are almost pleasant. Like we're your... *gasp*... friends!~
+@26 /*Viconia*/ = ~Mazzy convinced me that it would be in my best interests to occasionally be nicer to those who do not wish me dead.~
+@260 /*Viconia*/ = ~<CHARNAME> convinced me that it would be in my best interests to occasionally be nicer to those who do not wish me dead.~
+@27 /*Imoen*/ = ~Aww, you're saying that I don't wish you dead? That's so sweet. I mean, you're right, I don't want you dead, though sometimes when you're really mean to me, I don't like you very much.~
+@28 /*Imoen*/ = ~I can just see the internal conflict going on in your head. You're saying to yourself, "I really want to say something to make Imoen cry, but then she'll be more likely to abandon me to an angry mob."~
+@29 /*Viconia*/ = ~Making you cry is hardly an accomplishment. For one as weak and pathetic as yourself, it is much more difficult to keep you from shattering like a mirror.~
+@30 /*Imoen*/ = ~Yeah. But what doesn't kill me makes me stronger, right? I mean look at you! You've been tortured way more than I have and you're super-tough: like one giant emotional scar.~
+@31 /*Imoen*/ = ~I mean, you have a habit of driving people away, it's hard for you to care for anyone, and you're probably going to die unloved and alone, but at least you're tough, right?~
+@32 /*Imoen*/ = ~Oh wow, that was sarcastic and... mean! I'm turning into you. I'm the new tougher Imoen!~
+@33 /*Viconia*/ = ~You should be so lucky. You would need to be captured by a hundred more Irenicuses to achieve that, but I suppose one was a start.~
+@34 /*Viconia*/ = ~I could toughen you up if you would like. I do not have the proper tools for really meaningful torture, but I could... improvise.~
+@35 /*Imoen*/ = ~Um... no. No, thanks. Your words cut well enough.~
+@36 /*Viconia*/ = ~A pity. Consider it an open offer if you ever change your mind.~
+
+//2nd Mazzy Talk
+@37 /*Imoen*/ = ~Mazzy, do you mind if I sleep next to you?~
+@38 /*Mazzy*/ = ~Of course not. You're welcome to snuggle up with me anytime you'd like.~
+@39 /*Mazzy*/ = ~That is, assuming you do not mind the company.~
+@40 /*Viconia*/ = ~She is referring to me.~
+@41 /*Imoen*/ = ~Oh, I don't want to intrude, I didn't realize you two were... you know...~
+@42 /*Viconia*/ = ~Hah, you are mistaken. In all my many years with the drow, I never acquired a taste for females; most of them were either useless whining slaves or were trying to kill me.~
+@43 /*Viconia*/ = ~Mazzy, however, wants nothing more than to rip off my clothes and bury her tongue between my thighs, but she restrains herself due to some misguided sense of propriety.~
+@44 /*Mazzy*/ = ~Viconia!~
+@45 /*Imoen*/ = ~*laughs* Is that true?~
+@46 /*Mazzy*/ = ~It is true that we are not together. The rest of it I will not dignify with a response.~
+@47 /*Mazzy*/ = ~So, yes Imoen, you may sleep here with us for as long as you'd like. No harm will come to you.~
+@48 /*Imoen*/ = ~Thanks. I feel awful.~
+@49 /*Mazzy*/ = ~I believe under the circumstances that is warranted.~
+
+//Imoen-Mazzy Permission Talk
+@500 /*Imoen*/ = ~<CHARNAME>, you may have noticed that I've been spending a lot of time with Mazzy...~
+@501 /*CHARNAME*/ = ~Noticed. Don't care.~
+@502 /*CHARNAME*/ = ~I think it's great you've made a friend.~
+@503 /*CHARNAME*/ = ~Actually, it's making me kind of jealous.~
+@504 /*Imoen*/ = ~Good, then you won't mind if I jump her bones.~
+@505 /*CHARNAME*/ = ~Correct. Go have fun.~
+@506 /*CHARNAME*/ = ~Wait... since when do you like women?~
+@507 /*CHARNAME*/ = ~Are you sure you're ready for a relationship?~
+@508 /*CHARNAME*/ = ~That would make me jealous.~
+@509 /*CHARNAME*/ = ~Why Mazzy?~
+@510 /*CHARNAME*/ = ~Why are you asking me?~
+@511 /*CHARNAME*/ = ~What makes you think Mazzy will accept you?~
+@512 /*CHARNAME*/ = ~I think Mazzy is still mourning her dead lover, Patrick.~
+@513 /*CHARNAME*/ = ~No, sorry, I'd prefer it if you found someone else.~
+@514 /*Imoen*/ = ~Since forever! I've slept with how many girls since Candlekeep and you never noticed?~
+@515 /*Imoen*/ = ~I mean, yeah I slept with a couple of cute guys too... but it's mostly been women and it's not like I've tried to hide it...~
+@516 /*Imoen*/ = ~I guess you've always been focused on your own problems... like our whole adventure is just about you and your choices and the rest of us hardly matter...~
+@517 /*Imoen*/ = ~... but you know now. I'm Imoen, I like girls, and I want Mazzy.~
+@518 /*Imoen*/ = ~So what do you say? Can I have her?~
+@519 /*CHARNAME*/ = ~Of course. Go have fun.~
+@520 /*Imoen*/ = ~Am I sure I'm ready for a relationship? *laughs* Are you kidding me?~
+@551 /*Imoen*/ = ~Of course I'm not ready! I'm barely controlling this soul of a dead god inside of me! I'm having murder dreams even when I'm awake!~
+@522 /*Imoen*/ = ~I am, however, very, very ready to have someone safe to hold me and love me so I can forget about the future. Someone like Mazzy.~
+@523 /*Imoen*/ = ~So you're jealous because you want to spend more time with me or because you want to spend more time with her?~
+@524 /*CHARNAME*/ = ~I want to spend more time with you.~
+@525 /*CHARNAME*/ = ~I want to spend more time with her.~
+@526 /*CHARNAME*/ = ~Both.~
+@527 /*Imoen*/ = ~Awww, I'm not going anywhere, <CHARNAME>. I'll be by your side for as long as you want me.~
+@528 /*Imoen*/ = ~But I didn't take a vow of celibacy and I really want to sleep with Mazzy.~
+@529 /*Imoen*/ = ~I knew it! You want her! Well I'm sure you'll get your chance.~
+@530 /*Imoen*/ = ~But I want to sleep with Mazzy now.... I know! I can put in a good word for you, and if she likes you too, I suppose we could share her... if she's okay with that. I mean, I owe you my life so the least I could do is share my girlfriend, right?~
+@531 /*Imoen*/ = ~Aww, so when we're together you feel all left out. Alone... friendless...~
+@532 /*Imoen*/ = ~Well, don't worry. How about this? I sleep with Mazzy now and we both stay here with you, but I'll put in a good word for you and if she likes you too, maybe we can share her.~
+@533 /*Imoen*/ = ~I mean... if Mazzy's okay with that, of course. All I know is that I want her and I want her now.~
+@534 /*Imoen*/ = ~Why not? She's perfect. She's super attractive... She's safe... I mean really safe... She's got perfect self-control... She's tiny and adorable, yet tough and invincible...~
+@535 /*Imoen*/ = ~Mazzy has got this aura about her that seems to ward away evil... like I actually become a normal, functional human being when I'm near her... I don't feel like I'm about to lose my mind and shatter into a million pieces...~
+@536 /*Imoen*/ = ~She's got that peaceful halfling-village vibe, even though she tries to hide it... not like the horrible murder-vibe I'm used to. That's not to say you're not great, but we're children of murder so it's nice to be with someone who isn't, you know?~
+@537 /*Imoen*/ = ~And she's been with other women before... no I'm not psychic, it came up in normal conversation... possibly because I brought it up...~
+@538 /*Imoen*/ = ~I think I'm rambling but the point is that I want her. She's exactly what I need to make everything all better.~
+@539 /*Imoen*/ = ~Well... I thought that you might like her too.~
+@540 /*Imoen*/ = ~And while we could always share... assuming that's okay with Mazzy and she likes you... sharing might get complicated.~
+@541 /*Imoen*/ = ~So anyways, given that you saved my life and all, the least I could do is give you first dibs. So I'm offering you the chance to tell me I can't do it, even though I'm hoping you'll agree.~
+@542 /*Imoen*/ = ~Well, she's been with other women before... no I'm not psychic, it came up in normal conversation... possibly because I brought it up...~
+@543 /*Imoen*/ = ~And I'm a damsel in distress and she's a knight who wants to be a paladin. Saving people like me is kind of what she does, and no one saves damsels that they don't want to sleep with.~
+@544 /*Imoen*/ = ~You're never in distress... always tough and in control. Which is fine. I mean, I like that you're tough... but I think I'm exactly what Mazzy is looking for, and I want her so bad.~
+@545 /*Imoen*/ = ~Oh yeah, I heard about him... but tell me everything that you know anyway.~
+@546 /*Imoen*/ = ~*listens intently*~
+@547 /*Imoen*/ = ~That's great! I mean not that he died and all...~
+@548 /*Imoen*/ = ~But I am the perfect replacement! All I want is some light fun, and I'm unlike him in every way. I think Mazzy will totally go for me.~
+@549 /*Imoen*/ = ~Oh fine, I'll just keep her as a friend then.~
+@550 /*Imoen*/ = ~There's other fish in the sea... I guess.~
+
+//Bath Talk
+@51 /*Imoen*/ = ~Civilization! <CHARNAME>, we have to stop. I need clean sheets and a bath.~
+@52 /*Imoen*/ = ~Though maybe this isn't the right place for either.~
+@53 /*Mazzy*/ = ~Clean sheets and a bath are always obtainable, my dear; that is, if you are willing to pay enough coin. Fortunately, we have coin to spare.~
+@54 /*Imoen*/ = ~Oh good. Would you join me, Mazzy? The last time I bathed, I saw the water turn into blood and little skulls began swimming in it.~
+@55 /*Viconia*/ = ~A bath will do us all some good. The stench is becoming nearly unbearable. I swear even I was beginning to stink.~
+@56 /*Mazzy*/ = ~I will check with the innkeeper. I am sure he will see reason if enough coin is passed his way.~
+@58 /*Imoen*/ = ~I can't wait.~
+
+@59 /*Mazzy*/ = ~This is what I needed. Clean, finally.~
+@60 /*Imoen*/ = ~I could stay here all day, except the water is already starting to get cold.~
+@62 /*Viconia*/ = ~So march out, unclothed and dripping, and order some hapless male to heat more. ~
+@63 /*Imoen*/ = ~I could, or I could just rest against you two and...~
+@64 /*Viconia*/ = ~And she's already asleep. She wants you, you know. You should stop moping after your dead male and take her.~
+@65 /*Mazzy*/ = ~Your advice is as insensitive as usual, Viconia. She has been through a horrible ordeal, and while I might be interested in some light fun, she is emotionally fragile right now and I would not like to hurt her.~
+@66 /*Mazzy*/ = ~Not to mention that I am still mourning Patrick.~
+@67 /*Viconia*/ = ~You do not fool me with your pathetic excuses. I buried four husbands, and I assure you that nothing helps you get over a dead male like getting under a new one.~
+@68 /*Viconia*/ = ~Or... a female in this case.~
+@69 /*Viconia*/ = ~But fine, ignore my advice. Our water is cold. Help me pick up our sleeping companion, so we can slowly and sensuously dry off her wet skin and slip into bed with her.~
+@70 /*Mazzy*/ = ~You're right. I suppose we'd better dry off and get to sleep.~
+
+//3rd Talk
+@71 /*Imoen*/ = ~Mazzy, you must be the most unhalfling-like halfing ever.~
+@72 /*Mazzy*/ = ~Oh? And I suppose you are an expert on my people? Did you read a book about us in Candlekeep?~
+@73 /*Imoen*/ = ~Actually, I did! It said that the lives of nearly all halflings are spent pursuing their five cultural passions: delicious food, strong drink, frequent and adventurous sex, pipe-weed, and farming. I think the author was jealous.~
+@74 /*Imoen*/ = ~But the book also said that if halflings do go adventuring, they always take on the role of the party's thief or rogue, using their soft steps and small size to help them sneak around unnoticed.~
+@75 /*Imoen*/ = ~Except you're some sort of paladin, I've never seen you drink or smoke heavily, you mostly eat adventuring-rations, and even though we've been sharing a bed for days, you've kept your hands entirely to yourself.~
+@76 /*Mazzy*/ = ~Well, that just shows how reading books can differ from actual experience.~
+@77 /*Imoen*/ = ~But I do have experience! Up near Baldur's Gate, I met lots of halflings!~
+@77000 /*Imoen*/ = ~First there was Montaron... He was a nasty piece of work. I don't think I ever slept well with him around. You remember him, right <CHARNAME>?~
+@77001 /*CHARNAME*/ = ~Montaron... Montaron... no I don't think we ever travelled with a Montaron.~
+@77002 /*CHARNAME*/ = ~Oh yeah, evil halfling thief. Him and that crazy wizard of his.~
+@77003 /*CHARNAME*/ = ~He's dead, you know. The harpers killed him.~
+@77004 /*Imoen*/ = ~What? Sometimes I don't know why I bother talking with you at all.~
+@77005 /*Imoen*/ = ~Yeah, they really were a cute couple... well for insane murderers.~
+@77006 /*Imoen*/ = ~Montaron? Well, knowing him they probably had good reason.~
+@77007 /*Imoen*/ = ~Some time after that, we found the halfling town of Gullykin.~
+@77008 /*Imoen*/ = ~It was south of Ulcaster... full of farmers mostly. After we saved them from an army of kobolds, they held a big celebration where we all drank, smoke, and ate, and I slept with half the town.~
+@77009 /*Viconia*/ = ~When was this? Did you really participate in a massive orgy and forget to invite me? That was... impolite.~
+@77010 /*Imoen*/ = ~That was just before we met you, Viconia, I'm sorry. We might have missed meeting you entirely, but we had to leave the halflings so that we could find those bandits.~
+@77011 /*Minsc*/ = ~Minsc and Boo remember! It was a mighty party of miniature proportions. Food! Music! Singing! Dynaheir and I danced the night away, towering over our hosts like drunken titans!~
+@77012 /*Imoen*/ = ~And Boo ate himself into a stupor. He was the toast of the town! I have never seen your hamster so happy.~
+@77013 /*Jaheira*/ = ~I remember Khalid and I thanked our hosts and retired. Such parties are for the young... and single.~
+@77014 /*Neera*/ = ~Gullykin. Was. Awesome! And that's all I'm going to say about that.~
+@77015 /*Rasaad*/ = ~It was good to take our mind off of our troubles for a few hours.~
+@77016 /*Imoen*/ = ~I think I even remember you smiling... though that may have been a trick of the light.~
+@77017 /*Dorn*/ = ~They rewarded us as heroes should be rewarded. That is how the weak should treat us lest we lose patience and slaughter them all.~
+@77018 /*Edwin*/ = ~The pleasures of Gullykin were merely what Edwin Odesseiron was due for his efforts. (Why am I wasting my time down here? I should go back.)~
+@83 /*Mazzy*/ = ~I will admit our celebrations can be somewhat boisterous.~
+@84 /*Imoen*/ = ~It was wonderful. I had spent all that time in Candlekeep surrounded by nothing but dirty old men, though they knew well enough to leave me alone.~
+@85 /*Imoen*/ = ~And now I was a hero, I was loved and adored by every halfling boy and girl.~
+@86 /*Imoen*/ = ~It also helped that there were no consequences. I couldn't get pregnant, the local halfling temple cured diseases for free, and I knew that word of my exploits would never leave the village.~
+@87 /*Imoen*/ = ~I think even <CHARNAME> enjoyed <PRO_HIMHER>self.~
+@88 /*CHARNAME*/ = ~I did. Gullykin was a good time.~
+@89 /*CHARNAME*/ = ~I suppose it was okay. I was happy to leave though.~
+@89000 /*CHARNAME*/ = ~I don't remember any of that. I remember finishing our quests, resting, and heading on our way.~
+@89001 /*Imoen*/ = ~Of course that's what you remember... you and your sixteen-hour rests. Do you think the rest of us just do nothing while you're lying around?~
+@89002 /*Imoen*/ = ~And then came Alora. We met her in Baldur's Gate. Like Montaron, she was a thief and acted exactly like my book said a halfling should.~
+@89003 /*Imoen*/ = ~She was also really nice. We hit it off immediately and before I knew what was happening, there she was in my bed.~
+@90 /*Imoen*/ = ~It was kinda sad actually. I really started to care for her, you know? But then one day she just up and left. "Thanks for the fun, Imoen. Hope we meet again."~
+@91 /*Imoen*/ = ~And that was it, like we weren't anything special. It really hurt, although having people constantly trying to kill me was a good distraction.~
+@910 /*Imoen-if Alora*/ = ~She's back now, but things are different. Alora hasn't brought it up and I'm afraid to ask. I don't want to find out that I meant nothing after all.~
+@92 /*Mazzy*/ = ~In Alora's defence, she probably didn't mean to hurt you. Halfling girls regularly play together, but it is rarely considered to have any special meaning. Usually they all grow up, find good husbands, and raise families.~
+@93 /*Imoen*/ = ~Oh. Well that's disappointing.~
+@3 /*Imoen*/ = ~Mazzy... I'm tired of sleeping alone.~
+@94 /*Mazzy*/ = ~You haven't been sleeping alone, you have been right beside me.~
+@95 /*Imoen*/ = ~You know what I mean!~
+@96 /*Imoen*/ = ~I like you and I think you like me, and I've tried being subtle but you're just oblivious to all of it.~
+@97 /*Mazzy*/ = ~Imoen, while you are attractive and I enjoy your friendship, I am somewhat worried about your emotional state.~
+@99 /*Imoen*/ = ~No! You do not get to worry about that. I am walking the edge of the abyss... about to shatter into a thousand pieces at a moment's notice and I do not need your worry.~
+@100 /*Imoen*/ = ~What I need is something to think about other than blood, murder, and dismembered body parts.~
+@101 /*Imoen*/ = ~*sigh* I want you. Do you want me?~
+@102 /*Mazzy*/ = ~It is not that easy. I must sort my feelings. Give me some time.~
+
+//Pre-romance Crush Talks 
+@104 /*Mazzy*/ = ~There may be a situation developing that could derail your plans for us.~
+@105 /*Imoen*/ = ~Oh?~
+@106 /*Mazzy*/ = ~<CHARNAME>.~
+@115 /*Imoen*/ = ~You mean because <PRO_HESHE> likes you?~
+@122 /*Mazzy*/ = ~Yes... I mean I have seen that possibility but I have not confirmed it either way.~
+@123 /*Imoen*/ = ~Does this mean I've lost my chance?~
+@124 /*Mazzy*/ = ~No. I have not yet made my decision, and depending on the outcome, <CHARNAME> may simply have to decide if <PRO_HESHE> can share.~
+@125 /*Imoen*/ = ~At different times though... I mean it'd be weird for me and <CHARNAME> to both be with you... together... at the same time... you know what I mean!~
+@126 /*Mazzy*/ = ~Yes, do not worry. I believe I would have enough energy for the both of you.~
+
+//If Mazzy Dies
+@127 /*Imoen*/ = ~No, not Mazzy! I swear I will raise you.~
+
+//If Imoen Dies 
+@128 /*Mazzy*/ = ~Imoen! I have failed my duty. You will live again!~
+
+//Mazzy-Imoen Kiss
+@157 /*Imoen*/ = ~Mazzy, it's time for a decision.~
+@158 /*Imoen*/ = ~You died! And the way you rush into every battle with a death wish, you're probably going to die again.~
+@159 /*Imoen*/ = ~I died! And next time it could be permanent.~
+@160 /*Imoen*/ = ~You wanted time but we don't have any. I need someone and I've chosen you. Do you accept or do I look elsewhere?~
+@161 /*Mazzy*/ = ~Well, when you phrase it like that... I accept.~
+@162 /*Imoen*/ = ~So... does that mean we're together? Are you my girlfriend?~
+@163 /*Mazzy*/ = ~If you would like that, then I suppose it does.~
+@164 /*Imoen*/ = ~Well if I'm your girlfriend, shouldn't you kiss me?~
+@165 /*Mazzy*/ = ~*sigh* I cannot kiss you, Imoen. The taller person must initiate the kiss.~
+@166 /*Imoen*/ = ~Hehe, you can't reach. So... does that mean I can kiss you?~
+@167 /*Mazzy*/ = ~In public? Why?~
+@168 /*Imoen*/ = ~Because kissing is fun, because I haven't kissed anyone worth kissing in far too long, and most importantly, to publicize the fact that I have successfully won you to anyone who's watching.~
+@169 /*Mazzy*/ = ~Very well. I will allow one kiss in public. Just one.~
+@170 /*Imoen*/ = ~Okay, just one, but you didn't define the duration. Too late now!~
+@171 /*Mazzy*/ = ~But... mmhhmmm.~
+@172 /*Nalia*/ = ~That does not seem a proper display for a lady, but I think I approve nevertheless.~
+@173 /*Neera*/ = ~Imoen! You go girl!~
+@174 /*Dorn*/ = ~Ahh, well they deserve each other.~
+@175 /*Hexxat*/ = ~Hmm... delicious.~
+@176 /*Viconia*/ = ~Hah! If that silences the puppy-dog, then I approve heartily.~
+@17600 /*Wilson*/ = ~Snuffle... snort!~
+@177 /*Edwin*/ = ~Interesting. I have had this dream. (My dream came true. I am a prophet!)~
+@178 /*Clara*/ = ~And so the knight and the fair maiden lived happily ever after.~
+@179 /*HaerDalis*/ = ~The hawk swooping down to pluck the sweet wildflower, a classic tale. But the wildflower plucking the hawk? That is a story seldom told.~
+@180 /*Korgan*/ = ~Well, that be a surprise fer old Korgan. I half-expected th' mighty lass had taken a vow of celibacy. Turns out she jus' wanted someone wit' less beard.~
+@181 /*Jaheira*/ = ~After so much suffering, those two deserve all the happiness they can find.~
+@182 /*Cernd*/ = ~Two creatures find each other. That is the way of nature. However, this is not a common pairing.~
+@183 /*Minsc*/ = ~Boo knew this would happen! He is a smart hamster.~
+@184 /*Keldorn*/ = ~This is not a move that I would advise two young women such as yourselves to make. You may not be of noble blood but I am sure you can still find acceptable husbands.~
+@185 /*Anomen*/ = ~Commoners will commit all sorts of lewd behavior out in the open.~
+@186 /*Valygar*/ = ~Well, I cannot disapprove. Imoen is a pretty maiden, worthy of any knight. Though her being a wizard is a mark against her.~
+@187 /*Jan*/ = ~Relationships with tall folk never work out... though Imoen must be the shortest tall person ever. Why, she could be an honorary gnome! Which reminds me of that time...~
+@188 /*Aerie*/ = ~That's so sweet. I'm happy for you both.~
+@189 /*Imoen*/ = ~There. You're mine! I've declared it to the world.~
+@190 /*Mazzy*/ = ~I am yours for today; I refuse to make long-term promises. But for the moment, I believe I have been thoroughly claimed.~
+
+//Post CN Sex Talk (Mazzy)
+@147 /*Imoen*/ = ~So... Mazzy. You and <CHARNAME>...~
+@148 /*Mazzy*/ = ~Yes, me and <CHARNAME>, just as we discussed. I hope you have not changed your mind about sharing. I do not wish to lose you.~
+@149 /*Imoen*/ = ~No! No, I don't want to lose you either and I'm still happy to take turns. I just wanted to make sure that you were happy and I don't need to threaten <CHARNAME> on your behalf.~
+@150 /*Mazzy*/ = ~*chuckle* I appreciate the thought but that is not necessary. <CHARNAME> was a perfect gentle<PRO_MANWOMAN> and followed my lead throughout. It was quite lovely actually.~
+@151 /*Imoen*/ = ~Good. And... you still want me too, right? Even though you've got the hero now?~
+@152 /*Mazzy*/ = ~Of course. You are not the same and cannot be compared. I care about you both and I would miss you terribly.~
+@153 /*Imoen*/ = ~Great! That's all I wanted to know. I guess I better go find <CHARNAME> and work out a Mazzy schedule. I have to make sure that I get my fair share.~
+@154 /*Imoen*/ = ~Kiss me goodbye?~
+@155 /*Mazzy*/ = ~As you wish. Try not to traumatise the poor <PRO_GIRLBOY> too much.~
+@156 /*Imoen*/ = ~I'll try but I make no promises.~
+
+//3Some Talk
+@191 /*Imoen*/ = ~Mazzy, do you have time for a question?~
+@192 /*Mazzy*/ = ~Of course, Imoen, I'm surprised you felt the need to ask.~
+@193 /*Imoen*/ = ~Well, I've been thinking, I mean I am sleeping with <CHARNAME>... and you are also sleeping with <CHARNAME>... and we are also sleeping with each other...~
+@194 /*Imoen*/ = ~But so far we've all been taking turns and this seems... you know... inefficient.~
+@195 /*Mazzy*/ = ~All correct. What is your question?~
+@196 /*Imoen*/ = ~Weeelll... why do you always make me say it!?~
+@197 /*Mazzy*/ = ~Being afraid but overcoming that fear and speaking anyway builds character.~
+@198 /*Imoen*/ = ~Of course. You would say that. So fine, I'll say it. We should all be sleeping together. The three of us.~
+@199 /*Mazzy*/ = ~Agreed, but that was still not a question.~
+@200 /*Imoen*/ = ~I abandoned the question and made it a statement. Where's <CHARNAME>?~
+@201 /*Imoen*/ = ~Ahh there. <CHARNAME>!~
+@202 /*Imoen*/ = ~Mazzy and I think we should all be sleeping together. Otherwise one of us is always sitting out.~
+@203 /*Imoen*/ = ~Also, we should do this right now.~
+@204 /*CHARNAME*/= ~Excellent idea.~
+@205 /*CHARNAME*/= ~Hell, yes. I've been waiting for this.~
+@206 /*CHARNAME*/= ~Actually, Imoen, I really prefer to focus on a single person.~
+@207 /*CHARNAME*/= ~Sorry, I think that would just be too awkward.~
+@208 /*Imoen*/ = ~Well I don't! This is silly. One of us sitting alone in a tent while the other two have fun.~
+@209 /*Imoen*/ = ~We should just be a giant, sweaty, three-person mess, all tangled together in passion.~
+@210 /*Imoen*/ = ~No more sleeping alone!~
+@211 /*CHARNAME*/= ~Well when you put it that way... okay.~
+@212 /*CHARNAME*/= ~No, I only want one of you at a time.~
+@213 /*Imoen*/ = ~Well fine then! You're as stupid and stubborn as always!~
+@214 /*Imoen*/ = ~You two go play together. I'll just play by myself.~
+@215 /*Imoen*/ = ~......~
+@216 /*Imoen*/ = ~Don't take me out of the rotation though, I still want my turns with both of you.~
+@217 /*Imoen*/ = ~(Stupid stubborn <CHARNAME>. I should've romanced the hamster.)~
+
+//Mazzy-Imoen Rasaad Talk
+@220 /*Imoen*/ = ~So... Mazzy... tell me... is there a good reason why we're not sleeping with Rasaad?~
+@221 /*Mazzy*/ = ~Imoen! We cannot sleep with everyone!~
+@222 /*Mazzy*/ = ~But to answer your question, while Rasaad is a good person and quite attractive, his path has become too dark for me. I do not wish to be part of his tragedy.~
+@223 /*Imoen*/ = ~So... is there a good reason why *I'm* not sleeping with Rasaad?~
+@224 /*Mazzy*/ = ~You mean beside the fact that you are in a committed relationship with me?~
+@225 /*Mazzy*/ = ~The darkness engulfing his soul would pull you into the abyss with him. He is like a beautiful but poisonous flower; fine to look at, but deadly to hold.~
+@226 /*Imoen*/ = ~Oh fine, you're probably right... as always.~
+@227 /*Imoen*/ = ~Though the abyss might not be so bad if it's full of Rasaads.~
+
+//Final Imoen-Mazzy Talk
+@228 /*Imoen*/ = ~Mazzy, what will we do after this is over?~
+@229 /*Mazzy*/ = ~First, I would like to return home. I have not seen my family in far too long.~
+@230 /*Mazzy*/ = ~After that, I suppose I will continue adventuring.~
+@231 /*Imoen*/ = ~And me? What will I do?~
+@232 /*Mazzy*/ = ~That is entirely up to you. If you would like to stay with me for a time, you are more than welcome.~
+@233 /*Imoen*/ = ~Thanks, Mazzy, I might just do that.~
+@234 /*Imoen*/ = ~Or I might not, but it's nice to have the option, you know?~
+
+//2nd Version (only different lines)
+@235 /*Mazzy*/ = ~After that, I suppose I will settle down and start a family of my own.~
+@236 /*Imoen*/ = ~Really? You?  I thought you had tried that and sworn it off forever?~
+@237 /*Mazzy*/ = ~Yes... well... I changed my mind.~
+@238 /*Mazzy*/ = ~Once I thought that I would adventure until the end of my life, but I am weary of fighting.~
+@239 /*Imoen*/ = ~Wow. I don't think I'm ready for that.~
+@240 /*Mazzy*/ = ~I did not expect you to be. We are many years apart in age and at very different places in our lives.~
+@241 /*Mazzy*/ = ~But it is a large world and I will find someone.~
+@242 /*Imoen*/ = ~Oh... so does this mean we're saying goodbye?~
+@243 /*Mazzy*/ = ~Not as of yet. We still have many days together, if you want us to.~
+@244 /*Imoen*/ = ~Then why are we wasting precious time talking when we could be canoodling? Come here!~
+@245 /*Mazzy*/ = ~As you wish.~
+
+//3rd Version Edits
+@246 /*Imoen*/ = ~Really? You?~
+@247 /*Imoen*/ = ~And you mean with <CHARNAME>, right? I don't think I'm ready for a family. Maybe I'll never be.~
+@248 /*Mazzy*/ = ~With <CHARNAME>, if <PRO_HESHE> is interested. But if not with <PRO_HIMHER> then with someone else. The world is a large place.~
+@249 /*Imoen*/ = ~But if you settle down and I still want to run around that means we'll have to say goodbye...~
+@250 /*Mazzy*/ = ~Eventually, if we live that long. More than likely your and <CHARNAME>'s insane god-quest will kill us all first.~
+@251 /*Imoen*/ = ~So our time together is precious?~
+@252 /*Mazzy*/ = ~Very much so.~
+@253 /*Imoen*/ = ~Then why are we wasting time talking when we could be canoodling? Come here!~
+
+//4th Version Edits
+@254 /*Imoen*/ = ~Mazzy, what do you think of <CHARNAME>?~
+@255 /*Mazzy*/ = ~I think you and he are in love and I am happy for you. I also think you find that terrifying which is why you are in my bed instead.~
+@256 /*Imoen*/ = ~I suppose you're right.... So what will you do after all of this?~
+@257 /*Imoen*/ = ~So... is this the end of us?~
+@258 /*Mazzy*/ = ~It should be. Go be in love and stop wasting your time with me.~
+@259 /*Imoen*/ = ~Okay... but it wasn't a waste. I enjoyed it very much.~
+@260 /*Imoen*/ = ~Goodbye, Mazzy.~
+@261 /*Mazzy*/ = ~I would say it in return but you are making no effort to leave.~
+@262 /*Imoen*/ = ~Well... of course not. We haven't had our goodbye sex. Now come here and canoodle me!~
+
+//Version 6 edits
+@263 /*Imoen*/ = ~And you mean with <CHARNAME>, right? I don't think I'm the "family" type.~
+@264 /*Imoen*/ = ~So... what will I do?~
+@265 /*Mazzy*/ = ~Whatever you would like. You and <CHARNAME> are very much in love. If you wanted to start a family together, I would not stand in your way.~
+@266 /*Imoen*/ = ~A family? I'm not ready for a family. Maybe I'll never be.~
+@267 /*Imoen*/ = ~Okay... new idea! We don't think or talk about the future ever because it's terrifying!~
+
+//Final Final Talk about Aerie*/
+@268 /*Imoen*/ = ~Mazzy can I ask you something? Promise me you won't get mad?~
+@269 /*Mazzy*/ = ~I cannot promise that, but I can swear not to act upon that anger.~
+@270 /*Imoen*/ = ~How do you know if you've fallen in love with someone?~
+@271 /*Mazzy*/ = ~Oh, you poor dear. Aerie?~
+@272 /*Imoen*/ = ~Is it that obvious?~
+@273 /*Mazzy*/ = ~I used the process of elimination; while you enjoy our time together, I know you are not in love with me...~
+@274 /*Imoen*/ = ~I'm so sorry... please, please, please don't hate me.~
+@275 /*Mazzy*/ = ~...that and you've been following Aerie around, completely lovesick. It's been obvious, to everyone except Aerie, of course.~
+@291 /*Mazzy-if male*/ = ~I'm not angry, my love. She's perfect for you in every way.~
+@276 /*Mazzy-if female*/ = ~I'm not angry, my love. She's perfect for you in every way... except for the fact that she's not attracted to women.~
+@277 /*Imoen-if female*/ = ~But she *could* be, right? I have to try.~
+@278 /*Mazzy*/ = ~*sighs* Well you cannot be with me at the same time. If you are going to try for her, you must commit fully.~
+@279 /*Mazzy*/ = ~Any half-hearted attempts are sure to fail.~
+@280 /*Imoen*/ = ~Yeah... that makes sense.~
+@281 /*Imoen-if female*/ = ~I'm going to fail anyway, aren't I?~
+@282 /*Mazzy-if female*/ = ~Almost certainly... but don't let that stop you. If we only tried what we knew we could succeed at, we'd never accomplish the impossible.~
+@283 /*Imoen*/ = ~Mazzy, thanks. I know you love me.~
+@284 /*Mazzy*/ = ~I love everyone, Imoen. It is my weakness... and my strength.~
+@285 /*Imoen*/ = ~Is this goodbye?~
+@286 /*Imoen*/ = ~That's my choice, isn't it? It's goodbye if I want it to be... if I want to try for her...~
+@287 /*Imoen*/ = ~Can I decide tomorrow morning?~
+@288 /*Mazzy*/ = ~You already know what you will do.~
+@289 /*Imoen*/ = ~Could you love me? One last time?~
+@290 /*Mazzy*/ = ~Mazzy? Thank you. For everything.~

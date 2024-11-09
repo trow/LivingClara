@@ -1,0 +1,39 @@
+//Asmay in Gromnir's Keep
+@1 /*Mazzy*/ = ~A true leader should inspire loyalty from their subordinates, not fear. Gromnir must be dealt with before his paranoia kills more innocents.~
+
+//Neera's Quest, Szass Tam
+@2 /*Mazzy*/ = ~You are evil incarnate! <CHARNAME>, I do not know if we are strong enough to defeat this vile creature, but surely we must try?~
+@3 /*Neera*/ = ~I mean, you're probably right. But what about Vicross? We can't just let her get away.~
+@4 /*Szass Tam*/ = ~Make your choice, Bhaalspawn. I trust you will be able to force these others into line.~
+
+//Szass Tam Final
+@5 /*Mazzy*/ = ~You should have known that one so evil would never keep his word. Next time let us skip the bargaining.~
+
+//Amkethran Mayor
+@6 /*Clara*/ = ~(Three... Two... One...)~
+@7 /*Mazzy - if Clara*/ = ~<CHARNAME>! We must help this girl!~
+
+//Hexxat Quest
+@8 /*Mazzy*/ = ~This is hardly the time for flirting, <CHARNAME>.~
+@9 /*Mazzy - if romance*/ = ~And given that we are together, you should not be flirting with this vampire at all.~
+@10 /*Mazzy*/ = ~Continue and I may forget that Hexxat is an ally. My patience with her company wears thin.~
+
+//Amkethran Lich
+@11 /*Mazzy*/ = ~I am uneasy with this course of action, <CHARNAME>. Marlowe was wrong to sacrifice his wife in order to escape his bargain, yet are we truly right to deal with evil such as this?~
+
+//Woodcutter
+@12 /*Mazzy*/ = ~Really, <CHARNAME>?  We are not bandits. Leave this poor elf alone.~
+
+//Sendai Slavemaster
+@13 /*Mazzy*/ = ~Stand and face us, villain! Hiding behind slaves is the worst sort of cowardice!~
+@14 /*Dorn*/ = ~For once we are in agreement. The blood of these worthless masses doesn't deserve to stain my blade.~
+
+//Watcher's Keep
+//Yakman the Mad
+@15 /*Mazzy*/ = ~Lost and alone for centuries... I wouldn't wish that fate on anyone. We must defeat these demons, <CHARNAME>, so this poor elf can finally rest.~
+
+//Succubus
+@16 /*Mazzy-if romance*/ = ~The correct answer is no, <CHARNAME>. I have no wish to share you with this fiend, not even for a moment.~
+
+//Helm Ghost
+@17 /*Mazzy*/ = ~Despite the treachery of these Helmites, leaving them to the demon's mercy does not sit well with me.~

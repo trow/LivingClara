@@ -1,0 +1,13 @@
+
+//Dialogues for Leaving.
+@0 /*Bodhi*/ = ~So, <CHARNAME>, is this the point where we part ways?~
+@1 /*CHARNAME*/ = ~No, I still want you with me.~
+@2 /*CHARNAME*/ = ~Yes, wait right here.~
+@3 /*CHARNAME*/ = ~Yes, return to my pocket plane and wait there.~
+@4 /*Bodhi*/ = ~That's a pity... I do so enjoy your presence.~
+@5 /*Bodhi*/ = ~Don't make me wait too long, I might hunger for some... company.~
+@6 /*Bodhi*/ = ~I am delighted to hear that. We have been having so much fun that I could not bear to leave.~
+@7 /*Bodhi*/ = ~Finally... I am so hungry that I could eat a whole family of halflings. Shall we resume our travels?~
+@8 /*CHARNAME*/ = ~Yes.~
+@9 /*CHARNAME*/ = ~No, just wait here.~
+

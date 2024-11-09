@@ -1,0 +1,27 @@
+
+
+@0 /*Bodhi*/ = ~No, no it's mine! This life is mine!~ [BODHIX41.WAV]
+@1 /*Bodhi*/ = ~<CHARNAME>, I flee. When I am whole I will find you, if you live.~
+@2 /*Bodhi*/ = ~The sun, it burns! I will find you later.~
+
+//1st Hexxat Talk
+@3 /*Hexxat*/ = ~You are wearing my cloak.~
+@4 /*Bodhi*/ = ~It was Dragomir's cloak, was it not? <CHARNAME> killed Dragomir which makes it <CHARNAME>'s cloak, and <CHARNAME> gave it to me.~
+@5 /*Hexxat*/ = ~You must return it to me.~
+@6 /*Bodhi*/ = ~Must I? It was a treasured gift.~
+@7 /*Bodhi*/ = ~I think I will keep it. Any complaints must go to our leader.~
+@8 /*Hexxat*/ = ~This is unacceptable, <CHARNAME>. I cannot move in sunlight without it.~
+@9 /*CHARNAME*/ = ~Sorry, Hexxat, I need Bodhi more than you.~
+@10 /*CHARNAME*/ = ~You'll just have to find another one.~
+@11 /*CHARNAME*/ = ~There's two vampires and one cloak; you'll just have to learn to share.~
+@12 /*CHARNAME*/ = ~Hexxat's right, Bodhi, you need to return it.~
+@13 /*Hexxat*/ = ~This is disappointing. I hope you will change your mind.~
+@14 /*Bodhi*/ = ~You give it to me only to ask for its return? My heart is broken, <CHARNAME>. With the sun denied me, I will sulk in the dark.~
+
+//2nd Hexxat Talk
+@15 /*Bodhi*/ = ~It seems that Dragomir's cloak is not as unique as I thought.~
+@16 /*Hexxat*/ = ~He was a large vampire. When I had an opportunity, I recut his cloak and made two. I did not need the spare until now.~
+@17 /*Hexxat*/ = ~It is clear that <CHARNAME> relies on you. I will have to accept your company as well.~
+
+
+

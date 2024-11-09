@@ -1,0 +1,80 @@
+
+//Interjections for Jaheira-Wilson
+
+//Interjecting into Meroni's dialogue when she comes to get Jaheira after you've finished the Harper Hold.
+@0 /*Wilson*/ = ~Roar!~
+@1 /*Jaheira*/ = ~There is no need for that, Wilson. She is an ally and my presence is needed.~
+
+//Interjecting into Jaheira's dialogue when she returns if she's not romancing CN.
+@2 /*Wilson*/ = ~Roar!~
+@3 /*Jaheira*/ = ~Haha, yes, I am happy to see you too.~
+@4 /*Jaheira*/ = ~<CHARNAME>, I bring a request from the Harpers.~
+
+//Interjecting into Jaheira's conversation with Galvarey in the Harper Hold.
+@5 /*Wilson*/ = ~Snuffle? Grr...~
+@6 /*Galvarey*/ = ~...not to mention Jaheira's pet bear. You have no hope of victory.~
+
+//Interjecting into Jaheira's Conversation with Baron Ployer after she gets poisoned.
+@7 /*Wilson*/ = ~ROAR!~
+
+//Talk if Jaheira is poisoned by Baron Ployer
+@8 /*Wilson*/ = ~Whine, sniff sniff.~
+@9 /*Jaheira*/ = ~*cough* Do not worry yourself. I have survived worse.~
+@10 /*Wilson*/ = ~Snuffle?~
+@11 /*Jaheira*/ = ~Yes... yes there is something you can do for me. Find Ployer. Find him and end this... and if I do not make it, then avenge me.~
+@12 /*Wilson*/ = ~Growl... Roar!~
+@13 /*Jaheira*/ = ~I am not dying yet... I am merely making plans. Oohh...~
+@14 /*Wilson*/ = ~Whine?~
+@15 /*Jaheira*/ = ~No, that would be quite improper. I can still walk... ooohhhh *cough*~
+@16 /*Wilson*/ = ~Grrf.~
+@17 /*Jaheira*/ = ~Yes. Yes, I will ride you. Thank you.~
+
+//Interjection into Terminsel's final dialogue if your reputation is not high enough for the good conversation.
+@18 /*Wilson*/ = ~Roar, snuffle snort?~
+@19 /*Terminsel*/ = ~Ye wish to speak? Of course ye may do so.~
+@20 /*Wilson*/ = ~Sniff sniff growl gruh! Snuffle, sniff... roar roar.~
+@21 /*Terminsel*/ = ~<CHARNAME>'s goodness or evilness is irrelevant when judging the merits of Jaheira's actions? I do not see how, but perhaps ye can explain.~
+@22 /*Wilson*/ = ~Gruff, gruh... sniff. Sniff roar snuffle! Sniff sniff mrrf?~
+@23 /*Terminsel*/ = ~Hmm, perhaps ye have some merit in thy argument. <CHARNAME> was judged for being a child of Bhaal... for what <PRO_HESHE> was rather than for <PRO_HISHER> actions.~
+@24 /*Wilson*/ = ~Growl growl grrr... roar!~
+@25 /*Terminsel*/ = ~Ye are correct. If not for Jaheira, Galvarey and Demin might have directed their corruption elsewhere. Hmm...~
+@26 /*Terminsel*/ = ~Jaheira, I have one last question and then I shall leave ye to thy thoughts. This bear of thine... is he worth it? Does he change thy calculations as to what ye have lost?~
+@27 /*Terminsel*/ = ~Would ye sacrifice it all again to have what ye have now?~
+@28 /*Jaheira*/ = ~Undoubtedly. I would do as such again without hesitation.~ [JAHEIRD9]
+
+//Interjection after you kill Dermin
+@29 /*Jaheira*/ = ~What?! What is it you want?~ [JAHEIRB4.WAV]
+@30 /*Wilson*/ = ~Growl?~ [OH87203]
+@31 /*Jaheira*/ = ~Fine. I'm fine!~
+@32 /*Jaheira*/ = ~Well?~
+@33 /*Wilson*/ = ~Snuffle, snort.~
+@34 /*Jaheira*/ = ~That's what I said but I meant... I'm sorry, I shouldn't need to play these games. I'm just so mad, and I don't know how to get it out.~
+@35 /*Jaheira*/ = ~I... I know why I am upset, but I can't seem to shake it. I am angry with that dungweasel Dermin for... for making me feel guilty about killing him!~
+@36 /*Jaheira*/ = ~Isn't that ridiculous? The bastard was putting people in danger for nothing, and I feel guilty for ending it!~
+@37 /*Wilson*/ = ~Growl... grr. Roar.~
+@38 /*Jaheira*/ = ~I know; I was just not prepared for this. I am not used to mourning my enemies. It's not much easier than mourning friends, and I have done enough of that.~
+@39 /*Jaheira*/ = ~I will need a bit of space for now. Damn, why is this so hard? Remove the bad seeds and walk into the sunset; that's how it's supposed to go. Nice and clean.~
+
+//Suldanessellar talk
+@40 /*Jaheira*/ = ~We have to be nearing our goal. It has been so long a journey, and we've been through so much! I hope this does not end up all being for naught.~ [JAHEIRB7.WAV]
+@41 /*Wilson*/ = ~Growl roar!~ [OH87192.WAV]
+@42 /*Jaheira*/ = ~On this we agree. We will do what we can, but we must be sure to exact a payment from this Irenicus that will prove permanent.~
+@43 /*Jaheira*/ = ~There can be no mercy for this creature. What he has done is unforgivable.~
+@44 /*Wilson*/ = ~Growl gruh grrf?~
+@45 /*Jaheira*/ = ~I can live with that.~
+@46 /*Wilson*/ = ~Roar.~
+@47 /*Jaheira*/ = ~Then we will continue with a single mind. We will find a way to end this.~
+
+//Jaheira leaving.
+@48 /*Wilson*/ = ~Growl?~ [OH87194]
+@49 /*Jaheira*/ = ~No, I am not overreacting! I am... I...~
+@50 /*Jaheira*/ = ~I shall return to the woods near the abandoned amphitheater. If you change your mind, you will find me there.~
+@51 /*CHARNAME*/ = ~Don't go. I value the contribution you make and don't want you to leave.~
+@52 /*CHARNAME*/ = ~Okay, we shall find you there.~
+@53 /*Jaheira*/ = ~<CHARNAME>, Wilson, I hope to see you both again.~
+@54 /*Jaheira*/ = ~It is about time you returned; I have been waiting here for who knows how long! We'd best get back together and get moving; I'll not serve nature or my fallen comrades by sitting about here.~ [JAHEIRE4]
+@55 /*CHARNAME*/ = ~Right you are. Let's go.~
+@56 /*CHARNAME*/ = ~Sorry, but I don't want you to rejoin just yet.~
+
+//Wilson leaving.
+@57 /*CHARNAME*/ = ~Go to the forest near the abandoned amphitheater. We'll find you there.~

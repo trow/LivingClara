@@ -1,0 +1,78 @@
+//First Korgan-Mazzy dialogue extension
+@1 /*Mazzy*/ = ~You will never 'pluck' this flower, Korgan. Do not even attempt it.~
+@2 /*Korgan*/ = ~They all say that in th' beginning, lass, but they all give in by the end.~
+@3 /*Mazzy*/ = ~If you try, dwarf, I will kill you.~
+@4 /*Korgan*/ = ~Hah, what spirit! Now I want ye even more.~
+
+//Second Korgan-Mazzy dialogue
+@5 /*Mazzy*/ = ~Korgan? While I may rue the fact that I even brought the subject up, I feel compelled to ask you something.~ [MAZZ2506]
+@6 /*Korgan*/ = ~Aha! I knew ye'd give in to yer heart sooner or later! So, what's it to be, lass? A kiss an' a tickle now or later?~ [KORG2514]
+@7 /*Mazzy*/ = ~You see? This is exactly it! You have been doing this every day for well over a week, and even though I have rebuffed all your advances, you still live under this delusion!~
+@8 /*Mazzy*/ = ~Why, Korgan? Why do you even bother?~
+@9 /*Korgan*/ = ~I bother because ye're a sweet thing, lass. Ye're a halfling of a like I've ne'er seen before, an' I kin afford to be persistent.~
+@10 /*Mazzy*/ = ~Persistence is irrelevant in this case, Korgan. Please stop. It makes me very uncomfortable.~
+@11 /*Korgan*/ = ~'Twas ye who brought th' subject up, Mazzy. There be truth in that, I think.~
+@12 /*Mazzy*/ = ~Well, now I do regret it after all.~
+@13 /*Viconia*/ = ~So... I suppose a tickle be out of th' question then, aye?~
+@14 /*Mazzy*/ = ~You are a disgusting brute. Leave me be.~
+
+//Last  dialogue after inn scene
+@15 /*Mazzy*/ = ~There is one thing that has been puzzling me, Korgan. How did you hope to force yourself upon me? You knew I had my weapons and yet you broke in unarmed.~
+@16 /*Korgan*/ = ~Ye are wrong, Mazzy, I wasn't unarmed. I barged in with me axe in hand.~
+@17 /*Mazzy*/ = ~No, you did not! I remember it clearly. You smashed down the door, one of your hands ripping it from its hinges while your other hand was holding your... oh. When you say your "axe," you really mean...~
+@18 /*Korgan*/ = ~Me battering ram!~
+@19 /*Mazzy*/ = ~Yes, your...~
+@20 /*Korgan*/ = ~Me siege tower!~
+@21 /*Mazzy*/ = ~Are you quite finished?~
+@22 /*Korgan*/ = ~Me two-handed sword!~
+@23 /*Mazzy*/ = ~Do you not have any peaceful euphemisms? Something that implies a woman is more than a fortress or enemy for you to force yourself into?~
+@24 /*Korgan*/ = ~Me great mace? Nae.... Me long-staff? Nae....~
+@25 /*Mazzy*/ = ~You still have not answered my original question. Did you really think you could beat me with your bare fists? Did you underestimate my skill that much?~
+@26 /*Korgan*/ = ~Me wand of fire? Nae.... Me boar-spear +2? Nae.... Me pig-sticker of impaling? Nae.... Me great-hammer of giant-slaying?~
+@27 /*Mazzy*/ = ~Korgan!~
+@28 /*Korgan*/ = ~Hmm? Oh... to answer your question, girl, I did not worry about ye and yer little weapons. I've been doing this fer so long... women have stabbed me, shot me an' lit me on fire. I've been frozen, bludgeoned, an' hit with magic missiles.~
+@29 /*Korgan*/ = ~But I broke down their defences in th' end and had me way with 'em. It is rare that they stop me. But those who stopped me...ahh those were th' girls t' remember! There was this one lass...~
+@30 /*Mazzy*/ = ~I do not care, Korgan. You are a monster who has forced himself upon hundreds of women and killed thousands of innocent people.~
+@31 /*Korgan*/ = ~Just because I attacked first nae be meaning they were innocent.~
+@32 /*Mazzy*/ = ~You are evil. I should kill you.~
+@33 /*Korgan*/ = ~Ye already did.~
+@34 /*Mazzy*/ = ~But you are a tiny evil. You make life worse for every being you encounter but you do not spread misery among the masses.~
+@35 /*Mazzy*/ = ~I intend to change the world, Korgan. I will find the masters of darkness and I will kill them. I will kill every last one. And you will help me, because killing is what you do.~
+@36 /*Korgan*/ = ~Ye are so beautiful when ye talk like that.~
+@37 /*Mazzy*/ = ~But you will be on your best behaviour. You will not rape women. You will not kill innocents. Your axe is mine and you will not forget it.~
+@38 /*Korgan*/ = ~Aye. That be true. Just point 'em out an' I will chop me way through our enemies. Then we will be heroes of legend! The tall folk will throw girls and gold at our feet.~
+@39 /*Mazzy*/ = ~Free girls will throw themselves if they are interested, Korgan. But yes, we will be heroes, and when our enemies are dead and the world is good, you will be rewarded.~
+
+//Korgan-Mazzy with fish-seller
+@40 /*Commoner*/ = ~Oysters, clams, and cockles! My <LADYLORD>, would you like an oyster, clam, or cockle? Business has been splendid and I have only a few left.~
+@41 /*Korgan*/ = ~Mazzy, tell th’ group that I’ll catch up. This lass here is a pretty thing so I’m going to drag her into an alley an' have me way with her.~
+@42 /*Mazzy*/ = ~What? No! Korgan, I forbid it.~
+@43 /*Korgan*/ = ~Nae ye worry, Mazzy; this won’t slow ye down. I will nae be but a few minutes an' I’ll find ye when I’m done.~
+@44 /*Mazzy*/ = ~Time is not the issue, Korgan, the reason I forbid it is…~
+@45 /*Korgan*/ = ~Ye know this girl?~
+@46 /*Mazzy*/ = ~No, but…~
+@47 /*Korgan*/ = ~Ahh, ye know her family.~
+@48 /*Mazzy*/ = ~No! That is not…~
+@49 /*Korgan*/ = ~Ye're worried about th' guard? The neighbours? Look at this girl. She’s clearly poor an' alone. She nae be having one person who cares for her. This will be easy.~
+@50 /*Mazzy*/ = ~No! You cannot force yourself upon her, Korgan! She is just a young woman trying to make her way in the world. You would hurt her deeply, both physically and emotionally. Indeed, it is evil and I will not let you commit such an act.~
+@51 /*Korgan*/ = ~So she's too young? Ye're an odd one. All humans are young compared to old Korgan. Very well then, I’ll do it yer way. How old must a lass be before I kin drag her into an alley an' have me way with her?~
+@52 /*Mazzy*/ = ~Never, Korgan. You are never allowed to force yourself upon a girl or woman of any age.~
+@53 /*Korgan*/ = ~Ye mean I must pay fer every woman I lay with? That is expensive, Mazzy. I’ll have to kill me twice as many merchants in order to pay fer that.~
+@54 /*Mazzy*/ = ~I will not allow you to kill merchants!~
+@55 /*Korgan*/ = ~Well, not th’ ones in town, of course. That be bad business fer us all. Just th' ones travelling on th' road. An' the nobles, sometimes nobles travel as well. Th' tall ones will just blame bandits... there always be bandits in these parts.~
+@56 /*Mazzy*/ = ~You are not allowed to kill anyone!~
+@57 /*CHARNAME*/ = ~Not in public anyway. Now that that is settled, are either of you hungry?~
+@58 /*CHARNAME*/ = ~Will you please quit shouting over there? I'm trying to bargain down the price of this girl's cockles.~
+@59 /*CHARNAME*/ = ~Just say yes already, Korgan. I do not care what you do when I am busy, but I do not have time for this. Ooh, is that a mussel? How much for the mussel?~ 
+@60 /*CHARNAME*/ = ~Yes, yes, Korgan is not allowed to kill people. Now would one of you like to have a clam or not?~
+@61 /*CHARNAME*/ = ~No killing, no fighting, no nagging. Just shut it, the both of you. Oh wow... these are delicious.~
+@62 /*CHARNAME*/ = ~There's one oyster left! If you want it, speak up, otherwise it's mine.~
+@63 /*Korgan*/ = ~I cannae kill anyone? Ye would see old Korgan die of poverty? How will I eat? What about th’ bandits an' others who attack us?~
+@64 /*Mazzy*/ = ~Very well, Korgan. You have my permission to kill anyone who attacks us first.~
+@65 /*Korgan*/ = ~An’ take their gold.~
+@66 /*Mazzy*/ = ~And you may take their gold.~
+@67 /*Korgan*/ = ~An' piss on their corpses an' drink ale from their skulls!~
+@68 /*Mazzy*/ = ~It looks like <CHARNAME> is ready to go so we should get moving. But stay where I can see you, dwarf; I am going to watch you even more closely from now on.~
+
+
+

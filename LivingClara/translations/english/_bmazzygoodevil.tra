@@ -1,0 +1,17 @@
+
+//Mazzy Romance Quest Journals
+//Most of the rest in _bMazzyRomance
+@1024 /*Thief Quest*/ = ~Mazzy's Heart – The Shadow Thieves
+
+We have defeated the leaders of the Shadow Thieves after a long and bloody battle. The organization is broken and scattered, though a few survivors may have gone to ground. We should return to Council Secretary Ewenn to inform him that the deed is done.~
+@1027 /*Vampire Quest*/ = ~Mazzy's Heart – The Vampires
+
+We have defeated Bodhi at last, breaking their power and regaining Imoen's soul. We should return to Council Secretary Ewenn to inform him that the deed is done.~
+
+//Mazzy-Vic Floating Text
+@1 /*Narrator*/ = ~A short time later.~
+
+//Mazzy Friendship Journal
+@1030 /*Thief Quest Journal*/ = ~Victory at Last
+
+We have defeated the leaders of the Shadow Thieves after a long and bloody battle. The organization is broken and scattered, though a few survivors may have gone to ground. We should return to Council Secretary Ewenn to inform him that the deed is done.~

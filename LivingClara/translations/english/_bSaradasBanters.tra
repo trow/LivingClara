@@ -1,0 +1,25 @@
+//1st Clara-Saradas Banter
+@1 /*Clara*/ = ~Hey, Saradas, can I ask you a question?~
+@2 /*Saradas*/ = ~Of course. Curious minds should be rewarded and the young will not learn unless the elders share their wisdom. What do you wish to know?~
+@3 /*Clara*/ = ~Well, I'm sure you weren't expecting to be summoned by <CHARNAME>... will someone be missing you? Do you have any family waiting for your return?~
+@4 /*Saradas*/ = ~Ahh, I am afraid not. I have spent many years pursuing knowledge and arcane artifacts, and while I do not regret my choice, I have never had a family or a place to call my own.~
+@5 /*Saradas*/ = ~Indeed, rumors of lost magics have often led my footsteps and while the temple will have noticed my absence, this isn't the first time that I've left suddenly.~
+@6 /*Clara*/ = ~Oh, good. I'm glad to hear that.~
+@7 /*Saradas*/ = ~You are?~
+@8 /*Clara*/ = ~Yeah, I mean, you're REALLY old. I was worried that <CHARNAME> had kidnapped somebody's great-grandfather and they'd try to track you down.~
+@9 /*Clara*/ = ~But if you don't have any family, that means we can keep your stuff if you die in your sleep. That's such a relief! Thanks!~
+@10 /*Saradas*/ = ~That was... interesting.~
+
+//2nd Banter
+@11 /*Saradas*/ = ~You are staring quite intently, Clara. Is there something that you need?~
+@12 /*Clara*/ = ~Nope, just making sure you're still alive.~
+@13 /*Saradas*/ = ~Indeed I am. Sorry to disappoint you.~
+@14 /*Clara*/ = ~I'm not disappointed. I'm impressed. I've never seen ANYONE as old as you and I want to know your secret. How'd you stay alive for centuries?~
+@15 /*Saradas*/ = ~Centuri- How old do you think I am?~
+@16 /*Clara*/ = ~I don't know. Two hundred? You look like you're two hundred. But you fight like a young man.~
+@17 /*Saradas*/ = ~You are an odd child, Clara, with an odd view of life. I do not know whether to be flattered or insulted when you speak.~
+@18 /*Saradas*/ = ~However, if you truly wish to know the secrets of longevity, I would be pleased to instruct you if I can.~
+@19 /*Clara*/ = ~Really? That's fantastic! Teach me how to live forever... Well, as long as it's easy and I don't have to change at all.~
+@20 /*Saradas*/ = ~I see...~
+@21 /*Saradas*/ = ~In that case, I'm afraid it's magic, child, and you just don't have the skill.~
+@22 /*Clara*/ = ~Aww. That's too bad. Thanks for trying anyway.~

@@ -1,0 +1,116 @@
+//SoA Interjections
+
+//Knights of the Most Noble Order of the Radiant Heart
+@1 /*Bodhi*/ = ~I admire your perseverance. No matter how often or how thoroughly I kill you half-dozen fools, you always come back for more.~
+@2 /*Bodhi*/ = ~They will indeed return. I once ate every tasty morsel of Sir Laren's flesh... I even broke and consumed his bones until not one piece of him remained. Yet there he was today... healthy and whole.~
+
+//Bertrand
+@3 /*Bertrand*/ = ~Bodhi, my luscious dark wine, are you here for me? There is no other woman to whom I offer my unequaled skills for free.~
+@4 /*Bodhi*/ = ~I pay you in your continued breathing, my pet, and while one should always embrace the pleasures and passions of the flesh, I am currently busy.~
+@5 /*Bertrand*/ = ~You have been gone for some time. I feared you were dead and rejoice that you are merely undead.~
+@6 /*Bodhi*/ = ~*smiles* Your audacity is as refreshing as always. I must wait for <CHARNAME> to call a rest, but then, as before, I will join you after I feed.~
+
+//2nd Bertrand talk
+@7 /*Bertrand*/ = ~Bodhi, my delicious dark wine, I could not help but notice that during our last encounter, you seemed displeased with me.~
+@8 /*Bodhi*/ = ~I was displeased, my pet, but not with you.~
+@9 /*Bertrand*/ = ~Perhaps I could lend you my sympathetic ear? It is the most desired ear in Amn.~
+@10 /*Bodhi*/ = ~That night was our first shared evening since I acquired a new soul and I was hoping your well-honed skills would awaken my cold heart.~
+@11 /*Bodhi*/ = ~But it was not to be. It seems the elf inside me desires sensual pleasure in a way that is incompatible with my vampiric condition.~
+@12 /*Bertrand*/ = ~That must be frustrating. I saw the remains of your frustration throughout the district.~
+@13 /*Bodhi*/ = ~I still gain enjoyment from the hunt and kill... So I shall bear my misfortune with dignity.~
+@14 /*Bodhi*/ = ~But this means that we must say our farewells.~
+@15 /*Bertrand*/ = ~Only until you cure your vampirism, Then I know you will return to me.~
+@16 /*Bodhi*/ = ~*smiles* Now you are just trying to boost my spirits.~
+@17 /*Bertrand*/ = ~When your spirits are high, you kill fewer people. How's a poor gnome supposed to make a living with you eating all of my customers?~
+@18 /*Bodhi*/ = ~Goodbye, Bertrand.~
+
+//Bodhi Priestess Demin Interjections in Suldanessellar.
+@19 /*Bodhi*/ = ~Surely you must be powerful enough to see through the disguise spell that Elhan's wizard cast on me.~
+@20 /*Bodhi*/ = ~Can you hear me, priestess? Or do my words fall on deaf ears?~
+@21 /*Bodhi*/ = ~Elhan is a fool and a coward who only desires to protect himself from embarrassment.~
+@22 /*Bodhi*/ = ~You wound me, <CHARNAME>. If I did not know that you were merely playing along, I might take your insults personally.~
+@23 /*Bodhi*/ = ~I was the greatest warrior this city has ever seen, but martial prowess was not considered a great virtue among my people.~
+@24 /*Bodhi*/ = ~It seems fitting that my brother alone created a sorcerous plan to turn himself into a god and yet somehow my people would still pin the majority of the blame on me.~
+@24000 /*Demin*/ = ~His good heart resisted at first, but his "sister's" unrelenting pressure eventually proved too much for even him.~
+@25 /*Bodhi*/ = ~*He* wished to be a god... I was merely bored and looking for a challenge.~
+@26 /*Bodhi*/ = ~I guarded the entrance for Jon, holding off the entire elven honor guard singlehandedly. She will likely fail to mention this.~
+
+//Bodhi, Avatar of Rillifane Interjections in Suldanessellar.
+@27 /*Bodhi*/ = ~So my sister is Rillifane's child. I always suspected she was, but my mother refused to confirm it.~
+@28 /*Bodhi*/ = ~She would never say who fathered me either. Jon did not know who is father was, so the three of us had that in common. Though Ellesime is likely the only one with divine blood.~
+@29 /*Bodhi*/ = ~Jon and I are not actually siblings, of course, but we said our unknown paternity made us so and along with Ellesime, we swore to protect one another until the leaves fell and the world ended.~
+@30 /*Bodhi*/ = ~He and my sister later becoming lovers made life more... complicated.~
+@31 /*Avatar*/ = ~**WHO SPEAKS? YOU, EXILE, DID YOU THINK YOUR DISGUISE WOULD FOOL ME? THAT YOU COULD SPEAK AND I WOULD NOT HEAR?**~
+@32 /*Avatar*/ = ~** HOWEVER, I SEE YOU BEAR THE MARK OF FRIENDSHIP. YOUR PRESENCE SHALL BE TOLERATED.**~
+@33 /*Bodhi*/ = ~It seems I must thank Elhan and his pet warsage for their magic after all.~
+@34 /*Avatar*/ = ~**YOU LOVE YOUR SISTER AND YOU WILL SAVE HER FROM HIM.**~
+@35 /*Bodhi*/ = ~This will be a massacre, <CHARNAME>. My brother's forces stand no chance.~
+@36 /*Bodhi*/ = ~And so another of his foolish plans unravels.~
+
+//Interjection into Jon's Tree fight.
+@37 /*Jon*/ = ~And you, my traitorous "sister"... I see you through your pathetic disguise.~
+@38 /*Jon*/ = ~Let me guess, <CHARNAME> defeated you in battle so you showed your belly and accepted a new master? How utterly predictable.~
+@39 /*Bodhi*/ = ~We had our souls, my brother. Together the world was ours for the taking.~
+@40 /*Bodhi*/ = ~But you had to once again implement your insane plan for godhood... doomed to fail and destroy us both.~
+@41 /*Bodhi*/ = ~When faced with defeat, this time I chose the winning side.~
+
+//First Hell Interjection
+@42 /*Bodhi*/ = ~So this is hell... how disappointing. I had hoped to avoid this place for years to come.~
+
+//Hell Jon Fight Interjection
+@43 /*Bodhi*/ = ~Every time is the same, my brother. You are incapable of choosing a new path, so how can you expect a different result?~
+
+//Interjection into Ellesime's talk after Player 1 regains consciousness. 
+@44 /*Ellesime*/ = ~But before it starts, I wish to speak with you about my... sister.~
+@45 /*Ellesime*/ = ~She was my kin before her fall and I would like her to be so once again.~
+@46 /*Ellesime*/ = ~We have offered her her life... her soul... should she accept, she will again be one of us.~
+@47 /*Ellesime*/ = ~She, however, is still undecided.~
+@48 /*Bodhi*/ = ~Before I come to a decision, <CHARNAME>, I am curious as to your opinion.~
+@49 /*Bodhi*/ = ~If I accept, I would be elven again. I would release Imoen's soul and regain my own. This is everything I dreamed of, when dreams were possible, and yet for some reason I am unsure...~
+@50 /*Ellesime*/ = ~I have missed you, child of my mother. You saved us, your home, and your people. Please accept your reward.~
+@51 /*Ellesime*/ = ~Come back to me, little sister.~
+@52 /*CHARNAME*/ = ~Do it, Bodhi. How could you pass up this chance?~
+@53 /*CHARNAME*/ = ~No, Bodhi; you would lose your strength, your power, and your control... all for a people who will never truly accept you.~
+@54 /*Bodhi*/ = ~My... sister... I accept.~
+@55 /*Ellesime*/ = ~You could not have given me more joy. We will restore your body, your soul, your name...~
+@56 /*Bodhi*/ = ~I shall continue being called Bodhi.~
+@57 /*Bodhi*/ = ~When we were cast out, we had nothing, not even our names, but one day I called him, "Jon" and it worked! We realized that despite owning nothing, we could give names to one another.~
+@58 /*Bodhi*/ = ~He called me, "Bodhi", and from that day forward I was determined to live... I had hope.~
+@59 /*Ellesime*/ = ~Then "Bodhi" you shall be, little sister. Close your eyes; this will take but a moment.~
+@60 /*Bodhi*/ = ~<CHARNAME> is right. There is no place for me here.~
+@61 /*Ellesime*/ = ~You bring me grief with your response, but I shall not lose hope. You are immortal; you may yet still change your mind.~
+@62 /*Ellesime*/ = ~Should you ever choose to come back to us, I will welcome you with open arms.~
+@63 /*Ellesime*/ = ~Now embrace me, my sister. It has been too long.~
+
+//Ellisime's Final Talk Interjection
+@64 /*Ellisime*/ = ~In particular, we welcome the daughter-of-my-mother to our home once again.~
+@65 /*Ellesime*/ = ~Bodhi-of-the-Fallen-Leaves, it is good to have you with us. Your actions saved us all.~
+
+//Interjection into Skeleton Warrior's dialogue. In Dungeon south of Bodhi's Hideout at night.
+@66 /*Bodhi*/ = ~The night is mine, and mine alone. Come and test my strength.~
+
+//Rose talk about journals
+@67 /*Rose*/ = ~What can I... Oh, you're one of...~
+@68 /*Bodhi*/ = ~Indeed. Tell me, walker-of-the-night, you were given the journal of Jon Irenicus for your little dream. What did you think of it? I do so wish to hear your honest thoughts.~
+@69 /*Rose*/ = ~Well, if you're certain... I've read the thing cover to cover and I'm really not a fan. He's pompous, arrogant, and far too fond of his own opinion. But he does use a clever turn of phrase now and then.~
+@70 /*Bodhi*/ = ~You have no idea, succulent fleshling, of whom you speak. And yet this bold assumption is not wrong.~
+
+//Tree of Life Talk
+@71 /*Player1*/ = ~Bodhi, dark and mysterious. The vampire was once your enemy and you wonder if she is truly ready to kill her brother at your side.~
+@72 /*CHARNAME*/ = ~Are you with me, Bodhi? Truly with me?~
+@73 /*CHARNAME*/ = ~Can you give me any advice on fighting Irenicus? You did know him best.~
+@74 /*CHARNAME*/ = ~Moment of truth, vampire. Can I trust you or will you stab me in the back?~
+@75 /*Bodhi*/ = ~I am a survivor, <CHARNAME>. My brother has overreached, as always, and his doom is inevitable. If you were smart, you would disrupt his plans and then run like the wind.~
+@76 /*Bodhi*/ = ~We'd come back with an Elven army and perhaps a god or two on our side.~
+@77 /*Bodhi*/ = ~But you are probably too foolish for such sense... so let's do what you always do: rush through the door, weapons drawn, and take things as they come.~
+@78 /*Bodhi*/ = ~Jon's magic is powerful, but if  we can disrupt it, he will bleed and die like any other man.~
+
+
+//TOB Interjections
+
+//Saradush Vampire Talk
+@9991 /*Bodhi*/ = ~No one will bother me if I hunt here? Such a wonderful place you have brought me to, <CHARNAME>. And here I was beginning to think you didn't care.~
+
+//Saradush Head Vampire
+@9992 /*Bodhi*/ = ~You were powerful, but your time is over. Stronger predators are here to take your place.~
+

@@ -1,0 +1,53 @@
+@0 /*Mazzy*/ = ~My conscience can allow me to be idle no longer. In the name of all that is good, I accuse you of willfully committing acts of evil.~ [MAZZY69]
+@1 /*Mazzy*/ = ~By Arvoreen, I swear that you shall go no further. Stand and fight, if you have the courage.~
+@2 /*Mazzy*/ = ~For Arvoreen!~
+@3 /*Viconia*/ = ~Now she turns on us as I knew she would! Sanctimonious halfling, it is time for you to die!~
+@301 /*Viconia (if Mazzy friend)*/ = ~I will... not choose between you. Battle it out if you must, but I will stand to the side.~
+@4 /*Korgan (if Mazzy has killed him)*/ = ~I said me axe was yers, Mazzy, an’ I meant it. Ready yerself, <CHARNAME>, fer today is th' day ye die!~
+@5 /*Korgan (if Mazzy hasn't killed him)*/ = ~Har, har, no one tells me what t' do. Time t' take me axe, girl.~
+@6 /*Keldorn*/ = ~<CHARNAME>, I know that you bring with you a troubled past and a painful heritage, but for all the friendship that has formed between us, I cannot turn from such transgressions forever.~ [KELDOR82]
+@7 /*Keldorn*/ = ~I cannot allow you to do this, and if that means ending your life then so be it.~
+@8 /*Minsc (Charisma <15)*/ = ~When making a glorious egg dish of goodness, I understand some eggs must be broken. But actions such as this are... simply deplorable!~ [MINSC82]
+@9 /*Minsc (Charisma <15)*/ = ~You have fallen to evil while I watched, but no more! Now is the time for justice! Boo will have your eyes!~
+@10 /*Minsc (Charisma 15*/ = ~No more words, <CHARNAME>. I thought we were friends but your pretty lies have blinded me to evil for too long. Boo will have your eyes when next me meet.~ [MINSC89]
+@11 /*Aerie*/ = ~How—how could you do this, <CHARNAME>? I trusted you. Everyone trusted you!~
+@12 /*Aerie*/ = ~*sobs* I was a stupid little girl, but no longer. I will fight you!~
+@13 /*HaerDalis (if Aerie and not romancing CN)*/ = ~Ahh, my awakened mourning dove, you sing truly about <CHARNAME>. <PRO_HESHE> is a monster, but fear not! Your sparrow will help you bring <PRO_HIMHER> down.~
+@14 /*HaerDalis (if no Aerie or if Romancing CN)*/ = ~What bitter betrayals and twisted friendships, what songs this day will sing. Fight and we shall carve in blood a villain’s destiny!~
+@15 /*Anomen (didn't fail test, not romancing)*/ = ~You are not on the side of the righteous, <CHARNAME>, and it is my duty to stop you.~
+@16 /*Anomen (didn't fail test, romancing)*/ = ~I was beguiled by your charms, <CHARNAME>, but no longer! Your actions have proved the darkness of your heart and I will defeat you.~
+@17 /*Anomen (failed test)*/ = ~Finally, a chance to test my mettle against the 'great' Mazzy Fentan. Now we shall see who is the superior warrior.~ 
+@19 /*Neera (not romancing)*/ = ~Now you're fighting? But who do I help? I know! I will decide to refuse to decide. You two do what you're going to do and I'll go with the winner when you're done.~
+@20 /*Neera (romancing)*/ = ~I will not let you hurt <CHARNAME>! <PRO_HESHE> has made mistakes but <PRO_HESHE> does not deserve to die.~
+@21 /*Valygar*/ = ~I'll not stand about and participate in your degenerate activities any longer, <CHARNAME>. I'll find my own way and leave you to yours.~
+@22 /*Valygar*/ = ~Your words ring true, Mazzy. If you choose to fight <CHARNAME>, then I will fight at your side.~
+@23 /*Jaheira (Romancing or Charisma 15)*/ = ~I would have expected better from you, <CHARNAME>! You have let yourself fall too far and I will accompany you no further. We will not meet again.~
+@24 /*Jaheira (Not romancing and Charisma <15)*/ = ~You were my friend, <CHARNAME>, but I no longer know you. You will find no quarter here! Justice take you!~
+@25 /*Cernd*/ = ~When two wolves fight for dominance, the pack does not intervene. I shall stand aside.~
+@26 /*Rasaad (not romancing and Charisma <15)*/ = ~Selûne guide our hands! I have witnessed <CHARNAME>'s evil for too long and done nothing.~
+@27 /*Rasaad (romancing or Charisma 15)*/ = ~<CHARNAME>, I must have words with you! This is not you. It cannot be.~ [OH85142]
+@28 /*Rasaad (romancing or Charisma 15)*/ = ~I thought you were a light within the darkness I must walk and I cannot believe that I was wrong. I will not help you fight now, but neither will I abandon you. If you win, we will continue our travels.~ 
+@29 /*Nalia (normal)*/ = ~I can't believe you would do this, <CHARNAME>! We're supposed to be helping people!~
+@30 /*Nalia (romancing or keep owner)*/ = ~I don't understand this. I thought you were a hero, <CHARNAME>. You were my hero.... I am leaving, <CHARNAME>. Goodbye.~
+@33 /*Imoen*/ = ~All right, fine. If that's the way you wanna be, go ahead and be pigheaded. I'll be at that bar... the Copper Coronet. You can find me there, I suppose, if you ever want to.~ [IMOEN78]
+@34 /*Dorn*/ = ~This will be good practice. My weapon thirsts for blood.~
+@35 /*Hexxat*/ = ~I am with you, <CHARNAME>. It is time to feast.~
+@36 /*OHHFAK*/ = ~All who stop us... from reaching Dragomir's Tomb must... die.~
+@37 /*Yoshimo (no romance)*/ = ~I will aid you, <CHARNAME>. I must.~
+@38 /*Yoshimo (romance)*/ = ~The world is not black and white and we all have our places. I will not let you hurt <CHARNAME> just because you disagree.~
+@39 /*Edwin*/ = ~(Yes, at last. A chance to improve my company.) Fools, meet your obliteration!~
+@40 /*_bClara*/ = ~I don't really like fighting. I'm just going to wait over here until you're done.~
+@41 /*Jan*/ = ~Well now here is a pickle. Not an actual pickle mind you, but a pickle meaning a problem, and not a problem relating to pickles like the one that befell my cousin Plooty. This was before he became a famous flesh-golem eater of course...~
+
+//After Combat Starts
+@42 /*Jan (once combat ends)*/ = ~...and by the time he was done arguing with the orc general, the entire orc army had already died of old age; orcs don't live that long you know. Now what was it you were all shouting about?~
+@43 /*Korgan (if Mazzy dies)*/ = ~Well, that be that. No hard feelings, <CHARNAME>. Let us raise a mug an' drink t' Mazzy, the most fearsome halfling what ever lived.~
+
+//If you are an enemy of the Order of the Radiant Heart
+@44 /*Mazzy*/ = ~<CHARNAME> you are a villain, an enemy of the Order of the Radiant Heart. Do not show your face around here again.~
+
+//Neera Line if she joins Minsc
+@46 /*Neera*/ = ~Wait, we're fighting <CHARNAME> now? Minsc, you need to warn me when you're going to do something like this!~
+
+//Minsc Line if he joins Neera
+@45 /*Minsc*/ = ~<CHARNAME> fights with the pretty witch? Then <CHARNAME> shall feel our boot!~

@@ -1,0 +1,57 @@
+//First ToB Talk
+@0 /*Bodhi*/ = ~I am alive, <CHARNAME>, but do I have a soul?~
+@1 /*CHARNAME*/ = ~Yes, you took Imoen's soul. It's yours.~
+@2 /*CHARNAME*/ = ~No, we killed you and took Imoen's soul back.~
+@3 /*Bodhi*/ = ~Yes, I remember now. It feels good to be whole.~
+@4 /*Bodhi*/ = ~Then I will not make the same mistake twice. I will find another cure for my affliction.~
+
+//Aerie Objects to Bodhi
+@5 /*Aerie*/ = ~I... I cannot believe you would allow Bodhi to live! W-we are through!~
+@6 /*Haer'Dalis*/ = ~Wherever my sweet mourning dove goes, I shall surely follow.~
+@7 /*Aerie*/ = ~Goodbye, <CHARNAME>.~
+
+//Imoen Objects to Bodhi
+@8 /*Imoen*/ = ~<CHARNAME>, how could you do this? We grew up together!~
+@9 /*Imoen*/ = ~Without my soul, I'll keep getting weaker... I cannot stay here a moment longer.~
+
+//Keldorn Objects to Bodhi
+@10 /*Keldorn*/ = ~You saved Bodhi? She who has stolen the soul of your own kin?~
+@11 /*Keldorn*/ = ~Torm take you! I must warn the Order!~
+
+//Anomen Objects to Bodhi (if he hasn't failed his test)
+@12 /*Anomen*/ = ~You would side against the forces of righteousness?~
+@13 /*Anomen*/ = ~If you call Bodhi a friend, then you are no friend of mine!~
+
+//Jaheira Objects to Bodhi
+@14 /*Jaheira*/ = ~After everything we taught you, I cannot believe you would betray us so!~
+@15 /*Jaheira*/ = ~If you are with Bodhi, we are finished!~
+
+//Cernd Objects to Bodhi
+@16 /*Cernd*/ = ~Bodhi is an unnatural creature and your betrayal of your own sister does not speak highly of you.~
+@17 /*Cernd*/ = ~I will walk alone in the woods... away from your corrupting influence.~
+
+//Minsc Objects to Bodhi
+@18 /*Minsc*/ = ~You would betray little Imoen and let the vampire keep her soul? Boo is shaking with rage, and I am finished with you!~
+@19 /*Neera*/ = ~Wait... are we leaving? Minsc, you have to warn me when you're going to do this!~
+@20 /*Minsc*/ = ~We depart in righteous fury!~
+
+//Rasaad Objects to Bodhi
+@21 /*Rasaad*/ = ~The path you walk is too dark for me, my friend.~
+@22 /*Rasaad*/ = ~Beware that Bodhi does not end your life while you sleep.~
+
+//Valygar Objects to Bodhi
+@23 /*Valygar*/ = ~Bodhi lives an unnatural life. She renews her strength daily at the cost of other lives.~
+@24 /*Valygar*/ = ~If she is your friend, then I know where I stand.~
+
+//Nalia Objects to Bodhi
+@25 /*Nalia*/ = ~I cannot believe you, <CHARNAME>! Bodhi hunts the very people we are supposed to be helping!~
+@26 /*Nalia*/ = ~I'm leaving. I hope I never see you again.~
+
+//Mazzy Objects to Bodhi
+@27 /*Mazzy*/ = ~You would sacrifice Imoen's soul to ally yourself with this monster?! Bodhi slaughters innocents daily!~
+@28 /*Mazzy*/ = ~I shall return with enough allies to end both your lives forever.~
+
+
+
+
+

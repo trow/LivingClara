@@ -1,0 +1,141 @@
+//First Imoen Talk
+@1 /*Imoen*/ = ~Aerie, what about polymorphing?~
+@2 /*Aerie*/ = ~I... I don't understand. What about polymorphing?~
+@3 /*Imoen*/ = ~For your wings! Just polymorph yourself into yourself with wings!~
+@4 /*Aerie*/ = ~I don't think it works like that.~
+@5 /*Aerie*/ = ~Polymorph Self just t-transforms me into a list of animals and monsters, none of which can fly.~
+@6 /*Imoen*/ = ~So let's write a new version! Transform you into yourself!~
+@7 /*Aerie*/ = ~W-write a spell? Only brilliant wizards can do that....~
+@8 /*Aerie*/ = ~Can you create new spells?~
+@9 /*Imoen*/ = ~No... but that's just because we're not powerful enough!~
+@10 /*Imoen*/ = ~Come on, let's go get some more power! We'll be archmages in no time.~
+
+//2nd Imoen Talk
+@11 /*Imoen*/ = ~What about a wizard?~
+@12 /*Aerie*/ = ~I... What about...?~
+@13 /*Imoen*/ = ~We just need a great wizard to make us this polymorphing spell. So let's ask one! You'll have your wings back in no time.~
+@14 /*Aerie*/ = ~G-great wizards don't like helping people. Their time is precious.~
+@15 /*Imoen*/ = ~You're always such a downer! We'll find someone!~
+
+//Jan Wings Talk
+@16 /*Aerie*/ = ~Jan, d-do you know how to... how to make new spells?~
+@17 /*Jan*/ = ~I do indeed! Do you know the spell Protection-from-Turnips? I created that.~
+@18 /*Aerie*/ = ~*giggle* I don't think I know that one. What does it do?~
+@19 /*Jan*/ = ~What does it do? Well now that is a silly question. It protects you from turnips!~
+@20 /*Aerie*/ = ~But when would... I suppose it doesn't matter. What I need is a spell to turn me into an avariel.~
+@21 /*Jan*/ = ~It may surprise you to learn this, dearie, but you are already an avariel.~
+@22 /*Aerie*/ = ~No I'm not! Avariel have wings!~
+@23 /*Aerie*/ = ~I'm... I'm just an elf.~
+@24 /*Jan*/ = ~Well, I'm sorry, Aerie, but I don't know that spell. You'll just have to spend the rest of your life as a beautiful, immortal elf, ageless and carefree, gaining wisdom and power over the centuries to rival the gods themselves...~
+@25 /*Aerie*/ = ~Yes... well...~
+@26 /*Jan*/ = ~...those poor elves, wisest and fairest of all beings...~
+@27 /*Jan*/ = ~Did you know that elves have developed the most advanced weaving, spell-crafting, and blacksmithing in all the Realms?~
+@28 /*Aerie*/ = ~Jan, are you mocking...~
+@29 /*Jan*/ = ~Not to mention their unmatched skills in metallurgy, archery, fletching, animal-taming, jewel-setting...~
+@30 /*Aerie*/ = ~Enough! You win!~
+@31 /*Aerie*/ = ~I--I'm an elf and... and it is... it is good to be an elf. I'll stop moping.~
+@32 /*Jan*/ = ~No, no, dearie, by all means keep moping. You used to be able to fly, like a bird, and now you're down here with the rest of us. I'd be crying and miserable all the time too if I were you.~
+
+//Neera Wizard Wings Talk
+@33 /*Aerie*/ = ~Neera, you've polymorphed yourself many times, right?~
+@34 /*Neera*/ = ~Of course! I've polymorphed myself into a squirrel, and a badger, and one time into a bird...~
+@35 /*Neera*/ = ~Never on purpose though and luckily I was able to dispel it each time.~
+@36 /*Aerie*/ = ~I... I was thinking maybe... I could polymorph myself into myself... but with wings.~
+@37 /*Neera*/ = ~That would be some spell. I don't know anyone who can actually turn themselves into specific people; illusions don't count.~
+@38 /*Neera*/ = ~And making wings? That one can actually use to fly? That's probably impossible...~
+@39 /*Aerie*/ = ~*starts crying*~
+@40 /*Neera*/ = ~What? I'm sorry, I didn't mean that! It's magic, right? Magic can do anything!~
+@41 /*Neera*/ = ~Please stop crying.~
+@42 /*Aerie*/ = ~*sniff* Okay... thanks Neera.~
+
+//Aerie-CN Talk
+@43 /*Aerie*/ = ~<CHARNAME>, you're... a wizard and...~
+@44 /*Aerie*/ = ~And you wouldn't know of a spell to give me w-wings, would you?~
+@45 /*Aerie*/ = ~I was hoping that Polymorph Self would do it, but it's useless.~
+@46 /*CHARNAME*/ = ~Sorry, can't be bothered.~
+@47 /*CHARNAME*/ = ~Don't know, don't care.~
+@48 /*CHARNAME*/ = ~Sorry, Aerie. I'm afraid I don't.~
+@49 /*CHARNAME*/ = ~I wish I could help, but...~
+@50 /*Aerie*/ = ~Fine then! Don't help me! I'll figure it out on my own!~
+@51 /*Aerie*/ = ~Oh... that's alright. I didn't expect you to be able to help me.~
+
+//Aerie-Nalia Talk
+@52 /*Aerie*/ = ~Nalia, do you know anything about... about p-polymorphing?~
+@53 /*Nalia*/ = ~Of course. I can turn myself into a mustard jelly, a flind, a bear, an ogre, a spider, or a wolf. Can't you?~
+@54 /*Aerie*/ = ~Well, yes. But have you ever heard of anyone transforming into... into something else?~
+@55 /*Aerie*/ = ~Like with... with wings?~
+@56 /*Nalia*/ = ~I'm sure it's possible; great wizards can do almost anything.~
+@57 /*Aerie*/ = ~So I just need to become a great wizard? *chuckles*~
+@58 /*Aerie*/ = ~Maybe I will.~
+
+//New Wings Question (SOA only)
+@59 /*CHARNAME*/ = ~Do you know how to create a new spell? Aerie wishes to fly again.~
+
+//Lady Yuth Talk (SOA)
+@60 /*Aerie*/ = ~Yes! I... I was... am an avariel, but I lost my wings.~
+@61 /*Lady Yuth*/ = ~I'm sorry. I do not make the scrolls I sell. What you are talking about would be extremely difficult.~
+@62 /*Aerie*/ = ~D-do you know who could help me?~
+@63 /*Lady Yuth*/ = ~Of the wizards who make scrolls, the most powerful I've heard of is Lazarus Librarus. But he lives far to the south, in the city of Saradush.~
+@64 /*Aerie*/ = ~Oh... I see... that's so far away we'll probably never go there. Thank you anyways...~
+
+//Galoomp Talk (SOA)
+@65 /*Galoomp*/ = ~A spell t' grow wings? That's right un'eard of. Ye be wantin' a wizard o' great power!~
+@66 /*Galoomp*/ = ~Me most powerful scrolls I get from Saradush, a city yonder south.~
+@67 /*Galoomp*/ = ~Fellow by th' name of Lazarus Librarus. If anyone can help you, it be he.~
+@68 /*Aerie*/ = ~Oh that's... that's really far isn't it? Well maybe some day I'll go there and see if I can find him.~
+
+//Lazarus Talk (TOB)
+@69 /*Lazarus*/ = ~An avariel! Of course, look at you. I've never seen one of your magnificent kind before.~
+@70 /*Lazarus*/ = ~Do you know how many rare spell components one can extract from just a single avariel's body?~
+@71 /*Aerie*/ = ~I... I want to fly! If you help me, you can have whatever you can collect, as long as it doesn't harm me permanently.~
+@72 /*Lazarus*/ = ~You would give them to me freely? Oh, there's so many, I would not know where to begin. I must consult my books!~
+@73 /*Lazarus*/ = ~What a glorious day, I am sure we can come to an agreement that will be mutually beneficial. Let me look at you...~
+@74 /*Lazarus*/ = ~You are a mage of some power, so you can polymorph yourself, and a cleric of great ability, so you can heal and regrow your lost body parts. This opens up so many options!~
+@75 /*Lazarus*/ = ~To do this properly, you will need the power of an archmage and the intelligence of the smartest gnome.~
+@76 /*Lazarus*/ = ~I will require 60,000 gold pieces paid up front. The list of ah... spell components I'll want to extract from your body I should complete shortly. Return to me when you are ready and have adequate funds.~
+
+//Second Lazarus Talk
+@77 /*CHARNAME*/ = ~We are ready for the spell to give Aerie wings.~
+@78 /*Lazarus*/ = ~Excellent! Let us see.~
+@79 /*Lazarus*/ = ~You do have sufficient gold.~
+@80 /*Lazarus*/ = ~You do not have sufficient gold.~
+@81 /*Lazarus*/ = ~Aerie, you appear to be of adequate intelligence.~
+@82 /*Lazarus*/ = ~Aerie, you are not yet of adequate intelligence; you should go find a potion to reach the necessary level.~
+@83 /*Lazarus*/ = ~And your magic power meets an acceptable standard.~
+@84 /*Lazarus*/ = ~And your magic power is not yet at an acceptable standard.~
+@8400 /*Lazarus*/ = ~Let me just double-check my notes. I would not want to make any mistakes.~
+@8401 /*Lazarus*/ = ~This will not take more than a moment.~
+@85 /*Lazarus*/ = ~Excellent! My calculations are correct. We may proceed with the terms of the agreement.~
+@86 /*Lazarus*/ = ~My calculations are correct; you do not yet meet the necessary requirements.~
+@87 /*Lazarus*/ = ~Speak to me again when you are ready.~
+
+//Lazarus Transformation Talk
+@88 /*CHARNAME*/ = ~We are ready to get Aerie's wings. What is the price?~
+@89 /*Lazarus*/ = ~Wonderful, you will not regret this, my lovely avariel. As discussed, 60,000 gold will be required up front. Then, once you have learned the spell and regained your wings, I will also require three small jars of your blood, one dozen hairs plucked from your head...~
+@90 /*Lazarus*/ = ~...one dozen hairs from other parts of your body, six of your teeth, the smallest toe from each foot, the ring finger from each hand... don't look at me like that, we both know you can regenerate them back...~
+@91 /*Lazarus*/ = ~... twenty-two feathers taken from your wings, and one eye... hmm... I think the left one is more to my liking. Every part must be removed by you, of your own volition, and freely given to me. Freely-given spell components are so much more versatile.~
+@92 /*Lazarus*/ = ~Are these terms acceptable?~
+@93 /*Aerie*/ = ~Y-yes.~
+@94 /*Lazarus*/ = ~Fantastic! I will get everything ready. I will require a magical promise, of course, to prevent you from leaving or killing me once you have your wings. I was not born yesterday.~
+@95 /*Aerie*/ = ~I... I am ready now. I do not wish to delay.~
+@96 /*Lazarus*/ = ~Very well, look into my eyes and repeat after me.~
+@97 /*Lazarus*/ = ~I, Aerie of the avariel, if and only if I successfully learn a spell to restore my wings, promise to give  Lazarus Librarus, freely and of my own volition, the following from my body...~
+@98 /*Aerie*/ = ~I, Aerie of the avariel, if and only if I successfully learn a spell to restore my... my wings, promise to give Lazarus Librarus, freely and of my own volition, the following from my body...~
+@99 /*Lazarus*/ = ~Three small jars of blood I draw from my veins, one dozen hairs I pluck from my head, one dozen hairs I pluck from my body, twenty-two feathers I pull from my wings...~
+@100 /*Aerie*/ = ~Th-three small jars of blood I draw from my... my veins, one dozen hairs I pluck from my head, one dozen hairs I pluck from my body, twenty-two feathers I pull... I pull from my wings...~
+@101 /*Lazarus*/ = ~Six teeth I extract from my mouth, the smallest toe I cut from each of my feet, the ring finger I cut from each of my hands, and my left eye, which I pull out of the socket.~
+@102 /*Aerie*/ = ~Six... six teeth I extract from... from my mouth, the smallest toe I c-cut from each of my feet, the ring finger I cut from each of my hands, and my left... my left eye which I will pull... pull out of the socket.~
+@103 /*Lazarus*/ = ~If I fail to give these items within one day of learning the spell to regain my wings, then my blood will boil and my body will dissolve. I will die screaming and in agony, unable to be raised or resurrected in any fashion. I agree to this freely from my heart, my breath, my life, my liver, and my soul.~
+@104 /*Aerie*/ = ~If I... I fail to give these items within one day of learning the spell to regain my wings, then my b-blood will boil and my body will dissolve. I... I will die screaming and in agony, unable to be raised or resurrected in any fashion. I agree to this freely from my heart... my breath... my life... my liver... and my soul.~
+@105 /*Lazarus*/ = ~Stupendous! You will not regret this! I made up two copies of the scroll already: one for you to memorize and another for you to cast now; I knew you would not want to delay. Last chance to back away... but if you want them, then here they are.~
+@106 /*Aerie*/ = ~I want them.~
+
+//Post Transformation Talk
+@107 /*Aerie*/ = ~They are as beautiful as I imagined they would be. I am ready to fulfil my end of the bargain.~
+@108 /*Lazarus*/ = ~Of course. You have twenty-four hours so take your time. Your friends may stay to heal you and offer support, or they may wander the town as they see fit.~
+@109 /*Lazarus*/ = ~Here are the tweezers for pulling hair, this is for draining your blood, here is a good knife for your fingers and toes, and this is the eye extractor. The feathers you should pull by hand. Remember that you must do all of it, otherwise it does not count. Your friends cannot do it for you.~
+@110 /*Lazarus*/ = ~Should you damage the item in question during the removal process, you will need to regenerate it and try again. When you are finished, you may stay here and rest for as long as you need. Do not worry about making a mess, I will get someone to clean up the blood when you are done.~
+@111 /*Aerie*/ = ~I can do this. I have wings. I... I can do anything!~
+
+//Post Rest Line
+@112 /*Aerie*/ = ~It is done! Come, <CHARNAME>, let us be free of this room. It is both the most wonderful and the most horrible place in the world, and I would prefer to... to never see it again!~

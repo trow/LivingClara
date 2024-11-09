@@ -1,0 +1,16 @@
+@1 /*Sky Lightning*/ = ~WHERE IS MY NECKLACE?!~
+
+@2 /*Sky Lightning*/ = ~YOU DARE CROSS TALOS?! THEN DIE!~
+
+//Journals
+//1000 in _bmazzymaevar.d
+@1001 /*Journal*/ = ~Necklace of Talos: Death From Above
+
+Today I was struck by lightning out of nowhere as a woman's voice demanded the location of her necklace. I assume this has something to do with the item that I stole from the Temple of Talos. Perhaps if I talk to the priestess, I can give back her necklace or appease her some other way.~
+//1002 and 1003 in _bmazzymaevar.d
+
+@3 /*SuperDarkness*/ = ~"Thank you for using Jan Jansen's Patented Ball of Superdark Darkness. When you need darker than dark, try Superdark!"~
+@4 /*Narrator*/ = ~When the darkness fades, Clara is nowhere to be seen.~
+
+@5 /*Thief Note*/ = ~You have turned against the Shadow Thieves and thus lost your guild.~
+

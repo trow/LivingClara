@@ -1,0 +1,61 @@
+//Extra Breakup Talks - everyone who doesn't have own files
+
+//Sarevok (TOB only)
+@1 /*Sarevok*/ = ~You are a fool, small one.~
+@2 /*Mazzy*/ = ~I do not think so.~
+@3 /*Sarevok*/ = ~You are. You believe that <CHARNAME> truly loves you, but <PRO_HESHE> will cast you aside for power in the end.~
+@4 /*Sarevok*/ = ~Or if my dear <PRO_BROTHERSISTER> decides to throw away <PRO_HISHER> heritage, you will still be abandoned. Tossed aside for someone new when <PRO_HESHE> grows bored.~
+@5 /*Sarevok*/ = ~Mark my words, small one, your *great love* will be extinguished before the month is out.~
+@6 /*Mazzy*/ = ~You are wrong.~
+@7 /*Mazzy - if banter*/ = ~Though I must apologize for whatever measure of peace that you have lost.~
+@8 /*Mazzy-romance1*/ = ~I am not blinded by girlish infatuation or a dream of grand romance. <CHARNAME> has asked to court me and I have accepted, that is all.~
+@9 /*Mazzy-romance2*/ = ~I am not blinded by girlish infatuation or a dream of grand romance. <CHARNAME> has courted me, and so we are together, that is all.~
+@10 /*Mazzy*/ = ~Should our paths diverge in the future, I trust <PRO_HIMHER> to inform me before leaving me behind.~
+@11 /*Sarevok*/ = ~And that is why you are a fool.~
+
+//Neera (SOA & TOB)
+@12 /*Neera*/ = ~Mazzy! Where are you?! I need to talk to you! Mazzy!~
+@13 /*Mazzy*/ = ~What is it, Neera? There's no need to shout.~
+@14 /*Neera*/ = ~No need to shout? NO NEED TO SHOUT? Of course I need to shout! Do you know what <CHARNAME> just said to me?~
+@15 /*Mazzy*/ = ~How should I know? I wasn't part of your conversation.~
+@16 /*Neera*/ = ~Then let me enlighten you... <CHARNAME> just took me aside and told me that <PRO_HESHE> doesn't want me anymore.~
+@17 /*Neera*/ = ~Apparently <PRO_HESHE> is in love with you and intends to court you. What do you have to say about that, Mazzy?!~
+@18 /*Mazzy*/ = ~...Aah, yes. I am sorry if <CHARNAME>'s decision broke your heart. I understand why you are angry, but I did ask if <PRO_HESHE> was sure.~
+@19 /*Neera*/ = ~You're not supposed to ask if <PRO_HESHE> is sure! You're supposed to say, "Sorry, <CHARNAME>, you're with Neera, I couldn't possibly date you now!"~
+@20 /*Neera*/ = ~Seriously, how are you so calm about this? I'm just so mad at both of you! I want to shout or explode or...~
+@21 /*Mazzy*/ = ~Do you feel better now?~
+@22 /*Neera*/ = ~You know, I think I do.~
+
+//Dorn (SOA & TOB)
+@23 /*Dorn*/ = ~Halfling! Stand and answer for your crimes!~
+@24 /*Mazzy*/ = ~What is it now, blackguard? You are the only person here who has committed any crimes.~
+@25 /*Dorn*/ = ~You DARE to ask me that? You self-righteous hypocrite!~
+@26 /*Dorn*/ = ~For trying to steal <CHARNAME> away from me, the penalty is death!~
+@27 /*Mazzy*/ = ~Don't be ridiculous! <CHARNAME> is <PRO_HISHER> own <PRO_MANWOMAN>. You may have been lovers but that does not mean you own <PRO_HIMHER>.~
+@28 /*Mazzy*/ = ~<CHARNAME> has the right to choose <PRO_HISHER> future and that future does not involve you anymore!~
+@29 /*Dorn*/ = ~Only because of your manipulations! You've been trying to turn <CHARNAME> against me from the start. Once you are dead, <PRO_HESHE> will see the truth!~
+@30 /*Dorn*/ = ~Draw your weapon and face me or die without a fight!~
+@31 /*Mazzy*/ = ~I will not be the one who dies, blackguard!~
+
+//Aerie (SOA & TOB)
+@32 /*Aerie*/ = ~M-Mazzy, may I-I speak with y-you?~
+@33 /*Mazzy*/ = ~Of course, Aerie. How can I help?~
+@34 /*Aerie*/ = ~Well, I-I just wanted to know about y-you and <CHARNAME>... Did <PRO_HESHE> really ask to c-court you?~
+@35 /*Mazzy*/ = ~Yes. I did not expect <PRO_HISHER> interest but it was actually rather sweet.~
+@36 /*Aerie*/ = ~Oh... I see...~
+@37 /*Mazzy*/ = ~I know that you loved <PRO_HIMHER> as well, but <CHARNAME> promised <PRO_HESHE> was certain.~
+@38 /*Aerie*/ = ~If this is w-what <CHARNAME> r-really wants, then I guess I-I can't stand in <PRO_HISHER> way. I just want <PRO_HIMHER> t-to be happy.~
+@39 /*Mazzy*/ = ~You are a better friend than I deserve, Aerie. I hope we are able to speak again once you have a chance to grieve.~
+@40 /*Aerie*/ = ~I- I don't know, Mazzy. But I think I-I hope that too.~
+
+//Rasaad (SOA & TOB)
+@41 /*Rasaad*/ = ~I suppose I should not have expected a better end than this.~
+@42 /*Rasaad*/ = ~I have sacrificed so much in my search for Alorgoth... it was inevitable that <CHARNAME> would leave eventually.~
+@43 /*Mazzy*/ = ~Rasaad? Are you all right?~
+@44 /*Rasaad*/ = ~Ah, Mazzy. I must admit that I am feeling melancholy on this <DAYNIGHTALL>.~
+@45 /*Rasaad*/ = ~Perhaps I should hate you for stealing <CHARNAME>'s affections, but I know that <PRO_HESHE> did not wish to break my heart.~
+@46 /*Rasaad*/ = ~The fault is my own. I was too obsessed with my revenge to give our relationship the attention it deserved.~
+@47 /*Rasaad*/ = ~If you truly love <CHARNAME>, I trust that you won't make the same mistake.~
+@48 /*Mazzy*/ = ~I...~
+@49 /*Mazzy*/ = ~I promise, Rasaad. I will do my best to treat <PRO_HIMHER> with all the respect that <PRO_HESHE> deserves.~
+@50 /*Rasaad*/ = ~Thank you, Mazzy. I can ask no more than that.~

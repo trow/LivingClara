@@ -1,0 +1,155 @@
+//1st Viconia/Sarevok talk
+
+@1 /*Viconia*/ = ~Hello Sarevok.~
+@2 /*Sarevok*/ = ~Viconia! Where am I? Why can I not see anything? Why can't I move? What do you want?~
+@3 /*Viconia*/ = ~So many questions, male. Should not the one in control be asking the questions?~
+@4 /*Viconia*/ = ~However, I will play along for now. You are in a piece of <CHARNAME>'s pocket plane that I created... or found... I am still not wholly sure how it works, but it will keep us from being interrupted.~
+@5 /*Viconia*/ = ~You cannot see because there is no light. You can move, but your arms and legs are immobilized. As to what I want, you should be able to feel me on your skin.~
+@6 /*Viconia*/ = ~I am sitting on your chest, my knees are near your ears and our clothes are nowhere to be found. What do you think I want?~
+@701 /*Sarevok*/ = ~Do you not have <CHARNAME> for such things? You are either brave or foolhardy to cuckold a Bhaalspawn in <PRO_HISHER> domain.~
+@702 /*Viconia*/ = ~What of it? <CHARNAME> is my <PRO_MALEFEMALE>. You, however, are unclaimed.~
+@7 /*Sarevok*/ = ~You offered already, drow, and I declined your advances.~
+@8 /*Viconia*/ = ~Now I am not offering, I am demanding! You will use your tongue as I direct or I will cut it out.~
+@9 /*Sarevok*/ = ~You would cut out my tongue? Why?~
+@10 /*Viconia*/ = ~If you will not use it to pleasure me then it does not have a purpose, does it?~
+@11 /*Sarevok*/ = ~And then...?~
+@12 /*Viconia*/ = ~Then when I am finished with your tongue, I will desire the rest of you. I will release you from your paralysis and you will pleasure me as I instruct.~
+@13 /*Sarevok*/ = ~Or I will kill you and return home. Do you think I will be so overcome with desire that I will submit to your wishes?~
+@14 /*Viconia*/ = ~You will submit or you will die! You are twice my size, true, but there are no weapons here. You are unnarmed, but I never am thanks to my power.~
+@15 /*Viconia*/ = ~You can try to kill me, Sarevok, but I will send you back to the abyss. Is that what you wish?~
+@16 /*Sarevok*/ = ~Perhaps. I have not yet decided. I still think that crushing your throat would be pathetically easy.~
+@17 /*Viconia*/ = ~We shall see. But enough of this. If you wish to ever speak again, then it is time to put that tongue to good use.~
+
+@18 /*Viconia*/ = ~That... did not go as I had hoped.~
+@19 /*CHARNAME*/ = ~What happened, Viconia? Where is Sarevok?~
+@20 /*CHARNAME*/ = ~Do I even want to know?~
+@200 /*CHARNAME*/ = ~I feel like I should worry. Just what is going on?~
+@21 /*Viconia*/ = ~We simply had a... disagreement. Sarevok's body is over there. We should raise him.~
+
+//After Sarevok Raised
+@22 /*Viconia*/ = ~Well, Sarevok?~
+@23 /*Sarevok*/ = ~Well what?~
+@24 /*Viconia*/ = ~You see that I was right. You tried to hurt me but I dispatched your soul back to the abyss.~
+@25 /*Sarevok*/ = ~True. Yet here I am.~
+@26 /*Viconia*/ = ~I brought you back so that you could see the error of your ways. Resisting me only gets you killed. You are mine. Join me tonight.~
+@27 /*Sarevok*/ = ~No.~
+@28 /*Viconia*/ = ~Why?~
+@29 /*Sarevok*/ = ~I do not submit.~
+@30 /*Viconia*/ = ~So you have said before. We shall see.~
+
+//Next rest in Pocket Plane
+@31 /*Sarevok*/ = ~Again, Viconia? This grows tiresome.~
+@32 /*Viconia*/ = ~Enough! First your tongue, then the rest of you.~
+@33 /*Sarevok*/ = ~I think not.~
+@34 /*Viconia*/ = ~What? Do not test me.~
+@35 /*Sarevok*/ = ~You will not cut out my tongue; you enjoyed it too much. You start cutting off pieces and I will be of no use to you.~
+@36 /*Viconia*/ = ~Then you will stay intact, but you will still suffer. I am pain and you will know me.~
+
+//On Waking
+@37 /*Sarevok*/ = ~Are we finished already?~
+@38 /*Viconia*/ = ~Hours of agony and you did not break. I bring you to the brink of death and you do not care! Damn you to the abyss! Why will you not be mine?~
+@39 /*Sarevok*/ = ~Because I am Sarevok Anchev. I am no one's slave, not even someone as desirable as you.~
+@40 /*Viconia*/ = ~Aagh!~
+@41 /*Sarevok*/ = ~Ha ha ha ha.~
+@42 /*Viconia*/ = ~I am... I am unsure of what to do next. No slave ever resisted me through that before.~
+@43 /*Sarevok*/ = ~You did this with many slaves?~
+@44 /*Viconia*/ = ~Some. Slaves are amusing at times, but mostly they are weak, useless, boring and broken.~
+@45 /*Sarevok*/ = ~That is why they are slaves. Were they strong they would have chosen death instead.~
+@46 /*Viconia*/ = ~I could break you, male. It would take a long time, but I could do it.~
+@47 /*Sarevok*/ = ~I know. That is why you frighten me. Are you saying that you won't?~
+@48 /*Viconia*/ = ~I cannot play with a broken toy, can I? I want you to be mine, but I desire you as you are.~
+@49 /*Viconia*/ = ~Just go away. Leave me to my misery.~
+
+//3rd Talk (no romance version)
+@50 /*Sarevok*/ = ~Viconia, I have an idea.~
+@51 /*Viconia*/ = ~Is that so rare that you must announce it?~
+@52 /*Sarevok*/ = ~I desire you this <DAYNIGHTALL>. Stay with me. Show me what you know.~
+@53 /*Viconia*/ = ~What? You win and then you concede? What game are you playing?~
+@54 /*Sarevok*/ = ~No game. I am Sarevok and I belong only to me. But you are the same, are you not? Have you ever belonged to a man?~
+@55 /*Viconia*/ = ~Sometimes, when I had to in order to survive. Every one of them perished afterward, usually screaming in agony.~
+@56 /*Sarevok*/ = ~Every girl I have ever known belonged to me. Some cooperated out of fear. Some desired money or power. Many I took by force. I did not even know that it was possible for a girl to take pleasure from it, nor did I care.~
+@57 /*Sarevok*/ = ~If a girl had a request, I ignored it and used her as I liked. If she had a demand, I pulled out her teeth for impertinence. If she hit me, I cut off her hand. If she bored me, I gave her to my men.~
+@58 /*Sarevok*/ = ~No girl has ever, ever, paralyzed me, presented herself, and demanded that I pleasure her as she desired. Until you. And I enjoyed it, despite your threats to cut out my tongue.~
+@59 /*Viconia*/ = ~If you do not come to your point soon then I still may.~
+@60 /*Sarevok*/ = ~My point is that I will never be your slave and you will never be mine, but I wish to be your equal... your lover.... Do you accept?~
+@61 /*Viconia*/ = ~That is the most outlandish proposal I have ever...~
+@62 /*Viconia*/ = ~...ever...~
+@63 /*Viconia*/ = ~Will you pleasure me as I direct?~
+@64 /*Sarevok*/ = ~Of course.~
+@65 /*Viconia*/ = ~I can still kill or torture you if you displease me?~
+@66 /*Sarevok*/ = ~You may try.~
+@67 /*Viconia*/ = ~Then I accept. Come here, male!~
+@68 /*Sarevok*/ = ~As my lady commands.~
+
+//4th Talk - on waking
+@69 /*Sarevok*/ = ~Viconia! Was all that pain last night really necessary?~
+@70 /*Viconia*/ = ~Pain is always necessary, my ssinssrigg. It sharpens the senses and provides incentive for you to follow instructions.~
+@71 /*Sarevok*/ = ~And what instructions were those?~
+@72 /*Viconia*/ = ~I was not finished. You were. I do not allow that.~
+@73 /*Sarevok*/ = ~And for that you flay my soul from my bones?~
+@74 /*Viconia*/ = ~I left you breathing, did I not? Next time you will be more... considerate, instead of thinking about yourself like every other rivvin male. You should always put my desires before your own.~
+@75 /*Sarevok*/ = ~And will you do the same?~
+@76 /*Viconia*/ = ~Of course, my ssinssrigg. You can count on me to always put my desires before yours as well.~
+@77 /*Sarevok*/ = ~Hah! New skills do not develop overnight, Viconia. This will take some practice.~
+@78 /*Viconia*/ = ~Then practice you will have. Tonight and every night until you learn to please me as I wish... or you die trying.~
+@79 /*Sarevok*/ = ~So I will find rest only in death?~
+@80 /*Viconia*/ = ~You will never rest, my ssinssrigg. If you die then I will raise you and we will continue. You are mine, Sarevok, and you belong to me. Today...tomorrow...always. Remember that.~
+@81 /*Sarevok*/ = ~Interesting. I will remember, Viconia. As long as you remember that you belong to me as well.~
+@82 /*Viconia*/ = ~You forget yourself, male. I am Viconia of house DeVir. I belong to no one.~
+@83 /*Sarevok*/ = ~We shall see, Viconia. We shall see.~
+
+//3rd Talk - Romance Version, Splits at 67
+@84 /*Sarevok*/ = ~But what about <CHARNAME>, are you leaving him?~
+@85 /*Viconia*/ = ~Of course not, male. I plan to keep you both.~
+@86 /*Viconia*/ = ~*sigh* I suppose I should inform him first; he can be prickly.~
+@87 /*Viconia*/ = ~<CHARNAME>! My ssinssrigg. I have decided to add Sarevok to my stable. I am growing in power and deserve more than one male.~
+@88 /*CHARNAME*/ = ~What? Absolutely not. Sarevok, I challenge you!~
+@92 /*Sarevok*/ = ~You think I fear you? Draw steel.~
+@93 /*Viconia*/ = ~Two males competing for me? Intriguing. To the death then.~
+@94 /*Viconia*/ = ~A pity to lose such a fine specimen, but worth it. My ssinssrigg, you become more enticing and intriguing by the day.~
+
+@89 /*CHARNAME*/ = ~No! If you choose him, you lose me.~
+@95 /*Viconia*/ = ~Well, that is regrettable.~
+@96 /*Viconia*/ = ~Sarevok, do you feel the same way? Will you try to limit me?~
+@97 /*Sarevok*/ = ~Hah, of course not! If you want to try another man, then go ahead. His puny efforts will only confirm my greatness.~
+@98 /*Viconia*/ = ~Then I choose Sarevok. <CHARNAME>, we are no more.~
+
+@90 /*CHARNAME*/ = ~I refuse to be a part of this. Both of you must leave now.~
+@99 /*Viconia*/ = ~Regrettable. Come, my new ssinssrigg, we must depart.~
+
+@91 /*CHARNAME*/ = ~Hah! Welcome aboard, Sarevok. You have no idea what you are getting yourself into.~
+@100 /*Sarevok*/ = ~Do not worry about me, <CHARNAME>, I know exactly what I am doing.~
+@101 /*Sarevok*/ = ~I am venturing into the abyss, embracing hell herself to enjoy her warm embrace.~
+@102 /*Sarevok*/ = ~Why should you have all the pain and pleasure for yourself?~
+
+//4th Talk, sharing version
+@103 /*Sarevok*/ = ~So how does this work with two of us? Does one of us take you from the front and the other from behind?~
+@104 /*Viconia*/ = ~What, so I can be twice as disappointed? Waele wael, I think not.~
+@105 /*Viconia*/ = ~Each of your rods has half the stamina of a competent male, perhaps less. My only hope is that by combining your efforts, I might actually be satisfied.~
+@106 /*Viconia*/ = ~Though I am a fool to trust in hope, if you both do exactly as I direct, perhaps I will find a path out of this bleak wasteland.~
+@107 /*Sarevok*/ = ~And what does my lady command?~
+@108 /*Viconia*/ = ~Well, first of all, you two need to remove your clothes. Quickly now, this is not about you.~
+@109 /*Viconia*/ = ~Now take off my clothes. Slowly. Kissing every part of my body as it is revealed. Slowly now, slowly. This is always, always about me.~
+@110 /*Viconia*/ = ~Yes, <CHARNAME>, keep doing that but faster. No... keep moving your tongue straight up and down, are you deaf? There. Perfect.~
+@111 /*Viconia*/ = ~Sarevok, suck my breast harder, you weakling; it will not break. Good, and now the right hand gently caresses the other nipple. Gently! Are you some clumsy guy'ya? Better!~
+@112 /*Viconia*/ = ~Yes... my ssinssriggs... yes...~
+@113 /*Viconia*/ = ~<CHARNAME> are you ready? Sarevok has fumbled already and is beginning to flag.~
+@114 /*Viconia*/ = ~You are still not ready to continue? Kl'eril dalhar, must I do everything myself? Move around to my mouth, I will fix it.~
+@115 /*Viconia*/ = ~Mzild! Mzild! Nin! Nin ussta ssinssrigs. Nin.~
+@116 /*Sarevok*/ = ~<CHARNAME>, can you understand any of that?~
+@117 /*CHARNAME*/ = ~No, but if we stop now she'll burn us both.~
+@118 /*CHARNAME*/ = ~Of course, the literal translation was, "More, more, now, now my lusts, now." But you could also take it as her saying, "Yes, my loves, continue," over and over.~
+@119 /*CHARNAME*/ = ~She wants you to stop.~
+@120 /*CHARNAME*/ = ~Mmm...mmmph..mmm.~
+@121 /*Sarevok*/ = ~Then we had better do as she commands.~
+@122 /*Sarevok*/ = ~Hah, you're just making that up.~
+@123 /*Sarevok*/ = ~I am not such a fool as that. We continue until the world ends or she demands otherwise.~
+@124 /*Sarevok*/ = ~What? You think if you stop to speak for one second she'll kill you? Hah, you're almost certainly right.~
+@125 /*Viconia*/ = ~Vith'ussa! Mzild! Mzild! Oh! Oh!~
+@126 /*Viconia*/ = ~Mmmmmm.~
+@127 /*Viconia*/ = ~Hold me, my ssinssriggs. That was wonderful.~
+@128 /*CHARNAME*/ = ~Of course, my love.~
+@129 /*CHARNAME*/ = ~Sarevok, why we do put up with this? The continuous abuse? The pain?~
+@130 /*Sarevok*/ = ~Because having her is one of the greatest experiences in the nine planes, and if you tell me otherwise, I'll know you as a liar.~
+@131 /*Sarevok*/ = ~But if you're not man enough for her, you're welcome to leave.~
+@132 /*Viconia*/ = ~Shhh, quiet now or I'll paralyze and flay you both.~

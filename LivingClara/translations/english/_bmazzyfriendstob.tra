@@ -1,0 +1,206 @@
+//1st Friendship Talk
+
+@1 /*Mazzy*/ = ~<CHARNAME>, I would like to know you better. May I ask you a question?~
+@2 /*CHARNAME*/ = ~Of course.~
+@3 /*CHARNAME*/ = ~Depends on the question.~
+@4 /*CHARNAME*/ = ~Hit me.~
+@5 /*CHARNAME*/ = ~You can ask. I may not answer.~
+@6 /*CHARNAME*/ = ~You don’t need to know anything about me. Just go where I command.~
+@7 /*Mazzy*/ = ~I was wondering why you decided to become a hero. What made you set out to purge the wicked from the world?~
+@8 /*CHARNAME*/ = ~Who said anything about smiting evil? I just do this for the gold.~
+@9 /*CHARNAME*/ = ~It was simple, really. Other people kept trying to kill me and I had to defend myself or die. But it turns out I'm pretty good at this whole questing thing.~
+@11 /*CHARNAME*/ = ~I've dreamed of being a hero ever since I was a child. I think I read every adventure story in Candlekeep, usually when I was supposed to be at other lessons, and now I'm living one instead.~
+@12 /*CHARNAME*/ = ~I simply wish to help people. What point is there in living if I don't make the world a better place?~
+@13 /*CHARNAME*/ = ~I don't want to be a hero. In fact, I plan to retire as soon as possible.~
+@14 /*CHARNAME*/ = ~Are you kidding? I'm just taking out the competition. I plan to rule the world someday.~
+
+@15 /*Mazzy*/ = ~Oh, you are joking?~
+@16 /*CHARNAME*/ = ~Of course I'm joking. Knowing that I've helped people is my true reward.~
+@17 /*CHARNAME*/ = ~The gold is definitely a bonus. But I prefer a moral cause.~
+@18 /*CHARNAME*/ = ~It wasn't a joke. As long as I get paid, I don't give a damn who's in the right.~
+@19 /*Mazzy*/ = ~I am glad to hear that, <CHARNAME>, although you should not joke about justice when there is so little in this world. Together we may add a little more.~
+@20 /*Mazzy*/ = ~Very well. I am disappointed by your response, but I will continue to travel with you as long as you stay on the moral path.~
+
+@21 /*Mazzy*/ = ~A good answer, <CHARNAME>. You may have ended up on this path by accident, but I agree that it suits you.~
+@22 /*Mazzy*/ = ~If not for that twist of fate, I would most likely have died with my companions. You saved my life and I will return the favour as best I can.~
+
+@25 /*Mazzy*/ = ~I had a similar reason for starting my adventures, but I have learned since then that life is not always like the stories. I suppose you have as well.~
+@26 /*CHARNAME*/ = ~I don't know. Gods, villains, long-lost siblings: life has seemed a lot like the story books to me.~
+@27 /*CHARNAME*/ = ~I know exactly what you mean. Getting stabbed is such a pain.~
+@28 /*CHARNAME*/ = ~Yeah, those books never mentioned all the walking, the bad food, or the nights out in the cold.~
+@29 /*Mazzy*/ = ~Perhaps you are right. But if we are living in a story, let us try to ensure that it is not a tragedy.~
+@30 /*Mazzy*/ = ~*laughs* I cannot argue with that. Perhaps together we can make our journey a bit more pleasant along the way.~
+
+@31 /*Mazzy*/ = ~I agree. We will make the world a better place together.~
+@32 /*Mazzy*/ = ~You have the heart of a true hero and I am honoured to travel at your side.~
+
+@33 /*Mazzy*/ = ~Truly? I did not expect that answer. What do you plan to do instead?~
+@34 /*CHARNAME*/ = ~I want to be a farmer. Give up my weapons and grow something.~
+@35 /*CHARNAME*/ = ~I've always wanted to be part of the government.~
+@36 /*CHARNAME*/ = ~When this is finished, I should have enough gold to become a wealthy merchant.~
+@37 /*CHARNAME*/ = ~I plan to buy a tavern.~
+@38 /*CHARNAME*/ = ~I'm going to find a nice <PRO_RACE> and settle down.~
+@39 /*CHARNAME*/ = ~I'm tired of leading groups and making decisions. I want to become a mercenary. Then someone else can tell me who to fight.~
+@40 /*Mazzy*/ = ~Well, I wish you luck with that. I believe you will prove a most interesting travelling companion.~
+
+@41 /*Mazzy*/ = ~Are you serious?~
+@42 /*CHARNAME*/ = ~Don't worry, Mazzy. It was just a joke. I believe in righteousness.~
+@43 /*CHARNAME*/ = ~I was only joking. Truth and justice all the way. (I hope she can't tell I'm lying. I need some battle fodder.)~
+@44 /*CHARNAME*/ = ~Sorry, Mazzy. I'm out for me and me alone.~
+@45 /*Mazzy*/ = ~Some things you should not joke about, but I am pleased to hear that. We shall travel well together.~
+@46 /*Mazzy*/ = ~I am disappointed to hear that. But I will continue to travel with you if only to keep an eye on you. As long as you are doing good work then you have my sword, whatever your motivations.~
+
+//Friendship fix talk (no romance)
+@47 /*Mazzy*/ = ~I thought we were friends, <CHARNAME>, but you have not treated me as such. From now on, I shall consider us nothing more than travelling companions.~
+@48 /*CHARNAME*/ = ~I am sorry. Please give me a second chance.~
+@49 /*CHARNAME*/ = ~It was a mistake. I spoke in anger and it will not happen again.~
+@50 /*CHARNAME*/ = ~As you wish.~
+@51 /*CHARNAME*/ = ~I did not want your friendship anyway.~
+@52 /*Mazzy*/ = ~All right, <CHARNAME>. You may have one more chance. Do not waste it.~
+
+//Friendship fix talk (romance)
+@53 /*Mazzy*/ = ~I would not treat my friends as you have treated me, <CHARNAME>, let alone a lover. I am ending things between us.~
+@54 /*CHARNAME*/ = ~Fine. I was finished with you anyway.~
+
+//Friendship fix - 2nd time
+@55 /*Mazzy*/ = ~You told me you would change, <CHARNAME>, and you have not. Therefore, we are friends no longer and I will not change my mind.~
+
+//Wraith Talk - Imoen Romance Version
+@56 /*Wraith*/ = ~You are both forces for death and evil carving a path of suffering through the land.~
+@57 /*Mazzy*/ = ~Enough of this! I am Mazzy Fentan, a Truesword of Arvoreen.~
+@58 /*Mazzy*/ = ~<CHARNAME> and Imoen are both good people, heroes! They may have the essence of Bhaal inside them, but they try to do the right thing. They are warriors on the side of virtue, not murderers!~
+@59 /*Wraith*/ = ~How would you know, Mazzy Fentan, when you are just as much a murderer as they?~
+
+//Wraith Talk - regular version
+@60 /*Wraith*/ = ~You are a force for death and evil carving a path of suffering through the land.~
+@61 /*Mazzy*/ = ~<CHARNAME> is a good person, a hero; <PRO_HESHE> may have the essence of Bhaal inside <PRO_HIMHER>, but <PRO_HESHE> tries to do the right thing. <CHARNAME> is a warrior on the side of virtue, not a murderer!~
+@62 /*Wraith*/ = ~How would you know, Mazzy Fentan, when you are just as much a murderer as <PRO_HESHE>?~
+
+//Dad Talk
+@63 /*Dad*/ = ~Mazzy, my daughter, is that you?~
+@64 /*Mazzy*/ = ~Father? How?~
+@65 /*Dad*/ = ~I am dead. Murdered. My body was left to rot, my valuables stolen, and you did nothing to avenge me. You did not even care.~
+@66 /*Mazzy*/ = ~I still do not know who killed you! I never found your body! I did not even know where to begin.~
+@67 /*Dad*/ = ~And whose fault is that? I went to save you, Mazzy. I went to save you from yourself, but you were not there...~
+@68 /*Dad*/ = ~You fled from battle as quickly as you fled from your family. You were as poor a soldier as you were a daughter.~
+@69 /*Mazzy*/ = ~It was not a battle; it was a massacre. There was nothing I could do!~
+@70 /*Mazzy*/ = ~You were right, father... I never should have left.~
+@71 /*Dad*/ = ~But you did leave, my daughter. You left your family... you left your comrades in arms... and they fell... I fell... and you did nothing. You know who killed us, yet you did nothing.~
+@72 /*Mazzy*/ = ~My comrades were murderers! I did not know where you had gone! I could not fight a whole army!~
+@73 /*Dad*/ = ~Excuses, as always. You have reasons for everything, my daughter, and none of them are true.~
+@74 /*Mazzy*/ = ~I... I... <CHARNAME>, help me... please...~
+@75 /*CHARNAME*/ = ~Of course, Mazzy. What do you need?~
+@76 /*CHARNAME*/ = ~Why should I help you? It sounds like you deserve this.~
+@77 /*CHARNAME*/ = ~Shut up, ghost! You don't know anything!~
+@78 /*CHARNAME*/ = ~I'm assuming this is why you wouldn't talk about your father.~
+@79 /*CHARNAME*/ = ~Uuhhh, I can stab him? Would that help?~
+@80 /*Dad*/ = ~You condemn others whose sins are only a fraction of your own, hoping to quiet the guilt that torments you. Has it worked, my daughter? Have you spilled enough blood to wash away the rage, grief, and shame inside of you?~
+@81 /*Mazzy*/ = ~*sobs*~
+@82 /*Wraith - Imoen*/ = ~You see, <CHARNAME>, Imoen, the truth can silence even the most self-righteous. When you surround yourselves with villains, how can there be any hope for you?~
+@83 /*Wraith*/ = ~You see, <CHARNAME>, the truth can silence even the most self-righteous. When you surround yourselves with villains, how can there be any hope for you?~
+@830 /*Wraith*/ = ~You are past saving now.~
+
+//Post Wraith Talk
+@84 /*Mazzy*/ = ~I am sorry, <CHARNAME>, but may we speak for a moment? My hands are still shaking.~
+@85 /*CHARNAME*/ = ~Don't worry, Mazzy, those were just evil spirits impersonating the dead.~
+@86 /*CHARNAME*/ = ~Yes, that was quite the unpleasant surprise. But I know the real Gorion would never have talked to me like that.~
+@87 /*CHARNAME*/ = ~I am not surprised. My hands are shaking too.~
+@88 /*Mazzy*/ = ~Perhaps. But then where did they learn the intimate details of our lives?~
+@89 /*Mazzy*/ = ~I do not believe that was truly my father's ghost. But I find myself wondering how it could have known the intimate details of my life.~
+@90 /*Mazzy*/ = ~I am glad I'm not the only one. No ghost should know the most intimate details of my life and I do not wish to fight such foes again.~
+@91 /*Mazzy*/ = ~I believe those spirits mirrored our own memories. That was Gorion as remembered by you, and my father as I knew him.~
+@92 /*Mazzy*/ = ~Which means they were not lying. Their words were true from our perspectives, the truths that cut us deepest...~
+@93 /*CHARNAME*/ = ~No. Sarevok killed Gorion, not me. I do not accept that responsibility.~
+@94 /*CHARNAME*/ = ~You're right. Gorion's death was my fault. I will bear that guilt forever.~
+@95 /*CHARNAME*/ = ~You should not let those spirits get to you.~
+@96 /*Mazzy*/ = ~I wish I could be as certain... It is complicated, <CHARNAME>, but the short version is that everything the wraith said to me was true.~
+@97 /*Mazzy*/ = ~As will I... It is complicated, <CHARNAME>, but the short version is that everything the wraith said to me was true.~
+@98 /*Mazzy*/ = ~It is not that easy, <CHARNAME>, not when everything the wraith said to me was true.~
+@99 /*Mazzy*/ = ~I DID go off to war against my father's wishes, I DID desert during the sacking of a city, and the army I deserted was subsequently defeated and slaughtered.~
+@100 /*Mazzy*/ = ~My father heard about the defeat and left home to find me. He never returned.~
+@101 /*Mazzy*/ = ~I must think on this. If you have questions, you may ask me later.~
+
+//Post Yaga-Shura Talk
+@102 /*Mazzy*/ = ~He's dead, and it was for nothing... IT WAS ALL FOR NOTHING!~
+@103 /*CHARNAME*/ = ~Mazzy, are you all right?~
+@104 /*CHARNAME*/ = ~We just defeated one of the Five. I'd consider that an accomplishment.~
+@105 /*CHARNAME*/ = ~I know what you mean. What was the point?~
+@106 /*CHARNAME*/ = ~A good fight is never a waste.~
+@107 /*Mazzy*/ = ~First we broke into Gromnir Il-Khan's castle and slaughtered countless soldiers, including Gromnir himself.~
+@108 /*Mazzy*/ = ~Could we not have spoken with him? Perhaps we could have worked together to protect Saradush? His soldiers were crude and violent mercenaries, but they did not all deserve death.~
+@109 /*CHARNAME*/ = ~We tried to talk but he attacked us.~
+@110 /*CHARNAME*/ = ~Attack first, talk later. That's my motto.~
+@111 /*CHARNAME*/ = ~Since when do you prefer diplomacy?~
+@112 /*CHARNAME*/ = ~I keep saying that our enemies are not all evil. Are you ready to listen finally?~
+@113 /*Mazzy*/ = ~Did we fight with him because it was the only option, or because that is what we are good at?~
+@114 /*Mazzy*/ = ~When Saradush's walls were breached, Gromnir Il-Khan would've been useful in its defence. The city could not have been sacked so easily while the keep was still in Gromnir's hands; it would have delayed Yaga Shura's forces considerably, perhaps long enough for us to return in time.~
+@115 /*Mazzy*/ = ~Instead, we went into the mountains of the fire giants, invaded their homes, and murdered them indiscriminately, because it was necessary. Because it was for the greater good. Because the lives of those in Saradush were worth it! And yet they all died anyway.~
+@116 /*Mazzy*/ = ~I saw a city sacked, <CHARNAME>, when I was a foolish young soldier and it still haunts me to this day. I swore that if I could prevent Saradush suffering the same fate, I would do whatever it took. Whatever the cost!~
+@117 /*CHARNAME*/ = ~Are you even talking to me? You don't seem to be listening.~
+@118 /*CHARNAME*/ = ~I don't think I've ever seen you this upset.~
+@119 /*CHARNAME*/ = ~Fire giants are evil. I won't lose any sleep over it.~
+@120 /*CHARNAME*/ = ~Sometimes our best is not enough.~
+@121 /*Mazzy*/ = ~We kill and we kill and we kill, and why? Because we can, <CHARNAME>. Because we have killed so many people that our skills in slaughter are unmatched.~
+@122 /*Mazzy*/ = ~My father always told me to be careful what I became good at, because we learn to love what we do well. I never understood what he meant, until now.~
+@123 /*CHARNAME*/ = ~So that's what this is really about: your father.~
+@124 /*CHARNAME*/ = ~We're the best killers around. We are kill-masters!~
+@125 /*CHARNAME*/ = ~Your father sounds like a wise man.~
+@126 /*CHARNAME*/ = ~I do not love fighting, though I am quite skilled at it.~
+@127 /*CHARNAME*/ = ~Yes! The blood and death and screaming! I love it all!~
+@128 /*Mazzy*/ = ~I do not attempt to be diplomatic because I am not actually trying to find a peaceful resolution. I want them to attack us, <CHARNAME>, so that I can show off my amazing combat skills.~
+@129 /*Mazzy*/ = ~I do not have the words to end encounters peacefully because I choose not to develop them. Nor do I attempt to quietly sneak past my enemies as so many of my brethren do.~
+@130 /*Mazzy*/ = ~Instead I march forward fearlessly, daring every creature we meet to challenge me so that I may feel justified in killing them.~
+@131 /*Mazzy*/ = ~And I do not know what kind of person that makes me.~
+@132 /*Mazzy*/ = ~Or I do know... and that is worse.~
+
+//Post Sendai Talk 1
+@133 /*Mazzy*/ = ~<CHARNAME>, I am not sure how much more of this I can take.~
+@134 /*CHARNAME*/ = ~How much more of what?~
+@135 /*CHARNAME*/ = ~By the gods, not this again.~
+@136 /*CHARNAME*/ = ~I understand. This quest begins to wear on me as well.~
+@137 /*CHARNAME*/ = ~Are you kidding? I haven't felt this alive in ages!~
+@138 /*Mazzy*/ = ~I am seeing the people we kill as people, <CHARNAME>. These soldiers had family... children... brothers... sisters... people who will miss them when they're gone.~
+@139 /*Mazzy*/ = ~I see families waiting for their loved ones to return. But they will wait forever... because of me.~
+@140 /*CHARNAME*/ = ~These weren't people; they were drow.~
+@141 /*CHARNAME*/ = ~Soldiers are fair game. They knew what they were getting into.~
+@142 /*CHARNAME*/ = ~I think about that constantly. It's why I try not to fight.~
+@143 /*CHARNAME*/ = ~Those families will curse my name forever and that's how it should be. How else will I build my legacy?~
+@144 /*CHARNAME*/ = ~Because of us. We are in this together.~
+@145 /*Mazzy*/ = ~And now I cannot go back. I still love what we do. I love battle – the thick of combat is the only time I feel truly alive – but now I am haunted by every life I end.~
+@146 /*Mazzy*/ = ~Every time I kill, I see my father. I see my mother and my sister. They are looking at me and I am ashamed of my life. I am ashamed of what I have become.~
+@147 /*CHARNAME*/ = ~Do you want to leave? I can return you home.~
+@148 /*CHARNAME*/ = ~Are you losing your nerve? You're no use to me like this.~
+@149 /*CHARNAME*/ = ~You should not be ashamed. You have only done what's necessary.~
+@150 /*CHARNAME*/ = ~That guilt is shared between us. I have the same blood on my hands.~
+@151 /*Mazzy*/ = ~I will finish what we started. The Five must be stopped. But after that... after that I do not know what I will do.~
+
+//Post Sendai Talk 2
+@152 /*Mazzy*/ = ~<CHARNAME>, do you remember what I was doing when you found me?~
+@153 /*CHARNAME*/ = ~Of course, you had been captured by the Shade Lord.~
+@154 /*CHARNAME*/ = ~You were trying to cleanse that temple of evil.~
+@155 /*CHARNAME*/ = ~No, actually I don't.~
+@156 /*CHARNAME*/ = ~Something about a shadow and your dead lover?~
+@157 /*Mazzy*/ = ~I was a prisoner of the Shade Lord. I had foolishly marched my party straight into the temple, where we were ambushed by the Shadow Dragon and my companions were slaughtered.~
+@158 /*Mazzy*/ = ~Meanwhile, what was going on in Trademeet? My home town was under attack by wild beasts, and blockaded by the Djinn. If you had never come, the entire town might have been destroyed.~
+@159 /*CHARNAME*/ = ~I don't see your point.~
+@160 /*CHARNAME*/ = ~Where are you going with this?~
+@161 /*CHARNAME*/ = ~I had wondered why you left your town defenseless.~
+@162 /*CHARNAME*/ = ~Yeah, and?~
+@163 /*CHARNAME*/ = ~You probably should have been there.~
+@164 /*Mazzy*/ = ~Had I stayed home, I might have solved Trademeet's problems. Had I not foolishly led my companions to be murdered by forces more powerful than ourselves, we might have saved Trademeet.~
+@165 /*Mazzy*/ = ~...but we were not there. I was not there. I was busy searching for evil far from home... and I found it.~
+@166 /*CHARNAME*/ = ~Does all this have a point?~
+@167 /*CHARNAME*/ = ~I think I understand what you're saying.~
+@168 /*CHARNAME*/ = ~You certainly did.~
+@169 /*CHARNAME*/ = ~That's part of being an adventurer.~
+@170 /*Mazzy*/ = ~Perhaps I can devote my life to the greater good without sacrificing myself.~
+@171 /*Mazzy*/ = ~Perhaps I can protect peace and those I love at the same time.~
+@172 /*Mazzy*/ = ~Thank you for listening, <CHARNAME>. I believe I am on the cusp of developing a plan.~
+
+//Final friendship talk post challenges
+@173 /*Mazzy*/ = ~So, my friend, you go to face your destiny. I will not ask what you will choose because I do not believe one can truly know until such power is offered.~
+@174 /*Mazzy*/ = ~But I will see this through to the end and then I will return to Trademeet. I believe I need a rest, to see my family, and most of all, I need to reassess my future.~
+@175 /*Mazzy*/ = ~We have all gained immense power, and with that power comes the chance to do great things, to stand atop the balance of the world and shift the future.~
+@176 /*Mazzy*/ = ~But has our wisdom increased with our power? As we play with the power of demi-gods, can we truly comprehend the consequences of our actions?~
+@177 /*Mazzy*/ = ~I do not believe that I can... that any of us can... and I am so tired of slaughter.~
+@178 /*Mazzy*/ = ~Perhaps I can be a hero and still have a home.~

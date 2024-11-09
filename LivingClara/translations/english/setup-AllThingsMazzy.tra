@@ -1,0 +1,600 @@
+//Set Up TRA file
+@1 /*Begin*/ = ~All Things Mazzy~
+@2 /*Clara Name*/ = ~Clara~
+@3 /*Clara Bio*/ = ~Clara is hesitant to tell you much about her past, but she will share some facts when pressed. The young woman was raised on a farm and came to Athkatla several years ago, hoping to find work as an actress. However, her efforts were unsuccessful so she learned the basics of thievery from an old Shadow Thief in order to scrape by. Although only a passable thief, Clara earned enough to pay the guild regular dues for permission to work in the city until she fell into Hexxat's thrall.~
+@4 /*MORALE*/ = ~I don't wanna die again!~ [_bClar01] //"I.. need help" - Ariannee,  
+@5 /*LEADER*/ = ~You can trust me to make us rich.~ [_bClar02] // "A fine idea" - Ariannev
+@6 /*TIRED*/ = ~Can we please stop to rest? I need my beauty sleep.~ [_bClar03] //"Yawn" - Arianned
+@7 /*BORED*/ = ~How long must I wait before we do something interesting?~ [NYMPH01]  
+@8 /*BATTLE_CRY1*/ = ~Feel my dagger in your back!~ [_bClar04] //"After em" - PoEFFeisty8
+@9 /*BATTLE_CRY2*/ = ~I will fight you... from very far away.~ [_bClar05] // "I am not afraid" - Arianne8
+@10 /*BATTLE_CRY3*/ = ~Now you see me. Now you don't. Now you die!~ [_bClar06] //"I will defeat you" - Ariannea   
+@11 /*BATTLE_CRY4*/ = ~Look over there! (And now I strike.)~ [_bClar07] //"I will strike you down" - Arianne9 
+@12 /*BATTLE_CRY5*/ = ~This lady will kill you for your insolence!~ [_bClar34] //"Oh, I'm gonna get you!" - Sigruna
+@13 /*DAMAGE*/ = ~That hurt! How dare you touch a lady?~ [HVILLF06]     
+@14 /*DYING*/ = ~Oh, no. Time for my death scene.~ [PEASF208]  
+@15 /*HURT*/ = ~I am injured. I must hide.~ [_bClar08] //"I... think I'm bleeding" - Arianneeee
+@16 /*AREA_FOREST*/ = ~I don't like the woods. There are so many bugs.~  
+@17 /*AREA_CITY*/ = ~Men to flatter, people to swindle. It's good to be back where I belong.~
+@18 /*AREA_DUNGEON*/ = ~Caroline Aurora Lucia Rosena Silvershield is too good for this place.~  
+@19 /*AREA_DAY*/ = ~The sun is nice but I prefer the dark. That is where I truly shine.~   
+@20 /*AREA_NIGHT*/ = ~This is the time for secrets. The night hides everything.~ [_bClar09] //"Time to see and not be seen" - PoEFFeisty5
+@21 /*SELECT_COMMON1*/ = ~What do you want?~ [_bClar10] //"Yeah?" - PoEFFeistyf 
+@22 /*SELECT_COMMON2*/ = ~Do you need me?~ [_bClar11] //"What can I do? - Sigrunx 
+@23 /*SELECT_COMMON3*/ = ~How can this noble lady help?~ [_bClar12] //"Mmm-hmm?" - PoEFSmoothg
+@24 /*SELECT_COMMON4*/ = ~Yes?~ [_bClar13] //"Yes?" - Arianne0, 
+@25 /*SELECT_COMMON5*/ = ~I'm listening.~ [_bClar14] //"Ready & waiting" - Arianneg
+@26 /*SELECT_COMMON6*/ = ~What is it now? I'm busy.~ [_bClar15] //"Hmm?" - PoEFFeistyg
+@27 /*SELECT_ACTION1*/ = ~I'll do my best.~ [_bClar16] //"I go" - Ariannei,
+@28 /*SELECT_ACTION2*/ = ~Happy to help.~ [_bClar17] //"Of course" - Sigruns, 
+@29 /*SELECT_ACTION3*/ = ~It will be done.~ [_bClar18] //"It is done" - Ariannek
+@30 /*SELECT_ACTION4*/ = ~I'm not meant for work like this.~ [_bClar19] //"I've got this" - PoEFFeistyb
+@31 /*SELECT_ACTION5*/ = ~Do I have to?~ [_bClar20] //"Already gone" - PoEFFeistys
+@32 /*SELECT_ACTION6*/ = ~Fine. I'll do as you command.~ [_bClar21] //"At your command" - Ariannef,   
+@33 /*SELECT_ACTION7*/ = ~As you wish. (Where's a big strong man to carry things?)~ [_bClar22] //"Immediately" - Ariannej
+@34 /*SELECT_RARE1*/ = ~Uggh, you're so demanding.~ [_bClar23] //"Watch it" - PoEFFeistyx  
+@35 /*SELECT_RARE2*/ = ~Go away. I'm flirting.~ [_bClar24] //"Do it again and I'm taking it away" - PoEFFeistyy
+@36 /*CRITICAL_HIT*/ = ~Right in the heart!~ [_bClar25] //"Hah, got him" - PoEFFeistyz
+@37 /*CRITICAL_MISS*/ = ~Oops. I hope no one saw that.~ [_bClar26] //"Oops" - Arianne1
+@38 /*TARGET_IMMUNE*/ = ~My weapon isn't working. Usually things bleed.~ [_bClar27] //"Hand me another sword!" - Arianne2
+@39 /*INVENTORY_FULL*/ = ~I am not a beast of burden. I can't carry anymore.~ [_bClar28] //"That's impossible" - Arianne3
+@40 /*HAPPY*/ = ~This is the most wonderful day. I'm rich and I'm pretty; what more could a girl want?~ [_bClar29] //"Happy Whistling" - Sigrund
+@41 /*UNHAPPY_ANNOYED*/ = ~I don't want to do this.~    
+@42 /*UNHAPPY_SERIOUS*/ = ~Uggh. I'd rather be working for the Shadow Thieves again.~   
+@43 /*SET_A_TRAP*/ = ~That was lucky. I thought it might explode.~ [_bClar30] //"And that's how it's done" - PoEFSmooth7 
+@44 /*HIDDEN_IN_SHADOWS*/ = ~I shall slip away unseen.~ [_bClar31] //"Like a shadow" - Sigrun5
+@45 /*PICKED_POCKET*/ = ~Your coin belongs to me.~ [_bClar32] //"It's mine now" - PoEFFeisty
+@46 /*REACT_TO_DIE_GENERAL*/ = ~I think I'm going to be sick.~ [_bClar33] //"Get up, damn you" - PoEFFeistyw  
+
+
+
+@47 /*Basic Clara Epilogue*/ = ~After leaving <CHARNAME>'s company, Caroline Aurora Lucia Rosena Silvershield of Beregost returned to Athkatla. As the city's most eligible new noble maiden, she impressed the town with her charm and her grace. Many rich suitors tried to win her hand, but that honor went to the eldest son of Lord Ketlaar Argrim, who was young, handsome, and the manager of his father's many gold mines.
+
+Sadly, their wedded bliss did not last. When Caroline's extended family in Beregost learned that she had survived the attack that killed her parents, they were overjoyed. They invited her to return home and the entire Argrim family insisted on venturing north to see them, their wagons loaded down with a fortune in gifts, clothes, coin, and jewelry. Even heavily guarded, their caravan proved too alluring a prize and during the journey, it was overwhelmed by bandits. Every member of the family was found dead, except for Caroline, and it was assumed she had been captured.
+
+Many great knights rode north to defeat the bandits and rescue their noble prisoner, but while dozens of brigands were put down and most of the Argrim fortune recovered, Lady Caroline Aurora Lucia Rosena Silvershield Argrim was never seen again.~
+
+@78 /*If Clara marries Anomen*/ = ~After leaving the company of <CHARNAME>, Lady Caroline Aurora Lucia Rosena Silvershield Delryn returned to the Delryn estate with her husband, Anomen, and together they worked to rebuild the family's fortune. Luck seemed to follow the couple wherever they went as all of their major business rivals abruptly retired or passed away. Within a year, they had erased their debts and begun to amass a small fortune of their own. Many predicted that Caroline and her husband would grow the Delryn holdings into a business empire large enough to rival any in Amn.
+
+Indeed, that is exactly what occurred. Over the next decade, Lord and Lady Delryn became two of the richest and most powerful merchants in Athkatla. While her husband focused on raising their family to new heights, Lady Caroline ruled her household with an iron fist, supporting Anomen's endeavors as friend and confidante. She was the perfect hostess: graceful, polite, and the belle of every ball, and soon the Delryn Estate became the place for those important to gather and be seen.
+
+Such secrets were spoken within those walls, such business deals were struck, and if the end result was always in Lord Delryn's favor, that was only as it should be after all. For Lady Delryn was the wife that every merchant lord desired and they looked upon Anomen with envy when he had Caroline on his arm.~
+
+@79 /*If Clara married Cor & he and Anomen are dead*/ = ~After leaving the company of <CHARNAME>, Clara returned to the Delryn estate to rebuild her late husband's fortune. Luck seemed to follow the woman wherever she went as every major business rival abruptly retired or passed away and within a year, she had erased her husband's debts and begun to amass a small fortune of her own. It was predicted by many that she would grow the Delryn holdings into a business empire large enough to rival any in Amn.
+
+However, this was not to be. Exactly three years after her return, the woman sold everything she could not carry, and Lady Caroline Aurora Lucia Rosena Silvershield Delryn was never seen again.~
+
+@80 /*If Clara marries Cor and he and Anomen are alive*/ = ~After leaving the company of <CHARNAME>, Clara returned to her husband, Cor, and lived out the rest of his days in blissful wedlock. Sadly, that was only three short months before he died peacefully in his sleep and left his distraught widow in charge of his household. 
+
+With Cor's son Anomen continuously away from the home, Clara rebuilt her husband's fortunes with charm and grace. Luck seemed to follow her wherever she went, every major business rival abruptly retiring or passing away; within a year she had erased her husband's debts and began to amass a small fortune of her own. It was predicted by many that she would grow the Delryn holdings into a business empire large enough to rival any in Amn.
+
+However, this was not to be. Exactly three years after her husband's death, she sold everything she could not carry, and Lady Caroline Aurora Lucia Rosena Silvershield Delryn was never seen again.~
+
+
+@81 /*If Clara marries Cor and Anomen only is dead*/ = ~After leaving the company of <CHARNAME>, Clara returned to her husband, Cor, and lived out the rest of his days in blissful wedlock. Sadly, that was only three short months. The man died peacefully in his sleep and left his distraught widow everything he owned. 
+
+However, despite her grief, Lady Delyrn took over her husband's business and luck seemed to follow the woman's every step. Her every major business rival abruptly retired or passed away, and within a year she had erased her husband's debts and begun to amass a small fortune of her own. It was predicted by many that she would grow the Delryn holdings into a business empire large enough to rival any in Amn.
+
+However, this was not to be. Exactly three years after her husband's death, the woman sold everything she could not carry, and Lady Caroline Aurora Lucia Rosena Silvershield Delryn was never seen again.~
+
+
+@82 /*If Clara marries Cor and he's dead but Anomen is alive*/ = ~After leaving the company of <CHARNAME>, Clara returned to the Delryn estate. With Cor's son Anomen continuously away from home, Clara rebuilt her husband's fortunes with charm and grace. Lady Luck smiled on the woman as every major business rival abruptly retired or passed away and within a year, she had erased her husband's debts and begun to amass a small fortune of her own. It was predicted by many that she would soon grow the Delryn holdings into a business empire large enough to rival any in Amn.
+
+However, this was not to be. Exactly three years after her return, the woman sold everything she could not carry, and Lady Caroline Aurora Lucia Rosena Silvershield Delryn was never seen again.~
+
+
+@83 /*New Anomen epilogue if he married Clara*/ = ~After leaving the company of <CHARNAME>, Anomen returned to the Delryn estate with his wife, Lady Caroline, and together they worked to rebuild his family's fortune. Luck followed the couple in every endeavor and soon the lord had not only erased his father's debts but begun to amass a fortune of his own. However, despite his newfound status, Anomen stayed true to the tenets of his god. Although sometimes harsh, his judgment was always fair and those who worked for his family knew that their loyalty would be rewarded in kind.
+
+Eventually, the young Lord Delryn was offered a position on the Council of Six and while no one officially knew his status, the change in Athkatla's rulership was obvious to all. Under Anomen's direction, the government began doing more to help the common folk and more to combat evil in the world. He was not content to let injustice pass by blindly and those who stood against him tended to change their tune quite quickly or abruptly pass away. This was coincidence enough to spark several investigations, but Lord Delryn's wife stood by him and no evidence of foul play was ever found.
+
+Indeed, when asked the secret of his good fortune by young lords and jealous rivals, Anomen would only say humbly, "I have been very lucky. It took hard work, aye, to build this business into what it is today, but I did not do it by myself. I owe everything to Helm and to the continuous support of my beloved Caroline. Without her, my path in life would have gone much differently."~
+
+
+@48 /*Mazzy Romance/Friendship Epilogue - PC GOD*/ = ~After the ascension of <CHARNAME>, Mazzy retired as an adventurer and returned to Trademeet where she opened a school of archery that soon became known for producing the finest archers in the realm. She joined the Trademeet militia and the local chapter of the Temple of Arvoreen, quickly rising in their ranks and eventually leading both for many years.
+
+Her personal life was also fruitful. She married a good friend, a halfling ranger, and the couple had three children, each of whom grew up to be a great hero of their own. Mazzy taught them all she knew and was proud of their accomplishments, though she'd hung up her weapons except in dire need. Whenever someone asked her why she'd decided to retire, her answer was always the same:
+
+“When I was young and foolish, I thought I had to venture to far away lands and battle great world-threatening evil in order to be a hero, but I was incorrect. True heroism is exhibited day-to-day, and my talents are needed here by my friends and family. There is glory in great deeds, but there is also loneliness and in my time with Patrick and later <CHARNAME>, I realized that I did not want great power or a glorious death. I chose to come home so that I could live and love instead.”
+
+And indeed, when Mazzy died at home in her bed, everyone in Trademeet agreed. Few had lived as fully as Mazzy Fentan and few had been as loved.~
+
+@49 /*Romance Epilogue - PC Family*/ = ~Mazzy and <CHARNAME> journeyed together for many years as heroes, their names revered and respected far and wide. However, the couple eventually decided that it was time to settle down. They said farewell to their companions and returned to Trademeet. Mazzy joined the local chapter of the Temple of Arvoreen and started a school for archery while <CHARNAME> joined the local militia, years of adventuring experience translating well to teaching others how to fight.
+
+A year after their return, Mazzy and <CHARNAME> were married in a small ceremony. They invited many of their old adventuring companions along with Mazzy's family and the celebrations lasted for a week. The couple had three children and taught them all they knew, their sons and daughters choosing to be heroes and continue the family legacy.
+
+Mazzy and <CHARNAME> were content to live in peace as much as possible and whenever someone asked why they'd retired, the answer was always the same. They might be the saviours of multiple planes and worlds, but they had had enough of fighting and destruction. Instead, the couple wished to focus on their family and their home.~
+
+@50 /*Romance Epilogue - Mortal, No Family*/ = ~Mazzy and <CHARNAME> journeyed together for many years as heroes, their names revered and respected far and wide. However, although they loved each other, Mazzy eventually decided to retire as an adventurer. She said farewell to <CHARNAME> and returned to Trademeet, where she opened a school of archery that became known for producing the finest archers in the realm. Mazzy joined the Trademeet militia and the local chapter of the Temple of Arvoreen, quickly rising in their ranks and eventually leading both for many years.
+
+Her personal life was also fruitful. She married a good friend, a halfling ranger, and the couple had three children whom they taught all they knew. Their sons and daughter continued the Fentan legacy of protecting innocents, growing up to be great heroes of their own.
+
+Mazzy and <CHARNAME> remained friends and her former lover would often come to visit, stopping in Trademeet to rest and regroup on the way to far off kingdoms. There was no animosity between them; their paths had simply led to different futures and neither of them regretted the time they'd spent together or the choices they had made. Indeed, whenever someone asked Mazzy why she'd retired, her answer was always the same:
+
+“When I was young and foolish, I thought I had to venture to far away lands and battle great world-threatening evil in order to be a hero, but I was incorrect. True heroism is exhibited day-to-day, and my talents are needed here by my friends and family. There is glory in great deeds, but there is also loneliness and in my time with Patrick and later <CHARNAME>, I realized that I did not want great power or a glorious death. I chose to come home so that I could live and love instead.”
+
+And when Mazzy died at home in her bed, everyone in Trademeet agreed. Few had lived as fully as Mazzy Fentan and few had been as loved.~
+
+
+
+@51 /*Begin*/ = ~For the Good: Additional content that might annoy a truly evil player.~
+@52 = ~You must have the main mod installed.~
+
+@53 /*Begin*/ = ~For the Evil: Additional content that might disturb a truly good player.~
+
+@54 /*Bodhi Name*/ = ~Bodhi~
+@55 /*Bodhi Bio*/ = ~When asked about her past, Bodhi spits out the words. She grew up in Suldanessellar alongside Jon Inrenicus. Both of them were of unknown paternity and both were driven to surpass all others in their fields; he in magic and she in physical combat. During Jon Irenicus's mad scheme to become a god, she protected him, fighting off the most elite elven guards. For that crime, queen Ellesime, Bodhi's half-sister, stripped them of their names and immortality and cast them out. As a vampire she was happy, but still mortal. Now with Imoen's soul within her, she feels elven once again, but remains consumed with hatred and regret.~
+@55001 /*Bodhi the Elf Bio*/ = ~When asked about her past, Bodhi laughs. For helping you save her old city of Suldanessellar, Bodhi was rewarded with the same form and soul that were taken from her years ago. Though she misses her half-sister, Queen Ellesime, she is happy to be on the road once again, where her preferred prey are plentiful.~
+@56 /*Morale*/ = ~No, no it's mine! This life is mine!~ [BODHIX41.WAV]
+@5601 /*Leader*/ = ~Follow, please, and stay exactly in my step. You would regret doing other.~ [_bBodh05.WAV]
+@57 /*Bored*/ = ~Your task is clear, yet you delay.~ [BODHIX21.WAV]
+@58 /*BATTLE_CRY1*/ = ~One last time, let our paths cross in blood.~ [_bBodh14.WAV]
+@59 /*BATTLE_CRY2*/ = ~Prepare, for the final sleep comes for you.~ [BODHIX05.WAV]
+@60 /*BATTLE_CRY3*/ = ~Here mousy, mousy. The hunt draws to a close here and now.~ [BODHIX35.WAV]
+@61 /*BATTLE_CRY4*/ = ~This ends here. Tonight I shall feast on the blood of the gods!~ [BODHIX40.WAV]
+@6101 /*Battle_Cry5*/ = ~And so it shall end here.~ [_bBodh16.WAV]
+@62 /*Hurt*/ = ~No, no!~ [CEFALD16.WAV]
+@6201 /*SELECT_COMMON1*/ = ~I am Bodhi.~ [_bBodh04.WAV]
+@6202 /*SELECT_COMMON2*/ = ~I am Bodhi, and I greet you warmly.~ [_bBodh02.WAV]
+@63 /*SELECT_ACTION1*/ = ~You live so long as I tolerate it.~ [BODHIX01.WAV]
+@64 /*SELECT_ACTION2*/ = ~This shall not take long.~ [BODHIX04.WAV]
+@6401 /*SELECT_ACTION3*/ = ~I would offer an alternative.~ [_bBodh06.WAV]
+@6402 /*SELECT_ACTION4*/ = ~Such confidence is admirable.~ [_bBodh07.WAV]
+@6403 /*SELECT_ACTION5*/ = ~Very well.~ [_bBodh08.WAV]
+@6404 /*SELECT_ACTION6*/ = ~Now to my tasks.~ [_bBodh09.WAV]
+@6405 /*SELECT_ACTION7*/ = ~As you would have it.~ [_bBodh17.WAV]
+@6406 /*CRITICAL_HIT*/ = ~Excellent!~ [_bBodh10.WAV]
+@6407 /*CRITICAL_MISS*/ = ~Oh dear, not good at all.~ [_bBodh03.WAV]
+@6408 /*TARGET_IMMUNE*/ = ~You are becoming an impressive pest.~ [_bBodh11.WAV]
+@6409 /*HAPPY*/ = ~You have proven resiliant beyond all expectation. It is appealing to me.~ [_bBodh13.WAV]
+@65 /*UNHAPPY_ANNOYED*/ = ~Do not make me regret allying myself to you.~ [BODHIX19.WAV]
+@66 /*UNHAPPY_SERIOUS*/ = ~Hmm, I had hoped it would not come to this, but you are set in your path, aren't you?~ [BODHIX31.WAV]
+@67 /*HIDDEN_IN_SHADOWS*/ = ~We will observe from a distance.~ [_bBodh15.WAV]
+@6700 /*REACT_TO_DIE_GENERAL*/ = ~And so your life does come to an end. A pity.~ [_bBodh12.WAV]
+
+
+//New Items
+//Gender Belt
+@680 /*NAME1*/ = ~Girdle~
+@68 /*NAME2*/ = ~Girdle of Femininity/Masculinity~
+@69 /*DESC*/ = ~Similar to the rare yet oft-discussed cursed Girdle of Masculinity/Femininity, a magical item that changes the wearer's gender, this version is not cursed and was likely created simply for entertainment. The magic of the belt only affects halflings.
+
+STATISTICS:
+
+Equipped abilities:
+– Changes the wearer's gender
+
+Weight: 2~
+
+//Gender Belt that only works on Clara
+@690 /*DESC*/ = ~Similar to the rare yet oft-discussed cursed Girdle of Masculinity/Femininity, a magical item that changes the wearer's gender, this particular girdle was specifically enchanted to only work on Clara as a joke.
+
+STATISTICS:
+
+Equipped abilities:
+– Changes the wearer's gender
+
+Weight: 2~
+
+//Gender Belt that only Edwin can use
+@681 /*Script*/ = ~Edwin~
+@691 /*DESC*/ = ~Similar to the rare yet oft-discussed cursed Girdle of Masculinity/Femininity, a magical item that changes the wearer's gender, this particular girdle was enchanted to be only usuable by Edwin.
+
+STATISTICS:
+
+Equipped abilities:
+– Changes the wearer's gender
+
+Weight: 2~
+
+//STATISTICS:
+
+//Equipped abilities:
+//– Changes the wearer's gender
+
+//Weight: 2~
+
+//Clara's Goggles
+@70 /*NAME*/ = ~Clara's Jansen Spectroscopes~
+@71 /*DESC*/ = ~Jansen-Brand Micro-Macro Spectroscopes (Official Spectroscopes of the Purple Brotherhood)
+Another one of Jan Jansen's inventions, these glasses were made specifically for Clara and allow her to detect invisibility once per day. They also add an additional 25% to Clara's detect and disarm traps abilities. Various lenses on the contraption increase Clara's ability to detect illusions by 20%. The style of the Spectroscopes is so obvious it hardly needs to be mentioned.
+
+STATISTICS:
+
+Equipped abilities:
+– Find Traps: +25%
+– Detect Illusion: +20%
+– Immunity to blindness
+
+Charge abilities:
+– Detect Invisibility once per day
+  Area of Effect: 15-ft. radius
+
+Requires:
+ 17 Dexterity
+
+Weight: 0~
+
+//Clara's Poison Arrows
+@72 /*Name*/ = ~Create Poison Arrows~
+@73 /*DESC*/ = ~This ability allows Clara to create 15 poisonous Arrows of Biting, adding them to her inventory. Handle with care!~
+
+
+//Clara's Gloves
+@74 /*NAME*/ = ~Clara's Jansen Techno-Gloves~
+@75 /*DESC*/ = ~Clara's Jansen-Brand Techno-Thieving Gadgetizer Gloves—(TM)
+This set of thieving tools gives Clara an additional bonus to both her lockpicking and pickpocketing skills. She is the only one who can use these gloves, as Jan created them specifically for his apprentice and trained her in their use. Clara seems to have no trouble slipping into the shadows while wearing the gloves, probably because this pair is less gaudy than Jan's originals.
+
+STATISTICS:
+
+Equipped abilities:
+– Open Locks: +20%
+– Pick Pockets: +20%
+
+Requires:
+ 17 Dexterity
+
+Weight: 0~
+@750 /*Usability Note*/ = ~Clara~
+
+//New Version of Yoshimo's Katana
+@76 /*NAME*/ = ~Yoshimo's Katana +3~
+@77 /*DESC*/ = ~This blade seems to have grown stronger since Yoshimo gifted it to Clara. Perhaps it is the dead man's blessing or perhaps the blade wishes to regain its former master's honor as soon as possible. 
+
+Whatever the reason, this weapon comes alive in Clara's hands and Yoshimo's presence can be felt when it is wielded. The katana trembles when a trap is near and seems to twist fate in its new master's favor. During combat, the sword strengthens its wielder with every taste of blood so that Clara will not fall before Yoshimo's name has been restored. Indeed, only his permission allows the katana to be wielded. No one else can pull the weapon from its sheath.
+
+STATISTICS:
+
+Equipped abilities:
+– Find Traps: +20%
+– Luck Bonus
+
+Combat abilities:
+– Each hit heals the wielder 1 Hit Point
+
+THAC0: +3
+Damage: 1d10+3 (slashing)
+Speed Factor: 3
+Proficiency Type: Katana
+Type: One-handed
+
+Requires:
+ 6 Strength
+
+Weight: 5~
+
+//Bodhi's Claw
+@94 /*NAME*/ = ~Bodhi's Claw~
+@95 /*DESC*/ = ~Bodhi refuses to use weapons, preferring to crush, rip, and rend her opponents with her bare hands.
+
+STATISTICS:
+
+Combat abilities:
+– Level drain on hit.
+
+THAC0: +0
+Damage: 1d6 (crushing)
+Speed Factor: 0
+Proficiency Type: None
+Type: One-handed
+
+Weight: 0~
+
+//Bodhi's Ring
+@90 /*NAME*/ = ~Bodhi's Ring~
+@91 /*DESC*/ = ~Bodhi will not remove this ring nor tell you what it does.
+
+STATISTICS:
+
+Weight: 0~
+
+//Bodhi's Amulet
+@92 /*NAME*/ = ~Bodhi's Amulet~
+@93 /*DESC*/ = ~Bodhi's amulet matches her eyes and glows when she's excited.
+
+STATISTICS:
+
+Weight: 0~
+
+//Bodhi's Belt
+@84 /*NAME*/ = ~Bodhi's Belt~
+@85 /*DESC*/ = ~Bodhi's belt is made of a nearly indestructable material and you have never seen her take it off.
+
+STATISTICS:
+
+Weight: 0~
+
+//Bodhi's Hair
+@86 /*NAME*/ = ~Bodhi's Hair~
+@87 /*DESC*/ = ~Bodhi refuses to wear helms or hats of any kind. She prefers to feel the wind through her hair.
+
+STATISTICS:
+
+Weight: 0~
+
+//Bodhi's Skin
+@88 /*NAME*/ = ~Bodhi's Skin~
+@89 /*DESC*/ = ~Bodhi will not wear armor. She finds it confining.
+
+STATISTICS:
+
+Weight: 0~
+
+//Clara's Wedding Ring
+@96 /*Name*/ = ~Delryn Family Ring~
+@97 /*DESC*/ = ~This simple band, though not of great material value, is a Delryn family heirloom. Once worn by his dear sister Moira, Anomen gave this ring to Clara as a symbol of their love. It has been enchanted to help protect his noble bride.
+
+STATISTICS:
+
+Equipped abilities:
++1 to All Stats
+
+Weight: 0~
+
+
+@98 /*Darkside Anomen Romance Epilogue - player doesn't choose god*/ = ~Anomen returned to the Delryn estate with <CHARNAME> and the two were married in a grand ceremony. Together, the couple worked to rebuild his family's fortunes and luck followed them in every endeavor. Soon the lord had not only erased his father's debts but begun to amass a fortune of his own. However, despite his newfound status, Anomen stayed true to the tenets of his god. Although sometimes harsh, his judgment was always fair and those who worked for his family knew that their loyalty would be rewarded in kind.
+
+Eventually, the young Lord Delryn was offered a position on the Council of Six and while no one officially knew his status, the change in Athkatla's rulership was obvious to all. Under Anomen and <CHARNAME>'s direction, the government began doing more to help the common folk and more to combat evil in the world. He was not content to let injustice pass by blindly and those who stood against him tended to have unhappy accidents. Although these coincidences sparked investigations, Lord Delryn's wife stood by him and no evidence of foul play was ever found.
+
+Indeed, when asked the secret of his good fortune by young lords and jealous rivals, Anomen would only say humbly, "I have been very lucky. It took hard work, aye, to build my family's business into what it is today, but I did not do it by myself. I owe everything to Helm and to the continuous support of my beloved <CHARNAME>. Without her, I would not be the man I am today."~
+
+
+@99 /*Darkside Anomen Romance Epilogue - player chose god*/ = ~After losing <CHARNAME>, Anomen returned to the Delryn estate and worked hard to rebuild his family's fortunes. Luck followed him in every endeavor and soon the lord had not only erased his father's debts but begun to amass a fortune of his own. Although sometimes harsh, Anomen's judgment was always fair and those who worked for his family knew that their loyalty would be rewarded in kind.
+
+Eventually, the young Lord Delryn was offered a position on the Council of Six and while no one officially knew his status, the change in Athkatla's rulership was obvious to all. Under Anomen's direction, the government began doing more to help the common folk and more to combat evil in the world. He was not content to let injustice pass by blindly and those who stood against him tended to change their minds overnight or simply disappear. Although several investigations were put forth into these incidents, no evidence of wrongdoing on Lord Delryn's part was ever found.
+
+Indeed, when asked the secret of his good fortune by young lords and jealous rivals, Anomen would only say humbly, "I have been very lucky. It took hard work, aye, to build my family's business into what it is today, but I did not do it by myself. I owe everything to my beloved goddess <CHARNAME>. Without her guidance, I would not be the man I am today."~
+
+//Mazzy's Dad Wraith
+@100 /*Name*/ = ~Richter Fentan~
+
+//Viconia's Wings
+@101 /*NAME*/ = ~Wings~
+@102 /*DESC*/ = ~A set of feathered wings.~
+@103 /*Script Name*/ = ~Viconia~
+
+@104 /*Mazzy Friendship only epilogue*/ = ~Mazzy and <CHARNAME> journeyed together for many years as heroes, their names revered and respected far and wide. However, Mazzy eventually decided to retire as an adventurer. She said farewell to <CHARNAME> and returned to Trademeet, where she opened a school of archery that became known for producing the finest archers anywhere in Amn. Mazzy joined the Trademeet militia and the local chapter of the Temple of Arvoreen, quickly rising in their ranks and eventually leading both for many years.
+
+Her personal life was also fruitful. She married a good friend, a halfling ranger, and the couple had three children whom they taught all they knew. Their sons and daughter continued the Fentan legacy of protecting innocents, growing up to be great heroes of their own.
+
+Mazzy and <CHARNAME> remained friends and <PRO_HESHE> would often come to visit, stopping in Trademeet to rest and regroup on the way to far off kingdoms. Mazzy enjoyed hearing about her friend's adventures, but the halfling never regretted the choice that she had made. Indeed, whenever someone asked Mazzy why she'd retired, her answer was always the same:
+
+“When I was young and foolish, I thought I had to venture to far away lands and battle great world-threatening evil in order to be a hero, but I was incorrect. True heroism is exhibited day-to-day, and my talents are needed here by my friends and family. There is glory in great deeds, but there is also loneliness and in my time with Patrick and later <CHARNAME>, I realized that I did not want great power or a glorious death. I chose to come home so that I could live and love instead.”
+
+And when Mazzy died at home in her bed, everyone in Trademeet agreed. Few had lived as fully as Mazzy Fentan and few had been as loved.~
+
+//Clara's Fireball
+@105 /*NAME*/ = ~Set Fireball Trap~
+@106 /*DESC*/ = ~This ability allows Clara to create a Fireball trap that will stay in position until someone walks too close. Friend or foe, the Fireball will then explode for massive damage.~
+
+//Boo NPC
+@107 /*NAME*/ = ~Boo~
+
+@108 /*Begin*/ = ~Do NOT allow multiple TOB epilogues: If you install this component, AllThingsMazzy epilogues will override existing game epilogues and most mod epilogues. If you do not install this component, the game will allow multiple NPC epilogues where applicable.~
+
+//Aerie's Wings
+@109 /*Script Name*/ = ~Aerie~
+@110 /*NAME*/ = ~Aerie's Wings~
+@111 /*DESC*/ = ~Aerie's wings are golden and shimmer in the light.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+- Intelligence +1
+- Wisdom +1
+- Increased movement speed
+
+Weight: 2~
+
+
+//Aeries's Epilogues
+//No Wings, no Neera, Minsc Witch w/o CN Romance
+@112 /*Epilogue*/ = ~Aerie continued adventuring after leaving <CHARNAME>'s company, traveling with Minsc to Rashemen where they were welcomed as heroes and she became an honorary Wychlaran. 
+
+On their next journey, they stumbled across a group of avariel winged elves enslaved in Cormyr. The elves compelled Aerie, Minsc, and Boo to go to Faenya-Dail, the home from which Aerie was originally stolen, and she learned much while there. Most importantly, she learned she was no longer one of them, and stopped pining for wings she wouldn't use anyway. 
+
+Aerie eventually became a high priestess in Understone, a gnomish village her mentor Quayle had sometimes spoken of. He had been her true family, and it was among his people that she, Minsc, and Boo finally found peace. Aerie remained there serving her community of gnomes for centuries to come.~
+
+//Minsc's witch w/ Neera, no wings & no CN romance or CN chose god
+@113 /*Epilogue*/ = ~Aerie continued adventuring after leaving <CHARNAME>'s company, traveling with Neera, Minsc, and Boo first to the High Forest and then to Rashemen where they were welcomed as heroes. She and Neera became honorary Wychlaran and Minsc finally gained entry into the Icedragon Beserker Lodge. 
+
+Afterward their journeys took them to Faenya-Dail, the home from which Aerie was originally stolen, and Aerie learned much while they were there. Most importantly, she learned she was no longer one of them, and stopped pining for wings she wouldn't use anyway. 
+
+After destroying a Red Wizard slaving operation that hunted her people, Aerie eventually became a high priestess in Understone, a gnomish village her mentor Quayle had sometimes spoken of. He had been her true family, and it was among his people that she, Neera, Minsc, and Boo finally found peace. Aerie remained there serving her community of gnomes for centuries to come.~
+
+//Aerie Wings, Minsc Witch, no M/N or CN romance
+@114 /*Epilogue*/ = ~Aerie continued adventuring after leaving <CHARNAME>'s company, traveling with Minsc to Rashemen where they were welcomed as heroes and she became an honorary Wychlaran. 
+
+On their next journey, they stumbled across a group of avariel winged elves enslaved in Cormyr. They compelled Aerie, Minsc, and Boo to go to Faenya-Dail, the home from which Aerie was originally stolen. There they discovered not only her people, but loving parents that had spent years searching for their lost child. 
+
+With no more mystery or confusion to darken their lives, it was there among the clouds that Aerie flew. Her ranger departed across the Realms, but Aerie stayed and became the avariel's fierce protector for years to come.~
+
+//Aerie Wings, Minsc Witch, M/N, no CN romance
+@115 /*Epilogue*/ = ~Aerie continued adventuring after leaving <CHARNAME>'s company, traveling with Neera, Minsc, and Boo first to the High Forest and then to Rashemen where they were welcomed as heroes. She and Neera became honorary Wychlaran and Minsc finally gained entry into the Icedragon Beserker Lodge. 
+
+Afterward their journeys took them to Faenya-Dail, the home from which Aerie was originally stolen. There they discovered not only her people, but loving parents that had spent years searching for their lost child. 
+
+With no more mystery or confusion to darken their lives, it was there among the clouds that Aerie flew. Minsc and Neera departed across the Realms, but Aerie stayed and became the avariel's fierce protector for years to come.~
+
+//Aerie Wings, CN Romance
+@116 /*Epilogue*/ = ~Aerie and <CHARNAME> would prove inseparable, their adventuring careers becoming secondary to the raising of their son, and eventually a daughter as well. Their later years would hold one last great trek, however, as Aerie still suffered a sadness from being taken from her homeland. 
+
+Together she and <CHARNAME> sought the avariel of Faenya-Dail, the winged elves she was stolen from so long ago. They discovered not only her people, but loving parents that had spent years searching for their lost child. 
+
+With no more mystery or confusion to darken their lives, it was there, among the clouds, that Aerie and <CHARNAME> would finally be married. Their union, it is said, was blessed by visions of Aerdrie Faenya and Baervan Wildwanderer both. Aerie gave <CHARNAME> and her children wings as well and they flew among the marble pillars of Faenya-Dail for years to come.~
+
+//Aerie Wings, no CN romance, no Minsc
+@117 /*Epilogue*/ = ~Aerie continued adventuring after leaving <CHARNAME>'s company, driven in her travels to oppose slavery in any form. Her compassion grew tainted by revenge, however, and she might have lost herself entirely had she not stumbled across a group of avariel winged elves enslaved in Cormyr. 
+
+They compelled her to come to Faenya-Dail, the home from which she was originally stolen. There she discovered not only her people, but loving parents that had spent years searching for their lost child. 
+
+With no more mystery or confusion to cloud her life, Aerie once again flew among the marble pillars of her homeland as a healer and protector of her people for the rest of her days.~
+
+
+//Minsc Epilogues
+//No wings, no Neera, Aerie witch w/o romance
+@118 /*Epilogue*/ = ~With the saga of the Bhaalspawn closed, Minsc fulfilled a long promised oath. He and Aerie went to Rashemen, where Minsc hoped to regale the Icedragon Berserker Lodge with the tales of his deeds, and earn a place within its hallowed halls. His words were not needed. Every tavern in Faerun had a bard singing of the valiant ranger, and he was welcomed as a hero and Aerie made an honorary Wychlaran of Rashemen. 
+
+Afterward they traveled to Faenya-Dail to find Aerie's family and eventually settled in Understone, a gnomish village where Minsc lived out most of his days until, in his advancing age, he again set out across the Realms... and disappeared. And what of Boo? Well, what is Minsc without Boo? The two would never be separated, and Aerie says that they are together still, up amongst the stars where hamsters are giants and men become legends.~
+
+//Aerie witch w/ Neera, no wings & no CN romance or CN chose god
+@119 /*Epilogue*/ = ~With the saga of the Bhaalspawn closed, Minsc fulfilled a long promised oath. After journeying to the High Forest, he, Aerie, and Neera returned to Rashemen, where Minsc hoped to regale the Icedragon Berserker Lodge with the tales of his deeds, and earn a place within its hallowed halls. His words were not needed. Every tavern in Faerun had a bard singing of the valiant ranger, and he was welcomed as a hero. 
+
+After a brief detour in Faenya-Dail where they vanquished many Red Wizard slavers, Minsc, Neera, Aerie, and Boo settled in the Gnomish village of Understone. There they stayed for many years until in Minsc's advancing age, he and Neera again set out across the Realms... and disappeared. And what of Boo? Well, what were Minsc and Neera without Boo? The three would never be separated, and Aerie says they are together still, up amongst the stars where hamsters are giants and rangers and wild-mages become legends.~
+
+//Aerie Wings, Minsc Witch, no M/N or CN romance
+@120 /*Epilogue*/ = ~With the saga of the Bhaalspawn closed, Minsc fulfilled a long promised oath. He and Aerie went to Rashemen, where Minsc hoped to regale the Icedragon Berserker Lodge with the tales of his deeds, and earn a place within its hallowed halls. His words were not needed. Every tavern in Faerun had a bard singing of the valiant ranger, and he was welcomed as a hero and Aerie made an honorary Wychlaran of Rashemen. 
+
+Afterward they traveled to Faenya-Dail to find Aerie's family. They were successful and Aerie stayed with her people, but it was no place for those without wings so Minsc once again set out across the Realms... and disappeared. And what of Boo? Well, what is Minsc without Boo? The two would never be separated, and Aerie says they are together still, up amongst the stars where hamsters are giants and men become legends.~
+
+//Aerie Wings, Minsc Witch, M/N or CN romance
+@121 /*Epilogue*/ = ~With the saga of the Bhaalspawn closed, Minsc fulfilled a long promised oath. After journeying to the High Forest, he, Aerie, and Neera returned to Rashemen, where Minsc hoped to regale the Icedragon Berserker Lodge with the tales of his deeds, and earn a place within its hallowed halls. His words were not needed. Every tavern in Faerun had a bard singing of the valiant ranger, and he was welcomed as a hero. 
+
+Then they went to Faenya-Dail where Aerie was welcomed by her people, and Minsc and Neera declared a decades-long war against the Red Wizard slavers who had been targeting them. In Minsc's advancing age, he and Neera once again set out across the Realms... and disappeared. And what of Boo? Well, what were Minsc and Neera without Boo? The three would never be separated, and Aerie says they are together still, up amongst the stars where hamsters are giants and rangers and wild-mages become legends.~
+
+//Minsc-Neera, no Aerie
+@122 /*Epilogue*/ = ~With the saga of the Bhaalspawn closed, Minsc fulfilled a long promised oath. He and Neera returned first to the High Forest and then to Rashemen. Minsc hoped to regale the Icedragon Berserker Lodge with the tales of his deeds, and earn a place within its hallowed halls, but his words were not needed. Every tavern in Faerun had a bard singing of Minsc and Neera, and they were welcomed as heroes. 
+
+Eventually they traveled to Moonsea where they formed their own adventuring company, the Justice Fist, which drove the Red Wizards from Melvaunt. They continued to travel battling evil until, in their advancing age, they again set out across the Realms... and disappeared. And what of Boo? Well, what are Minsc and Neera without Boo? The three would never be separated, and some say they are together still, up amongst the stars where hamsters are giants and rangers and wild-mages become legends.~
+
+
+//Neera Epilogues
+//Aerie is Minsc's witch w/ Neera, no wings & no CN romance or CN chose god
+@123 /*Epilogue*/ = ~Neera, Minsc, and Aerie traveled back to the north, stopping at inns and taverns along the way, always listening happily as bards wove tales both true and false of their adventures with <CHARNAME>. When they reached the High Forest, Neera was welcomed back as a hero and personally congratulated by Turlang the treant. Afterwards, they returned to Amn to reunite with the surviving wild mages of the Hidden Refuge. 
+
+Then they proceeded to Rashemen where Neera and Aerie were made honorary Wychlaran and Minsc gained entrance into the Icedragon Beserker Lodge. Neera convinced Aerie that they should next go to Faenya-Dail where the averiel were being enslaved by Red Wizards. Neera, Minsc, Aerie, and Boo killed the slavers and destroyed their operations which attracted Thay's attention, and once again they were hounded by Red Wizards. Defeating all who challenged them, they settled in Understone where they lived for many years. 
+
+Eventually though Minsc, Neera, and Boo grew restless and they again set out across the Realms... and disappeared from Faerun.~
+
+//Aerie is Minsc's witch w/ Neera, wings & no CN romance or CN chose god
+@124 /*Epilogue*/ = ~Neera, Minsc, and Aerie traveled back to the north, stopping at inns and taverns along the way, always listening happily as bards wove tales both true and false of their adventures with <CHARNAME>. When they reached the High Forest, Neera was welcomed back as a hero and personally congratulated by Turlang the treant. 
+
+Afterwards, they returned to Amn to reunite with the surviving wild mages of the Hidden Refuge. Then they proceeded to Rashemen where Neera and Aerie were made honorary Wychlaran and Minsc gained entrance into the Icedragon Beserker Lodge. Neera convinced Aerie that they should next go to Faenya-Dail where the Averiel were being enslaved by Red Wizards. Aerie stayed to protect her people, while Neera, Minsc, and Boo killed the slavers and destroyed their operations all the way back to Thay. 
+
+Minsc, Neera and Boo never did stay in one place for long until one day they set out across the Realms... and disappeared from Faerun.~
+
+//Minsc-Neera, no Aerie
+@125 /*Epilogue*/ = ~Neera traveled back to the north with Minsc and Boo, stopping at inns and taverns along the way, always listening happily as bards wove tales both true and false of their adventures with <CHARNAME>. When they reached the High Forest, she was welcomed back as a hero and personally congratulated by Turlang the treant. 
+
+Afterwards, Minsc, Neera, and Boo returned to Amn to reunite with the surviving wild mages of the Hidden Refuge, and then traveled to Rashemen where Neera became an honorary Wychlaran. They soon departed, making their way to the Moonsea, where with the help of a wild surge or two, she sank three docked Thayan slaver ships and almost single-handedly drove the Red Wizards from the city of Melvaunt. 
+
+Together Neera, Minsc, and Boo had many adventures until one day they disappeared from Faerun, never to be seen again.~
+
+
+//Viconia Evil Epilogues
+@126 /*Kill All Rivvin*/ = ~After her travels with <CHARNAME>, Viconia returned to Amn, which had recently been depopulated due to what was now called the Great Human Plague. With numerous lands and their castles now abandoned, and the weakened Athkatlan government unable to exert much influence, many other races had settled on those lands, and Viconia found that most of them were unconcerned with her heritage. 
+
+She built a house and gained both a place in the community and a reputation as someone not to be trifled with. Viconia even worked with Drizzt Do'Urden to defend Suldanessellar from a Zhentarim plot. 
+
+For saving the Elven city yet again, Queen Ellesime bestowed upon Viconia the highest honors of the Seldarine, an accolade never before given to one of her dark kind. Viconia reportedly bowed once, and then left, returning home. She never again hid her face, and while this often brought adventurers determined to slay her, Viconia would bury them all and live on her land for generations to come.~
+
+@127 /*Follows CN as god*/ = ~After <CHARNAME> ascended into heaven, Viconia became <PRO_HISHER> priestess, and lived openly, never again hiding her face.  Awed by her power and lured with tales of her beauty, many followers joined her and the ranks of <CHARNAME>'s faithful grew daily. Viconia's reputation also brought many adventurers determined to slay her, but surrounded by acolytes and with the power of <CHARNAME> coursing through her, she buried them all, and felt safe and at peace for the first time in her long life. 
+
+Eventually bored with temple life, Viconia again wandered the Realms, and went on to prevent an attempt by the Knights of the Shield to take over Calimport. She even worked with Drizzt Do'Urden to save the elven city of Suldanessellar from a Zhentarim plot, and for this last act, the elves accepted her, and Queen Ellesime bestowed the highest honors of the Seldarine, an accolade never before given to one of her dark kind. Viconia reportedly bowed once without emotion, and then left. ~
+
+@128 /*No Shar, no CN god, no romance*/ = ~After her travels with <CHARNAME>, Viconia returned to Amn and lived there for some years. She never again hid her face, and while this brought misguided adventurers determined to slay her, Viconia would bury them all, each victory only serving to enhance her reputation as a force not to be trifled with. 
+
+Eventually she became bored and once again wandered the Realms. She went on to prevent an attempt by the Knights of the Shield to take over Calimport, and even worked with Drizzt Do'Urden to save the elven city of Suldanessellar from a Zhentarim plot. 
+
+For this last act, the elves accepted her, and Queen Ellesime bestowed the highest honors of the Seldarine, an accolade never before given to one of her dark kind. Viconia reportedly bowed once without emotion, and then left. Her fate remains unknown.~
+
+@129 /*Dynaheir*/ = ~Dynaheir~
+@130 /*Girl Wraith*/ = ~Little Clara~
+
+//Dorn's Spell he gets when serving Umberlee.
+@131 = ~Umberlee's Embrace~
+@132 = ~Umberlee's Embrace
+(Alteration)
+
+Level: 4
+Range: Visual range of the caster 
+Duration: Instant
+Casting Time: 8
+Area of Effect: 15-ft. radius
+Saving Throw: 1/2
+
+This spell removes water from the bodies of every hostile living creature within the area of effect and returns it to the Goddess Umberlee, inflicting 1d8 damage per level of the caster. Affected creatures may Save vs. Spell for half damage. This spell is particularly devastating to water elementals and plant creatures, who receive a penalty of -2 to their Saving Throws. This spell only harms enemies.~
+
+//Dorn Epilogue if romancing HD
+@133 = ~After leaving <CHARNAME>'s company, Dorn and Haer'Dalis spent many years traveling across the realms, visiting such varied locales as Waterdeep, Neverwinter, and Thay. Along the way, Dorn's past tried to catch him several times. He was hunted by a "Freelance Jurist," Mercy Whitedove, who sought him for the massacre of Barrow, where his dark path began. 
+
+However, with Haer'Dalis at his side, Dorn Il'Khan was able to escape his bitter fate. The bard had tempered the worst of his wrath, showing him that retreat could be the better part of valor, and so the pair turned their sights to other planes. After Haer'Dalis unintentionally started a revolt in the Abyss, the pair were hunted fiercely across the Realms. It took all of Dorn's great skill to protect his lover, but the half-orc reveled in the challenge and none of the bard's enemies ever managed to draw blood. 
+
+Eventually the pair returned to Sigil where Haer'Dalis rejoined Raelis' acting troupe and Dorn found work as a bodyguard. Though it was only a matter of time until trouble managed to find them once again.~
+
+//HD Epilogue if Romancing Dorn
+@134 = ~After parting ways with <CHARNAME>, Haer'Dalis and Dorn Il'Khan kept their vows to each other and traveled throughout the Realms. Together they visited such varied locales as Waterdeep, Neverwinter, and Thay, dodging enemies and debtors before turning their sights to other planes. Although Haer'Dalis managed to temper the worst of Dorn's wrath, the pair fed off each other's passions and trouble still found them regularly. Indeed, a brief sojourn to the Abyss ended with the lovers unintentionally leading a revolt across several layers of the Nine Hells.
+
+For a time, Dorn and Haer'Dalis were the most hunted men among the planes, but the ire of their enemies could not match the tiefling's wanderlust or the might of his lover's blade. Eventually they found their way back to Sigil where Haer'Dalis rejoined Raelis' acting troupe and was pleased to settle down - until the next misunderstanding, of course.~
+
+//Wilson Epilogue if Romancing Jaheira
+@134000 = ~Among those who speak the animal tongues, the tales of Wilson's adventures are well-known. With his love, Jaheira, by his side, he was a defender of the weak and a tireless crusader for peace in a world rife with violence. The legends of Wilson and Jaheira passed down through the generations are countless, but a few stand out. A favorite among the deer and gazelle, and to a lesser extent the hyenas, is the story of how they freed countless species from the tyrannical rule of a corrupt Lion Kingdom. After ending his own kind's murderous rampage against fish, Wilson was the first and only mammal ever to be made a saint to the salmon. But perhaps their greatest triumph came when he forged a lasting peace in the ages-old conflict between cats and dogs. For all these things and more, Wilson is remembered fondly by all good and steadfast members of the wild kingdom. He died peacefully during hibernation at the age of thirty-seven, with Jaheira and their friends at his side.~
+
+//Jaheira Epilogue if Romancing Wilson
+@134001 = ~The years following the Bhaalspawn saga were kind to Jaheira. They couldn't be called peaceful by any means, but her relationship with Wilson weathered it all. Theirs was an unshakable union, and while duty or adventure might separate them for a time, they always returned to one another. As the years went on, she spent more and more time as a bear herself, and her trips into civilization became fewer and fewer. Together they achieved great things, most famously when they battled and defeated the tyrannical Lion Kingdom, freeing countless species from its corrupt rule. 
+
+Regrettably Wilson died an old bear while Jaheira was still in the prime of her life. In time, she returned to civilization and became a tireless champion of balance, one that sometimes acted in concert with the Harpers and sometimes did not. Having outlived two husbands and countless friends, she had become acutely aware of the fleeting nature of existence. Yet when asked about her past, all she would say is, "I would not have done otherwise."~
+
+//Bodhi Epilogue (Vampire)
+@135 = ~After her time with <CHARNAME>, Bodhi retired to Zazesspur, the largest port city in Tethyr. There she preyed on hapless sailors and merchants who were foolish enough to catch her eye. After many deaths, Zazesspur sent its guards and soldiers to destroy her, which led to their complete obliteration. Eventually the city government accepted Bodhi's presence and designed their city around her, redirecting the poorest and least favorable ships to her favorite prowling grounds.~
+
+//Bodhi Epilogue (Elf)
+@136 = ~After traveling with <CHARNAME>, Bodhi slowly journeyed north back toward her homeland, feasting and fighting along the way. She reached her City of Trees at the same time as an invading army, and once again Bodhi was responsible for saving Suldanessellar from complete annihilation. 
+
+Her sister-queen rejoiced to have her home and her fellow elves finally accepted her as one of their own. Bodhi lived there for many years, and if the human peasants nearby suffered from her presence, that was a price the elves of Suldanessellar were willing to pay.~
+
+//PRINT Notes (for Weidu Setup) - mostly just our flavor commments
+@137 = ~Wilson detected - Wilson interdia.2da append - set Wilsons's banter file (BWILSON & BWILSO25)~
+@138 = ~Wilson has no ToB override script? That must be changed!~
+@139 = ~Clara not detected. Clara is hiding. Casting True Sight and adding Clara's content.~
+@140 = ~Adding new items and spells.~
+@141 = ~Setting up Jan Jansen's Ball of Superdark Darkness.
+Error: Insufficient darkness found...
+Searching for additional darkness...
+Excess darkness found in Viconia's soul.
+Harvesting darkness...
+Transferring darkness...
+Second attempt: Setting up Jan Jansen's Ball of Superdark Darkness.
+Ball setup successful.~
+@142 = ~EE Journal Entries. Titles needed.~
+@143 = ~Adding new items, new nonsense, new strange abilities...~
+//Crossmod NPC stuff
+@144 = ~'Alora in BG2' mod detected - adding crossmod Easter egg~
+@145 = ~'Alora in BG2' mod not detected~
+@1440 = ~'BG1 NPCs in SoA & ToB' Alora detected - adding crossmod Easter egg~
+@1450 = ~'BG1 NPCs in SoA & ToB' Alora NPC not detected~
+@146 = ~Nephele detected - adding crossmod Easter egg~
+@147 = ~Nephele NPC not detected~
+@148 = ~Petsy detected - adding crossmod Easter egg~
+@149 = ~Petsy NPC not detected~
+@150 = ~Saradas detected - adding crossmod banters~
+@151 = ~Saradas NPC not detected~
+
+@152 = ~Searching for pure, chaste Imoen.
+Error: Chaste Imoen not found.
+Adding inappropriate sex-loving Imoen.
+Sex-loving Imoen added.
+Searching for halfling orgy.
+No orgy found. Insufficient halflings.~
+@153 = ~Searching for giant space hamster.
+Giant space hamster found.
+Miniaturizing initiated.
+...
+Miniaturization successful.~
+@154 = ~Creating epilogues. Too many epilogues... Why are there so many options here?~
+@155 = ~RestCheck Files: to help with all the joys of mod compatibility.~
+@156 = ~Adding Bodhi NPC for all your evil vampire needs~
+@157 = ~Adding evil options. To let you do bad things...~
+@158 = ~Crossmod Content... Because everyone must die.~
+@159 = ~Activating Sheriff Mazzy. Big Brother is watching you. Don't you dare do evil things...~
+
+//Additional Content post "completion".
+//Optional Soundset for Clara
+@160 = ~Optional Soundset for Clara NPC~
+
+//Print Notes for NPC Strongholds Fix
+@161 = ~Installing fix for NPC Strongholds (Mazzy Quest)~
+@162 = ~NPC Strongholds not detected. Please install that mod first to avoid compatibility issues.~
+
+//Optional Portrait for Mazzy
+@163 = ~Optional Hi-Res Portrait for Mazzy created by Edvin.~

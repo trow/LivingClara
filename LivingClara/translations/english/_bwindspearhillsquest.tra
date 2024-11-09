@@ -1,0 +1,78 @@
+
+//Anomen's evil dialogue if the order hates you.
+@1 /*Anomen*/ = ~Are you mad, <CHARNAME>? We are wanted fugitives. The Order will hunt us down! Showing our faces in Athkatla is suicide!~
+@2 /*CHARNAME*/ = ~All who oppose us shall fall!~
+@3 /*CHARNAME*/ = ~You are right, let's return to the Windspear Hills and ask if Garren Windspear can help us.~
+@4 /*Anomen*/ = ~Ever since they kicked you out, you've wanted to fight the Order. Now you can!~
+@5 /*Anomen*/ = ~I would test myself against a single knight, new to his station, but that will not be what we will face! We will face an overwhelming force meant to wipe evil from the earth!~
+@6 /*Anomen*/ = ~Against them, we cannot hope to triumph.~
+@7 /*CHARNAME*/ = ~Stop being such a coward, Anomen.~
+
+//Good Anomen's dialogue
+@8 /*Anomen*/ = ~You refuse to accept Garren Windspear's help and return to Athkatla a fugitive? I will not be part of this, <CHARNAME>. I will leave and try to make amends with the Order on my own.~
+
+//Keldorn's dialogue
+@9 /*Keldorn*/ = ~You refuse to accept Garren Windspear's Help and you return here as a wanted man? I will not help you fight the Order! I will go and beg for forgiveness on my own.~
+
+//Mazzy's dialogue
+@10 /*Mazzy*/ = ~Garren Windspear offered help, yet you turn your back on him and now return to Athkatla to face the Order? I cannot join you in this endeavor. I will return home. Do not look for me there.~
+
+//Knights of the Order Arrive
+@11 /*Knight*/ = ~In the name of the Most Noble Order of the Radiant Heart, we sentence you to death for your crimes.~
+@12 /*Knight*/ = ~You shall never escape us, Bodhi, Queen of the Vampires! We shall hunt you and your black-hearted friends down wherever you choose to flee!~
+@13 /*Minsc*/ = ~No, you must listen! This all a big misunderstanding. My hamster here will explain.~
+@14 /*Viconia*/ = ~Paladins... stupid, bloodthirsty, usstan'sargh, viggtu...~
+@15 /*Aerie*/ = ~I... No... Please don't h-hurt us! We didn't do anything wrong... really...~
+@16 /*Jaheira*/ = ~Your self-righteousness blinds you to the truth! We are innocent!~
+@17 /*Korgan*/ = ~'Tis about time <CHARNAME> let me kill some paladins! I'd been thinkin' we'd never have any fun!~
+@18 /*Dorn*/ = ~At last... my sword hungers for blood.~
+@19 /*OHHFAK*/ = ~This is a distraction. We must go to Dragomir's tomb.~
+@20 /*Clara*/ = ~We're going to fight paladins now? I hope you know what you're doing, <CHARNAME>.~
+@21 /*Anomen*/ = ~This is all a mistake! We are not your enemy!~
+@22 /*Wilson*/ = ~Snuffle. Growl. ROAR!~
+@23 /*Nalia*/ = ~Please stop this. We didn't do anything wrong!~
+@24 /*Rasaad*/ = ~I do not wish to fight you. But I shall defend myself if pressed.~
+@25 /*Jan*/ = ~Now this would be a good time to disappear. Where did I put my patented Jansen Cloak of Camouflage...?~
+@26 /*Neera*/ = ~This so isn't fair. I didn't even blow anyone up this time.~
+@27 /*Hexxat*/ = ~You dare to hunt me? I shall feed.~
+@28 /*Valygar*/ = ~See what evils magic brings? Without those foul illusions, we would not be here.~
+@29 /*Cernd*/ = ~Do you not know the laws of nature? We are not the prey here. We are the predators.~
+@30 /*Edwin*/ = ~Foolish paladins, your annihilation awaits. (There are knights everywhere... no time to aim... just keep casting...)~
+@31 /*Knight*/ = ~For the Order!~
+
+//Knights of the Order Flee
+
+@33 /*Anomen*/ = ~That is right! Flee back to your masters and tell them that we are not to be trifled with!~
+@34 /*Anomen*/ = ~<CHARNAME>, we must push our advantage! Let us storm the Order and demand the surrender of Prelate Wessalen himself!~
+@35 /*Wilson*/ = ~ROAR!~
+@36 /*_bClara*/ = ~We're alive! That was amazing! Let's do it again!~
+@37 /*Dorn*/ = ~Hah! Return anytime. The result shall be the same!~
+@38 /*OHHFAK*/ = ~Finally. Now we may go to Dragomir's Tomb.~
+@39 /*Minsc*/ = ~No! Minsc and Boo are sorry. Minsc did not want to do this.~
+@40 /*Viconia*/ = ~Look at these foolish rivvin. At least there was some enjoyment to be had.~
+@41 /*Aerie*/ = ~*sobs* I'm sorry. I'm so sorry.~
+@42 /*Jaheira*/ = ~This is spiraling out of control quickly, <CHARNAME>. We must find a way to clear our names.~
+@43 /*Korgan*/ = ~Hah! Run ye cowards! Run wit' ye tails between ye legs!~
+@44 /*Nalia*/ = ~We must find someone to help us, <CHARNAME>. Someone with contacts to explain what's going on.~
+@45 /*Rasaad*/ = ~My path continues to darken. I fear I shall never find the light.~
+@46 /*Jan*/ = ~Hah! There it is! Just wait and I'll ....oh, I guess the fight is over with. Now I'll never get to test my new invention. Come back here, you paladins!~
+@47 /*Neera*/ = ~I'm sorry about burning off your mustache! ….And the sideburns! ...And your hair! This is really just a big misunderstanding.~
+@48 /*Hexxat*/ = ~I am still hungry, <CHARNAME>. Perhaps we should follow these rats back to their hole.~
+@49 /*Cernd*/ = ~*sigh* Paladins have no sense of the balance. They will return forever, no matter how foolish and hopeless their cause.~
+@50 /*Valygar*/ = ~Come, <CHARNAME>, let us clear our names and avoid any more pointless bloodshed.~
+@51 /*Edwin*/ = ~Yes, flee and spread the word of what befalls those who assault Edwin Odesseiron!~
+
+//Conversation with Prelate Wessalen if he's your enemy.
+@52 /*Prelate*/ = ~How dare you enter this place, viper! Prepare to face your doom!~
+@53 /*Anomen*/ = ~Hah, you have persecuted me wrongly, Wessalen, and I have bested your puny knights.~
+@54 /*Anomen*/ = ~The gods favor us. Now surrender and beg for mercy!~
+@55 /*Prelate*/ = ~For the Order!~
+
+//Conversation with the Prelate when he's almost dead.
+@56 /*Prelate*/ = ~You have defeated me in combat, <CHARNAME>. I go to my god with a righteous heart!~
+@57 /*CHARNAME*/ = ~Then die!~
+@58 /*CHARNAME*/ = ~I do not want to kill you! This has all been a giant misunderstanding. We are not your enemy. We spare your life.~
+@59 /*Prelate*/ = ~You spare me? I cannot understand the workings of your mind, villain!~
+@60 /*Prelate*/ = ~Your crimes have not changed and you will find no welcome here. Begone!~
+@61 /*Prelate*/ = ~Run. Run to the farthest corner of the Realms, so that your vile deeds do not force us to hunt you anew.~
+
