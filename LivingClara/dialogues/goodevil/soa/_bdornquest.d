@@ -138,18 +138,18 @@ EXTEND_BOTTOM TALMISS 0 /*Chaos prevail! Do you require the services of Talos?*/
 CHAIN TALMISS _bDornAsksAdaServe1
 	@38 /*Dorn Il-Khan, you are known to us. Did you lose the favor of your master, Ur-Gothoz?*/
 	== DORNJ @39 /*Hah! I slew him and trapped his soul within my sword for all eternity. I did the same with the marilith Azothet, who sought to trick me into her service.*/
-	== TALMISS IF ~OR(3) !Dead("acolyte2") !Dead("scsain") !Dead("dawnmas")~ THEN @40 /*Talos could use your service. I have but one task for you. Go to the Temple of Lathander and slay them all. Return when you are finished.*/
+	== TALMISS IF ~OR(2) !Dead("acolyte2") !Dead("dawnmas")~ THEN @40 /*Talos could use your service. I have but one task for you. Go to the Temple of Lathander and slay them all. Return when you are finished.*/
 	DO ~SetGlobal("_bDornPaladinTalos","GLOBAL",3)~
-	== TALMISS IF ~Dead("acolyte2") Dead("scsain") Dead("dawnmas")~ THEN @41 /*You slew the Temple of Lathander as well. You are a worthy addition. Your wish is granted.*/
+	== TALMISS IF ~Dead("acolyte2") Dead("dawnmas")~ THEN @41 /*You slew the Temple of Lathander as well. You are a worthy addition. Your wish is granted.*/
 	DO ~SetGlobal("_bDornPaladinTalos","GLOBAL",4)~
-	== DORNJ IF ~Dead("acolyte2") Dead("scsain") Dead("dawnmas")~ THEN @42 /*Yes, I feel it! The power of the storm is mine!*/ 
+	== DORNJ IF ~Dead("acolyte2") Dead("dawnmas")~ THEN @42 /*Yes, I feel it! The power of the storm is mine!*/ 
 	DO ~RegainPaladinHood() SetGlobal("_bDornServesTalos","GLOBAL",1)~
-	== TALMISS IF ~Dead("acolyte2") Dead("scsain") Dead("dawnmas")~ THEN @43 /*As long as you don't forget whom you serve. You destroy for the Storm Lord now.*/
+	== TALMISS IF ~Dead("acolyte2") Dead("dawnmas")~ THEN @43 /*As long as you don't forget whom you serve. You destroy for the Storm Lord now.*/
 	== TALMISS @44 /*If there is nothing else... begone!*/
 	EXIT
 	
 EXTEND_BOTTOM TALMISS 0 /*Chaos prevail! Do you require the services of Talos?*/
-	+~Global("_bDornPaladinTalos","GLOBAL",3) IfValidForPartyDialog("Dorn") Dead("acolyte2") Dead("scsain") Dead("dawnmas") FallenPaladin("Dorn")~+ 
+	+~Global("_bDornPaladinTalos","GLOBAL",3) IfValidForPartyDialog("Dorn") Dead("acolyte2") Dead("dawnmas") FallenPaladin("Dorn")~+ 
 	@45 /*The Temple of Lathander is no more.*/ GOTO _bDornAsksAdaServe2
 	END
 
@@ -243,5 +243,3 @@ EXIT
 CHAIN IF ~Global("OHD_vernus_resurrected","OH5120",1) !NumberOfTimesTalkedTo(0)~ THEN OHDVERN _bVernDefault
 @73 /*Hello, <CHARNAME>. Thank you for saving me.*/
 EXIT
-
-	
