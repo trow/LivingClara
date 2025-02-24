@@ -81,6 +81,7 @@ Specifically Viconia requires us to slay:
 @60 /*Viconia*/ = ~Yes. We will ruin their house and send their souls to the abyss.~
 
 //Viconia's Third Ust Natha Dialogue
+@6100 /*Viconia*/ = ~Everything goes perfectly to plan. Now we fetch the real eggs for ourselves, kill the Matron Mother and her daughter, Phaere, and then we walk out, treading atop the bodies of all who dare oppose us.~
 @61 /*Viconia*/ = ~Everything goes perfectly to plan. Swap Phaere's fake eggs with the real eggs, give Solaufein's fake eggs to Phaere, keep the real eggs for ourselves, and then watch House Despana fall.~
 @62 /*Viconia*/ = ~Or if you would prefer, we could steal the dragon's eggs, give Phaere's fake eggs to the Matron Mother and inform her of her daughter's betrayal. Then give the Matron Mother Solaufein's fake eggs, telling her that they're real while keeping the real ones for ourselves.~
 @63 /*Viconia*/ = ~Either way that leaves me pondering a question: what will you do with the real eggs?~
@@ -103,7 +104,7 @@ Specifically Viconia requires us to slay:
 @81 /*CHARNAME*/ = ~Are you going to tell Imrae who you are?~
 @82 /*CHARNAME*/ = ~So this whole time you've been plotting to put your daughter on the throne?~
 @83 /*CHARNAME*/ = ~Nothing more. Let's go put our plans in motion.~
-@84 /*Viconia*/ = ~My entire time on the surface, I had wondered that.~
+@84 /*Viconia*/ = ~My entire time on the surface, I wondered that.~
 @85 /*Viconia*/ = ~I fled my homeland nearly eighty years ago, defying Lolth and leading to the death of my mother and the transformation of my brother, Valas, into a drider.~
 @86 /*Viconia*/ = ~Here in Ust Natha, while you fumbled about, I used my spare time to discover the rest of the story.~
 @87 /*Viconia*/ = ~After my mother's death, my sister, Ginafae, became matron mother. She was always overly ambitious and stupid so it is no surprise that she drove our house into oblivion.~
@@ -116,7 +117,7 @@ Specifically Viconia requires us to slay:
 @94 /*Viconia*/ = ~And despite my worship of Shar, Lolth still gains power from my exertions. I am not truly free of her... I expect I never will be.~
 @95 /*Viconia*/ = ~I suppose it is logical. My wandering inevitably leads to the deaths of those I meet, and since Lolth possesses a piece of my soul, she is able to claim a portion of the souls of my victims.~
 @96 /*Viconia*/ = ~That Imrae still lives shows Lolth's favor as well.~
-@97 /*Viconia*/ = ~Yes, we should find her before the ritual begins. Or perhaps... she will find us.~
+@97 /*Viconia*/ = ~Yes, we should find her before the ritual begins. She will be in the temple.~
 @98 /*Viconia*/ = ~Yes, <CHARNAME>. I do this for power, family, and revenge.~
 @99 /*Viconia*/ = ~Don't look so upset. Our interests are aligned here.~
 @100 /*Viconia*/ = ~There is probably a collector somewhere who would pay for them, but no one would give you more than the eggs' mother or the demon that the drow are summoning.~
@@ -206,7 +207,7 @@ Specifically Viconia requires us to slay:
 @165 /*Viconia*/ = ~If you need my aid again once you have dealt with Irenicus, find a way to call me and I will come.~
 @166 /*Viconia*/ = ~But first let us finish our business with House Despana. Daughter, I would recommend staying well away from the summoning chamber; this will be dangerous.~
 @167 /*Viconia*/ = ~Let us ruin our enemies and bathe in their blood.~
-@168 /*Imrae*/ = ~For House DeVir, mother.~
+@168 /*Imrae*/ = ~For House DeVir, Mother.~
 @169 /*Viconia*/ = ~Thank you, <CHARNAME>.~
 @170 /*Viconia*/ = ~Fifteen days. That should be enough time to deal with our enemies and cement Imrae's rule.~
 @171 /*Viconia*/ = ~After that, I will find you wherever you are. Cut down all our enemies from here to there, <CHARNAME>, so they do not impede my progress.~
@@ -268,19 +269,22 @@ Specifically Viconia requires us to slay:
 //Imrae's Last talk after egg guards have left.
 @218 /*Imrae*/ = ~The audacity of the Matron Mother to staff a Temple of Lolth with her own warriors. No wonder she has lost the Spider Queen's favor.~
 @219 /*Imrae*/ = ~I must gather my priestesses and see to those guards. They will either swear us their obsequence or they will die.~
-@220 /*Imrae*/ = ~For House DeVir, mother.~
+@220 /*Imrae*/ = ~For House DeVir, Mother.~
+
+//Viconia's commment if you don't have the eggs and the Matron Mother is summoning the demon.
+@22001	/*Viconia*/ = ~<CHARNAME>, we are in no position to bargain with this demon without having the eggs ourselves. We should kill the Matron Mother now, before she completes the summoning.~
 
 //Interject into the Demon's talk if you don't give him the eggs and Viconia stays with Imrae.
-@221 /*Viconia*/ = ~I will depart as well. If you need me again once you have dealt with Irenicus, call and I will come. Until then, farewell.~
+@221 /*Viconia*/ = ~I will leave you now to find and aid my daughter. If you need me again once you have dealt with Irenicus, call and I will come. Until then, farewell.~
 @222 /*Viconia*/ = ~Goodbye, <CHARNAME>.~
 @223 /*Viconia*/ = ~And... thank you.~
-@224 /*Viconia*/ = ~I will depart as well. I expect I will need fifteen days to secure Imrae's ascension, and then I will find you.~
+@224 /*Viconia*/ = ~I will leave you now to find and aid my daughter. I expect I will need fifteen days to secure Imrae's ascension, and then I will find you.~
 
 //Viconia gives the eggs to the demon
 @225 /*CHARNAME*/ = ~Viconia, it's time. Make your bargain. Offer the demon the eggs.~
 @226 /*Viconia*/ = ~Oh great Lord of the Nether Pits, I, Viconia of House DeVir, have the real eggs. I offer them to you to in exchange for your aid in battle.~
-@227 /*Demon*/ = ~**IS THAT SO? I SEE WHAT YOU TRULY ARE. A DARKLING PRETENDING TO BE A DARKLING SERVING A CHILD OF BHAAL?**~
-@228 /*Demon*/ = ~**I AM AMUSED. WHO SHALL I DESTROY? **~
+@227 /*Demon*/ = ~**IS THAT SO? I SEE WHAT YOU TRULY ARE. A DARKLING PRETENDING TO BE A DARKLING SERVING A CHILD OF BHAAL.**~
+@228 /*Demon*/ = ~**I AM AMUSED. WHOM SHALL I DESTROY?**~
 @229 /*Viconia*/ = ~First we shall lead you to the silver dragon herself, the mother of those eggs. We shall destroy her so that you may feast upon her flesh.~
 @230 /*Viconia*/ = ~When you have eaten your fill, I shall ask then for a boon. Use your power to harden our adamantine weapons and armor so that they keep their strength under the light of our sun.~
 @231 /*Viconia*/ = ~Once that is accomplished, we shall march to the surface killing all in our path.~

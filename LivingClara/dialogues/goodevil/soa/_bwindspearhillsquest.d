@@ -98,17 +98,13 @@ CHAIN IF WEIGHT #-1 ~Global("_bPrelateSurrenders","GLOBAL",1)~ THEN HPRELATE _bP
 		DO ~SetGlobal("_bPrelateSurrenders","GLOBAL",2)~
 END
 	++ @57 /*Then die!*/ DO ~DestroyItem("MINHP1")~ EXIT 
-	++ @58 /*I do not want to kill you! This has all been a giant misunderstanding. We are not your enemy. We spare your life.*/ GOTO _bPrelateWessalenIsEnemy3
+	+ ~!InParty("_bBodhi")~ + @58 /*I do not want to kill you! This has all been a giant misunderstanding. We are not your enemy. We spare your life.*/ GOTO _bPrelateWessalenIsEnemy3
 
 CHAIN HPRELATE _bPrelateWessalenIsEnemy3
 	@59 /*You spare me? I cannot understand the workings of your mind, villain!*/
 	= @60 /*Your crimes have not changed and you will find no welcome here. Begone!*/
-		DO ~SetGlobal("TempleShout0903","GLOBAL",0) ChangeEnemyAlly(Myself,NEUTRAL)~
+		DO ~SetGlobal("TempleShout0903","GLOBAL",0) SetGlobal("_bPrelateSurrenders","GLOBAL",0) ChangeEnemyAlly(Myself,NEUTRAL) ~
 	= @61 /*Run. Run to the farthest corner of the Realms, so that your vile deeds do not force us to hunt you anew.*/
 EXIT
-
-
-
-
 
 	

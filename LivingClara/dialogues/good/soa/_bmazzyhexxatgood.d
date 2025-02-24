@@ -197,8 +197,8 @@ END
 	++ @84 /*I do not wish to take sides in this fight. You two need to resolve this on your own.*/ GOTO _bMazHexFight4
 	
 APPEND HEXXATJ IF ~~ THEN _bMazHexFight2
-SAY @85 /*No, I will not fight you. I am leaving and none of you will ever see me again.*/
-	IF ~~ THEN DO ~SetGlobal("_bHexxatLeavesForever","GLOBAL",1)~ EXIT
+SAY @85 /*Damn it! This didn't have to happen! [OH81434]*/
+	IF ~~ THEN DO ~SetGlobal("_bHexFight","GLOBAL",1) LeaveParty()~ EXIT
 	END
 END
 
@@ -411,8 +411,8 @@ END
 	++ @84 /*I do not wish to take sides in this fight. You two need to resolve this on your own.*/ GOTO _bMazHexFight4
 	
 APPEND HEXXA25J IF ~~ THEN _bMazHexFight2
-SAY @85 /*No, I will not fight you. I am leaving and none of you will ever see me again.*/
-	IF ~~ THEN DO ~SetGlobal("_bHexxatLeavesForever","GLOBAL",1)~ EXIT
+SAY @85 /*Damn it! This didn't have to happen! [OH81434]*/
+	IF ~~ THEN DO ~SetGlobal("_bHexFight","GLOBAL",1) LeaveParty()~ EXIT
 	END
 END
 

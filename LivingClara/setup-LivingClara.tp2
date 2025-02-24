@@ -21,8 +21,6 @@ ALWAYS
       OUTER_SPRINT name_source ~bg2_chapter_%i%~
       OUTER_SET EVAL ~%name_source%~ = bg2_chapter //store adjusted chapter numbers in %bg_chapter_#% variables for use in .baf/.d scripts (e.g., %bg_chapter_1% will evaluate to 13 for EET and to 1 otherwise). This only works if you add the EVALUATE BUFFER code when compiling files with chapter triggers. See below.
     END
-	ACTION_DEFINE_ARRAY x#reload BEGIN setup END
-	ACTION_DEFINE_ARRAY x#noconvert BEGIN install END
   END
 END
 
@@ -45,14 +43,14 @@ UNLESS ~CD_STATE_NOTVALID~
 
 //Code to give Wilson proper dialogue files, courtesy of LavaDelVortel so our mods don't conflict
 ACTION_IF FILE_EXISTS_IN_GAME ~wilson.dlg~ THEN BEGIN
-// PRINT @137 /*Wilson detected - Wilson interdia.2da append - set Wilsons's banter file (BWILSON & BWILSO25)*/ //PRINT ~~ lets you add visible text to the Weidu setup. Can be tra-ified just like anything else.
+ PRINT @137 /*Wilson detected - Wilson interdia.2da append - set Wilsons's banter file (BWILSON & BWILSO25)*/ //PRINT ~~ lets you add visible text to the Weidu setup. Can be tra-ified just like anything else.
     APPEND ~interdia.2da~ ~WILSON BWILSON BWILSO25~
     UNLESS ~WILSON~
-//	
-//	COPY_EXISTING ~pdialog.2da~ ~override~
-//  REPLACE_TEXTUALLY ~^[ %TAB%]*WILSON[ %TAB%].+$~
-//                    ~WILSON                 WILSONP                WILSONJ                WILSOND                WILSO25P               WILSO25J               WILSO25D               WILSON25~
-//BUT_ONLY_IF_IT_CHANGES //This stops Weidu from repeating the action if another mod already installed Wilson's files
+	
+	COPY_EXISTING ~pdialog.2da~ ~override~
+  REPLACE_TEXTUALLY ~^[ %TAB%]*WILSON[ %TAB%].+$~
+                    ~WILSON                 WILSONP                WILSONJ                WILSOND                WILSO25P               WILSO25J               WILSO25D               WILSON25~
+BUT_ONLY_IF_IT_CHANGES //This stops Weidu from repeating the action if another mod already installed Wilson's files
 
 //Dialogue Files
    ACTION_IF NOT (FILE_EXISTS_IN_GAME ~BWILSON.dlg~) THEN BEGIN
@@ -226,7 +224,7 @@ SAY DESC @73 /*This ability allows Clara to create 15 poisonous Arrows of Biting
 
 COPY ~LivingClara/Clara/new-stuff/_BFIRE.spl~ ~override~ 
 SAY NAME1 @105 /*Set Fireball Trap*/
-SAY DESC @106 /*This ability allows Clara to create a Fireball trap that will stay in position until someone walks too close. Friend or foe, the Fireball will then explode for massive damage.*/
+SAY UNIDENTIFIED_DESC @106 /*This ability allows Clara to create a Fireball trap that will stay in position until someone walks too close. Friend or foe, the Fireball will then explode for massive damage.*/
 
 COPY ~LivingClara/Clara/new-stuff/_BGlove.itm~ ~override~
 SAY NAME1 @74 /*Clara's Jansen Techno-Gloves*/

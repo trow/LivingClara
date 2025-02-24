@@ -1363,6 +1363,7 @@ END
 
 IF
 	Global("_bMazzyTalk","GLOBAL",2)
+	CombatCounter(0)
 THEN
 	RESPONSE #100
 	PlaySong(0)
@@ -1506,12 +1507,12 @@ THEN
 END
 
 
-//All the pre-romance talk triggers
+//All the pre-romance talk triggers- deactivated
+/*
 IF
 	InParty("Imoen2") 
 	InParty("Mazzy")
 	Global("_bImoenMazzyRomance","GLOBAL",1)
-	Global("bImMazCrushTalk","GLOBAL",0)
 THEN
 	RESPONSE #100
 	SetGlobal("bImMazCrushTalk","GLOBAL",1)
@@ -1540,7 +1541,7 @@ THEN
 	RESPONSE #100
 	StartDialogNoSet(Player1)
 END
-
+*/
 
 //Code to make Guard Captain Appear if doesn't existing
 IF

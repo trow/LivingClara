@@ -349,7 +349,7 @@ DO ~SetGlobal("_bMDT2","GLOBAL",3)~
 == MAZZYJ @158 /*It sounds horrible.*/
 == PLAYER1 @159 /*Sometimes he used spells to hurt us; other times he cut into us with knives. Everytime I fell unconscious, I would wake up fully healed and then he would start again.*/
 END
-	++ @160 /*I am going to find him and kill him. Then I will sleep well again.*/ EXTERN MAZZYJ _bMazfriend50
+	+ ~Dead("shadel")~ + @160 /*I am going to find him and kill him. Then I will sleep well again.*/ EXTERN MAZZYJ _bMazfriend50
 	++ @161 /*I have to know what he wanted, Mazzy. What did he hope to learn from me and my blood? And how can I unlock this power for myself?*/ EXTERN MAZZYJ _bMazfriend51
 	++ @162 /*I do not believe that Spellhold will be able to hold him. He will escape from the Cowled Wizards and start his tortures once again. I must rescue Imoen as soon as we can.*/ EXTERN MAZZYJ _bMazfriend52
 	
@@ -447,13 +447,13 @@ APPEND MAZZYJ IF WEIGHT #-1 ~Global("_bmazzyShadeLT","GLOBAL",1) Global("_bmazzy
 	IF ~~ THEN _bmazshade2
 	SAY @203 /*He's here. The Shade Lord is here.*/
 	++ @204 /*No, he isn't. All I see is you.*/ GOTO _bmazshade3
-	++ @205 /*I don't understand. We destroyed him.*/ GOTO _bmazshade3
+	+ ~Dead("shadel")~ + @205 /*I don't understand. We destroyed him.*/ GOTO _bmazshade3
 	++ @206 /*Great. Hallucinations. That's all I need right now.*/ GOTO _bmazshade3
 	++ @207 /*Where? Show me and I'll kill him!*/ GOTO _bmazshade3
 	END
 	
 	IF ~~ THEN _bmazshade3
-	SAY @208 /*I thought he was destroyed, but he's inside of me.*/
+	SAY @208 /*I thought I was free of him, but he's inside of me.*/
 	= @209 /*I must face him or I will perish. To aid me, please call upon all your power and sit here next to me. Your presence will help. Focus your attention, energy, and compassion upon me and do not cease doing so until I give the word.*/
 	++ @210 /*Of course, Mazzy. I am here for you.*/ GOTO _bmazshade4
 	++ @211 /*I'd prefer to punch something, but I will try to help.*/ GOTO _bmazshade4
@@ -686,7 +686,7 @@ SAY @296 /*I am alive! Praise Arvoreen!*/
 	END
 	
 	IF ~~ THEN _bmazshade11
-	SAY @301 /*It was the Shade Lord. If you remember, he was planning on possessing my body when you saved me. However, what I did not realize is that he had already placed a piece of his soul inside of me and that piece continued to grow and thrive even after he was destroyed.*/
+	SAY @301 /*It was the Shade Lord. If you remember, he was planning on possessing my body when you saved me. However, what I did not realize is that he had already placed a piece of his soul inside of me and that piece continued to grow and thrive even after I escaped his clutches.*/
 	= @302 /*Thankfully it is gone now and I should be able to recover. Give me another few minutes and I will be ready to continue our journey.*/
 	IF ~~ THEN DO ~SetGlobal("_bmazzyShadeLT","GLOBAL",3) SetGlobal("_bMazzyBeatShadeLordExtra","GLOBAL",2)~ EXIT
 	END

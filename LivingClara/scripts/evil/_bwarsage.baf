@@ -53,7 +53,7 @@ THEN
 	ChangeEnemyAlly(Myself,NEUTRAL)
 	Continue()
 END
-
+	
 IF
 	Global("_bElhantalksingraveyard","GLOBAL",2)
 	Global("_bDrowAttackElves","GLOBAL",4)

@@ -236,7 +236,7 @@
 @205 /*CHARNAME*/ = ~I don't understand. We destroyed him.~
 @206 /*CHARNAME*/ = ~Great. Hallucinations. That's all I need right now.~
 @207 /*CHARNAME*/ = ~Where? Show me and I'll kill him!~
-@208 /*Mazzy*/ = ~I thought he was destroyed, but he's inside of me.~
+@208 /*Mazzy*/ = ~I thought I was free of him, but he's inside of me.~
 @209 /*Mazzy*/ = ~I must face him or I will perish. To aid me, please call upon all your power and sit here next to me. Your presence will help. Focus your attention, energy, and compassion upon me and do not cease doing so until I give the word.~
 @210 /*CHARNAME*/ = ~Of course, Mazzy. I am here for you.~
 @211 /*CHARNAME*/ = ~I'd prefer to punch something, but I will try to help.~
@@ -336,7 +336,7 @@
 @298 /*CHARNAME*/ = ~So are you finally ready to tell me what was going on?~
 @299 /*CHARNAME*/ = ~I'm glad that you're all right. Do you remember what happened?~
 @300 /*CHARNAME*/ = ~Yes, yes, we raised you. Now what was that about?~
-@301 /*Mazzy*/ = ~It was the Shade Lord. If you remember, he was planning on possessing my body when you saved me. However, I did not realize that he had already placed a piece of his soul inside of me and that piece continued to grow and thrive even after he was destroyed.~
+@301 /*Mazzy*/ = ~It was the Shade Lord. If you remember, he was planning on possessing my body when you saved me. However, what I did not realize is that he had already placed a piece of his soul inside of me and that piece continued to grow and thrive even after I escaped his clutches.~
 @302 /*Mazzy*/ = ~Thankfully it is gone now and I should be able to recover. Give me another few minutes and I will be ready to continue our journey.~
 
 //Irenicus/Elf Queen Talk

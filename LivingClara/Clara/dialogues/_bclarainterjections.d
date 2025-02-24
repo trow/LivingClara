@@ -435,11 +435,6 @@ CHAIN _BCLA25J _bClaraVolo2
 @141 /*My good sir, you flatter me. I do not deserve your words, but I am glad to hear them. (I better make sure this guy survives. A girl can't turn down such good publicity.)*/
 EXTERN SARVOLO 9
 
-//Saradush Harlot
-INTERJECT_COPY_TRANS2 HAERD25J 14 _bClaraDove /*This fair white dove must sully herself to survive these bitter times.*/
-	== _BCLA25J IF ~IfValidForPartyDialog("_bClara")~ THEN @142 /*Shut it, will you? You don't know this woman's story and your judgment doesn't help.*/
-END
-
 //Saradush Hectan
 INTERJECT_COPY_TRANS2 SARTHF1 13 _bClaraHectan /*I must think hard on this before I use the scroll.*/
 	== _BCLA25J IF ~IfValidForPartyDialog("_bClara")~ THEN @143 /*Aww, why'd you have to tell him. He deserves to splat for being a bad thief.*/

@@ -1,3 +1,5 @@
+/* Mazzyhostile for if Mazzy's not in your party. Seemed excessive so I turned it off.
+
 IF //Script for if Mazzy goes hostile.
 OR(2)
 	Allegiance("Mazzy",ENEMY)
@@ -30,6 +32,7 @@ THEN
 	Continue()
 END
 
+
 IF //End of hostilities. Turn everyone selectable again. Script is here because being unselectable turns off script files.
 	Global("_bMazzyHostile","GLOBAL",5)
 	Global("_bMazzyFightOver","GLOBAL",0)
@@ -45,6 +48,18 @@ THEN
 	SetGlobal("_bMazzyFightOver","GLOBAL",1)
 	Continue()
 END
+*/
+
+
+//Reset Trigger for Mazzy Hostile if she's not in your party.
+IF
+	!InParty("Mazzy")
+	!Global("_bMazzyHostile","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bMazzyHostile","GLOBAL",0)
+END
+
 
 IF //Korgan if Mazzy dies while he's hostile. Dialogue trigger in Korgan.baf
 	Global("_bMazzyHostile","GLOBAL",4)

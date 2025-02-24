@@ -95,6 +95,7 @@ END
 	++ @12 /*Of course. I promise to free you.*/ DO ~SetGlobal("_bCNRapesDryads","GLOBAL",4)~ EXIT
 	++ @13 /*Eventually, yes, but first I think I'm ready for another round.*/ DO ~SetGlobal("_bCNRapesDryads","GLOBAL",1)~ EXIT
 	+ ~InMyArea("Jaheira") InParty("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ + @14 /*Jaheira, there's no need to just watch. Come join in the fun!*/ DO ~SetGlobal("_bCNRapesDryads","GLOBAL",5)~ EXTERN JAHEIRAJ _bCNRDMerge2
+	+ ~Global("HelpDjinni","GLOBAL",1)~ + @1310 /*I will help you if you will help me. I am looking for a flask in order to free a djinni who is trapped in the Plane of Air. Have you seen one?*/ EXTERN IDRYAD2 8
 	
 CHAIN IF WEIGHT #-1 ~OR(2) Global("_bCNRapesDryads","GLOBAL",3) Global("_bCNRapesDryads","GLOBAL",4)~ THEN IDRYAD2 _bCNRapesDryad2Merge
 	@10 /*We have done as you ask, will you free us now?*/
@@ -105,6 +106,7 @@ END
 	++ @12 /*Of course. I promise to free you.*/ DO ~SetGlobal("_bCNRapesDryads","GLOBAL",4)~ EXIT
 	++ @13 /*Eventually, yes, but first I think I'm ready for another round.*/ DO ~SetGlobal("_bCNRapesDryads","GLOBAL",1)~ EXIT
 	+ ~InMyArea("Jaheira") InParty("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ + @14 /*Jaheira, there's no need to just watch. Come join in the fun!*/ DO ~SetGlobal("_bCNRapesDryads","GLOBAL",5)~ EXTERN JAHEIRAJ _bCNRDMerge2
+	+ ~Global("HelpDjinni","GLOBAL",1)~ + @1310 /*I will help you if you will help me. I am looking for a flask in order to free a djinni who is trapped in the Plane of Air. Have you seen one?*/ EXTERN IDRYAD2 8
 	
 CHAIN IF WEIGHT #-1 ~OR(2) Global("_bCNRapesDryads","GLOBAL",3) Global("_bCNRapesDryads","GLOBAL",4)~ THEN IDRYAD3 _bCNRapesDryad3Merge
 	@10 /*We have done as you ask, will you free us now?*/
@@ -115,6 +117,7 @@ END
 	++ @12 /*Of course. I promise to free you.*/ DO ~SetGlobal("_bCNRapesDryads","GLOBAL",4)~ EXIT
 	++ @13 /*Eventually, yes, but first I think I'm ready for another round.*/ DO ~SetGlobal("_bCNRapesDryads","GLOBAL",1)~ EXIT
 	+ ~InMyArea("Jaheira") InParty("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ + @14 /*Jaheira, there's no need to just watch. Come join in the fun!*/ DO ~SetGlobal("_bCNRapesDryads","GLOBAL",5)~ EXTERN JAHEIRAJ _bCNRDMerge2
+	+ ~Global("HelpDjinni","GLOBAL",1)~ + @1310 /*I will help you if you will help me. I am looking for a flask in order to free a djinni who is trapped in the Plane of Air. Have you seen one?*/ EXTERN IDRYAD2 8
 
 
 CHAIN IF ~InMyArea("Jaheira") InParty("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID) Global("_bCNRapesDryads","GLOBAL",5)~ THEN JAHEIRAJ _bCNRDMerge2

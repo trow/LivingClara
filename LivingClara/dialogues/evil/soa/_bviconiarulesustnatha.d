@@ -114,7 +114,14 @@ CHAIN VICONIJ _bKillJaellatForVicci1
 EXIT
 
 
-//Viconia's third talk about Ust Natha
+//Viconia's third talk about Ust Natha. If Solaufein is dead.
+APPEND VICONIJ IF WEIGHT #-1 ~Global("_bViconiaTalksUstNatha3SolDead","GLOBAL",1)~ THEN _bViconiaUstNathaTalkSolDead3
+	SAY @6100 /*Everything goes perfectly to plan. Now we fetch the real eggs for ourselves, kill the Matron Mother and her daughter, Phaere, and then we walk out, treading atop the bodies of all who dare oppose us.*/
+IF ~~ THEN DO ~SetGlobal("_bViconiaTalksUstNatha3SolDead","GLOBAL",2)~ GOTO _bCNWantsReturnEggs1
+	END
+END
+
+//Viconia's third talk about Ust Natha. If you have Solaufein's eggs.
 CHAIN IF WEIGHT #-1 ~Global("_bViconiaTalksUstNatha3","GLOBAL",1)~ THEN VICONIJ _bViconiaUstNathaTalk3
 @61 /*Everything goes perfectly to plan. Swap Phaere's fake eggs with the real eggs, give Solaufein's fake eggs to Phaere, keep the real eggs for ourselves, and then watch House Despana fall.*/
 	DO ~SetGlobal("_bViconiaTalksUstNatha3","GLOBAL",2)~
@@ -169,7 +176,7 @@ END
 	/*Journal Update: Viconia's plans are starting to grow clear. After we defeated House Jae'llat, Viconia revealed that she hopes to put her daughter, Imrae DeVir, in charge of Ust Natha. For this to succeed, however, we still need to ruin House Despana's attempt at demon summoning.*/
 
 APPEND VICONIJ IF ~~ THEN _bCNasksabouthousedevir1
-	SAY @84 /*My entire time on the surface, I had wondered that.*/
+	SAY @84 /*My entire time on the surface, I wondered that.*/
 	= @85 /*I fled my homeland nearly eighty years ago, defying Lolth and leading to the death of my mother and the transformation of my brother, Valas, into a drider.*/
 	= @86 /*Here in Ust Natha, while you fumbled about, I used my spare time to discover the rest of the story.*/
 	= @87 /*After my mother's death, my sister, Ginafae, became matron mother. She was always overly ambitious and stupid so it is no surprise that she drove our house into oblivion.*/
@@ -192,7 +199,7 @@ APPEND VICONIJ IF ~~ THEN _bCNasksaboutLolth1
 END
 
 APPEND VICONIJ IF ~~ THEN _bCNasksaboutImrae5
-	SAY @97 /*Yes, we should find her before the ritual begins. Or perhaps... she will find us.*/
+	SAY @97 /*Yes, we should find her before the ritual begins. She will be in the temple.*/
 	IF ~~ THEN GOTO _bCNasksdevirquestions1
 	END
 END
@@ -333,12 +340,12 @@ APPEND VICONIJ IF WEIGHT #-1 ~Global("_bViconiaMeetsImraeInTemple","GLOBAL",1)~ 
 		IF ~~ THEN DO ~SetGlobal("_bViconiaMeetsImraeInTemple","GLOBAL",2)~ EXTERN UDIMRAE _bViconiaSpeaksWithImraeSecondTime1
 	END
 END
-	
 
 //Viconia's talk with Imrae, either in temple or outside
-CHAIN  UDIMRAE _bViconiaSpeaksWithImraeSecondTime1
+CHAIN UDIMRAE _bViconiaSpeaksWithImraeSecondTime1
 	@132 /*Lolth tells me you wish to speak with me and that I should listen. Is it time then?*/
 		= @133 /*Is this her design? To summon a demon and bring about the rise of House Despana?*/
+	DO ~SetGlobal("_bViconiaMeetsImraeInTemple","GLOBAL",2)~
 	== VICONIJ @134 /*Who knows what Lolth desires? We are all just pieces in her game.*/
 		= @135 /*I care not for her designs and certainly not for House Despana.*/
 		= @136 /*I am here to see you...*/
@@ -381,7 +388,7 @@ CHAIN VICONIJ _bViconiaStaywithImrae1
 		= @166 /*But first let us finish our business with House Despana. Daughter, I would recommend staying well away from the summoning chamber; this will be dangerous.*/
 		= @167 /*Let us ruin our enemies and bathe in their blood.*/
 		DO ~SetGlobal("_bViconiaReadyToGiveEggs","GLOBAL",1) SetGlobal("_bViconiaStaysImrae","GLOBAL",1) AddJournalEntry(@10003,QUEST_DONE)~
-	== UDIMRAE @168 /*For House DeVir, mother.*/
+	== UDIMRAE @168 /*For House DeVir, Mother.*/
 EXIT
 	
 CHAIN VICONIJ _bViconiaWithImraeShort1
@@ -428,7 +435,6 @@ CHAIN VICONIJ _bViconiaNotGoImraeDemon1
 		= @181 /*But I will do so as Viconia of House DeVir and all will know that you are mine. Your power here will be secure.*/
 		= @177 /*Come, <CHARNAME>, let us finish our business with House Despana.*/
 		= @178 /*My daughter, I would recommend staying well away from the summoning chamber; this will be dangerous.*/
-	== UDIMRAE @179 /*I will lay the foundation of our ascension, but it will wait until I see you again.*/
 		DO ~SetGlobal("_bViconiaReadyToGiveEggs","GLOBAL",1) SetGlobal("_bViconiaNoStayImrae","GLOBAL",1) AddJournalEntry(@10003,QUEST_DONE)~
 	== UDIMRAE @168 /*For House DeVir, mother.*/
 EXIT
@@ -499,26 +505,31 @@ CHAIN IF WEIGHT #-1 ~Global("_bViconiaMeetsImraeInTemple","GLOBAL",11)~ THEN UDI
 	@218 /*The audacity of the Matron Mother to staff a Temple of Lolth with her own warriors. No wonder she has lost the Spider Queen's favor.*/ 
 		DO ~SetGlobal("_bViconiaMeetsImraeInTemple","GLOBAL",12)~
 	= @219 /*I must gather my priestesses and see to those guards. They will either swear us their obsequence or they will die.*/
-	= @220 /*For House DeVir, mother.*/
+	= @220 /*For House DeVir, Mother.*/
 EXIT
 
-//Interject into the Demon's talk if you don't give him the eggs and Viconia stays with Imrae.
-INTERJECT_COPY_TRANS2 UDDEMON 21 _bDemonNoEggsViconiaStaysWithImrae1 /*** SO BE IT. MORTALS ARE EVER FOOLS. ***/
-	== VICONIJ IF ~Global("_bViconiaStaysImrae","GLOBAL",1) IfValidForPartyDialogue("Viconia")~ THEN 
-		@221 /*I will depart as well. If you need me again once you have dealt with Irenicus, call and I will come. Until then, farewell.*/ 
-		= @222 /*Goodbye, <CHARNAME>.*/
-		= @223 /*And... thank you.*/
-		DO ~SetGlobal("KickedOut","LOCALS",1) LeaveParty() EscapeArea()~
+//Viconia's Comment After the Matron Mother begins her ritual if you don't have the real eggs.
+APPEND VICONIJ IF WEIGHT #-1 ~Global("_bViconiaSaysNoSummonDemon","GLOBAL",1)~ THEN _bViconiaSaysNoSummonDemon1
+	SAY @22001 /*<CHARNAME>, we are in no position to bargain with this demon without having the eggs ourselves. We should kill the Matron Mother now, before she completes the summoning.*/
+	IF ~~ THEN DO ~SetGlobal("_bViconiaSaysNoSummonDemon","GLOBAL",2)~ EXIT
+	END
 END
 
+//After the Demon's talk if you don't give him the eggs and Viconia stays with Imrae.
+CHAIN IF WEIGHT #-1 ~Global("_bViconiaStaysImraeDialogue","GLOBAL",1) IfValidForPartyDialogue("Viconia")~ THEN VICONIJ _bViconiaStaysImraeDialogue1
+	@221 /*I will leave you now to find and aid my daughter. If you need me again once you have dealt with Irenicus, call and I will come. Until then, farewell.*/ 
+	= @222 /*Goodbye, <CHARNAME>.*/
+	= @223 /*And... thank you.*/
+		DO ~SetGlobal("_bViconiaStaysImraeDialogue","GLOBAL",2) SetGlobal("KickedOut","LOCALS",1) LeaveParty() EscapeArea()~
+EXIT
+
 //Interject into the Demon's talk if you don't give him the the eggs and Viconia stays with Imrae for a short time.
-INTERJECT_COPY_TRANS2 UDDEMON 21 _bDemonNoEggsViconiaStaysWithImraeShort1 /*** SO BE IT. MORTALS ARE EVER FOOLS. ***/
-	== VICONIJ IF ~Global("_bViconiaStaysImraeShort","GLOBAL",1)~ THEN 
-		@224 /*I will depart as well. I expect I will need fifteen days to secure Imrae's ascension, and then I will find you.*/
-		= @222 /*Goodbye, <CHARNAME>.*/
-		= @223 /*And... thank you.*/
-		DO ~SetGlobal("_bViconiaStaysImraeShort","GLOBAL",2)~
-END
+CHAIN IF WEIGHT #-1 ~Global("_bViconiaStaysImraeShortDialogue","GLOBAL",1) IfValidForPartyDialogue("Viconia")~ THEN VICONIJ _bViconiaStaysImraeShortDialogue1
+	@224 /*I will leave you now to find and aid my daughter. I expect I will need fifteen days to secure Imrae's ascension, and then I will find you.*/
+	= @222 /*Goodbye, <CHARNAME>.*/
+	= @223 /*And... thank you.*/
+		DO ~SetGlobal("_bViconiaStaysImraeShortDialogue","GLOBAL",2) SetGlobal("_bViconiaStaysImraeShort","GLOBAL",2)~
+EXIT
 
 //Adding an option for Viconia to give the eggs to the Demon
 EXTEND_TOP UDDEMON 20 /*** NOW... IT SEEMS THERE ARE NO *ACTUAL* DRAGON EGGS TO BE HAD. A PITY. UNLESS THERE IS A BETTER OFFER, I SHALL DEPART. ***/
@@ -539,8 +550,8 @@ END
 CHAIN VICONIJ _bViconiaOffersEggsToDemon1
 @226 /*Oh great Lord of the Nether Pits, I, Viconia of House DeVir, have the real eggs. I offer them to you to in exchange for your aid in battle.*/
 	DO ~SetGlobalTimer("udEscape","GLOBAL",TWENTY_DAYS) SetGlobal("udDrowPlot","GLOBAL",888)~
-	== UDDEMON @227 /***IS THAT SO? I SEE WHAT YOU TRULY ARE. A DARKLING PRETENDING TO BE A DARKLING SERVING A CHILD OF BHAAL?***/
-		= @228 /***I AM AMUSED. WHO SHALL I DESTROY? ***/
+	== UDDEMON @227 /***IS THAT SO? I SEE WHAT YOU TRULY ARE. A DARKLING PRETENDING TO BE A DARKLING SERVING A CHILD OF BHAAL.***/
+		= @228 /***I AM AMUSED. WHOM SHALL I DESTROY?***/
 	== VICONIJ @229 /*First we shall lead you to the silver dragon herself, the mother of those eggs. We shall destroy her so that you may feast upon her flesh.*/
 		= @230 /*When you have eaten your fill, I shall ask then for a boon. Use your power to harden our adamantine weapons and armor so that they keep their strength under the light of our sun.*/
 		= @231 /*Once that is accomplished, we shall march to the surface killing all in our path.*/
@@ -582,7 +593,7 @@ EXIT
 //Demon talking to the dragon.
 CHAIN IF WEIGHT #-1 ~Global("_bDemonWalks","GLOBAL",9)~ THEN UDDEMON _bDemonLordMeetsDragon1
 @246 /***I SEE YOU, HATED SILVER. I HAVE FEASTED ON YOUR CHILD. NOW PREPARE TO MEET YOUR DOOM.***/
-		DO ~SetGlobal("_bDemonWalks","GLOBAL",10)~
+		DO ~SetGlobal("_bDemonWalks","GLOBAL",10) ApplySpell(Myself,WIZARD_STONE_SKIN)~
 	== UDSILVER @247 /*You show amazing gall to come here! Have you the fortitude to stand before me after consuming my egg?! I sensed its death!*/
 		= @248 /*I will destroy you before you hurt any more of my children!*/
 	== UDDEMON @249 /***NOTHING CAN STAND BEFORE ME!***/
@@ -592,20 +603,20 @@ EXIT
 //2nd Demon dialogue
 CHAIN IF WEIGHT #-1 ~Global("_bDemonWalks","GLOBAL",11)~ THEN UDDEMON _bDemonLordMeetsDragon2
 @250 /***YOU RESIST ME? IMPOSSIBLE!***/
-	DO ~ApplySpell(Myself,HEAL_NO_VISUAL) SetGlobal("_bDemonWalks","GLOBAL",12) ReallyForceSpell("udsilver",CLERIC_FLAME_STRIKE)~
+	DO ~ApplySpell(Myself,WIZARD_STONE_SKIN) ApplySpell(Myself,HEAL_NO_VISUAL) SetGlobal("_bDemonWalks","GLOBAL",12) ReallyForceSpell("udsilver",CLERIC_FLAME_STRIKE)~
 EXIT
 
 //3rd Demon dialogue
 CHAIN IF WEIGHT #-1 ~Global("_bDemonWalks","GLOBAL",13)~ THEN UDDEMON _bDemonLordMeetsDragon3
 @251 /***SHE IS TOO POWERFUL! I SHALL DEPART***/	
-	DO ~SetGlobal("_bDemonWalks","GLOBAL",14) ApplySpell(Myself,HEAL_NO_VISUAL)~ 
+	DO ~SetGlobal("_bDemonWalks","GLOBAL",14) ApplySpell(Myself,WIZARD_STONE_SKIN) ApplySpell(Myself,HEAL_NO_VISUAL)~ 
 	== VICONIJ IF ~IfValidForPartyDialog("Viconia")~ THEN @252 /*Kl'eril! Rath'arg! Flee in fear then! We shall win this battle without you!*/
 	== UDDEMON @253 /***GOODBYE, FALSE DARKLINGS.***/
 EXIT
 
 CHAIN IF WEIGHT #-1 ~Global("_bDemonWalks","GLOBAL",14) Global("_bDemonPanics","GLOBAL",1)~ THEN UDDEMON _bDemonLordMeetsDragon4
 	@25300 /***NO! THE SILVER'S MAGIC HAS TRAPPED ME IN THIS CAVE!***/
-		DO ~ApplySpell(Myself,HEAL_NO_VISUAL)~
+		DO ~ApplySpell(Myself,WIZARD_STONE_SKIN) ApplySpell(Myself,HEAL_NO_VISUAL)~
 	== UDSILVER @25301 /*You cannot leave by any means, demon. You will die here with your puppets!*/
 		DO ~SetGlobal("_bDemonPanics","GLOBAL",2) Enemy()~
 	== UDDEMON @25302 /***BHAALSPAWN! VICONIA! HELP! DO SOMETHING BEFORE SHE DESTROYS US ALL!***/
@@ -632,7 +643,7 @@ CHAIN IF WEIGHT #-1 ~Global("_bDemonWalks","GLOBAL",18)~ THEN UDDEMON _bDemonLor
 @263 /***I AM SATIATED. AS I FEASTED UPON THE SILVER, I GAINED THE LOCATION OF THE EXIT. I SHALL LEAD YOU TO IT.***/
 	DO ~SetGlobal("_bDemonWalks","GLOBAL",19)~
 	= @264 /***BUT FIRST MY BOON. AS PROMISED ALL YOUR DROW WEAPONS AND ARMOR WILL WITHSTAND THE LIGHT OF THE SUN. WITH MY POWER, I GRANT YOU THIS.***/
-		DO ~SetGlobal("DROWITEMCHECKDONE","GLOBAL",1) SetGlobal("oh_drow_items_safe","GLOBAL",1) CreateVisualEffectObject("Spcrtwpn",Player1) CreateVisualEffectObject("Spcrtwpn",Player2) CreateVisualEffectObject("Spcrtwpn",Player3) CreateVisualEffectObject("Spcrtwpn",Player4) CreateVisualEffectObject("Spcrtwpn",Player5) CreateVisualEffectObject("Spcrtwpn",Player6)~
+		DO ~SetGlobal("DROWITEMCHECKDONE","GLOBAL",999) SetGlobal("oh_drow_items_safe","GLOBAL",1) CreateVisualEffectObject("Spcrtwpn",Player1) CreateVisualEffectObject("Spcrtwpn",Player2) CreateVisualEffectObject("Spcrtwpn",Player3) CreateVisualEffectObject("Spcrtwpn",Player4) CreateVisualEffectObject("Spcrtwpn",Player5) CreateVisualEffectObject("Spcrtwpn",Player6)~
 	= @265 /***NOW TO THE EXIT. KEEP PACE, LITTLE ONES.***/
 EXIT
 

@@ -15,6 +15,7 @@
 @111 /*IDryad2*/ = ~Please, we need your help!~
 @12 /*CHARNAME*/ = ~Of course. I promise to free you.~
 @13 /*CHARNAME*/ = ~Eventually, yes, but first I think I'm ready for another round.~
+@1310 /*CHARNAME*/ = ~I will help you if you will help me. I am looking for a flask in order to free a djinni who is trapped in the Plane of Air. Have you seen one?~
 @14 /*CHARNAME*/ = ~Jaheira, there's no need to just watch. Come join in the fun! I'm ready to go again.~
 @1410 /*Jaheira*/ = ~While you were forcing these poor creatures to pleasure you, I was scouting an exit. Goodbye, <CHARNAME>. Nature will prevail.~
 @15 /*IDryad1*/ = ~She took our acorns!~

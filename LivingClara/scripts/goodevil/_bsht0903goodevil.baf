@@ -5,8 +5,8 @@ IF
 		Global("FollowGarren","GLOBAL",1)
 		Global("FollowedGarren","GLOBAL",1)
 	Global("TempleShout0903","GLOBAL",0)
-	Global("_bPrelateSurrenders","GLOBAL",0)
 	See([PC])
+	Global("_bPrelateYourEnemy","GLOBAL",0)
 THEN
 	RESPONSE #100
 	SetGlobal("TempleShout0903","GLOBAL",1)
@@ -60,7 +60,6 @@ IF
 	Allegiance(Myself,ENEMY)
 	HPLT(Myself,10)
 	Global("_bPrelateSurrenders","GLOBAL",0)
-	!IfValidForPartyDialog("_bBodhi")
 THEN
 	RESPONSE #100
 	ClearAllActions()

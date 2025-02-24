@@ -300,5 +300,16 @@ THEN
 	ClearAllActions()
 END		
 
+//Code in graveyard.
+IF
+	AreaCheck("AR0800")
+	!Allegiance(Myself,NEUTRAL)
+	OR(2)
+		Name("c6warsa1",Myself)
+		Name("c6warsa2",Myself)
+THEN
+	RESPONSE #100
+	ChangeEnemyAlly(Myself,NEUTRAL)
+	Continue()
+END
 
-	

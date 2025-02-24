@@ -243,3 +243,5 @@ EXIT
 CHAIN IF ~Global("OHD_vernus_resurrected","OH5120",1) !NumberOfTimesTalkedTo(0)~ THEN OHDVERN _bVernDefault
 @73 /*Hello, <CHARNAME>. Thank you for saving me.*/
 EXIT
+
+	

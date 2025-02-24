@@ -92,18 +92,18 @@
 @78 /*Neera*/ = ~Let the poor girl stay, <CHARNAME>. Sending her away now won't make this better. I don't know what I ever saw in you.~
 @79 /*Neera*/ = ~It's too late to make this better, <CHARNAME>. I don't know what I ever saw in you.~
 
-//Nalia - if romance~
+//Nalia - if romance
 @80 /*Nalia*/ = ~Is this how you help the poor and innocent? You threaten this girl until she agrees to give herself to you?~
 @81 /*Nalia*/ = ~You are a bully and a... a ruffian! I will have nothing more to do with you.~
 
-//Anomen if had sex~
+//Anomen if had sex
 @82 /*Anomen*/ = ~My love, I am confused. You will take Clara to your bed... Do you no longer want me?~
 @83 /*CN*/ = ~Of course I want you, silly. I'm taking her to *our* bed. We will share.~
 @84 /*CN*/ = ~Yes. I'm sorry, Anomen, but I'm with Clara now.~
 @85 /*Anomen*/ = ~Share her? I had never considered this possibility. Very well, my love, whatever makes you happy. But I will cast cure disease first; there's no telling what horrible poxes someone like her might have.~
 @86 /*Anomen*/ = ~I cannot believe that, my love. I know what you felt for me was real, and I shall continue to pursue you.~
 
-//Anomen - romance just beginning~
+//Anomen - romance just beginning
 @87 /*Anomen*/ = ~I am confused, my lady. You are taking Clara to your bed. Does this mean that you are not interested in men?~
 @88 /*CN*/ = ~Of course I like men, Anomen, don't worry. I just like women too.~
 @89 /*CN*/ = ~I love men! I just don't like you, Anomen. So please stop bothering me.~
@@ -112,37 +112,37 @@
 @92 /*Anomen*/ = ~I am relieved to hear that, my lady. I shall put the issue from my mind.~
 @93 /*Anomen*/ = ~I see. I have been foolish, my lady, and I will not bother you again.~
 
-//Dorn - if had sex~
+//Dorn - if had sex
 @94 /*Dorn*/ = ~I see your tastes go both ways as well. Excellent. This night should be interesting.~
 
-//Edwin- if had sex~
+//Edwin- if had sex
 @95 /*Edwin*/ = ~I see you are bringing a new toy to our bed, my deva, and a pretty one at that. (She's almost as desirable as I am. If <CHARNAME> thinks to replace me with Clara then the girl will have to suffer an unhappy 'accident'.)~
 
-//Yoshimo - if romance~
+//Yoshimo - if romance
 @96 /*Yoshimo*/ = ~Clara is an attractive girl, <CHARNAME>, and under other circumstances, I might have joined you.~
 @97 /*Yoshimo*/ = ~However, Clara is also a thief and I do not trust her motivations. You may do as you like - I have never wished to cage you - but tonight I shall keep watch.~
 
-//Rasaad - if romance~
+//Rasaad - if romance
 @98 /*Rasaad*/ = ~I am not comfortable with this course of action, <CHARNAME>. If we are to be together, I must know that I can trust you with both my conscience and my heart and this feels too much like extortion.~
 @99 /*CN*/ = ~You are right, Rasaad. I'm sorry. Clara is free to stay or go no matter what.~
 @100 /*CN*/ = ~Ugh, Rasaad. If I'd known you were such a prude, I would have let you stay in Trademeet. Consider this goodbye.~
 @101 /*CN*/ = ~We can talk about this later. I need to blow off steam right now.~
 
-//Mazzy - requires friendship~
+//Mazzy - requires friendship
 @102 /*Mazzy*/ = ~This is not right, <CHARNAME>, and I will have no part in it. I will not stop you since Clara made the offer, but we are friends no longer after this.~
 @103 /*Mazzy - romance version*/ = ~This is not right, <CHARNAME>, and I will have no part in it. I will not stop you since Clara made the offer, but we are friends no longer and you will not win my heart.~
 
-//Keldorn - if no romance~
+//Keldorn - if no romance
 @126 /*Keldorn*/ = ~That was a deal ill-made <CHARNAME>. The Order does not barter protection in exchange for warmer beds.~
 @1260 /*Keldorn*/ = ~I am grateful for your friendship but I cannot be a part of this. I am returning to the Order. Find me there if you wish to walk on the path of righteousness again.~
 
-//Keldorn - if romance~
+//Keldorn - if romance
 @104 /*Keldorn*/ = ~You would cheat on me just as my wife did and with a girl young enough to be my daughter? No, <CHARNAME>. This I can't abide.~
 @105 /*Keldorn*/ = ~I will always be grateful for your friendship but I am leaving and I will not change my mind. If you truly care about me, you will not attempt to seek me out.~
 @106 /*Keldorn*/ = ~Come, Clara. You need not stay here. The Order of the Radiant Heart will offer you shelter without such cost attached.~
 @107 /*Clara*/ = ~Thank you, Sir Firecam. Your kindness does you justice.~
 
-//Final round up and next morning talk~
+//Final round up and next morning talk
 @108 /*Clara*/ = ~The room is ready <CHARNAME>. Shall we get this over with?~
 @109 /*CN*/ = ~I am looking forward to it. Lead the way.~
 @00 /*Narrator*/ = ~*You take Clara to your bed. After proving that her skills don't only lie in thievery, both of you sleep deeply.*~
@@ -169,7 +169,7 @@
 @131 /*Jan*/ = ~She did not pick *my* pockets. Which of you left your belongings lying about? I told you that you should buy Jan Jansen's Patented Pouch Protectors. If you had paid the asking price, you'd be sitting pretty while the lass nursed broken thumbs. 100 gold doesn't seem so expensive now, does it?~
 @132 /*Cernd*/ = ~When backed into a corner, the meekest mouse will bite. We should not be surprised.~
 
-//Once Renal dead~
+//Once Renal dead
 @133 /*Clara*/ = ~You have rescued me again, <CHARNAME>! Thank you, oh thank you! *cries*~
 @134 /*Clara*/ = ~The Shadow Thieves came in the night. I was the only one awake and they were going to kill you while you slept. I convinced them that their plan was dangerous and it would be better to simply steal your money. That way there was no risk of death on their part, but they would still be rewarded.~
 @135 /*Clara*/ = ~They agreed, but they demanded that I return as well. They gave me to Renal Bloodscalp as a present and there's no telling what would've happened to me if you hadn't arrived. You are once again my savior and I am in your debt.~
@@ -185,7 +185,7 @@
 @145 /*Clara*/ = ~I'll go to the Five Flagons Inn. If you ever want to see me again, you can find me there.~
 @146 /*Clara*/ = ~Thank you, <CHARNAME>. You won't regret this.~
 
-//Escape Scene~
+//Escape Scene
 @147 /*Clara*/ = ~*Clara falls to her knees and starts crying* Please don't kill me! I've never done anything to harm you or anyone else. I'm just a poor farmer's daughter...~
 @148 /*Narrator*/ = ~*She sobs uncontrollably, her head down and her face in her hands.*~
 @149 /*Mazzy*/ = ~You cannot murder this innocent young woman in cold blood, <CHARNAME>, I will not allow it.~
@@ -204,10 +204,10 @@
 @162 /*Jan*/ = ~Hey, it worked! And this one didn't even turn our skin purple! I should start making those again; Clara bought my last one.~
 
 
-//Journal Entries~
+//Journal Entries
 @1013 /*Post Sex Entry*/ = ~After taking Clara to my bed, she has left and taken much of my gold with her. Perhaps she went crawling back to the Shadow Thieves, hoping to buy her life with my hard-earned coin. If I find her there, I may be able to recover what she stole but I doubt I will see that gold again. It would have been much cheaper to buy a whore instead.~
 
-//Romance Entry for Mazzy~
+//Romance Entry for Mazzy
 @1021 /*Mazzy Quest Entry*/ = ~A Terrible Mistake
 
 I took Clara to my bed in exchange for my protection and Mazzy was not pleased. I fear I have lost my chance at Mazzy's heart forever.~

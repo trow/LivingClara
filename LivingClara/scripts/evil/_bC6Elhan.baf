@@ -48,6 +48,16 @@ END
 //Code in the graveyard.
 IF
 	AreaCheck("AR0800")
+	Global("_bElhanCreateWarsages","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bElhanCreateWarsages","GLOBAL",1)
+	CreateCreature("c6warsa1",[746.945],NE)
+	CreateCreature("c6warsa2",[817.996],NE)
+END
+
+IF
+	AreaCheck("AR0800")
 	!Allegiance(Myself,NEUTRAL)
 THEN
 	RESPONSE #100

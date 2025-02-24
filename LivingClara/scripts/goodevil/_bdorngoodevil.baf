@@ -753,4 +753,14 @@ THEN
 END
 
 
+//Failsafe to make sure Dorn regains Paladinhood
+IF
+	FallenPaladin("Dorn")
+	OR(2)
+		Global("_bDornServesTalos","GLOBAL",1)
+		Global("_bDornServesUmberlee","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride("Dorn",RegainPaladinHood())
+END
 

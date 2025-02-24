@@ -127,11 +127,39 @@ THEN
 	StartDialogNoSet(Player1)
 END
 
-//Viconia in Ust Natha. Third Conversation about City
+//Viconia in Ust Natha. Third Conversation about City, if Solaufein is dead.
 IF
 	IfValidForPartyDialog("Viconia")
 	CombatCounter(0)
-	PartyHasItem("MISC9V")
+	!PartyHasItem("MISC9V") //Solaufein's fake eggs.
+	Dead("jael01") 
+	Dead("jael02") 
+	Dead("Jael03") 
+	Dead("udchal") 
+	Dead("Jarlich")
+	Dead("Solaufein")
+	Global("_bViconiaTalksUstNatha3SolDead","GLOBAL",0)
+	OR(2)
+		AreaCheck("AR2200")
+		AreaCheck("AR2201")
+THEN
+	RESPONSE #100
+	SetGlobal("_bViconiaTalksUstNatha3SolDead","GLOBAL",1)
+END
+
+IF
+	Global("_bViconiaTalksUstNatha3SolDead","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+
+//Viconia in Ust Natha. Third Conversation about City, if you have Solaufein's fake eggs.
+IF
+	IfValidForPartyDialog("Viconia")
+	CombatCounter(0)
+	PartyHasItem("MISC9V") //Solaufein's fake eggs.
 	Dead("jael01") 
 	Dead("jael02") 
 	Dead("Jael03") 
@@ -192,7 +220,7 @@ END
 
 //Creating Imrae and In-Temple talk after you have Phaere's fake eggs.
 IF
-	AreaCheck("AR2201") 
+	AreaCheck("AR2201") //Lolth Temple 
 	Dead("jael01") 
 	Dead("jael02") 
 	Dead("Jael03") 
@@ -205,18 +233,19 @@ IF
 THEN
 	RESPONSE #100
 	SetGlobal("_bViconiaMeetsImraeInTemple","GLOBAL",1)
-	CreateCreature("UDIMRAE",[769.1683],SW)
+	CreateCreature("UDIMRAE",[1243.1106],SW)
 END
 
 IF
 	Global("_bViconiaMeetsImraeInTemple","GLOBAL",1)
 	Detect("Imrae")
+	AreaCheck("AR2201") //Lolth Temple
 THEN
 	RESPONSE #100
 	Dialogue("Imrae")
 END
 
-//Creating Imrae outside after you give eggs to Phaere. 
+//Creating Imrae outside after you give eggs to Phaere. If you didn't kill House Jae'llat until after you gave the eggs to Phaere.
 IF
 	AreaCheck("AR2200") //Ust Natha
 	Dead("jael01") 
@@ -231,7 +260,7 @@ IF
 THEN
 	RESPONSE #100
 	SetGlobal("_bViconiaMeetsImraeOutside","GLOBAL",1)
-	CreateCreature("UDIMRAE",[2833.2175],W)
+	CreateCreature("UDIMRAE",[3748.2909],W)
 END
 
 IF
@@ -257,6 +286,9 @@ IF
 	AreaCheck("AR2201") //Lolth Temple
 	IfValidForPartyDialog("Viconia")
 	Global("_bViconiaMeetsImraeInTemple","GLOBAL",2)
+	!PartyHasItem("MISC9T") // Real Dragon Eggs
+	Detect("Imrae")
+	!Dead("Ardulace")
 THEN
 	RESPONSE #100
 	SetGlobal("_bViconiaMeetsImraeInTemple","GLOBAL",3)
@@ -268,6 +300,83 @@ THEN
 	RESPONSE #100
 	StartDialogNoSet(Player1)
 END
+
+//Script to trigger dialogue if you don't have the eggs and the Matron Mother is summoning the demon.
+IF
+	GlobalTimerNotExpired("udDemonSummon","GLOBAL")
+	IfValidForPartyDialogue("Viconia")
+	AreaCheck("AR2201") //Lolth Temple
+	CombatCounter(0)
+	!Detect("uddemon")
+	!Dead("Ardulace")
+	Global("_bViconiaSaysNoSummonDemon","GLOBAL",0)
+	!PartyHasItem("MISC9T") // Real Dragon Eggs
+THEN
+	RESPONSE #100
+	SetGlobal("_bViconiaSaysNoSummonDemon","GLOBAL",1)
+END
+
+IF
+	Global("_bViconiaSaysNoSummonDemon","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Script to make Imrae leave if she hasn't by the time the demon's being summoned.
+IF
+	InMyArea("Imrae")
+	Dead("Ardulace")
+	Global("_bImraeLeaveFix","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bImraeLeaveFix","GLOBAL",1)
+	ActionOverride("Imrae",EscapeArea())
+END
+
+//Script to trigger dialogue for if you don't give the Demon the eggs and Viconia stays with Imrae.
+IF
+	Global("_bViconiaStaysImrae","GLOBAL",1) 
+	IfValidForPartyDialogue("Viconia")
+	Global("_bViconiaStaysImraeDialogue","GLOBAL",0)
+	Dead("Phaere")
+	Dead("Ardulace")
+	CombatCounter(0)
+	!Detect("uddemon")
+	Global("_bDemonWalks","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bViconiaStaysImraeDialogue","GLOBAL",1)
+END
+
+IF
+	Global("_bViconiaStaysImraeDialogue","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END	
+
+//Script to trigger dialogue if you don't give the Demon the the eggs and Viconia stays with Imrae for a short time.
+IF
+	Global("_bViconiaStaysImraeShort","GLOBAL",1)
+	IfValidForPartyDialogue("Viconia")
+	Global("_bViconiaStaysImraeShortDialogue","GLOBAL",0)
+	Dead("Phaere")
+	Dead("Ardulace")
+	CombatCounter(0)
+	!Detect("uddemon")
+	Global("_bDemonWalks","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_bViconiaStaysImraeShortDialogue","GLOBAL",1)
+END
+
+IF
+	Global("_bViconiaStaysImraeShortDialogue","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END	
 
 //15 Day Timer for Viconia staying with Imrae
 IF
@@ -452,6 +561,9 @@ IF
 	Dead("c6elf4")
 	Dead("c6elf5")
 	!Detect([ENEMY])
+	OR(2)
+		Global("_bViconiaStaysImraeShort","GLOBAL",1)
+		Global("_bViconiaStaysImrae","GLOBAL",1)
 THEN
 	RESPONSE #100
 	SetGlobal("_bVicoinaLeavesForUstNatha","GLOBAL",1)

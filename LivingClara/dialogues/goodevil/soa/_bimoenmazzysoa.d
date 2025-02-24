@@ -2,6 +2,7 @@
 //First talk
 CHAIN IF WEIGHT #-1 ~Global("_bIMLoveTalk","GLOBAL",2)~ THEN IMOEN2J _bImoenMazzy1
 @1 /*So you're a knight, huh?*/
+DO ~SetGlobal("_bIMLoveTalk","GLOBAL",3)~
 == MAZZYJ @2 /*Yes and a Truesword of Arvoreen.*/
 == IMOEN2J @3 /*Is that why you came to rescue me? It's what a knight does, right? Rescue people?*/
 == MAZZYJ @4 /*I suppose. I have not made a habit of rescuing fair maidens, but I am glad that I came when <CHARNAME> asked.*/
@@ -30,7 +31,6 @@ THEN @20 /*We never converse because you are an over-curious puppy who chatters 
 THEN @21 /*Aww, I missed you too, Viconia.*/
 = @22 /*Mazzy, can I rest on your shoulder for a moment?*/
 == MAZZYJ @23 /*Of course, Imoen. I will support you.*/
-DO ~SetGlobal("_bIMLoveTalk","GLOBAL",3)~
 EXIT
 
 //Imoen & Viconia Talk
@@ -396,7 +396,7 @@ CHAIN IMOEN2J _bImoenMazzyAlora
 = @103 /*Let us get your soul back and then if you are still interested and I am still interested and neither of us are with someone else, then perhaps we can speak of this again.*/
 EXIT
 
-//Pre-romance Crush Talks
+//Pre-romance Crush Talks- Decided to deactivate this talk. Deactivated in _bmazzygoodevil.baf
 CHAIN IF WEIGHT #-1 ~Global("ImoenRomanceActive","GLOBAL",1) !Global("_BMazzyFriendship","GLOBAL",1) Global("bImMazCrushTalk","GLOBAL",2)~ THEN MAZZYJ _bImoenMazzyCrush1
 @104 /*There may be a situation developing that could derail your plans for us.*/
 DO ~SetGlobal("bImMazCrushTalk","GLOBAL",3)~
@@ -412,6 +412,7 @@ DO ~SetGlobal("bImMazCrushTalk","GLOBAL",3)~
 == IMOEN2J @114 /*Well then, if that happens, <CHARNAME> will just have to decide if <PRO_HESHE> wants to share. There is plenty of Imoen for all.*/
 EXIT
 
+//Decided to deactivate this talk. Deactivated in _bmazzygoodevil.baf
 CHAIN IF WEIGHT #-1 ~Global("ImoenRomanceActive","GLOBAL",1) Global("_BMazzyFriendship","GLOBAL",1) Global("bImMazCrushTalk","GLOBAL",2)~ THEN MAZZYJ _bImoenMazzyCrush2
 @104 /*There may be a situation developing that could derail your plans for us.*/
 DO ~SetGlobal("bImMazCrushTalk","GLOBAL",3)~
@@ -430,6 +431,7 @@ DO ~SetGlobal("bImMazCrushTalk","GLOBAL",3)~
 = @121 /*Whatever happens, I believe that we will all have to decide if we can share.*/
 EXIT
 
+//Decided to deactivate this talk. Deactivated in _bmazzygoodevil.baf
 CHAIN IF WEIGHT #-1 ~!Global("ImoenRomanceActive","GLOBAL",1) Global("_BMazzyFriendship","GLOBAL",1) Global("bImMazCrushTalk","GLOBAL",2)~ THEN MAZZYJ _bImoenMazzyCrush3
 @104 /*There may be a situation developing that could derail your plans for us.*/
 DO ~SetGlobal("bImMazCrushTalk","GLOBAL",3)~
