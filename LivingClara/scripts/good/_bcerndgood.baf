@@ -1,8 +1,0 @@
-IF //Cernd's script If Mazzy goes hostile.
-	Global("_bMazzyHostile","GLOBAL",4)
-	InParty("Cernd") 
-	!StateCheck("Cernd",CD_STATE_NOTVALID)
-THEN
-	RESPONSE #100
-	MakeUnselectable(999999)
-END

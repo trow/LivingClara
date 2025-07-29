@@ -1,20 +1,21 @@
-BACKUP ~LivingClara/backup~
+BACKUP ~LivingClara/backup~// 设置备份目录
 
-AUTHOR ~Mephisto Satan Devil~
+AUTHOR ~MephistoSatanDevil Authorization from BCaesar and Ratatoskr (Briana)~// 作者信息
 
-VERSION ~Version 0.13~
+VERSION ~Version 0.01~// Mod 版本
 
-README ~LivingClara/readme.txt~ //This gives people the option of opening the readme
+README ~LivingClara/readme.txt~ // 安装时提供打开 README 文件的选项
 
-AUTO_TRA ~LivingClara/translations/%s~ //You need this if you plan to have multiple languages.
+AUTO_TRA ~LivingClara/translations/%s~ // 支持多语言翻译
 
-// This code should make this EET compatible because why not?
+// ========== EET 兼容性设置 ==========
+// 使此 Mod 与 EET (Enhanced Edition Trilogy) 兼容
 ALWAYS
   ACTION_IF NOT VARIABLE_IS_SET bg2_chapter BEGIN
     ACTION_IF GAME_IS ~eet~ BEGIN
-      OUTER_SET bg2_chapter = 12 // EET uses continuous chapter numbering from BG1 through TOB and this starts at "12" in BGII
+      OUTER_SET bg2_chapter = 12 // EET 使用连续章节编号，BGII 从 "12" 开始
     END ELSE BEGIN
-      OUTER_SET bg2_chapter = 0 // all other game types (BGII(:EE), BGT) restart chapter numbering in SOA
+      OUTER_SET bg2_chapter = 0 // 如果不是 EET，则不执行特殊操作（默认 BGII 章节编号）
     END
     OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
       OUTER_SET bg2_chapter = bg2_chapter + 1
@@ -24,76 +25,106 @@ ALWAYS
   END
 END
 
-LANGUAGE ~English~//List all available languages here. Each needs its own folder.
-			~english~
-			~LivingClara/translations/english/install.tra~ 
-LANGUAGE ~Russian~
-			~russian~
-			~LivingClara/translations/russian/install.tra~
-LANGUAGE ~Simplified Chinese~
-			~schinese~
-			~LivingClara/translations/schinese/prompts.tra~
-			~LivingClara/translations/schinese/install.tra~
-										 
-BEGIN @1 /*~Living Clara~*/        //Any text written after Begin will appear as XXX in the Weidu install: Install XXX?
 
-// Adds CD_STATE_NOTVALID state from CamDawg. May be unnecessary when coding for EE.
+LANGUAGE ~English~ ~english~ ~LivingClara/translations/english/setup.tra~ //List all available languages here. Each needs its own folder.
+LANGUAGE ~Russian~ ~russian~ ~LivingClara/translations/russian/setup.tra~
+LANGUAGE ~Simplified Chinese~ ~schinese~ ~LivingClara/translations/schinese/setup.tra~
+
+// ========== 模块 1: All Things Mazzy (核心内容) - Wilson NPC 兼容性与脚本修复 ==========
+// 定义一个安装组件，显示给用户的文本是 "~All Things Mazzy~" (来自 tra 文件的 @1 字符串)
+BEGIN @1 /*~All Things Mazzy~*/        //Any text written after Begin will appear as XXX in the Weidu install: Install XXX?
+
+    // ----- 添加 CD_STATE_NOTVALID 状态 -----
+    // 向 STATE.IDS 文件追加一行，定义一个自定义状态标志 `CD_STATE_NOTVALID`。
+    // 这通常用于兼容 CamDawg 的状态检查系统，在 Enhanced Edition 上可能非必需。
+    // UNLESS ~CD_STATE_NOTVALID~ 确保只有在该状态尚未存在时才添加，防止重复。
 APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
 UNLESS ~CD_STATE_NOTVALID~	
 
-//Code to give Wilson proper dialogue files, courtesy of LavaDelVortel so our mods don't conflict
+    // ----- Wilson NPC 兼容性处理 -----
+    // 检查游戏中是否已存在 Wilson 的对话文件 (wilson.dlg)，以判断 Wilson NPC 是否已安装。
 ACTION_IF FILE_EXISTS_IN_GAME ~wilson.dlg~ THEN BEGIN
+        // 如果 Wilson 存在，则在安装日志中打印一条信息。
  PRINT @137 /*Wilson detected - Wilson interdia.2da append - set Wilsons's banter file (BWILSON & BWILSO25)*/ //PRINT ~~ lets you add visible text to the Weidu setup. Can be tra-ified just like anything else.
+         // 将 Wilson 的对话条目添加到 interdia.2da 文件中。
+        // 这行指定了 Wilson 在 SoA (BWILSON) 和 ToB (BWILSO25) 中使用的闲聊对话文件名。
+        // UNLESS ~WILSON~ 确保只有在 interdia.2da 中还没有 Wilson 条目时才添加。
     APPEND ~interdia.2da~ ~WILSON BWILSON BWILSO25~
     UNLESS ~WILSON~
 	
+	    // 修改 pdialog.2da 文件，为 Wilson 添加完整的对话文件路径列表。
+        // 这包括 SoA 和 ToB 阶段的 Player-initiated (P), Journal (J), and Dialogue (D) 文件。
 	COPY_EXISTING ~pdialog.2da~ ~override~
+	    // 使用正则表达式查找以 WILSON 开头的行，并将其替换为包含所有对话文件名的完整行。
   REPLACE_TEXTUALLY ~^[ %TAB%]*WILSON[ %TAB%].+$~
                     ~WILSON                 WILSONP                WILSONJ                WILSOND                WILSO25P               WILSO25J               WILSO25D               WILSON25~
+        // BUT_ONLY_IF_IT_CHANGES 确保只有在文件确实被修改时才覆盖原文件，提高效率并避免不必要的备份。
 BUT_ONLY_IF_IT_CHANGES //This stops Weidu from repeating the action if another mod already installed Wilson's files
 
 //Dialogue Files
+        // ----- 编译缺失的 Wilson 对话文件 -----
+        // 检查并编译可能缺失的 Wilson 对话文件，以确保兼容性。
+        // 如果 BWILSON.dlg 文件不存在，则编译对应的 D 文件。
    ACTION_IF NOT (FILE_EXISTS_IN_GAME ~BWILSON.dlg~) THEN BEGIN
    COMPILE ~LivingClara/dialogues/goodevil/BWILSONFix.d~
   END
+        // 如果 BWILSO25.dlg 文件不存在，则编译对应的 D 文件。
    ACTION_IF NOT (FILE_EXISTS_IN_GAME ~BWILSO25.dlg~) THEN BEGIN
    COMPILE ~LivingClara/dialogues/goodevil/BWILSO25Fix.d~
   END
+        // 如果 WILSO25J.dlg 文件不存在，则编译对应的 D 文件。
     ACTION_IF NOT (FILE_EXISTS_IN_GAME ~WILSO25J.dlg~) THEN BEGIN
    COMPILE ~LivingClara/dialogues/goodevil/WILSO25JFix.d~
   END
-END
+END // 结束对 Wilson 存在情况的处理块
 
 //TOB Script
-//ACTION_IF NOT (FILE_EXISTS_IN_GAME ~Wilson25.bcs~) THEN BEGIN
-//  PRINT @138 /*Wilson has no ToB override script? That must be changed!*/
-//  COMPILE ~LivingClara/scripts/crossmod/wilson25.baf~
-//END
-//
-//COPY_EXISTING ~Wilson13.cre~ ~override~ // Wilson version summoned by Fate Spirit in new ToB game (this version will NOT be summoned in EET if Wilson was with the party in SoA)
-//  WRITE_EVALUATED_ASCII DIALOG          ~WILSON25~ #8
-//  WRITE_EVALUATED_ASCII SCRIPT_OVERRIDE ~WILSON25~ #8
-//  ADD_CRE_ITEM ~L#wilroc~ #1 #0 #0 ~identified~ ~qitem~ // missed quest reward from SoA
+    // ----- 确保 Wilson 在 TOB 阶段有脚本 -----
+    // 检查 Wilson 在 TOB 阶段的覆盖脚本 (Wilson25.bcs) 是否存在。
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~Wilson25.bcs~) THEN BEGIN
+        // 如果不存在，则打印信息并编译一个。
+  PRINT @138 /*Wilson has no ToB override script? That must be changed!*/
+  COMPILE ~LivingClara/scripts/crossmod/wilson25.baf~
+END
+
+    // ----- 修正由命运之魂召唤的 Wilson 版本 -----
+    // 复制 Wilson13.cre (由命运之魂在新 TOB 游戏中召唤的版本) 到 override 目录进行修改。
+COPY_EXISTING ~Wilson13.cre~ ~override~ // Wilson version summoned by Fate Spirit in new ToB game (this version will NOT be summoned in EET if Wilson was with the party in SoA)
+        // 设置其对话文件为 WILSON25，使其使用 TOB 阶段的对话。
+  WRITE_EVALUATED_ASCII DIALOG          ~WILSON25~ #8
+        // 设置其覆盖脚本也为 WILSON25。
+  WRITE_EVALUATED_ASCII SCRIPT_OVERRIDE ~WILSON25~ #8
+        // 为其添加在 SoA 阶段可能错过的任务奖励物品 "L#wilroc"。
+  ADD_CRE_ITEM ~L#wilroc~ #1 #0 #0 ~identified~ ~qitem~ // missed quest reward from SoA
   
   
 //This code adds scriptnames to several NPCs that lack them in the normal game. This can cause issues with any other mods that try to do the same, so use sparingly. These scriptnames will only appear on newly created characters, so they will not appear if you install the mod mid-game.
+    // ----- 为缺少脚本名的 NPC 添加脚本名 -----
+    // 这部分代码为游戏中一些默认没有死亡变量/脚本名 (DEATHVAR/Scriptname) 的 CRE 文件添加一个。
+    // 这对于通过脚本精确控制这些 NPC 是必要的，但可能与其他修改相同 NPC 的 Mod 冲突。
+    // 这些脚本名只对新创建的角色生效，对安装 Mod 时已存在的角色无效。
 
+    // 为 "Rose Bouquet" (桥区妓女) 添加脚本名 "murdgirl"。
 COPY_EXISTING ~MURDGIRL.cre~ ~override~ //Rose Bouquet (Bridge Prostitute)
   WRITE_EVALUATED_ASCII DEATHVAR        ~murdgirl~ #32
   BUT_ONLY_IF_IT_CHANGES 
   
+    // 为 "Gereth" (冒险者市场法师) 添加脚本名 "Gereth"。
  COPY_EXISTING ~GERETH.cre~ ~override~ //Gereth (Mage in Adventurer's Mart)
   WRITE_EVALUATED_ASCII DEATHVAR        ~Gereth~ #32
   BUT_ONLY_IF_IT_CHANGES 
-  
+
+    // 为 "Bertrand the Companion" 添加脚本名 "Bertrand"。  
 COPY_EXISTING ~BERTRAND.cre~ ~override~ //Bertrand the Companion
   WRITE_EVALUATED_ASCII DEATHVAR        ~Bertrand~ #32
   BUT_ONLY_IF_IT_CHANGES 
-  
+ 
+    // 为 "Courtesan" (BPROST2.cre) 添加脚本名 "bprost2"。
 COPY_EXISTING ~BPROST2.cre~ ~override~ //Courtesan
   WRITE_EVALUATED_ASCII DEATHVAR        ~bprost2~ #32
   BUT_ONLY_IF_IT_CHANGES 
 
+    // 为 "Harlot" (DHARLOT1.cre) 添加脚本名 "dharlot1"。
 COPY_EXISTING ~DHARLOT1.cre~ ~override~ //Harlot
   WRITE_EVALUATED_ASCII DEATHVAR        ~dharlot1~ #32
   BUT_ONLY_IF_IT_CHANGES   
@@ -101,12 +132,23 @@ COPY_EXISTING ~DHARLOT1.cre~ ~override~ //Harlot
 		 
 //For the Good!/For the Evil! Crossmod content
 //Clara specific code - epilogues are under TOB.
+// ========== 模块 2: Keepable Clara (Human Hexxat) NPC - 核心 NPC 文件安装 ==========
+// 跨 Mod 内容：这部分代码用于安装 Clara NPC 本身，无论玩家选择善良还是邪恶路线都会用到。
+// Clara 专属代码 - 结局文件在 TOB 部分处理。
+// 在安装日志中打印一条信息，表明正在添加 Clara 的内容。
 PRINT @139 /*Clara not detected. Clara is hiding. Casting True Sight and adding Clara's content.*/
+
+// 复制 Clara 相关的所有预设文件（如物品、脚本等，不需要文本修改的）到游戏的 override 目录。
 COPY ~LivingClara/Clara/copy~ ~override~  
+// ----- 安装 Clara 在 SOA (Shadows of Amn) 阶段的 CRE 文件 -----
+// 复制并重命名 Clara 的主要角色文件 (_bclara.cre)。
 COPY ~LivingClara/Clara/_bclara.cre~ ~override/_bclara.cre~
+    // 设置角色在游戏中的显示名称 (Name1) 和鼠标悬停名称 (Name2)。
 	SAY NAME1 @2 /*Clara*/
 	SAY NAME2 @2 /*Clara*/
+	// 设置角色的背景故事 (Biography)。
 	SAY BIO @3 /*Clara is hesitant to tell you much about her past, but she will share some facts when pressed. The young woman was raised on a farm and came to Athkatla several years ago, hoping to find work as an actress. Her efforts were unsuccessful so she learned the basics of thievery from an old Shadow Thief in order to scrape by. Although only a passable thief, Clara earned enough to pay the guild regular dues for permission to work in the city until she fell into Hexxat's thrall.*/
+    // 设置各种游戏状态下的语音文本。
 	SAY MORALE @4 /*I don't wanna die again!*/
 	SAY LEADER @5 /*You can trust me to make us rich.*/
 	SAY TIRED @6 /*Can we please stop to rest? I need my beauty sleep.*/
@@ -124,12 +166,14 @@ COPY ~LivingClara/Clara/_bclara.cre~ ~override/_bclara.cre~
 	SAY AREA_DUNGEON @18 /*Caroline Aurora Lucia Rosena Silvershield is too good for this place.*/
 	SAY AREA_DAY @19 /*The sun is nice but I prefer the dark. That is where I truly shine.*/
 	SAY AREA_NIGHT @20 /*This is the time for secrets. The night hides everything.*/
+    // 设置玩家在队伍中与 Clara 互动时的通用选择语音。
 	SAY SELECT_COMMON1 @21 /*What do you want?*/
 	SAY SELECT_COMMON2 @22 /*Do you need me?*/
 	SAY SELECT_COMMON3 @23 /*How can this noble lady help?*/
 	SAY SELECT_COMMON4 @24 /*Yes?*/
 	SAY SELECT_COMMON5 @25 /*I'm listening.*/
 	SAY SELECT_COMMON6 @26 /*What is it now? I'm busy.*/
+    // 设置玩家指派 Clara 执行任务时的选择语音。
 	SAY SELECT_ACTION1 @27 /*I'll do my best.*/
 	SAY SELECT_ACTION2 @28 /*Happy to help.*/
 	SAY SELECT_ACTION3 @29 /*It will be done.*/
@@ -137,11 +181,14 @@ COPY ~LivingClara/Clara/_bclara.cre~ ~override/_bclara.cre~
 	SAY SELECT_ACTION5 @31 /*Do I have to?*/
 	SAY SELECT_ACTION6 @32 /*Fine. I'll do as you command.*/
 	SAY SELECT_ACTION7 @33 /*As you wish. (Where's a big strong man to carry things?)*/
+    // 设置 Clara 的稀有互动语音。
 	SAY SELECT_RARE1 @34 /*Uggh, you're so demanding.*/
 	SAY SELECT_RARE2 @35 /*Go away. I'm flirting.*/
+    // 设置战斗相关语音。
 	SAY CRITICAL_HIT @36 /*Right in the heart!*/
 	SAY CRITICAL_MISS @37 /*Oops. I hope no one saw that.*/
 	SAY TARGET_IMMUNE @38 /*My weapon isn't working. Usually things bleed.*/
+    // 设置物品和状态相关语音。
 	SAY INVENTORY_FULL @39 /*I am not a beast of burden. I can't carry anymore.*/
 	SAY HAPPY @40 /*This is the most wonderful day. I'm rich and I'm pretty; what more could a girl want?*/
 	SAY UNHAPPY_ANNOYED @41 /*I don't want to do this.*/
@@ -151,8 +198,10 @@ COPY ~LivingClara/Clara/_bclara.cre~ ~override/_bclara.cre~
 	SAY PICKED_POCKET @45 /*Your coin belongs to me.*/
 	SAY REACT_TO_DIE_GENERAL @46 /*I think I'm going to be sick.*/
 	
-	
+// ----- 安装 Clara 在 TOB (Throne of Bhaal) 阶段的 CRE 文件 -----
+// 复制并重命名 Clara 在 TOB 阶段的角色文件 (_bcla25.cre)。
 COPY ~LivingClara/Clara/_bcla25.cre~ ~override/_bcla25.cre~
+    // 为 TOB 阶段的 Clara 文件设置相同的名称、背景和语音，确保角色一致性。
 	SAY NAME1 @2 /*Clara*/
 	SAY NAME2 @2 /*Clara*/
 	SAY BIO @3 /*Clara is hesitant to tell you much about her past, but she will share some facts when pressed. The young woman was raised on a farm and came to Athkatla several years ago, hoping to find work as an actress. Her efforts were unsuccessful so she learned the basics of thievery from an old Shadow Thief in order to scrape by. Although only a passable thief, Clara earned enough to pay the guild regular dues for permission to work in the city until she fell into Hexxat's thrall.*/	
@@ -199,37 +248,56 @@ COPY ~LivingClara/Clara/_bcla25.cre~ ~override/_bcla25.cre~
 	SAY HIDDEN_IN_SHADOWS @44 /*I shall slip away unseen.*/
 	SAY PICKED_POCKET @45 /*Your coin belongs to me.*/
 	SAY REACT_TO_DIE_GENERAL @46 /*I think I'm going to be sick.*/
-	
+
+// ========== 模块 2: Keepable Clara (Human Hexxat) NPC - Clara 专属新物品和法术 ==========
+// 在安装日志中打印一条信息，表明正在添加新物品和法术。	
 PRINT @140 /*Adding new items and spells.*/
 //New Items & Spells for Clara
+
+// ----- Clara 的新物品和法术 -----
+// --- 物品: Clara's Jansen Spectroscopes (_BSCOPE.itm) ---
 COPY ~LivingClara/Clara/new-stuff/_BSCOPE.itm~ ~override~ //Items that require additional text/script changes must be copied individually to avoid messing up the game.
+    // 设置物品的名称和描述。
 SAY NAME1 @70 /*Clara's Jansen Spectroscopes*/
 SAY NAME2 @70 /*Clara's Jansen Spectroscopes*/
 SAY DESC @71
+    // 使用 LPF (Library Procedure Function) ADD_ITEM_EQEFFECT 来添加一个物品效果，
+    // 此处用于设置物品的可用性标志（Usability Flag），限制只有特定角色可以使用。
 LPF ADD_ITEM_EQEFFECT   //this code sets usability flag with correct scriptname listed
+    // 传递给 ADD_ITEM_EQEFFECT 函数的整数变量 (INT_VAR)。
 INT_VAR
-opcode = 319
-target = 1
-timing = 2
-parameter2 = 11
-power = 1 //This can be 1 or 0. 1 means only this scriptname can use it, 0 means only this person can't.
-special = RESOLVE_STR_REF (@2) //Whatever is referenced here will be shown as text on the item itself.
+opcode = 319 // 效果操作码 319 对应 "Usability Constant (AND/OR)"。
+target = 1 // 目标类型：自体 (Self)。
+timing = 2 // 效果计时：即时 (Instant/Permanent)。
+parameter2 = 11    // 参数 2：设置为 11，通常与特定的可用性标志位相关。
+power = 1   // 权限：1 表示只有指定的资源可以使用（白名单）。
+			// 0 表示除了指定的资源都不能使用。
+        // 传递给 ADD_ITEM_EQEFFECT 函数的字符串变量 (STR_VAR)。
+special = RESOLVE_STR_REF (@2)  // 特殊参数：这里引用 @2 ("Clara") 的字符串，作为显示在物品上的文本（通常是角色名）。Whatever is referenced here will be shown as text on the item itself.
 STR_VAR
-resource = _bClara
-END
+resource = _bClara// 指定允许使用的角色脚本名是 "_bClara"。
+END// 结束 LPF 调用。
 
+// --- 法术: Create Poison Arrows (_BPoisA.spl) ---
+// 复制 Clara 的新法术文件。
 COPY ~LivingClara/Clara/new-stuff/_BPoisA.spl~ ~override~ 
+    // 设置法术的名称和未鉴定描述。
 SAY NAME1 @72 /*Create Poison Arrows*/
-SAY DESC @73 /*This ability allows Clara to create 15 poisonous Arrows of Biting, adding them to her inventory. Handle with care!*/
-
+SAY UNIDENTIFIED_DESC @73 /*This ability allows Clara to create 15 poisonous Arrows of Biting, adding them to her inventory. Handle with care!*/
+// --- 法术: Set Fireball Trap (_BFIRE.spl) ---
+// 复制 Clara 的新法术文件。
 COPY ~LivingClara/Clara/new-stuff/_BFIRE.spl~ ~override~ 
+    // 设置法术的名称和未鉴定描述。
 SAY NAME1 @105 /*Set Fireball Trap*/
 SAY UNIDENTIFIED_DESC @106 /*This ability allows Clara to create a Fireball trap that will stay in position until someone walks too close. Friend or foe, the Fireball will then explode for massive damage.*/
-
+// --- 物品: Clara's Jansen Techno-Gloves (_BGlove.itm) ---
+// 复制需要修改文本/脚本的单个物品文件。
 COPY ~LivingClara/Clara/new-stuff/_BGlove.itm~ ~override~
+    // 设置物品的名称和描述。
 SAY NAME1 @74 /*Clara's Jansen Techno-Gloves*/
 SAY NAME2 @74 /*Clara's Jansen Techno-Gloves*/
 SAY DESC @75
+    // 同样使用 LPF 添加可用性限制效果，只允许 Clara 使用。
 LPF ADD_ITEM_EQEFFECT //this code sets usability flag with correct scriptname listed
 INT_VAR
 opcode = 319
@@ -237,15 +305,19 @@ target = 1
 timing = 2
 parameter2 = 11
 power = 1
-special = RESOLVE_STR_REF (@2) 
+special = RESOLVE_STR_REF (@2) // 引用 "Clara"
 STR_VAR
-resource = _bClara
+resource = _bClara// 限制给 "_bClara"
 END
 
+// --- 物品: Yoshimo's Katana +3 (_BKatana.itm) ---
+// 复制物品文件。
 COPY ~LivingClara/Clara/new-stuff/_BKatana.itm~ ~override~
+    // 设置名称和描述。
 SAY NAME1 @76 /*Yoshimo's Katana +3*/
 SAY NAME2 @76 /*Yoshimo's Katana +3*/
 SAY DESC @77
+    // 添加可用性限制效果，只允许 Clara 使用。
 LPF ADD_ITEM_EQEFFECT
 INT_VAR
 opcode = 319
@@ -253,15 +325,20 @@ target = 1
 timing = 2
 parameter2 = 11
 power = 1
-special = RESOLVE_STR_REF (@2)
+special = RESOLVE_STR_REF (@2)// 引用 "Clara"
 STR_VAR
-resource = _bClara
+resource = _bClara// 限制给 "_bClara"
 END
 
+// --- 物品: Delryn Family Ring (_BRING45.itm) ---
+// 复制物品文件。
 COPY ~LivingClara/Clara/new-stuff/_BRING45.itm~ ~override~
+    // 设置名称和描述。
 SAY NAME1 @96 /*Delryn Family Ring*/
 SAY NAME2 @96 /*Delryn Family Ring*/
 SAY DESC @97
+    // 添加可用性限制效果，只允许 Clara 使用。
+    // 注释提到其他效果已在 Near Infinity 中创建，这个是在 setup 中添加的文本相关效果。
 LPF ADD_ITEM_EQEFFECT //Other effects can be added here. We did most in Near Infinity when creating the item. This effect is in setup because it involves overwriting game text.
 INT_VAR
 opcode = 319
@@ -269,21 +346,26 @@ target = 1
 timing = 2
 parameter2 = 11
 power = 1
-special = RESOLVE_STR_REF (@2) 
+special = RESOLVE_STR_REF (@2) // 引用 "Clara"
 STR_VAR
-resource = _bClara
+resource = _bClara// 限制给 "_bClara"
 END
 
 COPY ~LivingClara/Clara/new-stuff/_BBELTC.itm~ ~override~ //Clara only version (actually made to work with a script. The gender effect tends to crash SOA randomly)
 SAY NAME1 @680 /*Girdle*/
 SAY NAME2 @68 /*Girdle of Femininity/Masculinity*/
 SAY DESC @690 /*Similar to the rare yet oft-discussed cursed Girdle of Masculinity/Femininity, a magical item that changes the wearer's gender, this particular girdle was specifically enchanted to only work on Clara as a joke.*/
-
-
+    // 注意：此物品虽然添加了效果，但注释说明其功能主要由脚本实现，
+    // 并且直接的性别转换效果在 SOA 中可能不稳定。
+	
+// --- 物品: Girdle of Femininity/Masculinity - Edwin 专用版 (_BBELTE.itm) ---
+// 复制 Edwin 专用版本的腰带。
 COPY ~LivingClara/Clara/new-stuff/_BBELTE.itm~ ~override~ //Edwin only version
+    // 设置名称和描述。
 SAY NAME1 @680 /*Girdle*/
 SAY NAME2 @68 /*Girdle of Femininity/Masculinity*/
 SAY DESC @691 /*Similar to the rare yet oft-discussed cursed Girdle of Masculinity/Femininity, a magical item that changes the wearer's gender, this particular girdle was enchanted to be only usuable by Edwin.*/
+    // 添加可用性限制效果，只允许 Edwin 使用。
 LPF ADD_ITEM_EQEFFECT
 INT_VAR
 opcode = 319
@@ -291,11 +373,12 @@ target = 1
 timing = 2
 parameter2 = 11
 power = 1
-special = RESOLVE_STR_REF (@681)
+special = RESOLVE_STR_REF (@681) // 引用 "Edwin"
 STR_VAR
-resource = Edwin
+resource = Edwin// 限制给 "Edwin"
 END 
 
+// ========== 模块 2: Keepable Clara (Human Hexxat) NPC - Clara 核心脚本与对话安装 ==========
 PRINT @141 /*Setting up Jan Jansen's Ball of Superdark Darkness.
 Error: Insufficient darkness found...
 Searching for additional darkness...
@@ -304,165 +387,284 @@ Harvesting darkness...
 Transferring darkness...
 Second attempt: Setting up Jan Jansen's Ball of Superdark Darkness.
 Ball setup successful.*/
-	
+
+// ----- 更新游戏核心的 2DA 文件以注册 Clara 的对话 -----
+// 将 Clara 的条目添加到 pdialog.2da 文件中。
+// pdialog.2da 定义了队伍中 NPC 的各种对话文件（如 Player-initiated, Journal, Dialogue 等）。
+// 注释说明：这里只列出队伍相关的文件，顺序很重要：
+// (override_script, p_dialog, j_dialog, d_dialog, tob_override, tob_p, tob_j, tob_d)
 APPEND ~pdialog.2da~ //This is only for party files, so the default d files aren't here. Order matters (script, p, j, dscript, tobp, tobj, tobd, tobdscript)
 ~_bClara     _bclarap     _bclaraj     _bclarad     _bcla25p     _bcla25j     _bcla25d     _bclar25~
 UNLESS ~_bClara~
 
+
+// 将 Clara 的条目添加到 interdia.2da 文件中。
+// interdia.2da 定义了 NPC 之间的闲聊（互动对话）文件。
+// 格式通常是：NPC脚本名 SoA闲聊文件 ToB闲聊文件
 APPEND ~interdia.2da~
 ~_bClara     b_bclara     b_bcla25~
+// 同样使用 UNLESS 防止重复添加。
 UNLESS ~_bClara~
 
-
+// ----- 编译 Clara 的对话文件 -----
+// 编译 Clara 所有的对话 (D) 文件。
+// EVALUATE_BUFFER 是必需的，特别是当对话文件中使用了需要在安装时计算的变量（如 EET 的章节代码）时。
+// 它确保在编译前处理文件内的变量和宏。为了安全起见，通常建议对所有文件都使用它。
 COMPILE EVALUATE_BUFFER  ~LivingClara/Clara/dialogues~ //EVALUATE_BUFFER is required on any file that uses the EET chapter code as a trigger. It can go on all files to be safe.
 
+// ----- 编译 Clara 的行为脚本 (BAF -> BCS) -----
+// 编译 Clara 在 SOA 阶段的覆盖脚本 (_bclara.baf -> _bclara.bcs)。
 COMPILE EVALUATE_BUFFER ~LivingClara/Clara/_bclara.baf~
+// 编译 Clara 在 SOA 阶段的对话脚本 (_bclarad.baf -> _bclarad.bcs)。
 COMPILE EVALUATE_BUFFER ~LivingClara/Clara/_bclarad.baf~
+// 编译 Clara 在 TOB 阶段的覆盖脚本 (_bclar25.baf -> _bclar25.bcs)。
 COMPILE ~LivingClara/Clara/_bclar25.baf~
+// 编译 Clara 在 TOB 阶段的对话脚本 (_bcla25d.baf -> _bcla25d.bcs)。
 COMPILE ~LivingClara/Clara/_bcla25d.baf~
 
+// ----- 扩展现有游戏脚本以整合 Clara 的剧情 -----
+// 将 Clara 的获取脚本 (_bgettingclara.baf) 添加到游戏主脚本 baldur.bcs 的顶部 (EXTEND_TOP)。
+// 这样可以确保 Clara 相关的初始化或触发逻辑尽早执行。
+// EVALUATE_BUFFER 确保脚本中的变量被正确处理。
+// 注释警告：将代码放在脚本顶部可能很危险，因为持续触发的代码可能会阻止后续代码执行，需要仔细测试。
 EXTEND_TOP ~baldur.bcs~ ~LivingClara/Clara/_bgettingclara.baf~ EVALUATE_BUFFER //Extend Top puts code at top of bcs file so it plays first. This can be dangerous since code that fires continuously will stop anything after it from triggering. TEST TEST TEST.
+
+// 将 Clara 与 "OHHFAK" NPC (可能是一个特定事件或 NPC) 的互动脚本 (_bOHHFAKClara.baf)
+// 添加到 OHHFAK.bcs 脚本的底部 (EXTEND_BOTTOM)。
+// EVALUATE_BUFFER 同样用于处理脚本中的变量。
 EXTEND_BOTTOM ~OHHFAK.bcs~ ~LivingClara/Clara/_bOHHFAKClara.baf~ EVALUATE_BUFFER
 
-  
+// ========== 模块 2: Keepable Clara (Human Hexxat) NPC - EET 兼容性与跨 Mod 内容 ==========
+
+// ----- EET (Enhanced Edition Trilogy) 相关代码与召唤脚本 -----
+// 检查当前游戏是否为 EET。如果是，则执行 EET 特定的安装逻辑。
 // EET related code & summoning script
 ACTION_IF GAME_IS ~eet~ THEN BEGIN 
+    // 包含 EET 提供的函数库文件，其中定义了用于处理 NPC 跨章节连续性的函数。
   INCLUDE ~EET/other/EET_functions.tph~ //declaration of external EET functions used below
+
+    // 调用 EET_NPC_TRANSITION 函数 (LAF = Library Action Function)。
+    // 这个函数用于自动处理 NPC 在 BG1、SOA、TOB 之间的过渡和召唤逻辑。
   LAF ~EET_NPC_TRANSITION~ //function used to automatically implement EET continuity system
-    INT_VAR
-      type = 2 //informs the function that this is BG2 NPC without BG1 content
-	  default_ToB = 1 //NPC available as summonable NPC when the game is started in ToB (= new ToB game)
-	  clean_ToB = 1
+    // 传递给 EET_NPC_TRANSITION 函数的整数变量 (INT_VAR)。
+	INT_VAR
+      type = 2  // 告诉函数这是一个纯 BG2 NPC（在 BG1 中没有内容）。//informs the function that this is BG2 NPC without BG1 content
+	  default_ToB = 1 // 表示当玩家在 TOB 开始新游戏时，该 NPC 可以作为可召唤的 NPC 出现。//NPC available as summonable NPC when the game is started in ToB (= new ToB game)
+	  clean_ToB = 1// 表示在 TOB 阶段使用一个“干净”的角色文件（无 SoA 状态）。
+        // 传递给 EET_NPC_TRANSITION 函数的字符串变量 (STR_VAR)。
     STR_VAR
-      dv = "_bClara" //Clara Death Variable (script name)
-      override_SoA = "_bClara" //SoA Override script
-      override_ToB = "_bClar25" //ToB Override script
-      dialog_ToB = "_bcla25" //ToB dialogue file
-	  cre_ToB = "_bcla25"
+      dv = "_bClara"  // 指定 Clara 的死亡变量 (Death Variable / Script Name)。//Clara Death Variable (script name)
+      override_SoA = "_bClara" // 指定在 SOA 阶段使用的覆盖脚本文件名 (不带 .bcs 扩展名)。//SoA Override script
+      override_ToB = "_bClar25" // 指定在 TOB 阶段使用的覆盖脚本文件名。//ToB Override script
+      dialog_ToB = "_bcla25"  // 指定在 TOB 阶段使用的主对话文件名。//ToB dialogue file
+	  cre_ToB = "_bcla25"// 指定在 TOB 阶段使用的角色文件名 (不带 .cre 扩展名)。
+	  // 指定包含 Fate Spirit (命运之魂) 对话文本的翻译文件。
 	  traFile = EVAL "LivingClara/translations/%LANGUAGE%/_bcla25.tra"
-      string = "@0" //"Bring me Clara, the human shadowdancer."
-      stringPosDV = "Dorn" //Clara should be appended right above Dorn
-	  clean_ToB_DV = "_bClara"
-  END
-END ELSE BEGIN //different Fate Spirit dialogue patching for any other platform than EET
+      string = "@0" // 指定 traFile 中包含召唤台词的字符串引用。"@0" 通常是第一条文本。//"Bring me Clara, the human shadowdancer."
+      stringPosDV = "Dorn" // 指定在 Fate Spirit 的召唤列表中，Clara 的条目应该插入在哪个 NPC (Dorn) 之前。//Clara should be appended right above Dorn
+	  clean_ToB_DV = "_bClara" // 指定在 TOB 阶段用于初始化状态的死亡变量。
+  END// 结束 LAF EET_NPC_TRANSITION 的调用。
+END ELSE BEGIN // 如果游戏不是 EET，则执行以下不同的处理。//different Fate Spirit dialogue patching for any other platform than EET
+    // 为非 EET 平台编译一个不同的 Fate Spirit 对话文件，使其能够召唤 Clara。
+    // USING ~...~ 指定了编译时使用的翻译文件，确保召唤台词正确显示。
   COMPILE ~LivingClara/Clara/_bFateSpirit.d~ USING ~LivingClara/translations/%LANGUAGE%/_bcla25.tra~  //Fate Spirit Dialogue, same tra file as TOB dialogue with USING
-END
+END // 结束非 EET 平台的处理块。
 
 //Crossmod files for Clara only
+// ----- Clara 的跨 Mod (Crossmod) 内容 -----
+// 检查游戏中是否存在 Saradas NPC 的角色文件 (!sartob.cre)。
+// 这通常意味着 Saradas NPC Mod 已安装。
 ACTION_IF FILE_EXISTS_IN_GAME ~!sartob.cre~ THEN BEGIN //This code detects the Saradas NPC and adds his banters with Clara
+    // 如果检测到 Saradas，则打印信息。
  PRINT @150 /*Saradas detected - adding crossmod banters*/
+     // 编译 Clara 与 Saradas 之间的互动对话文件。
  COMPILE ~LivingClara/Clara/crossmod/_bSaradasBanters.d~ 
-END ELSE BEGIN
+END ELSE BEGIN    // 如果未检测到 Saradas，则打印信息。
  PRINT @151 /*Saradas NPC not detected*/
-END
+END // 结束 Saradas 不存在的处理块。
 
+// ========== 其他随机内容 - 日志条目 (Journal Entries) 和文件复制 ==========
+
+// ----- 添加带有标题的 Enhanced Edition (EE) 风格日志条目 -----
+// 打印信息，表明正在添加 EE 风格的日志标题。
 //Journal Entries (This code gives quest journal entries the EE style titles)
 PRINT @142 /*EE Journal Entries. Titles needed.*/
-ADD_JOURNAL TITLE (@1000) @1001 @1002 @1003 USING ~LivingClara/translations/%LANGUAGE%/_btemplesmaevar.tra~ ~LivingClara/translations/%LANGUAGE%/_bbaldurgoodevil.tra~ //Necklace quest
-ADD_JOURNAL TITLE (@1004) @1005 @1006 @1007 USING ~LivingClara/translations/%LANGUAGE%/_btemplesmaevar.tra~ //Mazzy temple statuette quest
-ADD_JOURNAL TITLE (@1007) @1008 @1009 @1010 @1011 @1012 USING ~LivingClara/translations/%LANGUAGE%/_bmazzyharlots.tra~ //1st harlot quest 
-ADD_JOURNAL TITLE (@1015) @1013 @1014 USING ~LivingClara/translations/%LANGUAGE%/_bmazzyharlots.tra~ //2nd harlot quest
-ADD_JOURNAL TITLE (@1018) @1014 @1015 @1016 @1017 USING ~LivingClara/translations/%LANGUAGE%/_bmazzykeldornsoa.tra~ //Order quest
-ADD_JOURNAL TITLE (@1022) @1019 @1020 @1021 @1023 @1024 @1025 @1026 @1027 USING ~LivingClara/translations/%LANGUAGE%/_bmazzyromancesoa.tra~ ~LivingClara/translations/%LANGUAGE%/_bClaraSex.tra~ ~LivingClara/translations/%LANGUAGE%/_bmazzygoodevil.tra~ //SOA romance journals
-ADD_JOURNAL TITLE (@1022) @1019 @1025 USING ~LivingClara/translations/%LANGUAGE%/_bmazzyromancetob.tra~ //TOB romance journals
+// 使用 ADD_JOURNAL 指令添加日志条目，并通过 TITLE 关键字指定标题。
+// 格式: ADD_JOURNAL TITLE (@title_ref) @entry1_ref @entry2_ref ... USING ~path/to/translation.tra~
+
+// 添加与神殿相关的任务日志（可能涉及 Maevar 和项链）。
+//ADD_JOURNAL TITLE (@1000) @1001 @1002 @1003 USING ~LivingClara/translations/%LANGUAGE%/_btemplesmaevar.tra~ ~LivingClara/translations/%LANGUAGE%/_bbaldurgoodevil.tra~ //Necklace quest
+// 添加 Mazzy 在神殿寻找小雕像的任务日志。
+//ADD_JOURNAL TITLE (@1004) @1005 @1006 @1007 USING ~LivingClara/translations/%LANGUAGE%/_btemplesmaevar.tra~ //Mazzy temple statuette quest
+// 添加第一个关于妓女的任务日志。
+//ADD_JOURNAL TITLE (@1007) @1008 @1009 @1010 @1011 @1012 USING ~LivingClara/translations/%LANGUAGE%/_bmazzyharlots.tra~ //1st harlot quest 
+// 添加第二个关于妓女的任务日志。
+//ADD_JOURNAL TITLE (@1015) @1013 @1014 USING ~LivingClara/translations/%LANGUAGE%/_bmazzyharlots.tra~ //2nd harlot quest
+// 添加 Keldorn 的秩序任务日志。
+//ADD_JOURNAL TITLE (@1018) @1014 @1015 @1016 @1017 USING ~LivingClara/translations/%LANGUAGE%/_bmazzykeldornsoa.tra~ //Order quest
+// 添加 SOA (Shadows of Amn) 阶段的恋爱日志。
+//ADD_JOURNAL TITLE (@1022) @1019 @1020 @1021 @1023 @1024 @1025 @1026 @1027 USING ~LivingClara/translations/%LANGUAGE%/_bmazzyromancesoa.tra~ ~LivingClara/translations/%LANGUAGE%/_bClaraSex.tra~ ~LivingClara/translations/%LANGUAGE%/_bmazzygoodevil.tra~ //SOA romance journals
+// 添加 TOB (Throne of Bhaal) 阶段的恋爱日志。
+//ADD_JOURNAL TITLE (@1022) @1019 @1025 USING ~LivingClara/translations/%LANGUAGE%/_bmazzyromancetob.tra~ //TOB romance journals
+// 添加邪恶 Anomen (Darkside Anomen) 的日志。
 ADD_JOURNAL TITLE (@1000) @1001 @1002 @1003 USING ~LivingClara/translations/%LANGUAGE%/_bDSAnomenromancesoa.tra~ //Darkside Anomen 
-ADD_JOURNAL TITLE (@1000) @1001 @1002 USING ~LivingClara/translations/%LANGUAGE%/_bdawnring.tra~ //Dawn Ring Quest
-ADD_JOURNAL TITLE (@10000) @10001 @10002 @10003 USING ~LivingClara/translations/%LANGUAGE%/_bviconiarulesustnatha.tra~ //Viconia's Rule Ust Natha Quest: The Fall of Two Houses
-ADD_JOURNAL TITLE (@20000) @20001 @20002 @20003 @20004 @20005 @20006 USING ~LivingClara/translations/%LANGUAGE%/_bviconiarulesustnatha.tra~ //Viconia's Quest: The Demon Walks
-ADD_JOURNAL TITLE (@57) @58 @59 @100 @101 @103 @109 @110 @115 @116 @117 @119 @120 @125 @129 @132 @139 @141 @146 @150 @153 @158 @160 @161 @174 @190 @192 @230 @238 @239 @240 @241 @243 @260 @276 @277 @323 @1150
-	USING ~LivingClara/translations/%LANGUAGE%/_bClaraViconia.tra~ //Viconia's Quest: Viconia's Peace
-ADD_JOURNAL TITLE (@52600) @52601 @559 @562 @1030 USING ~LivingClara/translations/%LANGUAGE%/_bmazzyfriendssoa.tra~ ~LivingClara/translations/%LANGUAGE%/_bmazzygoodevil.tra~ //Mazzy Killing the Shadow Thieves Quest - friendship only.
-ADD_JOURNAL TITLE (@819) @820 @822 @824 @826 @828 @830 @832 @834 @836 @838 @840 @842 @844 @846 @848 @850 USING ~LivingClara/translations/%LANGUAGE%/_brecurringtalkssoa.tra~ //Mazzy The Leader
+// 添加黎明戒指 (Dawn Ring) 任务日志。
+//ADD_JOURNAL TITLE (@1000) @1001 @1002 USING ~LivingClara/translations/%LANGUAGE%/_bdawnring.tra~ //Dawn Ring Quest
+// 添加 Viconia 统治乌斯纳斯城任务的第一部分日志："The Fall of Two Houses"。
+//ADD_JOURNAL TITLE (@10000) @10001 @10002 @10003 USING ~LivingClara/translations/%LANGUAGE%/_bviconiarulesustnatha.tra~ //Viconia's Rule Ust Natha Quest: The Fall of Two Houses
+// 添加 Viconia 任务的第二部分日志："The Demon Walks"。
+//ADD_JOURNAL TITLE (@20000) @20001 @20002 @20003 @20004 @20005 @20006 USING ~LivingClara/translations/%LANGUAGE%/_bviconiarulesustnatha.tra~ //Viconia's Quest: The Demon Walks
+// 添加 Viconia 的 "和平" 任务日志："Viconia's Peace"。这个任务涉及大量日志条目。
+//ADD_JOURNAL TITLE (@57) @58 @59 @100 @101 @103 @109 @110 @115 @116 @117 @119 @120 @125 @129 @132 @139 @141 @146 @150 @153 @158 @160 @161 @174 @190 @192 @230 @238 @239 @240 @241 @243 @260 @276 @277 @323 @1150
+//	USING ~LivingClara/translations/%LANGUAGE%/_bClaraViconia.tra~ //Viconia's Quest: Viconia's Peace
+// 添加仅限友谊路线的 Mazzy 击杀影贼任务日志。
+//ADD_JOURNAL TITLE (@52600) @52601 @559 @562 @1030 USING ~LivingClara/translations/%LANGUAGE%/_bmazzyfriendssoa.tra~ ~LivingClara/translations/%LANGUAGE%/_bmazzygoodevil.tra~ //Mazzy Killing the Shadow Thieves Quest - friendship only.
+// 添加关于 Mazzy 领导力的重复对话任务日志。
+//ADD_JOURNAL TITLE (@819) @820 @822 @824 @826 @828 @830 @832 @834 @836 @838 @840 @842 @844 @846 @848 @850 USING ~LivingClara/translations/%LANGUAGE%/_brecurringtalkssoa.tra~ //Mazzy The Leader
+// 添加 Clara 的第二个图书馆任务日志。
 ADD_JOURNAL TITLE (@1005) @1006 @1007 @1008 @1009 @1010 @1011 @1012 USING ~LivingClara/translations/%LANGUAGE%/_bclaraquest.tra~ //2nd library quest
 
+// ----- 复制主 Mod 的文件（法术、音乐等）-----
+// 打印信息，表明正在添加新物品、能力等。
 //Copied files for main mod - spells, music, etc. 
 PRINT @143 /*Adding new items, new nonsense, new strange abilities...*/
+// 批量复制不需要修改文本的 goodevil 目录下的所有文件。
 COPY ~LivingClara/copy/goodevil~ ~override~ //If you don't have to change text, you can just copy files en masse
 
+// 单独复制需要修改文本或效果的物品文件。
+// 复制并修改 _BBELT2.itm (Girdle of Femininity/Masculinity)。
 COPY ~LivingClara/copy/New Items/_BBELT2.itm~ ~override~ //If you do have to change text/add effects, you need to copy the item individually.
+    // 设置物品的名称和描述。
 SAY NAME1 @680 /*Girdle*/
 SAY NAME2 @68 /*Girdle of Femininity/Masculinity*/
 SAY DESC @69 /*Similar to the rare yet oft-discussed cursed Girdle of Masculinity/Femininity, a magical item that changes the wearer's gender, this version is not cursed and was likely created simply for entertainment. The magic of the belt only affects halflings.*/
 
 
 //General Crossmod stuff:
+// ========== 其他随机内容 - 跨 Mod (Crossmod) 内容 ==========
 
+// ----- 通用跨 Mod 内容 -----
+
+// --- 跨 Mod 侏儒腰带代码 ("Alora in BG2" Mod) ---
+// 检测 "Alora in BG2" Mod 是否安装 (通过检查 ALORA09.cre 文件)。
 //Crossmod Halfling Belt Code ("Alora in BG2" mod)
 //ACTION_IF FILE_EXISTS_IN_GAME ~ALORA09.cre~ THEN BEGIN //This code detects the Alora NPC mod and adds our gender belt code to her script. Alora must be installed first.
-// PRINT @144 /*'Alora in BG2' mod detected - adding crossmod Easter egg*/
+//    // 如果检测到，则打印信息。
+//	PRINT @144 /*'Alora in BG2' mod detected - adding crossmod Easter egg*/
+//    // 将腰带效果的脚本扩展添加到 Alora 的 SoA 脚本底部。
 //EXTEND_BOTTOM ~CMALORA.BCS~ ~LivingClara/scripts/crossmod/_bAlora.baf~ 
-//END ELSE BEGIN
+//END ELSE BEGIN    // 如果未检测到，则打印信息。
 // PRINT @145 /*'Alora in BG2' mod not detected*/
 //END
 //
+//// 检测 "Alora in BG2" Mod 的 TOB 版本 (ALORA25.cre)。
 //ACTION_IF FILE_EXISTS_IN_GAME ~ALORA25.cre~ THEN BEGIN //Alora belt code
+//    // 将腰带效果的脚本扩展添加到 Alora 的 TOB 脚本底部。
 //EXTEND_BOTTOM ~CMALO25.BCS~ ~LivingClara/scripts/crossmod/_bAlora.baf~ 
-//END
-//
-////Crossmod Halfling Belt Code (Smiling Imp's Alora)
+//END // 结束 Alora (TOB) 存在的处理块。
+
+//Crossmod Halfling Belt Code (Smiling Imp's Alora)
+// --- 跨 Mod 侏儒腰带代码 (Smiling Imp's "BG1 NPCs in SoA & ToB" Mod) ---
+// 检测 Smiling Imp 的 Mod 中的 Alora 组件 (7XCRE69.cre)。
 //ACTION_IF FILE_EXISTS_IN_GAME ~7XCRE69.cre~ THEN BEGIN //This code detects the Alora component from "BG1 NPCs in Soa&ToB" mod and adds our gender belt code to her script. Alora must be installed first.
+//    // 如果检测到，则打印信息。
 // PRINT @1440 /*'BG1 NPCs in SoA & ToB' Alora detected - adding crossmod Easter egg*/
+//    // 将特定的腰带效果脚本扩展添加到该版本 Alora 的 SoA 和 TOB 脚本底部。
 //EXTEND_BOTTOM ~7xAlor.BCS~ ~LivingClara/scripts/crossmod/_bAloraImp.baf~ 
 //EXTEND_BOTTOM ~7XAlor25.BCS~ ~LivingClara/scripts/crossmod/_bAloraImp.baf~ 
 //END ELSE BEGIN
+//    // 如果未检测到，则打印信息。
 // PRINT @1450 /*'BG1 NPCs in SoA & ToB' Alora NPC not detected*/
 //END
-//
+
+// --- 跨 Mod 侏儒腰带代码 (Nephele NPC Mod) ---
+// 检测 Nephele NPC Mod 是否安装 (lk#neph.cre)。
 //ACTION_IF FILE_EXISTS_IN_GAME ~lk#neph.cre~ THEN BEGIN //This code detects the Nephele NPC mod and adds our gender belt code to her script. Nephele must be installed first.
+//    // 如果检测到，则打印信息。
 // PRINT @146 /*Nephele detected - adding crossmod Easter egg*/
+//    // 将腰带效果的脚本扩展添加到 Nephele 的 SoA 脚本底部。
 //EXTEND_BOTTOM ~LK#NEPH.BCS~ ~LivingClara/scripts/crossmod/_bNeph.baf~ 
 //END ELSE BEGIN
+//// 如果未检测到，则打印信息。
 // PRINT @147 /*Nephele NPC not detected*/
 //END
-//
+
+// 检测 Nephele NPC Mod 的 TOB 版本 (lk#ne25.cre)。
 //ACTION_IF FILE_EXISTS_IN_GAME ~lk#ne25.cre~ THEN BEGIN //Nephele belt code
+//    // 将腰带效果的脚本扩展添加到 Nephele 的 TOB 脚本底部。
 //EXTEND_BOTTOM ~LK#NE25.BCS~ ~LivingClara/scripts/crossmod/_bNeph.baf~ 
-//END
+//END // 结束 Nephele (TOB) 存在的处理块。
 //
+//// --- 跨 Mod 侏儒腰带代码 (Petsy NPC Mod) ---
+//// 检测 Petsy NPC Mod 是否安装 (L3Petsy.cre)。
 //ACTION_IF FILE_EXISTS_IN_GAME ~L3Petsy.cre~ THEN BEGIN //This code detects the Petsy NPC mod and adds our gender belt code to her script. Nephele must be installed first.
+//    // 如果检测到，则打印信息。
 // PRINT @148 /*Petsy detected - adding crossmod Easter egg*/
+//    // 将腰带效果的脚本扩展添加到 Petsy 的 SoA 脚本底部。
 //EXTEND_BOTTOM ~L3Petsy.BCS~ ~LivingClara/scripts/crossmod/_bPetsy.baf~ 
 //END ELSE BEGIN
 // PRINT @149 /*Petsy NPC not detected*/
+//// 结束 Petsy (SoA) 存在的处理块。
 //END
-//
+//// 检测 Petsy NPC Mod 的 TOB 版本 (L3Pet25.cre)。
 //ACTION_IF FILE_EXISTS_IN_GAME ~L3Pet25.cre~ THEN BEGIN //Petsy belt code
+//    // 将腰带效果的脚本扩展添加到 Petsy 的 TOB 脚本底部。
 //EXTEND_BOTTOM ~L3Pet25.BCS~ ~LivingClara/scripts/crossmod/_bPetsy.baf~ 
+// // 结束 Petsy (TOB) 存在的处理块。
 //END
-//
-////Crossmod for NPC Stronghold
+
+//Crossmod for NPC Stronghold
+// --- 与 NPC Strongholds Mod 的跨 Mod 兼容性 ---
+// 检测 NPC Strongholds Mod 是否安装 (通过检查 KishAss1.cre 文件)。
 //ACTION_IF FILE_EXISTS_IN_GAME ~KishAss1.cre~ THEN BEGIN //Fix for Keldorn Stronghold
+//    // 如果检测到，则打印信息。
 //   PRINT @161 /*Installing fix for Keldorn Stronghold*/
+//       // 获取 NPC Strongholds Mod 翻译文件中特定字符串的内部 ID，用于后续的脚本修正。
 //   OUTER_SET _bMazzyNPCFix1 = STATE_WHICH_SAYS 1328 IN ~NPC_Strongholds/%s/NPC_Strongholds.tra~ FROM ~HPRELATE~
 //   OUTER_SET _bMazzyNPCFix2 = STATE_WHICH_SAYS 1329 IN ~NPC_Strongholds/%s/NPC_Strongholds.tra~ FROM ~HPRELATE~
+//    // 编译一个修正文件，使用指定的翻译文件。
 //COMPILE EVALUATE_BUFFER ~LivingClara/dialogues/crossmod/_bOrderFix.d~ USING ~LivingClara/translations/%LANGUAGE%/_bCrossmod.tra~
+//    // 添加与修正相关的日志条目。
 //ADD_JOURNAL TITLE (@1018) @1015 @1016 @1017 USING ~LivingClara/translations/%LANGUAGE%/_bCrossmod.tra~ //Order quest
 //END ELSE BEGIN
+//// 如果未检测到，则打印信息，建议用户先安装该 Mod。
 // PRINT @162 /*NPC Strongholds not detected. If you have that mod, please install it first to avoid compatibility issues.*/
+// // 结束 NPC Strongholds 不存在的处理块。
 //END
 
 
 //Various new items and creatures used in the main mod
+// ========== 其他随机内容 - 新物品和生物 ==========
+// 注：路径是 LivingClara，但根据 tree.txt 应为 AllThingsMazzy，这可能是代码中的遗留或别名。
+
+// ----- 各种在主 Mod 中使用的新物品和生物 -----
+// 复制 Viconia 专用的翅膀物品。
 //COPY ~LivingClara/copy/New Items/_BWINGV.itm~ ~override~ //Only usuable by Viconia
+//    // 设置物品名称和描述。
 //SAY NAME1 @101 /*Wings*/
 //SAY NAME2 @101 /*Wings*/
 //SAY DESC @102 /*A set of feathered wings.*/
+//    // 使用 LPF 添加可用性限制效果，只允许 Viconia 使用。
 //LPF ADD_ITEM_EQEFFECT
 //INT_VAR
-//opcode = 319
-//target = 1
-//timing = 2
-//parameter2 = 11
-//power = 1
-//special = RESOLVE_STR_REF (@103)
+//opcode = 319// 操作码 319: Usability Constant (AND/OR)
+//target = 1 // 目标: Self
+//timing = 2// 计时: Instant/Permanent
+//parameter2 = 11// 参数 2: 特定可用性标志
+//power = 1// 权限: 1 = 只有指定资源可用 (白名单)
+//// special 参数显示在物品上，这里引用与 Viconia 相关的文本。
+//special = RESOLVE_STR_REF (@103)// 引用 @103 的文本
 //STR_VAR
-//resource = Viconia
+//resource = Viconia// 限制给 "Viconia"
 //END
-//
+
+// 复制 Aerie 专用的翅膀物品。
 //COPY ~LivingClara/copy/New Items/_BWINGA.itm~ ~override~ //Only usuable by Aerie
+//    // 设置物品名称和描述。
 //SAY NAME1 @110 /*Aerie's Wings*/
 //SAY NAME2 @110 /*Aerie's Wings*/
 //SAY DESC @111 /*Aerie's wings are golden and shimmer in the light....*/
+//    // 使用 LPF 添加可用性限制效果，只允许 Aerie 使用。
 //LPF ADD_ITEM_EQEFFECT
 //INT_VAR
 //opcode = 319
@@ -470,26 +672,38 @@ SAY DESC @69 /*Similar to the rare yet oft-discussed cursed Girdle of Masculinit
 //timing = 2
 //parameter2 = 11
 //power = 1
-//special = RESOLVE_STR_REF (@109)
+//        // special 参数显示在物品上，这里引用与 Aerie 相关的文本。
+//special = RESOLVE_STR_REF (@109)// 引用 @109 的文本
 //STR_VAR
-//resource = Aerie
+//resource = Aerie// 限制给 "Aerie"
 //END
 //
+//// 复制一个通用的翅膀物品，用于过场动画/剧情场景。
 //COPY ~LivingClara/copy/New Items/_BWING.itm~ ~override~ //Generic for cutscenes
+//    // 设置通用名称和描述。
 //SAY NAME1 @101 /*Wings*/
 //SAY NAME2 @101 /*Wings*/
 //SAY DESC @102 /*A set of feathered wings.*/
-
-//Minsc-Neera Boo Scene Creature File
+//
+////Minsc-Neera Boo Scene Creature File
+//// ----- Minsc-Neera 恋爱线中的 Boo 场景生物文件 -----
+//// 复制一个特殊的 "Boo" 生物文件 (可能用于动画或特殊效果)。
 //COPY ~LivingClara/copy/New Items/_bBOO.cre~ ~override~ 
+//    // 设置名称。
 //  SAY NAME1 @107 /*Boo*/
 //  SAY NAME2 @107
+//      // 设置该生物的对话文件为 "_bBOO"。
 //  WRITE_EVALUATED_ASCII DIALOG          ~_bBOO~ #8
+//      // 设置该生物的死亡变量 (Death Variable)，也即脚本名 (Scriptname) 为 "_bBOO"。
 //  WRITE_EVALUATED_ASCII DEATHVAR        ~_bBOO~ #32 //DEATHVAR is another word for Scriptname
+//    // 清空该生物的覆盖脚本 (Override Script)。
 //  WRITE_EVALUATED_ASCII SCRIPT_OVERRIDE ~~       #8
 //
-////Dorn's Umberlee Spell  
+////Dorn's Umberlee Spell
+//// ----- Dorn 的 Umberlee 法术 -----
+//// 复制 Dorn 的新法术文件。
 //COPY ~LivingClara/copy/New Items/_BDORNUM.SPL~ ~override~ 
+//    // 设置法术名称和未鉴定描述（详细说明了法术效果）。
 //SAY NAME1 @131 /*Umberlee's Embrace*/
 //SAY UNIDENTIFIED_DESC @132 /*Umberlee's Embrace
 //(Alteration)
@@ -505,10 +719,17 @@ SAY DESC @69 /*Similar to the rare yet oft-discussed cursed Girdle of Masculinit
 
 
 // Borrowed this code from BranwenNPC who got it from the FixPack, supposed to help play romance music w/ blank background sounds
+// ----- 音乐相关修复 -----
+// 借用自 BranwenNPC（源自 FixPack）的代码，用于在播放浪漫音乐时使用空白背景音，避免冲突。
+// 复制并修改 songlist.2da 文件。
 COPY_EXISTING ~songlist.2da~ ~override~
+    // 设置第 0 行（通常是标题行），第 2 列（可能是 "DAY" 或类似分类），第 3 列（具体音乐文件名）为 "_bBlank.mus"。
   SET_2DA_ENTRY 0 2 3 ~_bBlank.mus~
 
 //Dialogue Files- always installed (this code means whole folder compiled. You can also compile each dialogue file individually if you list the names)
+// ----- 编译善良/邪恶路线共用的 SOA 对话文件 -----
+// 编译 goodevil/soa 目录下的所有对话文件。
+// EVALUATE_BUFFER 确保处理文件中的变量。
 COMPILE EVALUATE_BUFFER ~LivingClara/dialogues/goodevil/soa~
 PRINT @152 /*Searching for pure, chaste Imoen.
 Error: Chaste Imoen not found.
@@ -524,160 +745,300 @@ Miniaturizing initiated.
 Miniaturization successful.*/
 
 //Script Files - always installed
+// ========== 模块 1: All Things Mazzy - 核心善良/中立路线脚本扩展 ==========
+
+// ----- 扩展现有游戏脚本 (善良/中立路线) - 总是安装 -----
+// 将善良/中立路线的通用脚本逻辑附加到游戏核心和 NPC 的脚本中。
+
+// 将善良/中立路线的初始化逻辑添加到游戏主脚本 baldur.bcs 的顶部。
 EXTEND_TOP ~baldur.bcs~ ~LivingClara/scripts/goodevil/_bbaldurgoodevil.baf~ EVALUATE_BUFFER
+// 将 Aerie 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~aerie.bcs~ ~LivingClara/scripts/goodevil/_baeriegoodevil.baf~ EVALUATE_BUFFER
+// 将 Anomen 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~anomen.bcs~ ~LivingClara/scripts/goodevil/_banomengoodevil.baf~ EVALUATE_BUFFER
+// 将 Anomen 的 D 对话脚本的善良/中立路线逻辑添加到底部。
 EXTEND_BOTTOM ~anomend.bcs~ ~LivingClara/scripts/goodevil/_banomendgoodevil.baf~ EVALUATE_BUFFER
-EXTEND_TOP ~AR0300.bcs~ ~LivingClara/scripts/goodevil/_bAR300goodevil.baf~ EVALUATE_BUFFER //for Mazzy romance quest
-EXTEND_TOP ~AR0311.bcs~ ~LivingClara/scripts/goodevil/_bAR311goodevil.baf~ EVALUATE_BUFFER //for romance quest
-EXTEND_TOP ~AR0312.bcs~ ~LivingClara/scripts/goodevil/_bAR312goodevil.baf~ EVALUATE_BUFFER //for romance quest
-EXTEND_TOP ~AR0322.bcs~ ~LivingClara/scripts/goodevil/_bAR322goodevil.baf~ EVALUATE_BUFFER //for romance quest
-EXTEND_TOP ~AR0329.bcs~ ~LivingClara/scripts/goodevil/_bAR329goodevil.baf~ EVALUATE_BUFFER //for romance quest
-EXTEND_TOP ~AR0602.bcs~ ~LivingClara/scripts/goodevil/_bAR0602goodevil.baf~ EVALUATE_BUFFER //Starting dungeon
-EXTEND_TOP ~AR0900.bcs~ ~LivingClara/scripts/goodevil/_bAR0900goodevil.baf~ EVALUATE_BUFFER //Temple District
+// ----- 扩展特定区域脚本以支持 Mazzy 恋爱任务和其他剧情 -----
+// 将 Mazzy 恋爱任务相关的脚本逻辑添加到区域 AR0300 的顶部。
+//EXTEND_TOP ~AR0300.bcs~ ~LivingClara/scripts/goodevil/_bAR300goodevil.baf~ EVALUATE_BUFFER //for Mazzy romance quest
+//// 将恋爱任务相关的脚本逻辑添加到区域 AR0311 的顶部。
+//EXTEND_TOP ~AR0311.bcs~ ~LivingClara/scripts/goodevil/_bAR311goodevil.baf~ EVALUATE_BUFFER //for romance quest
+//// 将恋爱任务相关的脚本逻辑添加到区域 AR0312 的顶部。
+//EXTEND_TOP ~AR0312.bcs~ ~LivingClara/scripts/goodevil/_bAR312goodevil.baf~ EVALUATE_BUFFER //for romance quest
+//// 将恋爱任务相关的脚本逻辑添加到区域 AR0322 的顶部。
+//EXTEND_TOP ~AR0322.bcs~ ~LivingClara/scripts/goodevil/_bAR322goodevil.baf~ EVALUATE_BUFFER //for romance quest
+//// 将恋爱任务相关的脚本逻辑添加到区域 AR0329 的顶部。
+//EXTEND_TOP ~AR0329.bcs~ ~LivingClara/scripts/goodevil/_bAR329goodevil.baf~ EVALUATE_BUFFER //for romance quest
+//// 将起始地牢区域的脚本逻辑添加到 AR0602 的顶部。
+//EXTEND_TOP ~AR0602.bcs~ ~LivingClara/scripts/goodevil/_bAR0602goodevil.baf~ EVALUATE_BUFFER //Starting dungeon
+//// 将神殿区相关的脚本逻辑添加到 AR0900 的顶部。
+//EXTEND_TOP ~AR0900.bcs~ ~LivingClara/scripts/goodevil/_bAR0900goodevil.baf~ EVALUATE_BUFFER //Temple District
+// 将 Clara 与 Anomen 相关剧情的脚本逻辑添加到 AR1000 的顶部。
 EXTEND_TOP ~AR1000.bcs~ ~LivingClara/scripts/goodevil/_bAR1000goodevil.baf~ EVALUATE_BUFFER //Just for Clara-Anomen 
+// 将 Clara 与 Anomen 相关剧情的脚本逻辑添加到 AR1001 的顶部。
 EXTEND_TOP ~AR1001.bcs~ ~LivingClara/scripts/goodevil/_bAR1001goodevil.baf~ EVALUATE_BUFFER //Just for Clara-Anomen 
+// 将 Clara 的第二个任务相关的脚本逻辑添加到 AR0702 的顶部。
 EXTEND_TOP ~AR0702.bcs~ ~LivingClara/scripts/goodevil/_bAR0702goodevil.baf~ EVALUATE_BUFFER //2nd Clara Quest
+// 将 Clara 的第二个任务相关的脚本逻辑添加到 AR1700 的顶部。
 EXTEND_TOP ~AR1700.bcs~ ~LivingClara/scripts/goodevil/_bAR1700goodevil.baf~ EVALUATE_BUFFER //2nd Clara Quest
+// 编译 Gereth 相关的脚本（用于 Clara 的第二个任务）。
 COMPILE ~LivingClara/scripts/goodevil/_bGereth.baf~ EVALUATE_BUFFER  //2nd Clara Quest
-EXTEND_TOP ~AR2002.bcs~ ~LivingClara/scripts/goodevil/_bAR2002goodevil.baf~ EVALUATE_BUFFER //Mazzy Family
-EXTEND_TOP ~terl.bcs~ ~LivingClara/scripts/goodevil/_bTerlgoodevil.baf~ EVALUATE_BUFFER //For all the Terl talks, mostly backup 
-EXTEND_BOTTOM ~dorn.bcs~ ~LivingClara/scripts/goodevil/_bdorngoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~dornd.bcs~ ~LivingClara/scripts/goodevil/_bdorndgoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~edwin.bcs~ ~LivingClara/scripts/goodevil/_bedwingoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~haerdali.bcs~ ~LivingClara/scripts/goodevil/_bhaerdalisgoodevil.baf~ EVALUATE_BUFFER
+// 将 Mazzy 家族相关的脚本逻辑添加到 AR2002 的顶部。
+//EXTEND_TOP ~AR2002.bcs~ ~LivingClara/scripts/goodevil/_bAR2002goodevil.baf~ EVALUATE_BUFFER //Mazzy Family
+// 将 Terl NPC 的对话后备脚本逻辑添加到 terl.bcs 的底部。
+//EXTEND_TOP ~terl.bcs~ ~LivingClara/scripts/goodevil/_bTerlgoodevil.baf~ EVALUATE_BUFFER //For all the Terl talks, mostly backup 
+//// ----- 扩展更多 NPC 的脚本以支持善良/中立路线 -----
+//// 将 Dorn 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~dorn.bcs~ ~LivingClara/scripts/goodevil/_bdorngoodevil.baf~ EVALUATE_BUFFER
+//// 将 Dorn 的 D 对话脚本的善良/中立路线逻辑添加到底部。
+//EXTEND_BOTTOM ~dornd.bcs~ ~LivingClara/scripts/goodevil/_bdorndgoodevil.baf~ EVALUATE_BUFFER
+//// 将 Edwin 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~edwin.bcs~ ~LivingClara/scripts/goodevil/_bedwingoodevil.baf~ EVALUATE_BUFFER
+//// 将 HaerDalis 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~haerdali.bcs~ ~LivingClara/scripts/goodevil/_bhaerdalisgoodevil.baf~ EVALUATE_BUFFER
+// 将 Hexxat 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~hexxat.bcs~ ~LivingClara/scripts/goodevil/_bhexxatgoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~imoen2.bcs~ ~LivingClara/scripts/goodevil/_bimoengoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~imoen2d.bcs~ ~LivingClara/scripts/goodevil/_bimoendgoodevil.baf~ EVALUATE_BUFFER //Imoen doesn't naturally have d script. But EXTEND_BOTTOM will create one.
-EXTEND_BOTTOM ~jaheira.bcs~ ~LivingClara/scripts/goodevil/_bjaheiragoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~jaheirad.bcs~ ~LivingClara/scripts/goodevil/_bjaheiradgoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~jan.bcs~ ~LivingClara/scripts/goodevil/_bjangoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~keldorn.bcs~ ~LivingClara/scripts/goodevil/_bkeldorngoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~korgan.bcs~ ~LivingClara/scripts/goodevil/_bkorgangoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~korgand.bcs~ ~LivingClara/scripts/goodevil/_bkorgandgoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~mazzy.bcs~ ~LivingClara/scripts/goodevil/_bmazzygoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~mazzyd.bcs~ ~LivingClara/scripts/goodevil/_bmazzydgoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~minsc.bcs~ ~LivingClara/scripts/goodevil/_bminscgoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~nalia.bcs~ ~LivingClara/scripts/goodevil/_bnaliagoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~neera.bcs~ ~LivingClara/scripts/goodevil/_bneeragoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~neerad.bcs~ ~LivingClara/scripts/goodevil/_bneeradgoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~norder.bcs~ ~LivingClara/scripts/goodevil/_bnordergoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~rasaad.bcs~ ~LivingClara/scripts/goodevil/_brasgoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~sht0903.bcs~ ~LivingClara/scripts/goodevil/_bsht0903goodevil.baf~ EVALUATE_BUFFER //Script for all Order of the Radiant Heart People
-EXTEND_BOTTOM ~valygar.bcs~ ~LivingClara/scripts/goodevil/_bvalygargoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~viconia.bcs~ ~LivingClara/scripts/goodevil/_bviconiagoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~vicond.bcs~ ~LivingClara/scripts/goodevil/_bviconiadgoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~yoshimo.bcs~ ~LivingClara/scripts/goodevil/_byoshgoodevil.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~wilson.bcs~ ~LivingClara/scripts/goodevil/_bwilsongoodevil.baf~ EVALUATE_BUFFER
+// 将 Imoen (TOB 版本) 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~imoen2.bcs~ ~LivingClara/scripts/goodevil/_bimoengoodevil.baf~ EVALUATE_BUFFER
+//// 将 Imoen (TOB 版本) 的 D 对话脚本的善良/中立路线逻辑添加到底部。
+//// 注释说明：Imoen 原本没有 d 脚本，但 EXTEND_BOTTOM 会自动创建一个。
+//EXTEND_BOTTOM ~imoen2d.bcs~ ~LivingClara/scripts/goodevil/_bimoendgoodevil.baf~ EVALUATE_BUFFER //Imoen doesn't naturally have d script. But EXTEND_BOTTOM will create one.
+//// 将 Jaheira 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~jaheira.bcs~ ~LivingClara/scripts/goodevil/_bjaheiragoodevil.baf~ EVALUATE_BUFFER
+//// 将 Jaheira 的 D 对话脚本的善良/中立路线逻辑添加到底部。
+//EXTEND_BOTTOM ~jaheirad.bcs~ ~LivingClara/scripts/goodevil/_bjaheiradgoodevil.baf~ EVALUATE_BUFFER
+//// 将 Jan Jansen 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~jan.bcs~ ~LivingClara/scripts/goodevil/_bjangoodevil.baf~ EVALUATE_BUFFER
+//// 将 Keldorn 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~keldorn.bcs~ ~LivingClara/scripts/goodevil/_bkeldorngoodevil.baf~ EVALUATE_BUFFER
+//// 将 Korgan 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~korgan.bcs~ ~LivingClara/scripts/goodevil/_bkorgangoodevil.baf~ EVALUATE_BUFFER
+//// 将 Korgan 的 D 对话脚本的善良/中立路线逻辑添加到底部。
+//EXTEND_BOTTOM ~korgand.bcs~ ~LivingClara/scripts/goodevil/_bkorgandgoodevil.baf~ EVALUATE_BUFFER
+//// 将 Mazzy 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~mazzy.bcs~ ~LivingClara/scripts/goodevil/_bmazzygoodevil.baf~ EVALUATE_BUFFER
+//// 将 Mazzy 的 D 对话脚本的善良/中立路线逻辑添加到底部。
+//EXTEND_BOTTOM ~mazzyd.bcs~ ~LivingClara/scripts/goodevil/_bmazzydgoodevil.baf~ EVALUATE_BUFFER
+//// 将 Minsc 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~minsc.bcs~ ~LivingClara/scripts/goodevil/_bminscgoodevil.baf~ EVALUATE_BUFFER
+//// 将 Nalia 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~nalia.bcs~ ~LivingClara/scripts/goodevil/_bnaliagoodevil.baf~ EVALUATE_BUFFER
+//// 将 Neera 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~neera.bcs~ ~LivingClara/scripts/goodevil/_bneeragoodevil.baf~ EVALUATE_BUFFER
+//// 将 Neera 的 D 对话脚本的善良/中立路线逻辑添加到底部。
+//EXTEND_BOTTOM ~neerad.bcs~ ~LivingClara/scripts/goodevil/_bneeradgoodevil.baf~ EVALUATE_BUFFER
+//// 将 Nordon (Order of the Radiant Heart NPC) 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~norder.bcs~ ~LivingClara/scripts/goodevil/_bnordergoodevil.baf~ EVALUATE_BUFFER
+//// 将 Rasaad 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~rasaad.bcs~ ~LivingClara/scripts/goodevil/_brasgoodevil.baf~ EVALUATE_BUFFER
+//// 将秩序之手成员的通用善良/中立路线逻辑添加到 sht0903 脚本底部。
+//EXTEND_BOTTOM ~sht0903.bcs~ ~LivingClara/scripts/goodevil/_bsht0903goodevil.baf~ EVALUATE_BUFFER //Script for all Order of the Radiant Heart People
+//// 将 Valygar 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~valygar.bcs~ ~LivingClara/scripts/goodevil/_bvalygargoodevil.baf~ EVALUATE_BUFFER
+//// 将 Viconia 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~viconia.bcs~ ~LivingClara/scripts/goodevil/_bviconiagoodevil.baf~ EVALUATE_BUFFER
+//// 将 Viconia 的 D 对话脚本的善良/中立路线逻辑添加到底部。
+//EXTEND_BOTTOM ~vicond.bcs~ ~LivingClara/scripts/goodevil/_bviconiadgoodevil.baf~ EVALUATE_BUFFER
+//// 将 Yoshimo 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~yoshimo.bcs~ ~LivingClara/scripts/goodevil/_byoshgoodevil.baf~ EVALUATE_BUFFER
+//// 将 Wilson 的善良/中立路线逻辑添加到其脚本底部。
+//EXTEND_BOTTOM ~wilson.bcs~ ~LivingClara/scripts/goodevil/_bwilsongoodevil.baf~ EVALUATE_BUFFER
 
 //Drow City Files
-EXTEND_BOTTOM ~attkbeho.bcs~ ~LivingClara/scripts/goodevil/_bbeholdercavedrowfix.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~AR2101.bcs~ ~LivingClara/scripts/goodevil/_bbeholdercaves.baf~ EVALUATE_BUFFER
+// ----- 扩展卓尔城市相关脚本 -----
+// 将针对卓尔城市中眼魔区域的修复脚本添加到底部。
+//EXTEND_BOTTOM ~attkbeho.bcs~ ~LivingClara/scripts/goodevil/_bbeholdercavedrowfix.baf~ EVALUATE_BUFFER
+//// 将卓尔城市中眼魔洞穴区域的脚本逻辑添加到底部。
+//EXTEND_BOTTOM ~AR2101.bcs~ ~LivingClara/scripts/goodevil/_bbeholdercaves.baf~ EVALUATE_BUFFER
 
 //TOB Script files 
+// ========== 模块 1: All Things Mazzy - TOB (Throne of Bhaal) 阶段善良/中立路线脚本扩展 ==========
+
+// ----- 扩展 TOB 阶段的 NPC 脚本 (善良/中立路线) -----
+// 将 TOB 阶段 Aerie 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~aeri25.bcs~ ~LivingClara/scripts/goodevil/tob/_baeriegoodeviltob.baf~
+// 将 TOB 阶段 Anomen 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~anom25.bcs~ ~LivingClara/scripts/goodevil/tob/_banomengoodeviltob.baf~
+// 将 TOB 阶段游戏主脚本的善良/中立路线逻辑添加到底部。
 EXTEND_BOTTOM ~baldur25.bcs~ ~LivingClara/scripts/goodevil/tob/_bbaldurToBgoodevil.baf~
+// 将 TOB 阶段 Dorn 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~dorn25.bcs~ ~LivingClara/scripts/goodevil/tob/_bdorngoodeviltob.baf~
+// 将 TOB 阶段 Dorn 的 D 对话脚本的善良/中立路线逻辑添加到底部。
 EXTEND_BOTTOM ~dorn25d.bcs~ ~LivingClara/scripts/goodevil/tob/_bdorndgoodeviltob.baf~
+// 将 TOB 阶段 Edwin 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~edwi25.bcs~ ~LivingClara/scripts/goodevil/tob/_bedwingoodeviltob.baf~
+// 将 TOB 阶段 HaerDalis 的善良/中立路线逻辑添加到其脚本底部（仅用于 Dorn 恋爱线）。
 EXTEND_BOTTOM ~haer25.bcs~ ~LivingClara/scripts/goodevil/tob/_bhaerdalisgoodeviltob.baf~ //only for Dorn romance
+// 将 TOB 阶段 HaerDalis 的 D 对话脚本的善良/中立路线逻辑添加到底部（仅用于 Dorn 恋爱线，与 SOA 相同）。
 EXTEND_BOTTOM ~haerdad.bcs~ ~LivingClara/scripts/goodevil/tob/_bhaerdalisdgoodeviltob.baf~ //only for Dorn romance (same as SOA)
+// 将 TOB 阶段 Hexxat 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~hexxa25.bcs~ ~LivingClara/scripts/goodevil/tob/_bhexxatgoodeviltob.baf~
+// 将 TOB 阶段 Imoen 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~imoe25.bcs~ ~LivingClara/scripts/goodevil/tob/_bimoen2goodeviltob.baf~
+// 将 TOB 阶段 Imoen 的 D 对话脚本的善良/中立路线逻辑添加到底部（与 SOA 相同）。
 EXTEND_BOTTOM ~imoen2d.bcs~ ~LivingClara/scripts/goodevil/tob/_bimoendgoodeviltob.baf~ //No separate TOB d script. Same as SOA
+// 将 TOB 阶段 Jan Jansen 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~jan25.bcs~ ~LivingClara/scripts/goodevil/tob/_bjangoodeviltob.baf~
+// 将 TOB 阶段 Jaheira 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~jahe25.bcs~ ~LivingClara/scripts/goodevil/tob/_bjaheiragoodeviltob.baf~
+// 将 TOB 阶段 Jaheira 的 D 对话脚本的善良/中立路线逻辑添加到底部。
 EXTEND_BOTTOM ~jahei25d.bcs~ ~LivingClara/scripts/goodevil/tob/_bjaheiradgoodeviltob.baf~ 
-EXTEND_BOTTOM ~korg25.bcs~ ~LivingClara/scripts/goodevil/tob/_bkorgangoodeviltob.baf~ 
+// 将 TOB 阶段 Korgan 的善良/中立路线逻辑添加到其脚本底部。
+EXTEND_BOTTOM ~korg25.bcs~ ~LivingClara/scripts/goodevil/tob/_bkorgangoodeviltob.baf~
+// 将 TOB 阶段 Korgan 的 D 对话脚本的善良/中立路线逻辑添加到底部。 
 EXTEND_BOTTOM ~korgand.bcs~ ~LivingClara/scripts/goodevil/tob/_bkorgandgoodeviltob.baf~ //No separate TOB d script
+// 将 TOB 阶段 Mazzy 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~mazz25.bcs~ ~LivingClara/scripts/goodevil/tob/_bmazzygoodeviltob.baf~
+// 将 TOB 阶段 Mazzy 的 D 对话脚本的善良/中立路线逻辑添加到底部。
 EXTEND_BOTTOM ~mazzyd.bcs~ ~LivingClara/scripts/goodevil/tob/_bmazzydgoodeviltob.baf~ //No separate TOB d script
+// 将 TOB 阶段 Minsc 的善良/中立路线逻辑添加到其脚本底部（仅用于 Minsc-Neera 恋爱线）。
 EXTEND_BOTTOM ~mins25.bcs~ ~LivingClara/scripts/goodevil/tob/_bminscgoodeviltob.baf~ //For Minsc-Neera only
+// 将 TOB 阶段 Nalia 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~nali25.bcs~ ~LivingClara/scripts/goodevil/tob/_bnaliagoodeviltob.baf~
+// 将 TOB 阶段 Neera 的善良/中立路线逻辑添加到其脚本底部（仅用于 Minsc-Neera 恋爱线）。
 EXTEND_BOTTOM ~neer25.bcs~ ~LivingClara/scripts/goodevil/tob/_bneeragoodeviltob.baf~ //For Minsc-Neera only
+// 将 TOB 阶段 Neera 的 D 对话脚本的善良/中立路线逻辑添加到底部（仅用于 Minsc-Neera 恋爱线）。
 EXTEND_BOTTOM ~neera25d.bcs~ ~LivingClara/scripts/goodevil/tob/_bneeradgoodeviltob.baf~ //For Minsc-Neera only
+// 将 TOB 阶段 Rasaad 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~rasa25.bcs~ ~LivingClara/scripts/goodevil/tob/_brasgoodeviltob.baf~
+// 将 TOB 阶段 Sarevok 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~sarev25.bcs~ ~LivingClara/scripts/goodevil/tob/_bsarevokgoodeviltob.baf~
+// 将 TOB 阶段 Valygar 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~valy25.bcs~ ~LivingClara/scripts/goodevil/tob/_bvalygargoodeviltob.baf~
+// 将 TOB 阶段 Viconia 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~vico25.bcs~ ~LivingClara/scripts/goodevil/tob/_bviconiagoodeviltob.baf~
+// 将 TOB 阶段 Viconia 的 D 对话脚本的善良/中立路线逻辑添加到底部。
 EXTEND_BOTTOM ~vicon25d.bcs~ ~LivingClara/scripts/goodevil/tob/_bviconiadgoodeviltob.baf~ 
+// 将 TOB 阶段 Wilson 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~wilson25.bcs~ ~LivingClara/scripts/goodevil/tob/_bwilsongoodeviltob.baf~ 
 
 //Tob dialogue files
+// ----- 编译 TOB 阶段的善良/中立路线对话文件 -----
+// 编译 goodevil/tob 目录下的所有对话文件。
 COMPILE ~LivingClara/dialogues/goodevil/tob~
 
 //Wraith Scene Files
-COPY ~LivingClara/copy/New Items/_bMDAD.cre~ ~override~ //This copies our new CRE file, changes the name and the variables. Required for every wraith.
-  SAY NAME1 @100 /*Richter Fentan*/
-  SAY NAME2 @100
-  WRITE_EVALUATED_ASCII DIALOG          ~_bMDAD~ #8
-  WRITE_EVALUATED_ASCII DEATHVAR        ~_bMDAD~ #32
-  WRITE_EVALUATED_ASCII SCRIPT_OVERRIDE ~~       #8
-  
-  COPY ~LivingClara/copy/New Items/_bDYNA.cre~ ~override~
-  SAY NAME1 @129 /*Dynaheir*/
-  SAY NAME2 @129
-  WRITE_EVALUATED_ASCII DIALOG          ~_BDYNA~ #8
-  WRITE_EVALUATED_ASCII DEATHVAR        ~_BDYNA~ #32
-  WRITE_EVALUATED_ASCII SCRIPT_OVERRIDE ~~       #8
+// ========== 模块 2: Keepable Clara - 幽魂场景相关生物文件 ==========
 
+// ----- 复制并设置用于幽魂场景的新生物 (CRE) 文件 -----
+// 复制 Richter Fentan 的幽魂生物文件，并设置其属性。
+//COPY ~LivingClara/copy/New Items/_bMDAD.cre~ ~override~ //This copies our new CRE file, changes the name and the variables. Required for every wraith.
+//    // 设置显示名称和鼠标悬停名称。
+//  SAY NAME1 @100 /*Richter Fentan*/
+//  SAY NAME2 @100
+//      // 设置该幽魂的对话文件为 "_bMDAD"。
+//  WRITE_EVALUATED_ASCII DIALOG          ~_bMDAD~ #8
+//      // 设置该幽魂的死亡变量/脚本名为 "_bMDAD"。
+//  WRITE_EVALUATED_ASCII DEATHVAR        ~_bMDAD~ #32
+//      // 清空该幽魂的覆盖脚本。
+//  WRITE_EVALUATED_ASCII SCRIPT_OVERRIDE ~~       #8
+//  
+//  // 复制 Dynaheir 的幽魂生物文件，并设置其属性。
+//  COPY ~LivingClara/copy/New Items/_bDYNA.cre~ ~override~
+//      // 设置名称。
+//  SAY NAME1 @129 /*Dynaheir*/
+//  SAY NAME2 @129
+//      // 设置对话文件、死亡变量和覆盖脚本。
+//  WRITE_EVALUATED_ASCII DIALOG          ~_BDYNA~ #8
+//  WRITE_EVALUATED_ASCII DEATHVAR        ~_BDYNA~ #32
+//  WRITE_EVALUATED_ASCII SCRIPT_OVERRIDE ~~       #8
+
+// 复制 "Little Clara" 的幽魂生物文件，并设置其属性。
   COPY ~LivingClara/Clara/new-stuff/_bLITCLA.cre~ ~override~
+      // 设置名称。
   SAY NAME1 @130 /*Little Clara*/
   SAY NAME2 @130
+      // 设置对话文件、死亡变量和覆盖脚本。
   WRITE_EVALUATED_ASCII DIALOG          ~_bLITCLA~ #8
   WRITE_EVALUATED_ASCII DEATHVAR        ~_bLITCLA~ #32
   WRITE_EVALUATED_ASCII SCRIPT_OVERRIDE ~~       #8 
   
-   COPY ~LivingClara/copy/New Items/_bWrHD.cre~ ~override~ //The HaerDalis wraith uses the existing name
-  WRITE_EVALUATED_ASCII DIALOG          ~_bWrHD~ #8
-  WRITE_EVALUATED_ASCII DEATHVAR        ~_bWrHD~ #32
-  WRITE_EVALUATED_ASCII SCRIPT_OVERRIDE ~~       #8 
+// 复制 HaerDalis 的幽魂生物文件，并设置其属性。
+//   COPY ~LivingClara/copy/New Items/_bWrHD.cre~ ~override~ //The HaerDalis wraith uses the existing name
+//    // 注释说明：这个幽魂使用现有的名称，因此没有修改 NAME1/NAME2。
+//    // 设置对话文件、死亡变量和覆盖脚本。
+//  WRITE_EVALUATED_ASCII DIALOG          ~_bWrHD~ #8
+//  WRITE_EVALUATED_ASCII DEATHVAR        ~_bWrHD~ #32
+//  WRITE_EVALUATED_ASCII SCRIPT_OVERRIDE ~~       #8 
   
  
 //CutScenes
-COMPILE ~LivingClara/scripts/goodevil/tob/_bMazDad.baf~ //Mazzy Wraith Cutscene
-COMPILE ~LivingClara/scripts/goodevil/tob/_bMazD2.baf~ //End of Wraith Cutscene
-COMPILE ~LivingClara/scripts/goodevil/tob/_bDyna.baf~ //M-N Wraith Cutscene
-COMPILE ~LivingClara/scripts/goodevil/tob/_bDyna2.baf~ //End of Wraith Cutscene
+// ========== 其他随机内容 - 过场动画 (CutScenes) 和结局 (Epilogues) ==========
+
+// ----- 编译各种过场动画脚本 -----
+// 编译 Mazzy 幽魂剧情的开始脚本。
+//COMPILE ~LivingClara/scripts/goodevil/tob/_bMazDad.baf~ //Mazzy Wraith Cutscene
+//// 编译 Mazzy 幽魂剧情的结束脚本。
+//COMPILE ~LivingClara/scripts/goodevil/tob/_bMazD2.baf~ //End of Wraith Cutscene
+//// 编译 Minsc-Neera (Dynaheir) 幽魂剧情的开始脚本。
+//COMPILE ~LivingClara/scripts/goodevil/tob/_bDyna.baf~ //M-N Wraith Cutscene
+//// 编译 Minsc-Neera (Dynaheir) 幽魂剧情的结束脚本。
+//COMPILE ~LivingClara/scripts/goodevil/tob/_bDyna2.baf~ //End of Wraith Cutscene
+// 编译 Clara-Anomen 幽魂剧情的开始脚本。
 COMPILE ~LivingClara/Clara/_bLCla.baf~ //C-A Wraith Cutscene
+// 编译 Clara-Anomen 幽魂剧情的结束脚本。
 COMPILE ~LivingClara/Clara/_bLCla2.baf~ //End of Wraith Cutscene
-COMPILE ~LivingClara/scripts/goodevil/_bAFly.baf~ //Aerie Flight Cutscene
-COMPILE ~LivingClara/scripts/goodevil/_bBooX.baf~ //Minsc-Neera-Boo Cutscene
-COMPILE ~LivingClara/scripts/goodevil/tob/_bAWing.baf~ //Aerie-Edwin Wings Cutscene
-COMPILE ~LivingClara/scripts/goodevil/tob/_bASwap.baf~ //Aerie Edwin Swap Cutscene
-COMPILE ~LivingClara/scripts/goodevil/_bATry.baf~ //Aerie Wing Attempt
-COMPILE ~LivingClara/scripts/goodevil/tob/_bAWinX.baf~ //Aerie Wing Success
-COMPILE ~LivingClara/scripts/goodevil/tob/_bHDW.baf~ //Dorn-HD Wraith Cutscene
+// 编译 Aerie 飞行剧情的脚本。
+//COMPILE ~LivingClara/scripts/goodevil/_bAFly.baf~ //Aerie Flight Cutscene
+//// 编译 Minsc-Neera-Boo 互动剧情的脚本。
+//COMPILE ~LivingClara/scripts/goodevil/_bBooX.baf~ //Minsc-Neera-Boo Cutscene
+//// 编译 Aerie 和 Edwin 获取翅膀的剧情脚本。
+//COMPILE ~LivingClara/scripts/goodevil/tob/_bAWing.baf~ //Aerie-Edwin Wings Cutscene
+//// 编译 Aerie 和 Edwin 交换翅膀的剧情脚本。
+//COMPILE ~LivingClara/scripts/goodevil/tob/_bASwap.baf~ //Aerie Edwin Swap Cutscene
+//// 编译 Aerie 尝试获取翅膀的剧情脚本。
+//COMPILE ~LivingClara/scripts/goodevil/_bATry.baf~ //Aerie Wing Attempt
+//// 编译 Aerie 成功获取翅膀的剧情脚本。
+//COMPILE ~LivingClara/scripts/goodevil/tob/_bAWinX.baf~ //Aerie Wing Success
+//// 编译 Dorn 和 HaerDalis 幽魂剧情的开始脚本。
+//COMPILE ~LivingClara/scripts/goodevil/tob/_bHDW.baf~ //Dorn-HD Wraith Cutscene
+// 编译 Dorn 和 HaerDalis 幽魂剧情的结束脚本。
 COMPILE ~LivingClara/scripts/goodevil/tob/_bHDW2.baf~ //End of Wraith Cutscene
+// 编译 Clara 任务中与魔像互动的剧情脚本。
 COMPILE ~LivingClara/scripts/goodevil/_bGol.baf~ //Golem Scene Clara Quest
-COMPILE ~LivingClara/scripts/goodevil/_bjbear1.baf~ //Jaheira transforms into a bear.
-COMPILE ~LivingClara/scripts/goodevil/_bjbear2.baf~ //Jaheira transforms from a bear back into a human.
-COMPILE ~LivingClara/scripts/goodevil/tob/_bWrWil1.baf~ //Jaheira-Wilson Wraith Cutscene
-COMPILE ~LivingClara/scripts/goodevil/tob/_bWrWil2.baf~ //End of Jaheira-Wilson Wraith Cutscene
+// 编译 Jaheira 变成熊形态的剧情脚本。
+//COMPILE ~LivingClara/scripts/goodevil/_bjbear1.baf~ //Jaheira transforms into a bear.
+//// 编译 Jaheira 从熊形态变回人形的剧情脚本。
+//COMPILE ~LivingClara/scripts/goodevil/_bjbear2.baf~ //Jaheira transforms from a bear back into a human.
+//// 编译 Jaheira-Wilson 幽魂剧情的开始脚本。
+//COMPILE ~LivingClara/scripts/goodevil/tob/_bWrWil1.baf~ //Jaheira-Wilson Wraith Cutscene
+//// 编译 Jaheira-Wilson 幽魂剧情的结束脚本。
+//COMPILE ~LivingClara/scripts/goodevil/tob/_bWrWil2.baf~ //End of Jaheira-Wilson Wraith Cutscene
 
 //Epilogues:
+// ----- 结局处理 -----
+// 在安装日志中打印一条关于创建结局的信息。
 PRINT @154 /*Creating epilogues. Too many epilogues... Why are there so many options here?*/
 // Changing AR6200 (existing Mazzy epilogue) - this is the normal way to do it. Dummied out since we made ours unstoppable
-/*COPY_EXISTING ~ar6200.bcs~ ~override~
-  DECOMPILE_BCS_TO_BAF
+// --- 注释掉的旧版结局修改方法 ---
+// 下面的代码块是被注释掉的（/* ... */），它展示了修改 AR6200.bcs 脚本文件以添加条件的传统方法。
+// 作者选择不使用这种方法，而是使用 EXTEND_TOP。
+/*COPY_EXISTING ~ar6200.bcs~ ~override~// 复制结局区域脚本
+  DECOMPILE_BCS_TO_BAF// 将 BCS 编译成可编辑的 BAF 文本
+  // 在 Mazzy 结局触发条件中添加一个限制：如果玩家选择了纯友谊路线，则不触发此结局。
     REPLACE_TEXTUALLY ~Global("MazzyBio","GLOBAL",0)~
             ~Global("MazzyBio","GLOBAL",0) !Global("_BMazzyFriendship","GLOBAL",1)~
-  COMPILE_BAF_TO_BCS
-BUT_ONLY_IF_IT_CHANGES
+  COMPILE_BAF_TO_BCS// 将修改后的 BAF 重新编译成 BCS
+BUT_ONLY_IF_IT_CHANGES// 仅在文件实际被修改时才覆盖
 
+// 对 Anomen 结局也进行类似处理
 COPY_EXISTING ~ar6200.bcs~ ~override~
   DECOMPILE_BCS_TO_BAF
+  // 添加条件：如果玩家选择了邪恶 Anomen 或 Wilson-Jaheira 结局，或者 Clara 死亡，则不触发此结局。
     REPLACE_TEXTUALLY ~Global("AnomenBio","GLOBAL",0)~
             ~Global("AnomenBio","GLOBAL",0) !Global("_bDarksideAnomen","GLOBAL",2) OR(2) !Global("_bLordAndLadyDelryn","GLOBAL",5) Dead("_bClara")~
   COMPILE_BAF_TO_BCS
 BUT_ONLY_IF_IT_CHANGES*/
 
+// --- 使用 EXTEND_TOP 修改结局脚本 ---
+// 将自定义的结局控制逻辑脚本添加到 AR6200.bcs 的顶部，以确保它在原有结局逻辑之前执行。
+// 这个脚本 (_bAR6200.baf) 可能包含了防止冲突结局同时触发的逻辑。
 EXTEND_TOP ~AR6200.bcs~ ~LivingClara/scripts/goodevil/tob/_bAR6200.baf~
 
 //Clara
+// --- Clara 的结局 ---
 COPY ~LivingClara/epilogue/_bClara.2da~ ~override/_bCla01.2da~ //Basic Epilogue
-REPLACE ~99999~ @47
+REPLACE ~99999~ @47 // 替换 2DA 文件中的占位符 99999 为实际的文本引用 @47
 
 COPY ~LivingClara/epilogue/_bClara.2da~ ~override/_bCla02.2da~ //Marries Anomen, not dead
 REPLACE ~99999~ @78
@@ -695,6 +1056,7 @@ COPY ~LivingClara/epilogue/_bClara.2da~ ~override/_bCla06.2da~ //Marries Cor, C 
 REPLACE ~99999~ @82
 
 //Anomen
+// --- Anomen 的结局 ---
 COPY ~LivingClara/epilogue/_bAnom.2da~ ~override/_bAno01.2da~ //Married Clara, not dead
 REPLACE ~99999~ @83
 
@@ -704,7 +1066,8 @@ REPLACE ~99999~ @98
 COPY ~LivingClara/epilogue/_bAnom.2da~ ~override/_bAno03.2da~ //Darkside Romance God Epilogue
 REPLACE ~99999~ @99
 
-////Mazzy
+//Mazzy
+// --- Mazzy 的结局 ---
 //COPY ~LivingClara/epilogue/_bMazz.2da~ ~override/_bMaz01.2da~ //Player chose god
 //REPLACE ~99999~ @48
 //
@@ -716,8 +1079,9 @@ REPLACE ~99999~ @99
 //
 //COPY ~LivingClara/epilogue/_bMazz.2da~ ~override/_bMaz04.2da~ //Friendship only
 //REPLACE ~99999~ @104
-//
-////Aerie
+
+//Aerie
+// --- Aerie 的结局 ---
 //COPY ~LivingClara/epilogue/_bAeri.2da~ ~override/_bAer01.2da~ //No wings, no Neera, witch w/o romance
 //REPLACE ~99999~ @112
 //
@@ -735,8 +1099,9 @@ REPLACE ~99999~ @99
 //
 //COPY ~LivingClara/epilogue/_bAeri.2da~ ~override/_bAer06.2da~ //Wings, no witch/CN Romance
 //REPLACE ~99999~ @117
-//
-////Minsc
+
+//Minsc
+// --- Minsc 的结局 ---
 //COPY ~LivingClara/epilogue/_bMins.2da~ ~override/_bMin01.2da~ //No wings, no Neera, witch w/o romance
 //REPLACE ~99999~ @118
 //
@@ -751,8 +1116,9 @@ REPLACE ~99999~ @99
 //
 //COPY ~LivingClara/epilogue/_bMins.2da~ ~override/_bMin05.2da~ //Minsc-Neera, no Aerie
 //REPLACE ~99999~ @122
-//
-////Neera
+
+//Neera
+// --- Neera 的结局 ---
 //COPY ~LivingClara/epilogue/_bNeer.2da~ ~override/_bNee01.2da~ //No wings, Neera, witch w/o romance
 //REPLACE ~99999~ @123
 //
@@ -761,24 +1127,29 @@ REPLACE ~99999~ @99
 //
 //COPY ~LivingClara/epilogue/_bNeer.2da~ ~override/_bNee03.2da~ //Neera-Minsc no Aerie
 //REPLACE ~99999~ @125
-//
-////Dorn
+
+//Dorn
+// --- Dorn 的结局 ---
 //COPY ~LivingClara/epilogue/_bDorn.2da~ ~override/_bDorn.2da~ //HD-Dorn Romance
 //REPLACE ~99999~ @133
-//
-////HaerDalis
+
+//HaerDalis
+// --- HaerDalis 的结局 ---
 //COPY ~LivingClara/epilogue/_bHD.2da~ ~override/_bHD01.2da~ //HD-Dorn Romance
 //REPLACE ~99999~ @134
-//
-////Wilson
+
+//Wilson
+// --- Wilson 的结局 ---
 //COPY ~LivingClara/epilogue/_bWils.2da~ ~override/_bWils01.2da~ //Wilson-Jaheira Romance
 //REPLACE ~99999~ @134000
-//
-////Jaheira
-//COPY ~LivingClara/epilogue/_bJahe.2da~ ~override/_bJahe01.2da~ //Jaheira-Wilson Romance
-//REPLACE ~99999~ @134001
-//
-////Viconia epilogues if she gives up her god
+
+//Jaheira
+// --- Jaheira 的结局 ---
+//OPY ~LivingClara/epilogue/_bJahe.2da~ ~override/_bJahe01.2da~ //Jaheira-Wilson Romance
+//EPLACE ~99999~ @134001
+
+//Viconia epilogues if she gives up her god
+// --- Viconia 放弃神祇后的结局 ---
 //COPY ~LivingClara/epilogue/_bVic.2da~ ~override/_bVic02.2da~ //No Shar, CN God
 //REPLACE ~99999~ @127
 //
@@ -787,45 +1158,99 @@ REPLACE ~99999~ @99
 
 
 //My Personal Rest Check Files (For all of my mods)
+// ========== 其他随机内容 - 休息检查 (Rest Check) 文件 ==========
+// 这些文件旨在帮助处理 Mod 之间的兼容性问题，特别是在休息时触发的事件。
+// 注：路径是 LivingClara，但根据 tree.txt 应为 AllThingsMazzy，这可能是代码中的遗留或别名。
+
+// 打印一条信息到安装日志，说明正在安装休息检查文件。
 PRINT @155 /*RestCheck Files: to help with all the joys of mod compatibility.*/
+// 检查游戏中是否已经存在 "_brcstop.spl" 这个法术文件。
+// 这个检查确保休息检查系统只被安装一次，避免与其他可能使用相同系统的 Mod 冲突。
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~_brcstop.spl~ THEN BEGIN
+    // 如果 "_brcstop.spl" 不存在，则复制它到游戏的 override 目录。
+    // 这个法术可能是休息检查系统的核心部分，用于协调或停止某些冲突的休息事件。
 COPY ~LivingClara/restcheck/_brcstop.spl~ ~override~
+    // 为玩家角色 (SoA 阶段) 的脚本添加休息检查逻辑。
+    // 当玩家在 SoA 阶段休息时，可能会触发与梦境相关的事件。
 EXTEND_BOTTOM ~baldur.bcs~ ~LivingClara/restcheck/player1dreamsSoA.baf~
+    // 为玩家角色 (ToB 阶段) 的脚本添加休息检查逻辑。
+    // 当玩家在 ToB 阶段休息时，可能会触发与梦境相关的事件。
 EXTEND_BOTTOM ~baldur25.bcs~ ~LivingClara/restcheck/player1dreamsToB.baf~
+    // 为各个 NPC 的脚本添加休息检查逻辑。
+    // 这些脚本 (_rc_*.baf) 可能包含在休息时检查特定条件或触发特定对话的代码，
+    // 以防止与其他 Mod 的内容冲突或确保内容按预期触发。
+
+    // 为 Aerie (SoA) 添加休息检查。
 EXTEND_BOTTOM ~aerie.bcs~ ~LivingClara/restcheck/_rc_aerie.baf~
+    // 为 Aerie (ToB) 添加休息检查。
 EXTEND_BOTTOM ~aeri25.bcs~ ~LivingClara/restcheck/_rc_aeri25.baf~
+    // 为 Anomen (SoA) 添加休息检查。
 EXTEND_BOTTOM ~anomen.bcs~ ~LivingClara/restcheck/_rc_anomen.baf~
+    // 为 Dorn (SoA) 添加休息检查。
 EXTEND_BOTTOM ~dorn.bcs~ ~LivingClara/restcheck/_rc_dorn.baf~
+    // 为 Edwin (SoA) 添加休息检查。
 EXTEND_BOTTOM ~edwin.bcs~ ~LivingClara/restcheck/_rc_edwin.baf~
+    // 为 HaerDalis (SoA) 添加休息检查。
 EXTEND_BOTTOM ~haerdali.bcs~ ~LivingClara/restcheck/_rc_haerdali.baf~
+    // 为 HaerDalis (ToB) 添加休息检查。
 EXTEND_BOTTOM ~haer25.bcs~ ~LivingClara/restcheck/_rc_haer25.baf~
+    // 为 Hexxat (SoA) 添加休息检查。
 EXTEND_BOTTOM ~hexxat.bcs~ ~LivingClara/restcheck/_rc_hexxat.baf~
+    // 为 Hexxat (ToB) 添加休息检查。
 EXTEND_BOTTOM ~hexxa25.bcs~ ~LivingClara/restcheck/_rc_hexxa25.baf~
+    // 为 Imoen (SoA) 添加休息检查。
 EXTEND_BOTTOM ~imoen2.bcs~ ~LivingClara/restcheck/_rc_imoen2.baf~
+    // 为 Imoen (ToB) 添加休息检查。
 EXTEND_BOTTOM ~imoe25.bcs~ ~LivingClara/restcheck/_rc_imoe25.baf~
+    // 为 Jaheira (SoA) 添加休息检查。
 EXTEND_BOTTOM ~jaheira.bcs~ ~LivingClara/restcheck/_rc_jaheira.baf~
+    // 为 Keldorn (SoA) 添加休息检查。
 EXTEND_BOTTOM ~keldorn.bcs~ ~LivingClara/restcheck/_rc_keldorn.baf~
+    // 为 Keldorn (ToB) 添加休息检查。
 EXTEND_BOTTOM ~keld25.bcs~ ~LivingClara/restcheck/_rc_keld25.baf~
+    // 为 Mazzy (SoA) 添加休息检查。
 EXTEND_BOTTOM ~mazzy.bcs~ ~LivingClara/restcheck/_rc_mazzy.baf~
+    // 为 Nalia (SoA) 添加休息检查。
 EXTEND_BOTTOM ~nalia.bcs~ ~LivingClara/restcheck/_rc_nalia.baf~
+    // 为 Neera (ToB) 添加休息检查。
+    // 注意：这里文件名是 _rc_neera25.baf，但脚本目标是 neer25.bcs。
 EXTEND_BOTTOM ~neer25.bcs~ ~LivingClara/restcheck/_rc_neera25.baf~
+    // 为 Rasaad (SoA) 添加休息检查。
 EXTEND_BOTTOM ~rasaad.bcs~ ~LivingClara/restcheck/_rc_rasaad.baf~
+    // 为 Sarevok (ToB) 添加休息检查。
 EXTEND_BOTTOM ~sarev25.bcs~ ~LivingClara/restcheck/_rc_sarev25.baf~
+    // 为 Viconia (SoA) 添加休息检查。
 EXTEND_BOTTOM ~viconia.bcs~ ~LivingClara/restcheck/_rc_viconia.baf~
+    // 为 Viconia (ToB) 添加休息检查。
 EXTEND_BOTTOM ~vico25.bcs~ ~LivingClara/restcheck/_rc_vico25.baf~
+// 结束 IF 条件块，只有当 "_brcstop.spl" 不存在时才执行上述复制和扩展操作。
 END
 
+// ========== 模块 10: For The Evil! - 邪恶路线内容 ==========
 
+// 定义一个名为 "For the Evil" 的可选安装组件。
+// BEGIN @53 后的文本是显示给用户的组件名称和描述。
+// 这个额外的 BEGIN 使得这部分成为一个可以单独选择安装的可选组件。
 BEGIN @53 /*For the Evil: Additional content that might disturb a truly good player.*/       //The additional BEGIN makes this an optional mod segment that's installed separately.
+    // REQUIRE_FILE 指令确保在安装此组件之前，必须已经安装了主 Mod。
+    // 它会检查 override 目录中是否存在 _bPICKP.spl 文件。
+    // 如果不存在，则会显示错误信息 @52 并阻止安装。
 REQUIRE_FILE ~override/_bPICKP.spl~ @52 /*You must have the main mod installed.*/            //This code means that the segment can't be installed without the main mod.
 
 //Bodhi SoA
+    // ----- 安装邪恶路线的 Bodhi NPC (SoA 阶段) -----
+    // 在安装日志中打印一条信息，表明正在添加邪恶的吸血鬼 NPC Bodhi。
 PRINT @156 /*Adding Bodhi NPC for all your evil vampire needs*/
+    // 复制 Bodhi NPC 所需的所有预设文件（如物品、脚本等，不需要文本修改的）到游戏的 override 目录。
 COPY ~LivingClara/Bodhi/copy~ ~override~
+    // 复制并重命名 Bodhi 在 SOA (Shadows of Amn) 阶段的角色文件 (_bbodhi.cre)。
 COPY ~LivingClara/Bodhi/_bbodhi.cre~ ~override/_bbodhi.cre~
+        // 设置角色在游戏中的显示名称 (Name1) 和鼠标悬停名称 (Name2)。
 SAY NAME1 @54 /*Bodhi*/
 SAY NAME2 @54 /*Bodhi*/
+        // 设置角色的背景故事 (Biography)。
 SAY BIO @55 /*When asked about her past, Bodhi spits out the words. She grew up in Suldanessellar alongside Jon Inrenicus. Both of them were of unknown paternity and both were driven to surpass all others in their fields; he in magic and she in physical combat. During Jon Irenicus's mad scheme to become a god she protected him, fighting off the most elite of the elven guards. For that queen Ellesime, Bodhi's half sister, stripped them of their names and immortality and cast them out. As a vampire she was happy, but still mortal. Now with Imoen's soul within her, she feels elven once again, but remains consumed with hatred and regret.*/
+        // 设置各种游戏状态下的语音文本。
 SAY MORALE @56 /*No, no it's mine! This life is mine! [BODHIX41.WAV]*/
 SAY LEADER @5601 /*Follow, please, and stay exactly in my step. You would regret doing other. [_bBodh05.WAV]*/
 SAY TIRED ~~
@@ -835,20 +1260,24 @@ SAY BATTLE_CRY2 @59 /*Prepare, for the final sleep comes for you. [BODHIX05.WAV]
 SAY BATTLE_CRY3 @60 /*Here mousy, mousy. The hunt draws to a close here and now. [BODHIX35.WAV]*/
 SAY BATTLE_CRY4 @61 /*This ends here. Tonight I shall feast on the blood of the gods! [BODHIX40.WAV]*/
 SAY BATTLE_CRY5 @6101 /*And so it shall end here. [_bBodh16.WAV]*/
+        // DAMAGE 和 DYING 语音似乎没有文本，只有音效文件。
 SAY DAMAGE ~~ [BODHIX06.WAV]
 SAY DYING ~~ [BODHIX07.WAV]
 SAY HURT @62 /*No, no! [CEFALD16.WAV]*/
+        // 区域相关的语音文本。
 SAY AREA_FOREST ~~
 SAY AREA_CITY ~~
 SAY AREA_DUNGEON ~~
 SAY AREA_DAY ~~
 SAY AREA_NIGHT ~~
+        // 玩家在队伍中与 Bodhi 互动时的通用选择语音。
 SAY SELECT_COMMON1 @6201 /*I am Bodhi. [_bBodh04.WAV]*/
 SAY SELECT_COMMON2 @6202 /*I am Bodhi, and I greet you warmly. [_bBodh02.WAV]*/
 SAY SELECT_COMMON3 ~~
 SAY SELECT_COMMON4 ~~
 SAY SELECT_COMMON5 ~~
 SAY SELECT_COMMON6 ~~
+        // 玩家指派 Bodhi 执行任务时的选择语音。
 SAY SELECT_ACTION1 @63 /*You live so long as I tolerate it. [BODHIX01.WAV]*/
 SAY SELECT_ACTION2 @64 /*This shall not take long. [BODHIX04.WAV]*/
 SAY SELECT_ACTION3 @6401 /*I would offer an alternative. [_bBodh06.WAV]*/
@@ -856,11 +1285,14 @@ SAY SELECT_ACTION4 @6402 /*Such confidence is admirable. [_bBodh07.WAV]*/
 SAY SELECT_ACTION5 @6403 /*Very well. [_bBodh08.WAV]*/
 SAY SELECT_ACTION6 @6404 /*Now to my tasks. [_bBodh09.WAV]*/
 SAY SELECT_ACTION7 @6405 /*As you would have it. [_bBodh17.WAV]*/
+        // 稀有互动语音。
 SAY SELECT_RARE1 ~~
 SAY SELECT_RARE2 ~~
+        // 战斗相关语音。
 SAY CRITICAL_HIT @6406 /*Excellent! [_bBodh10.WAV]*/
 SAY CRITICAL_MISS @6407 /*Oh dear, not good at all. [_bBodh03.WAV]*/
 SAY TARGET_IMMUNE @6408 /*You are becoming an impressive pest. [_bBodh11.WAV]*/
+        // 物品和状态相关语音。
 SAY INVENTORY_FULL ~~
 SAY HAPPY @6409 /*You have proven resiliant beyond all expectation. It is appealing to me. [_bBodh13.WAV]*/
 SAY UNHAPPY_ANNOYED @65 /*Do not make me regret allying myself to you. [BODHIX19.WAV]*/
@@ -871,7 +1303,10 @@ SAY PICKED_POCKET ~~
 SAY REACT_TO_DIE_GENERAL @6700 /*And so your life does come to an end. A pity. [_bBodh12.WAV]*/
 
 //ToB Bodhi
+    // ----- 安装邪恶路线的 Bodhi NPC (TOB 阶段) -----
+    // 复制并重命名 Bodhi 在 TOB (Throne of Bhaal) 阶段的角色文件 (_bbod25.cre)。
 COPY ~LivingClara/Bodhi/_bbod25.cre~ ~override/_bbod25.cre~
+        // 为 TOB 阶段的 Bodhi 文件设置与 SOA 阶段相同的名称、背景和语音，确保角色一致性。
 SAY NAME1 @54 /*Bodhi*/
 SAY NAME2 @54 /*Bodhi*/
 SAY BIO @55 /*When asked about her past, Bodhi spits out the words. She grew up in Suldanessellar alongside Jon Inrenicus. Both of them were of unknown paternity and both were driven to surpass all others in their fields; he in magic and she in physical combat. During Jon Irenicus's mad scheme to become a god she protected him, fighting off the most elite of the elven guards. For that queen Ellesime, Bodhi's half sister, stripped them of their names and immortality and cast them out. As a vampire she was happy, but still mortal. Now with Imoen's soul within her, she feels elven once again, but remains consumed with hatred and regret.*/
@@ -920,10 +1355,15 @@ SAY PICKED_POCKET ~~
 SAY REACT_TO_DIE_GENERAL @6700 /*And so your life does come to an end. A pity. [_bBodh12.WAV]*/
 
 //ToB Bodhi Elf
+// ----- 安装邪恶路线的精灵形态 Bodhi NPC (TOB 阶段) -----
+// 复制并重命名精灵形态 Bodhi 在 TOB (Throne of Bhaal) 阶段的角色文件 (_bBodElf.cre)。
 COPY ~LivingClara/Bodhi/_bBodElf.cre~ ~override/_bBodElf.cre~
+    // 设置角色名称。
 SAY NAME1 @54 /*Bodhi*/
 SAY NAME2 @54 /*Bodhi*/
+    // 设置精灵形态 Bodhi 的独特背景故事。
 SAY BIO @55001 /*When asked about her past, Bodhi laughs. For helping you save her old city of Suldanessellar, Bodhi was rewarded with the same form and soul that were taken from her years ago. Though she misses her half-sister, Queen Ellesime, she is happy to be on the road once again, where her preferred prey are plentiful.*/
+    // 为精灵形态的 Bodhi 设置与吸血鬼形态相同的语音，保持角色一致性。
 SAY MORALE @56 /*No, no it's mine! This life is mine! [BODHIX41.WAV]*/
 SAY LEADER @5601 /*Follow, please, and stay exactly in my step. You would regret doing other. [_bBodh05.WAV]*/
 SAY TIRED ~~
@@ -968,50 +1408,70 @@ SAY HIDDEN_IN_SHADOWS @67 /*We will observe from a distance. [_bBodh15.WAV]*/
 SAY PICKED_POCKET ~~
 SAY REACT_TO_DIE_GENERAL @6700 /*And so your life does come to an end. A pity. [_bBodh12.WAV]*/
 
+// ----- 更新 2DA 文件以注册 Bodhi NPC 的对话 -----
+// 为吸血鬼形态的 Bodhi 添加到 pdialog.2da，定义其 SoA 和 ToB 阶段的各种对话文件。
 APPEND ~pdialog.2da~ //For Bodhi. This is only for party files, so the default d files aren't here. Order matters (script, p, j, dscript, tobp, tobj, tobd, tobscript)
 ~_bBodhi     _bBodhip     _bBodhij     _bBodhid     _bBod25p     _bBod25j     _bBod25d     _bBod25~
 
+// 为精灵形态的 Bodhi 添加到 pdialog.2da，注意 ToB 阶段的条目指向精灵形态的文件。
 APPEND ~pdialog.2da~ //For Bodhi-Elf. ToB only so SoA ones are the same. This is only for party files, so the default d files aren't here. Order matters (script, p, j, dscript, tobp, tobj, tobd, tobscript)
 ~_bBodElf     _bBoElfp     _bBoElfj     _bBoElfd     _bBoElfp     _bBoElfj     _bBoElfd     _bBodElf~
 
+// 为吸血鬼形态的 Bodhi 添加到 interdia.2da，定义其与其他 NPC 的闲聊文件。
 APPEND ~interdia.2da~ //For Bodhi.
 ~_bBodhi     b_bBodhi     b_bBod25~
 
+// 为精灵形态的 Bodhi 添加到 interdia.2da。
 APPEND ~interdia.2da~ //For Bodhi-Elf.
 ~_bBodElf     b_bBoElf     b_bBoElf~
 
+// ----- 编译 Bodhi 的对话和脚本文件 -----
+// 编译 Bodhi 所有的对话文件。
 COMPILE EVALUATE_BUFFER  ~LivingClara/Bodhi/dialogues~
 
+// 编译吸血鬼形态 Bodhi 的脚本文件。
 COMPILE EVALUATE_BUFFER ~LivingClara/Bodhi/_bBodhi.baf~
 COMPILE EVALUATE_BUFFER ~LivingClara/Bodhi/_bBodhid.baf~
+// 在游戏主脚本中添加一个后备脚本（可能是为了确保某些 Bodhi 相关逻辑在 SoA 早期触发）。
 EXTEND_BOTTOM ~baldur.bcs~ ~LivingClara/Bodhi/_bmisbak.baf~ EVALUATE_BUFFER
+// 编译 ToB 阶段 Bodhi 的脚本文件。
 COMPILE ~LivingClara/Bodhi/_bBod25.baf~
 COMPILE ~LivingClara/Bodhi/_bBod25d.baf~
-COMPILE ~LivingClara/Bodhi/_bBod25d.baf~
+// 在 ToB 游戏主脚本中添加一个后备脚本。
 EXTEND_BOTTOM ~baldur25.bcs~ ~LivingClara/Bodhi/_bmiba25.baf~
 
 //Bodhi Elf
-COMPILE ~LivingClara/Bodhi/_bBoElfd.baf~
-COMPILE ~LivingClara/Bodhi/_bBodElf.baf~
+// ----- 编译精灵形态 Bodhi 的脚本文件 -----
+COMPILE ~LivingClara/Bodhi/_bBoElfd.baf~// 精灵形态 ToB Dialog Script
+COMPILE ~LivingClara/Bodhi/_bBodElf.baf~// 精灵形态 ToB Override Script
 
 //Bodhi SoA Cutscenes
+// ----- 编译 Bodhi 在 SoA 的过场动画脚本 -----
 COMPILE ~LivingClara/Bodhi/_bBoJoin.baf~
 COMPILE ~LivingClara/Bodhi/_bBoTran.baf~
 
 //Scripts to turn Bodhi's people in her lair to your allies after she joins you.
-EXTEND_TOP ~vampir01.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER
-EXTEND_TOP ~c6vampir.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER
-EXTEND_TOP ~mistva.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER
-EXTEND_TOP ~Reddeath.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER
-EXTEND_TOP ~Vampir01.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER
-EXTEND_TOP ~Vampaer.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER
-EXTEND_TOP ~Vampano.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER
-EXTEND_TOP ~Vampjah.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER
-EXTEND_TOP ~Vampvic.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER
-EXTEND_TOP ~WDASIGHT.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER
+// ----- 扩展现有脚本以改变吸血鬼巢穴中 NPC 的行为 -----
+// 当 Bodhi 加入队伍后，这些脚本会将她巢穴中的其他吸血鬼转变为友方单位。
+// 使用 EXTEND_TOP 确保这些逻辑在脚本一开始就执行。
+EXTEND_TOP ~vampir01.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER// 吸血鬼 NPC 1
+EXTEND_TOP ~c6vampir.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER// 吸血鬼 NPC 2 (C6VAMPIR)
+EXTEND_TOP ~mistva.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER// 迷雾吸血鬼
+EXTEND_TOP ~Reddeath.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER// Red Death
+EXTEND_TOP ~Vampir01.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER// 另一个 Vampir01 (可能是不同区域的同名脚本)
+EXTEND_TOP ~Vampaer.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER// 吸血鬼 Aerialist
+EXTEND_TOP ~Vampano.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER// 吸血鬼 Anomen
+EXTEND_TOP ~Vampjah.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER// 吸血鬼 Jaheira
+EXTEND_TOP ~Vampvic.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER// 吸血鬼 Viconia
+EXTEND_TOP ~WDASIGHT.bcs~ ~LivingClara/Bodhi/_bbolair.baf~ EVALUATE_BUFFER// 全局视野脚本，可能用于处理特定场景下的转变
 
 //Code to add Bodhi's items. These are what gives her all her cool vampire powers.
+// ----- 添加 Bodhi 的专属物品 -----
+// 这些物品赋予了 Bodhi 吸血鬼的独特能力。
+
+// 复制 Bodhi 的爪子武器物品。
 COPY ~LivingClara/Bodhi/items/_BBOCLAW.itm~ ~override~
+    // 设置物品名称和详细描述，包括其作为武器的统计数据。
 SAY NAME1 @94 /*Bodhi's Claw*/
 SAY NAME2 @94 /*Bodhi's Claw*/
 SAY DESC @95 /*Bodhi refuses to use weapons, preferring to crush, rip, and rend her opponents with her bare hands.
@@ -1029,7 +1489,9 @@ Type: One-handed
 
 Weight: 0 */
 
+// 复制 Bodhi 的戒指物品。
 COPY ~LivingClara/Bodhi/items/_BBODRI2.itm~ ~override~
+    // 设置物品名称和描述。
 SAY NAME1 @90 /*Bodhi's Ring*/
 SAY NAME2 @90 /*Bodhi's Ring*/
 SAY DESC @91 /*Bodhi will not remove this ring nor tell you what it does.
@@ -1038,7 +1500,9 @@ STATISTICS:
 
 Weight: 0*/
 
+// 复制 Bodhi 的护身符物品。
 COPY ~LivingClara/Bodhi/items/_BBODAMU.itm~ ~override~
+    // 设置物品名称和描述。
 SAY NAME1 @92 /*Bodhi's Amulet*/
 SAY NAME2 @92 /*Bodhi's Amulet*/
 SAY DESC @93 /*Bodhi's amulet matches her eyes and glows when she's excited.
@@ -1047,7 +1511,9 @@ STATISTICS:
 
 Weight: 0*/
 
+// 复制 Bodhi 的腰带物品。
 COPY ~LivingClara/Bodhi/items/_BBOBELT.itm~ ~override~
+    // 设置物品名称和描述。
 SAY NAME1 @84 /*Bodhi's Belt*/
 SAY NAME2 @84 /*Bodhi's Belt*/
 SAY DESC @85 /*Bodhi's belt is made of a nearly indestructable material and you have never seen her take it off.
@@ -1055,8 +1521,9 @@ SAY DESC @85 /*Bodhi's belt is made of a nearly indestructable material and you 
 STATISTICS:
 
 Weight: 0*/
-
+// 复制 Bodhi 的头发物品 (头部装备)。
 COPY ~LivingClara/Bodhi/items/_BBOHAIR.itm~ ~override~
+    // 设置物品名称和描述。
 SAY NAME1 @86 /*Bodhi's Hair*/
 SAY NAME2 @86 /*Bodhi's Hair*/
 SAY DESC @87 /*Bodhi refuses to wear helms or hats of any kind. She prefers to feel the wind through her hair.
@@ -1065,7 +1532,9 @@ STATISTICS:
 
 Weight: 0*/
 
+// 复制另一个 Bodhi 的头发物品版本 (可能是备用或不同状态)。
 COPY ~LivingClara/Bodhi/items/_BBOHAR2.itm~ ~override~
+    // 设置物品名称和描述。
 SAY NAME1 @86 /*Bodhi's Hair*/
 SAY NAME2 @86 /*Bodhi's Hair*/
 SAY DESC @87 /*Bodhi refuses to wear helms or hats of any kind. She prefers to feel the wind through her hair.
@@ -1074,7 +1543,9 @@ STATISTICS:
 
 Weight: 0*/
 
+// 复制 Bodhi 的皮肤物品 (身体装备/护甲)。
 COPY ~LivingClara/Bodhi/items/_BBOSKIN.itm~ ~override~
+    // 设置物品名称和描述。
 SAY NAME1 @88 /*Bodhi's Skin*/
 SAY NAME2 @88 /*Bodhi's Skin*/
 SAY DESC @89 /*Bodhi will not wear armor. She finds it confining.
@@ -1084,59 +1555,106 @@ STATISTICS:
 Weight: 0*/
 
 // EET related code & summoning script
+// ----- EET (Enhanced Edition Trilogy) 相关代码与召唤脚本 -----
+// 检查当前游戏是否为 EET。
 ACTION_IF GAME_IS ~eet~ THEN BEGIN 
+    // 包含 EET 提供的函数库文件。
   INCLUDE ~EET/other/EET_functions.tph~ //declaration of external EET functions used below
+      // 调用 EET_NPC_TRANSITION 函数来处理 Bodhi 在 EET 中的连续性。
   LAF ~EET_NPC_TRANSITION~ //function used to automatically implement EET continuity system
+          // 传递给函数的整数变量。
     INT_VAR
-      type = 2 //informs the function that this is BG2 NPC without BG1 content
-	  clean_ToB = 1
+      type = 2 // 告诉函数这是一个纯 BG2 NPC（在 BG1 中没有内容）。//informs the function that this is BG2 NPC without BG1 content
+	  clean_ToB = 1// 表示在 TOB 阶段使用一个“干净”的角色文件。
+	   // 传递给函数的字符串变量。
     STR_VAR
-      dv = "_bBodhi" //Bodhi Death Variable (script name)
-      override_SoA = "_bBodhi" //SoA Override script
-      override_ToB = "_bBod25" //ToB Override script
-      dialog_ToB = "_bBod25" //ToB dialogue file
-	  cre_ToB = "_bBod25"
+      dv = "_bBodhi" // 指定 Bodhi 的死亡变量 (Death Variable / Script Name)。//Bodhi Death Variable (script name)
+      override_SoA = "_bBodhi" // 指定在 SOA 阶段使用的覆盖脚本文件名。//SoA Override script
+      override_ToB = "_bBod25" // 指定在 TOB 阶段使用的覆盖脚本文件名。//ToB Override script
+      dialog_ToB = "_bBod25" // 指定在 TOB 阶段使用的主对话文件名。//ToB dialogue file
+	  cre_ToB = "_bBod25"// 指定在 TOB 阶段使用的角色文件名。
+	  // 指定包含 Fate Spirit (命运之魂) 对话文本的翻译文件。
 	  traFile = EVAL "LivingClara/translations/%LANGUAGE%/_bBod25.tra"
+	  // 指定 traFile 中包含召唤台词的字符串引用。
       string = "@0" /*Bring me Bodhi, the bloodthirsty vampire.*/
+	  // 指定在 Fate Spirit 的召唤列表中，Bodhi 的条目应该插入在哪个 NPC (Cernd) 之前。
       stringPosDV = "Cernd" //Bodhi should be appended right above Cernd
-	  clean_ToB_DV = "_bBodhi"
+	  clean_ToB_DV = "_bBodhi"// 指定在 TOB 阶段用于初始化状态的死亡变量。
   END
   
  END ELSE BEGIN //different Fate Spirit dialogue patching for any other platform than EET
+     // 为非 EET 平台编译一个不同的 Fate Spirit 对话文件，使其能够召唤 Bodhi。
+    // USING ~...~ 指定了编译时使用的翻译文件。
   COMPILE ~LivingClara/Bodhi/_bFateSpBodhi.d~ USING ~LivingClara/translations/%LANGUAGE%/_bBod25.tra~ //Other Fate Spirit dialogue, this says to use same tra as TOB file
 END
 
 //Code to make Malchor Harpell not come back after you kill him.
-COPY_EXISTING ~baldur.bcs~ ~override~
-  DECOMPILE_BCS_TO_BAF   //This code changes the game file to something Weidu can edit
-    REPLACE_TEXTUALLY //This code says to replace every instance of the first ~~ with what's inside the second ~~
-	~!Exists("c6harp")~
-            ~!Exists("c6harp") !Dead("c6harp")~
-  COMPILE_BAF_TO_BCS //This code then recompiles the file into a game file
-BUT_ONLY_IF_IT_CHANGES  //To stop this from happening endlessly
+// ----- 修正 Malchor Harpell 的行为 -----
+// 修复一个潜在的 Bug：确保 Malchor Harpell 在被杀死后不会复活。
+// 复制游戏主脚本文件 baldur.bcs 以便进行修改。
+//COPY_EXISTING ~baldur.bcs~ ~override~
+//    // 将 BCS 二进制脚本文件反编译成可编辑的 BAF 文本文件。
+//  DECOMPILE_BCS_TO_BAF   //This code changes the game file to something Weidu can edit
+//          // 在文本中查找并替换特定内容。
+//        // 这里查找条件 `!Exists("c6harp")` (Malchor Harpell 不存在)，
+//    REPLACE_TEXTUALLY //This code says to replace every instance of the first ~~ with what's inside the second ~~
+//	~!Exists("c6harp")~
+//	        // 并将其替换为 `!Exists("c6harp") !Dead("c6harp")` (Malchor Harpell 不存在 *或者* 已经死亡)。
+//        // 这样可以防止在 Malchor 被杀死后，相关脚本逻辑错误地认为他又“存在”了。
+//            ~!Exists("c6harp") !Dead("c6harp")~
+//			    // 将修改后的 BAF 文本文件重新编译成 BCS 二进制脚本文件。
+//  COMPILE_BAF_TO_BCS //This code then recompiles the file into a game file
+//      // 仅在文件实际被修改时才覆盖原文件，避免不必要的操作。
+//BUT_ONLY_IF_IT_CHANGES  //To stop this from happening endlessly
 
 //SOA Dialogue Files - For The Evil!
+// ----- 编译邪恶路线的 SOA 对话文件 -----
+// 在安装日志中打印一条信息，表明正在添加邪恶选项。
 //PRINT @157 /*Adding evil options. To let you do bad things...*/
+//// 编译邪恶路线在 SoA (Shadows of Amn) 阶段的所有对话文件。
+//// EVALUATE_BUFFER 确保处理文件中的变量（如 EET 章节代码）。
 //COMPILE EVALUATE_BUFFER ~LivingClara/dialogues/evil/soa~
 //
 ////SOA Script files - For The Evil: SoA!
+//// ----- 扩展邪恶路线的 SOA 脚本文件 -----
+//// 将邪恶路线的逻辑附加到各个 NPC 和区域的脚本中。
 //EXTEND_BOTTOM ~aerie.bcs~ ~LivingClara/scripts/evil/_baerieevil.baf~ EVALUATE_BUFFER
+//// 将 Aerie 的邪恶路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~anomen.bcs~ ~LivingClara/scripts/evil/_banomenevil.baf~ EVALUATE_BUFFER
+//// 将 Anomen 的邪恶路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~AR0300.bcs~ ~LivingClara/scripts/evil/_bAR0300evil.baf~ EVALUATE_BUFFER
+//// 将区域 AR0300 的邪恶路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~AR0305.bcs~ ~LivingClara/scripts/evil/_bAR0305evil.baf~ EVALUATE_BUFFER
+//// 将区域 AR0306 的邪恶路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~AR0306.bcs~ ~LivingClara/scripts/evil/_bAR0306evil.baf~ EVALUATE_BUFFER
+//// 将区域 AR0307 的邪恶路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~AR0307.bcs~ ~LivingClara/scripts/evil/_bAR0307evil.baf~ EVALUATE_BUFFER
+//// 将区域 AR0334 的邪恶路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~AR0334.bcs~ ~LivingClara/scripts/evil/_bAR0334evil.baf~ EVALUATE_BUFFER
+//// 将区域 AR0500 的邪恶路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~AR0500.bcs~ ~LivingClara/scripts/evil/_bAR0500evil.baf~ EVALUATE_BUFFER
+//// 将区域 AR0800 的邪恶路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~AR0800.bcs~ ~LivingClara/scripts/evil/_bAR0800evil.baf~ EVALUATE_BUFFER
+//// 将区域 AR0809 的邪恶路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~AR0809.bcs~ ~LivingClara/scripts/evil/_bAR0809evil.baf~ EVALUATE_BUFFER
+//// 将区域 AR1602 的邪恶路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~AR1602.bcs~ ~LivingClara/scripts/evil/_bAR1602evil.baf~ EVALUATE_BUFFER
+//// 将游戏主脚本的邪恶路线逻辑添加到底部。
 //EXTEND_BOTTOM ~baldur.bcs~ ~LivingClara/scripts/evil/_bbaldurevil.baf~ EVALUATE_BUFFER
+//
+//// --- 扩展乌斯纳斯 (Ust Natha) 相关脚本 (为 Viconia 的邪恶路线服务) ---
+//// 将 Viconia 在乌斯纳斯城的相关脚本逻辑添加到 c6elhan.bcs 的顶部。
 //EXTEND_TOP ~c6elhan.bcs~ ~LivingClara/scripts/evil/_bc6elhan.baf~ EVALUATE_BUFFER //For Viconia in Ust Natha
+//// 将 Viconia 在乌斯纳斯城的相关脚本逻辑添加到 c6gener.bcs 的顶部。
 //EXTEND_TOP ~c6gener.bcs~ ~LivingClara/scripts/evil/_bc6gener.baf~ EVALUATE_BUFFER //For Viconia in Ust Natha
+//// 将 Viconia 在乌斯纳斯城的相关脚本逻辑添加到 demlord.bcs 的顶部。
 //EXTEND_TOP ~demlord.bcs~ ~LivingClara/scripts/evil/_bdemlord.baf~ EVALUATE_BUFFER //For Viconia in Ust Natha
+//// 将 Viconia 在乌斯纳斯城的相关脚本逻辑添加到 DWCITY.bcs 的底部。
 //EXTEND_BOTTOM ~DWCITY.bcs~ ~LivingClara/scripts/evil/_bDWCITY.baf~ EVALUATE_BUFFER //For Viconia in Ust Natha
+//// 将 Viconia 在乌斯纳斯城的相关脚本逻辑添加到 DWGATES1.bcs 的顶部。
 //EXTEND_TOP ~DWGATES1.bcs~ ~LivingClara/scripts/evil/_bDWGATES1.baf~ EVALUATE_BUFFER //For Viconia in Ust Natha
+//
+//// 继续扩展更多 NPC 的邪恶路线脚本。
 //EXTEND_BOTTOM ~cernd.bcs~ ~LivingClara/scripts/evil/_bcerndevil.baf~ EVALUATE_BUFFER
 //EXTEND_BOTTOM ~haerdali.bcs~ ~LivingClara/scripts/evil/_bhaerdalisevil.baf~ EVALUATE_BUFFER
 //EXTEND_BOTTOM ~hexxat.bcs~ ~LivingClara/scripts/evil/_bhexxatevil.baf~ EVALUATE_BUFFER
@@ -1154,62 +1672,91 @@ BUT_ONLY_IF_IT_CHANGES  //To stop this from happening endlessly
 //EXTEND_BOTTOM ~neera.bcs~ ~LivingClara/scripts/evil/_bneeraevil.baf~ EVALUATE_BUFFER
 //EXTEND_BOTTOM ~rasaad.bcs~ ~LivingClara/scripts/evil/_brasaadevil.baf~ EVALUATE_BUFFER
 //EXTEND_BOTTOM ~valygar.bcs~ ~LivingClara/scripts/evil/_bvalygarevil.baf~ EVALUATE_BUFFER
+//// 将 Viconia 在 SOA 阶段的邪恶路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~viconia.bcs~ ~LivingClara/scripts/evil/_bviconiaevilsoa.baf~ EVALUATE_BUFFER
+//// --- 继续扩展乌斯纳斯 (Ust Natha) 相关脚本 ---
+//// 将 Viconia 在乌斯纳斯城的相关脚本逻辑添加到 WTASIGHT.bcs 的顶部。
 //EXTEND_TOP ~WTASIGHT.bcs~ ~LivingClara/scripts/evil/_bWTASIGHTevil.baf~ EVALUATE_BUFFER  //For Viconia in Ust Natha
+//// 将 Viconia 在乌斯纳斯城的相关脚本逻辑添加到 WAITPC.bcs 的顶部。
 //EXTEND_TOP ~WAITPC.bcs~ ~LivingClara/scripts/evil/_bWTASIGHTevil.baf~ EVALUATE_BUFFER //For Viconia in Ust Natha
+//EXTEND_TOP ~WAITPC.bcs~ ~LivingClara/scripts/evil/_bWTASIGHTevil.baf~ EVALUATE_BUFFER //For Viconia in Ust Natha
+//// 将 Viconia 在乌斯纳斯城的相关脚本逻辑添加到 WARSAGE.bcs 的顶部。
 //EXTEND_TOP ~WARSAGE.bcs~ ~LivingClara/scripts/evil/_bWARSAGE.baf~ EVALUATE_BUFFER //For Viconia in Ust Natha
+//// ----- 编译特定的邪恶路线场景脚本 -----
+//// 编译与特定 NPC 或事件相关的邪恶路线场景脚本。
+//// 编译针对 C6HARP (Malchor Harpell?) 的邪恶路线脚本。
 //COMPILE ~LivingClara/scripts/evil/_bC6HARP.baf~ EVALUATE_BUFFER
+//// 编译针对 IMRAE (Aerie's mother?) 的邪恶路线脚本。
 //COMPILE ~LivingClara/scripts/evil/_bIMRAE.baf~ EVALUATE_BUFFER
 //
 ////Viconia's Peace Files to Kill All Humans:
-//EXTEND_TOP ~ANNOUNCE.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~ARNFGT06.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~AMMGRD.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~BGUARD1.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~CCGIRL2.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~COWENF01.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
+//// 这部分代码通过扩展大量通用 NPC 和区域脚本，为 Viconia 的 "和平" 任务（屠杀所有 Rivvin/人类）添加触发逻辑。
+//// 使用 EXTEND_TOP 确保这些逻辑在脚本一开始就执行，优先级高。
+//
+//// 扩展各种通用喊话/巡逻/守卫 NPC 的脚本顶部，添加邪恶路线的全局喊话逻辑。
+//EXTEND_TOP ~ANNOUNCE.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 宣告者
+//EXTEND_TOP ~ARNFGT06.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 可能是区域 NPC
+//EXTEND_TOP ~AMMGRD.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 城市守卫类型
+//EXTEND_TOP ~BGUARD1.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 桥区守卫
+//EXTEND_TOP ~CCGIRL2.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 城市中的女孩
+//EXTEND_TOP ~COWENF01.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// Cowled Enforcement (法师协会执法者)
+//// ... (继续扩展更多 Cowled Enforcement 和相关 NPC)
 //EXTEND_TOP ~COWENF1.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
 //EXTEND_TOP ~COWENF02.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
 //EXTEND_TOP ~COWENF2.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
 //EXTEND_TOP ~COWENF03.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
 //EXTEND_TOP ~COWENF04.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~cmonk20b.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~ENFORCED.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~GARKID01.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~GARKID02.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~GENSHT01.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~GPShout.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~GRPSHT01.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~HELPPC.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~MAGE8A.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~MAGE14A.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~OHDSUMM.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~OHDVERN.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~PRIES8A.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~PRIEST6.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~RUNENEMY.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~SEEENEMY.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~SHOUT.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~SHOUTDLG.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~SHOUTDL2.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~SHOUTINV.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~SHT0901.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~SHT0902.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~USEITEM.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~WDRUNSGT.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~WDASIGHT.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~WTARSGT.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~WTASIGHT.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER
-//EXTEND_TOP ~WTRUNSGT.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER
+//EXTEND_TOP ~cmonk20b.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 城市中的僧侣
+//EXTEND_TOP ~ENFORCED.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 执法者
+//EXTEND_TOP ~GARKID01.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 花园里的孩子
+//EXTEND_TOP ~GARKID02.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 花园里的孩子
+//EXTEND_TOP ~GENSHT01.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 通用喊话者
+//EXTEND_TOP ~GPShout.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 通用喊话脚本
+//EXTEND_TOP ~GRPSHT01.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 群体喊话
+//EXTEND_TOP ~HELPPC.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 求助喊话
+//// 扩展各种职业 NPC (法师、牧师) 的脚本顶部。
+//EXTEND_TOP ~MAGE8A.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 法师
+//EXTEND_TOP ~MAGE14A.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 法师
+//EXTEND_TOP ~OHDSUMM.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 可能是码头区 NPC
+//EXTEND_TOP ~OHDVERN.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 可能是码头区 NPC
+//EXTEND_TOP ~PRIES8A.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 牧师
+//EXTEND_TOP ~PRIEST6.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 牧师
+//// 扩展敌人探测和喊话相关的脚本顶部。
+//EXTEND_TOP ~RUNENEMY.bcs~ ~LivingClara/scripts/evil/_bGPShoutEvil.baf~ EVALUATE_BUFFER// 运行敌人脚本
+//EXTEND_TOP ~SEEENEMY.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER// 发现敌人喊话
+//EXTEND_TOP ~SHOUT.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER// 通用喊话
+//EXTEND_TOP ~SHOUTDLG.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER// 喊话对话
+//EXTEND_TOP ~SHOUTDL2.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER// 喊话对话 2
+//EXTEND_TOP ~SHOUTINV.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER// 喊话 (Inventory?)
+//// 扩展秩序之手 (Order of the Radiant Heart) 相关 NPC 的脚本顶部。
+//EXTEND_TOP ~SHT0901.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER// 秩序之手成员
+//EXTEND_TOP ~SHT0902.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER// 秩序之手成员
+//// 扩展物品使用和视野相关的脚本顶部。
+//EXTEND_TOP ~USEITEM.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER// 使用物品
+//EXTEND_TOP ~WDRUNSGT.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER// 野外奔跑守卫
+//EXTEND_TOP ~WDASIGHT.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER// 野外视野
+//// 扩展城市守卫相关的脚本顶部。
+//EXTEND_TOP ~WTARSGT.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER// 城市奔跑守卫
+//EXTEND_TOP ~WTASIGHT.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER // 城市视野
+//EXTEND_TOP ~WTRUNSGT.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER// 城市奔跑守卫
+//
+//// 扩展 Delryn 家族 NPC (Jardine) 的脚本底部，添加邪恶路线的特定逻辑。
 //EXTEND_BOTTOM ~delryn.bcs~ ~LivingClara/scripts/evil/_bdelrynevil.baf~ EVALUATE_BUFFER //Code for Jardine
+//
+//// 打印一条信息到安装日志。
 //PRINT @158 /*Crossmod Content... Because everyone must die.*/
+//// --- 跨 Mod 内容：为其他 Mod 添加的 NPC 也添加邪恶路线喊话逻辑 ---
+//// 检查特定 Mod 的 NPC 脚本是否存在，如果存在则扩展它们。
 //ACTION_IF FILE_EXISTS_IN_GAME ~O#LYNN.bcs~ THEN BEGIN
+//    // 扩展 Lynn (来自 O#Mods?) 的脚本顶部。
 //EXTEND_TOP ~O#LYNN.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER  //Mod code starts here (Lynn)
 //END
 //ACTION_IF FILE_EXISTS_IN_GAME ~YRXPED.bcs~ THEN BEGIN
+//    // 扩展 Peddler (来自 Yoshimo's Remorse?) 的脚本顶部。
 //EXTEND_TOP ~YRXPED.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER //Peddler
 //END
 //ACTION_IF FILE_EXISTS_IN_GAME ~C-AW01EP.bcs~ THEN BEGIN
+//    // 扩展 Alternate Wilderness Mod 中的多个 NPC 脚本顶部。
 //EXTEND_TOP ~C-AW01EP.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER  //Manson
 //EXTEND_TOP ~C-AW01W1.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER  //Erika
 //EXTEND_TOP ~C-TORAN.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER  //Toran
@@ -1219,28 +1766,37 @@ BUT_ONLY_IF_IT_CHANGES  //To stop this from happening endlessly
 //EXTEND_TOP ~C-AW01TK.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER   //Orrin
 //END
 //ACTION_IF FILE_EXISTS_IN_GAME ~G3SULECI.bcs~ THEN BEGIN
+//    // 扩展 Gavin NPC Mod 中的 Sir Suleci 的脚本顶部。
 //EXTEND_TOP ~G3SULECI.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER   //Sir Suleci
 //END
 //ACTION_IF FILE_EXISTS_IN_GAME ~B!OGKID3.bcs~ THEN BEGIN
+//    // 扩展 BG1 NPC Project 中的学生和 Lanie 的脚本顶部。
 //EXTEND_TOP ~B!OGKID3.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER   //Student
 //EXTEND_TOP ~B!LANIES.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER   //Lanie (Gavin's daughter)
 //END
 //ACTION_IF FILE_EXISTS_IN_GAME ~!SARAD1.bcs~ THEN BEGIN
+//    // 扩展 Saradas NPC Mod 的脚本顶部。
 //EXTEND_TOP ~!SARAD1.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER   //Saradas
 //END
 //ACTION_IF FILE_EXISTS_IN_GAME ~AMWAND2.bcs~ THEN BEGIN
+//    // 扩展 Alternate Music Mod 中的平民 NPC 脚本顶部。
 //EXTEND_TOP ~AMWAND2.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER   //Commoners
 //END
 //ACTION_IF FILE_EXISTS_IN_GAME ~9XOLADY.bcs~ THEN BEGIN
+//    // 扩展 BG1 NPC Project 中的 Barbara 和 Dawnmaster Patric 的脚本顶部。
 //EXTEND_TOP ~9XOLADY.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER   //Barbara
 //EXTEND_TOP ~9XP1.bcs~ ~LivingClara/scripts/evil/_bShoutEvil.baf~ EVALUATE_BUFFER   //Dawnmaster Patric
 //END
 //
 //
 ////Tob dialogue files
+//// ----- 编译邪恶路线的 TOB 对话文件 -----
+//// 编译邪恶路线在 ToB (Throne of Bhaal) 阶段的所有对话文件。
 //COMPILE ~LivingClara/dialogues/evil/tob~
 //
 ////Script files - For The Evil: TOB!
+//// ----- 扩展邪恶路线的 TOB 脚本文件 -----
+//// 将邪恶路线的逻辑附加到 ToB 阶段各个 NPC 的脚本中（使用 EXTEND_BOTTOM）。
 //EXTEND_BOTTOM ~aeri25.bcs~ ~LivingClara/scripts/evil/_baerieeviltob.baf~
 //EXTEND_BOTTOM ~anom25.bcs~ ~LivingClara/scripts/evil/_banomeneviltob.baf~
 //EXTEND_BOTTOM ~cern25.bcs~ ~LivingClara/scripts/evil/_bcerndeviltob.baf~
@@ -1259,100 +1815,52 @@ BUT_ONLY_IF_IT_CHANGES  //To stop this from happening endlessly
 //EXTEND_BOTTOM ~vico25.bcs~ ~LivingClara/scripts/evil/_bviconiaeviltob.baf~
 //EXTEND_BOTTOM ~baldur25.bcs~ ~LivingClara/scripts/evil/_bbaldureviltob.baf~
 //
-////Evil Epilogues
-//EXTEND_TOP ~AR6200.bcs~ ~LivingClara/scripts/evil/_bAR6200evil.baf~
-//
-////Viconia
-//COPY ~LivingClara/epilogue/_bVic.2da~ ~override/_bVic01.2da~ //Kills all Rivvin
-//REPLACE ~99999~ @126
-//
-////Bodhi Vampire
-//COPY ~LivingClara/epilogue/_bBodV.2da~ ~override/_bBodV1.2da~ //Vampire (all)
-//REPLACE ~99999~ @135
-//
-////Bodhi Elf
-//COPY ~LivingClara/epilogue/_bBodE.2da~ ~override/_bBodE1.2da~ //Elf (all)
-//REPLACE ~99999~ @136
+//Evil Epilogues
+// ----- 邪恶路线结局处理 -----
+// 扩展结局区域 AR6200 的脚本顶部，添加邪恶路线结局的控制逻辑。
+EXTEND_TOP ~AR6200.bcs~ ~LivingClara/scripts/evil/_bAR6200evil.baf~
 
+//Bodhi Vampire
+COPY ~LivingClara/epilogue/_bBodV.2da~ ~override/_bBodV1.2da~ //Vampire (all)(吸血鬼形态，所有选项)
+REPLACE ~99999~ @135// 替换占位符为实际的文本引用。
 
+//Bodhi Elf
+COPY ~LivingClara/epilogue/_bBodE.2da~ ~override/_bBodE1.2da~ //Elf (all)(精灵形态，所有选项)
+REPLACE ~99999~ @136// 替换占位符为实际的文本引用。
 
-//BEGIN @51 /*For the Good: Additional content that might annoy a truly evil player.*/
-//REQUIRE_FILE ~override/_bPICKP.spl~ @52 /*You must have the main mod installed.*/
-//
-////SOA Dialogue Files - For The Good!
-//PRINT @159 /*Activating Sheriff Mazzy. Big Brother is watching you. Don't you dare do evil things...*/
-//COMPILE EVALUATE_BUFFER ~LivingClara/dialogues/good/soa~
-//
-////SOA Script files - For The Good!
-//EXTEND_TOP ~baldur.bcs~ ~LivingClara/scripts/good/_bbaldurgood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~aerie.bcs~ ~LivingClara/scripts/good/_baeriegood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~anomen.bcs~ ~LivingClara/scripts/good/_banomengood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~cernd.bcs~ ~LivingClara/scripts/good/_bcerndgood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~haerdali.bcs~ ~LivingClara/scripts/good/_bhaerdaligood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~hexxat.bcs~ ~LivingClara/scripts/good/_bhexxatgood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~imoen2.bcs~ ~LivingClara/scripts/good/_bimoen2good.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~jaheira.bcs~ ~LivingClara/scripts/good/_bjaheiragood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~jan.bcs~ ~LivingClara/scripts/good/_bjangood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~keldorn.bcs~ ~LivingClara/scripts/good/_bkeldorngood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~korgan.bcs~ ~LivingClara/scripts/good/_bkorgangood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~mazzy.bcs~ ~LivingClara/scripts/good/_bmazzygood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~minsc.bcs~ ~LivingClara/scripts/good/_bminscgood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~nalia.bcs~ ~LivingClara/scripts/good/_bnaliagood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~neera.bcs~ ~LivingClara/scripts/good/_bneeragood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~rasaad.bcs~ ~LivingClara/scripts/good/_brasaadgood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~valygar.bcs~ ~LivingClara/scripts/good/_bvalygargood.baf~ EVALUATE_BUFFER
-//EXTEND_BOTTOM ~viconia.bcs~ ~LivingClara/scripts/good/_bviconiagood.baf~ EVALUATE_BUFFER
-//
-////TOB - For the Good dialogue files
-//COMPILE ~LivingClara/dialogues/good/tob~
-//
-////Script files - For The Good: TOB  (because we mostly add the same code to both files, we don't have separate SOA & TOB FtG scripts, except for Mazzy)
-//EXTEND_BOTTOM ~baldur25.bcs~ ~LivingClara/scripts/good/_bbaldurgood.baf~	
-//EXTEND_BOTTOM ~aerie25.bcs~ ~LivingClara/scripts/good/_baeriegood.baf~
-//EXTEND_BOTTOM ~anom25.bcs~ ~LivingClara/scripts/good/_banomengood.baf~
-//EXTEND_BOTTOM ~cern25.bcs~ ~LivingClara/scripts/good/_bcerndgood.baf~
-//EXTEND_BOTTOM ~haer25.bcs~ ~LivingClara/scripts/good/_bhaerdaligood.baf~
-//EXTEND_BOTTOM ~hexxa25.bcs~ ~LivingClara/scripts/good/_bhexxatgood.baf~
-//EXTEND_BOTTOM ~imoe25.bcs~ ~LivingClara/scripts/good/_bimoen2good.baf~
-//EXTEND_BOTTOM ~jahe25.bcs~ ~LivingClara/scripts/good/_bjaheiragood.baf~
-//EXTEND_BOTTOM ~jan25.bcs~ ~LivingClara/scripts/good/_bjangood.baf~
-//EXTEND_BOTTOM ~keld25.bcs~ ~LivingClara/scripts/good/_bkeldorngood.baf~	
-//EXTEND_BOTTOM ~korg25.bcs~ ~LivingClara/scripts/good/_bkorgangood.baf~
-//EXTEND_BOTTOM ~mazz25.bcs~ ~LivingClara/scripts/good/_bmazzygoodtob.baf~
-//EXTEND_BOTTOM ~mins25.bcs~ ~LivingClara/scripts/good/_bminscgood.baf~
-//EXTEND_BOTTOM ~nali25.bcs~ ~LivingClara/scripts/good/_bnaliagood.baf~
-//EXTEND_BOTTOM ~neer25.bcs~ ~LivingClara/scripts/good/_bneeragood.baf~
-//EXTEND_BOTTOM ~neer25.bcs~ ~LivingClara/scripts/good/_bneeragood.baf~
-//EXTEND_BOTTOM ~rasa25.bcs~ ~LivingClara/scripts/good/_brasaadgood.baf~
-//EXTEND_BOTTOM ~valy25.bcs~ ~LivingClara/scripts/good/_bvalygargood.baf~
-//EXTEND_BOTTOM ~vico25.bcs~ ~LivingClara/scripts/good/_bviconiagood.baf~
-//
-//
-//BEGIN @108 /*Do NOT allow multiple TOB epilogues: If you install this component, LivingClara epilogues will override existing game epilogues and most mod epilogues. If you do not install this component, the game will allow multiple NPC epilogues where applicable.*/
-//REQUIRE_FILE ~override/_bPICKP.spl~ @52 /*You must have the main mod installed.*/
-//
-////Area script file
-//EXTEND_TOP ~AR6200.bcs~ ~LivingClara/scripts/goodevil/tob/_bAR6200X.baf~  //This script just turns off existing epilogues when ours are active.
-//
-////FtE Only portion
-//ACTION_IF FILE_EXISTS_IN_GAME ~_bbodhi.cre~ THEN BEGIN //Evil epilogue code
-//EXTEND_TOP ~AR6200.bcs~ ~LivingClara/scripts/evil/_bAR6200Xevil.baf~
-//END
+// ========== 模块 10: For The Evil! - 结局冲突处理 (可选组件) ==========
 
-
-BEGIN @160 /*Optional Soundset for Clara NPC*/
+// 定义一个名为 "Do NOT allow multiple TOB epilogues" 的可选安装组件。
+// 该组件用于覆盖游戏和其他 Mod 的结局。
+BEGIN @108 /*Do NOT allow multiple TOB epilogues: If you install this component, LivingClara epilogues will override existing game epilogues and most mod epilogues. If you do not install this component, the game will allow multiple NPC epilogues where applicable.*/
 REQUIRE_FILE ~override/_bPICKP.spl~ @52 /*You must have the main mod installed.*/
 
+//Area script file
+    // ----- 扩展结局区域脚本 -----
+    // 扩展结局区域 AR6200 的脚本顶部，添加一个脚本，当激活 LivingClara 的结局时，关闭现有的结局。
+EXTEND_TOP ~AR6200.bcs~ ~LivingClara/scripts/goodevil/tob/_bAR6200X.baf~  //This script just turns off existing epilogues when ours are active.
+
+//FtE Only portion
+    // ----- 仅 For The Evil (FtE) 部分 -----
+    // 检查邪恶路线的 Bodhi NPC 是否已安装。
+ACTION_IF FILE_EXISTS_IN_GAME ~_bbodhi.cre~ THEN BEGIN //Evil epilogue code
+        // 如果已安装，则也扩展 AR6200 脚本顶部，添加邪恶路线结局的关闭逻辑。
+EXTEND_TOP ~AR6200.bcs~ ~LivingClara/scripts/evil/_bAR6200Xevil.baf~
+END // 结束对 FtE 部分的处理。
+
+// ========== 其他随机内容 - 可选 Clara 声音集 ==========
+
+// 定义一个名为 "Optional Soundset for Clara NPC" 的可选安装组件。
+BEGIN @160 /*Optional Soundset for Clara NPC*/
+    // REQUIRE_FILE 确保主 Mod 已安装。
+REQUIRE_FILE ~override/_bPICKP.spl~ @52 /*You must have the main mod installed.*/
+    // 复制 Clara 的 WAV 音频文件到 override 目录。
 COPY ~LivingClara/Clara/audio/wav_files~ ~override~  
-
+    // 调用 Weidu 的内置函数 HANDLE_AUDIO 来处理音频文件（可能包括转换或复制 OGG 文件）。
 LAF HANDLE_AUDIO
+        // 传递给函数的字符串变量，指定音频文件的路径。
   STR_VAR
-    audio_path = ~LivingClara/Clara/audio/ogg_files~
-    oggdec_path = ~LivingClara/Clara/audio/ogg_files~
-    sox_path = ~LivingClara/Clara/audio/ogg_files~
+    audio_path = ~LivingClara/Clara/audio/ogg_files~// OGG 文件源路径
+    oggdec_path = ~LivingClara/Clara/audio/ogg_files~ // OGG 解码器路径 (可能未使用)
+    sox_path = ~LivingClara/Clara/audio/ogg_files~ // Sox 音频处理工具路径 (可能未使用)
 END
-
-//BEGIN @163 /*Optional Hi-Res Portrait for Mazzy created by Edvin*/
-//REQUIRE_FILE ~override/_bPICKP.spl~ @52 /*You must have the main mod installed.*/
-//
-//COPY ~LivingClara/copy/Portrait~ ~override~ 

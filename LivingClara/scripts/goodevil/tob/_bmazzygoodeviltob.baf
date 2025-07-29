@@ -981,7 +981,9 @@ THEN
 	StartDialogNoSet(Player1)
 END
 
+//All the pre-romance talk triggers- deactivated
 //Pre-romance talk trigger
+/*
 IF
 	InParty("Imoen2") 
 	InParty("Mazzy")
@@ -1016,6 +1018,7 @@ THEN
 	RESPONSE #100
 	StartDialogNoSet(Player1)
 END
+*/
 
 //Imoen Death Dialogue
 IF

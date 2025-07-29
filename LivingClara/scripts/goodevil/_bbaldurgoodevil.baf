@@ -50,18 +50,6 @@ THEN
 	Continue()
 END
 
-IF
-	Global("_bWrathofTalos","GLOBAL",3) 
-	Global("_bWrathofTalosJournal","GLOBAL",0) 
-THEN
-	RESPONSE #100
-	SetGlobal("_bWrathofTalosJournal","GLOBAL",1)
-	AddJournalEntry(@1001,QUEST) /*Necklace of Talos: Death From Above
-
-Today I was struck by lightning out of nowhere as a woman's voice demanded the location of her necklace. I assume this has something to do with the item that I stole from the Temple of Talos. Perhaps if I talk to the priestess, I can return her necklace or appease her some other way.*/
-	Continue()
-END
-
 IF	//After dialogue. Timer and trigger set in dialogue file.
 	Global("_bWrathofTalos","GLOBAL",3)
 	GlobalTimerExpired("_bAngryTalos","GLOBAL")

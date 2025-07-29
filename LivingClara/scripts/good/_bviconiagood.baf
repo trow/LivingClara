@@ -1,9 +1,0 @@
-IF //Viconia's script If Mazzy goes hostile.
-	Global("_bMazzyHostile","GLOBAL",4)
-	InParty("Viconia") 
-	!StateCheck("Viconia",CD_STATE_NOTVALID)
-	Global("_bMazzyVicFriends","GLOBAL",2)
-THEN
-	RESPONSE #100
-	MakeUnselectable(999999)
-END
