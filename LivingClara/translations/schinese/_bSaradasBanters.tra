@@ -1,25 +1,25 @@
 //1st Clara-Saradas Banter
-@1 /*Clara*/ = ~Hey, Saradas, can I ask you a question?~
-@2 /*Saradas*/ = ~Of course. Curious minds should be rewarded and the young will not learn unless the elders share their wisdom. What do you wish to know?~
-@3 /*Clara*/ = ~Well, I'm sure you weren't expecting to be summoned by <CHARNAME>... will someone be missing you? Do you have any family waiting for your return?~
-@4 /*Saradas*/ = ~Ahh, I am afraid not. I have spent many years pursuing knowledge and arcane artifacts, and while I do not regret my choice, I have never had a family or a place to call my own.~
-@5 /*Saradas*/ = ~Indeed, rumors of lost magics have often led my footsteps and while the temple will have noticed my absence, this isn't the first time that I've left suddenly.~
-@6 /*Clara*/ = ~Oh, good. I'm glad to hear that.~
-@7 /*Saradas*/ = ~You are?~
-@8 /*Clara*/ = ~Yeah, I mean, you're REALLY old. I was worried that <CHARNAME> had kidnapped somebody's great-grandfather and they'd try to track you down.~
-@9 /*Clara*/ = ~But if you don't have any family, that means we can keep your stuff if you die in your sleep. That's such a relief! Thanks!~
-@10 /*Saradas*/ = ~That was... interesting.~
+@1 /*Clara*/ = ~嘿，萨拉达斯，我能问你个问题吗？~
+@2 /*Saradas*/ = ~当然。好奇的头脑值得嘉奖，年轻人若不听取长辈的智慧便无法成长。你想知道什么？~
+@3 /*Clara*/ = ~嗯，我猜你肯定没料到会被<CHARNAME>召唤出来……会有人想念你吗？你有等待你回去的家人吗？~
+@4 /*Saradas*/ = ~啊，恐怕没有。我耗费多年追寻知识与魔法器物，虽不后悔自己的选择，却从未有过家人或属于自己的归宿。~
+@5 /*Saradas*/ = ~确实，关于失落魔法的传闻常指引我的脚步，神殿或许已注意到我的缺席，但这并非我首次突然离去。~
+@6 /*Clara*/ = ~哦，太好了。听你这么说我就放心了。~
+@7 /*Saradas*/ = ~你放心了？~
+@8 /*Clara*/ = ~是啊，我是说，你年纪超级大了。我担心<CHARNAME>绑架了谁家的曾祖父，人家会来找你。~
+@9 /*Clara*/ = ~但既然你没家人，那万一你睡着时死了，你的东西就归我们啦。这可太省心了！谢啦！~
+@10 /*Saradas*/ = ~这想法真是……有意思。~
 
 //2nd Banter
-@11 /*Saradas*/ = ~You are staring quite intently, Clara. Is there something that you need?~
-@12 /*Clara*/ = ~Nope, just making sure you're still alive.~
-@13 /*Saradas*/ = ~Indeed I am. Sorry to disappoint you.~
-@14 /*Clara*/ = ~I'm not disappointed. I'm impressed. I've never seen ANYONE as old as you and I want to know your secret. How'd you stay alive for centuries?~
-@15 /*Saradas*/ = ~Centuri- How old do you think I am?~
-@16 /*Clara*/ = ~I don't know. Two hundred? You look like you're two hundred. But you fight like a young man.~
-@17 /*Saradas*/ = ~You are an odd child, Clara, with an odd view of life. I do not know whether to be flattered or insulted when you speak.~
-@18 /*Saradas*/ = ~However, if you truly wish to know the secrets of longevity, I would be pleased to instruct you if I can.~
-@19 /*Clara*/ = ~Really? That's fantastic! Teach me how to live forever... Well, as long as it's easy and I don't have to change at all.~
-@20 /*Saradas*/ = ~I see...~
-@21 /*Saradas*/ = ~In that case, I'm afraid it's magic, child, and you just don't have the skill.~
-@22 /*Clara*/ = ~Aww. That's too bad. Thanks for trying anyway.~
+@11 /*Saradas*/ = ~你盯得很专注啊，克拉拉。有什么事吗？~
+@12 /*Clara*/ = ~没事，就确认下你还活着。~
+@13 /*Saradas*/ = ~确实还活着。让你失望了真抱歉。~
+@14 /*Clara*/ = ~没失望，是佩服！我从没见过像你这么老的人，想知道你的秘诀。你怎么活了几百年的？~
+@15 /*Saradas*/ = ~几百——你觉得我多大年纪？~
+@16 /*Clara*/ = ~不知道。两百岁？你看着像两百岁。但打架时又像个年轻人。~
+@17 /*Saradas*/ = ~你真是个古怪的孩子，克拉拉，对生命的看法也古怪。你说话时我总不知该感到荣幸还是被冒犯。~
+@18 /*Saradas*/ = ~不过，若你真想知晓长寿的秘诀，只要我能做到，很乐意指点你。~
+@19 /*Clara*/ = ~真的？太棒了！教我永远活下去的方法吧……当然前提是简单而且我完全不用改变自己。~
+@20 /*Saradas*/ = ~这样啊……~
+@21 /*Saradas*/ = ~那恐怕这就是魔法了，孩子，而你恰好没这本事。~
+@22 /*Clara*/ = ~唉。真可惜。不过还是谢谢你啦。~

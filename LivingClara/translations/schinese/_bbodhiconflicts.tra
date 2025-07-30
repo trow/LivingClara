@@ -1,22 +1,22 @@
 //First ToB Talk
-@0 /*芭荻*/ = ~I am alive, <CHARNAME>, but do I have a soul?~
-@1 /*CHARNAME*/ = ~Yes, you took Imoen's soul. It's yours.~
-@2 /*CHARNAME*/ = ~No, we killed you and took Imoen's soul back.~
-@3 /*芭荻*/ = ~Yes, I remember now. It feels good to be whole.~
-@4 /*芭荻*/ = ~Then I will not make the same mistake twice. I will find another cure for my affliction.~
+@0 /*芭荻*/ = ~我活着，<CHARNAME>，但是我已经获得那灵魂了么？~
+@1 /*CHARNAME*/ = ~是的，你拿走了爱蒙的灵魂。它是你的了。~
+@2 /*CHARNAME*/ = ~不，我们杀了你并且取回了爱蒙的灵魂。~
+@3 /*芭荻*/ = ~对，我想起来了。变完整的感觉真好。~
+@4 /*芭荻*/ = ~我不会再犯同样的错误了。我会为我的痛苦找另一种治疗方式。~
 
 //Aerie Objects to 芭荻
-@5 /*Aerie*/ = ~I... I cannot believe you would allow 芭荻to live! W-we are through!~
-@6 /*Haer'Dalis*/ = ~Wherever my sweet mourning dove goes, I shall surely follow.~
-@7 /*Aerie*/ = ~Goodbye, <CHARNAME>.~
+@5 /*Aerie*/ = ~我……我不敢相信你会让芭荻活着！我——我们完了！~
+@6 /*Haer'Dalis*/ = ~无论我可爱的哀鸽飞向哪里，我都会紧紧跟随。~
+@7 /*Aerie*/ = ~再见，<CHARNAME>。~
 
 //Imoen Objects to 芭荻
-@8 /*Imoen*/ = ~<CHARNAME>, how could you do this? We grew up together!~
-@9 /*Imoen*/ = ~Without my soul, I'll keep getting weaker... I cannot stay here a moment longer.~
+@8 /*Imoen*/ = ~<CHARNAME>，你怎么能这么做？我们一起长大的。~
+@9 /*Imoen*/ = ~没有灵魂，我越来越虚弱……我一刻也待不下去了！~
 
 //Keldorn Objects to 芭荻
-@10 /*Keldorn*/ = ~You saved 芭荻? She who has stolen the soul of your own kin?~
-@11 /*Keldorn*/ = ~Torm take you! I must warn the Order!~
+@10 /*Keldorn*/ = ~你救了芭荻？她可是偷走了你亲人的灵魂！~
+@11 /*Keldorn*/ = ~愿托姆惩罚你！我必须报告骑士团！~
 
 //Anomen Objects to 芭荻(if he hasn't failed his test)
 @12 /*Anomen*/ = ~你会站在正义力量的对立面吗？~
