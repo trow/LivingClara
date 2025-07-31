@@ -18,24 +18,3 @@ THEN
 	SetGlobal("_brestcheck","GLOBAL",2)
 	SetGlobal("_BBCLARADORN","GLOBAL",3)
 END
-
-
-//Dorn-HaerDalis Romance Rest Triggers
-IF 
-	!Global("DornRomanceActive","GLOBAL",1) 
-	!Global("DornRomanceActive","GLOBAL",2)
-	!Global("LS_HaerDalisRomanceActive","GLOBAL",2)
-	!Global("LS_HaerDalisRomanceActive","GLOBAL",1)
-	!Global("_bHDDORNROMANCE","GLOBAL",3) //Romance not turned off
-	IfValidForPartyDialog("Dorn")
-	IfValidForPartyDialog("HaerDalis")
-	!AreaType(DUNGEON)
-	OR(2)
-		Global("_bDornHDLove","GLOBAL",3) //First Spar Talk
-		Global("_bDornHDLove","GLOBAL",19) //Pre sex talk
-	Global("_brestcheck","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	IncrementGlobal("_bDornHDLove","GLOBAL",1)
-END

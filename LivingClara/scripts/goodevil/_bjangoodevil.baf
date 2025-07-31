@@ -16,26 +16,3 @@ THEN
 	RESPONSE #100
 	StartDialogNoSet(Player1)
 END
-
-//Aerie Wing Reponse
-IF
-	Global("_bAerieWingResponse","GLOBAL",1)
-	IfValidForPartyDialogue("Jan")
-	Global("_bJanWingResponse","GLOBAL",0)
-	CombatCounter(0)
-THEN 
-	RESPONSE #100
-	StartDialogNoSet(Player1)
-END
-
-//Aerie-Wings Talk - next trigger in Aerie.baf
-IF 
-	HaveKnownSpell(WIZARD_POLYMORPH_SELF)
-	IfValidForPartyDialogue("Jan")
-	IfValidForPartyDialogue("Aerie")
-	Global("_bJASpellTalk","GLOBAL",0)
-	CombatCounter(0)
-THEN
-	RESPONSE #100
-	SetGlobal("_bJASpellTalk","GLOBAL",1)
-END

@@ -1,13 +1,3 @@
-IF	//Trigger for Nalia leaving the party forever.
-	Global("_bNaliaLeavesForever","GLOBAL",1)
-THEN
-	RESPONSE #100
-	SetGlobal("KickedOut","LOCALS",2)
-	GivePartyAllEquipment()
-	LeaveParty() 
-	EscapeArea()
-END
-
 //ClaraSex scene trigger
 IF
 	Global("_bSleepsWithClara","GLOBAL",4) 
@@ -19,16 +9,4 @@ IF
 THEN
 	RESPONSE #100
 	StartDialogNoSet(Player1)
-END
-
-//Aerie Wings Talk, next trigger in Aerie
-IF
-	IfValidForPartyDialogue("Nalia")
-	IfValidForPartyDialogue("Aerie") 
-	HaveKnownSpell(WIZARD_POLYMORPH_SELF)
-	Global("_bNaliaSpellTalk","GLOBAL",0)
-	CombatCounter(0)
-THEN
-	RESPONSE #100
-	SetGlobal("_bNaliaSpellTalk","GLOBAL",1)
 END

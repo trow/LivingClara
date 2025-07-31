@@ -41,14 +41,3 @@ THEN
 	LeaveParty() 
 	EscapeArea()
 END
-
-//Aerie Wing Reponse
-IF
-	Global("_bAerieWingResponse","GLOBAL",1)
-	IfValidForPartyDialogue("HEXXAT")
-	Global("_bHexxWingResponse","GLOBAL",0)
-	CombatCounter(0)
-THEN 
-	RESPONSE #100
-	StartDialogNoSet(Player1)
-END

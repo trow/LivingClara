@@ -753,7 +753,7 @@ Miniaturization successful.*/
 // 将善良/中立路线的初始化逻辑添加到游戏主脚本 baldur.bcs 的顶部。
 EXTEND_TOP ~baldur.bcs~ ~LivingClara/scripts/goodevil/_bbaldurgoodevil.baf~ EVALUATE_BUFFER
 // 将 Aerie 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~aerie.bcs~ ~LivingClara/scripts/goodevil/_baeriegoodevil.baf~ EVALUATE_BUFFER
+//EXTEND_BOTTOM ~aerie.bcs~ ~LivingClara/scripts/goodevil/_baeriegoodevil.baf~ EVALUATE_BUFFER
 // 将 Anomen 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~anomen.bcs~ ~LivingClara/scripts/goodevil/_banomengoodevil.baf~ EVALUATE_BUFFER
 // 将 Anomen 的 D 对话脚本的善良/中立路线逻辑添加到底部。
@@ -856,61 +856,61 @@ EXTEND_BOTTOM ~hexxat.bcs~ ~LivingClara/scripts/goodevil/_bhexxatgoodevil.baf~ E
 
 // ----- 扩展 TOB 阶段的 NPC 脚本 (善良/中立路线) -----
 // 将 TOB 阶段 Aerie 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~aeri25.bcs~ ~LivingClara/scripts/goodevil/tob/_baeriegoodeviltob.baf~
+//EXTEND_BOTTOM ~aeri25.bcs~ ~LivingClara/scripts/goodevil/tob/_baeriegoodeviltob.baf~
 // 将 TOB 阶段 Anomen 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~anom25.bcs~ ~LivingClara/scripts/goodevil/tob/_banomengoodeviltob.baf~
 // 将 TOB 阶段游戏主脚本的善良/中立路线逻辑添加到底部。
-EXTEND_BOTTOM ~baldur25.bcs~ ~LivingClara/scripts/goodevil/tob/_bbaldurToBgoodevil.baf~
+//EXTEND_BOTTOM ~baldur25.bcs~ ~LivingClara/scripts/goodevil/tob/_bbaldurToBgoodevil.baf~
 // 将 TOB 阶段 Dorn 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~dorn25.bcs~ ~LivingClara/scripts/goodevil/tob/_bdorngoodeviltob.baf~
 // 将 TOB 阶段 Dorn 的 D 对话脚本的善良/中立路线逻辑添加到底部。
 EXTEND_BOTTOM ~dorn25d.bcs~ ~LivingClara/scripts/goodevil/tob/_bdorndgoodeviltob.baf~
 // 将 TOB 阶段 Edwin 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~edwi25.bcs~ ~LivingClara/scripts/goodevil/tob/_bedwingoodeviltob.baf~
+//XTEND_BOTTOM ~edwi25.bcs~ ~LivingClara/scripts/goodevil/tob/_bedwingoodeviltob.baf~
 // 将 TOB 阶段 HaerDalis 的善良/中立路线逻辑添加到其脚本底部（仅用于 Dorn 恋爱线）。
-EXTEND_BOTTOM ~haer25.bcs~ ~LivingClara/scripts/goodevil/tob/_bhaerdalisgoodeviltob.baf~ //only for Dorn romance
+//EXTEND_BOTTOM ~haer25.bcs~ ~LivingClara/scripts/goodevil/tob/_bhaerdalisgoodeviltob.baf~ //only for Dorn romance
 // 将 TOB 阶段 HaerDalis 的 D 对话脚本的善良/中立路线逻辑添加到底部（仅用于 Dorn 恋爱线，与 SOA 相同）。
-EXTEND_BOTTOM ~haerdad.bcs~ ~LivingClara/scripts/goodevil/tob/_bhaerdalisdgoodeviltob.baf~ //only for Dorn romance (same as SOA)
+//EXTEND_BOTTOM ~haerdad.bcs~ ~LivingClara/scripts/goodevil/tob/_bhaerdalisdgoodeviltob.baf~ //only for Dorn romance (same as SOA)
 // 将 TOB 阶段 Hexxat 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~hexxa25.bcs~ ~LivingClara/scripts/goodevil/tob/_bhexxatgoodeviltob.baf~
 // 将 TOB 阶段 Imoen 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~imoe25.bcs~ ~LivingClara/scripts/goodevil/tob/_bimoen2goodeviltob.baf~
+//EXTEND_BOTTOM ~imoe25.bcs~ ~LivingClara/scripts/goodevil/tob/_bimoen2goodeviltob.baf~
 // 将 TOB 阶段 Imoen 的 D 对话脚本的善良/中立路线逻辑添加到底部（与 SOA 相同）。
-EXTEND_BOTTOM ~imoen2d.bcs~ ~LivingClara/scripts/goodevil/tob/_bimoendgoodeviltob.baf~ //No separate TOB d script. Same as SOA
+//EXTEND_BOTTOM ~imoen2d.bcs~ ~LivingClara/scripts/goodevil/tob/_bimoendgoodeviltob.baf~ //No separate TOB d script. Same as SOA
 // 将 TOB 阶段 Jan Jansen 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~jan25.bcs~ ~LivingClara/scripts/goodevil/tob/_bjangoodeviltob.baf~
+//EXTEND_BOTTOM ~jan25.bcs~ ~LivingClara/scripts/goodevil/tob/_bjangoodeviltob.baf~
 // 将 TOB 阶段 Jaheira 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~jahe25.bcs~ ~LivingClara/scripts/goodevil/tob/_bjaheiragoodeviltob.baf~
+//EXTEND_BOTTOM ~jahe25.bcs~ ~LivingClara/scripts/goodevil/tob/_bjaheiragoodeviltob.baf~
 // 将 TOB 阶段 Jaheira 的 D 对话脚本的善良/中立路线逻辑添加到底部。
-EXTEND_BOTTOM ~jahei25d.bcs~ ~LivingClara/scripts/goodevil/tob/_bjaheiradgoodeviltob.baf~ 
+//EXTEND_BOTTOM ~jahei25d.bcs~ ~LivingClara/scripts/goodevil/tob/_bjaheiradgoodeviltob.baf~ 
 // 将 TOB 阶段 Korgan 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~korg25.bcs~ ~LivingClara/scripts/goodevil/tob/_bkorgangoodeviltob.baf~
+//EXTEND_BOTTOM ~korg25.bcs~ ~LivingClara/scripts/goodevil/tob/_bkorgangoodeviltob.baf~
 // 将 TOB 阶段 Korgan 的 D 对话脚本的善良/中立路线逻辑添加到底部。 
-EXTEND_BOTTOM ~korgand.bcs~ ~LivingClara/scripts/goodevil/tob/_bkorgandgoodeviltob.baf~ //No separate TOB d script
+//EXTEND_BOTTOM ~korgand.bcs~ ~LivingClara/scripts/goodevil/tob/_bkorgandgoodeviltob.baf~ //No separate TOB d script
 // 将 TOB 阶段 Mazzy 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~mazz25.bcs~ ~LivingClara/scripts/goodevil/tob/_bmazzygoodeviltob.baf~
+//EXTEND_BOTTOM ~mazz25.bcs~ ~LivingClara/scripts/goodevil/tob/_bmazzygoodeviltob.baf~
 // 将 TOB 阶段 Mazzy 的 D 对话脚本的善良/中立路线逻辑添加到底部。
-EXTEND_BOTTOM ~mazzyd.bcs~ ~LivingClara/scripts/goodevil/tob/_bmazzydgoodeviltob.baf~ //No separate TOB d script
+//EXTEND_BOTTOM ~mazzyd.bcs~ ~LivingClara/scripts/goodevil/tob/_bmazzydgoodeviltob.baf~ //No separate TOB d script
 // 将 TOB 阶段 Minsc 的善良/中立路线逻辑添加到其脚本底部（仅用于 Minsc-Neera 恋爱线）。
-EXTEND_BOTTOM ~mins25.bcs~ ~LivingClara/scripts/goodevil/tob/_bminscgoodeviltob.baf~ //For Minsc-Neera only
+//EXTEND_BOTTOM ~mins25.bcs~ ~LivingClara/scripts/goodevil/tob/_bminscgoodeviltob.baf~ //For Minsc-Neera only
 // 将 TOB 阶段 Nalia 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~nali25.bcs~ ~LivingClara/scripts/goodevil/tob/_bnaliagoodeviltob.baf~
+//EXTEND_BOTTOM ~nali25.bcs~ ~LivingClara/scripts/goodevil/tob/_bnaliagoodeviltob.baf~
 // 将 TOB 阶段 Neera 的善良/中立路线逻辑添加到其脚本底部（仅用于 Minsc-Neera 恋爱线）。
-EXTEND_BOTTOM ~neer25.bcs~ ~LivingClara/scripts/goodevil/tob/_bneeragoodeviltob.baf~ //For Minsc-Neera only
+//EXTEND_BOTTOM ~neer25.bcs~ ~LivingClara/scripts/goodevil/tob/_bneeragoodeviltob.baf~ //For Minsc-Neera only
 // 将 TOB 阶段 Neera 的 D 对话脚本的善良/中立路线逻辑添加到底部（仅用于 Minsc-Neera 恋爱线）。
-EXTEND_BOTTOM ~neera25d.bcs~ ~LivingClara/scripts/goodevil/tob/_bneeradgoodeviltob.baf~ //For Minsc-Neera only
+//EXTEND_BOTTOM ~neera25d.bcs~ ~LivingClara/scripts/goodevil/tob/_bneeradgoodeviltob.baf~ //For Minsc-Neera only
 // 将 TOB 阶段 Rasaad 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~rasa25.bcs~ ~LivingClara/scripts/goodevil/tob/_brasgoodeviltob.baf~
+//EXTEND_BOTTOM ~rasa25.bcs~ ~LivingClara/scripts/goodevil/tob/_brasgoodeviltob.baf~
 // 将 TOB 阶段 Sarevok 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~sarev25.bcs~ ~LivingClara/scripts/goodevil/tob/_bsarevokgoodeviltob.baf~
+//EXTEND_BOTTOM ~sarev25.bcs~ ~LivingClara/scripts/goodevil/tob/_bsarevokgoodeviltob.baf~
 // 将 TOB 阶段 Valygar 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~valy25.bcs~ ~LivingClara/scripts/goodevil/tob/_bvalygargoodeviltob.baf~
+//EXTEND_BOTTOM ~valy25.bcs~ ~LivingClara/scripts/goodevil/tob/_bvalygargoodeviltob.baf~
 // 将 TOB 阶段 Viconia 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~vico25.bcs~ ~LivingClara/scripts/goodevil/tob/_bviconiagoodeviltob.baf~
+//EXTEND_BOTTOM ~vico25.bcs~ ~LivingClara/scripts/goodevil/tob/_bviconiagoodeviltob.baf~
 // 将 TOB 阶段 Viconia 的 D 对话脚本的善良/中立路线逻辑添加到底部。
-EXTEND_BOTTOM ~vicon25d.bcs~ ~LivingClara/scripts/goodevil/tob/_bviconiadgoodeviltob.baf~ 
+//EXTEND_BOTTOM ~vicon25d.bcs~ ~LivingClara/scripts/goodevil/tob/_bviconiadgoodeviltob.baf~ 
 // 将 TOB 阶段 Wilson 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~wilson25.bcs~ ~LivingClara/scripts/goodevil/tob/_bwilsongoodeviltob.baf~ 
+//EXTEND_BOTTOM ~wilson25.bcs~ ~LivingClara/scripts/goodevil/tob/_bwilsongoodeviltob.baf~ 
 
 //Tob dialogue files
 // ----- 编译 TOB 阶段的善良/中立路线对话文件 -----
@@ -993,7 +993,7 @@ COMPILE ~LivingClara/Clara/_bLCla2.baf~ //End of Wraith Cutscene
 //// 编译 Dorn 和 HaerDalis 幽魂剧情的开始脚本。
 //COMPILE ~LivingClara/scripts/goodevil/tob/_bHDW.baf~ //Dorn-HD Wraith Cutscene
 // 编译 Dorn 和 HaerDalis 幽魂剧情的结束脚本。
-COMPILE ~LivingClara/scripts/goodevil/tob/_bHDW2.baf~ //End of Wraith Cutscene
+//COMPILE ~LivingClara/scripts/goodevil/tob/_bHDW2.baf~ //End of Wraith Cutscene
 // 编译 Clara 任务中与魔像互动的剧情脚本。
 COMPILE ~LivingClara/scripts/goodevil/_bGol.baf~ //Golem Scene Clara Quest
 // 编译 Jaheira 变成熊形态的剧情脚本。
@@ -1181,13 +1181,13 @@ EXTEND_BOTTOM ~baldur25.bcs~ ~LivingClara/restcheck/player1dreamsToB.baf~
     // 以防止与其他 Mod 的内容冲突或确保内容按预期触发。
 
     // 为 Aerie (SoA) 添加休息检查。
-EXTEND_BOTTOM ~aerie.bcs~ ~LivingClara/restcheck/_rc_aerie.baf~
+//EXTEND_BOTTOM ~aerie.bcs~ ~LivingClara/restcheck/_rc_aerie.baf~
     // 为 Aerie (ToB) 添加休息检查。
-EXTEND_BOTTOM ~aeri25.bcs~ ~LivingClara/restcheck/_rc_aeri25.baf~
+//EXTEND_BOTTOM ~aeri25.bcs~ ~LivingClara/restcheck/_rc_aeri25.baf~
     // 为 Anomen (SoA) 添加休息检查。
 EXTEND_BOTTOM ~anomen.bcs~ ~LivingClara/restcheck/_rc_anomen.baf~
     // 为 Dorn (SoA) 添加休息检查。
-EXTEND_BOTTOM ~dorn.bcs~ ~LivingClara/restcheck/_rc_dorn.baf~
+//EXTEND_BOTTOM ~dorn.bcs~ ~LivingClara/restcheck/_rc_dorn.baf~
     // 为 Edwin (SoA) 添加休息检查。
 EXTEND_BOTTOM ~edwin.bcs~ ~LivingClara/restcheck/_rc_edwin.baf~
     // 为 HaerDalis (SoA) 添加休息检查。
@@ -1199,30 +1199,30 @@ EXTEND_BOTTOM ~hexxat.bcs~ ~LivingClara/restcheck/_rc_hexxat.baf~
     // 为 Hexxat (ToB) 添加休息检查。
 EXTEND_BOTTOM ~hexxa25.bcs~ ~LivingClara/restcheck/_rc_hexxa25.baf~
     // 为 Imoen (SoA) 添加休息检查。
-EXTEND_BOTTOM ~imoen2.bcs~ ~LivingClara/restcheck/_rc_imoen2.baf~
+//EXTEND_BOTTOM ~imoen2.bcs~ ~LivingClara/restcheck/_rc_imoen2.baf~
     // 为 Imoen (ToB) 添加休息检查。
-EXTEND_BOTTOM ~imoe25.bcs~ ~LivingClara/restcheck/_rc_imoe25.baf~
+//EXTEND_BOTTOM ~imoe25.bcs~ ~LivingClara/restcheck/_rc_imoe25.baf~
     // 为 Jaheira (SoA) 添加休息检查。
-EXTEND_BOTTOM ~jaheira.bcs~ ~LivingClara/restcheck/_rc_jaheira.baf~
+//EXTEND_BOTTOM ~jaheira.bcs~ ~LivingClara/restcheck/_rc_jaheira.baf~
     // 为 Keldorn (SoA) 添加休息检查。
-EXTEND_BOTTOM ~keldorn.bcs~ ~LivingClara/restcheck/_rc_keldorn.baf~
+//EXTEND_BOTTOM ~keldorn.bcs~ ~LivingClara/restcheck/_rc_keldorn.baf~
     // 为 Keldorn (ToB) 添加休息检查。
-EXTEND_BOTTOM ~keld25.bcs~ ~LivingClara/restcheck/_rc_keld25.baf~
+//EXTEND_BOTTOM ~keld25.bcs~ ~LivingClara/restcheck/_rc_keld25.baf~
     // 为 Mazzy (SoA) 添加休息检查。
-EXTEND_BOTTOM ~mazzy.bcs~ ~LivingClara/restcheck/_rc_mazzy.baf~
+//EXTEND_BOTTOM ~mazzy.bcs~ ~LivingClara/restcheck/_rc_mazzy.baf~
     // 为 Nalia (SoA) 添加休息检查。
-EXTEND_BOTTOM ~nalia.bcs~ ~LivingClara/restcheck/_rc_nalia.baf~
+//EXTEND_BOTTOM ~nalia.bcs~ ~LivingClara/restcheck/_rc_nalia.baf~
     // 为 Neera (ToB) 添加休息检查。
     // 注意：这里文件名是 _rc_neera25.baf，但脚本目标是 neer25.bcs。
-EXTEND_BOTTOM ~neer25.bcs~ ~LivingClara/restcheck/_rc_neera25.baf~
+//EXTEND_BOTTOM ~neer25.bcs~ ~LivingClara/restcheck/_rc_neera25.baf~
     // 为 Rasaad (SoA) 添加休息检查。
-EXTEND_BOTTOM ~rasaad.bcs~ ~LivingClara/restcheck/_rc_rasaad.baf~
+//EXTEND_BOTTOM ~rasaad.bcs~ ~LivingClara/restcheck/_rc_rasaad.baf~
     // 为 Sarevok (ToB) 添加休息检查。
-EXTEND_BOTTOM ~sarev25.bcs~ ~LivingClara/restcheck/_rc_sarev25.baf~
+//EXTEND_BOTTOM ~sarev25.bcs~ ~LivingClara/restcheck/_rc_sarev25.baf~
     // 为 Viconia (SoA) 添加休息检查。
-EXTEND_BOTTOM ~viconia.bcs~ ~LivingClara/restcheck/_rc_viconia.baf~
+//EXTEND_BOTTOM ~viconia.bcs~ ~LivingClara/restcheck/_rc_viconia.baf~
     // 为 Viconia (ToB) 添加休息检查。
-EXTEND_BOTTOM ~vico25.bcs~ ~LivingClara/restcheck/_rc_vico25.baf~
+//EXTEND_BOTTOM ~vico25.bcs~ ~LivingClara/restcheck/_rc_vico25.baf~
 // 结束 IF 条件块，只有当 "_brcstop.spl" 不存在时才执行上述复制和扩展操作。
 END
 
