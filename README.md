@@ -1,3 +1,5 @@
+嘿，它好像现在能装！
+
 Todo：
 
 Plan:
@@ -12,15 +14,15 @@ Plan:
 4、芭荻以及精灵芭荻（在For the Evil组件中）
 
 需删除：
-克拉拉的性话题（_bClaraSex）
-克拉拉与维康妮娅的屠城任务（_bClaraViconia）
-玛兹的全部内容
-威尔逊全部内容
-艾黎的翅膀全部内容
-For the Good组件
-For the Evil组件（除芭荻）
-多恩与海尔达利的罗曼史
-玛兹的头像（Optional Hi-Res Portrait for Mazzy created by Edvin）
+~克拉拉的性话题（_bClaraSex）~
+~克拉拉与维康妮娅的屠城任务（_bClaraViconia）~
+~玛兹的全部内容~
+~威尔逊全部内容~
+~艾黎的翅膀全部内容~
+~For the Good组件~
+~For the Evil组件（除芭荻）~
+~多恩与海尔达利的罗曼史~
+~玛兹的头像（Optional Hi-Res Portrait for Mazzy created by Edvin）~
 
 需添加：
 克拉拉复活前添加关于复活的对话对话以及剧情使其复活得不会太突兀（目前是拿木桩直接使用杀死赫克塞特后克拉拉原地复活，没有任何铺垫。至少放个复活卷轴让队伍里的角色说两句话做个铺垫）
