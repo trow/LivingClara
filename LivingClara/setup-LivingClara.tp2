@@ -1644,7 +1644,7 @@ END
 //
 //// --- 扩展乌斯纳斯 (Ust Natha) 相关脚本 (为 Viconia 的邪恶路线服务) ---
 //// 将 Viconia 在乌斯纳斯城的相关脚本逻辑添加到 c6elhan.bcs 的顶部。
-//EXTEND_TOP ~c6elhan.bcs~ ~LivingClara/scripts/evil/_bc6elhan.baf~ EVALUATE_BUFFER //For Viconia in Ust Natha
+EXTEND_TOP ~c6elhan.bcs~ ~LivingClara/scripts/evil/_bc6elhan.baf~ EVALUATE_BUFFER //For Bodhi in Ust Natha
 //// 将 Viconia 在乌斯纳斯城的相关脚本逻辑添加到 c6gener.bcs 的顶部。
 //EXTEND_TOP ~c6gener.bcs~ ~LivingClara/scripts/evil/_bc6gener.baf~ EVALUATE_BUFFER //For Viconia in Ust Natha
 //// 将 Viconia 在乌斯纳斯城的相关脚本逻辑添加到 demlord.bcs 的顶部。

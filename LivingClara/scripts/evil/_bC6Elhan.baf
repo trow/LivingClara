@@ -1,112 +1,193 @@
-
-
+/*
+// 目的：当全局变量 "_bDrowAttackElves" 为 4（表示卓尔开始攻击精灵），
+// 且当前区域是 "AR2500"（乌斯纳斯精灵神殿），
+// 且当前脚本控制的对象（Myself，即 c6elhan）不是敌人阵营时，
+// 将该对象的阵营改为敌人。
+// 这用于在特定剧情条件下触发乌斯纳斯城内精灵与玩家/卓尔的战斗。
 //Code for battle in Elven Temple
 IF
+	// 检查全局变量 "_bDrowAttackElves" 是否等于 4。
 	Global("_bDrowAttackElves","GLOBAL",4)
+	// 检查当前区域是否为 "AR2500"（乌斯纳斯精灵神殿）。
 	AreaCheck("AR2500")
+	// 检查当前对象（Myself）的阵营*不*是 ENEMY。
 	!Allegiance(Myself,ENEMY)
 THEN
 	RESPONSE #100
+	// 清除当前对象的所有动作队列。
 	ClearAllActions()
+	// 将当前对象（Myself）的阵营改为 ENEMY（敌人）。
 	ChangeEnemyAlly(Myself,ENEMY)
+	// 再次清除动作队列，确保状态变更立即生效。
 	ClearAllActions()
 END
 
+// 目的：与第一个块类似，但触发条件是玩家（混乱中立）主动攻击精灵。
 IF
+	// 检查全局变量 "_bCNAttacksElves" 是否等于 1。
 	Global("_bCNAttacksElves","GLOBAL",1)
+	// 检查当前区域是否为 "AR2500"（乌斯纳斯精灵神殿）。
 	AreaCheck("AR2500")
+	// 检查当前对象（Myself）的阵营*不*是 ENEMY。
 	!Allegiance(Myself,ENEMY)
 THEN
 	RESPONSE #100
 	ClearAllActions()
+	// 将当前对象（Myself）的阵营改为 ENEMY（敌人）。
 	ChangeEnemyAlly(Myself,ENEMY)
 	ClearAllActions()
 END		
 
+// 目的：如果 c6elhan 在 "AR2500" 精灵神殿区域是敌人阵营，
+// 且尚未完成在墓地的对话（"_bElhantalksingraveyard" != 2），
+// 且其名称确实是 "c6elhan"，
+// 则将其移动到墓地 (AR0800) 并设置一个标志 "_belhanescapesgraveyard"。
+// 这可能是让 Elhan 从神殿逃到墓地的逻辑。
 IF
+	// 检查当前区域是否为 "AR2500"。
 	AreaCheck("AR2500")
+	// 检查全局变量 "_bElhantalksingraveyard" 是否*不*等于 2。
 	!Global("_bElhantalksingraveyard","GLOBAL",2)
+	// 检查当前对象（Myself）的阵营是 ENEMY。
 	Allegiance(Myself,ENEMY)
+	// 检查当前对象的名称是否为 "c6elhan"。
 	Name("c6elhan",Myself)
 THEN
 	RESPONSE #100
+	// 设置全局变量 "_belhanescapesgraveyard" 为 1，表示 Elhan 已逃离。
 	SetGlobal("_belhanescapesgraveyard","GLOBAL",1)
+	// 命令当前对象逃离当前区域，并移动到 "AR0800"（墓地）的坐标 (771, 926) 附近，方向为 NE。
 	EscapeAreaMove("AR0800",771,926,NE) //Graveyard, outside of Bodhi's hideout.
 END
 
+// 目的：如果在精灵神殿 "AR2500"，且玩家已经完成了与 Elhan 在墓地的对话（"_bElhantalksingraveyard" = 2），
+// 但当前对象（Myself）还不是中立阵营，则将其改为中立。
+// 这用于在对话后平息冲突。
 IF
+	// 检查全局变量 "_bElhantalksingraveyard" 是否等于 2。
 	Global("_bElhantalksingraveyard","GLOBAL",2)
+	// 检查当前区域是否为 "AR2500"。
 	AreaCheck("AR2500")
+	// 检查当前对象（Myself）的阵营*不*是 NEUTRAL。
 	!Allegiance(Myself,NEUTRAL)
 THEN
 	RESPONSE #100
 	ClearAllActions()
+	// 将当前对象（Myself）的阵营改为 NEUTRAL（中立）。
 	ChangeEnemyAlly(Myself,NEUTRAL)
 	ClearAllActions()
 END
 
+// 目的：如果当前在墓地 "AR0800" 区域，且尚未创建战争法师（"_bElhanCreateWarsages" = 0），
+// 则创建两个战争法师（c6warsa1, c6warsa2）。
+// 这可能是 Elhan 在墓地寻求帮助或召唤援军的剧情。
 //Code in the graveyard.
 IF
+	// 检查当前区域是否为 "AR0800"（墓地）。
 	AreaCheck("AR0800")
+	// 检查全局变量 "_bElhanCreateWarsages" 是否等于 0。
 	Global("_bElhanCreateWarsages","GLOBAL",0)
 THEN
 	RESPONSE #100
+	// 将 "_bElhanCreateWarsages" 设置为 1，防止重复创建。
 	SetGlobal("_bElhanCreateWarsages","GLOBAL",1)
+	// 在坐标 [746.945] 创建一个名为 "c6warsa1" 的生物，阵营为 NE（中立/友善）。
 	CreateCreature("c6warsa1",[746.945],NE)
+	// 在坐标 [817.996] 创建一个名为 "c6warsa2" 的生物，阵营为 NE。
 	CreateCreature("c6warsa2",[817.996],NE)
 END
 
+// 目的：如果在墓地 "AR0800"，且当前对象（Myself）不是中立阵营，则将其改为中立。
+// 确保 Elhan 在墓地时默认是中立的。
 IF
+	// 检查当前区域是否为 "AR0800"。
 	AreaCheck("AR0800")
+	// 检查当前对象（Myself）的阵营*不*是 NEUTRAL。
 	!Allegiance(Myself,NEUTRAL)
 THEN
 	RESPONSE #100
+	// 将当前对象（Myself）的阵营改为 NEUTRAL。
 	ChangeEnemyAlly(Myself,NEUTRAL)
 END
 
+// 目的：如果在墓地 "AR0800"，且玩家角色（[PC]）被检测到，
+// 且尚未触发与 Elhan 的对话（"_bElhantalksingraveyard" = 0），
+// 则设置标志 "_bElhantalksingraveyard" 为 1，准备开始对话。
 IF
+	// 检查当前区域是否为 "AR0800"。
 	AreaCheck("AR0800")
+	// 检查是否检测到玩家角色（[PC]）。
 	Detect([PC])
+	// 检查全局变量 "_bElhantalksingraveyard" 是否等于 0。
 	Global("_bElhantalksingraveyard","GLOBAL",0)
 THEN
 	RESPONSE #100
+	// 将 "_bElhantalksingraveyard" 设置为 1，表示检测到玩家，准备对话。
 	SetGlobal("_bElhantalksingraveyard","GLOBAL",1)
 END
 
+// 目的：如果 "_bElhantalksingraveyard" 标志变为 1，
+// 则启动与 Player1 的对话（很可能是与 Elhan 的对话）。
 IF
+	// 检查全局变量 "_bElhantalksingraveyard" 是否等于 1。
 	Global("_bElhantalksingraveyard","GLOBAL",1)
 THEN
 	RESPONSE #100
+	// 启动与 Player1 的对话，不设置中断战斗等状态。
 	StartDialogNoSet(Player1)
+	// Continue() 表示继续评估后续的脚本条件。
 	Continue()
 END
 
+// 目的：如果玩家已经与 Elhan 在墓地对话完毕（"_bElhantalksingraveyard" = 2），
+// 且卓尔攻击精灵的条件满足（"_bDrowAttackElves" = 4），
+// 则将 "_bDrowAttackElves" 更新为 5，推进剧情。
 IF
+	// 检查全局变量 "_bElhantalksingraveyard" 是否等于 2。
 	Global("_bElhantalksingraveyard","GLOBAL",2)
+	// 检查全局变量 "_bDrowAttackElves" 是否等于 4。
 	Global("_bDrowAttackElves","GLOBAL",4)
 THEN
 	RESPONSE #100
+	// 将 "_bDrowAttackElves" 设置为 5，表示剧情推进。
 	SetGlobal("_bDrowAttackElves","GLOBAL",5)
 	Continue()
 END
 
+// 目的：如果玩家已经与 Elhan 在墓地对话完毕（"_bElhantalksingraveyard" = 2），
+// 且玩家（混乱中立）攻击精灵的条件满足（"_bCNAttacksElves" = 1），
+// 则将 "_bCNAttacksElves" 更新为 2，推进剧情。
 IF
+	// 检查全局变量 "_bElhantalksingraveyard" 是否等于 2。
 	Global("_bElhantalksingraveyard","GLOBAL",2)
+	// 检查全局变量 "_bCNAttacksElves" 是否等于 1。
 	Global("_bCNAttacksElves","GLOBAL",1)
 THEN
 	RESPONSE #100
+	// 将 "_bCNAttacksElves" 设置为 2，表示剧情推进。
 	SetGlobal("_bCNAttacksElves","GLOBAL",2)
 	Continue()
 END	
 
+// 目的：如果玩家已经与 Elhan 在墓地对话完毕（"_bElhantalksingraveyard" = 2），
+// 且当前在墓地 "AR0800" 区域，
+// 则命令 Elhan 逃离当前区域，返回精灵神殿 "AR2500"。
 IF
+	// 检查全局变量 "_bElhantalksingraveyard" 是否等于 2。
 	Global("_bElhantalksingraveyard","GLOBAL",2)
+	// 检查当前区域是否为 "AR0800"（墓地）。
 	AreaCheck("AR0800")
+	// 注释掉的条件检查。
 	//Global("_belhanmovefix","GLOBAL",0)
 THEN
 	RESPONSE #100
+	// 命令当前对象逃离当前区域，并移动到 "AR2500"（精灵神殿）的坐标 (829, 1094) 附近，方向为 SW。
 	EscapeAreaMove("AR2500",829,1094,SW)
 END
+*/
+// 注释掉的 IF 条件块
+// 目的：（已注释掉）如果对话完成且在墓地，且 "_belhanmovefix" 为 1，则执行 EscapeArea()。
+// 这可能是备用的或早期版本的移动逻辑。
 /* Turned off.
 IF
 	Global("_bElhantalksingraveyard","GLOBAL",2)
@@ -114,24 +195,37 @@ IF
 	Global("_belhanmovefix","GLOBAL",1)
 THEN
 	RESPONSE #100
-	EscapeArea()
+	EscapeArea()// 简单地逃离区域，不指定目标区域和坐标。
 END
 */
 
+// 目的：如果玩家队伍中有 "_bBodhi"（邪恶路线的 Bodhi NPC）且她处于有效对话状态，
+// 且尚未触发 Elhan 与 Bodhi 的对话（"_bc6ElhanBodhiTalk" = 0），
+// 则设置标志 "_bc6ElhanBodhiTalk" 为 1，准备触发对话。
 //Talking to CN after you get Bodhi in your party.
 IF
+	// 检查 "_bBodhi" 是否处于有效的队伍对话状态。
 	IfValidForPartyDialog("_bBodhi")
+	// 检查全局变量 "_bc6ElhanBodhiTalk" 是否等于 0。
 	Global("_bc6ElhanBodhiTalk","GLOBAL",0)
 THEN
 	RESPONSE #100
+	// 设置 "_bc6ElhanBodhiTalk" 为 1，表示准备触发对话。
 	SetGlobal("_bc6ElhanBodhiTalk","GLOBAL",1)
 END
 
+// 目的：如果 Elhan 看到了玩家角色（[PC]），
+// 且 "_bc6ElhanBodhiTalk" 标志为 1（表示已准备好），
+// 则启动 Elhan 与玩家的对话，但使用特定的对话起始点 "c6Elhan2"。
+// 这很可能是与 Bodhi 相关的特殊对话。
 IF
+	// 检查是否看到玩家角色（[PC]）。
 	See([PC])
+	// 检查全局变量 "_bc6ElhanBodhiTalk" 是否等于 1。
 	Global("_bc6ElhanBodhiTalk","GLOBAL",1)
 THEN
 	RESPONSE #100
+	// 启动与玩家（[PC]）的对话，使用 "c6Elhan" 对象上的 "c6Elhan2" 对话状态作为入口点。
 	StartDialog("c6Elhan2",[PC])
 END
 

@@ -1748,7 +1748,7 @@ IF
 	AreaType(OUTDOOR)
 	!Exists("Terl")  // Terl
 	CombatCounter(0)
-		!AreaCheck("AR0041")   //Random Encounter
+		/*!AreaCheck("AR0041")   //Random Encounter
 		!AreaCheck("AR0042")   //Random Encounter
 		!AreaCheck("AR0043")   //Random Encounter
 		!AreaCheck("AR0044")   //Random Encounter
@@ -1761,7 +1761,15 @@ IF
 		!AreaCheck("AR2807")   //Black Dragon Hideout	
 		!AreaCheck("OH6010")   //Neera random encounter
 		!AreaCheck("AR0500")   //Bridge
-		!AreaCheck("OH7310")   //Hexxat - L Scene
+		!AreaCheck("OH7310")*/   //Hexxat - L Scene
+		AreaCheck("AR0900")   //神殿区
+		AreaCheck("AR1000")   //行政区
+		AreaCheck("AR0500")   //大桥区
+		AreaCheck("AR0020")   //城门区
+		AreaCheck("AR0300")   //码头
+		AreaCheck("AR0700")   //渥金商场
+		AreaCheck("AR0400")   //贫民区
+		AreaCheck("AR0800")   //墓园区
 THEN
 	RESPONSE #100
 		SetInterrupt(FALSE)
