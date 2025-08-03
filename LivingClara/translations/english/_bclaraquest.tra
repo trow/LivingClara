@@ -43,8 +43,8 @@
 //Rose Library Request
 @21 /*Rose*/ = ~Clara! Hi! Terl told me that he found you. I'm so glad that you could come.~
 @22 /*Clara*/ = ~Of course. I know we're on a super important quest and all, but <CHARNAME> is always glad to take another detour. What can we do for you?~
-@23 /*Rose*/ = ~Well, now that the Shadow Master is dead, I've been thinking about the future. My future.~
-@24 /*Rose*/ = ~I don't want to be a courtesan forever, you know. Especially not with Terl and all.~
+@23 /*Rose*/ = ~Well, I've been thinking about the future. My future.~
+@24 /*Rose*/ = ~I want to be a respectable person, you know. Especially not with Terl.~
 @25 /*Clara*/ = ~You're real lucky to have a man like that. Most fellows wouldn't look twice at dames like you and I.~
 @26 /*Rose - if Clara married*/ = ~What about your husband? I hear you're a noble now.~
 @27 /*Clara - if married*/ = ~Oh, yes, I'm Lady Delryn and it is wonderful. But you know that's only because my dear husband doesn't know the truth.~
@@ -303,7 +303,7 @@
 @282 /*Rose*/ = ~That is good to hear.~
 @283 /*Rose*/ = ~He sounded quite unpleasant overall.~
 
-@284 /*Rose*/ = ~Tizzak's Journal... This information is how you killed the Shadow Master, isn't it? I'm tempted to kiss this book right now.~
+@284 /*Rose*/ = ~Tizzak's Journal... these details matter, isn't it? I'm tempted to kiss this book right now.~
 @285 /*Rose*/ = ~Are you sure that you don't need this note from Demin? It sounds important. But this girl isn't fool enough to look a gift horse in the mouth.~
 @286 /*Rose*/ = ~The Journal of Geldorf Tinbasher... What a poor tortured soul....~
 @287 /*Rose*/ = ~The Journal of Thassk Kun... Magic, hunters and devas, how exciting!~
