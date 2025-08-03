@@ -856,7 +856,7 @@ END
 //Code to make Terl Appear once Aran dead 
 IF
 	Global("_bRoseClara","GLOBAL",1) //So you had their interaction
-	Dead("aran")
+	//Dead("aran")
 	!Dead("MurdGirl")
 	IsValidForPartyDialog("_bClara")
 	!Global("Chapter","GLOBAL",%bg2_chapter_4%) //Chapter 4 (this is the code the buffer evaluates)

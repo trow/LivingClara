@@ -555,9 +555,25 @@ DO ~ApplySpell("_bClara",WIZARD_SHADOW_DOOR) SetGlobal("_BBCLARAEDWIN","GLOBAL",
 EXIT
 
 //2nd Mazzy Banter
+// 这个对话链是 Clara 和 Mazzy 之间的第二次互动（闲聊）。
+// 检查 Mazzy 是否在玩家队伍中。
+// 检查 Mazzy 是否在玩家角色 (Player1) 的当前区域 (Area) 内。
+// 检查 Mazzy 是否处于可以进行队伍对话的有效状态（未死亡、未被沉默等）。
+// 检查 Clara (脚本名为 _bClara) 是否也处于可以进行队伍对话的有效状态。
+// 检查当前区域*不*是 "AR4500"。
+// 这可能是为了避免在某个特定区域（例如战斗区域或剧情区域）触发此对话。
+// 检查全局变量 "_BBCLARAMAZ" 是否等于 1。
+// 这个变量是控制这个特定对话链触发顺序或条件的标志。
+// 值为 1 表示第一次互动已发生或满足了触发第二次互动的前置条件。
 CHAIN IF ~InParty("Mazzy") InMyArea("Mazzy") IfValidForPartyDialog("Mazzy") IfValidForPartyDialog("_bClara") !AreaCheck("AR4500") Global("_BBCLARAMAZ","GLOBAL",1)~ THEN B_BCLARA _bClaraMazzy2
+// 指定对话发起者为 B_BCLARA（即 Clara 的对话文件），并指向对话状态 _bClaraMazzy2。
+// @95 是 Clara 说的第一句台词的字符串引用 (StrRef)。
 @95 /*Mazzy, I think I am getting the hang of it. Watch me hit that mouse!*/
 = @96 /*There! Mouse for lunch!*/
+// 对 Clara (脚本名 "_bClara") 施放一个名为 "_BSBOW" 的法术。
+// 根据文件树和之前的分析，_BSBOW.SPL 可能是一个与 Clara 的弓术技能或特殊能力相关的法术。
+// 将全局变量 "_BBCLARAMAZ" 的值设置为 2。
+// 这会更新状态，防止这个对话链被重复触发，或者为后续可能的第三次互动做准备。
 DO ~ApplySpellRES("_BSBOW","_bClara") SetGlobal("_BBCLARAMAZ","GLOBAL",2)~
 == BMAZZY @97 /*Meat brought down by your own hand is always the most virtuous. And yes, you are progressing rapidly.*/
 EXIT
@@ -588,9 +604,21 @@ DO ~SetGlobal("_BBCLARANEERA","GLOBAL",2) ChangeStat("_bClara",INT,1,ADD) Change
 EXIT
 
 //2nd Minsc Banter
+// 这个对话链是 Clara 和 Minsc 之间的第二次互动（闲聊）。
+// 检查 Minsc 是否在玩家队伍中。
+// 检查 Minsc 是否在玩家角色 (Player1) 的当前区域 (Area) 内。
+// 检查 Minsc 是否处于可以进行队伍对话的有效状态（未死亡、未被沉默等）。
+// 检查 Clara (脚本名为 _bClara) 是否也处于可以进行队伍对话的有效状态。
+// 检查全局变量 "_BBCLARAMINSC" 是否等于 1。
+// 这个变量很可能是控制这个特定对话链触发顺序或条件的标志。
+// 值为 1 表示第一次互动已发生或满足了触发第二次互动的前置条件。	
 CHAIN IF ~InParty("Minsc") InMyArea("Minsc") IfValidForPartyDialog("Minsc") IfValidForPartyDialog("_bClara") Global("_BBCLARAMINSC","GLOBAL",1)~ THEN B_BCLARA _bClaraMinsc2
+// 指定对话发起者为 B_BCLARA（即 Clara 的对话文件），并指向对话状态 _bClaraMinsc2。
+// @433 是 Clara 说的第一句台词的字符串引用 (StrRef)。
 @433 /**squeak. squeak. squeak.* Come on, Boo. You want some hard-tack? Or maybe a cracker?*/
 DO ~SetGlobal("_BBCLARAMINSC","GLOBAL",2)~
+    // 将全局变量 "_BBCLARAMINSC" 的值设置为 2。
+    // 这会更新状态，防止这个对话链被重复触发，或者为后续可能的第三次互动做准备。
 == BMINSC @434 /*What are you doing, Clara?*/
 == B_BCLARA @435 /*Uhhh, nothing? Nothing at all. I wasn't trying to steal your hamster. Please don't murder me.*/
 == BMINSC @436 /*Of course there is no stealing. Friends cannot steal each other. Boo says he likes the salty ones. You should bring those next.*/
