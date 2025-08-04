@@ -1,6 +1,6 @@
 //ClaraSex scene trigger
 IF
-	Global("_bSleepsWithClara","GLOBAL",4) 
+//	Global("_bSleepsWithClara","GLOBAL",4) 
 	InParty("RASAAD") 
 	!StateCheck("RASAAD",CD_STATE_NOTVALID)
 	Global("_bSWCR","GLOBAL",0)

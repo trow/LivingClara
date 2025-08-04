@@ -1,6 +1,6 @@
 //ClaraSex scene trigger - romance
 IF
-	Global("_bSleepsWithClara","GLOBAL",4) 
+//	Global("_bSleepsWithClara","GLOBAL",4) 
 	InParty("Keldorn") 
 	!StateCheck("Keldorn",CD_STATE_NOTVALID)
 	Global("_bSWCKe","GLOBAL",0)
@@ -17,7 +17,7 @@ END
 
 //ClaraSex scene trigger - no romance
 IF
-	Global("_bSleepsWithClara","GLOBAL",4) 
+//	Global("_bSleepsWithClara","GLOBAL",4) 
 	InParty("Keldorn") 
 	!StateCheck("Keldorn",CD_STATE_NOTVALID)
 	Global("_bSWCKe","GLOBAL",0)

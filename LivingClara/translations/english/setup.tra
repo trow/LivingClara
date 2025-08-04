@@ -16,7 +16,7 @@
 @15 /*HURT*/ = ~I am injured. I must hide.~ [_bClar08] //"I... think I'm bleeding" - Arianneeee
 @16 /*AREA_FOREST*/ = ~I don't like the woods. There are so many bugs.~  
 @17 /*AREA_CITY*/ = ~Men to flatter, people to swindle. It's good to be back where I belong.~
-@18 /*AREA_DUNGEON*/ = ~Caroline Aurora Lucia Rosena Silvershield is too good for this place.~  
+@18 /*AREA_DUNGEON*/ = ~Caroline Louisa Audrey Rosanna Alexandra Silvershield is too good for this place.~  
 @19 /*AREA_DAY*/ = ~The sun is nice but I prefer the dark. That is where I truly shine.~   
 @20 /*AREA_NIGHT*/ = ~This is the time for secrets. The night hides everything.~ [_bClar09] //"Time to see and not be seen" - PoEFFeisty5
 @21 /*SELECT_COMMON1*/ = ~What do you want?~ [_bClar10] //"Yeah?" - PoEFFeistyf 
@@ -48,13 +48,13 @@
 
 
 
-@47 /*Basic Clara Epilogue*/ = ~After leaving <CHARNAME>'s company, Caroline Aurora Lucia Rosena Silvershield of Beregost returned to Athkatla. As the city's most eligible new noble maiden, she impressed the town with her charm and her grace. Many rich suitors tried to win her hand, but that honor went to the eldest son of Lord Ketlaar Argrim, who was young, handsome, and the manager of his father's many gold mines.
+@47 /*Basic Clara Epilogue*/ = ~After leaving <CHARNAME>'s company, Caroline Louisa Audrey Rosanna Alexandra Silvershield of Beregost returned to Athkatla. As the city's most eligible new noble maiden, she impressed the town with her charm and her grace. Many rich suitors tried to win her hand, but that honor went to the eldest son of Lord Ketlaar Argrim, who was young, handsome, and the manager of his father's many gold mines.
 
 Sadly, their wedded bliss did not last. When Caroline's extended family in Beregost learned that she had survived the attack that killed her parents, they were overjoyed. They invited her to return home and the entire Argrim family insisted on venturing north to see them, their wagons loaded down with a fortune in gifts, clothes, coin, and jewelry. Even heavily guarded, their caravan proved too alluring a prize and during the journey, it was overwhelmed by bandits. Every member of the family was found dead, except for Caroline, and it was assumed she had been captured.
 
-Many great knights rode north to defeat the bandits and rescue their noble prisoner, but while dozens of brigands were put down and most of the Argrim fortune recovered, Lady Caroline Aurora Lucia Rosena Silvershield Argrim was never seen again.~
+Many great knights rode north to defeat the bandits and rescue their noble prisoner, but while dozens of brigands were put down and most of the Argrim fortune recovered, Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Argrim was never seen again.~
 
-@78 /*If Clara marries Anomen*/ = ~After leaving the company of <CHARNAME>, Lady Caroline Aurora Lucia Rosena Silvershield Delryn returned to the Delryn estate with her husband, Anomen, and together they worked to rebuild the family's fortune. Luck seemed to follow the couple wherever they went as all of their major business rivals abruptly retired or passed away. Within a year, they had erased their debts and begun to amass a small fortune of their own. Many predicted that Caroline and her husband would grow the Delryn holdings into a business empire large enough to rival any in Amn.
+@78 /*If Clara marries Anomen*/ = ~After leaving the company of <CHARNAME>, Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn returned to the Delryn estate with her husband, Anomen, and together they worked to rebuild the family's fortune. Luck seemed to follow the couple wherever they went as all of their major business rivals abruptly retired or passed away. Within a year, they had erased their debts and begun to amass a small fortune of their own. Many predicted that Caroline and her husband would grow the Delryn holdings into a business empire large enough to rival any in Amn.
 
 Indeed, that is exactly what occurred. Over the next decade, Lord and Lady Delryn became two of the richest and most powerful merchants in Athkatla. While her husband focused on raising their family to new heights, Lady Caroline ruled her household with an iron fist, supporting Anomen's endeavors as friend and confidante. She was the perfect hostess: graceful, polite, and the belle of every ball, and soon the Delryn Estate became the place for those important to gather and be seen.
 
@@ -62,25 +62,25 @@ Such secrets were spoken within those walls, such business deals were struck, an
 
 @79 /*If Clara married Cor & he and Anomen are dead*/ = ~After leaving the company of <CHARNAME>, Clara returned to the Delryn estate to rebuild her late husband's fortune. Luck seemed to follow the woman wherever she went as every major business rival abruptly retired or passed away and within a year, she had erased her husband's debts and begun to amass a small fortune of her own. It was predicted by many that she would grow the Delryn holdings into a business empire large enough to rival any in Amn.
 
-However, this was not to be. Exactly three years after her return, the woman sold everything she could not carry, and Lady Caroline Aurora Lucia Rosena Silvershield Delryn was never seen again.~
+However, this was not to be. Exactly three years after her return, the woman sold everything she could not carry, and Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn was never seen again.~
 
 @80 /*If Clara marries Cor and he and Anomen are alive*/ = ~After leaving the company of <CHARNAME>, Clara returned to her husband, Cor, and lived out the rest of his days in blissful wedlock. Sadly, that was only three short months before he died peacefully in his sleep and left his distraught widow in charge of his household. 
 
 With Cor's son Anomen continuously away from the home, Clara rebuilt her husband's fortunes with charm and grace. Luck seemed to follow her wherever she went, every major business rival abruptly retiring or passing away; within a year she had erased her husband's debts and began to amass a small fortune of her own. It was predicted by many that she would grow the Delryn holdings into a business empire large enough to rival any in Amn.
 
-However, this was not to be. Exactly three years after her husband's death, she sold everything she could not carry, and Lady Caroline Aurora Lucia Rosena Silvershield Delryn was never seen again.~
+However, this was not to be. Exactly three years after her husband's death, she sold everything she could not carry, and Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn was never seen again.~
 
 
 @81 /*If Clara marries Cor and Anomen only is dead*/ = ~After leaving the company of <CHARNAME>, Clara returned to her husband, Cor, and lived out the rest of his days in blissful wedlock. Sadly, that was only three short months. The man died peacefully in his sleep and left his distraught widow everything he owned. 
 
 However, despite her grief, Lady Delyrn took over her husband's business and luck seemed to follow the woman's every step. Her every major business rival abruptly retired or passed away, and within a year she had erased her husband's debts and begun to amass a small fortune of her own. It was predicted by many that she would grow the Delryn holdings into a business empire large enough to rival any in Amn.
 
-However, this was not to be. Exactly three years after her husband's death, the woman sold everything she could not carry, and Lady Caroline Aurora Lucia Rosena Silvershield Delryn was never seen again.~
+However, this was not to be. Exactly three years after her husband's death, the woman sold everything she could not carry, and Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn was never seen again.~
 
 
 @82 /*If Clara marries Cor and he's dead but Anomen is alive*/ = ~After leaving the company of <CHARNAME>, Clara returned to the Delryn estate. With Cor's son Anomen continuously away from home, Clara rebuilt her husband's fortunes with charm and grace. Lady Luck smiled on the woman as every major business rival abruptly retired or passed away and within a year, she had erased her husband's debts and begun to amass a small fortune of her own. It was predicted by many that she would soon grow the Delryn holdings into a business empire large enough to rival any in Amn.
 
-However, this was not to be. Exactly three years after her return, the woman sold everything she could not carry, and Lady Caroline Aurora Lucia Rosena Silvershield Delryn was never seen again.~
+However, this was not to be. Exactly three years after her return, the woman sold everything she could not carry, and Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn was never seen again.~
 
 
 @83 /*New Anomen epilogue if he married Clara*/ = ~After leaving the company of <CHARNAME>, Anomen returned to the Delryn estate with his wife, Lady Caroline, and together they worked to rebuild his family's fortune. Luck followed the couple in every endeavor and soon the lord had not only erased his father's debts but begun to amass a fortune of his own. However, despite his newfound status, Anomen stayed true to the tenets of his god. Although sometimes harsh, his judgment was always fair and those who worked for his family knew that their loyalty would be rewarded in kind.

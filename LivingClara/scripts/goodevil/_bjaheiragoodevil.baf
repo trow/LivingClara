@@ -1,6 +1,6 @@
 //ClaraSex scene trigger
 IF
-	Global("_bSleepsWithClara","GLOBAL",4)
+//	Global("_bSleepsWithClara","GLOBAL",4)
 	Global("_bSWCJ","GLOBAL",0)
 	IfValidForPartyDialog("Jaheira")
 	IfValidForPartyDialog("_bClara") 

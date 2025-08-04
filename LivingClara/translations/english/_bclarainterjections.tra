@@ -65,7 +65,7 @@
 //Lord Argrim in Council Building
 @38 /*Clara*/ = ~That is terrible, my lord. It's truly a shame how hard it is to find good help these days.~
 @39 /*Argrim*/ = ~Yes, yes it is. I'm sorry, milady, I did not catch your name.~
-@40 /*Clara*/ = ~I am Lady Caroline Aurora Lucia Rosena Silvershield of Beregost. I've only just arrived in this fair city and I am pleased to make your acquaintance. If you ever need a sympathetic ear, I would be delighted to listen to your troubles... with a proper chaperone, of course.~
+@40 /*Clara*/ = ~I am Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield of Beregost. I've only just arrived in this fair city and I am pleased to make your acquaintance. If you ever need a sympathetic ear, I would be delighted to listen to your troubles... with a proper chaperone, of course.~
 @41 /*Argrim*/ = ~Of course, Lady Silvershield. And indeed, the pleasure is all mine.~
 
 //Amauna's Ghost
@@ -236,8 +236,8 @@
 
 //Saradush Volo
 @138 /*CHARNAME*/ = ~Tell me about Clara.~
-@139 /*Volo*/ = ~Aah, yes, the lovely Lady Caroline Aurora Lucia Rosena Silvershield Delryn. Orphaned tragically on the road from Baldur's Gate, she has risen from the ashes of her past to take her rightful place again. Married to one of the great lords of Amn, no one can deny Lady Delryn's noble soul or the compassion with which she treats the less fortunate.~
-@140 /*Volo*/ = ~Aah, yes, the lovely Lady Caroline Aurora Lucia Rosena Silvershield. Orphaned tragically on the road from Baldur's Gate, she has risen from the ashes of her past to make the world a brighter place. Beautiful and graceful, none can deny Caroline's noble soul or the compassion with which she treats the less fortunate.~
+@139 /*Volo*/ = ~Aah, yes, the lovely Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn. Orphaned tragically on the road from Baldur's Gate, she has risen from the ashes of her past to take her rightful place again. Married to one of the great lords of Amn, no one can deny Lady Delryn's noble soul or the compassion with which she treats the less fortunate.~
+@140 /*Volo*/ = ~Aah, yes, the lovely Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield. Orphaned tragically on the road from Baldur's Gate, she has risen from the ashes of her past to make the world a brighter place. Beautiful and graceful, none can deny Caroline's noble soul or the compassion with which she treats the less fortunate.~
 @141 /*Clara*/ = ~My good sir, you flatter me. I do not deserve your words, but I am glad to hear them. (I better make sure this guy survives. A girl can't turn down such good publicity.)~
 
 //Saradush Hectan

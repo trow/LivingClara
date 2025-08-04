@@ -5,9 +5,9 @@ IF
 	InParty("_bClara")
 	!StateCheck("_bClara",CD_STATE_NOTVALID)
 	Global("_bSWCH","GLOBAL",0)
-	Global("LS_HaerDalisSex","GLOBAL",2) 
+//	Global("LS_HaerDalisSex","GLOBAL",2) 
 	!Global("LS_HaerDalisRomanceActive","GLOBAL",3) 
-	Global("_bSleepsWithClara","GLOBAL",4)
+//	Global("_bSleepsWithClara","GLOBAL",4)
 THEN
 	RESPONSE #100
 	ActionOverride(Player1,SetDialog("Player1"))

@@ -43,7 +43,7 @@
 @23 /*CHARNAME*/ = ~I want to get to know you a little better. Is there somewhere private we could go?~
 @24 /*Clara*/ = ~I'm great, <CHARNAME>! Lord Sterk can't decide whether he wants to save me or sleep with me or both. With a little luck, he might move me into his household as a 'servant' and then the whole place will be mine!~
 @25 /*Clara*/ = ~Of course, I can't make any progress while I'm sitting here talking to you. So... bye! Do feel free to stop by again.~
-@26 /*Clara*/ = ~Do you like the accent? I copied yours but made it sound more high and noble. I'm Caroline Aurora Lucia Rosena Silvershield of Beregost, the poor orphaned daughter of a minor cousin of the more famous Silvershields up north.~
+@26 /*Clara*/ = ~Do you like the accent? I copied yours but made it sound more high and noble. I'm Caroline Louisa Audrey Rosanna Alexandra Silvershield of Beregost, the poor orphaned daughter of a minor cousin of the more famous Silvershields up north.~
 @27 /*Clara*/ = ~We entered Athkatla at night and Hexxat and Dragomir attacked us. Our cowardly mercenaries fled and even though my father bravely fought on with his two most faithful servants and a household guard, they were far outmatched. The vampires slew them and my mother without mercy. They would've killed me too if you hadn't stepped in and saved me. Thanks again, by the way.~
 @28 /*Clara*/ = ~Are you just saying hi or did you want something?~
 @29 /*CHARNAME*/ = ~I'm just saying hi. How are you?~
@@ -57,7 +57,7 @@
 @37 /*Clara*/ = ~No thanks. I like breathing... and living... and most of all I like not dying.~
 @38 /*CHARNAME*/ = ~Anything I can do to change your mind?~
 @39 /*CHARNAME*/ = ~Oh, well then I guess I'll see you around.~
-@40 /*Clara*/ = ~I am not a whore, <CHARNAME>. I am Caroline Aurora Lucia Rosena Silvershield of Beregost. Just because I've fallen on hard times and lost my parents doesn't mean that I will give up my dignity.~
+@40 /*Clara*/ = ~I am not a whore, <CHARNAME>. I am Caroline Louisa Audrey Rosanna Alexandra Silvershield of Beregost. Just because I've fallen on hard times and lost my parents doesn't mean that I will give up my dignity.~
 @41 /*Clara*/ = ~Now, good day. I have a lord waiting, one who desires to save me from my poor downtrodden life.~
 @42 /*Clara*/ = ~Sure. My price is 1,000 gold.~
 @43 /*CHARNAME*/ = ~Okay.~
@@ -78,7 +78,7 @@
 @54 /*Clara*/ = ~Hi, <CHARNAME>, how can I help you? Do you need something?~
 @55 /*Clara*/ = ~Don't worry about me. I'm just hanging out and enjoying being alive. There's always something to do... something to see... someone to rob. Feel free to hang around but I really should get back to work.~
 @56 /*Clara*/ = ~Join you? You want me to give up my comfy and profitable life to go seek death with you? To explore slimy, trap-filled dungeons crawling with undead and battle powerful monsters with the fate of the world hanging in the balance? My price is 1000 gold.~
-@57 /*Clara*/ = ~I believe you have the wrong person, <CHARNAME>. You want Clara the whore and she is dead. I am Caroline Aurora Lucia Rosena Silvershield of Beregost, the poor orphaned daughter of a minor cousin of the more famous Silvershields up north. I may have lost my parents to the vampires, but I have not lost my dignity.~
+@57 /*Clara*/ = ~I believe you have the wrong person, <CHARNAME>. You want Clara the whore and she is dead. I am Caroline Louisa Audrey Rosanna Alexandra Silvershield of Beregost, the poor orphaned daughter of a minor cousin of the more famous Silvershields up north. I may have lost my parents to the vampires, but I have not lost my dignity.~
 @58 /*Clara*/ = ~I was saved by the hero, <CHARNAME>, and I am so grateful that I tell this story to everyone I meet. That hero would never try to prey on a noble lady fallen on hard times. Goodbye now. Like any noble lady, I have important concerns that demand my attention.~
 @59 /*Clara*/ = ~Yaay! Okay, let me just get my things.~
 

@@ -1,6 +1,6 @@
 //ClaraSex scene trigger (no romance version)
 IF
-	Global("_bSleepsWithClara","GLOBAL",4) 
+//	Global("_bSleepsWithClara","GLOBAL",4) 
 	InMyArea("_bClara")
 	IfValidForPartyDialog("Mazzy")
 	Global("_bSWCM","GLOBAL",0)
@@ -15,7 +15,7 @@ END
 
 //ClaraSex scene trigger (romance version)
 IF
-	Global("_bSleepsWithClara","GLOBAL",4) 
+//	Global("_bSleepsWithClara","GLOBAL",4) 
 	InMyArea("_bClara")
 	IfValidForPartyDialog("Mazzy") 
 	Global("_bSWCM","GLOBAL",0)

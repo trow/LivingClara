@@ -1,7 +1,7 @@
 
 //ClaraSex scene trigger
 IF
-	Global("_bSleepsWithClara","GLOBAL",4) 
+//	Global("_bSleepsWithClara","GLOBAL",4) 
 	InParty("Yoshimo") 
 	!StateCheck("Yoshimo",CD_STATE_NOTVALID)
 	Global("_bSWCY","GLOBAL",0)

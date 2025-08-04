@@ -6,7 +6,7 @@ IF
 	!StateCheck("_bClara",CD_STATE_NOTVALID)
 	Global("ViconiaRomanceActive","GLOBAL",2) 
 	Global("_bSWCV","GLOBAL",0)
-	Global("_bSleepsWithClara","GLOBAL",4)
+//	Global("_bSleepsWithClara","GLOBAL",4)
 THEN
 	RESPONSE #100
 	ActionOverride(Player1,SetDialog("Player1"))
