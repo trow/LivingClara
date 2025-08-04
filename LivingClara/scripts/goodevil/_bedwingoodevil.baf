@@ -35,14 +35,14 @@ THEN
 END
 
 //ClaraSex scene trigger
-IF
-	Global("_bSleepsWithClara","GLOBAL",4) 
-	InParty("Edwin") 
-	!StateCheck("Edwin",CD_STATE_NOTVALID)
-	Global("_bSWCE","GLOBAL",0)
-	Global("EdwinNightTogether","GLOBAL",1) 
-	!Global("EdwinRomanceActive","GLOBAL",3)
-THEN
-	RESPONSE #100
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("_bSleepsWithClara","GLOBAL",4) 
+//	InParty("Edwin") 
+//	!StateCheck("Edwin",CD_STATE_NOTVALID)
+//	Global("_bSWCE","GLOBAL",0)
+//	Global("EdwinNightTogether","GLOBAL",1) 
+//	!Global("EdwinRomanceActive","GLOBAL",3)
+//THEN
+//	RESPONSE #100
+//	StartDialogNoSet(Player1)
+//END

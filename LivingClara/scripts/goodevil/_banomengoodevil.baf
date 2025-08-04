@@ -9,27 +9,27 @@ THEN
 END
 
 //ClaraSex scene trigger - if had sex already
-IF
-	Global("_bSleepsWithClara","GLOBAL",4) 
-	Global("_bSWCAn1","GLOBAL",0)
-	IfValidForPartyDialog("Anomen")
-	Global("AnomenRomanceActive","GLOBAL",2)
-THEN
-	RESPONSE #100
-	StartDialogNoSet(Player1)
-END
-
-//ClaraSex scene trigger - if haven't had sex
-IF
-	Global("_bSleepsWithClara","GLOBAL",4)
-	Global("_bSWCAn2","GLOBAL",0)	
-	IfValidForPartyDialog("Anomen")
-	Global("AnomenMatch","GLOBAL",1) 
-	!Global("AnomenRomanceActive","GLOBAL",2)
-THEN
-	RESPONSE #100
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("_bSleepsWithClara","GLOBAL",4) 
+//	Global("_bSWCAn1","GLOBAL",0)
+//	IfValidForPartyDialog("Anomen")
+//	Global("AnomenRomanceActive","GLOBAL",2)
+//THEN
+//	RESPONSE #100
+//	StartDialogNoSet(Player1)
+//END
+//
+////ClaraSex scene trigger - if haven't had sex
+//IF
+//	Global("_bSleepsWithClara","GLOBAL",4)
+//	Global("_bSWCAn2","GLOBAL",0)	
+//	IfValidForPartyDialog("Anomen")
+//	Global("AnomenMatch","GLOBAL",1) 
+//	!Global("AnomenRomanceActive","GLOBAL",2)
+//THEN
+//	RESPONSE #100
+//	StartDialogNoSet(Player1)
+//END
 
 //Anomen Romance Fix
 IF	Global("AnomenMatch","GLOBAL",1)

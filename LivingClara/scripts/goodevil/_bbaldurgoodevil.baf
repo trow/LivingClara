@@ -9,14 +9,14 @@ THEN
 END
 
 //Trigger for waking up conversation after ClaraSex
-IF
-	Global("_bSleptWithClara","GLOBAL",6)
-	CombatCounter(0)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,StartDialogue("player1",Player1))
-	Continue()
-END
+//IF
+//	Global("_bSleptWithClara","GLOBAL",6)
+//	CombatCounter(0)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,StartDialogue("player1",Player1))
+//	Continue()
+//END
 
 //Trigger for SuperDark floating text
 IF

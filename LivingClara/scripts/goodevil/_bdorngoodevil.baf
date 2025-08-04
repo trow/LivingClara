@@ -1,16 +1,16 @@
 
 //ClaraSex scene trigger
-IF
-	Global("_bSleepsWithClara","GLOBAL",4) 
-	InParty("DORN") 
-	!StateCheck("DORN",CD_STATE_NOTVALID) 
-	Global("OHD_dornsex","GLOBAL",1) 
-	Global("_bSWCD","GLOBAL",0)
-	!Global("DornRomanceActive","GLOBAL",3)
-THEN
-	RESPONSE #100
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("_bSleepsWithClara","GLOBAL",4) 
+//	InParty("DORN") 
+//	!StateCheck("DORN",CD_STATE_NOTVALID) 
+//	Global("OHD_dornsex","GLOBAL",1) 
+//	Global("_bSWCD","GLOBAL",0)
+//	!Global("DornRomanceActive","GLOBAL",3)
+//THEN
+//	RESPONSE #100
+//	StartDialogNoSet(Player1)
+//END
 
 //Final Clara Banter Trigger - 1st in d
 IF 

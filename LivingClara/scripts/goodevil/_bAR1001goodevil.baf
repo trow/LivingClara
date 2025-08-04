@@ -142,9 +142,3 @@ THEN
 	SetGlobal("_bDestroyBodyofCor","GLOBAL",1)
 	Continue()
 END
-
-
-
-
-
-
