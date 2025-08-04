@@ -37,7 +37,7 @@ IF	//Script to start dialogue with Renal Bloodscalp
 	Global("_bClaraRenal","GLOBAL",1)
 	!StateCheck("_bClara",CD_STATE_NOTVALID)
 	CombatCounter(0)
-	!Global("_bSleptWithClara","GLOBAL",7) 
+	//!Global("_bSleptWithClara","GLOBAL",7) 
 	Global("_bRenalClara","GLOBAL",0)
 	!Global("_bRenalOHHFAK","GLOBAL",2)
 THEN
@@ -63,7 +63,7 @@ IF	//Script to start dialogue with Renal Bloodscalp if not in party.
 	Detect(Player1)
 	!InParty("_bClara")
 	CombatCounter(0)
-	!Global("_bSleptWithClara","GLOBAL",7)
+	//!Global("_bSleptWithClara","GLOBAL",7)
 	Global("_bRenalClara","GLOBAL",0)
 	!Global("_bRenalOHHFAK","GLOBAL",2)
 THEN
@@ -212,16 +212,16 @@ END
 //	SetGlobal("_bClaraRT","GLOBAL",2)
 //END
 //
-//IF
-//	Global("_bClaraRT","GLOBAL",2)
-//	CombatCounter(0)
-//	!StateCheck(Player1,CD_STATE_NOTVALID)
-//	!StateCheck("_bClara",CD_STATE_NOTVALID)
-//THEN
-//	RESPONSE #100
-//	ActionOverride(Player1,SetDialog("Player1"))
-//	ActionOverride("_bClara",StartDialogNoSet(Player1))
-//END
+	IF
+		Global("_bClaraRT","GLOBAL",2)
+		CombatCounter(0)
+		!StateCheck(Player1,CD_STATE_NOTVALID)
+		!StateCheck("_bClara",CD_STATE_NOTVALID)
+	THEN
+		RESPONSE #100
+		ActionOverride(Player1,SetDialog("Player1"))
+		ActionOverride("_bClara",StartDialogNoSet(Player1))
+	END
 
 //Fix for Clara's sprite dying
 IF
