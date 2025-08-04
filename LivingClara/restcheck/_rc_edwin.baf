@@ -5,7 +5,7 @@ IF	//1st Edwin Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~edwin.bcs~
 	See(Player1)
 	!AreaType(DUNGEON)
 	CombatCounter(0)
-	!Global("Chapter","GLOBAL",5)
+	!Global("Chapter","GLOBAL",%bg2_chapter_5%)
 	Global("EdwinLoveTalk","LOCALS",9)
 	OR(2)
 		Global("EddieCantGetDrunk","GLOBAL",0)
@@ -86,9 +86,9 @@ IF	//4th Edwin Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~edwin.bcs~
 	!AreaType(DUNGEON)
 	CombatCounter(0)
 	Global("EdwinLoveTalk","LOCALS",21)
-	!Global("Chapter","GLOBAL",4)
-	!Global("Chapter","GLOBAL",5)
-	!Global("Chapter","GLOBAL",7)
+	!Global("Chapter","GLOBAL",%bg2_chapter_4%)
+	!Global("Chapter","GLOBAL",%bg2_chapter_5%)
+	!Global("Chapter","GLOBAL",%bg2_chapter_7%)
 	Global("_brestcheck","GLOBAL",0)
 THEN
 	RESPONSE #100

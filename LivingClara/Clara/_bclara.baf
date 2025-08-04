@@ -212,16 +212,16 @@ END
 //	SetGlobal("_bClaraRT","GLOBAL",2)
 //END
 //
-	IF
-		Global("_bClaraRT","GLOBAL",2)
-		CombatCounter(0)
-		!StateCheck(Player1,CD_STATE_NOTVALID)
-		!StateCheck("_bClara",CD_STATE_NOTVALID)
-	THEN
-		RESPONSE #100
-		ActionOverride(Player1,SetDialog("Player1"))
-		ActionOverride("_bClara",StartDialogNoSet(Player1))
-	END
+IF
+	Global("_bClaraRT","GLOBAL",2)
+	CombatCounter(0)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck("_bClara",CD_STATE_NOTVALID)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	ActionOverride("_bClara",StartDialogNoSet(Player1))
+END
 
 //Fix for Clara's sprite dying
 IF

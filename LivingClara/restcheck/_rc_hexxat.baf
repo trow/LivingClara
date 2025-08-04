@@ -6,7 +6,7 @@ IF  //Hexxat Romance Shadows of Amn Rest. EXTEND_BOTTOM ~hexxat.bcs~
 	CombatCounter(0)
 	!See([ENEMY])
 	!AreaType(DUNGEON)
-	!Global("chapter","GLOBAL",5)
+	!Global("chapter","GLOBAL",%bg2_chapter_5%)
 	Global("HexxatLovetalks","GLOBAL",23)
 	RealGlobalTimerExpired("HexxatLovetalksTimer","GLOBAL")
 	Global("_brestcheck","GLOBAL",0)

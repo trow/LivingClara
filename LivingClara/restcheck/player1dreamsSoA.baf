@@ -205,7 +205,7 @@ END
 
 IF //Yoshimo Under Cut Scene (Yoshimo Romance Mod)
 	CombatCounter(0)
-	Global("CHAPTER","GLOBAL",5)
+	Global("CHAPTER","GLOBAL",%bg2_chapter_5%)
 	GlobalGT("HadSlayerDream","GLOBAL",0)
 	Global("YoshimoRomanceActive","GLOBAL",2)
 	Global("YoshimoUnderCutScene","GLOBAL",0)
