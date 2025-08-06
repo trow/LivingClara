@@ -752,7 +752,7 @@ Miniaturization successful.*/
 // 将善良/中立路线的初始化逻辑添加到游戏主脚本 baldur.bcs 的顶部。
 EXTEND_TOP ~baldur.bcs~ ~LivingClara/scripts/goodevil/_bbaldurgoodevil.baf~ EVALUATE_BUFFER
 // 将 Aerie 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~aerie.bcs~ ~LivingClara/scripts/goodevil/_baeriegoodevil.baf~ EVALUATE_BUFFER
+//EXTEND_BOTTOM ~aerie.bcs~ ~LivingClara/scripts/goodevil/_baeriegoodevil.baf~ EVALUATE_BUFFER
 // 将 Anomen 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~anomen.bcs~ ~LivingClara/scripts/goodevil/_banomengoodevil.baf~ EVALUATE_BUFFER
 // 将 Anomen 的 D 对话脚本的善良/中立路线逻辑添加到底部。
@@ -794,7 +794,7 @@ COMPILE ~LivingClara/scripts/goodevil/_bGereth.baf~ EVALUATE_BUFFER  //2nd Clara
 //// 将 Edwin 的善良/中立路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~edwin.bcs~ ~LivingClara/scripts/goodevil/_bedwingoodevil.baf~ EVALUATE_BUFFER
 //// 将 HaerDalis 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~haerdali.bcs~ ~LivingClara/scripts/goodevil/_bhaerdalisgoodevil.baf~ EVALUATE_BUFFER
+//EXTEND_BOTTOM ~haerdali.bcs~ ~LivingClara/scripts/goodevil/_bhaerdalisgoodevil.baf~ EVALUATE_BUFFER
 // 将 Hexxat 的善良/中立路线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~hexxat.bcs~ ~LivingClara/scripts/goodevil/_bhexxatgoodevil.baf~ EVALUATE_BUFFER
 // 将 Imoen (TOB 版本) 的善良/中立路线逻辑添加到其脚本底部。
@@ -803,43 +803,43 @@ EXTEND_BOTTOM ~hexxat.bcs~ ~LivingClara/scripts/goodevil/_bhexxatgoodevil.baf~ E
 //// 注释说明：Imoen 原本没有 d 脚本，但 EXTEND_BOTTOM 会自动创建一个。
 //EXTEND_BOTTOM ~imoen2d.bcs~ ~LivingClara/scripts/goodevil/_bimoendgoodevil.baf~ EVALUATE_BUFFER //Imoen doesn't naturally have d script. But EXTEND_BOTTOM will create one.
 //// 将 Jaheira 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~jaheira.bcs~ ~LivingClara/scripts/goodevil/_bjaheiragoodevil.baf~ EVALUATE_BUFFER
+//EXTEND_BOTTOM ~jaheira.bcs~ ~LivingClara/scripts/goodevil/_bjaheiragoodevil.baf~ EVALUATE_BUFFER
 //// 将 Jaheira 的 D 对话脚本的善良/中立路线逻辑添加到底部。
 //EXTEND_BOTTOM ~jaheirad.bcs~ ~LivingClara/scripts/goodevil/_bjaheiradgoodevil.baf~ EVALUATE_BUFFER
 //// 将 Jan Jansen 的善良/中立路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~jan.bcs~ ~LivingClara/scripts/goodevil/_bjangoodevil.baf~ EVALUATE_BUFFER
 //// 将 Keldorn 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~keldorn.bcs~ ~LivingClara/scripts/goodevil/_bkeldorngoodevil.baf~ EVALUATE_BUFFER
+//EXTEND_BOTTOM ~keldorn.bcs~ ~LivingClara/scripts/goodevil/_bkeldorngoodevil.baf~ EVALUATE_BUFFER
 //// 将 Korgan 的善良/中立路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~korgan.bcs~ ~LivingClara/scripts/goodevil/_bkorgangoodevil.baf~ EVALUATE_BUFFER
 //// 将 Korgan 的 D 对话脚本的善良/中立路线逻辑添加到底部。
 //EXTEND_BOTTOM ~korgand.bcs~ ~LivingClara/scripts/goodevil/_bkorgandgoodevil.baf~ EVALUATE_BUFFER
 //// 将 Mazzy 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~mazzy.bcs~ ~LivingClara/scripts/goodevil/_bmazzygoodevil.baf~ EVALUATE_BUFFER
+//EXTEND_BOTTOM ~mazzy.bcs~ ~LivingClara/scripts/goodevil/_bmazzygoodevil.baf~ EVALUATE_BUFFER
 //// 将 Mazzy 的 D 对话脚本的善良/中立路线逻辑添加到底部。
 //EXTEND_BOTTOM ~mazzyd.bcs~ ~LivingClara/scripts/goodevil/_bmazzydgoodevil.baf~ EVALUATE_BUFFER
 //// 将 Minsc 的善良/中立路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~minsc.bcs~ ~LivingClara/scripts/goodevil/_bminscgoodevil.baf~ EVALUATE_BUFFER
 //// 将 Nalia 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~nalia.bcs~ ~LivingClara/scripts/goodevil/_bnaliagoodevil.baf~ EVALUATE_BUFFER
+//EXTEND_BOTTOM ~nalia.bcs~ ~LivingClara/scripts/goodevil/_bnaliagoodevil.baf~ EVALUATE_BUFFER
 //// 将 Neera 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~neera.bcs~ ~LivingClara/scripts/goodevil/_bneeragoodevil.baf~ EVALUATE_BUFFER
+//EXTEND_BOTTOM ~neera.bcs~ ~LivingClara/scripts/goodevil/_bneeragoodevil.baf~ EVALUATE_BUFFER
 //// 将 Neera 的 D 对话脚本的善良/中立路线逻辑添加到底部。
 //EXTEND_BOTTOM ~neerad.bcs~ ~LivingClara/scripts/goodevil/_bneeradgoodevil.baf~ EVALUATE_BUFFER
 //// 将 Nordon (Order of the Radiant Heart NPC) 的善良/中立路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~norder.bcs~ ~LivingClara/scripts/goodevil/_bnordergoodevil.baf~ EVALUATE_BUFFER
 //// 将 Rasaad 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~rasaad.bcs~ ~LivingClara/scripts/goodevil/_brasgoodevil.baf~ EVALUATE_BUFFER
+//EXTEND_BOTTOM ~rasaad.bcs~ ~LivingClara/scripts/goodevil/_brasgoodevil.baf~ EVALUATE_BUFFER
 //// 将秩序之手成员的通用善良/中立路线逻辑添加到 sht0903 脚本底部。
 //EXTEND_BOTTOM ~sht0903.bcs~ ~LivingClara/scripts/goodevil/_bsht0903goodevil.baf~ EVALUATE_BUFFER //Script for all Order of the Radiant Heart People
 //// 将 Valygar 的善良/中立路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~valygar.bcs~ ~LivingClara/scripts/goodevil/_bvalygargoodevil.baf~ EVALUATE_BUFFER
 //// 将 Viconia 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~viconia.bcs~ ~LivingClara/scripts/goodevil/_bviconiagoodevil.baf~ EVALUATE_BUFFER
+//EXTEND_BOTTOM ~viconia.bcs~ ~LivingClara/scripts/goodevil/_bviconiagoodevil.baf~ EVALUATE_BUFFER
 //// 将 Viconia 的 D 对话脚本的善良/中立路线逻辑添加到底部。
 //EXTEND_BOTTOM ~vicond.bcs~ ~LivingClara/scripts/goodevil/_bviconiadgoodevil.baf~ EVALUATE_BUFFER
 //// 将 Yoshimo 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~yoshimo.bcs~ ~LivingClara/scripts/goodevil/_byoshgoodevil.baf~ EVALUATE_BUFFER
+//EXTEND_BOTTOM ~yoshimo.bcs~ ~LivingClara/scripts/goodevil/_byoshgoodevil.baf~ EVALUATE_BUFFER
 //// 将 Wilson 的善良/中立路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~wilson.bcs~ ~LivingClara/scripts/goodevil/_bwilsongoodevil.baf~ EVALUATE_BUFFER
 
