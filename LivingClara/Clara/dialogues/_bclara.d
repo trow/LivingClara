@@ -1,7 +1,7 @@
 BEGIN _bclara
 
 //When you first raise Clara.
-APPEND _BCLARA IF ~Global("_bClaraLives","GLOBAL",2) !StateCheck("_bClara",CD_STATE_NOTVALID)~ THEN BEGIN _bClara1
+APPEND _BCLARA IF ~Global("_bClaraLives","GLOBAL",2) !StateCheck("_bClara",CD_STATE_NOTVALID)~ THEN BEGIN _bClara1	//CD_STATE_NOTVALID表示不适合对话的状态
 	SAY @1 /*I'm alive! I'm alive! Or... I'm dead and this is the afterlife.*/
 	= @2 /*Oh hi, <CHARNAME>, are we alive or are you dead too?*/
 		++ @3 /*That's a good philosophical question. After all, everyone dies, but not everyone truly lives.*/ DO ~SetGlobal("_bClaraLives","GLOBAL",3)~ GOTO _bClara2
