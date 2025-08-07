@@ -17,7 +17,7 @@ It removes the sexual content from the original mod, retaining only **3 componen
 **Mod Component 1: Keepable Clara NPC**
 Clara no longer disappears shortly after recruitment at the Copper Coronet. We've reworked the end of Hexxat's introductory quest, allowing you to **kill Hexxat to keep Clara**. Clara is a Female Human Lawful Evil Thief **with the ability to change her kit type at will**. Though initially weak, she levels up quickly, gaining stats and abilities through party banter. You may also summon Clara when starting a new *Throne of Bhaal* game.
 
-*Mazzy MegaMod* includes an optional soundset for Clara (details below).
+Living Clara also includes an optional soundset for Clara from *Mazzy MegaMod* (details below).
 
 **Mod Component 2: Darkside Anomen: An Expansion for Evil Anomen**
 Adds content for Chaotic Neutral Anomen if he **fails his paladin test**. This component is mostly complete and semi-optional.
