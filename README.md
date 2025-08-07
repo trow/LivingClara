@@ -2,7 +2,7 @@
 **Clara NPC, Darkside Anomen, and Bodhi NPC!**
 ---
 This mod is a **lite edition** of Ratatoskr and BCaesar's Multi-Mod: [All Things Mazzy](https://github.com/Ratatoskr589/All-Things-Mazzy), it is a NPC mod of [Clara](https://baldursgate.fandom.com/wiki/Clara).  
-![If you want to keep Clara, this mod is likely right for you!](https://static.wikia.nocookie.net/baldursgategame/images/5/5f/Clara_OHHEX_Portrait_BG2EE.png/revision/latest?cb=20170123120308)
+![If you want to keep Clara, this mod is likely right for you!](https://static.wikia.nocookie.net/baldursgategame/images/5/5f/Clara_OHHEX_Portrait_BG2EE.png)
 
 Created by MephistoSatanDevil with [authorization](https://forums.beamdog.com/discussion/71473/megamod-3-16-mazzy-romance-clara-npc-darkside-anomen-flying-aerie-for-the-evil-more-done/p46) from BCaesar and Ratatoskr.
 
@@ -15,7 +15,7 @@ It removes the sexual content from the original mod, retaining only **3 componen
 
 
 **Mod Component 1: Keepable Clara NPC**
-Clara no longer disappears shortly after recruitment at the Copper Coronet. We've reworked the end of Hexxat's introductory quest, allowing you to **kill Hexxat to keep Clara**. Clara is a Female Human Lawful Evil Thief **with the ability to change her kit type at will**. Though initially weak, she levels up quickly, gaining stats and abilities through party banter. You may also summon Clara when starting a new *Throne of Bhaal* game.
+Clara no longer disappears shortly after recruitment at the Copper Coronet. The end of Hexxat's introductory quest have reworked ,It allowing you to **kill Hexxat to keep Clara**. Clara is a Female Human Lawful Evil Thief **with the ability to change her kit type at will**. Though initially weak, she levels up quickly, gaining stats and abilities through party banter. You may also summon Clara when starting a new *Throne of Bhaal* game.
 
 Living Clara also includes an optional soundset for Clara from *Mazzy MegaMod* (details below).
 
@@ -23,9 +23,9 @@ Living Clara also includes an optional soundset for Clara from *Mazzy MegaMod* (
 Adds content for Chaotic Neutral Anomen if he **fails his paladin test**. This component is mostly complete and semi-optional.
 
 **Mod Component 3: Bodhi NPC**
-Bodhi is fully functional, featuring banters, dialogues, and epilogues (unlikely to receive further updates).  
+Bodhi is fully functional, featuring banters, dialogues, and epilogues.  
 
-If you direct Bodhi to accept Queen Ellesime's offer at the end of *Shadows of Amn*, **Bodhi-the-Elf** may join your party. She is a Chaotic Evil Elven Monk. Good-aligned recruitable NPCs will travel with her—**except** Mazzy, Anomen (if still with the Order), and Keldorn. Bodhi-the-Elf serves as a quiet **Easter egg**, similar to the Wilson companion in BG2EE.
+If you direct Bodhi to accept Queen Ellesime's offer at the end of *Shadows of Amn*, **Bodhi-the-Elf** may join your party. She is a Chaotic Evil Elven Monk.
 
 **Mod Component 4: Clara NPC Soundset**
 Adds a basic soundset for Clara, including selection/action sounds and contextual comments.
@@ -39,4 +39,4 @@ Adds a basic soundset for Clara, including selection/action sounds and contextua
 • **BCaesar & Ratatoskr**: Authors/maintainers of *Mazzy MegaMod*  
 • **[MephistoSatanDevil](https://github.com/MephistoSatanDevil)**: Adapted *Mazzy MegaMod* into this mod  
 • **[Shohy](https://github.com/shohysie/)**: Coding & event optimization  
-• **[Esceen](https://github.com/Esceen-cn/)**: Testing & bug reporting  
+• **[Esceen](https://github.com/Esceen-cn/)**: Testing & bug reporting 
