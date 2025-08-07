@@ -1,12 +1,13 @@
 # Living Clara
 **Clara NPC, Darkside Anomen, and Bodhi NPC!**
 ---
-This mod is a **lite edition** of Ratatoskr and BCaesar's Multi-Mod: All Things Mazzy, it is a NPC mod of [Clara](https://baldursgate.fandom.com/wiki/Clara).
+This mod is a **lite edition** of Ratatoskr and BCaesar's Multi-Mod: [All Things Mazzy](https://github.com/Ratatoskr589/All-Things-Mazzy), it is a NPC mod of [Clara](https://baldursgate.fandom.com/wiki/Clara).  
+![If you want to keep Clara, this mod is likely right for you!](https://static.wikia.nocookie.net/baldursgategame/images/5/5f/Clara_OHHEX_Portrait_BG2EE.png/revision/latest?cb=20170123120308)
 
-Created by MephistoSatanDevil with authorization from BCaesar and Ratatoskr.
+Created by MephistoSatanDevil with [authorization](https://forums.beamdog.com/discussion/71473/megamod-3-16-mazzy-romance-clara-npc-darkside-anomen-flying-aerie-for-the-evil-more-done/p46) from BCaesar and Ratatoskr.
 
 ## What This Mod Is
-This mod modifies Ratatoskr and BCaesar's *Mazzy MegaMod* [https://github.com/Ratatoskr589/All-Things-Mazzy].  
+This mod modifies Ratatoskr and BCaesar's *[Mazzy MegaMod](https://github.com/Ratatoskr589/All-Things-Mazzy)*.  
 It removes the sexual content from the original mod, retaining only **3 components**:  
 • Keepable Clara NPC  
 • Darkside Anomen  
