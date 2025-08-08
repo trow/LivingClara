@@ -1,3 +1,6 @@
+![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20Chinese%20%7C%20Russian&color=limegreen)
+![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2EE%20%7C%20EET&color=dodgerblue)
+
 # Living Clara
 **Clara NPC, Darkside Anomen, and Bodhi NPC!**
 ---
