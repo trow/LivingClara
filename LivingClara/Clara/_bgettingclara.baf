@@ -1,3 +1,66 @@
+// 目的：当 Hexxat 死亡（或处于死亡状态）且玩家队伍中没有她，同时玩家还没有 "OHHBAG" 物品时，
+// 创建一只鸟来承载脚本而不是把所有判断都嵌入全局脚本by shohy
+IF	//Script to create the bag if Hexxat dies.
+	// 使用 OR(2) 表示接下来的两个条件满足其一即可。
+	OR(2)
+		// 检查对象 "hexxat" 是否已死亡。
+		Dead("hexxat")
+		// 或者检查对象 "hexxat" 是否处于 STATE_DEAD 状态。
+		StateCheck("hexxat",STATE_DEAD)
+	// 检查玩家队伍是否*没有*拥有物品 "OHHBAG"。
+//	!PartyHasItem("OHHBAG")	//这里避免检查物品，交给鸟by shohy
+	// 检查全局变量 "_bHexxatBag" 是否等于 0。
+	// 这是一个去重标志，确保下面的逻辑只执行一次。
+	Global("_bHexxatBag","GLOBAL",0)
+	// 检查 Hexxat 是否*不*在队伍中（即使已死亡也检查）。
+	!InPartyAllowDead("hexxat")
+	// 检查全局变量 "OHH_dragorespite" 是否*不*等于 3。
+    // 这可能与任务的其他部分或条件有关。
+	!Global("OHH_dragorespite","GLOBAL",3)
+THEN
+    // 如果以上所有条件都满足，则执行以下响应。
+	RESPONSE #100
+		CreateCreature("_bHdeath",[407.1434],1)	//召唤一只鸟，承载脚本和对话by shohy
+	// 给予hexxat物品 "OHHBAG"（一个包含棺材的袋子）。
+	//GiveItemCreate("OHHBAG","hexxat",0,0,0)
+	// 使用 ActionOverride 命令，强制 Hexxat 掉落她的所有物品（包括刚刚创建的袋子）。
+	//ActionOverride("hexxat",DropInventory())
+	// 将全局变量 "_bHexxatBag" 设置为 1，表示袋子已生成。
+	//SetGlobal("_bHexxatBag","GLOBAL",1)
+	// 设置 "OHH_dragorespite" 为 3，可能是任务状态标志。
+		SetGlobal("OHH_dragorespite","GLOBAL",3)
+	// 在玩家角色头上显示一条描述性文本，解释发生了什么。
+    // @1 是字符串引用。
+	//ActionOverride(Player1,DisplayStringNoNameHead(Player1,@1)) /*You defeat the vampire, but she transforms into mist and quickly disappears. All that remains where she stood is an old sack. Perhaps if you took it, you could hunt the creature down.*/
+END
+
+// 目的：修复一个潜在的 Bug，如果玩家在特定场景中杀死了假的 Hexxat ("OHHFAK")，
+// 但真正的 Hexxat ("hexxat") 没有被杀死，则强制杀死假的 Hexxat。
+IF	//Bug fix for killing Fake Hexxat if Hexxat doesn't in their cutscene.
+    // 检查区域 "OH7000" 中的变量 "OHH_hexxat" 是否等于 3。
+    // 这可能表示假 Hexxat 场景的特定状态。
+	Global("OHH_hexxat","OH7000",3)
+	// 检查假 Hexxat "OHHFAK" 是否*没有*死亡。
+	!Dead("OHHFAK")
+THEN
+	RESPONSE #100
+	// 强制杀死假 Hexxat "OHHFAK"。
+	Kill("OHHFAK")
+END
+
+// 目的：允许玩家在特定条件下（Hexxat 不在队伍中）杀死她。
+// 通常情况下，Hexxat 可能是无敌的。
+IF	//Script to allow you to kill Hexxat if she's not in the party (normally she's invulnerable)
+    // 检查 Hexxat 的生命值是否低于 2 点 (HPLT = HP Less Than)。
+	HPLT("hexxat",2)
+	// 检查 Hexxat 是否*不*在队伍中。
+	!InPartyAllowDead("hexxat")
+THEN
+	RESPONSE #100
+	// 强制杀死 Hexxat。
+	Kill("hexxat")
+END
+
 // 目的：启动 Clara 的等待计时器。在她被创造出来后，她会等待一段时间再出现。
 IF	//Script for Clara's waiting timer.
 	// 检查全局变量 "_bClaraWaiting" 是否等于 1。

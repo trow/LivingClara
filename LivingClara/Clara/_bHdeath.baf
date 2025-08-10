@@ -1,0 +1,153 @@
+// 目的：当 Hexxat 死亡（或处于死亡状态）且玩家队伍中没有她，同时玩家还没有 "OHHBAG" 物品时，
+// 创建这个物品（包含 Hexxat 的棺材），并显示一条描述性文本。
+// 这是 Clara 任务线的起始步骤之一。
+
+//部分条件已经作为鸟的召唤条件，所以不再检查
+IF	//Script to create the bag if Hexxat dies.
+	// 使用 OR(2) 表示接下来的两个条件满足其一即可。
+//	OR(2)
+		// 检查对象 "hexxat" 是否已死亡。
+//		Dead("hexxat")
+		// 或者检查对象 "hexxat" 是否处于 STATE_DEAD 状态。
+//		StateCheck("hexxat",STATE_DEAD)
+	// 检查玩家队伍是否*没有*拥有物品 "OHHBAG"。
+	!PartyHasItem("OHHBAG")
+	// 检查全局变量 "_bHexxatBag" 是否等于 0。
+	// 这是一个去重标志，确保下面的逻辑只执行一次。
+	Global("_bHexxatBag","GLOBAL",0)
+	// 检查 Hexxat 是否*不*在队伍中（即使已死亡也检查）。
+//	!InPartyAllowDead("hexxat")
+	// 检查全局变量 "OHH_dragorespite" 是否*不*等于 3。
+    // 这可能与任务的其他部分或条件有关。
+	Global("OHH_dragorespite","GLOBAL",3)	//新增条件
+THEN
+    // 如果以上所有条件都满足，则执行以下响应。
+	RESPONSE #100
+	// 给予hexxat物品 "OHHBAG"（一个包含棺材的袋子）。
+	GiveItemCreate("OHHBAG","hexxat",0,0,0)
+	// 使用 ActionOverride 命令，强制 Hexxat 掉落她的所有物品（包括刚刚创建的袋子）。
+	ActionOverride("hexxat",DropInventory())
+	// 将全局变量 "_bHexxatBag" 设置为 1，表示袋子已生成。
+	SetGlobal("_bHexxatBag","GLOBAL",1)
+	// 设置 "OHH_dragorespite" 为 3，可能是任务状态标志。
+//	SetGlobal("OHH_dragorespite","GLOBAL",3)
+	// 在玩家角色头上显示一条描述性文本，解释发生了什么。
+    // @1 是字符串引用。
+	ActionOverride(Player1,DisplayStringNoNameHead(Player1,@1)) /*You defeat the vampire, but she transforms into mist and quickly disappears. All that remains where she stood is an old sack. Perhaps if you took it, you could hunt the creature down.*/
+END
+
+// 目的：如果玩家获得了 "OHHBAG"，而 Hexxat 已死，但还没有将她放入棺材中，
+// 则在玩家拾取袋子后，将 Hexxat 的灵魂（通过棺材）封印起来。
+IF	//Script to put Hexxat inside the casket when she dies if she didn't yet give the bag to you. This would trigger after you pick up the bag.
+	// 检查玩家队伍是否拥有物品 "OHHBAG"。
+	PartyHasItem("OHHBAG")
+	// 检查 Hexxat 是否处于死亡状态。
+	StateCheck("hexxat",STATE_DEAD)
+	// 使用 OR(2) 表示接下来的两个条件满足其一即可。
+	OR(2)
+		// 检查 "_bHexxatBag" 是否为 0（袋子刚生成）。
+		Global("_bHexxatBag","GLOBAL",0)
+		// 或者检查 "_bHexxatBag" 是否为 1（袋子已生成但未处理）。
+		Global("_bHexxatBag","GLOBAL",1)
+	// 检查 "_bHexxatDeadCasketTransform" 是否为 0。
+    // 这是另一个去重标志。
+	Global("_bHexxatDeadCasketTransform","GLOBAL",0)
+THEN
+	// 如果以上所有条件都满足，则执行以下响应。
+	RESPONSE #100
+	// 强制玩家角色拾取队伍中的 "OHHBAG" 物品（确保它在物品栏中）。
+	ActionOverride(Player1,TakePartyItem("OHHBAG"))
+	// 强制将物品 "ohhcask" 转换为 "_bcask2"（可能是一个封印状态的棺材）。
+	ActionOverride(Player1,TransformItem("ohhcask","_bcask2"))
+	// 设置标志，表示封印过程已完成。
+	SetGlobal("_bHexxatDeadCasketTransform","GLOBAL",1)
+END
+
+//封印过程完成即_bHexxatDeadCasketTransform为1后，玩家使用木桩前GlobalLT("_bHexxatBag","GLOBAL",2)，必须PartyHasItem("OHHBAG")才对话
+//每次进一定距离只对话一次,设置goforsth为1防止重复对话
+IF
+	Range([PC],15)
+	!GlobalGT("goforsth","LOCALS",0)
+	GlobalGT("_bHexxatDeadCasketTransform","GLOBAL",0)
+	GlobalLT("_bHexxatBag","GLOBAL",2)
+	PartyHasItem("OHHBAG")
+THEN
+	RESPONSE #100
+		SetGlobal("goforsth","LOCALS",1)
+		StartDialogNoName("_bHdeath",Player1) 
+END
+//玩家离开一定距离，设置goforsth为0，下次见到开启对话
+IF
+	!Range([PC],15)
+	Global("goforsth","LOCALS",1)
+	GlobalGT("_bHexxatDeadCasketTransform","GLOBAL",0)
+	GlobalLT("_bHexxatBag","GLOBAL",2)
+	PartyHasItem("OHHBAG")
+THEN
+	RESPONSE #100
+		SetGlobal("goforsth","LOCALS",0)
+END
+//玩家使用木桩后，播放动画并让hexxat消失
+IF
+	GlobalGT("_bHexxatDeadCasketTransform","GLOBAL",0)
+	Global("_bHexxatBag","GLOBAL",2)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("SPFDEATH",[407.1434])
+		SetGlobal("_bHexxatBag","GLOBAL",3)
+		SetGlobal("goforsth","LOCALS",0)
+		ActionOverride("hexxat",DestroySelf())
+		SetGlobal("goforsth","LOCALS",0)
+END
+//玩家使用复原术之前，Global("_bHexxatBag","GLOBAL",3)，Global("_bClaraLives","GLOBAL",0)
+//每次进视野只对话一次,设置goforsth为1防止重复对话
+IF
+	Range([PC],15)
+	!GlobalGT("goforsth","LOCALS",0)
+	Global("_bHexxatBag","GLOBAL",3)
+	Global("_bClaraLives","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("goforsth","LOCALS",1)
+		StartDialogNoName("_bHdeath",Player1) 
+END
+//玩家离开视野，设置goforsth为0，下次见到开启对话
+IF
+	!Range([PC],15)
+	Global("goforsth","LOCALS",1)
+	Global("_bHexxatBag","GLOBAL",3)
+	Global("_bClaraLives","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("goforsth","LOCALS",0)
+END
+
+//下面这段也做了修改，让尸体消失同时新生物产生在尸体上by shohy
+// 目的：在 Hexxat 被彻底消灭后（_bClaraLives=1），将 Clara NPC 添加到玩家所在的区域。
+IF	//Script to add Clara to your party once Hexxat is dead.
+	// 检查 Hexxat 是否已死亡。
+	Dead("hexxat")
+	// 检查全局变量 "_bClaraLives" 是否等于 1。
+	Global("_bClaraLives","GLOBAL",1)
+	// 检查 Hexxat 是否*不*在队伍中（已死）。
+	!InPartyAllowDead("hexxat")
+THEN
+	RESPONSE #100
+	// 将 "_bClaraLives" 设置为 2，防止重复执行。
+	SetGlobal("_bClaraLives","GLOBAL",2)
+	// 在玩家当前位置创建 Clara NPC（使用 _bClara.cre 文件）。
+    // 坐标 [-1.-1] 通常表示在当前位置附近随机生成。
+    // 8 表示方向。
+	CreateCreatureObject("_bClara","OHHFAK",8,0,0)	//改成在之前克拉拉的尸体上生成
+	ActionOverride("OHHFAK",DestroySelf())	//并且移除尸体
+	AddexperienceParty(6000)
+	AddJournalEntry(@4,USER) //Dragomir's Tomb was a trap. The one I knew as Hexxat was a thrall under the control of a vampire, one who wished to speak with me. However, I do not treat with monsters. I have killed the vampire and freed this girl's soul. Hopefully she will be better at making conversation now.
+END
+
+//鸟的任务完成消失
+IF
+	Global("_bClaraLives","GLOBAL",2)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END

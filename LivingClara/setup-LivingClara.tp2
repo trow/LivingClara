@@ -427,9 +427,13 @@ COMPILE ~LivingClara/Clara/_bcla25d.baf~
 // EVALUATE_BUFFER 确保脚本中的变量被正确处理。
 // 注释警告：将代码放在脚本顶部可能很危险，因为持续触发的代码可能会阻止后续代码执行，需要仔细测试。
 EXTEND_TOP ~baldur.bcs~ ~LivingClara/Clara/_bgettingclara.baf~ EVALUATE_BUFFER //Extend Top puts code at top of bcs file so it plays first. This can be dangerous since code that fires continuously will stop anything after it from triggering. TEST TEST TEST.
-EXTEND_TOP ~OH7000.bcs~ ~LivingClara/Clara/_bcl7000.baf~ EVALUATE_BUFFER USING ~LivingClara/translations/%LANGUAGE%/_bgettingclara.tra~	//前面的脚本拆成两部分，第一部分保留在全局脚本，第二部分检查物品的代码太多，放到OH7000.are的区域脚本by shohy
+//前面的脚本拆成两部分，第一部分保留在全局脚本，第二部分检查物品的代码太多，召唤鸟_bHdeath来承载by shohy
+COMPILE ~LivingClara/Clara/_bHdeath.baf~ EVALUATE_BUFFER USING ~LivingClara/translations/%LANGUAGE%/_bgettingclara.tra~	
+COMPILE ~LivingClara/Clara/_bHdeath.d~ EVALUATE_BUFFER USING ~LivingClara/translations/%LANGUAGE%/_bgettingclara.tra~	
+COPY ~LivingClara/Clara/_bHdeath.cre~ ~override~
+//添加一个复原术卷轴by shohy
 COPY_EXISTING ~ohhdrago.cre~ ~override~
-	ADD_CRE_ITEM ~RESTORE~ #1 #1 #0 ~NONE~ ~INV7~
+	ADD_CRE_ITEM ~RESTORE~ #1 #0 #0 ~NONE~ ~INV7~
 
 // 将 Clara 与 "OHHFAK" NPC (可能是一个特定事件或 NPC) 的互动脚本 (_bOHHFAKClara.baf)
 // 添加到 OHHFAK.bcs 脚本的底部 (EXTEND_BOTTOM)。
