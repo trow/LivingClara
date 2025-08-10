@@ -33,7 +33,7 @@
 @32 /*SELECT_ACTION6*/ = ~好吧。我听你指挥。~ [_bClar21] //"At your command" - Ariannef,   
 @33 /*SELECT_ACTION7*/ = ~如你所愿。（来个壮汉帮我搬东西啊？）~ [_bClar22] //"Immediately" - Ariannej
 @34 /*SELECT_RARE1*/ = ~唉，你要求真高。~ [_bClar23] //"Watch it" - PoEFFeistyx  
-@35 /*SELECT_RARE2*/ = ~走开。我在勾引。~ [_bClar24] //"Do it again and I'm taking it away" - PoEFFeistyy
+@35 /*SELECT_RARE2*/ = ~走开。我在调情。~ [_bClar24] //"Do it again and I'm taking it away" - PoEFFeistyy
 @36 /*CRITICAL_HIT*/ = ~直击心灵！~ [_bClar25] //"Hah, got him" - PoEFFeistyz
 @37 /*CRITICAL_MISS*/ = ~哎呀。希望没人看到。~ [_bClar26] //"Oops" - Arianne1
 @38 /*TARGET_IMMUNE*/ = ~我的武器失效了。本来会流血的。~ [_bClar27] //"Hand me another sword!" - Arianne2

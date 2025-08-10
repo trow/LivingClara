@@ -493,20 +493,20 @@ END COPY_TRANS AMMONK03 1
 //Watcher's Keep Interjections
 //Lich Priest (ICT4, so either talk should trigger)
 INTERJECT_COPY_TRANS4 GORPRI1 2 _bClaraLich /*I will take my slippers and let you finish your work here. Look through the sarcophagus if you wish.*/
-	== _BCLARAJ IF ~IfValidForPartyDialog("_bClara") GlobalLT("Chapter","GLOBAL",8)~ THEN @153 /*Wow. What a nice old... zombie? I wish everyone was that relaxed about us robbing graves.*/
-	== _BCLA25J IF ~IfValidForPartyDialog("_bClara") GlobalGT("Chapter","GLOBAL",7)~ THEN @153 /*Wow. What a nice old... zombie? I wish everyone was that relaxed about us robbing graves.*/
+	== _BCLARAJ IF ~IfValidForPartyDialog("_bClara") GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)~ THEN @153 /*Wow. What a nice old... zombie? I wish everyone was that relaxed about us robbing graves.*/
+	== _BCLA25J IF ~IfValidForPartyDialog("_bClara") GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)~ THEN @153 /*Wow. What a nice old... zombie? I wish everyone was that relaxed about us robbing graves.*/
 END
 
 //Odren Talk
 INTERJECT_COPY_TRANS4 GORODR1 53 _bClaraOdren /*And so we sought someone else to take our place and seal the demon within the keep.*/
-	== MAZZYJ IF ~IfValidForPartyDialog("Mazzy") GlobalLT("Chapter","GLOBAL",8)~ THEN @154 /*You have dishonoured yourselves with your actions. To die in the defence of virtue is the true hero's way.*/
-	== MAZZY25J IF ~IfValidForPartyDialog("Mazzy") GlobalGT("Chapter","GLOBAL",7)~ THEN @154 /*You have dishonoured yourselves with your actions. To die in the defence of virtue is the true hero's way.*/
-	== _BCLARAJ IF ~IfValidForPartyDialog("_bClara") GlobalLT("Chapter","GLOBAL",8)~ THEN @155 /*That's just like a priest, isn't it? Telling someone *else* they should die for the greater good.*/
-	== _BCLA25J IF ~IfValidForPartyDialog("_bClara") GlobalGT("Chapter","GLOBAL",7)~ THEN @155 /*That's just like a priest, isn't it? Telling someone *else* they should die for the greater good.*/
+	== MAZZYJ IF ~IfValidForPartyDialog("Mazzy") GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)~ THEN @154 /*You have dishonoured yourselves with your actions. To die in the defence of virtue is the true hero's way.*/
+	== MAZZY25J IF ~IfValidForPartyDialog("Mazzy") GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)~ THEN @154 /*You have dishonoured yourselves with your actions. To die in the defence of virtue is the true hero's way.*/
+	== _BCLARAJ IF ~IfValidForPartyDialog("_bClara") GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)~ THEN @155 /*That's just like a priest, isn't it? Telling someone *else* they should die for the greater good.*/
+	== _BCLA25J IF ~IfValidForPartyDialog("_bClara") GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)~ THEN @155 /*That's just like a priest, isn't it? Telling someone *else* they should die for the greater good.*/
 END
 	
 //Helm Ghost
 INTERJECT_COPY_TRANS4 GORAPP1 10 _bClaraGhost /*It may be used to seal both Odren and Demogorgan within, and you need not enter the keep to do so.*/
-	== _BCLARAJ IF ~IfValidForPartyDialog("_bClara") GlobalLT("Chapter","GLOBAL",8)~ THEN @156 /*I like this option, <CHARNAME>. How often does a god himself say that you don't have to fight?*/
-	== _BCLA25J IF ~IfValidForPartyDialog("_bClara") GlobalGT("Chapter","GLOBAL",7)~ THEN @156 /*I like this option, <CHARNAME>. How often does a god himself say that you don't have to fight?*/
+	== _BCLARAJ IF ~IfValidForPartyDialog("_bClara") GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)~ THEN @156 /*I like this option, <CHARNAME>. How often does a god himself say that you don't have to fight?*/
+	== _BCLA25J IF ~IfValidForPartyDialog("_bClara") GlobalGT("Chapter","GLOBAL",%bg2_chapter_7%)~ THEN @156 /*I like this option, <CHARNAME>. How often does a god himself say that you don't have to fight?*/
 END

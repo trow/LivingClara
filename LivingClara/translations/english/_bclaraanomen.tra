@@ -192,7 +192,7 @@
 @165 /*Anomen*/ = ~Look at me, then, and tell me truly, my lady: Am I not better this way? Unfettered and ready to experience life? A ready smile and a laugh in my heart?~
 @166 /*Clara*/ = ~This is who you were meant to be, Anomen.~
 @167 /*Anomen*/ = ~Well said and much appreciated by this formerly dour knight, my lady! 'Tis a grand thing to be complimented by a beautiful lady, especially one with your grace.~
-@168 /*Anomen*/ = ~There's much I'd like to see and do... but for now, it will suffice to keep the company of such a grand woman as yourself. Come, let us complete our quests posthaste.~
+@168 /*Anomen*/ = ~There's much I'd like to see and do... but for now, it will suffice to keep the company of such a grand woman as yourself. Come, let us complete our quests posthaste. I have come up with a new plan...~
 
 //12th Talk
 @169 /*Anomen*/ = ~My lady, I have been watching you most intently these past few hours, and I have come to a conclusion about you... Would you like to hear my thoughts?~ [ANOMEN83]
@@ -389,8 +389,8 @@
 @3210 /*Cor*/ = ~You have no more business here. Leave me and my new wife be.~
 
 //If Anomen Kills Cor
-@325 /*Anomen*/ = ~It is done. My father is dead.~ [ANOMEN94]
-@326 /*Clara*/ = ~You did it my love, our future is secure. You are Lord Delryn.~
+@325 /*Anomen*/ = ~It is done. My father is dead. But instead, I genuinely feel as if a great weight has been lifted off my shoulders.~ [ANOMEN94]
+@326 /*Clara*/ = ~Hmm... Somehow everything feels changed, and your very aura seems palpably different... You did it my love, our future is secure. You are Lord Delryn.~
 @327 /*Anomen*/ = ~Let us clean ourselves up and then send Jardine to call the guard.~
 @328 /*Anomen*/ = ~<CHARNAME>, please give us a few more days to put all of our affairs in order, and then we will happily join you again if you will have us.~
 @329 /*CHARNAME*/ = ~Of course, Anomen, you are both valuable members of this group.~

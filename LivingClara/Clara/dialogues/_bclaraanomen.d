@@ -570,6 +570,7 @@ EXIT
 
 //If Anomen kills Cor
 CHAIN IF WEIGHT #-10 ~Global("AnomenCor","GLOBAL",5) Global("_bCorFight","GLOBAL",1)~ THEN ANOMENP _bCorDoneBeenStabbed
+DO ~ChangeClass("Anomen",PALADIN) ActionOverride("Anomen",AddKit(Blackguard)) ChangeAlignment("Anomen",LAWFUL_EVIL) ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)~
 @325 /*It is done. My father is dead.*/
 == _BCLARAP IF ~!StateCheck("_bClara",CD_STATE_NOTVALID)~ @326 /*You did it my love, our future is secure. You are Lord Delryn.*/
 == ANOMENP @327 /*Let us clean ourselves up and then send Jardine to call the guard.*/
