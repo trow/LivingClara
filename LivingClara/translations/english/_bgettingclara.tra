@@ -1,4 +1,24 @@
-@1 /*Hexxat Dead- create bag*/ = ~You defeat the vampire, but she transforms into mist and quickly disappears. All that remains where she stood is an old sack. Perhaps if you took it, you could hunt the creature down.~
-@2 /*Hexxat Dead- have bag but not stake*/ = ~The vampire is regenerating in her casket inside the old sack. Legend has it that to destroy a vampire, one must pierce its heart with a wooden stake. You vaguely recall from a book you read as a child that reviving the victim requires the Restoration. You decide to give it a try.~
-@3 /*Hexxat dead- have bag and stake*/ = ~You cast the Restoration, and this poor victim regains the siphoned energy, breathing once more.~
+@1 /*Hexxat Dead- create bag*/ = ~You defeat the vampire, but she transforms into mist and quickly disappears. At the spot where she had been standing, only an old sack left behind remained.~
+@2 /*Hexxat Dead- have bag but not stake*/ = ~Following the scent on the sack, you discover the vampire retreated to this coffin after its defeat. Should you possess a wooden stake, attempt to destroy it utterly.~
+@3 /*Hexxat dead- have bag and stake*/ = ~As the spell takes effect, the dissipated life force is channeled back into the poor victim's body, restoring her breath as well.~
 @4 /*Journal*/ = ~Dragomir's Tomb was a trap. The one I knew as Hexxat was a thrall under the control of a vampire, one who wished to speak with me. But I do not treat with monsters. I have killed the vampire and freed this girl's soul. Hopefully she will be better at making conversation now.~
+
+@11 = ~Drive the wooden stake through her foul heart.~
+@12 = ~For now, leave it at that.~
+@13 = ~First find the wooden stake.~
+@20 = ~This poor victim's life force has been completely drained. Now that the perpetrator has been destroyed, the stolen vitality has been released. Perhaps Restoration or similar magic could help.~
+@21 = ~Have <PLAYER1> cast Lesser Restoration.~
+@22 = ~Have <PLAYER2> cast Lesser Restoration.~
+@23 = ~Have <PLAYER3> cast Lesser Restoration.~
+@24 = ~Have <PLAYER4> cast Lesser Restoration.~
+@25 = ~Have <PLAYER5> cast Lesser Restoration.~
+@26 = ~Have <PLAYER6> cast Lesser Restoration.~
+@30 = ~Use a scroll of Restoration.~
+@31 = ~Have <PLAYER1> cast Restoration.~
+@32 = ~Have <PLAYER2> cast Restoration.~
+@33 = ~Have <PLAYER3> cast Restoration.~
+@34 = ~Have <PLAYER4> cast Restoration.~
+@35 = ~Have <PLAYER5> cast Restoration.~
+@36 = ~Have <PLAYER6> cast Restoration.~
+@40 = ~For now, leave her be.~
+@41 = ~First prepare the spell.~

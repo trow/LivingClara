@@ -1,8 +1,8 @@
 //hexxat死亡后，召唤出来
 BEGIN ~_bHdeath~
 
-IF ~PartyHasItem("OHHBAG")
-	!InPartyAllowDead("hexxat")
+IF ~PartyHasItem("OHHBAG")  //是否考虑如果不捡袋子直接杀死赫克赛特的情况？毕竟赫克赛特当前设定不是在袋子里的棺材里
+	!InPartyAllowDead("hexxat")	
 	Dead("hexxat")
 	GlobalGT("_bHexxatDeadCasketTransform","GLOBAL",0)
 	GlobalLT("_bHexxatBag","GLOBAL",2)~
