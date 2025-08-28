@@ -932,24 +932,24 @@ THEN
 END
 
 //Clara-Viconia's talk after their first banter.
-IF
-	IfValidForPartyDialog("Viconia")
-	IfValidForPartyDialog("_bClara")
-	CombatCounter(0)
-	GlobalGT("_BBCLARAVIC","GLOBAL",0)
-	Global("_bClaraRealizesMistakeViconia","GLOBAL",0)
-	PartyRested()
-THEN
-	RESPONSE #100
-	SetGlobal("_bClaraRealizesMistakeViconia","GLOBAL",1)
-END
-
-IF
-	Global("_bClaraRealizesMistakeViconia","GLOBAL",1)
-THEN
-	RESPONSE #100
-	StartDialogNoSet(Player1)
-END
+//IF
+//	IfValidForPartyDialog("Viconia")
+//	IfValidForPartyDialog("_bClara")
+//	CombatCounter(0)
+//	GlobalGT("_BBCLARAVIC","GLOBAL",0)
+//	Global("_bClaraRealizesMistakeViconia","GLOBAL",0)
+//	PartyRested()
+//THEN
+//	RESPONSE #100
+//	SetGlobal("_bClaraRealizesMistakeViconia","GLOBAL",1)
+//END
+//
+//IF
+//	Global("_bClaraRealizesMistakeViconia","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	StartDialogNoSet(Player1)
+//END
 
 //Clara's dialogue in Viconia's Peace Quest, after you talk to Rose.
 
