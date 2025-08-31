@@ -31,7 +31,7 @@ Bodhi is fully functional, featuring banters, dialogues, and epilogues.
 If you direct Bodhi to accept Queen Ellesime's offer at the end of *Shadows of Amn*, **Bodhi-the-Elf** may join your party. She is a Chaotic Evil Elven Monk.
 
 ## Compatibility & Installation  
-*Living Clara* is compatible with most mods **except** the original *Mazzy MegaMod*. Do **not** install both mods simultaneously, as *Mazzy MegaMod* already includes this content.
+*Living Clara* is compatible with most mods **except** the original *Mazzy MegaMod*. Do **not** install both mods simultaneously, as *Mazzy MegaMod* already includes this content. If installing on EET, make sure to do so before EET_End.
 
 ---
 
