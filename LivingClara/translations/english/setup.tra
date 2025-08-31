@@ -87,32 +87,32 @@ However, this was not to be. Exactly three years after her return, the woman sol
 
 Eventually, the young Lord Delryn was offered a position on the Council of Six and while no one officially knew his status, the change in Athkatla's rulership was obvious to all. Under Anomen's direction, the government began doing more to help the common folk and more to combat evil in the world. He was not content to let injustice pass by blindly and those who stood against him tended to change their tune quite quickly or abruptly pass away. This was coincidence enough to spark several investigations, but Lord Delryn's wife stood by him and no evidence of foul play was ever found.
 
-Indeed, when asked the secret of his good fortune by young lords and jealous rivals, Anomen would only say humbly, "I have been very lucky. It took hard work, aye, to build this business into what it is today, but I did not do it by myself. I owe everything to Helm and to the continuous support of my beloved Caroline. Without her, my path in life would have gone much differently."~
+Indeed, when asked the secret of his good fortune by young lords and jealous rivals, Anomen would only say humbly, "I have been very lucky. It took hard work, aye, to build this business into what it is today, but I did not do it by myself. I owe everything to the god and to the continuous support of my beloved Caroline. Without her, my path in life would have gone much differently."~
 
 
-@48 /*Mazzy Romance/Friendship Epilogue - PC GOD*/ = ~After the ascension of <CHARNAME>, Mazzy retired as an adventurer and returned to Trademeet where she opened a school of archery that soon became known for producing the finest archers in the realm. She joined the Trademeet militia and the local chapter of the Temple of Arvoreen, quickly rising in their ranks and eventually leading both for many years.
-
-Her personal life was also fruitful. She married a good friend, a halfling ranger, and the couple had three children, each of whom grew up to be a great hero of their own. Mazzy taught them all she knew and was proud of their accomplishments, though she'd hung up her weapons except in dire need. Whenever someone asked her why she'd decided to retire, her answer was always the same:
-
-“When I was young and foolish, I thought I had to venture to far away lands and battle great world-threatening evil in order to be a hero, but I was incorrect. True heroism is exhibited day-to-day, and my talents are needed here by my friends and family. There is glory in great deeds, but there is also loneliness and in my time with Patrick and later <CHARNAME>, I realized that I did not want great power or a glorious death. I chose to come home so that I could live and love instead.”
-
-And indeed, when Mazzy died at home in her bed, everyone in Trademeet agreed. Few had lived as fully as Mazzy Fentan and few had been as loved.~
-
-@49 /*Romance Epilogue - PC Family*/ = ~Mazzy and <CHARNAME> journeyed together for many years as heroes, their names revered and respected far and wide. However, the couple eventually decided that it was time to settle down. They said farewell to their companions and returned to Trademeet. Mazzy joined the local chapter of the Temple of Arvoreen and started a school for archery while <CHARNAME> joined the local militia, years of adventuring experience translating well to teaching others how to fight.
-
-A year after their return, Mazzy and <CHARNAME> were married in a small ceremony. They invited many of their old adventuring companions along with Mazzy's family and the celebrations lasted for a week. The couple had three children and taught them all they knew, their sons and daughters choosing to be heroes and continue the family legacy.
-
-Mazzy and <CHARNAME> were content to live in peace as much as possible and whenever someone asked why they'd retired, the answer was always the same. They might be the saviours of multiple planes and worlds, but they had had enough of fighting and destruction. Instead, the couple wished to focus on their family and their home.~
-
-@50 /*Romance Epilogue - Mortal, No Family*/ = ~Mazzy and <CHARNAME> journeyed together for many years as heroes, their names revered and respected far and wide. However, although they loved each other, Mazzy eventually decided to retire as an adventurer. She said farewell to <CHARNAME> and returned to Trademeet, where she opened a school of archery that became known for producing the finest archers in the realm. Mazzy joined the Trademeet militia and the local chapter of the Temple of Arvoreen, quickly rising in their ranks and eventually leading both for many years.
-
-Her personal life was also fruitful. She married a good friend, a halfling ranger, and the couple had three children whom they taught all they knew. Their sons and daughter continued the Fentan legacy of protecting innocents, growing up to be great heroes of their own.
-
-Mazzy and <CHARNAME> remained friends and her former lover would often come to visit, stopping in Trademeet to rest and regroup on the way to far off kingdoms. There was no animosity between them; their paths had simply led to different futures and neither of them regretted the time they'd spent together or the choices they had made. Indeed, whenever someone asked Mazzy why she'd retired, her answer was always the same:
-
-“When I was young and foolish, I thought I had to venture to far away lands and battle great world-threatening evil in order to be a hero, but I was incorrect. True heroism is exhibited day-to-day, and my talents are needed here by my friends and family. There is glory in great deeds, but there is also loneliness and in my time with Patrick and later <CHARNAME>, I realized that I did not want great power or a glorious death. I chose to come home so that I could live and love instead.”
-
-And when Mazzy died at home in her bed, everyone in Trademeet agreed. Few had lived as fully as Mazzy Fentan and few had been as loved.~
+//@48 /*Mazzy Romance/Friendship Epilogue - PC GOD*/ = ~After the ascension of <CHARNAME>, Mazzy retired as an adventurer and returned to Trademeet where she opened a school of archery that soon became known for producing the finest archers in the realm. She joined the Trademeet militia and the local chapter of the Temple of Arvoreen, quickly rising in their ranks and eventually leading both for many years.
+//
+//Her personal life was also fruitful. She married a good friend, a halfling ranger, and the couple had three children, each of whom grew up to be a great hero of their own. Mazzy taught them all she knew and was proud of their accomplishments, though she'd hung up her weapons except in dire need. Whenever someone asked her why she'd decided to retire, her answer was always the same:
+//
+//“When I was young and foolish, I thought I had to venture to far away lands and battle great world-threatening evil in order to be a hero, but I was incorrect. True heroism is exhibited day-to-day, and my talents are needed here by my friends and family. There is glory in great deeds, but there is also loneliness and in my time with Patrick and later <CHARNAME>, I realized that I did not want great power or a glorious death. I chose to come home so that I could live and love instead.”
+//
+//And indeed, when Mazzy died at home in her bed, everyone in Trademeet agreed. Few had lived as fully as Mazzy Fentan and few had been as loved.~
+//
+//@49 /*Romance Epilogue - PC Family*/ = ~Mazzy and <CHARNAME> journeyed together for many years as heroes, their names revered and respected far and wide. However, the couple eventually decided that it was time to settle down. They said farewell to their companions and returned to Trademeet. Mazzy joined the local chapter of the Temple of Arvoreen and started a school for archery while <CHARNAME> joined the local militia, years of adventuring experience translating well to teaching others how to fight.
+//
+//A year after their return, Mazzy and <CHARNAME> were married in a small ceremony. They invited many of their old adventuring companions along with Mazzy's family and the celebrations lasted for a week. The couple had three children and taught them all they knew, their sons and daughters choosing to be heroes and continue the family legacy.
+//
+//Mazzy and <CHARNAME> were content to live in peace as much as possible and whenever someone asked why they'd retired, the answer was always the same. They might be the saviours of multiple planes and worlds, but they had had enough of fighting and destruction. Instead, the couple wished to focus on their family and their home.~
+//
+//@50 /*Romance Epilogue - Mortal, No Family*/ = ~Mazzy and <CHARNAME> journeyed together for many years as heroes, their names revered and respected far and wide. However, although they loved each other, Mazzy eventually decided to retire as an adventurer. She said farewell to <CHARNAME> and returned to Trademeet, where she opened a school of archery that became known for producing the finest archers in the realm. Mazzy joined the Trademeet militia and the local chapter of the Temple of Arvoreen, quickly rising in their ranks and eventually leading both for many years.
+//
+//Her personal life was also fruitful. She married a good friend, a halfling ranger, and the couple had three children whom they taught all they knew. Their sons and daughter continued the Fentan legacy of protecting innocents, growing up to be great heroes of their own.
+//
+//Mazzy and <CHARNAME> remained friends and her former lover would often come to visit, stopping in Trademeet to rest and regroup on the way to far off kingdoms. There was no animosity between them; their paths had simply led to different futures and neither of them regretted the time they'd spent together or the choices they had made. Indeed, whenever someone asked Mazzy why she'd retired, her answer was always the same:
+//
+//“When I was young and foolish, I thought I had to venture to far away lands and battle great world-threatening evil in order to be a hero, but I was incorrect. True heroism is exhibited day-to-day, and my talents are needed here by my friends and family. There is glory in great deeds, but there is also loneliness and in my time with Patrick and later <CHARNAME>, I realized that I did not want great power or a glorious death. I chose to come home so that I could live and love instead.”
+//
+//And when Mazzy died at home in her bed, everyone in Trademeet agreed. Few had lived as fully as Mazzy Fentan and few had been as loved.~
 
 
 
