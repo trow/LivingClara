@@ -195,7 +195,7 @@ END
 
 CHAIN _BCLARA _bClara18
 	@640 /*Really? I've never done that before. But as Jenny always said, it doesn't matter what they look like, just show enthusiasm, do whatever they ask, and try to enjoy yourself. Okay, I'll do it next time we're at an inn. You won't regret this!*/
-	DO ~SetGlobal("_bSleepsWithClara","GLOBAL",1) JoinParty()~
+	DO ~JoinParty()~
 	EXIT
 
 CHAIN _BCLARA _bClara19
@@ -204,7 +204,7 @@ CHAIN _BCLARA _bClara19
 	END
 	+ ~!Global("PLAYHOUSE","GLOBAL",1)~ + @64 /*Nope, sorry, goodbye.*/ DO ~EscapeAreaMove("AR0509",470,404,E)~ EXIT
 	+ ~Global("PLAYHOUSE","GLOBAL",1)~ + @64 /*Nope, sorry, goodbye.*/ DO ~EscapeAreaMove("AR0522",470,404,E)~ EXIT
-	++ @643 /*Very well, I accept. Next time we're at an inn, you can show off your skills. Do it well enough and I might decide to keep you around.*/ DO ~SetGlobal("_bSleepsWithClara","GLOBAL",1) JoinParty()~ EXIT
+	++ @643 /*Very well, I accept. Next time we're at an inn, you can show off your skills. Do it well enough and I might decide to keep you around.*/ DO ~JoinParty()~ EXIT
 
 CHAIN _BCLARA _bClara20
 	@65 /*You killed Aran Linvail? So I should probably stay out of the docks, right? I wouldn't want anyone to recognize me.*/
