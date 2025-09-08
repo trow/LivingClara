@@ -118,50 +118,50 @@ END
 CHAIN MURDGIRL _bALLTHEBOOKS  //What were we thinking.......
 @49 /*Wonderful. Let me see what you have.*/
 == MURDGIRL IF ~PartyHasItem("BOOK01") !Global("_bRBook1","GLOBAL",1)~ THEN @50  /*Some sort of magical book? Thank you, <CHARNAME>, this will be a fine addition to my library.*/
-DO ~TakePartyItem("BOOK01") DestroyItem("BOOK01") SetGlobal("_bRBook1","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK01") DestroyItem("BOOK01") SetGlobal("_bRBook1","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK02") !Global("_bRBook2","GLOBAL",1)~ THEN @51  /*A wizard's spellbook? I probably don't want to to know where you found this, do I?*/
-DO ~TakePartyItem("BOOK02") DestroyItem("BOOK02") SetGlobal("_bRBook2","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK02") DestroyItem("BOOK02") SetGlobal("_bRBook2","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK09") Global("_bRBook9","GLOBAL",1)~ THEN @52  /*Another novel? Wonderful.*/
-DO ~TakePartyItem("BOOK09") DestroyItem("BOOK09") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK09") DestroyItem("BOOK09") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK09") !Global("_bRBook9","GLOBAL",1)~ THEN @53  /*Well, this doesn't seem as interesting as the others, but I suppose any good library needs some novels too.*/
-DO ~TakePartyItem("BOOK09") DestroyItem("BOOK09") SetGlobal("_bRBook9","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK09") DestroyItem("BOOK09") SetGlobal("_bRBook9","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK10") Global("_bRBook10","GLOBAL",1)~ THEN @54 /*An additional History of Calimshan? Thank you. It never hurts to have another copy.*/
-DO ~TakePartyItem("BOOK10") DestroyItem("BOOK10") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK10") DestroyItem("BOOK10") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK10") !Global("_bRBook10","GLOBAL",1)~ THEN @55 /*The History of Calimshan... That should make the scholars happy.*/
-DO ~TakePartyItem("BOOK10") DestroyItem("BOOK10") SetGlobal("_bRBook10","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK10") DestroyItem("BOOK10") SetGlobal("_bRBook10","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK11") Global("_bRBook11","GLOBAL",1)~ THEN @56  /*Another History of Cormyr? Well, the other is getting worn.*/
-DO ~TakePartyItem("BOOK11") DestroyItem("BOOK11") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK11") DestroyItem("BOOK11") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK11") !Global("_bRBook11","GLOBAL",1)~ THEN @57 /*History of Cormyr. I'll add it to the collection.*/
-DO ~TakePartyItem("BOOK11") DestroyItem("BOOK11") SetGlobal("_bRBook11","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK11") DestroyItem("BOOK11") SetGlobal("_bRBook11","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK12") Global("_bRBook12","GLOBAL",1)~ THEN @58 /*The History of Dambrath... still a door-stopper. Where did you find this thing?*/
-DO ~TakePartyItem("BOOK12") DestroyItem("BOOK12") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK12") DestroyItem("BOOK12") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK12") !Global("_bRBook12","GLOBAL",1)~ THEN @59 /*The History of Dambrath? You could kill someone with this book, <CHARNAME>. It's certainly heavy enough.*/
-DO ~TakePartyItem("BOOK12") DestroyItem("BOOK12") SetGlobal("_bRBook12","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK12") DestroyItem("BOOK12") SetGlobal("_bRBook12","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK13") Global("_bRBook13","GLOBAL",1)~ THEN @60  /*You've found another History of Durpar and Var the Golden? Wonderful, I wanted my own copy.*/
-DO ~TakePartyItem("BOOK13") DestroyItem("BOOK13") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK13") DestroyItem("BOOK13") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK13") !Global("_bRBook13","GLOBAL",1)~ THEN @61  /*The History of Durpar and Var the Golden... That's quite a mouthful. Hopefully it's interesting.*/
-DO ~TakePartyItem("BOOK13") DestroyItem("BOOK13") SetGlobal("_bRBook13","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK13") DestroyItem("BOOK13") SetGlobal("_bRBook13","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK14") Global("_bRBook14","GLOBAL",1)~ THEN @62  /*Oh good another short one... History of Estagund, that's a fine volume to practice reading with.*/
-DO ~TakePartyItem("BOOK14") DestroyItem("BOOK14") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK14") DestroyItem("BOOK14") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK14") !Global("_bRBook14","GLOBAL",1)~ THEN @63  /*History of Estagund. This is a short one, but thank you nonetheless.*/
-DO ~TakePartyItem("BOOK14") DestroyItem("BOOK14") SetGlobal("_bRBook14","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK14") DestroyItem("BOOK14") SetGlobal("_bRBook14","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK15") Global("_bRBook15","GLOBAL",1)~ THEN @64  /*Another History of Gondegal... That book was surprisingly entertaining, though perhaps that was due to Terl reading it aloud.*/
-DO ~TakePartyItem("BOOK15") DestroyItem("BOOK15") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK15") DestroyItem("BOOK15") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK15") !Global("_bRBook15","GLOBAL",1)~ THEN @65  /*Ooh, the History of Gondegal the Lost King sounds interesting. Perhaps I will have Terl read this one to me.*/
-DO ~TakePartyItem("BOOK15") DestroyItem("BOOK15") SetGlobal("_bRBook15","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK15") DestroyItem("BOOK15") SetGlobal("_bRBook15","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK16") Global("_bRBook16","GLOBAL",1)~ THEN @66  /*The History of Halruaa.... I needed another copy. The scholars have been fighting over this.*/
-DO ~TakePartyItem("BOOK16") DestroyItem("BOOK16") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK16") DestroyItem("BOOK16") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK16") !Global("_bRBook16","GLOBAL",1)~ THEN @67  /*Someone was asking me about the History of Halruaa a few days ago. This is perfect, <CHARNAME>.*/
-DO ~TakePartyItem("BOOK16") DestroyItem("BOOK16") SetGlobal("_bRBook16","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK16") DestroyItem("BOOK16") SetGlobal("_bRBook16","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK17") !Global("_bRBook17","GLOBAL",1)~ THEN @68  /*History of Luiren, Land of the Halflings...*/
 == MURDGIRL IF ~PartyHasItem("BOOK17") Global("_bRBook17","GLOBAL",1)~ THEN @69  /*Ooh, another History of Luiren, Land of the Halflings...*/
@@ -170,109 +170,109 @@ DO ~TakePartyItem("BOOK16") DestroyItem("BOOK16") SetGlobal("_bRBook16","GLOBAL"
 == MAZZYJ IF ~IsValidForPartyDialog("Mazzy") PartyHasItem("BOOK17") Global("_bMRBook","GLOBAL",0)~ THEN @72 /*Perhaps.*/
 DO ~SetGlobal("_bMRBook","GLOBAL",1)~
 == MURDGIRL IF ~PartyHasItem("BOOK17") !Global("_bRBook17","GLOBAL",1)~ THEN @73 /*Wonderful. That should be fascinating.*/
-DO ~TakePartyItem("BOOK17") DestroyItem("BOOK17") SetGlobal("_bRBook17","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK17") DestroyItem("BOOK17") SetGlobal("_bRBook17","GLOBAL",1) AddexperienceParty(1000)~
 == MURDGIRL IF ~PartyHasItem("BOOK17") Global("_bRBook17","GLOBAL",1)~ THEN @74 /*Lovely. I'll put this book with the others for now.*/
-DO ~TakePartyItem("BOOK17") DestroyItem("BOOK17") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK17") DestroyItem("BOOK17") AddexperienceParty(200)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK18") Global("_bRBook18","GLOBAL",1)~ THEN @75  /*Another History of Sembia... This will be appreciated.*/
-DO ~TakePartyItem("BOOK18") DestroyItem("BOOK18") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK18") DestroyItem("BOOK18") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK18") !Global("_bRBook18","GLOBAL",1)~ THEN @76  /*History of Sembia... This will do nicely.*/
-DO ~TakePartyItem("BOOK18") DestroyItem("BOOK18") SetGlobal("_bRBook18","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK18") DestroyItem("BOOK18") SetGlobal("_bRBook18","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK19") Global("_bRBook19","GLOBAL",1)~ THEN @77  /*Yet another History of Shadowdale? I'll put that with the rest.*/
-DO ~TakePartyItem("BOOK19") DestroyItem("BOOK19") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK19") DestroyItem("BOOK19") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK19") !Global("_bRBook19","GLOBAL",1)~ THEN @78  /*The History of Shadowdale I... Hmm, I wonder how many there are.*/
-DO ~TakePartyItem("BOOK19") DestroyItem("BOOK19") SetGlobal("_bRBook19","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK19") DestroyItem("BOOK19") SetGlobal("_bRBook19","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK20") Global("_bRBook20","GLOBAL",1)~ THEN @79  /*History of Shadowdale II... Good to have another one.*/
-DO ~TakePartyItem("BOOK20") DestroyItem("BOOK20") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK20") DestroyItem("BOOK20") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK20") !Global("_bRBook20","GLOBAL",1)~ THEN @80  /*History of Shadowdale II... Thank you, this will add to my collection.*/
-DO ~TakePartyItem("BOOK20") DestroyItem("BOOK20") SetGlobal("_bRBook20","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK20") DestroyItem("BOOK20") SetGlobal("_bRBook20","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK21") Global("_bRBook21","GLOBAL",1)~ THEN @100  /*Another History of Shadowdale III. I'll take it but I'm running out of space.*/
-DO ~TakePartyItem("BOOK21") DestroyItem("BOOK21") SetGlobal("_bRBook21","GLOBAL",1) AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK21") DestroyItem("BOOK21") SetGlobal("_bRBook21","GLOBAL",1) AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK21") !Global("_bRBook21","GLOBAL",1)~ THEN @101  /*The History of Shadowdale III. I will put it with the others.*/
-DO ~TakePartyItem("BOOK21") DestroyItem("BOOK21") SetGlobal("_bRBook21","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK21") DestroyItem("BOOK21") SetGlobal("_bRBook21","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK22") Global("_bRBook22","GLOBAL",1)~ THEN @102  /*Another History of Shadowdale IV... I'll take it. These slim volumes are perfect for my lessons.*/
-DO ~TakePartyItem("BOOK22") DestroyItem("BOOK22") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK22") DestroyItem("BOOK22") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK22") !Global("_bRBook22","GLOBAL",1)~ THEN @103  /*History of Shadowdale IV. This isn't very long at all, is it? I think the writers could have combined these into fewer books easily.*/
-DO ~TakePartyItem("BOOK22") DestroyItem("BOOK22") SetGlobal("_bRBook22","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK22") DestroyItem("BOOK22") SetGlobal("_bRBook22","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK23") Global("_bRBook23","GLOBAL",1)~ THEN @104  /*The History of Shadowdale... number five again? Well, can't hurt to have it on hand.*/
-DO ~TakePartyItem("BOOK23") DestroyItem("BOOK23") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK23") DestroyItem("BOOK23") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK23") !Global("_bRBook23","GLOBAL",1)~ THEN @105  /*Another History of Shadowdale.... number five? This is getting ridiculous.*/
-DO ~TakePartyItem("BOOK23") DestroyItem("BOOK23") SetGlobal("_bRBook23","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK23") DestroyItem("BOOK23") SetGlobal("_bRBook23","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK24") Global("_bRBook24","GLOBAL",1)~ THEN @106  /*Another History of Shadowdale VI? Terl is going to hate you when he's tripping over these.*/
-DO ~TakePartyItem("BOOK24") DestroyItem("BOOK24") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK24") DestroyItem("BOOK24") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK24") !Global("_bRBook24","GLOBAL",1)~ THEN @107  /*History of Shadowdale VI – Khelben Kills Jyordhan... Well, that rather spoils the plot, doesn't it? But thank you anyway.*/
-DO ~TakePartyItem("BOOK24") DestroyItem("BOOK24") SetGlobal("_bRBook24","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK24") DestroyItem("BOOK24") SetGlobal("_bRBook24","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK25") Global("_bRBook25","GLOBAL",1)~ THEN @108  /*The History of Shadowdale VII... Thank you. I found the first one informative.*/
-DO ~TakePartyItem("BOOK25") DestroyItem("BOOK25") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK25") DestroyItem("BOOK25") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK25") !Global("_bRBook25","GLOBAL",1)~ THEN @109  /*The History of Shadowdale VII. I swear these books are hardly worth the name. Though I'm sure most booksellers would still charge full price.*/
-DO ~TakePartyItem("BOOK25") DestroyItem("BOOK25") SetGlobal("_bRBook25","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK25") DestroyItem("BOOK25") SetGlobal("_bRBook25","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK26") Global("_bRBook26","GLOBAL",1)~ THEN @110  /*Another History of Shadowdale VIII? Still boring, but I'll take it.*/
-DO ~TakePartyItem("BOOK26") DestroyItem("BOOK26") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK26") DestroyItem("BOOK26") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK26") !Global("_bRBook26","GLOBAL",1)~ THEN @111  /*History of Shadowdale VIII? This place can't be *that* interesting.*/
-DO ~TakePartyItem("BOOK26") DestroyItem("BOOK26") SetGlobal("_bRBook26","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK26") DestroyItem("BOOK26") SetGlobal("_bRBook26","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK27") Global("_bRBook27","GLOBAL",1)~ THEN @112  /*You found the History of Shadowdale IX again? Lovely, this book has been surprisingly popular.*/
-DO ~TakePartyItem("BOOK27") DestroyItem("BOOK27") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK27") DestroyItem("BOOK27") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK27") !Global("_bRBook27","GLOBAL",1)~ THEN @113  /*History of Shadowdale IX? Seriously, how many *are* there?*/
-DO ~TakePartyItem("BOOK27") DestroyItem("BOOK27") SetGlobal("_bRBook27","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK27") DestroyItem("BOOK27") SetGlobal("_bRBook27","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK28") Global("_bRBook28","GLOBAL",1)~ THEN @114  /*Oh, good, the History of Shadowdale X... I've had several people wanting to read about Elminster.*/
-DO ~TakePartyItem("BOOK28") DestroyItem("BOOK28") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK28") DestroyItem("BOOK28") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK28") !Global("_bRBook28","GLOBAL",1)~ THEN @115  /*History of Shadowdale X... Well, I guess this one has Elminster at least. Might make it more popular.*/
-DO ~TakePartyItem("BOOK28") DestroyItem("BOOK28") SetGlobal("_bRBook28","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK28") DestroyItem("BOOK28") SetGlobal("_bRBook28","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK29") Global("_bRBook29","GLOBAL",1)~ THEN @116  /*Another History of Shadowdale XI... I still can't believe there's so many volumes in this set.*/
-DO ~TakePartyItem("BOOK29") DestroyItem("BOOK29") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK29") DestroyItem("BOOK29") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK29") !Global("_bRBook29","GLOBAL",1)~ THEN @117  /*The History of Shadowdale XI. I should have the complete set soon.*/
-DO ~TakePartyItem("BOOK29") DestroyItem("BOOK29") SetGlobal("_bRBook29","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK29") DestroyItem("BOOK29") SetGlobal("_bRBook29","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK30") Global("_bRBook30","GLOBAL",1)~ THEN @118  /*The History of Shadowdale XII... Lovely. I do like this one.*/
-DO ~TakePartyItem("BOOK30") DestroyItem("BOOK30") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK30") DestroyItem("BOOK30") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK30") !Global("_bRBook30","GLOBAL",1)~ THEN @119  /*History of Shadowdale XII... This one seems to be a love story; how sweet.*/
-DO ~TakePartyItem("BOOK30") DestroyItem("BOOK30") SetGlobal("_bRBook30","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK30") DestroyItem("BOOK30") SetGlobal("_bRBook30","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK31") Global("_bRBook31","GLOBAL",1)~ THEN @120  /*The History of Shadowdale, Volume Thirteen again. Is that lucky or unlucky in this case?*/
-DO ~TakePartyItem("BOOK31") DestroyItem("BOOK31") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK31") DestroyItem("BOOK31") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK31") !Global("_bRBook31","GLOBAL",1)~ THEN @121  /*History of Shadowdale XIII... All right, this must be the last volume.*/
-DO ~TakePartyItem("BOOK31") DestroyItem("BOOK31") SetGlobal("_bRBook31","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK31") DestroyItem("BOOK31") SetGlobal("_bRBook31","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK32") Global("_bRBook32","GLOBAL",1)~ THEN @122 /*I'll take this History of Tethyr again. Given our current relations, this has been in high demand.*/
-DO ~TakePartyItem("BOOK32") DestroyItem("BOOK32") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK32") DestroyItem("BOOK32") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK32") !Global("_bRBook32","GLOBAL",1)~ THEN @123  /*The History of Tethyr. This will be good to have. It's important to know your neighbors well.*/
-DO ~TakePartyItem("BOOK32") DestroyItem("BOOK32") SetGlobal("_bRBook32","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK32") DestroyItem("BOOK32") SetGlobal("_bRBook32","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK33") Global("_bRBook33","GLOBAL",1)~ THEN @124  /*The History of the Bell in the Depths.... Not as profound as it seemed, but I'll take another copy.*/
-DO ~TakePartyItem("BOOK33") DestroyItem("BOOK33") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK33") DestroyItem("BOOK33") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK33") !Global("_bRBook33","GLOBAL",1)~ THEN @125  /*The History of the Bell in the Depths.... That sounds mysterious.*/
-DO ~TakePartyItem("BOOK33") DestroyItem("BOOK33") SetGlobal("_bRBook33","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK33") DestroyItem("BOOK33") SetGlobal("_bRBook33","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK34") Global("_bRBook34","GLOBAL",1)~ THEN @126  /*Another History of the Chosen of Mystra... Well, the Cowled Wizards haven't come for this book yet, but I'd best have a backup copy.*/
-DO ~TakePartyItem("BOOK34") DestroyItem("BOOK34") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK34") DestroyItem("BOOK34") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK34") !Global("_bRBook34","GLOBAL",1)~ THEN @127  /*History of the Chosen of Mystra... Hmm, a magical history... the Cowled Wizards should love this.*/
-DO ~TakePartyItem("BOOK34") DestroyItem("BOOK34") SetGlobal("_bRBook34","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK34") DestroyItem("BOOK34") SetGlobal("_bRBook34","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK35") Global("_bRBook35","GLOBAL",1)~ THEN @128  /*Wonderful, I've been wanting another History of the Dales and the Elven Court. This writer knew all the best gossip.*/
-DO ~TakePartyItem("BOOK35") DestroyItem("BOOK35") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK35") DestroyItem("BOOK35") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK35") !Global("_bRBook35","GLOBAL",1)~ THEN @129  /*The History of the Dales and the Elven Court. Probably a dry read, but I shall shelve it nonetheless.*/
-DO ~TakePartyItem("BOOK35") DestroyItem("BOOK35") SetGlobal("_bRBook35","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK35") DestroyItem("BOOK35") SetGlobal("_bRBook35","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK36") Global("_bRBook36","GLOBAL",1)~ THEN @130  /*The History of the Dead Three... More a fable than a history, but I could use another copy.*/
-DO ~TakePartyItem("BOOK36") DestroyItem("BOOK36") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK36") DestroyItem("BOOK36") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK36") !Global("_bRBook36","GLOBAL",1)~ THEN @131  /*History of the Dead Three – Knucklebones, Skull Bowling, and the Empty Throne. This should be a good read.*/
-DO ~TakePartyItem("BOOK36") DestroyItem("BOOK36") SetGlobal("_bRBook36","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK36") DestroyItem("BOOK36") SetGlobal("_bRBook36","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK37") Global("_bRBook37","GLOBAL",1)~ THEN @132  /*The History of the Dragon Coast.... Some of the dock girls like this one. They say it's giving them ideas....*/
-DO ~TakePartyItem("BOOK37") DestroyItem("BOOK37") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK37") DestroyItem("BOOK37") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK37") !Global("_bRBook37","GLOBAL",1)~ THEN @133  /*The History of the Dragon Coast.... Smugglers, pirates, and assassins. Sounds appropriate; they'd blend right in around here.*/
-DO ~TakePartyItem("BOOK37") DestroyItem("BOOK37") SetGlobal("_bRBook37","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK37") DestroyItem("BOOK37") SetGlobal("_bRBook37","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK38") !Global("_bRBook38","GLOBAL",1)~ THEN @134  /*The History of the Drow I.... I've wanted to read this.*/
 == MURDGIRL IF ~PartyHasItem("BOOK38") Global("_bRBook38","GLOBAL",1)~ THEN @135  /*Another History of the Drow... Reading this book gave me nightmares.*/
@@ -281,158 +281,158 @@ DO ~TakePartyItem("BOOK37") DestroyItem("BOOK37") SetGlobal("_bRBook37","GLOBAL"
 == VICONIJ IF ~IsValidForPartyDialog("Viconia") Global("_bVRBook","GLOBAL",0) PartyHasItem("BOOK38")~ THEN @138 /*Then you are not a fool. Perhaps you are worthy of my knowledge. You are clearly a survivor and have your mrannd'ssinss well in hand.*/
 DO ~SetGlobal("_bVRBook","GLOBAL",1)~
 == MURDGIRL IF ~PartyHasItem("BOOK38") Global("_bRBook38","GLOBAL",1)~ THEN @139  /*Sometimes knowledge comes at a heavy price.*/
-DO ~TakePartyItem("BOOK38") DestroyItem("BOOK38") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK38") DestroyItem("BOOK38") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK38") !Global("_bRBook38","GLOBAL",1)~ THEN @140 /*I'll look forward to it.*/
-DO ~TakePartyItem("BOOK38") DestroyItem("BOOK38") SetGlobal("_bRBook38","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK38") DestroyItem("BOOK38") SetGlobal("_bRBook38","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK39") !Global("_bRBook39","GLOBAL",1)~ THEN @141  /*The History of the Drow II. Lovely.*/
 == MURDGIRL IF ~PartyHasItem("BOOK39") Global("_bRBook39","GLOBAL",1)~ THEN @142  /*Another copy? Wonderful. The History of the Drow II has been oddly popular.*/
 == VICONIJ IF ~IsValidForPartyDialog("Viconia") Global("_bVRBook2","GLOBAL",0) PartyHasItem("BOOK39")~ THEN @143 /*The rivvin wrote two volumes of this drivel? Why am I not surprised?*/
 DO ~SetGlobal("_bVRBook2","GLOBAL",1)~
 == MURDGIRL IF ~PartyHasItem("BOOK39") Global("_bRBook39","GLOBAL",1)~ THEN @144 /*At least it's keeping me in business.*/
-DO ~TakePartyItem("BOOK39") DestroyItem("BOOK39") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK39") DestroyItem("BOOK39") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK39") !Global("_bRBook39","GLOBAL",1)~ THEN @145 /*I will add this to my library.*/
-DO ~TakePartyItem("BOOK39") DestroyItem("BOOK39") SetGlobal("_bRBook39","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK39") DestroyItem("BOOK39") SetGlobal("_bRBook39","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK40") Global("_bRBook40","GLOBAL",1)~ THEN @146  /*Another copy of the History of the Fateful Coin? At least it's not another <CHARNAME>. I'm very grateful for your help but I'm not sure our world could handle more like you.*/
-DO ~TakePartyItem("BOOK40") DestroyItem("BOOK40") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK40") DestroyItem("BOOK40") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK40") !Global("_bRBook40","GLOBAL",1)~ THEN @147  /*The History of the Fateful Coin... Hmm, you must have been a luckless child, <CHARNAME>, with the way you've changed the world.*/
-DO ~TakePartyItem("BOOK40") DestroyItem("BOOK40") SetGlobal("_bRBook40","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK40") DestroyItem("BOOK40") SetGlobal("_bRBook40","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK41") Global("_bRBook41","GLOBAL",1)~ THEN @148  /*Hmm, another History of the Last March of the Giants.... I could use this one.*/
-DO ~TakePartyItem("BOOK41") DestroyItem("BOOK41") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK41") DestroyItem("BOOK41") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK41") !Global("_bRBook41","GLOBAL",1)~ THEN @149  /*History of the Last March of the Giants.... Interesting. I'm sure I'll learn a lot from this.*/
-DO ~TakePartyItem("BOOK41") DestroyItem("BOOK41") SetGlobal("_bRBook41","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK41") DestroyItem("BOOK41") SetGlobal("_bRBook41","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK42") Global("_bRBook42","GLOBAL",1)~ THEN @150  /*I've been recommending this one. The History of the Moonsea made me want to travel. Perhaps I will take a short jaunt with Terl one day.*/
-DO~TakePartyItem("BOOK42") DestroyItem("BOOK42") AddexperienceParty(2000)~
+DO~TakePartyItem("BOOK42") DestroyItem("BOOK42") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK42") !Global("_bRBook42","GLOBAL",1)~ THEN @151  /*History of the Moonsea. I've always wanted to go there.*/
-DO ~TakePartyItem("BOOK42") DestroyItem("BOOK42") SetGlobal("_bRBook42","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK42") DestroyItem("BOOK42") SetGlobal("_bRBook42","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK43") Global("_bRBook43","GLOBAL",1)~ THEN @152  /*Oh, another History of the North I. Still not about gardening, but the historians seem to like it well enough.*/
-DO ~TakePartyItem("BOOK43") DestroyItem("BOOK43") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK43") DestroyItem("BOOK43") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK43") !Global("_bRBook43","GLOBAL",1)~ THEN @153  /*History of the North I – The First Flowering... That sounds like a manual on gardening.*/
-DO ~TakePartyItem("BOOK43") DestroyItem("BOOK43") SetGlobal("_bRBook43","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK43") DestroyItem("BOOK43") SetGlobal("_bRBook43","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK44") Global("_bRBook44","GLOBAL",1)~ THEN @154  /*You have the History of the North II again? This is perfect. All the books on Netheril have been asked for frequently.*/
-DO ~TakePartyItem("BOOK44") DestroyItem("BOOK44") SetGlobal("_bRBook44","GLOBAL",1) AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK44") DestroyItem("BOOK44") SetGlobal("_bRBook44","GLOBAL",1) AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK44") !Global("_bRBook44","GLOBAL",1)~ THEN @155  /*History of the North II. Oh, this one is about Netheril. I've heard some of my clients mention that Empire before.*/
-DO ~TakePartyItem("BOOK44") DestroyItem("BOOK44") SetGlobal("_bRBook44","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK44") DestroyItem("BOOK44") SetGlobal("_bRBook44","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK45") Global("_bRBook45","GLOBAL",1)~ THEN @156  /*The History of the North III... This book was exactly as boring as you might assume. But I have an ancient scholar who keeps demanding these.*/
-DO ~TakePartyItem("BOOK45") DestroyItem("BOOK45") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK45") DestroyItem("BOOK45") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK45") !Global("_bRBook45","GLOBAL",1)~ THEN @157  /*The History of the North III – Recent History of the North. Hah! Someone got bored while naming these.*/
-DO ~TakePartyItem("BOOK45") DestroyItem("BOOK45") SetGlobal("_bRBook45","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK45") DestroyItem("BOOK45") SetGlobal("_bRBook45","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK46") Global("_bRBook46","GLOBAL",1)~ THEN @158  /*Another History of the North... this fourth volume was such a tragedy.*/
-DO ~TakePartyItem("BOOK46") DestroyItem("BOOK46") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK46") DestroyItem("BOOK46") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK46") !Global("_bRBook46","GLOBAL",1)~ THEN @159  /*History of the North IV – the Elven Exodus... Maybe this will explain what happened to the Netheril empire.*/
-DO ~TakePartyItem("BOOK46") DestroyItem("BOOK46") SetGlobal("_bRBook46","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK46") DestroyItem("BOOK46") SetGlobal("_bRBook46","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK47") Global("_bRBook47","GLOBAL",1)~ THEN @160  /*The History of the North V... I'll take this again.*/
-DO ~TakePartyItem("BOOK47") DestroyItem("BOOK47") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK47") DestroyItem("BOOK47") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK47") !Global("_bRBook47","GLOBAL",1)~ THEN @161  /*History of the North V – the Spread of Humankind. Seems rather dull, but what can you do?*/
-DO ~TakePartyItem("BOOK47") DestroyItem("BOOK47") SetGlobal("_bRBook47","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK47") DestroyItem("BOOK47") SetGlobal("_bRBook47","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK48") Global("_bRBook48","GLOBAL",1)~ THEN @162  /**sigh* History of the North – the Might of Men again? I was hoping for something more interesting.*/
-DO ~TakePartyItem("BOOK48") DestroyItem("BOOK48") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK48") DestroyItem("BOOK48") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK48") !Global("_bRBook48","GLOBAL",1)~ THEN @163  /*History of the North VI – the Might of Men... This girl knows *all* about that already.*/
-DO ~TakePartyItem("BOOK48") DestroyItem("BOOK48") SetGlobal("_bRBook48","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK48") DestroyItem("BOOK48") SetGlobal("_bRBook48","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK49") Global("_bRBook49","GLOBAL",1)~ THEN @164  /*The History of the North VII – 1368, Year of the Banner... A surprisingly good read.*/
-DO ~TakePartyItem("BOOK49") DestroyItem("BOOK49") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK49") DestroyItem("BOOK49") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK49") !Global("_bRBook49","GLOBAL",1)~ THEN @165  /*The History of the North VII – 1368, Year of the Banner... One book about a single year? I guess it must have been eventful.*/
-DO ~TakePartyItem("BOOK49") DestroyItem("BOOK49") SetGlobal("_bRBook49","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK49") DestroyItem("BOOK49") SetGlobal("_bRBook49","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK50") Global("_bRBook50","GLOBAL",1)~ THEN @166  /*Another History of the North – 1369... Well, the authors weren't wrong. It certainly was an interesting year.*/
-DO ~TakePartyItem("BOOK50") DestroyItem("BOOK50") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK50") DestroyItem("BOOK50") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK50") !Global("_bRBook50","GLOBAL",1)~ THEN @167  /*The History of the North VIII – 1369, Year of the Gauntlet... Looks like a decent read.*/
-DO ~TakePartyItem("BOOK50") DestroyItem("BOOK50") SetGlobal("_bRBook50","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK50") DestroyItem("BOOK50") SetGlobal("_bRBook50","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK51") Global("_bRBook51","GLOBAL",1)~ THEN @168  /*History of the North IX again... At least this one doesn't take up much shelf space.*/
-DO ~TakePartyItem("BOOK51") DestroyItem("BOOK51") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK51") DestroyItem("BOOK51") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK51") !Global("_bRBook51","GLOBAL",1)~ THEN @169  /*History of the North IX... Are you sure this is a book, <CHARNAME>? It's only one page long.*/
-DO ~TakePartyItem("BOOK51") DestroyItem("BOOK51") SetGlobal("_bRBook51","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK51") DestroyItem("BOOK51") SetGlobal("_bRBook51","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK52") Global("_bRBook52","GLOBAL",1)~ THEN @170  /*I'll take this... The History of the North X – 1370, Year of the Tankard... Not about drinking as much as you'd expect.*/
-DO ~TakePartyItem("BOOK52") DestroyItem("BOOK52") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK52") DestroyItem("BOOK52") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK52") !Global("_bRBook52","GLOBAL",1)~ THEN @171  /*History of the North X – 1370, Year of the Tankard... Now that's my kind of year.*/
-DO ~TakePartyItem("BOOK52") DestroyItem("BOOK52") SetGlobal("_bRBook52","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK52") DestroyItem("BOOK52") SetGlobal("_bRBook52","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK53") Global("_bRBook53","GLOBAL",1)~ THEN @172  /*Oh, lovely. I'll take this History of the Red Ravens again... They may just be mercenaries, but some of these stories tug at the heartstrings very well.*/
-DO ~TakePartyItem("BOOK53") DestroyItem("BOOK53") SetGlobal("_bRBook53","GLOBAL",1) AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK53") DestroyItem("BOOK53") SetGlobal("_bRBook53","GLOBAL",1) AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK53") !Global("_bRBook53","GLOBAL",1)~ THEN @173  /*The History of the Red Ravens... Mercenaries. Nothing special there.*/
-DO ~TakePartyItem("BOOK53") DestroyItem("BOOK53") SetGlobal("_bRBook53","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK53") DestroyItem("BOOK53") SetGlobal("_bRBook53","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK54") Global("_bRBook54","GLOBAL",1)~ THEN @174  /*Another History of the Sisters of Light and Darkness.... Yes, please. I had priests screaming at each other on my doorstep about this. I couldn't have asked for better word-of-mouth.*/
-DO ~TakePartyItem("BOOK54") DestroyItem("BOOK54") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK54") DestroyItem("BOOK54") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK54") !Global("_bRBook54","GLOBAL",1)~ THEN @175  /*I'm sure the priests will like this one: the History of the Sisters of Light and Darkness.*/
-DO ~TakePartyItem("BOOK54") DestroyItem("BOOK54") SetGlobal("_bRBook54","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK54") DestroyItem("BOOK54") SetGlobal("_bRBook54","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK55") Global("_bRBook55","GLOBAL",1)~ THEN @176  /*You found another History of the Unicorn Run... I'll take this if only to keep such knowledge out of the wrong hands.*/
-DO ~TakePartyItem("BOOK55") DestroyItem("BOOK55") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK55") DestroyItem("BOOK55") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK55") !Global("_bRBook55","GLOBAL",1)~ THEN @177  /*History of the Unicorn Run... I wonder where that is. The place sounds beautiful.*/
-DO ~TakePartyItem("BOOK55") DestroyItem("BOOK55") SetGlobal("_bRBook55","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK55") DestroyItem("BOOK55") SetGlobal("_bRBook55","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK56") Global("_bRBook56","GLOBAL",1)~ THEN @178  /*Hmm, another History of the Valley of the Gods. I can use that one.*/
-DO ~TakePartyItem("BOOK56") DestroyItem("BOOK56") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK56") DestroyItem("BOOK56") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK56") !Global("_bRBook56","GLOBAL",1)~ THEN @179  /*Who writes some of this nonsense? The History of the Valley of the Gods... Probably a book about wild goose chases if you ask me.*/
-DO ~TakePartyItem("BOOK56") DestroyItem("BOOK56") SetGlobal("_bRBook56","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK56") DestroyItem("BOOK56") SetGlobal("_bRBook56","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK57") Global("_bRBook57","GLOBAL",1)~ THEN @180  /*...I guess I could use this, though the History of the Vast wasn't all that interesting. Who knew someone could write so many words on grass?*/
-DO ~TakePartyItem("BOOK57") DestroyItem("BOOK57") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK57") DestroyItem("BOOK57") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK57") !Global("_bRBook57","GLOBAL",1)~ THEN @181  /*The History of the Vast... You'd probably enjoy this one, <CHARNAME>. Sounds rather epic.*/
-DO ~TakePartyItem("BOOK57") DestroyItem("BOOK57") SetGlobal("_bRBook57","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK57") DestroyItem("BOOK57") SetGlobal("_bRBook57","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK58") Global("_bRBook58","GLOBAL",1)~ THEN @182  /*Yep, this'll do. There's some folks from the Western Heartland who like to read about their home.*/
-DO ~TakePartyItem("BOOK58") DestroyItem("BOOK58") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK58") DestroyItem("BOOK58") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK58") !Global("_bRBook58","GLOBAL",1)~ THEN @183  /*Here's a good down-home kind of story: History of the Western Heartland. Sturdy farming types out there.*/
-DO ~TakePartyItem("BOOK58") DestroyItem("BOOK58") SetGlobal("_bRBook58","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK58") DestroyItem("BOOK58") SetGlobal("_bRBook58","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK59") Global("_bRBook59","GLOBAL",1)~ THEN @184  /*Oh, the History of the Zhentarim. I need that. My last copy has gone missing.*/
-DO ~TakePartyItem("BOOK59") DestroyItem("BOOK59") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK59") DestroyItem("BOOK59") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK59") !Global("_bRBook59","GLOBAL",1)~ THEN @185  /*History of the Zhentarim... I think I'll be lucky if this one stays on my shelves.*/
-DO ~TakePartyItem("BOOK59") DestroyItem("BOOK59") SetGlobal("_bRBook59","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK59") DestroyItem("BOOK59") SetGlobal("_bRBook59","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK60") Global("_bRBook60","GLOBAL",1)~ THEN @186  /*Where did you find another copy of the History of the Ulgarth? The scholars were quite impressed that I had one.*/
-DO ~TakePartyItem("BOOK60") DestroyItem("BOOK60") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK60") DestroyItem("BOOK60") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK60") !Global("_bRBook60","GLOBAL",1)~ THEN @187  /*The History of the Ulgarth... There's so many places that I don't know about...*/
-DO ~TakePartyItem("BOOK60") DestroyItem("BOOK60") SetGlobal("_bRBook60","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK60") DestroyItem("BOOK60") SetGlobal("_bRBook60","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK61") Global("_bRBook61","GLOBAL",1)~ THEN @188  /*Oh good, another History of Amn. Someone wrote on my original. Though I will admit, the limericks were clever.*/
-DO ~TakePartyItem("BOOK61") DestroyItem("BOOK61") SetGlobal("_bRBook61","GLOBAL",1) AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK61") DestroyItem("BOOK61") SetGlobal("_bRBook61","GLOBAL",1) AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK61") !Global("_bRBook61","GLOBAL",1)~ THEN @189  /*Well, any self-respecting Amnian library better have this one: The History of Amn.*/
-DO ~TakePartyItem("BOOK61") DestroyItem("BOOK61") SetGlobal("_bRBook61","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK61") DestroyItem("BOOK61") SetGlobal("_bRBook61","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK62") Global("_bRBook62","GLOBAL",1)~ THEN @190  /*The History of Waterdeep again? I guess I'll start another set.*/
-DO ~TakePartyItem("BOOK62") DestroyItem("BOOK62") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK62") DestroyItem("BOOK62") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK62") !Global("_bRBook62","GLOBAL",1)~ THEN @191  /*The History of Waterdeep I... This will be the perfect travel guide.*/
-DO ~TakePartyItem("BOOK62") DestroyItem("BOOK62") SetGlobal("_bRBook62","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK62") DestroyItem("BOOK62") SetGlobal("_bRBook62","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK63") Global("_bRBook63","GLOBAL",1)~ THEN @192  /*Oh, another the History of Waterdeep II. To tell the truth, I'm still not sure what a tuabemoot is.*/
-DO ~TakePartyItem("BOOK63") DestroyItem("BOOK63") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK63") DestroyItem("BOOK63") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK63") !Global("_bRBook63","GLOBAL",1)~ THEN @193  /*The History of Waterdeep II – Age 0, Tuabemoots and Pioneers... What the devil is a tuabemoot anyway?*/
-DO ~TakePartyItem("BOOK63") DestroyItem("BOOK63") SetGlobal("_bRBook63","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK63") DestroyItem("BOOK63") SetGlobal("_bRBook63","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK64") Global("_bRBook64","GLOBAL",1)~ THEN @194  /*All right, this is good. Another History of Waterdeep III.. Warlords have been in high demand.*/
-DO ~TakePartyItem("BOOK64") DestroyItem("BOOK64") SetGlobal("_bRBook64","GLOBAL",1) AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK64") DestroyItem("BOOK64") SetGlobal("_bRBook64","GLOBAL",1) AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK64") !Global("_bRBook64","GLOBAL",1)~ THEN @195  /*History of Waterdeep III – Rise of the Warlords... What else is new?*/
-DO ~TakePartyItem("BOOK64") DestroyItem("BOOK64") SetGlobal("_bRBook64","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK64") DestroyItem("BOOK64") SetGlobal("_bRBook64","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK65") Global("_bRBook65","GLOBAL",1)~ THEN @196  /*Aaah, the History of Waterdeep V... who doesn't love a good tale of Guild Wars gone wrong? Actually, that cuts a little close to home. No wonder no one ever reads this.*/
-DO ~TakePartyItem("BOOK65") DestroyItem("BOOK65") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK65") DestroyItem("BOOK65") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK65") !Global("_bRBook65","GLOBAL",1)~ THEN @197  /*The History of Waterdeep IV – the Bloody Reign of the Guildmasters... Who knew that shipwrights and gemcutters were so violent? Their guilds sound a lot like ours.*/
-DO ~TakePartyItem("BOOK65") DestroyItem("BOOK65") SetGlobal("_bRBook65","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK65") DestroyItem("BOOK65") SetGlobal("_bRBook65","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK66") Global("_bRBook66","GLOBAL",1)~ THEN @198  /*Hmm, I can use this. The Waterdeep volumes are actually quite enthralling.*/
-DO ~TakePartyItem("BOOK66") DestroyItem("BOOK66") SetGlobal("_bRBook66","GLOBAL",1) AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK66") DestroyItem("BOOK66") SetGlobal("_bRBook66","GLOBAL",1) AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK66") !Global("_bRBook66","GLOBAL",1)~ THEN @199  /*Here's a new one for my shelves: History of Waterdeep V – the Lords' Rule Begins.*/
-DO ~TakePartyItem("BOOK66") DestroyItem("BOOK66") SetGlobal("_bRBook66","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK66") DestroyItem("BOOK66") SetGlobal("_bRBook66","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK67") Global("_bRBook67","GLOBAL",1)~ THEN @200  /*Another History of Waterdeep VI – the Return of the Lords... Well, it's not like they've gone anywhere.*/
-DO ~TakePartyItem("BOOK67") DestroyItem("BOOK67") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK67") DestroyItem("BOOK67") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOK67") !Global("_bRBook67","GLOBAL",1)~ THEN @201  /*The History of Waterdeep VI – the Return of the Lords... Pity, they should have stayed gone.*/
-DO ~TakePartyItem("BOOK67") DestroyItem("BOOK67") SetGlobal("_bRBook67","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK67") DestroyItem("BOOK67") SetGlobal("_bRBook67","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK68") !Global("_bRBook68","GLOBAL",1)~ THEN @202  /*History of the Nether Scrolls. Oh, I can't read this... But I'm sure someone can.*/
 == MURDGIRL IF ~PartyHasItem("BOOK68") Global("_bRBook68","GLOBAL",1)~ THEN @203 /*Another History of the Nether Scrolls? I'm surprised you found one.*/
@@ -440,468 +440,468 @@ DO ~TakePartyItem("BOOK67") DestroyItem("BOOK67") SetGlobal("_bRBook67","GLOBAL"
 DO ~TakePartyItem("BOOK68")~
 == MURDGIRL IF ~IsValidForPartyDialog("Edwin") PartyHasItem("BOOK68")~ THEN @205 /*Well, excuse you. How rude.*/
 == MURDGIRL IF ~!IsValidForPartyDialog("Edwin") PartyHasItem("BOOK68") !Global("_bRBook68","GLOBAL",1)~ THEN @206 /*I appreciate the thought, <CHARNAME>.*/
-DO ~TakePartyItem("BOOK68") DestroyItem("BOOK68") SetGlobal("_bRBook68","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK68") DestroyItem("BOOK68") SetGlobal("_bRBook68","GLOBAL",1) AddexperienceParty(1000)~
 == MURDGIRL IF ~!IsValidForPartyDialog("Edwin") PartyHasItem("BOOK68") Global("_bRBook68","GLOBAL",1)~ THEN @206 /*I appreciate the thought, <CHARNAME>.*/
-DO ~TakePartyItem("BOOK68") DestroyItem("BOOK68") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOK68") DestroyItem("BOOK68") AddexperienceParty(200)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK70") !Global("_bRBook70","GLOBAL",1)~ THEN @207  /*Yago's Book of Curses.... Umm, I think I'll put this one in the back.*/
-DO ~TakePartyItem("BOOK70") DestroyItem("BOOK70") SetGlobal("_bRBook70","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK70") DestroyItem("BOOK70") SetGlobal("_bRBook70","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK71") !Global("_bRBook71","GLOBAL",1)~ THEN @208  /*This isn't a book, <CHARNAME>. It's a creepy poem on bloody parchment.*/
-DO ~TakePartyItem("BOOK71") DestroyItem("BOOK71") SetGlobal("_bRBook71","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK71") DestroyItem("BOOK71") SetGlobal("_bRBook71","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK72") !Global("_bRBook72","GLOBAL",1)~ THEN @209  /*"Here died my son, young Furnebol,"...Did you loot this from a grave?*/
-DO ~TakePartyItem("BOOK72") DestroyItem("BOOK72") SetGlobal("_bRBook72","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK72") DestroyItem("BOOK72") SetGlobal("_bRBook72","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK73") !Global("_bRBook73","GLOBAL",1)~ THEN @210  /*These are the ramblings of a madman... The poets will love this.*/
-DO ~TakePartyItem("BOOK73") DestroyItem("BOOK73") SetGlobal("_bRBook66","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK73") DestroyItem("BOOK73") SetGlobal("_bRBook66","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK74") !Global("_bRBook74","GLOBAL",1)~ THEN @211  /*I really have to wonder where you found this one, <CHARNAME>. It's creepy.*/
-DO ~TakePartyItem("BOOK74") DestroyItem("BOOK74") SetGlobal("_bRBook74","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK74") DestroyItem("BOOK74") SetGlobal("_bRBook74","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK75") !Global("_bRBook75","GLOBAL",1)~ THEN @212  /*Is someone planning a murder or recalling one? I'm not sure I want to read this.*/
-DO ~TakePartyItem("BOOK75") DestroyItem("BOOK75") SetGlobal("_bRBook75","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK75") DestroyItem("BOOK75") SetGlobal("_bRBook75","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK76") !Global("_bRBook76","GLOBAL",1)~ THEN @213  /*Whoever wrote this needed help, <CHARNAME>. I hope you put them out of their misery.*/
-DO ~TakePartyItem("BOOK76") DestroyItem("BOOK76") SetGlobal("_bRBook76","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK76") DestroyItem("BOOK76") SetGlobal("_bRBook76","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK77") !Global("_bRBook77","GLOBAL",1)~ THEN @214  /*"Taste My Fear." ...Is it really a book when it's just one line written over and over?*/
-DO ~TakePartyItem("BOOK77") DestroyItem("BOOK77") SetGlobal("_bRBook77","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK77") DestroyItem("BOOK77") SetGlobal("_bRBook77","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK78") !Global("_bRBook78","GLOBAL",1)~ THEN @215  /*"Know My Madness." ...I really think I'd rather not.*/
-DO ~TakePartyItem("BOOK78") DestroyItem("BOOK78") SetGlobal("_bRBook78","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK78") DestroyItem("BOOK78") SetGlobal("_bRBook78","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK79") !Global("_bRBook79","GLOBAL",1)~ THEN @216  /*"Face My Demons." ...Where do you find these things?*/
-DO ~TakePartyItem("BOOK79") DestroyItem("BOOK79") SetGlobal("_bRBook79","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK79") DestroyItem("BOOK79") SetGlobal("_bRBook79","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK80") !Global("_bRBook80","GLOBAL",1)~ THEN @217  /*"Seek No Heirs." ...I'll save this for the priests.*/
-DO ~TakePartyItem("BOOK80") DestroyItem("BOOK80") SetGlobal("_bRBook80","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK80") DestroyItem("BOOK80") SetGlobal("_bRBook80","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK81") !Global("_bRBook81","GLOBAL",1)~ THEN @218  /*"Seek No Exit." ...I'm rather glad you didn't listen to this one.*/
-DO ~TakePartyItem("BOOK81") DestroyItem("BOOK81") SetGlobal("_bRBook81","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK81") DestroyItem("BOOK81") SetGlobal("_bRBook81","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK82") !Global("_bRBook82","GLOBAL",1)~ THEN @219  /*"Know No Refuge." ...How unpleasant.*/
-DO ~TakePartyItem("BOOK82") DestroyItem("BOOK82") SetGlobal("_bRBook82","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK82") DestroyItem("BOOK82") SetGlobal("_bRBook82","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK83") !Global("_bRBook83","GLOBAL",1)~ THEN @220  /*"Feel No Warmth." ...That's not hard around here. Before I met Terl at least.*/
-DO ~TakePartyItem("BOOK83") DestroyItem("BOOK83") SetGlobal("_bRBook83","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK83") DestroyItem("BOOK83") SetGlobal("_bRBook83","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK84") !Global("_bRBook84","GLOBAL",1)~ THEN @221  /*"Dance With The Dead." ...Have you been visiting necromancers? I don't want angry wizards coming after me.*/
-DO ~TakePartyItem("BOOK84") DestroyItem("BOOK84") SetGlobal("_bRBook84","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK84") DestroyItem("BOOK84") SetGlobal("_bRBook84","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK85") !Global("_bRBook85","GLOBAL",1)~ THEN @222  /*"Know My Loss." ...I hope you left an offering if you were truly robbing graves.*/
-DO ~TakePartyItem("BOOK85") DestroyItem("BOOK85") SetGlobal("_bRBook85","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK85") DestroyItem("BOOK85") SetGlobal("_bRBook85","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK86") !Global("_bRBook86","GLOBAL",1)~ THEN @223  /*"Here fell Kiel the Legionkiller." That sounds rather grisly.*/
-DO ~TakePartyItem("BOOK86") DestroyItem("BOOK86") SetGlobal("_bRBook86","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK86") DestroyItem("BOOK86") SetGlobal("_bRBook86","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK87") !Global("_bRBook87","GLOBAL",1)~ THEN @224  /*Balduran's Logbook... Are you certain, <CHARNAME>? With a treasure like this, my library will be the most popular in Amn....*/
-DO ~TakePartyItem("BOOK87") DestroyItem("BOOK87") SetGlobal("_bRBook87","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK87") DestroyItem("BOOK87") SetGlobal("_bRBook87","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK88") !Global("_bRBook88","GLOBAL",1)~ THEN @225  /*The Recipes and Ruminations of One Dradeel of Tethyr, formerly A Lovely Bun-cake Brightens Anyone's Day... This sounds charming. I may keep it for myself.*/
-DO ~TakePartyItem("BOOK88") DestroyItem("BOOK88") SetGlobal("_bRBook88","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK88") DestroyItem("BOOK88") SetGlobal("_bRBook88","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK89") !Global("_bRBook89","GLOBAL",1)~ THEN @226  /*The Book of Kaza... This volume must be worth a fortune. The pages are so old... I promise this book will have a place of pride.*/
-DO ~TakePartyItem("BOOK89") DestroyItem("BOOK89") SetGlobal("_bRBook89","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK89") DestroyItem("BOOK89") SetGlobal("_bRBook89","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK90") !Global("_bRBook90","GLOBAL",1)~ THEN @227  /*Golem-Building Book... Some wizard will steal this, mark my words. But at least I'll have it for a time.*/
-DO ~TakePartyItem("BOOK90") DestroyItem("BOOK90") SetGlobal("_bRBook90","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK90") DestroyItem("BOOK90") SetGlobal("_bRBook90","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK91") !Global("_bRBook91","GLOBAL",1)~ THEN @228  /*The Tome of Amaunator... Interesting. What girl doesn't like a little heresy?*/
-DO ~TakePartyItem("BOOK91") DestroyItem("BOOK91") SetGlobal("_bRBook91","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK91") DestroyItem("BOOK91") SetGlobal("_bRBook91","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK92") !Global("_bRBook92","GLOBAL",1)~ THEN @229  /*Lovely, a private journal. Though I do hope Merella doesn't mind.*/
-DO ~TakePartyItem("BOOK92") DestroyItem("BOOK92") SetGlobal("_bRBook92","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK92") DestroyItem("BOOK92") SetGlobal("_bRBook92","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK93") !Global("_bRBook93","GLOBAL",1)~ THEN @230  /*An orcish cookbook? Well, I suppose some folks might read it for the novelty.*/
-DO ~TakePartyItem("BOOK93") DestroyItem("BOOK93") SetGlobal("_bRBook93","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK93") DestroyItem("BOOK93") SetGlobal("_bRBook93","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK94") !Global("_bRBook94","GLOBAL",1)~ THEN @231  /*The Vampiricus Omnibus: Unabridged... We certainly need that around here.*/
-DO ~TakePartyItem("BOOK94") DestroyItem("BOOK94") SetGlobal("_bRBook94","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK94") DestroyItem("BOOK94") SetGlobal("_bRBook94","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK95") !Global("_bRBook95","GLOBAL",1)~ THEN @232  /*This book is covered in blood, <CHARNAME>. I know I said I wanted interesting volumes for my library, but..... Why don't we just bury this out back?*/
-DO ~TakePartyItem("BOOK95") DestroyItem("BOOK95") SetGlobal("_bRBook95","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK95") DestroyItem("BOOK95") SetGlobal("_bRBook95","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK96") !Global("_bRBook96","GLOBAL",1)~ THEN @233  /*Conjur Ota Servanta.... This seems dangerous. I may return it to the Temple of Oghma if it proves troublesome.*/
-DO ~TakePartyItem("BOOK96") DestroyItem("BOOK96") SetGlobal("_bRBook96","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK96") DestroyItem("BOOK96") SetGlobal("_bRBook96","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK97") !Global("_bRBook97","GLOBAL",1) !IsValidForPartyDialog("Mazzy") ~ THEN @234  /*Oh, a journal. Tell this Lellyn fellow that it's appreciated.*/
-DO ~TakePartyItem("BOOK97") DestroyItem("BOOK97") SetGlobal("_bRBook97","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK97") DestroyItem("BOOK97") SetGlobal("_bRBook97","GLOBAL",1) AddexperienceParty(1000)~
 == MURDGIRL IF ~PartyHasItem("BOOK97") !Global("_bRBook97","GLOBAL",1) IsValidForPartyDialog("Mazzy") Global("_bMRBook2","GLOBAL",0) ~ THEN @234  /*Oh, a journal. Tell this Lellyn fellow that it's appreciated.*/
 == MAZZYJ IF ~IsValidForPartyDialog("Mazzy") Global("_bMRBook2","GLOBAL",0) PartyHasItem("BOOK97") !Global("_bRBook97","GLOBAL",1)~ THEN @235 /*That will not be possible. He died some time ago.*/
 == MURDGIRL IF ~PartyHasItem("BOOK97") Global("_bMRBook2","GLOBAL",0) IsValidForPartyDialog("Mazzy") !Global("_bRBook97","GLOBAL",1)~ THEN @236 /*Oh, I'm sorry. Did you want this journal back?*/
 == MAZZYJ IF ~IsValidForPartyDialog("Mazzy") Global("_bMRBook2","GLOBAL",0) PartyHasItem("BOOK97")~ THEN @237 /*No. Place the journal on your shelves so that he may be remembered as a hero. I believe he would have preferred that.*/
 == MURDGIRL IF ~PartyHasItem("BOOK97") Global("_bMRBook2","GLOBAL",0) !Global("_bRBook97","GLOBAL",1) IsValidForPartyDialog("Mazzy")~ THEN @238 /*I will. Thank you.*/
-DO ~SetGlobal("_bMRBook2","GLOBAL",1) TakePartyItem("BOOK97") DestroyItem("BOOK97") SetGlobal("_bRBook97","GLOBAL",1) AddexperienceParty(10000)~
+DO ~SetGlobal("_bMRBook2","GLOBAL",1) TakePartyItem("BOOK97") DestroyItem("BOOK97") SetGlobal("_bRBook97","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOK98") !Global("_bRBook98","GLOBAL",1)~ THEN @239 /*The Book of King Strohm III... This should be in a museum. But I will do my best.*/
-DO ~TakePartyItem("BOOK98") DestroyItem("BOOK98") SetGlobal("_bRBook98","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOK98") DestroyItem("BOOK98") SetGlobal("_bRBook98","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("BOOKEE") Global("_bRBookEE","GLOBAL",1)~ THEN @2400 /*Oh good, another one of Elminster's Bestiaries. The children like to look at the pictures in this one.*/
-DO ~TakePartyItem("BOOKEE") DestroyItem("BOOKEE") AddexperienceParty(2000)~
+DO ~TakePartyItem("BOOKEE") DestroyItem("BOOKEE") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("BOOKEE") !Global("_bRBookEE","GLOBAL",1)~ THEN @240 /*Elminster's Ecologies: Appendix IIIa... Oh, a bestiary. This will be popular with adventurers. I assume you read it carefully?*/
-DO ~TakePartyItem("BOOKEE") DestroyItem("BOOKEE") SetGlobal("_bRBookEE","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("BOOKEE") DestroyItem("BOOKEE") SetGlobal("_bRBookEE","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("LUM1") !Global("_bRLUM1","GLOBAL",1)~ THEN @241 /*A handwritten note... you really do pick up everything, don't you?*/
-DO ~TakePartyItem("LUM1") DestroyItem("LUM1") SetGlobal("_bRLUM1","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("LUM1") DestroyItem("LUM1") SetGlobal("_bRLUM1","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("LUM2") !Global("_bRLUM2","GLOBAL",1)~ THEN @242  /*Mad scribbling, lovely. The bards should enjoy this.*/
-DO ~TakePartyItem("LUM2") DestroyItem("LUM2") SetGlobal("_bRLUM2","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("LUM2") DestroyItem("LUM2") SetGlobal("_bRLUM2","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("LUM3") !Global("_bRLUM3","GLOBAL",1)~ THEN @243  /*I wonder who this Lum is. This note is... quite unique.*/
-DO ~TakePartyItem("LUM3") DestroyItem("LUM3") SetGlobal("_bRLUM3","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("LUM3") DestroyItem("LUM3") SetGlobal("_bRLUM3","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("LUM4") !Global("_bRLUM4","GLOBAL",1)~ THEN @244  /*Your writer here seems to dislike magic. Have you been pickpocketing Cowled Wizards?*/
-DO ~TakePartyItem("LUM4") DestroyItem("LUM4") SetGlobal("_bRLUM4","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("LUM4") DestroyItem("LUM4") SetGlobal("_bRLUM4","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("LUM5") !Global("_bRLUM5","GLOBAL",1)~ THEN @245  /*L.t.Mad... Sounds about right.*/
-DO ~TakePartyItem("LUM5") DestroyItem("LUM5") SetGlobal("_bRLUM5","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("LUM5") DestroyItem("LUM5") SetGlobal("_bRLUM5","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("LUM6") !Global("_bRLUM6","GLOBAL",1)~ THEN @246  /*"The beautiful people are short, red, and green." That's certainly an opinion.*/
-DO ~TakePartyItem("LUM6") DestroyItem("LUM6") SetGlobal("_bRLUM6","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("LUM6") DestroyItem("LUM6") SetGlobal("_bRLUM6","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("LUM7") !Global("_bRLUM7","GLOBAL",1)~ THEN @247  /*I suppose this nonsensical babbling should be good for a laugh.*/
-DO ~TakePartyItem("LUM7") DestroyItem("LUM7") SetGlobal("_bRLUM7","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("LUM7") DestroyItem("LUM7") SetGlobal("_bRLUM7","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("LUM8") !Global("_bRLUM8","GLOBAL",1)~ THEN @248  /*Lum the Mad... Well, that certainly explains the contents of this note.*/
-DO ~TakePartyItem("LUM8") DestroyItem("LUM8") SetGlobal("_bRLUM8","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("LUM8") DestroyItem("LUM8") SetGlobal("_bRLUM8","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("LUM9") !Global("_bRLUM9","GLOBAL",1)~ THEN @249  /*This seems more like scrap paper. But a good library needs that too.*/
-DO ~TakePartyItem("LUM9") DestroyItem("LUM9") SetGlobal("_bRLUM9","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("LUM9") DestroyItem("LUM9") SetGlobal("_bRLUM9","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC5P") !Global("_bRMISC5P","GLOBAL",1)~ THEN @250  /*....A ransom note, really, <CHARNAME>? I do hope you rescued this poor girl.*/
-DO ~TakePartyItem("MISC5P") DestroyItem("MISC5P") SetGlobal("_bRMISC5P","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC5P") DestroyItem("MISC5P") SetGlobal("_bRMISC5P","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC5Y") !Global("_bRMISC5Y","GLOBAL",1)~ THEN @251  /*This seems rather personal, but I'll add it to my collection.*/
-DO ~TakePartyItem("MISC5Y") DestroyItem("MISC5Y") SetGlobal("_bRMISC5Y","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC5Y") DestroyItem("MISC5Y") SetGlobal("_bRMISC5Y","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC6R") !Global("_bRMISC6R","GLOBAL",1)~ THEN @252  /*A plea for aid... I hope they were rich or powerful. Otherwise that most holy order of snobby paladins probably tossed this in the dirt.*/
-DO ~TakePartyItem("MISC6R") DestroyItem("MISC6R") SetGlobal("_bRMISC6R","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC6R") DestroyItem("MISC6R") SetGlobal("_bRMISC6R","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC6U") !Global("_bRMISC6U","GLOBAL",1)~ THEN @253  /*Is this a challenge to a duel? How exciting.*/
-DO ~TakePartyItem("MISC6U") DestroyItem("MISC6U") SetGlobal("_bRMISC6U","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC6U") DestroyItem("MISC6U") SetGlobal("_bRMISC6U","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC78") !Global("_bRMISC78","GLOBAL",1)~ THEN @254  /*An inaugural invitation, a pity that it's dated. Of course, a woman like me would never be allowed near such a party, but a gal can dream.*/
-DO ~TakePartyItem("MISC78") DestroyItem("MISC78") SetGlobal("_bRMISC78","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC78") DestroyItem("MISC78") SetGlobal("_bRMISC78","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC7G") !Global("_bRMISC7G","GLOBAL",1)~ THEN @255  /*If you truly wish to give this up, then I accept. But I think this Jaheira meant her words for you alone.*/
-DO ~TakePartyItem("MISC7G") DestroyItem("MISC6U") SetGlobal("_bRMISC7G","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC7G") DestroyItem("MISC6U") SetGlobal("_bRMISC7G","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC7H") Global("_bRMISC7H","GLOBAL",1)~ THEN @256  /*Oh, fantastic, you've brought me the Umar Witch Project Journal again... I can't keep this one on the shelves.*/
-DO ~TakePartyItem("MISC7H") DestroyItem("MISC7H") AddexperienceParty(2000)~
+DO ~TakePartyItem("MISC7H") DestroyItem("MISC7H") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("MISC7H") !Global("_bRMISC7H","GLOBAL",1)~ THEN @257  /*The Umar Witch Project Journal... Oh, this gives me the shivers. Perfect.*/
-DO ~TakePartyItem("MISC7H") DestroyItem("MISC7H") SetGlobal("_bRMISC7H","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC7H") DestroyItem("MISC7H") SetGlobal("_bRMISC7H","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC7I") !Global("_bRMISC7I","GLOBAL",1)~ THEN @258  /*The Tome of Chaos... you're certain that this book won't explode or something, right?*/
-DO ~TakePartyItem("MISC7I") DestroyItem("MISC7I") SetGlobal("_bRMISC7I","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC7I") DestroyItem("MISC7I") SetGlobal("_bRMISC7I","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC7M") !Global("_bRMISC7M","GLOBAL",1)~ THEN @259  /*Tax records, of course. I'm sure someone will want these eventually.*/
-DO ~TakePartyItem("MISC7M") DestroyItem("MISC7M") SetGlobal("_bRMISC7M","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC7M") DestroyItem("MISC7M") SetGlobal("_bRMISC7M","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC7O") !Global("_bRMISC7O","GLOBAL",1)~ THEN @260  /*This sounds like you've been busy, <CHARNAME>. Are you sure you want this note on record?*/
-DO ~TakePartyItem("MISC7O") DestroyItem("MISC7O") SetGlobal("_bRMISC7O","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC7O") DestroyItem("MISC7O") SetGlobal("_bRMISC7O","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC7P") !Global("_bRMISC7P","GLOBAL",1)~ THEN @261  /*Tombelthen's Journal... a pity that it's torn.*/
-DO ~TakePartyItem("MISC7P") DestroyItem("MISC7P") SetGlobal("_bRMISC7P","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC7P") DestroyItem("MISC7P") SetGlobal("_bRMISC7P","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC7Q") !Global("_bRMISC7Q","GLOBAL",1)~ THEN @262  /*Tombelthen's Journal... This will draw the treasure hunters.*/
-DO ~TakePartyItem("MISC7Q") DestroyItem("MISC7Q") SetGlobal("_bRMISC7Q","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC7Q") DestroyItem("MISC7Q") SetGlobal("_bRMISC7Q","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC7S") !Global("_bRMISC7S","GLOBAL",1)~ THEN @263  /*Somehow I have the feeling Lord Tombelthen never made it home.*/
-DO ~TakePartyItem("MISC7S") DestroyItem("MISC7S") SetGlobal("_bRMISC7S","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC7S") DestroyItem("MISC7S") SetGlobal("_bRMISC7S","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC7W") !Global("_bRMISC7W","GLOBAL",1)~ THEN @264  /*This Lavok sounds both mad and dangerous, <CHARNAME>.You must be very powerful to bring such people down.*/
 == VALYGARJ IF ~IsValidForPartyDialog("Valygar") PartyHasItem("MISC7W") !Global("_bRMISC7W","GLOBAL",1)~ THEN @265 /*Indeed, that was quite a battle. My ancestor lost himself to magic's clutches many years ago. Take this volume as a warning to those who would do the same.*/
 == MURDGIRL IF ~PartyHasItem("MISC7W") !Global("_bRMISC7W","GLOBAL",1)~ THEN @266 /*Perhaps the Cowled Wizards do have a point sometimes.*/
-DO ~TakePartyItem("MISC7W") DestroyItem("MISC7W") SetGlobal("_bRMISC7W","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC7W") DestroyItem("MISC7W") SetGlobal("_bRMISC7W","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC8A") !Global("_bRMISC8A","GLOBAL",1)~ THEN @267 /*Hah! The last arrogant commands of a dying guild. I shall put this note in pride of place.*/
-DO ~TakePartyItem("MISC8A") DestroyItem("MISC8A") SetGlobal("_bRMISC8A","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC8A") DestroyItem("MISC8A") SetGlobal("_bRMISC8A","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC8B") !Global("_bRMISC8B","GLOBAL",1)~ THEN @268  /*Threats from the vampires... a slice of modern history. This will be valuable someday.*/
-DO ~TakePartyItem("MISC8B") DestroyItem("MISC8B") SetGlobal("_bRMISC8B","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC8B") DestroyItem("MISC8B") SetGlobal("_bRMISC8B","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC8C") !Global("_bRMISC8C","GLOBAL",1)~ THEN @269  /*Morn Ritual... A scrap of history.*/
-DO ~TakePartyItem("MISC8C") DestroyItem("MISC8C") SetGlobal("_bRMISC8C","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC8C") DestroyItem("MISC8C") SetGlobal("_bRMISC8C","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC8D") !Global("_bRMISC8D","GLOBAL",1)~ THEN @270  /*Noontide Ritual... How sad. I do not think you would have this were there living followers.*/
-DO ~TakePartyItem("MISC8D") DestroyItem("MISC8D") SetGlobal("_bRMISC8D","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC8D") DestroyItem("MISC8D") SetGlobal("_bRMISC8D","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC8E") !Global("_bRMISC8E","GLOBAL",1)~ THEN @271  /*The Dusk Ritual... Should I be worried about offending some long forgotten god?*/
-DO ~TakePartyItem("MISC8E") DestroyItem("MISC8E") SetGlobal("_bRMISC8E","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC8E") DestroyItem("MISC8E") SetGlobal("_bRMISC8E","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC8I") !Global("_bRMISC8I","GLOBAL",1)~ THEN @272  /*A note from Imnesvale... Aww, this is so sweet.*/
-DO ~TakePartyItem("MISC8I") DestroyItem("MISC8I") SetGlobal("_bRMISC8I","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC8I") DestroyItem("MISC8I") SetGlobal("_bRMISC8I","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC9C") !Global("_bRMISC9C","GLOBAL",1)~ THEN @273  /*Lium's Journal of Malevolent Magics... that sounds fun. Though I might have to bribe a few Cowled Wizards to keep it on my shelves.*/
-DO ~TakePartyItem("MISC9C") DestroyItem("MISC9C") SetGlobal("_bRMISC9C","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC9C") DestroyItem("MISC9C") SetGlobal("_bRMISC9C","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC9I") Global("_bRMISC9I","GLOBAL",1)~ THEN @340  /*You found ANOTHER First Journal of Jon Irenicus? What kind of person transcribes their journal twice?*/
-DO ~TakePartyItem("MISC9I") DestroyItem("MISC9I") AddexperienceParty(2000)~
+DO ~TakePartyItem("MISC9I") DestroyItem("MISC9I") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("MISC9I") !Global("_bRMISC9I","GLOBAL",1)~ THEN @274  /*The First Journal of Jon Irenicus.... He sounds like the pompous type.*/
-DO ~TakePartyItem("MISC9I") DestroyItem("MISC9I") SetGlobal("_bRMISC9I","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC9I") DestroyItem("MISC9I") SetGlobal("_bRMISC9I","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC9J") !Global("_bRMISC9J","GLOBAL",1)~ THEN @275  /*Second Journal of Jon Irenicus. This fellow sure liked to write about himself. He sounds like a madman too.*/
-DO ~TakePartyItem("MISC9J") DestroyItem("MISC9J") SetGlobal("_bRMISC9J","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC9J") DestroyItem("MISC9J") SetGlobal("_bRMISC9J","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC9K") !Global("_bRMISC9K","GLOBAL",1)~ THEN @276 /*The Third Journal of Jon Irenicus... Hmm, boring... drow and stuff. But I shall add it to the shelves.*/
-DO ~TakePartyItem("MISC9K") DestroyItem("MISC9K") SetGlobal("_bRMISC9K","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC9K") DestroyItem("MISC9K") SetGlobal("_bRMISC9K","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISCA3") !Global("_bRMISCA3","GLOBAL",1)~ THEN @277 /*A book of elemental rituals... I hope this one doesn't light the block on fire.*/
-DO ~TakePartyItem("MISCA3") DestroyItem("MISCA3") SetGlobal("_bRMISCA3","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISCA3") DestroyItem("MISCA3") SetGlobal("_bRMISCA3","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISCAK") !Global("_bRMISCAK","GLOBAL",1)~ THEN @278 /*A warden's note? Were you in prison recently?*/
-DO ~TakePartyItem("MISCAK") DestroyItem("MISCAK") SetGlobal("_bRMISCAK","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISCAK") DestroyItem("MISCAK") SetGlobal("_bRMISCAK","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISCBW") !Global("_bRMISCBW","GLOBAL",1)~ THEN @279 /*Notes from a Sahuagin Scribe... This looks rare; it should be in high demand. (I'm not even sure what a Sahuagin is.)*/
-DO ~TakePartyItem("MISCBW") DestroyItem("MISCBW") SetGlobal("_bRMISCBW","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISCBW") DestroyItem("MISCBW") SetGlobal("_bRMISCBW","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISCBX") !Global("_bRMISCBX","GLOBAL",1)~ THEN @280 /*This note is rather worrying, <CHARNAME>. You'd best keep an eye out for this Ployer fellow. I think one of the gals working the docks mentioned him.*/
 == JAHEIRAJ IF ~IfValidForPartyDialog("Jaheira") PartyHasItem("MISCBX") !Global("_bRMISCBX","GLOBAL",1) Dead("Ployer")~ THEN @281 /*Do not worry about us. Baron Ployer was dealt with most effectively.*/
 == MURDGIRL IF ~IfValidForPartyDialog("Jaheira") PartyHasItem("MISCBX") !Global("_bRMISCBX","GLOBAL",1) Dead("Ployer")~ THEN @282 /*That is good to hear.*/
 == MURDGIRL IF ~PartyHasItem("MISCBX") !Global("_bRMISCBX","GLOBAL",1)~ THEN @283 /*He sounded quite unpleasant overall.*/
-DO ~TakePartyItem("MISCBX") DestroyItem("MISCBX") SetGlobal("_bRMISCBX","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISCBX") DestroyItem("MISCBX") SetGlobal("_bRMISCBX","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISCBZ") !Global("_bRMISCBZ","GLOBAL",1)~ THEN @284 /*Tizzak's Journal... This information is how you killed the Shadow Master, isn't it? I'm tempted to kiss this book right now.*/
-DO ~TakePartyItem("MISCBZ") DestroyItem("MISCBZ") SetGlobal("_bRMISCBZ","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISCBZ") DestroyItem("MISCBZ") SetGlobal("_bRMISCBZ","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISCCA") !Global("_bRMISCCA","GLOBAL",1)~ THEN @285 /*Are you sure that you don't need this note from Demin? It sounds important. But this girl isn't fool enough to look a gift horse in the mouth.*/
-DO ~TakePartyItem("MISCCA") DestroyItem("MISCCA") SetGlobal("_bRMISCCA","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISCCA") DestroyItem("MISCCA") SetGlobal("_bRMISCCA","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("OHBBOOK1") !Global("_bROHBBOOK1","GLOBAL",1)~ THEN @286 /*The Journal of Geldorf Tinbasher... What a poor tortured soul....*/
-DO ~TakePartyItem("OHBBOOK1") DestroyItem("OHBBOOK1") SetGlobal("_bROHBBOOK1","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("OHBBOOK1") DestroyItem("OHBBOOK1") SetGlobal("_bROHBBOOK1","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("OHBBOOK2") !Global("_bROHBBOOK2","GLOBAL",1)~ THEN @287 /*The Journal of Thassk Kun... Magic, hunters and devas, how exciting!*/
-DO ~TakePartyItem("OHBBOOK2") DestroyItem("OHBBOOK2") SetGlobal("_bROHBBOOK2","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("OHBBOOK2") DestroyItem("OHBBOOK2") SetGlobal("_bROHBBOOK2","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("OHBBOOK3") !Global("_bROHBBOOK3","GLOBAL",1)~ THEN @288 /*Bannor's Journal... Eugh, these experiments sound awful. I shall lend this carefully.*/
-DO ~TakePartyItem("OHBBOOK3") DestroyItem("OHBBOOK3") SetGlobal("_bROHBBOOK3","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("OHBBOOK3") DestroyItem("OHBBOOK3") SetGlobal("_bROHBBOOK3","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("OHBBOOK4") !Global("_bROHBBOOK4","GLOBAL",1)~ THEN @289 /*The Journal of Dennaton... *scoffs* One of those entertainer types.*/
-DO ~TakePartyItem("OHBBOOK4") DestroyItem("OHBBOOK4") SetGlobal("_bROHBBOOK4","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("OHBBOOK4") DestroyItem("OHBBOOK4") SetGlobal("_bROHBBOOK4","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("OHBBOOK5") !Global("_bROHBBOOK5","GLOBAL",1)~ THEN @290 /*The Journal of Dennaton... What an odd volume....*/
-DO ~TakePartyItem("OHBBOOK5") DestroyItem("OHBBOOK5") SetGlobal("_bROHBBOOK5","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("OHBBOOK5") DestroyItem("OHBBOOK5") SetGlobal("_bROHBBOOK5","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("OHBBOOK6") !Global("_bROHBBOOK6","GLOBAL",1)~ THEN @291 /*The Journal of Dennaton... Sounds like the ambitious type, I wonder how those dreams turned out.*/
-DO ~TakePartyItem("OHBBOOK6") DestroyItem("OHBBOOK6") SetGlobal("_bROHBBOOK6","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("OHBBOOK6") DestroyItem("OHBBOOK6") SetGlobal("_bROHBBOOK6","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohdjour") !Global("_bRohdjour","GLOBAL",1)~ THEN @292 /*The Journal of Saemon Havarian... What? It's *blank*! You're playing a joke on me.*/
-DO ~TakePartyItem("ohdjour") DestroyItem("ohdjour") SetGlobal("_bRohdjour","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohdjour") DestroyItem("ohdjour") SetGlobal("_bRohdjour","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohhbook") !Global("_bRohhbook","GLOBAL",1)~ THEN @293 /*The Tale of the Prophet Unproved... One for the fables section.*/
-DO ~TakePartyItem("ohhbook") DestroyItem("ohhbook") SetGlobal("_bRohhbook","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohhbook") DestroyItem("ohhbook") SetGlobal("_bRohhbook","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohhbook2") !Global("_bRohhbook2","GLOBAL",1)~ THEN @294 /*Of Simulacrum and Sanity... Crazy? Check. Wizardish? Check. This should be very popular.*/
-DO ~TakePartyItem("ohhbook2") DestroyItem("ohhbook2") SetGlobal("_bRohhbook2","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohhbook2") DestroyItem("ohhbook2") SetGlobal("_bRohhbook2","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohhbooka") !Global("_bRohhbooka","GLOBAL",1)~ THEN @295 /*Can you read this, <CHARNAME>? Because I certainly can't. But I'm sure some scholar will appreciate the challenge.*/
-DO ~TakePartyItem("ohhbooka") DestroyItem("ohhbooka") SetGlobal("_bRohhbooka","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohhbooka") DestroyItem("ohhbooka") SetGlobal("_bRohhbooka","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohhbookb") !Global("_bRohhbookb","GLOBAL",1)~ THEN @296 /*Oh how beautiful... An illustrated manuscript.*/
-DO ~TakePartyItem("ohhbookb") DestroyItem("ohhbookb") SetGlobal("_bRohhbookb","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohhbookb") DestroyItem("ohhbookb") SetGlobal("_bRohhbookb","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohhbookc") !Global("_bRohhbookc","GLOBAL",1)~ THEN @297 /*Did you drop this book in a puddle, <CHARNAME>? You should be ashamed of yourself. But I suppose the paper might be useful.*/
-DO ~TakePartyItem("ohhbookc") DestroyItem("ohhbookc") SetGlobal("_bRohhbookc","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohhbookc") DestroyItem("ohhbookc") SetGlobal("_bRohhbookc","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohhbookd") !Global("_bRohhbookd","GLOBAL",1)~ THEN @298 /*Legible scraps and faded letters... Well, perhaps it can be restored.*/
-DO ~TakePartyItem("ohhbookd") DestroyItem("ohhbookd") SetGlobal("_bRohhbookd","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohhbookd") DestroyItem("ohhbookd") SetGlobal("_bRohhbookd","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohhbooke") !Global("_bRohhbooke","GLOBAL",1)~ THEN @299 /*Interesting. I've never heard a book crackle quite like this.*/
-DO ~TakePartyItem("ohhbooke") DestroyItem("ohhbooke") SetGlobal("_bRohhbooke","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohhbooke") DestroyItem("ohhbooke") SetGlobal("_bRohhbooke","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohhbookf") !Global("_bRohhbookf","GLOBAL",1)~ THEN @300 /*What a gorgeous history. I think I shall enjoy deciphering this one.*/
-DO ~TakePartyItem("ohhbookf") DestroyItem("ohhbookf") SetGlobal("_bRohhbookf","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohhbookf") DestroyItem("ohhbookf") SetGlobal("_bRohhbookf","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohhbookg") !Global("_bRohhbookg","GLOBAL",1)~ THEN @301 /*Hmm, some sort of genealogy. Well, someone will like that.*/
-DO ~TakePartyItem("ohhbookg") DestroyItem("ohhbookg") SetGlobal("_bRohhbookg","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohhbookg") DestroyItem("ohhbookg") SetGlobal("_bRohhbookg","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohhbookh") !Global("_bRohhbookh","GLOBAL",1)~ THEN @302 /*A book of poetry, wonderful, the bards should pay quite well to access this.*/
-DO ~TakePartyItem("ohhbookh") DestroyItem("ohhbookh") SetGlobal("_bRohhbookh","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohhbookh") DestroyItem("ohhbookh") SetGlobal("_bRohhbookh","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohhjour") !Global("_bRohhjour","GLOBAL",1)~ THEN @303 /*The Journal of Umolex the Far-Eyed... ooh, egg-painting tips. I'll keep this one in mind.*/
-DO ~TakePartyItem("ohhjour") DestroyItem("ohhjour") SetGlobal("_bRohhjour","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohhjour") DestroyItem("ohhjour") SetGlobal("_bRohhjour","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohnnote1") !Global("_bRohnnote1","GLOBAL",1)~ THEN @304 /*What a gruesome contract. But snitches get stitches. That's what they deserve.*/
-DO ~TakePartyItem("ohnnote1") DestroyItem("ohnnote1") SetGlobal("_bRohnnote1","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohnnote1") DestroyItem("ohnnote1") SetGlobal("_bRohnnote1","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohnnote2") !Global("_bRohnnote2","GLOBAL",1)~ THEN @305 /*Hmm, a letter from the chief of the Order of the Eight Staves. Never heard of 'em.*/
 == NEERAJ IF ~IsValidForPartyDialog("Neera") PartyHasItem("ohnnote2") !Global("_bRohnnote2","GLOBAL",1)~ THEN @306 /*You really aren't missing much.*/
 == MURDGIRL IF ~PartyHasItem("ohnnote2") !Global("_bRohnnote2","GLOBAL",1)~ THEN @307 /*But even boring letters might help someone someday.*/
-DO ~TakePartyItem("ohnnote2") DestroyItem("ohnnote2") SetGlobal("_bRohnnote2","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohnnote2") DestroyItem("ohnnote2") SetGlobal("_bRohnnote2","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohnnote3") !Global("_bRohnnote3","GLOBAL",1)~ THEN @308 /*How unpleasant. I hope you dealt with this Lanneth person.*/
-DO ~TakePartyItem("ohnnote3") DestroyItem("ohnnote3") SetGlobal("_bRohnnote3","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohnnote3") DestroyItem("ohnnote3") SetGlobal("_bRohnnote3","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohnnote4") !Global("_bRohnnote4","GLOBAL",1)~ THEN @309 /*The Journal of Fadell Ironeye... Sounds like an interesting fellow.*/
-DO ~TakePartyItem("ohnnote4") DestroyItem("ohnnote4") SetGlobal("_bRohnnote4","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohnnote4") DestroyItem("ohnnote4") SetGlobal("_bRohnnote4","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohnnote5") !Global("_bRohnnote5","GLOBAL",1)~ THEN @310 /*Hmm, the Diary of Vicross... They were kind enough to write their name on the first page.*/
-DO ~TakePartyItem("ohnnote5") DestroyItem("ohnnote5") SetGlobal("_bRohnnote5","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohnnote5") DestroyItem("ohnnote5") SetGlobal("_bRohnnote5","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohrbook1") !Global("_bRohrbook1","GLOBAL",1)~ THEN @311 /*Alorgoth's Journal... What a pompous windbag...*/
 == RASAADJ IF ~IfValidForPartyDialog("Rasaad") PartyHasItem("ohrbook1") !Global("_bRohrbook1","GLOBAL",1)~ THEN @312 /*Your words lighten my heart, milady. I have not laughed so in some time.*/
 == MURDGIRL IF ~PartyHasItem("ohrbook1") !Global("_bRohrbook1","GLOBAL",1)~ THEN @313 /*Perhaps some of the children would like to draw on this.*/
-DO ~TakePartyItem("ohrbook1") DestroyItem("ohrbook1") SetGlobal("_bRohrbook1","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohrbook1") DestroyItem("ohrbook1") SetGlobal("_bRohrbook1","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohrbook2") !Global("_bRohrbook2","GLOBAL",1)~ THEN @314 /*The Journal of Boldcam Deepstone... What tragic deaths are these?*/
-DO ~TakePartyItem("ohrbook2") DestroyItem("ohrbook2") SetGlobal("_bRohrbook2","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohrbook2") DestroyItem("ohrbook2") SetGlobal("_bRohrbook2","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohrnot01") !Global("_bRohrnot01","GLOBAL",1)~ THEN @315 /*A scrap of paper, really? Well, if it's free, I suppose.*/
-DO ~TakePartyItem("ohrnot01") DestroyItem("ohrnot01") SetGlobal("_bRohrnot01","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohrnot01") DestroyItem("ohrnot01") SetGlobal("_bRohrnot01","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohrnot02") !Global("_bRohrnot02","GLOBAL",1)~ THEN @316 /*This speaks of a hidden temple... that's very interesting...*/
-DO ~TakePartyItem("ohrnot02") DestroyItem("ohrnot02") SetGlobal("_bRohrnot02","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohrnot02") DestroyItem("ohrnot02") SetGlobal("_bRohrnot02","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohrnot03") !Global("_bRohrnot03","GLOBAL",1)~ THEN @317 /*Ooh, an old map. The adventurers should love this.*/
-DO ~TakePartyItem("ohrnot03") DestroyItem("ohrnot03") SetGlobal("_bRohrnot03","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohrnot03") DestroyItem("ohrnot03") SetGlobal("_bRohrnot03","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ohrpamph") !Global("_bRohrpamph","GLOBAL",1)~ THEN @318 /*"Cutthroats: A Gentleman's Guide to Hold-ups and Robberies"... I love it!*/
-DO ~TakePartyItem("ohrpamph") DestroyItem("ohrpamph") SetGlobal("_bRohrpamph","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ohrpamph") DestroyItem("ohrpamph") SetGlobal("_bRohrpamph","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("PLOT01C") Global("CribNote","GLOBAL",1) !Global("_bRPLOT01C","GLOBAL",1)~ THEN @319 /*This tattered parchment seems very old... It may be valuable.*/
-DO ~TakePartyItem("PLOT01C") DestroyItem("PLOT01C") SetGlobal("_bRPLOT01C","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("PLOT01C") DestroyItem("PLOT01C") SetGlobal("_bRPLOT01C","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("PLOT01D") Global("CribNote","GLOBAL",1) !Global("_bRPLOT01D","GLOBAL",1)~ THEN @320 /*A ritual document of some sort...*/
-DO ~TakePartyItem("PLOT01D") DestroyItem("PLOT01D") SetGlobal("_bRPLOT01D","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("PLOT01D") DestroyItem("PLOT01D") SetGlobal("_bRPLOT01D","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("PLOT01E") Global("CribNote","GLOBAL",1) !Global("_bRPLOT01E","GLOBAL",1)~ THEN @321 /*What lovely calligraphy. Someone put great effort into this.*/
-DO ~TakePartyItem("PLOT01E") DestroyItem("PLOT01E") SetGlobal("_bRPLOT01E","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("PLOT01E") DestroyItem("PLOT01E") SetGlobal("_bRPLOT01E","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("PLOT01I") !Global("_bRPLOT01I","GLOBAL",1)~ THEN @322 /*The History of the Imprisoned One... Perhaps the Helmites will be interested in this.*/
-DO ~TakePartyItem("PLOT01I") DestroyItem("PLOT01I") SetGlobal("_bRPLOT01I","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("PLOT01I") DestroyItem("PLOT01I") SetGlobal("_bRPLOT01I","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("PLOT01M") Global("CribNote","GLOBAL",1) !Global("_bRPLOT01M","GLOBAL",1)~ THEN @323 /*The scribes will appreciate this note. It looks quite professional.*/
-DO ~TakePartyItem("PLOT01M") DestroyItem("PLOT01M") SetGlobal("_bRPLOT01M","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("PLOT01M") DestroyItem("PLOT01M") SetGlobal("_bRPLOT01M","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("PLOT01N") !Global("_bRPLOT01N","GLOBAL",1) Global("CribNote","GLOBAL",1)~ THEN @324 /*Did you take some poor old man's correspondence? And a cold old man as well...*/
-DO ~TakePartyItem("PLOT01N") DestroyItem("PLOT01N") SetGlobal("_bRPLOT01N","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("PLOT01N") DestroyItem("PLOT01N") SetGlobal("_bRPLOT01N","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("PLOT02F") !Global("_bRPLOT02F","GLOBAL",1)~ THEN @325 /*This journal has some poetry... how nice...*/
-DO ~TakePartyItem("PLOT02F") DestroyItem("PLOT02F") SetGlobal("_bRPLOT02F","GLOBAL",1) AddexperienceParty(10000) AddJournalEntry(@1004,USER)~ /*Note on Madman's Journal*/
+DO ~TakePartyItem("PLOT02F") DestroyItem("PLOT02F") SetGlobal("_bRPLOT02F","GLOBAL",1) AddexperienceParty(1000) AddJournalEntry(@1004,USER)~ /*Note on Madman's Journal*/
 
 == MURDGIRL IF ~PartyHasItem("PLOT02G") !Global("_bRPLOT02G","GLOBAL",1)~ THEN @326 /*What do we have here.... The private journal of Sir Kalthorine ut Wistan...*/
-DO ~TakePartyItem("PLOT02G") DestroyItem("PLOT02G") SetGlobal("_bRPLOT02G","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("PLOT02G") DestroyItem("PLOT02G") SetGlobal("_bRPLOT02G","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("PLOT03F") !Global("_bRPLOT03F","GLOBAL",1) Global("ScepterKeys","GLOBAL",1)~ THEN @327 /*....What is this talking about? Some kind of mage's rivalry?*/
-DO ~TakePartyItem("PLOT03F") DestroyItem("PLOT03F") SetGlobal("_bRPLOT03F","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("PLOT03F") DestroyItem("PLOT03F") SetGlobal("_bRPLOT03F","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("PLOT03G") !Global("_bRPLOT03G","GLOBAL",1) Global("ScepterKeys","GLOBAL",1)~ THEN @328 /*....Burned scraps, really? This is hardly even paper.*/
-DO ~TakePartyItem("PLOT03G") DestroyItem("PLOT03G") SetGlobal("_bRPLOT03G","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("PLOT03G") DestroyItem("PLOT03G") SetGlobal("_bRPLOT03G","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("PLOT03H") !Global("_bRPLOT03H","GLOBAL",1) Global("ScepterKeys","GLOBAL",1)~ THEN @329 /*Uggh, this note is wet.*/
-DO ~TakePartyItem("PLOT03H") DestroyItem("PLOT03H") SetGlobal("_bRPLOT03H","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("PLOT03H") DestroyItem("PLOT03H") SetGlobal("_bRPLOT03H","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("PLOT03I") !Global("_bRPLOT03I","GLOBAL",1) Global("ScepterKeys","GLOBAL",1)~ THEN @330 /*Is this letter made of ice? I'll have wizards fighting each other to study this.*/
-DO ~TakePartyItem("PLOT03I") DestroyItem("PLOT03I") SetGlobal("_bRPLOT03I","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("PLOT03I") DestroyItem("PLOT03I") SetGlobal("_bRPLOT03I","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("PLOT04E") !Global("_bRPLOT04E","GLOBAL",1) Global("StairButton","GLOBAL",1)~ THEN @331 /*Hmm, a pity you don't have the rest of this diary.*/
-DO ~TakePartyItem("PLOT04E") DestroyItem("PLOT04E") SetGlobal("_bRPLOT04E","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("PLOT04E") DestroyItem("PLOT04E") SetGlobal("_bRPLOT04E","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("PLOT04J") !Global("_bRPLOT04J","GLOBAL",1) Global("StairButton","GLOBAL",1)~ THEN @332 /*What a strange journal... I hope this Carston person was grateful if you freed him.*/
-DO ~TakePartyItem("PLOT04J") DestroyItem("PLOT04J") SetGlobal("_bRPLOT04J","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("PLOT04J") DestroyItem("PLOT04J") SetGlobal("_bRPLOT04J","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("SCRLADJ") !Global("_bRSCRLADJ","GLOBAL",1)~ THEN @333 /*Nobles always did like to use ten words when one would do. Lord Jierdan Firkraag sounds rather snooty to me.*/
-DO ~TakePartyItem("SCRLADJ") DestroyItem("SCRLADJ") SetGlobal("_bRSCRLADJ","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("SCRLADJ") DestroyItem("SCRLADJ") SetGlobal("_bRSCRLADJ","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("SCRLHP") !Global("_bRSCRLHP","GLOBAL",1)~ THEN @334 /*Sounds like this thief met an unfortunate end. Well-deserved most likely.*/
-DO ~TakePartyItem("SCRLHP") DestroyItem("SCRLHP") SetGlobal("_bRSCRLHP","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("SCRLHP") DestroyItem("SCRLHP") SetGlobal("_bRSCRLHP","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("SCRLICK") !Global("_bRSCRLICK","GLOBAL",1)~ THEN @335 /*This script is almost painful to look at, <CHARNAME>; where did you get this?*/
-DO ~TakePartyItem("SCRLICK") DestroyItem("SCRLICK") SetGlobal("_bRSCRLICK","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("SCRLICK") DestroyItem("SCRLICK") SetGlobal("_bRSCRLICK","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("SCRLMZ") !Global("_bRSCRLMZ ","GLOBAL",1)~ THEN @336 /*A Note from Mazzy Fentan... I'll add it to the catalog.*/
 == MAZZYJ IF ~IfValidForPartyDialog("Mazzy") PartyHasItem("SCRLMZ") !Global("_bRSCRLMZ ","GLOBAL",1)~ THEN @337 /*I can't believe you kept that, <CHARNAME>.*/
 == MURDGIRL IF ~PartyHasItem("SCRLMZ") !Global("_bRSCRLMZ ","GLOBAL",1)~ THEN @338 /*Short but to the point. I appreciate that.*/
-DO ~TakePartyItem("SCRLMZ") DestroyItem("SCRLMZ") SetGlobal("_bRSCRLMZ ","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("SCRLMZ") DestroyItem("SCRLMZ") SetGlobal("_bRSCRLMZ ","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("SCRLA9") Global("_bRSCRLA9","GLOBAL",1)~ THEN @341 /*Another strange note? Several scholars have been fighting over the last one, so this should help a lot.*/
-DO ~TakePartyItem("SCRLA9") DestroyItem("SCRLA9") AddexperienceParty(2000)~
+DO ~TakePartyItem("SCRLA9") DestroyItem("SCRLA9") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("SCRLA9") !Global("_bRSCRLA9","GLOBAL",1)~ THEN @342 /*What... what is this written with? That's unpleasant but some folks will like the challenge, I am sure.*/
-DO ~TakePartyItem("SCRLA9") DestroyItem("SCRLA9") SetGlobal("_bRSCRLA9","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("SCRLA9") DestroyItem("SCRLA9") SetGlobal("_bRSCRLA9","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("SCRLAA") Global("_bRSCRLAA","GLOBAL",1)~ THEN @343 /*Where do you find these documents? But perhaps another copy of this nonsense will help my patrons crack the code.*/
-DO ~TakePartyItem("SCRLAA") DestroyItem("SCRLAA") AddexperienceParty(2000)~
+DO ~TakePartyItem("SCRLAA") DestroyItem("SCRLAA") AddexperienceParty(200)~
 == MURDGIRL IF ~PartyHasItem("SCRLAA") !Global("_bRSCRLAA","GLOBAL",1)~ THEN @344 /*Is this some kind of code? Looks like gibberish to me, but someone will find it interesting.*/
-DO ~TakePartyItem("SCRLAA") DestroyItem("SCRLAA") SetGlobal("_bRSCRLAA","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("SCRLAA") DestroyItem("SCRLAA") SetGlobal("_bRSCRLAA","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("SCRLAB") !Global("_bRSCRLAB","GLOBAL",1)~ THEN @345 /*Hmm, a recipe? Well, the name is unfortunate, but these Monkey Balls do sound quite delicious actually.*/
-DO ~TakePartyItem("SCRLAB") DestroyItem("SCRLAB") SetGlobal("_bRSCRLAB","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("SCRLAB") DestroyItem("SCRLAB") SetGlobal("_bRSCRLAB","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("SCRLAC") !Global("_bRSCRLAC","GLOBAL",1)~ THEN @346 /*Amnian Dragoon Soup... Oh, I've made this one. Terl is quite fond of it.*/
-DO ~TakePartyItem("SCRLAC") DestroyItem("SCRLAC") SetGlobal("_bRSCRLAC","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("SCRLAC") DestroyItem("SCRLAC") SetGlobal("_bRSCRLAC","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("SCRLAD") !Global("_bRSCRLAD","GLOBAL",1)~ THEN @347 /*Someone had a sweet tooth. I imagine this recipe will be quite popular.*/
-DO ~TakePartyItem("SCRLAD") DestroyItem("SCRLAD") SetGlobal("_bRSCRLAD","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("SCRLAD") DestroyItem("SCRLAD") SetGlobal("_bRSCRLAD","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("SCRLAE") !Global("_bRSCRLAE","GLOBAL",1)~ THEN @348 /*Oh, I'll take this. I can always use more recipes.*/
-DO ~TakePartyItem("SCRLAE") DestroyItem("SCRLAE") SetGlobal("_bRSCRLAE","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("SCRLAE") DestroyItem("SCRLAE") SetGlobal("_bRSCRLAE","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("SCRLAF") !Global("_bRSCRLAF","GLOBAL",1)~ THEN @349 /*Ruby Racks... that's an odd name for a dessert but this recipe looks good.*/
-DO ~TakePartyItem("SCRLAF") DestroyItem("SCRLAF") SetGlobal("_bRSCRLAF","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("SCRLAF") DestroyItem("SCRLAF") SetGlobal("_bRSCRLAF","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISCCC") !Global("_bRMISCCC","GLOBAL",1)~ THEN @350 /*Some kind of rune? Hopefully this isn't dangerous...*/
-DO ~TakePartyItem("MISCCC") DestroyItem("MISCCC") SetGlobal("_bRMISCCC","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISCCC") DestroyItem("MISCCC") SetGlobal("_bRMISCCC","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC6A") !Global("_bRMISC6A","GLOBAL",1)~ THEN @351 /*Oh, is this a letter to that awful murderer? How ghastly. But people do love such things.*/
-DO ~TakePartyItem("MISC6A") DestroyItem("MISC6A") SetGlobal("_bRMISC6A","GLOBAL",1) AddexperienceParty(10000) AddJournalEntry(@1002,USER)~ /*Rejiek Hidesman's Letter*/
+DO ~TakePartyItem("MISC6A") DestroyItem("MISC6A") SetGlobal("_bRMISC6A","GLOBAL",1) AddexperienceParty(1000) AddJournalEntry(@1002,USER)~ /*Rejiek Hidesman's Letter*/
 
 == MURDGIRL IF ~PartyHasItem("MISC7C") !Global("_bRMISC7C","GLOBAL",1)~ THEN @469 /*Interesting... This sounds like you stumbled on another dangerous situation. I'm happy to take this note if you don't need it anymore.*/
-DO ~TakePartyItem("MISC7C") DestroyItem("MISC7C") SetGlobal("_bRMISC7C","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC7C") DestroyItem("MISC7C") SetGlobal("_bRMISC7C","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("MISC4T") !Global("_bRMISC4T","GLOBAL",1) Dead("MaeVar")~ THEN @470 /*Have you truly been carrying around secret orders from the Shadow Master just crumpled in your pack? If Aran were still alive, there's no way that I could take this... But I hope his soul is rotting in the Hells where it belongs.*/
-DO ~TakePartyItem("MISC4T") DestroyItem("MISC4T") SetGlobal("_bRMISC4T","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("MISC4T") DestroyItem("MISC4T") SetGlobal("_bRMISC4T","GLOBAL",1) AddexperienceParty(1000)~
 
 //Mod Items start here
 == MURDGIRL IF ~PartyHasItem("ESXL3") !Global("_bRESXL3","GLOBAL",1)~ THEN @352 /*What an odd letter... Why would anyone want to leave a city for some clearing?*/
 == CERNDJ IF  ~IfValidForPartyDialog("Cernd") PartyHasItem("ESXL3") !Global("_bRESXL3","GLOBAL",1)~ THEN @353 /*There are many reasons to heed the call of nature. A city such as this stifles the very soul.*/
 == MURDGIRL IF ~PartyHasItem("ESXL3") !Global("_bRESXL3","GLOBAL",1)~ THEN @354 /*Perhaps they were chasing a dream. That I could understand.*/
-DO ~TakePartyItem("ESXL3") DestroyItem("ESXL3") SetGlobal("_bRESXL3","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ESXL3") DestroyItem("ESXL3") SetGlobal("_bRESXL3","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("O#KVASN") !Global("_bRO#KVASN","GLOBAL",1)~ THEN @355 /*Have you been working for a brothel, <CHARNAME>? You should be ashamed of yourself, unless you helped those girls go free.*/
-DO ~TakePartyItem("O#KVASN") DestroyItem("O#KVASN") SetGlobal("_bRO#KVASN","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("O#KVASN") DestroyItem("O#KVASN") SetGlobal("_bRO#KVASN","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("C-ALTTR1") !Global("_bRC-ALTTR1","GLOBAL",1)~ THEN @356 /*Some sort of job notice... I suppose I could post it for this Whitehand fellow, whoever he may be.*/
 == IF_FILE_EXISTS C-ARANJ  IF ~IfValidForPartyDialog("C-ARAN") PartyHasItem("C-ALTTR1") !Global("_bRC-ALTTR1","GLOBAL",1)~ THEN @357 /*That be much appreciated. A mercenary can always use good word of mouth.*/
 == MURDGIRL IF ~PartyHasItem("C-ALTTR1") !Global("_bRC-ALTTR1","GLOBAL",1)~ THEN @358 /*Perhaps one of my patrons will need a translation soon enough.*/
-DO ~TakePartyItem("C-ALTTR1") DestroyItem("C-ALTTR1") SetGlobal("_bRC-ALTTR1","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("C-ALTTR1") DestroyItem("C-ALTTR1") SetGlobal("_bRC-ALTTR1","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("O#CRNOT1") !Global("_bRO#CRNOT1","GLOBAL",1)~ THEN @359 /*Are you a spy now, <CHARNAME>? I think it will be safest if this note goes to scrap.*/
-DO ~TakePartyItem("O#CRNOT1") DestroyItem("O#CRNOT1") SetGlobal("_bRO#CRNOT1","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("O#CRNOT1") DestroyItem("O#CRNOT1") SetGlobal("_bRO#CRNOT1","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("RH#LTTR") !Global("_bRRH#LTTR","GLOBAL",1)~ THEN @360 /*Ooh, someone is in trouble. I hoped you helped this Jysstev's wife.*/
-DO ~TakePartyItem("RH#LTTR") DestroyItem("RH#LTTR") SetGlobal("_bRRH#LTTR","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("RH#LTTR") DestroyItem("RH#LTTR") SetGlobal("_bRRH#LTTR","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("D0QPPOT1") !Global("_bRD0QPPOT1","GLOBAL",1)~ THEN @361 /*A list of potions... Well, I can think of a few alchemists who might have some use for this.*/
-DO ~TakePartyItem("D0QPPOT1") DestroyItem("D0QPPOT1") SetGlobal("_bRD0QPPOT1","GLOBAL",1) AddexperienceParty(10000) AddJournalEntry(@1003,USER)~
+DO ~TakePartyItem("D0QPPOT1") DestroyItem("D0QPPOT1") SetGlobal("_bRD0QPPOT1","GLOBAL",1) AddexperienceParty(1000) AddJournalEntry(@1003,USER)~
 
 == MURDGIRL IF ~PartyHasItem("C-ALTTR8") !Global("_bRC-ALTTR8","GLOBAL",1)~ THEN @362 /*Is someone writing a novel? And a salacious one at that... I wonder if they'd consider giving me a copy.*/
 == IF_FILE_EXISTS C-ARANJ  IF ~IfValidForPartyDialog("C-ARAN") PartyHasItem("C-ALTTR8") !Global("_bRC-ALTTR8","GLOBAL",1)~ THEN @363 /*We're still negotiatin' terms, milady, but I would be delighted to give you one of th' first printin'. Anythin' for a fan.*/
 == MURDGIRL IF ~IfValidForPartyDialog("C-ARAN") PartyHasItem("C-ALTTR8") !Global("_bRC-ALTTR8","GLOBAL",1)~ THEN @364 /*Thank you. That would help my library so much.*/
 == MURDGIRL IF ~PartyHasItem("C-ALTTR8") !Global("_bRC-ALTTR8","GLOBAL",1)~ THEN @365 /*I'd love to read it and I've heard that early drafts can be quite valuable.*/
-DO ~TakePartyItem("C-ALTTR8") DestroyItem("C-ALTTR8") SetGlobal("_bRC-ALTTR8","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("C-ALTTR8") DestroyItem("C-ALTTR8") SetGlobal("_bRC-ALTTR8","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ESXB2") !Global("_bRESXB2","GLOBAL",1)~ THEN @366 /*How do you pronounce this? Isle-Stray.... Ill-i-Straw.... Well, no matter, discussions of other gods are always popular.*/
-DO ~TakePartyItem("ESXB2") DestroyItem("ESXB2") SetGlobal("_bRESXB2","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ESXB2") DestroyItem("ESXB2") SetGlobal("_bRESXB2","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("ESXB1") !Global("_bRESXB1","GLOBAL",1)~ THEN @367 /*A History of Eilistraee, the Dark Maiden... That sounds mysterious.*/
-DO ~TakePartyItem("ESXB1") DestroyItem("ESXB1") SetGlobal("_bRESXB1","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("ESXB1") DestroyItem("ESXB1") SetGlobal("_bRESXB1","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("YRXLET") !Global("_bRYRXLET","GLOBAL",1)~ THEN @368 /*Love, tragedy, betrayal, and a plea for forgiveness... If you truly wish to part with it, I know that this letter will touch my patrons' hearts.*/
-DO ~TakePartyItem("YRXLET") DestroyItem("YRXLET") SetGlobal("_bRYRXLET","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("YRXLET") DestroyItem("YRXLET") SetGlobal("_bRYRXLET","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("RE_ANNEN") Global("RE_AnneSaved","GLOBAL",1) !Global("_bRRE_ANNEN","GLOBAL",1)~ THEN @369 /*One thousand gold for ransom? You truly have been spending time among the upper classes. Although it seems that nobles have need of heroes too.*/
-DO ~TakePartyItem("RE_ANNEN") DestroyItem("RE_ANNEN") SetGlobal("_bRRE_ANNEN","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("RE_ANNEN") DestroyItem("RE_ANNEN") SetGlobal("_bRRE_ANNEN","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("O#LLNOT1") !Global("_bRO#LLNOT1","GLOBAL",1)~ THEN @370 /*What language is this? I cannot read it. But perhaps some scholar will.*/
-DO ~TakePartyItem("O#LLNOT1") DestroyItem("O#LLNOT1") SetGlobal("_bRO#LLNOT1 ","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("O#LLNOT1") DestroyItem("O#LLNOT1") SetGlobal("_bRO#LLNOT1 ","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("O#BRYNND") !Global("_bRO#BRYNND","GLOBAL",1)~ THEN @466 /*What a sad diary. With both his wife and the Cowled Wizards trying to kill him, this poor fellow had no chance.*/
 = @467 /*And a deed as well... Are you sure that I can have this? If everything works out, you'll be invited to our housewarming for sure!*/
-DO ~TakePartyItem("O#BRYNND") DestroyItem("O#BRYNND") SetGlobal("_bRO#BRYNND","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("O#BRYNND") DestroyItem("O#BRYNND") SetGlobal("_bRO#BRYNND","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL IF ~PartyHasItem("O#LLSPEL") !Global("_bRO#LLSPEL","GLOBAL",1)~ THEN @468 /*Hmm, this looks like a poorly written spellbook, but I'm sure some apprentice will want it anyway.*/
-DO ~TakePartyItem("O#LLSPEL") DestroyItem("O#LLSPEL") SetGlobal("_bRO#LLSPEL","GLOBAL",1) AddexperienceParty(10000)~
+DO ~TakePartyItem("O#LLSPEL") DestroyItem("O#LLSPEL") SetGlobal("_bRO#LLSPEL","GLOBAL",1) AddexperienceParty(1000)~
 
 == MURDGIRL @339 /*Thank you, <CHARNAME>. If you find anything else, you know where I am.*/
 EXIT
