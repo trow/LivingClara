@@ -4,10 +4,10 @@ BEGIN _bclarap
 APPEND _bclarap IF ~Global("KickedOut","LOCALS",0) !Global("_bLordAndLadyDelryn","GLOBAL",5) !Global("_bLadyDelryn","GLOBAL",1)~ THEN _bCP1
 	SAY @0 /*So I guess this is it then?*/
 		++ @1 /*No, I want you to stay.*/ DO ~JoinParty()~ EXIT
-		+ ~!GlobalGT("_bClaraAnomenLove","GLOBAL",23) OR(2) Global("_bSleptWithClara","GLOBAL",7) Dead("aran")~ + @2 /*Yes, we should go our separate ways.*/ GOTO _bCP2
-		+ ~!GlobalGT("_bClaraAnomenLove","GLOBAL",23) !Global("_bSleptWithClara","GLOBAL",7) Global("_bRenalClara","GLOBAL",0) !Global("_bRenalOHHFAK","GLOBAL",2) !Global("B!Alternatives","GLOBAL",6) !Global("D0AranHostile","GLOBAL",1) !GlobalGT("WorkingforBodhi","GLOBAL",0) !Global("AttackedThieves","GLOBAL",1) !Dead("aran")~ + @2 /*Yes, we should go our separate ways.*/ GOTO _bCP2
-		+ ~!GlobalGT("_bClaraAnomenLove","GLOBAL",23) !Global("_bSleptWithClara","GLOBAL",7) !Global("B!Alternatives","GLOBAL",6) !Global("D0AranHostile","GLOBAL",1) !GlobalGT("WorkingforBodhi","GLOBAL",0) !Global("AttackedThieves","GLOBAL",1) !Dead("aran") OR(2) Global("_bRenalOHHFAK","GLOBAL",2) Global("_bRenalClara","GLOBAL",2)~ + @2 /*Yes, we should go our separate ways.*/ GOTO _bCP4
-		+ ~!GlobalGT("_bClaraAnomenLove","GLOBAL",23) !Global("_bSleptWithClara","GLOBAL",7) !Dead("aran") OR(4) Global("B!Alternatives","GLOBAL",6) Global("D0AranHostile","GLOBAL",1) GlobalGT("WorkingforBodhi","GLOBAL",0) Global("AttackedThieves","GLOBAL",1)~ + @2 /*Yes, we should go our separate ways.*/ GOTO _bCP5
+		+ ~!GlobalGT("_bClaraAnomenLove","GLOBAL",23) Dead("aran")~ + @2 /*Yes, we should go our separate ways.*/ GOTO _bCP2
+		+ ~!GlobalGT("_bClaraAnomenLove","GLOBAL",23) Global("_bRenalClara","GLOBAL",0) !Global("_bRenalOHHFAK","GLOBAL",2) !Global("B!Alternatives","GLOBAL",6) !Global("D0AranHostile","GLOBAL",1) !GlobalGT("WorkingforBodhi","GLOBAL",0) !Global("AttackedThieves","GLOBAL",1) !Dead("aran")~ + @2 /*Yes, we should go our separate ways.*/ GOTO _bCP2
+		+ ~!GlobalGT("_bClaraAnomenLove","GLOBAL",23) !Global("B!Alternatives","GLOBAL",6) !Global("D0AranHostile","GLOBAL",1) !GlobalGT("WorkingforBodhi","GLOBAL",0) !Global("AttackedThieves","GLOBAL",1) !Dead("aran") OR(2) Global("_bRenalOHHFAK","GLOBAL",2) Global("_bRenalClara","GLOBAL",2)~ + @2 /*Yes, we should go our separate ways.*/ GOTO _bCP4
+		+ ~!GlobalGT("_bClaraAnomenLove","GLOBAL",23) !Dead("aran") OR(4) Global("B!Alternatives","GLOBAL",6) Global("D0AranHostile","GLOBAL",1) GlobalGT("WorkingforBodhi","GLOBAL",0) Global("AttackedThieves","GLOBAL",1)~ + @2 /*Yes, we should go our separate ways.*/ GOTO _bCP5
 		+ ~GlobalGT("_bClaraAnomenLove","GLOBAL",23)~ + @2 /*Yes, we should go our separate ways.*/ GOTO _bCPA
 		++ @93 /*No, I just want you to change what kind of thief you are.*/ GOTO _bClaraKitChange1
 	END	
@@ -46,7 +46,7 @@ APPEND _bclarap IF ~Global("KickedOut","LOCALS",0) !Global("_bLordAndLadyDelryn"
 
 	IF ~~ THEN _bCP7
 	SAY @77 /*Really? I've never done that before. But as Jenny always said, it doesn't matter what they look like, just show enthusiasm, do whatever they ask, and try to enjoy yourself. Okay, I'll do it. Next time we're at an inn. You won't regret this!*/
-	IF ~~ THEN DO ~SetGlobal("_bSleepsWithClara","GLOBAL",1) JoinParty()~ EXIT
+	IF ~~ THEN DO ~JoinParty()~ EXIT
 	END
 END
 
@@ -55,7 +55,7 @@ CHAIN _bclarap _bCP8
 	= @79 /*I know! I can share your bed. Give me one night and you'll see that keeping me is worthwhile. Let me prove myself to you!*/
 	END
 	++ @76 /*Nope, sorry, goodbye.*/ GOTO _bCP2
-	++ @80 /*Very well, I accept. Next time we're at an inn, you can show off your skills. Do it well enough and I might decide to keep you around.*/ DO ~SetGlobal("_bSleepsWithClara","GLOBAL",1) JoinParty()~ EXIT
+	++ @80 /*Very well, I accept. Next time we're at an inn, you can show off your skills. Do it well enough and I might decide to keep you around.*/ DO ~JoinParty()~ EXIT
 	
 CHAIN _bCLARAP _bCPA
 @87 /*All right, I'll go to the Copper Coronet.*/
@@ -172,7 +172,7 @@ APPEND _bclarap IF ~Global("KickedOut","LOCALS",1) !Dead("sterk") Global("_bClar
 END
 	
 //If no other conditions apply. Not Married to Cor or Anomen
-APPEND _bclarap IF ~Global("KickedOut","LOCALS",1) !Global("_bSleptWithClara","GLOBAL",7) !Global("_bLordAndLadyDelryn","GLOBAL",5) !Global("_bLadyDelryn","GLOBAL",1)~ THEN _bClara2Join1
+APPEND _bclarap IF ~Global("KickedOut","LOCALS",1) !Global("_bLordAndLadyDelryn","GLOBAL",5) !Global("_bLadyDelryn","GLOBAL",1)~ THEN _bClara2Join1
 	SAY @54 /*Hi, <CHARNAME>, how can I help you? Do you need something?*/
 		++ @34 /*No, I'm just saying hi. How are you?*/ GOTO _bClara2Join2
 		++ @35 /*Yes, I want you to come with me.*/ GOTO _bClara2Join3
