@@ -2,7 +2,7 @@ BACKUP ~LivingClara/backup~// 设置备份目录
 
 AUTHOR ~MephistoSatanDevil Authorization from BCaesar and Ratatoskr (Briana)~// 作者信息
 
-VERSION ~Version 0.01~// Mod 版本
+VERSION ~Version 0.99~// Mod 版本
 
 README ~LivingClara/readme.txt~ // 安装时提供打开 README 文件的选项
 
@@ -432,8 +432,25 @@ COMPILE ~LivingClara/Clara/_bHdeath.baf~ EVALUATE_BUFFER USING ~LivingClara/tran
 COMPILE ~LivingClara/Clara/_bHdeath.d~ EVALUATE_BUFFER USING ~LivingClara/translations/%LANGUAGE%/_bgettingclara.tra~	
 COPY ~LivingClara/Clara/_bHdeath.cre~ ~override~
 //添加一个复原术卷轴by shohy
-COPY_EXISTING ~ohhdrago.cre~ ~override~
-	ADD_CRE_ITEM ~RESTORE~ #1 #0 #0 ~NONE~ ~INV7~
+//COPY_EXISTING ~ohhdrago.cre~ ~override~
+//	ADD_CRE_ITEM ~RESTORE~ #1 #0 #0 ~NONE~ ~INV7~
+//给入口处有治疗之杖的棺材里添加一个木桩和一个复原术卷轴by MephistoSatanDevil
+COPY_EXISTING ~ar0811.are~ ~override~
+  LPF ADD_AREA_ITEM
+  INT_VAR
+    container_to_add_to = 1
+	charges1 = 1
+  STR_VAR
+	item_to_add = ~RESTORE~
+  END
+COPY_EXISTING ~ar0811.are~ ~override~
+  LPF ADD_AREA_ITEM
+  INT_VAR
+    container_to_add_to = 1
+	charges1 = 1
+  STR_VAR
+    item_to_add = ~MISC6W~
+  END
 
 // 将 Clara 与 "OHHFAK" NPC (可能是一个特定事件或 NPC) 的互动脚本 (_bOHHFAKClara.baf)
 // 添加到 OHHFAK.bcs 脚本的底部 (EXTEND_BOTTOM)。
