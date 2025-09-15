@@ -571,70 +571,70 @@ SAY DESC @69 /*Similar to the rare yet oft-discussed cursed Girdle of Masculinit
 // --- 跨 Mod 侏儒腰带代码 ("Alora in BG2" Mod) ---
 // 检测 "Alora in BG2" Mod 是否安装 (通过检查 ALORA09.cre 文件)。
 //Crossmod Halfling Belt Code ("Alora in BG2" mod)
-//ACTION_IF FILE_EXISTS_IN_GAME ~ALORA09.cre~ THEN BEGIN //This code detects the Alora NPC mod and adds our gender belt code to her script. Alora must be installed first.
-//    // 如果检测到，则打印信息。
-//	PRINT @144 /*'Alora in BG2' mod detected - adding crossmod Easter egg*/
-//    // 将腰带效果的脚本扩展添加到 Alora 的 SoA 脚本底部。
-//EXTEND_BOTTOM ~CMALORA.BCS~ ~LivingClara/scripts/crossmod/_bAlora.baf~ 
-//END ELSE BEGIN    // 如果未检测到，则打印信息。
-// PRINT @145 /*'Alora in BG2' mod not detected*/
-//END
-//
-//// 检测 "Alora in BG2" Mod 的 TOB 版本 (ALORA25.cre)。
-//ACTION_IF FILE_EXISTS_IN_GAME ~ALORA25.cre~ THEN BEGIN //Alora belt code
-//    // 将腰带效果的脚本扩展添加到 Alora 的 TOB 脚本底部。
-//EXTEND_BOTTOM ~CMALO25.BCS~ ~LivingClara/scripts/crossmod/_bAlora.baf~ 
-//END // 结束 Alora (TOB) 存在的处理块。
+ACTION_IF FILE_EXISTS_IN_GAME ~ALORA09.cre~ THEN BEGIN //This code detects the Alora NPC mod and adds our gender belt code to her script. Alora must be installed first.
+    // 如果检测到，则打印信息。
+	PRINT @144 /*'Alora in BG2' mod detected - adding crossmod Easter egg*/
+    // 将腰带效果的脚本扩展添加到 Alora 的 SoA 脚本底部。
+EXTEND_BOTTOM ~CMALORA.BCS~ ~LivingClara/scripts/crossmod/_bAlora.baf~ 
+END ELSE BEGIN    // 如果未检测到，则打印信息。
+ PRINT @145 /*'Alora in BG2' mod not detected*/
+END
+
+// 检测 "Alora in BG2" Mod 的 TOB 版本 (ALORA25.cre)。
+ACTION_IF FILE_EXISTS_IN_GAME ~ALORA25.cre~ THEN BEGIN //Alora belt code
+    // 将腰带效果的脚本扩展添加到 Alora 的 TOB 脚本底部。
+EXTEND_BOTTOM ~CMALO25.BCS~ ~LivingClara/scripts/crossmod/_bAlora.baf~ 
+END // 结束 Alora (TOB) 存在的处理块。
 
 //Crossmod Halfling Belt Code (Smiling Imp's Alora)
 // --- 跨 Mod 侏儒腰带代码 (Smiling Imp's "BG1 NPCs in SoA & ToB" Mod) ---
 // 检测 Smiling Imp 的 Mod 中的 Alora 组件 (7XCRE69.cre)。
-//ACTION_IF FILE_EXISTS_IN_GAME ~7XCRE69.cre~ THEN BEGIN //This code detects the Alora component from "BG1 NPCs in Soa&ToB" mod and adds our gender belt code to her script. Alora must be installed first.
-//    // 如果检测到，则打印信息。
-// PRINT @1440 /*'BG1 NPCs in SoA & ToB' Alora detected - adding crossmod Easter egg*/
-//    // 将特定的腰带效果脚本扩展添加到该版本 Alora 的 SoA 和 TOB 脚本底部。
-//EXTEND_BOTTOM ~7xAlor.BCS~ ~LivingClara/scripts/crossmod/_bAloraImp.baf~ 
-//EXTEND_BOTTOM ~7XAlor25.BCS~ ~LivingClara/scripts/crossmod/_bAloraImp.baf~ 
-//END ELSE BEGIN
-//    // 如果未检测到，则打印信息。
-// PRINT @1450 /*'BG1 NPCs in SoA & ToB' Alora NPC not detected*/
-//END
+ACTION_IF FILE_EXISTS_IN_GAME ~7XCRE69.cre~ THEN BEGIN //This code detects the Alora component from "BG1 NPCs in Soa&ToB" mod and adds our gender belt code to her script. Alora must be installed first.
+    // 如果检测到，则打印信息。
+ PRINT @1440 /*'BG1 NPCs in SoA & ToB' Alora detected - adding crossmod Easter egg*/
+    // 将特定的腰带效果脚本扩展添加到该版本 Alora 的 SoA 和 TOB 脚本底部。
+EXTEND_BOTTOM ~7xAlor.BCS~ ~LivingClara/scripts/crossmod/_bAloraImp.baf~ 
+EXTEND_BOTTOM ~7XAlor25.BCS~ ~LivingClara/scripts/crossmod/_bAloraImp.baf~ 
+END ELSE BEGIN
+    // 如果未检测到，则打印信息。
+ PRINT @1450 /*'BG1 NPCs in SoA & ToB' Alora NPC not detected*/
+END
 
 // --- 跨 Mod 侏儒腰带代码 (Nephele NPC Mod) ---
 // 检测 Nephele NPC Mod 是否安装 (lk#neph.cre)。
-//ACTION_IF FILE_EXISTS_IN_GAME ~lk#neph.cre~ THEN BEGIN //This code detects the Nephele NPC mod and adds our gender belt code to her script. Nephele must be installed first.
-//    // 如果检测到，则打印信息。
-// PRINT @146 /*Nephele detected - adding crossmod Easter egg*/
-//    // 将腰带效果的脚本扩展添加到 Nephele 的 SoA 脚本底部。
-//EXTEND_BOTTOM ~LK#NEPH.BCS~ ~LivingClara/scripts/crossmod/_bNeph.baf~ 
-//END ELSE BEGIN
-//// 如果未检测到，则打印信息。
-// PRINT @147 /*Nephele NPC not detected*/
-//END
+ACTION_IF FILE_EXISTS_IN_GAME ~lk#neph.cre~ THEN BEGIN //This code detects the Nephele NPC mod and adds our gender belt code to her script. Nephele must be installed first.
+    // 如果检测到，则打印信息。
+ PRINT @146 /*Nephele detected - adding crossmod Easter egg*/
+    // 将腰带效果的脚本扩展添加到 Nephele 的 SoA 脚本底部。
+EXTEND_BOTTOM ~LK#NEPH.BCS~ ~LivingClara/scripts/crossmod/_bNeph.baf~ 
+END ELSE BEGIN
+// 如果未检测到，则打印信息。
+ PRINT @147 /*Nephele NPC not detected*/
+END
 
 // 检测 Nephele NPC Mod 的 TOB 版本 (lk#ne25.cre)。
-//ACTION_IF FILE_EXISTS_IN_GAME ~lk#ne25.cre~ THEN BEGIN //Nephele belt code
-//    // 将腰带效果的脚本扩展添加到 Nephele 的 TOB 脚本底部。
-//EXTEND_BOTTOM ~LK#NE25.BCS~ ~LivingClara/scripts/crossmod/_bNeph.baf~ 
-//END // 结束 Nephele (TOB) 存在的处理块。
-//
-//// --- 跨 Mod 侏儒腰带代码 (Petsy NPC Mod) ---
-//// 检测 Petsy NPC Mod 是否安装 (L3Petsy.cre)。
-//ACTION_IF FILE_EXISTS_IN_GAME ~L3Petsy.cre~ THEN BEGIN //This code detects the Petsy NPC mod and adds our gender belt code to her script. Nephele must be installed first.
-//    // 如果检测到，则打印信息。
-// PRINT @148 /*Petsy detected - adding crossmod Easter egg*/
-//    // 将腰带效果的脚本扩展添加到 Petsy 的 SoA 脚本底部。
-//EXTEND_BOTTOM ~L3Petsy.BCS~ ~LivingClara/scripts/crossmod/_bPetsy.baf~ 
-//END ELSE BEGIN
-// PRINT @149 /*Petsy NPC not detected*/
-//// 结束 Petsy (SoA) 存在的处理块。
-//END
-//// 检测 Petsy NPC Mod 的 TOB 版本 (L3Pet25.cre)。
-//ACTION_IF FILE_EXISTS_IN_GAME ~L3Pet25.cre~ THEN BEGIN //Petsy belt code
-//    // 将腰带效果的脚本扩展添加到 Petsy 的 TOB 脚本底部。
-//EXTEND_BOTTOM ~L3Pet25.BCS~ ~LivingClara/scripts/crossmod/_bPetsy.baf~ 
-// // 结束 Petsy (TOB) 存在的处理块。
-//END
+ACTION_IF FILE_EXISTS_IN_GAME ~lk#ne25.cre~ THEN BEGIN //Nephele belt code
+    // 将腰带效果的脚本扩展添加到 Nephele 的 TOB 脚本底部。
+EXTEND_BOTTOM ~LK#NE25.BCS~ ~LivingClara/scripts/crossmod/_bNeph.baf~ 
+END // 结束 Nephele (TOB) 存在的处理块。
+
+// --- 跨 Mod 侏儒腰带代码 (Petsy NPC Mod) ---
+// 检测 Petsy NPC Mod 是否安装 (L3Petsy.cre)。
+ACTION_IF FILE_EXISTS_IN_GAME ~L3Petsy.cre~ THEN BEGIN //This code detects the Petsy NPC mod and adds our gender belt code to her script. Nephele must be installed first.
+    // 如果检测到，则打印信息。
+ PRINT @148 /*Petsy detected - adding crossmod Easter egg*/
+    // 将腰带效果的脚本扩展添加到 Petsy 的 SoA 脚本底部。
+EXTEND_BOTTOM ~L3Petsy.BCS~ ~LivingClara/scripts/crossmod/_bPetsy.baf~ 
+END ELSE BEGIN
+ PRINT @149 /*Petsy NPC not detected*/
+// 结束 Petsy (SoA) 存在的处理块。
+END
+// 检测 Petsy NPC Mod 的 TOB 版本 (L3Pet25.cre)。
+ACTION_IF FILE_EXISTS_IN_GAME ~L3Pet25.cre~ THEN BEGIN //Petsy belt code
+    // 将腰带效果的脚本扩展添加到 Petsy 的 TOB 脚本底部。
+EXTEND_BOTTOM ~L3Pet25.BCS~ ~LivingClara/scripts/crossmod/_bPetsy.baf~ 
+ // 结束 Petsy (TOB) 存在的处理块。
+END
 
 //Crossmod for NPC Stronghold
 // --- 与 NPC Strongholds Mod 的跨 Mod 兼容性 ---
@@ -658,7 +658,6 @@ SAY DESC @69 /*Similar to the rare yet oft-discussed cursed Girdle of Masculinit
 
 //Various new items and creatures used in the main mod
 // ========== 其他随机内容 - 新物品和生物 ==========
-// 注：路径是 LivingClara，但根据 tree.txt 应为 AllThingsMazzy，这可能是代码中的遗留或别名。
 
 // ----- 各种在主 Mod 中使用的新物品和生物 -----
 // 复制 Viconia 专用的翅膀物品。
@@ -809,7 +808,7 @@ COMPILE ~LivingClara/scripts/goodevil/_bGereth.baf~ EVALUATE_BUFFER  //2nd Clara
 // 将 Mazzy 家族相关的脚本逻辑添加到 AR2002 的顶部。
 //EXTEND_TOP ~AR2002.bcs~ ~LivingClara/scripts/goodevil/_bAR2002goodevil.baf~ EVALUATE_BUFFER //Mazzy Family
 // 将 Terl NPC 的对话后备脚本逻辑添加到 terl.bcs 的底部。
-//EXTEND_TOP ~terl.bcs~ ~LivingClara/scripts/goodevil/_bTerlgoodevil.baf~ EVALUATE_BUFFER //For all the Terl talks, mostly backup 
+EXTEND_TOP ~terl.bcs~ ~LivingClara/scripts/goodevil/_bTerlgoodevil.baf~ EVALUATE_BUFFER //For all the Terl talks, mostly backup 
 //// ----- 扩展更多 NPC 的脚本以支持善良/中立路线 -----
 //// 将 Dorn 的善良/中立路线逻辑添加到其脚本底部。
 //EXTEND_BOTTOM ~dorn.bcs~ ~LivingClara/scripts/goodevil/_bdorngoodevil.baf~ EVALUATE_BUFFER
@@ -1042,7 +1041,7 @@ PRINT @154 /*Creating epilogues. Too many epilogues... Why are there so many opt
     REPLACE_TEXTUALLY ~Global("MazzyBio","GLOBAL",0)~
             ~Global("MazzyBio","GLOBAL",0) !Global("_BMazzyFriendship","GLOBAL",1)~
   COMPILE_BAF_TO_BCS// 将修改后的 BAF 重新编译成 BCS
-BUT_ONLY_IF_IT_CHANGES// 仅在文件实际被修改时才覆盖
+BUT_ONLY_IF_IT_CHANGES// 仅在文件实际被修改时才覆盖*/
 
 // 对 Anomen 结局也进行类似处理
 COPY_EXISTING ~ar6200.bcs~ ~override~
@@ -1051,7 +1050,7 @@ COPY_EXISTING ~ar6200.bcs~ ~override~
     REPLACE_TEXTUALLY ~Global("AnomenBio","GLOBAL",0)~
             ~Global("AnomenBio","GLOBAL",0) !Global("_bDarksideAnomen","GLOBAL",2) OR(2) !Global("_bLordAndLadyDelryn","GLOBAL",5) Dead("_bClara")~
   COMPILE_BAF_TO_BCS
-BUT_ONLY_IF_IT_CHANGES*/
+BUT_ONLY_IF_IT_CHANGES
 
 // --- 使用 EXTEND_TOP 修改结局脚本 ---
 // 将自定义的结局控制逻辑脚本添加到 AR6200.bcs 的顶部，以确保它在原有结局逻辑之前执行。
@@ -1183,7 +1182,6 @@ REPLACE ~99999~ @99
 //My Personal Rest Check Files (For all of my mods)
 // ========== 其他随机内容 - 休息检查 (Rest Check) 文件 ==========
 // 这些文件旨在帮助处理 Mod 之间的兼容性问题，特别是在休息时触发的事件。
-// 注：路径是 LivingClara，但根据 tree.txt 应为 AllThingsMazzy，这可能是代码中的遗留或别名。
 
 // 打印一条信息到安装日志，说明正在安装休息检查文件。
 PRINT @155 /*RestCheck Files: to help with all the joys of mod compatibility.*/
@@ -1204,13 +1202,13 @@ EXTEND_BOTTOM ~baldur25.bcs~ ~LivingClara/restcheck/player1dreamsToB.baf~
     // 以防止与其他 Mod 的内容冲突或确保内容按预期触发。
 
     // 为 Aerie (SoA) 添加休息检查。
-//EXTEND_BOTTOM ~aerie.bcs~ ~LivingClara/restcheck/_rc_aerie.baf~
+EXTEND_BOTTOM ~aerie.bcs~ ~LivingClara/restcheck/_rc_aerie.baf~
     // 为 Aerie (ToB) 添加休息检查。
-//EXTEND_BOTTOM ~aeri25.bcs~ ~LivingClara/restcheck/_rc_aeri25.baf~
+EXTEND_BOTTOM ~aeri25.bcs~ ~LivingClara/restcheck/_rc_aeri25.baf~
     // 为 Anomen (SoA) 添加休息检查。
 EXTEND_BOTTOM ~anomen.bcs~ ~LivingClara/restcheck/_rc_anomen.baf~
     // 为 Dorn (SoA) 添加休息检查。
-//EXTEND_BOTTOM ~dorn.bcs~ ~LivingClara/restcheck/_rc_dorn.baf~
+EXTEND_BOTTOM ~dorn.bcs~ ~LivingClara/restcheck/_rc_dorn.baf~
     // 为 Edwin (SoA) 添加休息检查。
 EXTEND_BOTTOM ~edwin.bcs~ ~LivingClara/restcheck/_rc_edwin.baf~
     // 为 HaerDalis (SoA) 添加休息检查。
@@ -1222,30 +1220,30 @@ EXTEND_BOTTOM ~hexxat.bcs~ ~LivingClara/restcheck/_rc_hexxat.baf~
     // 为 Hexxat (ToB) 添加休息检查。
 EXTEND_BOTTOM ~hexxa25.bcs~ ~LivingClara/restcheck/_rc_hexxa25.baf~
     // 为 Imoen (SoA) 添加休息检查。
-//EXTEND_BOTTOM ~imoen2.bcs~ ~LivingClara/restcheck/_rc_imoen2.baf~
-    // 为 Imoen (ToB) 添加休息检查。
-//EXTEND_BOTTOM ~imoe25.bcs~ ~LivingClara/restcheck/_rc_imoe25.baf~
-    // 为 Jaheira (SoA) 添加休息检查。
-//EXTEND_BOTTOM ~jaheira.bcs~ ~LivingClara/restcheck/_rc_jaheira.baf~
-    // 为 Keldorn (SoA) 添加休息检查。
-//EXTEND_BOTTOM ~keldorn.bcs~ ~LivingClara/restcheck/_rc_keldorn.baf~
-    // 为 Keldorn (ToB) 添加休息检查。
-//EXTEND_BOTTOM ~keld25.bcs~ ~LivingClara/restcheck/_rc_keld25.baf~
-    // 为 Mazzy (SoA) 添加休息检查。
-//EXTEND_BOTTOM ~mazzy.bcs~ ~LivingClara/restcheck/_rc_mazzy.baf~
-    // 为 Nalia (SoA) 添加休息检查。
-//EXTEND_BOTTOM ~nalia.bcs~ ~LivingClara/restcheck/_rc_nalia.baf~
-    // 为 Neera (ToB) 添加休息检查。
-    // 注意：这里文件名是 _rc_neera25.baf，但脚本目标是 neer25.bcs。
-//EXTEND_BOTTOM ~neer25.bcs~ ~LivingClara/restcheck/_rc_neera25.baf~
-    // 为 Rasaad (SoA) 添加休息检查。
-//EXTEND_BOTTOM ~rasaad.bcs~ ~LivingClara/restcheck/_rc_rasaad.baf~
-    // 为 Sarevok (ToB) 添加休息检查。
-//EXTEND_BOTTOM ~sarev25.bcs~ ~LivingClara/restcheck/_rc_sarev25.baf~
-    // 为 Viconia (SoA) 添加休息检查。
-//EXTEND_BOTTOM ~viconia.bcs~ ~LivingClara/restcheck/_rc_viconia.baf~
-    // 为 Viconia (ToB) 添加休息检查。
-//EXTEND_BOTTOM ~vico25.bcs~ ~LivingClara/restcheck/_rc_vico25.baf~
+EXTEND_BOTTOM ~imoen2.bcs~ ~LivingClara/restcheck/_rc_imoen2.baf~
+  // 为 Imoen (ToB) 添加休息检查。
+EXTEND_BOTTOM ~imoe25.bcs~ ~LivingClara/restcheck/_rc_imoe25.baf~
+  // 为 Jaheira (SoA) 添加休息检查。
+EXTEND_BOTTOM ~jaheira.bcs~ ~LivingClara/restcheck/_rc_jaheira.baf~
+  // 为 Keldorn (SoA) 添加休息检查。
+EXTEND_BOTTOM ~keldorn.bcs~ ~LivingClara/restcheck/_rc_keldorn.baf~
+  // 为 Keldorn (ToB) 添加休息检查。
+EXTEND_BOTTOM ~keld25.bcs~ ~LivingClara/restcheck/_rc_keld25.baf~
+  // 为 Mazzy (SoA) 添加休息检查。
+EXTEND_BOTTOM ~mazzy.bcs~ ~LivingClara/restcheck/_rc_mazzy.baf~
+  // 为 Nalia (SoA) 添加休息检查。
+EXTEND_BOTTOM ~nalia.bcs~ ~LivingClara/restcheck/_rc_nalia.baf~
+  // 为 Neera (ToB) 添加休息检查。
+  // 注意：这里文件名是 _rc_neera25.baf，但脚本目标是 neer25.bcs。
+EXTEND_BOTTOM ~neer25.bcs~ ~LivingClara/restcheck/_rc_neera25.baf~
+  // 为 Rasaad (SoA) 添加休息检查。
+EXTEND_BOTTOM ~rasaad.bcs~ ~LivingClara/restcheck/_rc_rasaad.baf~
+  // 为 Sarevok (ToB) 添加休息检查。
+EXTEND_BOTTOM ~sarev25.bcs~ ~LivingClara/restcheck/_rc_sarev25.baf~
+  // 为 Viconia (SoA) 添加休息检查。
+EXTEND_BOTTOM ~viconia.bcs~ ~LivingClara/restcheck/_rc_viconia.baf~
+  // 为 Viconia (ToB) 添加休息检查。
+EXTEND_BOTTOM ~vico25.bcs~ ~LivingClara/restcheck/_rc_vico25.baf~
 // 结束 IF 条件块，只有当 "_brcstop.spl" 不存在时才执行上述复制和扩展操作。
 END
 
@@ -1615,20 +1613,20 @@ END
 // ----- 修正 Malchor Harpell 的行为 -----
 // 修复一个潜在的 Bug：确保 Malchor Harpell 在被杀死后不会复活。
 // 复制游戏主脚本文件 baldur.bcs 以便进行修改。
-//COPY_EXISTING ~baldur.bcs~ ~override~
-//    // 将 BCS 二进制脚本文件反编译成可编辑的 BAF 文本文件。
-//  DECOMPILE_BCS_TO_BAF   //This code changes the game file to something Weidu can edit
-//          // 在文本中查找并替换特定内容。
-//        // 这里查找条件 `!Exists("c6harp")` (Malchor Harpell 不存在)，
-//    REPLACE_TEXTUALLY //This code says to replace every instance of the first ~~ with what's inside the second ~~
-//	~!Exists("c6harp")~
-//	        // 并将其替换为 `!Exists("c6harp") !Dead("c6harp")` (Malchor Harpell 不存在 *或者* 已经死亡)。
-//        // 这样可以防止在 Malchor 被杀死后，相关脚本逻辑错误地认为他又“存在”了。
-//            ~!Exists("c6harp") !Dead("c6harp")~
-//			    // 将修改后的 BAF 文本文件重新编译成 BCS 二进制脚本文件。
-//  COMPILE_BAF_TO_BCS //This code then recompiles the file into a game file
-//      // 仅在文件实际被修改时才覆盖原文件，避免不必要的操作。
-//BUT_ONLY_IF_IT_CHANGES  //To stop this from happening endlessly
+COPY_EXISTING ~baldur.bcs~ ~override~
+    // 将 BCS 二进制脚本文件反编译成可编辑的 BAF 文本文件。
+  DECOMPILE_BCS_TO_BAF   //This code changes the game file to something Weidu can edit
+          // 在文本中查找并替换特定内容。
+        // 这里查找条件 `!Exists("c6harp")` (Malchor Harpell 不存在)，
+    REPLACE_TEXTUALLY //This code says to replace every instance of the first ~~ with what's inside the second ~~
+	~!Exists("c6harp")~
+	        // 并将其替换为 `!Exists("c6harp") !Dead("c6harp")` (Malchor Harpell 不存在 *或者* 已经死亡)。
+        // 这样可以防止在 Malchor 被杀死后，相关脚本逻辑错误地认为他又“存在”了。
+            ~!Exists("c6harp") !Dead("c6harp")~
+			    // 将修改后的 BAF 文本文件重新编译成 BCS 二进制脚本文件。
+  COMPILE_BAF_TO_BCS //This code then recompiles the file into a game file
+      // 仅在文件实际被修改时才覆盖原文件，避免不必要的操作。
+BUT_ONLY_IF_IT_CHANGES  //To stop this from happening endlessly
 
 //SOA Dialogue Files - For The Evil!
 // ----- 编译邪恶路线的 SOA 对话文件 -----

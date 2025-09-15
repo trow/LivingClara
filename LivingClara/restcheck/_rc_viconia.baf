@@ -1,0 +1,104 @@
+
+IF	//1st Viconia Romance Shadows of Amn Rest. EXTEND_BOTTOM ~viconia.bcs~
+	!Global("ViconiaRomanceActive","GLOBAL",0)
+	!Global("ViconiaRomanceActive","GLOBAL",3)
+	Global("ViconiaMatch","GLOBAL",1)
+	See(Player1)
+	CombatCounter(0)
+	Global("LoveTalk","LOCALS",39)
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+	
+IF
+	Global("LoveTalk","LOCALS",40)
+	Global("_bLoveTalk40","LOCALS",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bLoveTalk40","LOCALS",1)
+END
+	
+
+IF	//2nd Viconia Romance Shadows of Amn Rest. EXTEND_BOTTOM ~viconia.bcs~	
+	!Global("ViconiaRomanceActive","GLOBAL",0)
+	!Global("ViconiaRomanceActive","GLOBAL",3)
+	Global("ViconiaMatch","GLOBAL",1)
+	See(Player1)
+	CombatCounter(0)
+	Global("LoveTalk","LOCALS",49)
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+	
+IF
+	Global("LoveTalk","LOCALS",50)
+	Global("_bLoveTalk50","LOCALS",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bLoveTalk50","LOCALS",1)
+END
+	
+
+IF	//3rd Viconia Romance Shadows of Amn Rest. EXTEND_BOTTOM ~viconia.bcs~	
+	!Global("ViconiaRomanceActive","GLOBAL",0)
+	!Global("ViconiaRomanceActive","GLOBAL",3)
+	Global("ViconiaMatch","GLOBAL",1)
+	See(Player1)
+	CombatCounter(0)
+	Global("LoveTalk","LOCALS",61)
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+	
+IF
+	Global("LoveTalk","LOCALS",62)
+	Global("_bLoveTalk62","LOCALS",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bLoveTalk62","LOCALS",1)
+END
+
+
+IF	//Viconia-Anomen banter on rest in IEPBanters Mod. EXTEND_BOTTOM ~viconia.bcs~
+	Global("I#B_AnomenViconia","GLOBAL",1)
+	InParty("Anomen")
+	InParty(Myself)
+	See("Anomen")
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	!StateCheck("Anomen",CD_STATE_NOTVALID)
+	OR(11)
+		AreaCheck("AR0021")
+		AreaCheck("AR0313")
+		AreaCheck("AR0406")
+		AreaCheck("AR0509")
+		AreaCheck("AR0513")
+		AreaCheck("AR0522")
+		AreaCheck("AR0704")
+		AreaCheck("AR0709")
+		AreaCheck("AR1105")
+		AreaCheck("AR1602")
+		AreaCheck("AR2010")
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+	
+IF
+	Global("I#B_AnomenViconia","GLOBAL",2)
+	Global("_bI#B_AnomenViconia2","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bI#B_AnomenViconia2","GLOBAL",1)
+END
+

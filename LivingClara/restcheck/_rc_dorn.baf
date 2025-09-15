@@ -1,0 +1,57 @@
+
+IF	//1st Dorn Romance Rest. EXTEND_BOTTOM ~dorn.bcs~
+	OR(2)
+		Global("DornRomanceActive","GLOBAL",1)
+		Global("DornRomanceActive","GLOBAL",2)
+	IfValidForPartyDialog(Player1)
+	IfValidForPartyDialog(Myself)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	!Global("chapter","GLOBAL",5)
+	Global("DornLovetalks","GLOBAL",7)
+	RealGlobalTimerExpired("DornLovetalksTimer","GLOBAL")
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+
+IF
+	Global("DornLovetalks","GLOBAL",8)
+	Global("_bDornLovetalks8","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bDornLovetalks8","GLOBAL",1)
+END
+
+
+IF	//2nd Dorn Romance Rest. EXTEND_BOTTOM ~dorn.bcs~
+	OR(2)
+		Global("DornRomanceActive","GLOBAL",1)
+		Global("DornRomanceActive","GLOBAL",2)
+	IfValidForPartyDialog(Player1)
+	IfValidForPartyDialog(Myself)
+	CombatCounter(0)
+	!See([ENEMY])
+	!AreaType(DUNGEON)
+	!Global("chapter","GLOBAL",5)
+	Global("DornLovetalks","GLOBAL",17)
+	RealGlobalTimerExpired("DornLovetalksTimer","GLOBAL")
+	Global("OHD_END_REWARD","GLOBAL",1)
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+
+IF 
+	Global("DornLovetalks","GLOBAL",18)
+	Global("_bDornLovetalks18","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bDornLovetalks18","GLOBAL",1)
+END
+

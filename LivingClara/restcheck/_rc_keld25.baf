@@ -1,0 +1,98 @@
+IF	//1st Keldorn Romance Mod ToB Rest EXTEND_BOTTOM ~keld25.bcs~
+	InParty(Myself)
+	Global("B!KelToBLT","GLOBAL",0)
+	Global("B!KR_ToBc1","GLOBAL",2)
+	!Global("B!KeldornRA","GLOBAL",0)
+	!Global("B!KeldornRA","GLOBAL",3)
+	AreaCheck("AR4500")
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+
+IF
+	Global("B!KelToBLT","GLOBAL",2)
+	Global("_bB!KelToBLT2","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bB!KelToBLT2","GLOBAL",1)
+END
+
+
+IF	//2nd Keldorn Romance Mod ToB Rest EXTEND_BOTTOM ~keld25.bcs~
+	InParty(Myself)
+	Global("B!KR_MWLovedOne","GLOBAL",2)
+	See(Player1)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+
+IF
+	Global("B!KR_MWLovedOne","GLOBAL",3)
+	Global("_bB!KR_MWLovedOne3","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bB!KR_MWLovedOne3","GLOBAL",1)
+END
+
+
+IF	//3rd Keldorn Romance Mod ToB Rest EXTEND_BOTTOM ~keld25.bcs~
+	InParty(Myself)
+	Global("BeginChallenge4","GLOBAL",6)
+	Global("B!KR_ToBc4","GLOBAL",0)
+	Global("B!KeldornRA","GLOBAL",2)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	See(Player1)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+
+IF
+	Global("B!KR_ToBc4","GLOBAL",1)
+	Global("_bB!KR_ToBc4","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bB!KR_ToBc4","GLOBAL",1)
+END
+
+
+IF	//4th Keldorn Romance Mod ToB Rest EXTEND_BOTTOM ~keld25.bcs~
+	InParty(Myself)
+	Global("SaradushSacked","GLOBAL",1)
+	Global("B!KelSaradushFell","GLOBAL",0)
+	Global("B!KeldornRA","GLOBAL",2)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	See(Player1)
+	CombatCounter(0)
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+
+IF
+	Global("B!KelSaradushFell","GLOBAL",1)
+	Global("_bB!KelSaradushFell","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bB!KelSaradushFell","GLOBAL",1)
+END

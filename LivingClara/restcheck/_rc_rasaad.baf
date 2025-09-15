@@ -1,0 +1,55 @@
+
+IF	//1st Rasaad Romance Rest. EXTEND_BOTTOM ~rasaad.bcs~
+	Global("RasaadLovetalks","GLOBAL",7)
+	Global("RasaadRomanceActive","GLOBAL",1)
+	IfValidForPartyDialog(Player1)
+	IfValidForPartyDialog(Myself)
+	CombatCounter(0)
+	!See([ENEMY])
+	AreaType(OUTDOOR)
+	OR(2)
+		TimeOfDay(DUSK)
+		TimeOfDay(NIGHT)
+	!Global("chapter","GLOBAL",5)
+	RealGlobalTimerExpired("RasaadLovetalksTimer","GLOBAL")
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+
+IF
+	Global("RasaadLovetalks","GLOBAL",8)
+	Global("_bRasaadLovetalks8","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bRasaadLovetalks8","GLOBAL",1)
+END
+
+
+IF	//2nd Rasaad Romance Rest. EXTEND_BOTTOM ~rasaad.bcs~
+	Global("RasaadLovetalks","GLOBAL",15)
+	Global("RasaadRomanceActive","GLOBAL",1)
+	IfValidForPartyDialog(Player1)
+	IfValidForPartyDialog(Myself)
+	CombatCounter(0)
+	!See([ENEMY])
+	!Global("chapter","GLOBAL",5)
+	GlobalGT("OHR_PLOT","GLOBAL",5)
+	RealGlobalTimerExpired("RasaadLovetalksTimer","GLOBAL")
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+
+IF
+	Global("RasaadLovetalks","GLOBAL",16)
+	Global("_bRasaadLovetalks16","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bRasaadLovetalks16","GLOBAL",1)
+END
+

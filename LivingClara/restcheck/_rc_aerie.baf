@@ -1,0 +1,44 @@
+IF //First Aerie Romance Shadows of Amn Rest. EXTEND_BOTTOM ~aerie.bcs~
+	!Global("AerieRomanceActive","GLOBAL",0)
+	!Global("AerieRomanceActive","GLOBAL",3)
+	Global("AerieMatch","GLOBAL",1)
+	See(Player1)
+	CombatCounter(0)
+	Global("LoveTalk","LOCALS",25)
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+
+IF
+	Global("LoveTalk","LOCALS",26)
+	Global("_bLoveTalk26","LOCALS",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bLoveTalk26","LOCALS",1)
+END
+
+
+IF //2nd Aerie Romance Shadows of Amn Rest. EXTEND_BOTTOM ~aerie.bcs~
+	!Global("AerieRomanceActive","GLOBAL",0)
+	!Global("AerieRomanceActive","GLOBAL",3)
+	Global("AerieMatch","GLOBAL",1)
+	See(Player1)
+	CombatCounter(0)
+	Global("LoveTalk","LOCALS",45)
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+		
+IF
+	Global("LoveTalk","LOCALS",46)
+	Global("_bLoveTalk46","LOCALS",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bLoveTalk46","LOCALS",1)
+END

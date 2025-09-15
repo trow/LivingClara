@@ -1,0 +1,21 @@
+
+IF	//Mazzy Friendship Rest Talk for Mazzy Friendship Mod. EXTEND_BOTTOM ~mazzy.bcs~
+	InParty(Myself)
+	See(Player1)
+	RealGlobalTimerExpired("I#MazzyFriendTalksTimer","GLOBAL")
+	Global("I#MazzyFriendTalks","GLOBAL",14)
+	Global("_brestcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",1)
+END
+
+IF
+	Global("I#MazzyFriendTalks","GLOBAL",15)
+	Global("_bI#MazzyFriendTalks15","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("_bI#MazzyFriendTalks15","GLOBAL",1)
+END
+
