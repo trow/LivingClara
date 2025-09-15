@@ -11,12 +11,12 @@ Created by MephistoSatanDevil with [authorization](https://forums.beamdog.com/di
 
 ## What This Mod Is
 This mod modifies Ratatoskr and BCaesar's *[Mazzy MegaMod](https://github.com/Ratatoskr589/All-Things-Mazzy)*.  
-It removes the sexual content from the original mod, retaining only 3 part:  
+It removes some excessively explicit and sexual content from the original mod, retaining only 2 part:  
 • Keepable Clara NPC  
 • Darkside Anomen
 
 **Part 1: Keepable Clara NPC**
-Clara no longer disappears shortly after recruitment at the Copper Coronet. The end of Hexxat's introductory quest have reworked ,It allowing you to **kill Hexxat to keep Clara**. Clara is a Female Human Lawful Evil Thief **with the ability to change her kit type at will**. Though initially weak, she levels up quickly, gaining stats and abilities through party banter. You may also summon Clara when starting a new *Throne of Bhaal* game.
+Clara no longer disappears shortly after recruitment at the Copper Coronet. The end of Hexxat's introductory quest have reworked ,It allowing you to **destroy Hexxat to keep Clara**. Clara is a Female Human Lawful Evil Thief **with the ability to change her kit type at will**. Though initially weak, she levels up quickly, gaining stats and abilities through party banter. You may also summon Clara when starting a new *Throne of Bhaal* game.
 
 Living Clara also includes an soundset for Clara from *Mazzy MegaMod* (details below).
 
