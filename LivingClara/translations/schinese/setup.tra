@@ -16,7 +16,7 @@
 @15 /*HURT*/ = ~我受伤了。我必须躲起来。~ [_bClar08] //"I…… think I'm bleeding" - Arianneeee
 @16 /*AREA_FOREST*/ = ~我不喜欢树林。虫子太多了。~  
 @17 /*AREA_CITY*/ = ~谄媚的人，诈骗的人。回到属于我的地方真好。~
-@18 /*AREA_DUNGEON*/ = ~卡罗琳·路易莎·奥黛丽·罗莎娜·亚历山德拉·银盾对这个地方来说太好了。~  
+@18 /*AREA_DUNGEON*/ = ~这地方真配不上我卡罗琳·路易莎·奥黛丽·罗莎娜·亚历山德拉·银盾。~  
 @19 /*AREA_DAY*/ = ~阳光很好，但我更喜欢黑暗。那才是我真正闪耀的地方。~   
 @20 /*AREA_NIGHT*/ = ~这是秘密的时刻。黑夜掩盖了一切。~ [_bClar09] //"Time to see and not be seen" - PoEFFeisty5
 @21 /*SELECT_COMMON1*/ = ~你想要什么？~ [_bClar10] //"Yeah?" - PoEFFeistyf 
