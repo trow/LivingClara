@@ -580,12 +580,12 @@ DO ~SetGlobalTimer("_bAnomenClaraCorTimer2","GLOBAL",TWO_DAYS) SetGlobal("Anomen
 = @328 /*<CHARNAME>, please give us a few more days to put all of our affairs in order, and then we will happily join you again if you will have us.*/
 END
 	++ @329 /*Of course, Anomen, you are both valuable members of this group.*/ 
-	DO ~ChangeClass("Anomen",PALADIN) ActionOverride("Anomen",AddKit(Blackguard)) ChangeAlignment("Anomen",LAWFUL_EVIL) ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT) CreateVisualEffectObject("SPRWRA2I","Anomen")~
+	DO ~ChangeClass("Anomen",PALADIN) ActionOverride("Anomen",AddKit(Blackguard)) ChangeAlignment("Anomen",LAWFUL_EVIL) ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT) CreateVisualEffectObject("SHAIR","Anomen")~
 	EXIT
 	++ @330 /*Anomen, you are both monsters and I want nothing more to do with you.*/ + _bCNMadAboutStab
 CHAIN ANOMENP _bCNMadAboutStab
 @331 /*I did what I had to do, <CHARNAME>. If you change your mind, you know where to find us.*/
-DO ~ChangeClass("Anomen",PALADIN) ActionOverride("Anomen",AddKit(Blackguard)) ChangeAlignment("Anomen",LAWFUL_EVIL) ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT) CreateVisualEffectObject("SPRWRA2I","Anomen")~
+DO ~ChangeClass("Anomen",PALADIN) ActionOverride("Anomen",AddKit(Blackguard)) ChangeAlignment("Anomen",LAWFUL_EVIL) ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT) CreateVisualEffectObject("SHAIR","Anomen")~
 EXIT
 
 
