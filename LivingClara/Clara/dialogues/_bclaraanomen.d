@@ -571,18 +571,21 @@ EXIT
 //If Anomen kills Cor
 CHAIN IF WEIGHT #-10 ~Global("AnomenCor","GLOBAL",5) Global("_bCorFight","GLOBAL",1)~ THEN ANOMENP _bCorDoneBeenStabbed
 @325 /*It is done. My father is dead.*/
-DO ~ChangeClass("Anomen",PALADIN) ActionOverride("Anomen",AddKit(Blackguard)) ChangeAlignment("Anomen",LAWFUL_EVIL) ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)~ 
+//DO ~ChangeClass("Anomen",PALADIN) ActionOverride("Anomen",AddKit(Blackguard)) ChangeAlignment("Anomen",LAWFUL_EVIL) ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)~ 
 = IF ~HasItemEquipedReal("NPSHLD","Anomen")~ @3251/*啊，我的盾牌，盾牌变得好重，重到我无法举起它。*/ DO ~DropItem("NPSHLD",[-1.-1])~//如果装备了家传盾牌，则因为阵营转变丢弃在地上
 = @3252 /*不过我心里倒是感觉突然变得轻松了，反倒感觉像是真的卸下了一副重担。*/
 == _BCLARAP IF ~!StateCheck("_bClara",CD_STATE_NOTVALID)~ @326 /*You did it my love, our future is secure. You are Lord Delryn.*/
 == ANOMENP @327 /*Let us clean ourselves up and then send Jardine to call the guard.*/
-DO ~SetGlobalTimer("_bAnomenClaraCorTimer2","GLOBAL",TWO_DAYS) SetGlobal("AnomenCor","GLOBAL",6) SetGlobal("_bLordAndLadyDelryn","GLOBAL",1) SetGlobal("_bCorFight","GLOBAL",2) ActionOverride("Cor",DestroySelf()) ReallyForceSpell("Anomen",PALADIN_DETECT_EVIL)~//让阿诺门整个变红一下，以示转变
+DO ~SetGlobalTimer("_bAnomenClaraCorTimer2","GLOBAL",TWO_DAYS) SetGlobal("AnomenCor","GLOBAL",6) SetGlobal("_bLordAndLadyDelryn","GLOBAL",1) SetGlobal("_bCorFight","GLOBAL",2) ActionOverride("Cor",DestroySelf())~ //ReallyForceSpell("Anomen",PALADIN_DETECT_EVIL)~//让阿诺门整个变红一下，以示转变
 = @328 /*<CHARNAME>, please give us a few more days to put all of our affairs in order, and then we will happily join you again if you will have us.*/
 END
-	++ @329 /*Of course, Anomen, you are both valuable members of this group.*/ EXIT
+	++ @329 /*Of course, Anomen, you are both valuable members of this group.*/ 
+	DO ~ChangeClass("Anomen",PALADIN) ActionOverride("Anomen",AddKit(Blackguard)) ChangeAlignment("Anomen",LAWFUL_EVIL) ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT) CreateVisualEffectObject("SPRWRA2I","Anomen")~
+	EXIT
 	++ @330 /*Anomen, you are both monsters and I want nothing more to do with you.*/ + _bCNMadAboutStab
 CHAIN ANOMENP _bCNMadAboutStab
 @331 /*I did what I had to do, <CHARNAME>. If you change your mind, you know where to find us.*/
+DO ~ChangeClass("Anomen",PALADIN) ActionOverride("Anomen",AddKit(Blackguard)) ChangeAlignment("Anomen",LAWFUL_EVIL) ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT) CreateVisualEffectObject("SPRWRA2I","Anomen")~
 EXIT
 
 
