@@ -410,7 +410,7 @@ INTERJECT BANOMEN 484 _bClaraMakesItBetter /*I... I lost everything I worked tow
 	== _BCLARAJ @256 /*Could he be persuaded to corroborate our story?*/
 	== ANOMENJ @257 /*Jardine? He is loyal to our house, but he has hated watching my father destroy it. Perhaps we could bring him to our side. We will talk to him before we enter.*/
 	= @258 /*<CHARNAME>, I must go to my father's house. Please give me several days to take care of this and then I will be happy to travel with you again.*/
-	DO ~SetGlobal("_bClaraAnomenLove","GLOBAL",46) SetGlobalTimer("_bAnomenClaraCorTimer","GLOBAL",FOUR_DAYS) SetGlobal("_bACGonnaStabCor","GLOBAL",1) SetGlobal("KickedOut","LOCALS",1) ChangeAIScript("",DEFAULT) SetLeavePartyDialogueFile() LeaveParty() EscapeAreaMove("AR1001",692,218,SWW)~
+	DO ~SetGlobal("_bClaraAnomenLove","GLOBAL",46) SetGlobalTimer("_bAnomenClaraCorTimer","GLOBAL",ONE_DAY) SetGlobal("_bACGonnaStabCor","GLOBAL",1) SetGlobal("KickedOut","LOCALS",1) ChangeAIScript("",DEFAULT) SetLeavePartyDialogueFile() LeaveParty() EscapeAreaMove("AR1001",692,218,SWW)~
 	== _BCLARAJ @259 /*And I will be by your side, my love, no matter what occurs.*/
 	DO ~AddJournalEntry(@999,USER) SetGlobal("KickedOut","LOCALS",1) ChangeAIScript("",DEFAULT) LeaveParty() EscapeAreaMove("AR1001",652,209,SWW) ~ /*Journal Entry: Anomen received a letter from his father that distressed him greatly. It seems the true killers of his sister Moira were discovered and his father has disowned him for killing Saerk instead. A cruel twist of fate given all that he has paid. 
 
@@ -571,26 +571,27 @@ EXIT
 //If Anomen kills Cor
 CHAIN IF WEIGHT #-10 ~Global("AnomenCor","GLOBAL",5) Global("_bCorFight","GLOBAL",1)~ THEN ANOMENP _bCorDoneBeenStabbed
 @325 /*It is done. My father is dead.*/
-DO ~ChangeClass("Anomen",PALADIN) ActionOverride("Anomen",AddKit(Blackguard)) ChangeAlignment("Anomen",LAWFUL_EVIL) ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT) ApplySpell("Anomen",PALADIN_DETECT_EVIL)~
+DO ~ChangeClass("Anomen",PALADIN) ActionOverride("Anomen",AddKit(Blackguard)) ChangeAlignment("Anomen",LAWFUL_EVIL) ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)~ 
+= IF ~HasItemEquipedReal("NPSHLD","Anomen")~ @3251/*啊，我的盾牌，盾牌变得好重，重到我无法举起它。*/ DO ~DropItem("NPSHLD",[-1.-1])~//如果装备了家传盾牌，则因为阵营转变丢弃在地上
+= @3252 /*不过我心里倒是感觉突然变得轻松了，反倒感觉像是真的卸下了一副重担。*/
 == _BCLARAP IF ~!StateCheck("_bClara",CD_STATE_NOTVALID)~ @326 /*You did it my love, our future is secure. You are Lord Delryn.*/
 == ANOMENP @327 /*Let us clean ourselves up and then send Jardine to call the guard.*/
-DO ~SetGlobalTimer("_bAnomenClaraCorTimer2","GLOBAL",TWO_DAYS) SetGlobal("AnomenCor","GLOBAL",6) SetGlobal("_bLordAndLadyDelryn","GLOBAL",1) SetGlobal("_bCorFight","GLOBAL",2)~
+DO ~SetGlobalTimer("_bAnomenClaraCorTimer2","GLOBAL",TWO_DAYS) SetGlobal("AnomenCor","GLOBAL",6) SetGlobal("_bLordAndLadyDelryn","GLOBAL",1) SetGlobal("_bCorFight","GLOBAL",2) ActionOverride("Cor",DestroySelf()) ReallyForceSpell("Anomen",PALADIN_DETECT_EVIL)~//让阿诺门整个变红一下，以示转变
 = @328 /*<CHARNAME>, please give us a few more days to put all of our affairs in order, and then we will happily join you again if you will have us.*/
 END
 	++ @329 /*Of course, Anomen, you are both valuable members of this group.*/ EXIT
 	++ @330 /*Anomen, you are both monsters and I want nothing more to do with you.*/ + _bCNMadAboutStab
-	
 CHAIN ANOMENP _bCNMadAboutStab
 @331 /*I did what I had to do, <CHARNAME>. If you change your mind, you know where to find us.*/
 EXIT
 
 
 //If you let the timer expire before going to the house
-CHAIN IF WEIGHT #-5 ~Global("AnomenCor","GLOBAL",4) Global("_bLordAndLadyDelryn","GLOBAL",1) Global("_bCNMissedStabbing","GLOBAL",0)~ THEN ANOMENP _bCorStabbedOffscreen
+CHAIN IF WEIGHT #-5 ~Global("AnomenCor","GLOBAL",4) Global("_bLordAndLadyDelryn","GLOBAL",1) Global("_bCNMissedStabbing","GLOBAL",0)~ THEN ANOMENP _bCorStabbedOffscreen 
 @332 /*Greetings, <CHARNAME>. I am glad to see you.*/
 = @333 /*I am afraid that tragedy struck while I was gone. Clara and I came to announce the happy news of our betrothal to my father, but we found him murdered instead. The window was broken and a large quantity of his valuables had been stolen, lost into the night.*/
 = @334 /*It is a shame that we could not reconcile. But he had not officially disowned me before my arrival so we are Lord & Lady Delryn now. Give us a few days to put our new affairs in order and we shall be ready to travel with you once more.*/
-DO ~SetGlobalTimer("_bAnomenClaraCorTimer2","GLOBAL",TWO_DAYS) SetGlobal("_bCNMissedStabbing","GLOBAL",1) SetGlobal("AnomenCor","GLOBAL",6)~
+DO ~ChangeClass("Anomen",PALADIN) ActionOverride("Anomen",AddKit(Blackguard)) ChangeAlignment("Anomen",LAWFUL_EVIL) ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT) SetGlobalTimer("_bAnomenClaraCorTimer2","GLOBAL",TWO_DAYS) SetGlobal("_bCNMissedStabbing","GLOBAL",1) SetGlobal("AnomenCor","GLOBAL",6)~
 EXIT
 
 //If you talk to Clara before travel timer is up

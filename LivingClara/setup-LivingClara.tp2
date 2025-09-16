@@ -431,25 +431,24 @@ EXTEND_TOP ~baldur.bcs~ ~LivingClara/Clara/_bgettingclara.baf~ EVALUATE_BUFFER /
 COMPILE ~LivingClara/Clara/_bHdeath.baf~ EVALUATE_BUFFER USING ~LivingClara/translations/%LANGUAGE%/_bgettingclara.tra~	
 COMPILE ~LivingClara/Clara/_bHdeath.d~ EVALUATE_BUFFER USING ~LivingClara/translations/%LANGUAGE%/_bgettingclara.tra~	
 COPY ~LivingClara/Clara/_bHdeath.cre~ ~override~
-//添加一个复原术卷轴by shohy
-//COPY_EXISTING ~ohhdrago.cre~ ~override~
-//	ADD_CRE_ITEM ~RESTORE~ #1 #0 #0 ~NONE~ ~INV7~
-//给入口处有治疗之杖的棺材里添加一个木桩和一个复原术卷轴by MephistoSatanDevil
-COPY_EXISTING ~ar0811.are~ ~override~
+//给伯里奇添加一个木桩by shohy
+COPY_EXISTING ~ohhburic.cre~ ~override~
+	ADD_CRE_ITEM ~MISC6W~ #1 #0 #0 ~NONE~ ~INV7~
+//给伯里奇对话里添加获得木桩
+COPY_EXISTING ~ohhburic.dlg~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+        REPLACE_TEXTUALLY ~GiveItem("OHHROD",Player1)~ ~GiveItem("OHHROD",Player1) GiveItem("MISC6W",Player1)~
+    END
+    BUT_ONLY_IF_IT_CHANGES
+
+//给地图中的某个棺材里放一个复原术卷轴by MephistoSatanDevil
+COPY_EXISTING ~oh7000.are~ ~override~
   LPF ADD_AREA_ITEM
   INT_VAR
-    container_to_add_to = 1
+    container_to_add_to = 4
 	charges1 = 1
   STR_VAR
 	item_to_add = ~RESTORE~
-  END
-COPY_EXISTING ~ar0811.are~ ~override~
-  LPF ADD_AREA_ITEM
-  INT_VAR
-    container_to_add_to = 1
-	charges1 = 1
-  STR_VAR
-    item_to_add = ~MISC6W~
   END
 
 // 将 Clara 与 "OHHFAK" NPC (可能是一个特定事件或 NPC) 的互动脚本 (_bOHHFAKClara.baf)
