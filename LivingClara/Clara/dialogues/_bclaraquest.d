@@ -39,7 +39,7 @@ DO ~SetGlobal("_bRoseClara","GLOBAL",1)~
 EXIT
 
 //Terl Dialogue
-CHAIN IF WEIGHT #-1 ~Global("_bRoseClara","GLOBAL",2) Global("_bRoseLibrary","GLOBAL",1)~ THEN _BCLARAJ _bRoseTerl1
+CHAIN IF WEIGHT #-1 ~Global("_bRoseClara","GLOBAL",2) Global("_bRoseLibrary","GLOBAL",1) See("Terl")~ THEN _BCLARAJ _bRoseTerl1
 @6 /*Someone's coming. Wait... Terl, is that you?*/
 == TERL @7 /*Hello, Clara. It's good to see you again.*/
 == TERL IF ~!IfValidForPartyDialog("Anomen")~ THEN @12 /*I have a letter for you.*/

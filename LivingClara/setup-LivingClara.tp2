@@ -130,8 +130,6 @@ COPY_EXISTING ~DHARLOT1.cre~ ~override~ //Harlot
   BUT_ONLY_IF_IT_CHANGES   
 		 
 		 
-//For the Good!/For the Evil! Crossmod content
-//Clara specific code - epilogues are under TOB.
 // ========== 模块 2: Keepable Clara (Human Hexxat) NPC - 核心 NPC 文件安装 ==========
 // 跨 Mod 内容：这部分代码用于安装 Clara NPC 本身，无论玩家选择善良还是邪恶路线都会用到。
 // Clara 专属代码 - 结局文件在 TOB 部分处理。
