@@ -46,18 +46,71 @@ THEN
 END
 
 //This triggers new dialogue if Anomen kills Cor w/ Clara
+//如果装备了他的家传护盾，会掉在脚下
 IF
+	!GlobalTimerExpired("_bAnomenClaraCorTimer","GLOBAL")
 	Global("AnomenCor","GLOBAL",5)
 	Global("_bCorFight","GLOBAL",1)
 	Global("_bACGonnaStabCor","GLOBAL",1)
 	Dead("Cor")  // Cor Delryn
+	Global("AnomenIsAntipaladin","GLOBAL",0)
+	!HasItemEquipedReal("NPSHLD","Anomen")
 	!Dead("Anomen")  // Anomen
 	!StateCheck("Anomen",CD_STATE_NOTVALID)
 	CombatCounter(0)
 THEN
 	RESPONSE #100
+	CreateVisualEffectObject("SHAIR","Anomen")
+	Wait(1)
+	ChangeClass("Anomen",PALADIN)  // 阿诺门
+    ActionOverride("Anomen",AddKit(Blackguard))
+    ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
+    ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
+	SetGlobal("AnomenIsAntipaladin","GLOBAL",1)
 	ActionOverride("Anomen",StartDialog("ANOMENP",Player1))
 	Continue()
+END
+IF
+	!GlobalTimerExpired("_bAnomenClaraCorTimer","GLOBAL")
+	Global("AnomenCor","GLOBAL",5)
+	Global("_bCorFight","GLOBAL",1)
+	Global("_bACGonnaStabCor","GLOBAL",1)
+	Dead("Cor")  // Cor Delryn
+	HasItemEquipedReal("NPSHLD","Anomen")
+	Global("AnomenIsAntipaladin","GLOBAL",0)
+	!Dead("Anomen")  // Anomen
+	!StateCheck("Anomen",CD_STATE_NOTVALID)
+	CombatCounter(0)
+THEN
+	RESPONSE #100	
+	CreateVisualEffectObject("SHAIR","Anomen")
+	Wait(1)
+	ChangeClass("Anomen",PALADIN)  // 阿诺门
+    ActionOverride("Anomen",AddKit(Blackguard))
+    ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
+    ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
+    ActionOverride("Anomen",DropItem("NPSHLD",[-1.-1]))  // 德尔林家传护盾
+	SetGlobal("AnomenIsAntipaladin","GLOBAL",1)
+	ActionOverride("Anomen",StartDialog("ANOMENP",Player1))
+	Continue()
+END
+
+
+IF
+	GlobalTimerExpired("_bAnomenClaraCorTimer","GLOBAL")
+    Global("AnomenCor","GLOBAL",4)
+    Global("_bLordAndLadyDelryn","GLOBAL",1)
+    Global("_bCNMissedStabbing","GLOBAL",0)
+    Global("AnomenIsAntipaladin","GLOBAL",0)
+THEN
+    RESPONSE #100
+        ChangeClass("Anomen",PALADIN)  // 阿诺门
+        ActionOverride("Anomen",AddKit(Blackguard))
+        ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
+        ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
+        SetGlobal("AnomenIsAntipaladin","GLOBAL",1)
+        ActionOverride("Anomen",DropItem("NPSHLD",[-1.-1]))  // 德尔林家传护盾
+        ActionOverride("Anomen",PickUpItem("NPSHLD"))  // 德尔林家传护盾
 END
 
 //Triggers Fade if Clara marries Cor
