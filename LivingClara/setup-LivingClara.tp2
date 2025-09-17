@@ -4,7 +4,7 @@ AUTHOR ~MephistoSatanDevil Authorization from BCaesar and Ratatoskr (Briana)~// 
 
 VERSION ~Version 0.99~// Mod 版本
 
-README ~LivingClara/lang/%LANGUAGE%/readme.txt~ ~readme.md~ // 安装时提供打开 README 文件的选项
+README ~LivingClara/translations/%LANGUAGE%/readme.txt~ ~LivingClara/readme.md~ // 安装时提供打开 README 文件的选项
 
 AUTO_TRA ~LivingClara/translations/%s~ // 支持多语言翻译
 
