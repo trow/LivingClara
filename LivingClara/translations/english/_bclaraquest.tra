@@ -556,8 +556,7 @@ The first of his last is mine plus one.
 The next of my last is the last of his first plus one.
 The last of my last are third and second, coming in first for him.”
 
-Some sort of puzzle, clearly. Though I have not solved it yet. I believe the immediate master that the letter speaks of was the mage Vellin Dahn. I fought him when the tanner fled.
-~
+Some sort of puzzle, clearly. Though I have not solved it yet. I believe the immediate master that the letter speaks of was the mage Vellin Dahn. I fought him when the tanner fled.~
 
 @1003 /*Note about potion list*/ = ~Jadarath's List of Potions 
 
@@ -574,8 +573,7 @@ Rose Bouquet was glad to take this paper off my hands, but I thought it best to 
 9. Potion of Power
 10. Potion of Insight
 11. Potion of Freedom
-12. Potion of Stone Form
-~
+12. Potion of Stone Form~
 
 @1004  /*Directions out of Maze*/ = ~Yakman's Journal
 
@@ -599,8 +597,7 @@ Although Rose has the book itself, this portion of the mad elf's ramblings seeme
 "From there I flee to the coldest north
  and lay down by the tree.
  But even there the north still calls,
- as to the north, I'm free."
- ~
+ as to the north, I'm free." ~
  
  @1005 /*Quest Title*/ = ~Overdue Books~
  @1006 /*Start 2nd Quest*/ = ~Talk to Rose Bouquet

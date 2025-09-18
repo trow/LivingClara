@@ -116,42 +116,6 @@ Indeed, when asked the secret of his good fortune by young lords and jealous riv
 
 
 
-@51 /*Begin*/ = ~For the Good: Additional content that might annoy a truly evil player.~
-@52 = ~You must have the main mod installed.~
-
-@53 /*Begin*/ = ~For the Evil: Additional content that might disturb a truly good player.~
-
-@54 /*Bodhi Name*/ = ~Bodhi~
-@55 /*Bodhi Bio*/ = ~When asked about her past, Bodhi spits out the words. She grew up in Suldanessellar alongside Jon Inrenicus. Both of them were of unknown paternity and both were driven to surpass all others in their fields; he in magic and she in physical combat. During Jon Irenicus's mad scheme to become a god, she protected him, fighting off the most elite elven guards. For that crime, queen Ellesime, Bodhi's half-sister, stripped them of their names and immortality and cast them out. As a vampire she was happy, but still mortal. Now with Imoen's soul within her, she feels elven once again, but remains consumed with hatred and regret.~
-@55001 /*Bodhi the Elf Bio*/ = ~When asked about her past, Bodhi laughs. For helping you save her old city of Suldanessellar, Bodhi was rewarded with the same form and soul that were taken from her years ago. Though she misses her half-sister, Queen Ellesime, she is happy to be on the road once again, where her preferred prey are plentiful.~
-@56 /*Morale*/ = ~No, no it's mine! This life is mine!~ [BODHIX41.WAV]
-@5601 /*Leader*/ = ~Follow, please, and stay exactly in my step. You would regret doing other.~ [_bBodh05.WAV]
-@57 /*Bored*/ = ~Your task is clear, yet you delay.~ [BODHIX21.WAV]
-@58 /*BATTLE_CRY1*/ = ~One last time, let our paths cross in blood.~ [_bBodh14.WAV]
-@59 /*BATTLE_CRY2*/ = ~Prepare, for the final sleep comes for you.~ [BODHIX05.WAV]
-@60 /*BATTLE_CRY3*/ = ~Here mousy, mousy. The hunt draws to a close here and now.~ [BODHIX35.WAV]
-@61 /*BATTLE_CRY4*/ = ~This ends here. Tonight I shall feast on the blood of the gods!~ [BODHIX40.WAV]
-@6101 /*Battle_Cry5*/ = ~And so it shall end here.~ [_bBodh16.WAV]
-@62 /*Hurt*/ = ~No, no!~ [CEFALD16.WAV]
-@6201 /*SELECT_COMMON1*/ = ~I am Bodhi.~ [_bBodh04.WAV]
-@6202 /*SELECT_COMMON2*/ = ~I am Bodhi, and I greet you warmly.~ [_bBodh02.WAV]
-@63 /*SELECT_ACTION1*/ = ~You live so long as I tolerate it.~ [BODHIX01.WAV]
-@64 /*SELECT_ACTION2*/ = ~This shall not take long.~ [BODHIX04.WAV]
-@6401 /*SELECT_ACTION3*/ = ~I would offer an alternative.~ [_bBodh06.WAV]
-@6402 /*SELECT_ACTION4*/ = ~Such confidence is admirable.~ [_bBodh07.WAV]
-@6403 /*SELECT_ACTION5*/ = ~Very well.~ [_bBodh08.WAV]
-@6404 /*SELECT_ACTION6*/ = ~Now to my tasks.~ [_bBodh09.WAV]
-@6405 /*SELECT_ACTION7*/ = ~As you would have it.~ [_bBodh17.WAV]
-@6406 /*CRITICAL_HIT*/ = ~Excellent!~ [_bBodh10.WAV]
-@6407 /*CRITICAL_MISS*/ = ~Oh dear, not good at all.~ [_bBodh03.WAV]
-@6408 /*TARGET_IMMUNE*/ = ~You are becoming an impressive pest.~ [_bBodh11.WAV]
-@6409 /*HAPPY*/ = ~You have proven resiliant beyond all expectation. It is appealing to me.~ [_bBodh13.WAV]
-@65 /*UNHAPPY_ANNOYED*/ = ~Do not make me regret allying myself to you.~ [BODHIX19.WAV]
-@66 /*UNHAPPY_SERIOUS*/ = ~Hmm, I had hoped it would not come to this, but you are set in your path, aren't you?~ [BODHIX31.WAV]
-@67 /*HIDDEN_IN_SHADOWS*/ = ~We will observe from a distance.~ [_bBodh15.WAV]
-@6700 /*REACT_TO_DIE_GENERAL*/ = ~And so your life does come to an end. A pity.~ [_bBodh12.WAV]
-
-
 //New Items
 //Gender Belt
 @680 /*NAME1*/ = ~Girdle~
@@ -262,62 +226,6 @@ Requires:
 
 Weight: 5~
 
-//Bodhi's Claw
-@94 /*NAME*/ = ~Bodhi's Claw~
-@95 /*DESC*/ = ~Bodhi refuses to use weapons, preferring to crush, rip, and rend her opponents with her bare hands.
-
-STATISTICS:
-
-Combat abilities:
-– Level drain on hit.
-
-THAC0: +0
-Damage: 1d6 (crushing)
-Speed Factor: 0
-Proficiency Type: None
-Type: One-handed
-
-Weight: 0~
-
-//Bodhi's Ring
-@90 /*NAME*/ = ~Bodhi's Ring~
-@91 /*DESC*/ = ~Bodhi will not remove this ring nor tell you what it does.
-
-STATISTICS:
-
-Weight: 0~
-
-//Bodhi's Amulet
-@92 /*NAME*/ = ~Bodhi's Amulet~
-@93 /*DESC*/ = ~Bodhi's amulet matches her eyes and glows when she's excited.
-
-STATISTICS:
-
-Weight: 0~
-
-//Bodhi's Belt
-@84 /*NAME*/ = ~Bodhi's Belt~
-@85 /*DESC*/ = ~Bodhi's belt is made of a nearly indestructable material and you have never seen her take it off.
-
-STATISTICS:
-
-Weight: 0~
-
-//Bodhi's Hair
-@86 /*NAME*/ = ~Bodhi's Hair~
-@87 /*DESC*/ = ~Bodhi refuses to wear helms or hats of any kind. She prefers to feel the wind through her hair.
-
-STATISTICS:
-
-Weight: 0~
-
-//Bodhi's Skin
-@88 /*NAME*/ = ~Bodhi's Skin~
-@89 /*DESC*/ = ~Bodhi will not wear armor. She finds it confining.
-
-STATISTICS:
-
-Weight: 0~
 
 //Clara's Wedding Ring
 @96 /*Name*/ = ~Delryn Family Ring~
@@ -344,218 +252,22 @@ Eventually, the young Lord Delryn was offered a position on the Council of Six a
 
 Indeed, when asked the secret of his good fortune by young lords and jealous rivals, Anomen would only say humbly, "I have been very lucky. It took hard work, aye, to build my family's business into what it is today, but I did not do it by myself. I owe everything to my beloved goddess <CHARNAME>. Without her guidance, I would not be the man I am today."~
 
-//Mazzy's Dad Wraith
-@100 /*Name*/ = ~Richter Fentan~
-
-//Viconia's Wings
-@101 /*NAME*/ = ~Wings~
-@102 /*DESC*/ = ~A set of feathered wings.~
-@103 /*Script Name*/ = ~Viconia~
-
-@104 /*Mazzy Friendship only epilogue*/ = ~Mazzy and <CHARNAME> journeyed together for many years as heroes, their names revered and respected far and wide. However, Mazzy eventually decided to retire as an adventurer. She said farewell to <CHARNAME> and returned to Trademeet, where she opened a school of archery that became known for producing the finest archers anywhere in Amn. Mazzy joined the Trademeet militia and the local chapter of the Temple of Arvoreen, quickly rising in their ranks and eventually leading both for many years.
-
-Her personal life was also fruitful. She married a good friend, a halfling ranger, and the couple had three children whom they taught all they knew. Their sons and daughter continued the Fentan legacy of protecting innocents, growing up to be great heroes of their own.
-
-Mazzy and <CHARNAME> remained friends and <PRO_HESHE> would often come to visit, stopping in Trademeet to rest and regroup on the way to far off kingdoms. Mazzy enjoyed hearing about her friend's adventures, but the halfling never regretted the choice that she had made. Indeed, whenever someone asked Mazzy why she'd retired, her answer was always the same:
-
-“When I was young and foolish, I thought I had to venture to far away lands and battle great world-threatening evil in order to be a hero, but I was incorrect. True heroism is exhibited day-to-day, and my talents are needed here by my friends and family. There is glory in great deeds, but there is also loneliness and in my time with Patrick and later <CHARNAME>, I realized that I did not want great power or a glorious death. I chose to come home so that I could live and love instead.”
-
-And when Mazzy died at home in her bed, everyone in Trademeet agreed. Few had lived as fully as Mazzy Fentan and few had been as loved.~
 
 //Clara's Fireball
 @105 /*NAME*/ = ~Set Fireball Trap~
 @106 /*DESC*/ = ~This ability allows Clara to create a Fireball trap that will stay in position until someone walks too close. Friend or foe, the Fireball will then explode for massive damage.~
 
-//Boo NPC
-@107 /*NAME*/ = ~Boo~
-
 @108 /*Begin*/ = ~Do NOT allow multiple TOB epilogues: If you install this component, AllThingsMazzy epilogues will override existing game epilogues and most mod epilogues. If you do not install this component, the game will allow multiple NPC epilogues where applicable.~
 
-//Aerie's Wings
-@109 /*Script Name*/ = ~Aerie~
-@110 /*NAME*/ = ~Aerie's Wings~
-@111 /*DESC*/ = ~Aerie's wings are golden and shimmer in the light.
-
-STATISTICS:
-
-Equipped abilities:
-– Armor Class: +1
-- Intelligence +1
-- Wisdom +1
-- Increased movement speed
-
-Weight: 2~
-
-
-//Aeries's Epilogues
-//No Wings, no Neera, Minsc Witch w/o CN Romance
-@112 /*Epilogue*/ = ~Aerie continued adventuring after leaving <CHARNAME>'s company, traveling with Minsc to Rashemen where they were welcomed as heroes and she became an honorary Wychlaran. 
-
-On their next journey, they stumbled across a group of avariel winged elves enslaved in Cormyr. The elves compelled Aerie, Minsc, and Boo to go to Faenya-Dail, the home from which Aerie was originally stolen, and she learned much while there. Most importantly, she learned she was no longer one of them, and stopped pining for wings she wouldn't use anyway. 
-
-Aerie eventually became a high priestess in Understone, a gnomish village her mentor Quayle had sometimes spoken of. He had been her true family, and it was among his people that she, Minsc, and Boo finally found peace. Aerie remained there serving her community of gnomes for centuries to come.~
-
-//Minsc's witch w/ Neera, no wings & no CN romance or CN chose god
-@113 /*Epilogue*/ = ~Aerie continued adventuring after leaving <CHARNAME>'s company, traveling with Neera, Minsc, and Boo first to the High Forest and then to Rashemen where they were welcomed as heroes. She and Neera became honorary Wychlaran and Minsc finally gained entry into the Icedragon Beserker Lodge. 
-
-Afterward their journeys took them to Faenya-Dail, the home from which Aerie was originally stolen, and Aerie learned much while they were there. Most importantly, she learned she was no longer one of them, and stopped pining for wings she wouldn't use anyway. 
-
-After destroying a Red Wizard slaving operation that hunted her people, Aerie eventually became a high priestess in Understone, a gnomish village her mentor Quayle had sometimes spoken of. He had been her true family, and it was among his people that she, Neera, Minsc, and Boo finally found peace. Aerie remained there serving her community of gnomes for centuries to come.~
-
-//Aerie Wings, Minsc Witch, no M/N or CN romance
-@114 /*Epilogue*/ = ~Aerie continued adventuring after leaving <CHARNAME>'s company, traveling with Minsc to Rashemen where they were welcomed as heroes and she became an honorary Wychlaran. 
-
-On their next journey, they stumbled across a group of avariel winged elves enslaved in Cormyr. They compelled Aerie, Minsc, and Boo to go to Faenya-Dail, the home from which Aerie was originally stolen. There they discovered not only her people, but loving parents that had spent years searching for their lost child. 
-
-With no more mystery or confusion to darken their lives, it was there among the clouds that Aerie flew. Her ranger departed across the Realms, but Aerie stayed and became the avariel's fierce protector for years to come.~
-
-//Aerie Wings, Minsc Witch, M/N, no CN romance
-@115 /*Epilogue*/ = ~Aerie continued adventuring after leaving <CHARNAME>'s company, traveling with Neera, Minsc, and Boo first to the High Forest and then to Rashemen where they were welcomed as heroes. She and Neera became honorary Wychlaran and Minsc finally gained entry into the Icedragon Beserker Lodge. 
-
-Afterward their journeys took them to Faenya-Dail, the home from which Aerie was originally stolen. There they discovered not only her people, but loving parents that had spent years searching for their lost child. 
-
-With no more mystery or confusion to darken their lives, it was there among the clouds that Aerie flew. Minsc and Neera departed across the Realms, but Aerie stayed and became the avariel's fierce protector for years to come.~
-
-//Aerie Wings, CN Romance
-@116 /*Epilogue*/ = ~Aerie and <CHARNAME> would prove inseparable, their adventuring careers becoming secondary to the raising of their son, and eventually a daughter as well. Their later years would hold one last great trek, however, as Aerie still suffered a sadness from being taken from her homeland. 
-
-Together she and <CHARNAME> sought the avariel of Faenya-Dail, the winged elves she was stolen from so long ago. They discovered not only her people, but loving parents that had spent years searching for their lost child. 
-
-With no more mystery or confusion to darken their lives, it was there, among the clouds, that Aerie and <CHARNAME> would finally be married. Their union, it is said, was blessed by visions of Aerdrie Faenya and Baervan Wildwanderer both. Aerie gave <CHARNAME> and her children wings as well and they flew among the marble pillars of Faenya-Dail for years to come.~
-
-//Aerie Wings, no CN romance, no Minsc
-@117 /*Epilogue*/ = ~Aerie continued adventuring after leaving <CHARNAME>'s company, driven in her travels to oppose slavery in any form. Her compassion grew tainted by revenge, however, and she might have lost herself entirely had she not stumbled across a group of avariel winged elves enslaved in Cormyr. 
-
-They compelled her to come to Faenya-Dail, the home from which she was originally stolen. There she discovered not only her people, but loving parents that had spent years searching for their lost child. 
-
-With no more mystery or confusion to cloud her life, Aerie once again flew among the marble pillars of her homeland as a healer and protector of her people for the rest of her days.~
-
-
-//Minsc Epilogues
-//No wings, no Neera, Aerie witch w/o romance
-@118 /*Epilogue*/ = ~With the saga of the Bhaalspawn closed, Minsc fulfilled a long promised oath. He and Aerie went to Rashemen, where Minsc hoped to regale the Icedragon Berserker Lodge with the tales of his deeds, and earn a place within its hallowed halls. His words were not needed. Every tavern in Faerun had a bard singing of the valiant ranger, and he was welcomed as a hero and Aerie made an honorary Wychlaran of Rashemen. 
-
-Afterward they traveled to Faenya-Dail to find Aerie's family and eventually settled in Understone, a gnomish village where Minsc lived out most of his days until, in his advancing age, he again set out across the Realms... and disappeared. And what of Boo? Well, what is Minsc without Boo? The two would never be separated, and Aerie says that they are together still, up amongst the stars where hamsters are giants and men become legends.~
-
-//Aerie witch w/ Neera, no wings & no CN romance or CN chose god
-@119 /*Epilogue*/ = ~With the saga of the Bhaalspawn closed, Minsc fulfilled a long promised oath. After journeying to the High Forest, he, Aerie, and Neera returned to Rashemen, where Minsc hoped to regale the Icedragon Berserker Lodge with the tales of his deeds, and earn a place within its hallowed halls. His words were not needed. Every tavern in Faerun had a bard singing of the valiant ranger, and he was welcomed as a hero. 
-
-After a brief detour in Faenya-Dail where they vanquished many Red Wizard slavers, Minsc, Neera, Aerie, and Boo settled in the Gnomish village of Understone. There they stayed for many years until in Minsc's advancing age, he and Neera again set out across the Realms... and disappeared. And what of Boo? Well, what were Minsc and Neera without Boo? The three would never be separated, and Aerie says they are together still, up amongst the stars where hamsters are giants and rangers and wild-mages become legends.~
-
-//Aerie Wings, Minsc Witch, no M/N or CN romance
-@120 /*Epilogue*/ = ~With the saga of the Bhaalspawn closed, Minsc fulfilled a long promised oath. He and Aerie went to Rashemen, where Minsc hoped to regale the Icedragon Berserker Lodge with the tales of his deeds, and earn a place within its hallowed halls. His words were not needed. Every tavern in Faerun had a bard singing of the valiant ranger, and he was welcomed as a hero and Aerie made an honorary Wychlaran of Rashemen. 
-
-Afterward they traveled to Faenya-Dail to find Aerie's family. They were successful and Aerie stayed with her people, but it was no place for those without wings so Minsc once again set out across the Realms... and disappeared. And what of Boo? Well, what is Minsc without Boo? The two would never be separated, and Aerie says they are together still, up amongst the stars where hamsters are giants and men become legends.~
-
-//Aerie Wings, Minsc Witch, M/N or CN romance
-@121 /*Epilogue*/ = ~With the saga of the Bhaalspawn closed, Minsc fulfilled a long promised oath. After journeying to the High Forest, he, Aerie, and Neera returned to Rashemen, where Minsc hoped to regale the Icedragon Berserker Lodge with the tales of his deeds, and earn a place within its hallowed halls. His words were not needed. Every tavern in Faerun had a bard singing of the valiant ranger, and he was welcomed as a hero. 
-
-Then they went to Faenya-Dail where Aerie was welcomed by her people, and Minsc and Neera declared a decades-long war against the Red Wizard slavers who had been targeting them. In Minsc's advancing age, he and Neera once again set out across the Realms... and disappeared. And what of Boo? Well, what were Minsc and Neera without Boo? The three would never be separated, and Aerie says they are together still, up amongst the stars where hamsters are giants and rangers and wild-mages become legends.~
-
-//Minsc-Neera, no Aerie
-@122 /*Epilogue*/ = ~With the saga of the Bhaalspawn closed, Minsc fulfilled a long promised oath. He and Neera returned first to the High Forest and then to Rashemen. Minsc hoped to regale the Icedragon Berserker Lodge with the tales of his deeds, and earn a place within its hallowed halls, but his words were not needed. Every tavern in Faerun had a bard singing of Minsc and Neera, and they were welcomed as heroes. 
-
-Eventually they traveled to Moonsea where they formed their own adventuring company, the Justice Fist, which drove the Red Wizards from Melvaunt. They continued to travel battling evil until, in their advancing age, they again set out across the Realms... and disappeared. And what of Boo? Well, what are Minsc and Neera without Boo? The three would never be separated, and some say they are together still, up amongst the stars where hamsters are giants and rangers and wild-mages become legends.~
-
-
-//Neera Epilogues
-//Aerie is Minsc's witch w/ Neera, no wings & no CN romance or CN chose god
-@123 /*Epilogue*/ = ~Neera, Minsc, and Aerie traveled back to the north, stopping at inns and taverns along the way, always listening happily as bards wove tales both true and false of their adventures with <CHARNAME>. When they reached the High Forest, Neera was welcomed back as a hero and personally congratulated by Turlang the treant. Afterwards, they returned to Amn to reunite with the surviving wild mages of the Hidden Refuge. 
-
-Then they proceeded to Rashemen where Neera and Aerie were made honorary Wychlaran and Minsc gained entrance into the Icedragon Beserker Lodge. Neera convinced Aerie that they should next go to Faenya-Dail where the averiel were being enslaved by Red Wizards. Neera, Minsc, Aerie, and Boo killed the slavers and destroyed their operations which attracted Thay's attention, and once again they were hounded by Red Wizards. Defeating all who challenged them, they settled in Understone where they lived for many years. 
-
-Eventually though Minsc, Neera, and Boo grew restless and they again set out across the Realms... and disappeared from Faerun.~
-
-//Aerie is Minsc's witch w/ Neera, wings & no CN romance or CN chose god
-@124 /*Epilogue*/ = ~Neera, Minsc, and Aerie traveled back to the north, stopping at inns and taverns along the way, always listening happily as bards wove tales both true and false of their adventures with <CHARNAME>. When they reached the High Forest, Neera was welcomed back as a hero and personally congratulated by Turlang the treant. 
-
-Afterwards, they returned to Amn to reunite with the surviving wild mages of the Hidden Refuge. Then they proceeded to Rashemen where Neera and Aerie were made honorary Wychlaran and Minsc gained entrance into the Icedragon Beserker Lodge. Neera convinced Aerie that they should next go to Faenya-Dail where the Averiel were being enslaved by Red Wizards. Aerie stayed to protect her people, while Neera, Minsc, and Boo killed the slavers and destroyed their operations all the way back to Thay. 
-
-Minsc, Neera and Boo never did stay in one place for long until one day they set out across the Realms... and disappeared from Faerun.~
-
-//Minsc-Neera, no Aerie
-@125 /*Epilogue*/ = ~Neera traveled back to the north with Minsc and Boo, stopping at inns and taverns along the way, always listening happily as bards wove tales both true and false of their adventures with <CHARNAME>. When they reached the High Forest, she was welcomed back as a hero and personally congratulated by Turlang the treant. 
-
-Afterwards, Minsc, Neera, and Boo returned to Amn to reunite with the surviving wild mages of the Hidden Refuge, and then traveled to Rashemen where Neera became an honorary Wychlaran. They soon departed, making their way to the Moonsea, where with the help of a wild surge or two, she sank three docked Thayan slaver ships and almost single-handedly drove the Red Wizards from the city of Melvaunt. 
-
-Together Neera, Minsc, and Boo had many adventures until one day they disappeared from Faerun, never to be seen again.~
-
-
-//Viconia Evil Epilogues
-@126 /*Kill All Rivvin*/ = ~After her travels with <CHARNAME>, Viconia returned to Amn, which had recently been depopulated due to what was now called the Great Human Plague. With numerous lands and their castles now abandoned, and the weakened Athkatlan government unable to exert much influence, many other races had settled on those lands, and Viconia found that most of them were unconcerned with her heritage. 
-
-She built a house and gained both a place in the community and a reputation as someone not to be trifled with. Viconia even worked with Drizzt Do'Urden to defend Suldanessellar from a Zhentarim plot. 
-
-For saving the Elven city yet again, Queen Ellesime bestowed upon Viconia the highest honors of the Seldarine, an accolade never before given to one of her dark kind. Viconia reportedly bowed once, and then left, returning home. She never again hid her face, and while this often brought adventurers determined to slay her, Viconia would bury them all and live on her land for generations to come.~
-
-@127 /*Follows CN as god*/ = ~After <CHARNAME> ascended into heaven, Viconia became <PRO_HISHER> priestess, and lived openly, never again hiding her face.  Awed by her power and lured with tales of her beauty, many followers joined her and the ranks of <CHARNAME>'s faithful grew daily. Viconia's reputation also brought many adventurers determined to slay her, but surrounded by acolytes and with the power of <CHARNAME> coursing through her, she buried them all, and felt safe and at peace for the first time in her long life. 
-
-Eventually bored with temple life, Viconia again wandered the Realms, and went on to prevent an attempt by the Knights of the Shield to take over Calimport. She even worked with Drizzt Do'Urden to save the elven city of Suldanessellar from a Zhentarim plot, and for this last act, the elves accepted her, and Queen Ellesime bestowed the highest honors of the Seldarine, an accolade never before given to one of her dark kind. Viconia reportedly bowed once without emotion, and then left. ~
-
-@128 /*No Shar, no CN god, no romance*/ = ~After her travels with <CHARNAME>, Viconia returned to Amn and lived there for some years. She never again hid her face, and while this brought misguided adventurers determined to slay her, Viconia would bury them all, each victory only serving to enhance her reputation as a force not to be trifled with. 
-
-Eventually she became bored and once again wandered the Realms. She went on to prevent an attempt by the Knights of the Shield to take over Calimport, and even worked with Drizzt Do'Urden to save the elven city of Suldanessellar from a Zhentarim plot. 
-
-For this last act, the elves accepted her, and Queen Ellesime bestowed the highest honors of the Seldarine, an accolade never before given to one of her dark kind. Viconia reportedly bowed once without emotion, and then left. Her fate remains unknown.~
-
-@129 /*Dynaheir*/ = ~Dynaheir~
 @130 /*Girl Wraith*/ = ~Little Clara~
 
-//Dorn's Spell he gets when serving Umberlee.
-@131 = ~Umberlee's Embrace~
-@132 = ~Umberlee's Embrace
-(Alteration)
-
-Level: 4
-Range: Visual range of the caster 
-Duration: Instant
-Casting Time: 8
-Area of Effect: 15-ft. radius
-Saving Throw: 1/2
-
-This spell removes water from the bodies of every hostile living creature within the area of effect and returns it to the Goddess Umberlee, inflicting 1d8 damage per level of the caster. Affected creatures may Save vs. Spell for half damage. This spell is particularly devastating to water elementals and plant creatures, who receive a penalty of -2 to their Saving Throws. This spell only harms enemies.~
-
-//Dorn Epilogue if romancing HD
-@133 = ~After leaving <CHARNAME>'s company, Dorn and Haer'Dalis spent many years traveling across the realms, visiting such varied locales as Waterdeep, Neverwinter, and Thay. Along the way, Dorn's past tried to catch him several times. He was hunted by a "Freelance Jurist," Mercy Whitedove, who sought him for the massacre of Barrow, where his dark path began. 
-
-However, with Haer'Dalis at his side, Dorn Il'Khan was able to escape his bitter fate. The bard had tempered the worst of his wrath, showing him that retreat could be the better part of valor, and so the pair turned their sights to other planes. After Haer'Dalis unintentionally started a revolt in the Abyss, the pair were hunted fiercely across the Realms. It took all of Dorn's great skill to protect his lover, but the half-orc reveled in the challenge and none of the bard's enemies ever managed to draw blood. 
-
-Eventually the pair returned to Sigil where Haer'Dalis rejoined Raelis' acting troupe and Dorn found work as a bodyguard. Though it was only a matter of time until trouble managed to find them once again.~
-
-//HD Epilogue if Romancing Dorn
-@134 = ~After parting ways with <CHARNAME>, Haer'Dalis and Dorn Il'Khan kept their vows to each other and traveled throughout the Realms. Together they visited such varied locales as Waterdeep, Neverwinter, and Thay, dodging enemies and debtors before turning their sights to other planes. Although Haer'Dalis managed to temper the worst of Dorn's wrath, the pair fed off each other's passions and trouble still found them regularly. Indeed, a brief sojourn to the Abyss ended with the lovers unintentionally leading a revolt across several layers of the Nine Hells.
-
-For a time, Dorn and Haer'Dalis were the most hunted men among the planes, but the ire of their enemies could not match the tiefling's wanderlust or the might of his lover's blade. Eventually they found their way back to Sigil where Haer'Dalis rejoined Raelis' acting troupe and was pleased to settle down - until the next misunderstanding, of course.~
-
-//Wilson Epilogue if Romancing Jaheira
-@134000 = ~Among those who speak the animal tongues, the tales of Wilson's adventures are well-known. With his love, Jaheira, by his side, he was a defender of the weak and a tireless crusader for peace in a world rife with violence. The legends of Wilson and Jaheira passed down through the generations are countless, but a few stand out. A favorite among the deer and gazelle, and to a lesser extent the hyenas, is the story of how they freed countless species from the tyrannical rule of a corrupt Lion Kingdom. After ending his own kind's murderous rampage against fish, Wilson was the first and only mammal ever to be made a saint to the salmon. But perhaps their greatest triumph came when he forged a lasting peace in the ages-old conflict between cats and dogs. For all these things and more, Wilson is remembered fondly by all good and steadfast members of the wild kingdom. He died peacefully during hibernation at the age of thirty-seven, with Jaheira and their friends at his side.~
-
-//Jaheira Epilogue if Romancing Wilson
-@134001 = ~The years following the Bhaalspawn saga were kind to Jaheira. They couldn't be called peaceful by any means, but her relationship with Wilson weathered it all. Theirs was an unshakable union, and while duty or adventure might separate them for a time, they always returned to one another. As the years went on, she spent more and more time as a bear herself, and her trips into civilization became fewer and fewer. Together they achieved great things, most famously when they battled and defeated the tyrannical Lion Kingdom, freeing countless species from its corrupt rule. 
-
-Regrettably Wilson died an old bear while Jaheira was still in the prime of her life. In time, she returned to civilization and became a tireless champion of balance, one that sometimes acted in concert with the Harpers and sometimes did not. Having outlived two husbands and countless friends, she had become acutely aware of the fleeting nature of existence. Yet when asked about her past, all she would say is, "I would not have done otherwise."~
-
-//Bodhi Epilogue (Vampire)
-@135 = ~After her time with <CHARNAME>, Bodhi retired to Zazesspur, the largest port city in Tethyr. There she preyed on hapless sailors and merchants who were foolish enough to catch her eye. After many deaths, Zazesspur sent its guards and soldiers to destroy her, which led to their complete obliteration. Eventually the city government accepted Bodhi's presence and designed their city around her, redirecting the poorest and least favorable ships to her favorite prowling grounds.~
-
-//Bodhi Epilogue (Elf)
-@136 = ~After traveling with <CHARNAME>, Bodhi slowly journeyed north back toward her homeland, feasting and fighting along the way. She reached her City of Trees at the same time as an invading army, and once again Bodhi was responsible for saving Suldanessellar from complete annihilation. 
-
-Her sister-queen rejoiced to have her home and her fellow elves finally accepted her as one of their own. Bodhi lived there for many years, and if the human peasants nearby suffered from her presence, that was a price the elves of Suldanessellar were willing to pay.~
 
 //PRINT Notes (for Weidu Setup) - mostly just our flavor commments
 @137 = ~Wilson detected - Wilson interdia.2da append - set Wilsons's banter file (BWILSON & BWILSO25)~
 @138 = ~Wilson has no ToB override script? That must be changed!~
 @139 = ~Clara not detected. Clara is hiding. Casting True Sight and adding Clara's content.~
 @140 = ~Adding new items and spells.~
-@141 = ~Setting up Jan Jansen's Ball of Superdark Darkness.
-Error: Insufficient darkness found...
-Searching for additional darkness...
-Excess darkness found in Viconia's soul.
-Harvesting darkness...
-Transferring darkness...
-Second attempt: Setting up Jan Jansen's Ball of Superdark Darkness.
-Ball setup successful.~
+@141 = ~Setting up Jan Jansen's Ball of Superdark Darkness.~
 @142 = ~EE Journal Entries. Titles needed.~
 @143 = ~Adding new items, new nonsense, new strange abilities...~
 //Crossmod NPC stuff
@@ -570,31 +282,11 @@ Ball setup successful.~
 @150 = ~Saradas detected - adding crossmod banters~
 @151 = ~Saradas NPC not detected~
 
-@152 = ~Searching for pure, chaste Imoen.
-Error: Chaste Imoen not found.
-Adding inappropriate sex-loving Imoen.
-Sex-loving Imoen added.
-Searching for halfling orgy.
-No orgy found. Insufficient halflings.~
-@153 = ~Searching for giant space hamster.
-Giant space hamster found.
-Miniaturizing initiated.
-...
-Miniaturization successful.~
+@152 = ~Searching for pure, chaste Imoen.~
+@153 = ~Searching for giant space hamster.~
 @154 = ~Creating epilogues. Too many epilogues... Why are there so many options here?~
 @155 = ~RestCheck Files: to help with all the joys of mod compatibility.~
 @156 = ~Adding Bodhi NPC for all your evil vampire needs~
 @157 = ~Adding evil options. To let you do bad things...~
 @158 = ~Crossmod Content... Because everyone must die.~
 @159 = ~Activating Sheriff Mazzy. Big Brother is watching you. Don't you dare do evil things...~
-
-//Additional Content post "completion".
-//Optional Soundset for Clara
-@160 = ~Optional Soundset for Clara NPC~
-
-//Print Notes for NPC Strongholds Fix
-@161 = ~Installing fix for NPC Strongholds (Mazzy Quest)~
-@162 = ~NPC Strongholds not detected. Please install that mod first to avoid compatibility issues.~
-
-//Optional Portrait for Mazzy
-@163 = ~Optional Hi-Res Portrait for Mazzy created by Edvin.~
