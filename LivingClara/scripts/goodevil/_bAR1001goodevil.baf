@@ -63,6 +63,7 @@ THEN
 	CreateVisualEffectObject("SHAIR","Anomen")
 	Wait(1)
 	ChangeClass("Anomen",PALADIN)  // 阿诺门
+	SmallWait(5)
     ActionOverride("Anomen",AddKit(Blackguard))
     ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
     ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
@@ -86,6 +87,7 @@ THEN
 	CreateVisualEffectObject("SHAIR","Anomen")
 	Wait(1)
 	ChangeClass("Anomen",PALADIN)  // 阿诺门
+	SmallWait(5)
     ActionOverride("Anomen",AddKit(Blackguard))
     ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
     ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
@@ -104,13 +106,16 @@ IF
     Global("AnomenIsAntipaladin","GLOBAL",0)
 THEN
     RESPONSE #100
+		Wait(1)
         ChangeClass("Anomen",PALADIN)  // 阿诺门
+		SmallWait(5)
         ActionOverride("Anomen",AddKit(Blackguard))
         ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
         ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
         SetGlobal("AnomenIsAntipaladin","GLOBAL",1)
         ActionOverride("Anomen",DropItem("NPSHLD",[-1.-1]))  // 德尔林家传护盾
         ActionOverride("Anomen",PickUpItem("NPSHLD"))  // 德尔林家传护盾
+		Continue()
 END
 
 //Triggers Fade if Clara marries Cor
