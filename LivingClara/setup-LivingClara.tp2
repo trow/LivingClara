@@ -28,7 +28,10 @@ END
 
 LANGUAGE ~English~ ~english~ ~LivingClara/translations/english/setup.tra~ //List all available languages here. Each needs its own folder.
 LANGUAGE ~Russian~ ~russian~ ~LivingClara/translations/russian/setup.tra~
-LANGUAGE ~Simplified Chinese~ ~schinese~ ~LivingClara/translations/schinese/setup.tra~
+LANGUAGE ~Simplified Chinese~ ~schinese~
+		 ~LivingClara/translations/schinese/setup.tra~
+		 ~LivingClara/translations/schinese/prompts.tra~
+
 
 // ========== 模块 1: All Things Mazzy (核心内容) - Wilson NPC 兼容性与脚本修复 ==========
 // 定义一个安装组件，显示给用户的文本是 "~All Things Mazzy~" (来自 tra 文件的 @1 字符串)
