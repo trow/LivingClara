@@ -915,6 +915,7 @@ IF
 	IfValidForPartyDialog("_bClara")
 	!Global("Chapter","GLOBAL",%bg2_chapter_4%)
 	!Global("Chapter","GLOBAL",%bg2_chapter_5%)
+	AreaType(OUTDOOR)
 	See("Terl")  // Terl
 	!See([ENEMY])
 THEN
@@ -1794,6 +1795,7 @@ IF
 	GlobalTimerExpired("_bSpawnTerlClara","GLOBAL")
 	Global("_bRoseLibrary","GLOBAL",2)
 	IfValidForPartyDialog("_bClara")
+	AreaType(OUTDOOR)
 	See("Terl")  // Terl
 	!See([ENEMY])
 THEN
