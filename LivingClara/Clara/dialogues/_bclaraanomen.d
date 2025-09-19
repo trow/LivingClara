@@ -212,7 +212,7 @@ DO ~SetGlobal("_bClaraAnomenLove","GLOBAL",24)~
 EXIT
 
 //8th Talk - disowned version
-CHAIN IF WEIGHT #-1 ~Global("AnomenDecide","GLOBAL",4) Global("_bClaraAnomenLove","GLOBAL",23)~ THEN ANOMENJ _bClaraAnomen8B
+CHAIN IF WEIGHT #-1 ~Global("AnomenDecide","GLOBAL",4) Global("_bClaraAnomenLove","GLOBAL",23) !AreaCheck("AR1001")~ THEN ANOMENJ _bClaraAnomen8B
 @124 /*My anger has built to the point when I am shaking with pure rage. I—I must speak to you! I must gain some reassurance!*/
 = @125 /*My father... that rude, drunken bastard! He cast me out of the family when I was only doing what I must! I could not take vengeance when there was no proof, and he knew it!*/
 = @126 /*And yet... my heart cries out for vengeance! That my sister should lie murdered and the murderer laugh, untouched... I am so full of hate I can barely control it!*/

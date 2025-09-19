@@ -219,6 +219,7 @@ IF//didn't kill Saerk version
 	!Global("AnomenRomanceActive","GLOBAL",1)
 	Global("_bClaraAnomenLove","GLOBAL",23)
 	Global("AnomenDecide","GLOBAL",4)
+	!AreaCheck("AR1001")
 	CombatCounter(0)
 THEN
 	RESPONSE #100
