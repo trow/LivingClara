@@ -1,2 +1,5 @@
 Need to clean up unused variables.
 Requires modification for EET compatibility to allow installation after EET_End.
+
+[TOB part (?)]
+If Dorn chooses to betray and slay both of his former masters, becoming a fallen blackguard, then Dorn's Bloody Path personal quest is replaced by Anomen’s Kinslayer Vengeance. The overall flow remains largely the same, though some details differ.

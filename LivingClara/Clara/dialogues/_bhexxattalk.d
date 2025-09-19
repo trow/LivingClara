@@ -58,7 +58,7 @@ COPY_TRANS HEXXAT 0
 
 CHAIN HEXXAT _bMazzyHexxat3
 @28 /*Fool! Then you leave me no other choice.*/
-DO ~SetGlobal("OHH_cloakmissing","OH7000",5) SetGlobal("_bHexFight","GLOBAL",1)  SetQuestDone(84945)~ //stops her from asking about her cloak while you're trying to kill her.
+DO ~SetGlobal("OHH_cloakmissing","OH7000",5) SetGlobal("_bHexFight","GLOBAL",1) ChangeAIScript("ohhexxx",OVERRIDE) Enemy() SetQuestDone(84945)~ //stops her from asking about her cloak while you're trying to kill her.
 EXIT
 
 //Global leads to additional talk if ForTheGood installed
