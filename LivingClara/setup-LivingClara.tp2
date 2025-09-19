@@ -2,7 +2,7 @@ BACKUP ~LivingClara/backup~// 设置备份目录
 
 AUTHOR ~MephistoSatanDevil Authorization from BCaesar and Ratatoskr (Briana)~// 作者信息
 
-VERSION ~Version 0.99~// Mod 版本
+VERSION ~Version 0.999~// Mod 版本
 
 README ~LivingClara/translations/%LANGUAGE%/readme.txt~ ~LivingClara/readme.md~ // 安装时提供打开 README 文件的选项
 
@@ -860,12 +860,12 @@ EXTEND_TOP ~AR6200.bcs~ ~LivingClara/scripts/goodevil/tob/_bAR6200X.baf~  //This
  // 结束对 FtE 部分的处理。
 
     // 复制 Clara 的 WAV 音频文件到 override 目录。
-COPY ~LivingClara/Clara/audio/wav_files~ ~override~  
+//COPY ~LivingClara/Clara/audio/wav_files~ ~override~  
     // 调用 Weidu 的内置函数 HANDLE_AUDIO 来处理音频文件（可能包括转换或复制 OGG 文件）。
 LAF HANDLE_AUDIO
         // 传递给函数的字符串变量，指定音频文件的路径。
   STR_VAR
-    audio_path = ~LivingClara/Clara/audio/ogg_files~// OGG 文件源路径
-    oggdec_path = ~LivingClara/Clara/audio/ogg_files~ // OGG 解码器路径 (可能未使用)
-    sox_path = ~LivingClara/Clara/audio/ogg_files~ // Sox 音频处理工具路径 (可能未使用)
+    audio_path = ~LivingClara/Clara/audio~// OGG 文件源路径
+    oggdec_path = ~LivingClara/Clara/audio~ // OGG 解码器路径 (可能未使用)
+    sox_path = ~LivingClara/Clara/audio~ // Sox 音频处理工具路径 (可能未使用)
 END
