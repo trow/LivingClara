@@ -7,19 +7,19 @@ IF	//1st Nalia Romance Mod SoA Rest. EXTEND_BOTTOM ~nalia.bcs~
 	!AreaType(DUNGEON)
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	!StateCheck(Player1,CD_STATE_NOTVALID)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("PGNaliaLoveTalk","GLOBAL",10)
-	Global("_bPGNaliaLoveTalk10","GLOBAL",0)
+	Global("YF_PGNaliaLoveTalk10","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bPGNaliaLoveTalk10","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_PGNaliaLoveTalk10","GLOBAL",1)
 END
 
 
@@ -40,19 +40,19 @@ IF	//2nd Nalia Romance Mod SoA Rest. EXTEND_BOTTOM ~nalia.bcs~
 	ReputationGT(Player1,8)
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	!StateCheck(Player1,CD_STATE_NOTVALID)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("PGNaliaLoveTalk","GLOBAL",52)
-	Global("_bPGNaliaLoveTalk52","GLOBAL",0)
+	Global("YF_PGNaliaLoveTalk52","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bPGNaliaLoveTalk52","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_PGNaliaLoveTalk52","GLOBAL",1)
 END
 
 
@@ -76,17 +76,17 @@ IF	//3rd Nalia Romance Mod SoA Rest. EXTEND_BOTTOM ~nalia.bcs~
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	CombatCounter(0)
 	!See([ENEMY])
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("PGNaliaSpyingReaction","GLOBAL",1)
-	Global("_bPGNaliaSpyingReaction","GLOBAL",0)
+	Global("YF_PGNaliaSpyingReaction","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bPGNaliaSpyingReaction","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_PGNaliaSpyingReaction","GLOBAL",1)
 END

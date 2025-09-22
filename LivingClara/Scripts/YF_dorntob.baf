@@ -1,0 +1,31 @@
+
+//ClaraSex scene trigger
+//IF
+//	Global("YF_SleepsWithClara","GLOBAL",4) 
+//	InParty("DORN") 
+//	!StateCheck("DORN",CD_STATE_NOTVALID) 
+//	Global("OHD_dornsex","GLOBAL",1) 
+//	Global("YF_SWCD","GLOBAL",0)
+//	!Global("DornRomanceActive","GLOBAL",3)
+//THEN
+//	RESPONSE #100
+//	StartDialogNoSet(Player1)
+//END
+
+//Final Clara Banter Trigger - 1st in d
+IF 
+	InParty("YF_Clara") 
+	See("YF_Clara") 
+	!StateCheck("DORN",CD_STATE_NOTVALID) 
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID) 
+	Global("YF_BCLARADORN","GLOBAL",3)
+	!Global("DornRomanceActive","GLOBAL",2)
+	OR(3)
+	AreaCheck("AR6400")
+	AreaCheck("AR6300")
+	AreaType(FOREST)
+THEN
+	RESPONSE #100
+	UndoExplore()
+	Interact("YF_Clara")
+END

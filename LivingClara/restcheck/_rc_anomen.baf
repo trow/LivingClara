@@ -6,19 +6,19 @@ IF //1st Anomen Romance Rest. EXTEND_BOTTOM ~anomen.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",31)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF 
 	Global("LoveTalk","LOCALS",32)
-	Global("_bLoveTalk32","LOCALS",0)
+	Global("YF_LoveTalk32","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk32","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk32","LOCALS",1)
 END
 
 
@@ -29,18 +29,18 @@ IF  //2nd Anomen Romance Rest. EXTEND_BOTTOM ~anomen.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",35)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LoveTalk","LOCALS",36)
-	Global("_bLoveTalk36","LOCALS",0)
+	Global("YF_LoveTalk36","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk36","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk36","LOCALS",1)
 END
 

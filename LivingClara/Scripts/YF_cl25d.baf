@@ -1,0 +1,17 @@
+//Trigger for 3rd Nalia Banter
+IF 
+	InParty("YF_Clara")
+	InParty("Nalia")
+	!StateCheck("Nalia",CD_STATE_NOTVALID) 
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID) 
+	Global("YF_BCLARANALIA","GLOBAL",3)
+	GlobalTimerExpired("YF_GirlsNightOut","GLOBAL")
+	OR(2)
+	AreaCheck("AR5501")	      //Amkethran Inn
+	AreaCheck("AR5003")       //Saradush Tavern - tankard tree
+	Global("YF_restcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_BCLARANALIA","GLOBAL",4)
+END

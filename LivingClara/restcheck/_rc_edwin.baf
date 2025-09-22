@@ -10,19 +10,19 @@ IF	//1st Edwin Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~edwin.bcs~
 	OR(2)
 		Global("EddieCantGetDrunk","GLOBAL",0)
 		Global("EddieCantGetDrunk","GLOBAL",3)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("EdwinLoveTalk","LOCALS",10)
-	Global("_bEdwinLoveTalk10","LOCALS",0)
+	Global("YF_EdwinLoveTalk10","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bEdwinLoveTalk10","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_EdwinLoveTalk10","LOCALS",1)
 END
 
 
@@ -36,19 +36,19 @@ IF	//2nd Edwin Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~edwin.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("EdwinLoveTalk","LOCALS",31)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("EdwinKiss","GLOBAL",2)
-	Global("_bEdwinKiss2","GLOBAL",0)
+	Global("YF_EdwinKiss2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bEdwinKiss2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_EdwinKiss2","GLOBAL",1)
 END
 
 
@@ -60,19 +60,19 @@ IF	//3rd Edwin Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~edwin.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("EdwinLoveTalk","LOCALS",35)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("EdwinLoveTalk","LOCALS",36)
-	Global("_bEdwinLoveTalk36","LOCALS",0)
+	Global("YF_EdwinLoveTalk36","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bEdwinLoveTalk36","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_EdwinLoveTalk36","LOCALS",1)
 END
 
 
@@ -89,19 +89,19 @@ IF	//4th Edwin Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~edwin.bcs~
 	!Global("Chapter","GLOBAL",%bg2_chapter_4%)
 	!Global("Chapter","GLOBAL",%bg2_chapter_5%)
 	!Global("Chapter","GLOBAL",%bg2_chapter_7%)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("EdwinLoveTalk","LOCALS",22)
-	Global("_bEdwinLoveTalk22","LOCALS",0)
+	Global("YF_EdwinLoveTalk22","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bEdwinLoveTalk22","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_EdwinLoveTalk22","LOCALS",1)
 END
 
 
@@ -121,17 +121,17 @@ IF	//5th Edwin Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~edwin.bcs~
 		AreaCheck("AR1602")
 		AreaCheck("AR2010")
 		AreaCheck("AR2202")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("ERCook","GLOBAL",2)
-	Global("_bERCook2","GLOBAL",0)
+	Global("YF_ERCook2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bERCook2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_ERCook2","GLOBAL",1)
 END

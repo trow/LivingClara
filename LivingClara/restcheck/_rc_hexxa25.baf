@@ -6,18 +6,18 @@ IF	//Hexxat Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~hexxa25.bcs~
 	!AreaCheck("OH7300")
 	!AreaCheck("AR4500")
 	Global("OHH_final","GLOBAL",0)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF	
 	Global("OHH_final","GLOBAL",1)
-	Global("_bOHH_final","GLOBAL",0)
+	Global("YF_OHH_final","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bOHH_final","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_OHH_final","GLOBAL",1)
 END
 

@@ -10,19 +10,19 @@ IF	//1st Sarevok Romance Mod Rest. EXTEND_BOTTOM ~sarev25.bcs~
 	CombatCounter(0)
 	!See([ENEMY])
 	Global("LS#SarevokSex","GLOBAL",1)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LS#SarevokSex","GLOBAL",2)
-	Global("_bLS#SarevokSex2","GLOBAL",0)
+	Global("YF_LS#SarevokSex2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLS#SarevokSex2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LS#SarevokSex2","GLOBAL",1)
 END
 
 
@@ -38,18 +38,18 @@ IF	//2nd Sarevok Romance Mod Rest. EXTEND_BOTTOM ~sarev25.bcs~
 	!See([ENEMY])
 	Global("LS#SarevokSex","GLOBAL",0)
 	Global("LS#SarevokSexNP2","GLOBAL",0)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LS#SarevokSexNP2","GLOBAL",1)
-	Global("_bLS#SarevokSexNP2","GLOBAL",0)
+	Global("YF_LS#SarevokSexNP2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLS#SarevokSexNP2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LS#SarevokSexNP2","GLOBAL",1)
 END
 

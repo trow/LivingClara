@@ -9,19 +9,19 @@ IF	//1st Keldorn Romance Mod ToB Rest EXTEND_BOTTOM ~keld25.bcs~
 	!StateCheck(Player1,CD_STATE_NOTVALID)
 	CombatCounter(0)
 	!See([ENEMY])
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelToBLT","GLOBAL",2)
-	Global("_bB!KelToBLT2","GLOBAL",0)
+	Global("YF_B!KelToBLT2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelToBLT2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelToBLT2","GLOBAL",1)
 END
 
 
@@ -31,19 +31,19 @@ IF	//2nd Keldorn Romance Mod ToB Rest EXTEND_BOTTOM ~keld25.bcs~
 	See(Player1)
 	!StateCheck(Player1,CD_STATE_NOTVALID)
 	!StateCheck(Myself,CD_STATE_NOTVALID)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KR_MWLovedOne","GLOBAL",3)
-	Global("_bB!KR_MWLovedOne3","GLOBAL",0)
+	Global("YF_B!KR_MWLovedOne3","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KR_MWLovedOne3","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KR_MWLovedOne3","GLOBAL",1)
 END
 
 
@@ -57,19 +57,19 @@ IF	//3rd Keldorn Romance Mod ToB Rest EXTEND_BOTTOM ~keld25.bcs~
 	See(Player1)
 	CombatCounter(0)
 	!See([ENEMY])
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KR_ToBc4","GLOBAL",1)
-	Global("_bB!KR_ToBc4","GLOBAL",0)
+	Global("YF_B!KR_ToBc4","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KR_ToBc4","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KR_ToBc4","GLOBAL",1)
 END
 
 
@@ -82,17 +82,17 @@ IF	//4th Keldorn Romance Mod ToB Rest EXTEND_BOTTOM ~keld25.bcs~
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	See(Player1)
 	CombatCounter(0)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelSaradushFell","GLOBAL",1)
-	Global("_bB!KelSaradushFell","GLOBAL",0)
+	Global("YF_B!KelSaradushFell","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelSaradushFell","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelSaradushFell","GLOBAL",1)
 END

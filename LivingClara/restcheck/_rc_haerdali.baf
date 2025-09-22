@@ -22,18 +22,18 @@ IF	//1st Haer'Dalis Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~haerdali.bcs
 	!Global("LS_HaerDalisRomanceActive","GLOBAL",3)
 	Global("LS_HaerDalisSex","GLOBAL",0)
 	Global("LS_InnNookie","GLOBAL",0)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF	Global("LS_InnNookie","GLOBAL",1)
-	Global("_bLS_InnNookie","GLOBAL",0)
+	Global("YF_LS_InnNookie","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLS_InnNookie","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LS_InnNookie","GLOBAL",1)
 END
 	
 
@@ -52,18 +52,18 @@ IF	//2nd Haer'Dalis Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~haerdali.bcs
 	!Global("LS_HaerDalisRomanceActive","GLOBAL",3)
 	Global("LS_HaerDalisSex","GLOBAL",0)
 	Global("LS_OutsideNookie","GLOBAL",0)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LS_OutsideNookie","GLOBAL",1)
-	Global("_bLS_OutsideNookie","GLOBAL",0)
+	Global("YF_LS_OutsideNookie","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLS_OutsideNookie","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LS_OutsideNookie","GLOBAL",1)
 END
 

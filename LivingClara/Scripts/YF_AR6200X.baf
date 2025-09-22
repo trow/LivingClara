@@ -1,0 +1,25 @@
+//This code is solely to turn off the existing epilogues
+
+
+//Anomen (Darkside Anomen w/ Clara or CN)
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("Anomen")  // Anomen
+	!Dead("YF_Clara") //She doesn't have to be in party, just alive
+	Global("YF_LordAndLadyDelryn","GLOBAL",5) //Should be mutually exclusive with DS Anomen being 2
+	Global("AnomenBio","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("AnomenBio","GLOBAL",3)
+END
+
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("Anomen")  // Anomen
+	Global("YF_DarksideAnomen","GLOBAL",2)
+	Global("AnomenRomanceActive","GLOBAL",2) //Anomen CN Romance
+	Global("AnomenBio","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("AnomenBio","GLOBAL",3)
+END

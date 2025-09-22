@@ -3,17 +3,17 @@ IF	//Aerie Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~aeri25.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("ExpLoveTalk","LOCALS",3)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF	
 	Global("ExpLoveTalk","LOCALS",4)
-	Global("_bExpLoveTalk4","LOCALS",0)
+	Global("YF_ExpLoveTalk4","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bExpLoveTalk4","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_ExpLoveTalk4","LOCALS",1)
 END

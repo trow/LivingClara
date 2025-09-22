@@ -8,19 +8,19 @@ IF //1st Jaheira Romance Rest. EXTEND_BOTTOM ~jaheira.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",57)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LoveTalk","LOCALS",58)
-	Global("_bLoveTalk58","LOCALS",0)
+	Global("YF_LoveTalk58","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk58","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk58","LOCALS",1)
 END
 
 
@@ -33,18 +33,18 @@ IF  //2nd Jaheira Romance Rest. EXTEND_BOTTOM ~jaheira.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",67)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LoveTalk","LOCALS",68)
-	Global("_bLoveTalk68","LOCALS",0)
+	Global("YF_LoveTalk68","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk68","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk68","LOCALS",1)
 END
 

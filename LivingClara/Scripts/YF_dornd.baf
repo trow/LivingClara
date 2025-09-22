@@ -1,0 +1,19 @@
+
+//ClaraBanter Trigger
+IF 
+	InParty("YF_Clara") 
+	InMyArea("YF_Clara")
+	InParty("DORN")
+	!StateCheck("DORN",CD_STATE_NOTVALID) 
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID) 
+	Global("YF_BCLARADORN","GLOBAL",2)
+	!Global("DornRomanceActive","GLOBAL",2)
+	OR(2)
+	AreaCheck("AR6300")
+	AreaType(FOREST)
+	Global("YF_restcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_BCLARADORN","GLOBAL",3)
+END

@@ -9,19 +9,19 @@ IF	//1st Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 	CombatCounter(0)
 	!See([ENEMY])
 	Global("B!KelLT","GLOBAL",15)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelLT","GLOBAL",16)
-	Global("_bB!KelLT16","GLOBAL",0)
+	Global("YF_B!KelLT16","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelLT16","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelLT16","GLOBAL",1)
 END
 
 
@@ -38,19 +38,19 @@ IF 	//2nd Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 	!See([ENEMY])
 	Global("B!KelLT","GLOBAL",67)
 	GlobalLT("Chapter","GLOBAL",8)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelLT","GLOBAL",68)
-	Global("_bB!KelLT68","GLOBAL",0)
+	Global("YF_B!KelLT68","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelLT68","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelLT68","GLOBAL",1)
 END
 
 
@@ -76,19 +76,19 @@ IF	//3rd Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 		AreaCheck("AR1105")
 		AreaCheck("AR1602")
 		AreaCheck("AR2010")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelLT","GLOBAL",12)
-	Global("_bB!KelLT12","GLOBAL",0)
+	Global("YF_B!KelLT12","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelLT12","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelLT12","GLOBAL",1)
 END
 	
 	
@@ -114,19 +114,19 @@ IF	//4th Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 		AreaCheck("AR1105")
 		AreaCheck("AR1602")
 		AreaCheck("AR2010")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelLT","GLOBAL",54)
-	Global("_bB!KelLT54","GLOBAL",0)
+	Global("YF_B!KelLT54","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelLT54","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelLT54","GLOBAL",1)
 END
 
 
@@ -142,19 +142,19 @@ IF	//4th Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 	!See([ENEMY])
 	GlobalLT("Chapter","GLOBAL",8)
 	Global("B!KelNT","GLOBAL",1)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelNT","GLOBAL",2)
-	Global("_bB!KelNT2","GLOBAL",0)
+	Global("YF_B!KelNT2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelNT2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelNT2","GLOBAL",1)
 END
 
 
@@ -170,19 +170,19 @@ IF	//5th Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 	!See([ENEMY])
 	GlobalLT("Chapter","GLOBAL",8)
 	Global("B!KelNT","GLOBAL",3)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelNT","GLOBAL",4)
-	Global("_bB!KelNT4","GLOBAL",0)
+	Global("YF_B!KelNT4","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelNT4","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelNT4","GLOBAL",1)
 END
 
 
@@ -198,19 +198,19 @@ IF	//6th Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 	!See([ENEMY])
 	GlobalLT("Chapter","GLOBAL",8)
 	Global("B!KelNT","GLOBAL",5)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelNT","GLOBAL",6)
-	Global("_bB!KelNT6","GLOBAL",0)
+	Global("YF_B!KelNT6","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelNT6","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelNT6","GLOBAL",1)
 END
 
 
@@ -226,19 +226,19 @@ IF	//7th Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 	!See([ENEMY])
 	GlobalLT("Chapter","GLOBAL",8)
 	Global("B!KelNT","GLOBAL",7)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelNT","GLOBAL",8)
-	Global("_bB!KelNT8","GLOBAL",0)
+	Global("YF_B!KelNT8","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelNT8","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelNT8","GLOBAL",1)
 END
 
 
@@ -251,17 +251,17 @@ IF	//8th Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 	CombatCounter(0)
 	!See([ENEMY])
 	GlobalLT("Chapter","GLOBAL",8)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelBandage","LOCALS",2)
-	Global("_bB!KelBandage2","LOCALS",0)
+	Global("YF_B!KelBandage2","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelBandage2","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelBandage2","LOCALS",1)
 END

@@ -1,0 +1,43 @@
+
+//Trigger for Clara-Hexxat Talk
+IF
+	InParty("HEXXAT") 
+	InParty("YF_Clara")
+	Global("YF_BCLARAHEX","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_BCLARAHEX","GLOBAL",100)
+	SetGlobalTimer("YF_BCLARAHEXTIMER","GLOBAL",ONE_HOUR)
+END
+
+IF
+	InParty("HEXXAT") 
+	!StateCheck("HEXXAT",CD_STATE_NOTVALID)
+	InParty("YF_Clara")
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+	GlobalTimerExpired("YF_BCLARAHEXTIMER","GLOBAL")
+	Global("YF_BCLARAHEX","GLOBAL",100)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_BCLARAHEX","GLOBAL",1)
+END
+
+IF
+	Global("YF_BCLARAHEX","GLOBAL",1)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+IF	//Trigger for Hexxat leaving the party forever.
+	Global("YF_HexxatLeavesForever","GLOBAL",1)
+THEN
+	RESPONSE #100 
+	SetGlobal("KickedOut","LOCALS",2)
+	GivePartyAllEquipment()
+	TakePartyItem("OHHCLOAK") 
+	DestroyItem("OHHCLOAK")
+	LeaveParty() 
+	EscapeArea()
+END

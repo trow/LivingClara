@@ -1,0 +1,205 @@
+
+//Clara-Anomen Code to Kill Cor once timer expired
+IF
+	GlobalTimerExpired("YF_AnomenClaraCorTimer","GLOBAL")
+	Global("YF_LordAndLadyDelryn","GLOBAL",0)
+	Global("YF_ACGonnaStabCor","GLOBAL",2)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ACGonnaStabCor","GLOBAL",3)
+	ActionOverride("Cor",DestroySelf())
+	Continue()
+END
+
+//This is to stop Anomen's normal dialogue from playing if he kills Cor with Clara
+IF
+	Global("AnomenCor","GLOBAL",2)
+	Global("AnomenFinalFight","GLOBAL",1)
+	Global("YF_ACGonnaStabCor","GLOBAL",1)
+	Global("YF_CorFight","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_CorFight","GLOBAL",1)
+	SetGlobal("AnomenCor","GLOBAL",5)
+	Continue()
+END
+
+
+//This should play Cor's normal dialogue if Anomen dies - adjusted code from game
+IF
+	Global("AnomenCor","GLOBAL",5)
+	Global("YF_ACGonnaStabCor","GLOBAL",1)
+	Global("YF_CorExtra","GLOBAL",0)
+	Dead("Anomen")  // Anomen
+	!Dead("Cor")  // Cor Delryn
+	!StateCheck("Cor",STATE_SLEEPING)  // Cor Delryn
+	!StateCheck("Cor",STATE_STUNNED)  // Cor Delryn
+	!StateCheck("Cor",STATE_HELPLESS)  // Cor Delryn
+	!StateCheck("Cor",STATE_PANIC)  // Cor Delryn
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("AnomenCor","GLOBAL",3)
+	SetGlobal("YF_CorExtra","GLOBAL",1)
+	ActionOverride("Cor",StartDialog("COR",Player1))
+	Continue()
+END
+
+//This triggers new dialogue if Anomen kills Cor w/ Clara
+//如果装备了他的家传护盾，会掉在脚下
+IF
+	!GlobalTimerExpired("YF_AnomenClaraCorTimer","GLOBAL")
+	Global("AnomenCor","GLOBAL",5)
+	Global("YF_CorFight","GLOBAL",1)
+	Global("YF_ACGonnaStabCor","GLOBAL",1)
+	Dead("Cor")  // Cor Delryn
+	Global("YF_AnomenIsAntipaladin","GLOBAL",0)
+	!HasItemEquipedReal("NPSHLD","Anomen")
+	!Dead("Anomen")  // Anomen
+	!StateCheck("Anomen",CD_STATE_NOTVALID)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	CreateVisualEffectObject("SHAIR","Anomen")
+	Wait(1)
+	ChangeClass("Anomen",PALADIN)  // 阿诺门
+	SmallWait(5)
+    ActionOverride("Anomen",AddKit(Blackguard))
+    ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
+    ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
+	AddXPObject("Anomen",64000) 
+	SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",1)
+	ActionOverride("Anomen",StartDialog("ANOMENP",Player1))
+	Continue()
+END
+IF
+	!GlobalTimerExpired("YF_AnomenClaraCorTimer","GLOBAL")
+	Global("AnomenCor","GLOBAL",5)
+	Global("YF_CorFight","GLOBAL",1)
+	Global("YF_ACGonnaStabCor","GLOBAL",1)
+	Dead("Cor")  // Cor Delryn
+	HasItemEquipedReal("NPSHLD","Anomen")
+	Global("YF_AnomenIsAntipaladin","GLOBAL",0)
+	!Dead("Anomen")  // Anomen
+	!StateCheck("Anomen",CD_STATE_NOTVALID)
+	CombatCounter(0)
+THEN
+	RESPONSE #100	
+	CreateVisualEffectObject("SHAIR","Anomen")
+	Wait(1)
+	ChangeClass("Anomen",PALADIN)  // 阿诺门
+	SmallWait(5)
+    ActionOverride("Anomen",AddKit(Blackguard))
+    ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
+    ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
+	AddXPObject("Anomen",64000) 
+    ActionOverride("Anomen",DropItem("NPSHLD",[-1.-1]))  // 德尔林家传护盾
+	SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",1)
+	ActionOverride("Anomen",StartDialog("ANOMENP",Player1))
+	Continue()
+END
+
+
+IF
+	GlobalTimerExpired("YF_AnomenClaraCorTimer","GLOBAL")
+    Global("AnomenCor","GLOBAL",4)
+    Global("YF_LordAndLadyDelryn","GLOBAL",1)
+    Global("YF_CNMissedStabbing","GLOBAL",0)
+    Global("YF_AnomenIsAntipaladin","GLOBAL",0)
+THEN
+    RESPONSE #100
+		Wait(1)
+        ChangeClass("Anomen",PALADIN)  // 阿诺门
+		SmallWait(5)
+        ActionOverride("Anomen",AddKit(Blackguard))
+        ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
+        ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
+		AddXPObject("Anomen",64000) 
+        SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",1)
+        ActionOverride("Anomen",DropItem("NPSHLD",[-1.-1]))  // 德尔林家传护盾
+        ActionOverride("Anomen",PickUpItem("NPSHLD"))  // 德尔林家传护盾
+		Continue()
+END
+
+//Triggers Fade if Clara marries Cor
+IF
+	Global("YF_LordAndLadyDelryn","GLOBAL",3)
+	Global("YF_ClaraFilesPapers","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride("YF_Clara",EscapeAreaMove("AR1001",511,283,NE))
+	SetGlobal("YF_ClaraFilesPapers","GLOBAL",2)
+END
+
+IF 
+	Global("YF_ClaraFilesPapers","GLOBAL",2)
+THEN
+	RESPONSE #100
+	FadeToColor([20.0],0) 
+	Wait(3)
+	SetGlobal("YF_ClaraFilesPapers","GLOBAL",3)
+END
+
+IF 
+	Global("YF_ClaraFilesPapers","GLOBAL",3)
+THEN
+	RESPONSE #100
+	ActionOverride("YF_Clara",StartDialog("YF_clarp",Player1))
+END
+
+
+//Timer before they'll travel again
+IF
+	GlobalTimerExpired("YF_AnomenClaraCorTimer2","GLOBAL")
+	Global("YF_LordAndLadyDelryn","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_LordAndLadyDelryn","GLOBAL",2)
+END
+
+//To make sure Cor dies
+IF
+	GlobalTimerExpired("YF_AnomensReturn","GLOBAL")
+	Global("YF_CorDieDamnIt","GLOBAL",0)
+THEN
+	RESPONSE #100
+	FadeToColor([20.0],0) //So he dies and Anomen appears a little less abruptly
+	Wait(2)
+	ActionOverride("Cor",DestroySelf())
+	FadeFromColor([20.0],0)
+	SetGlobal("YF_CorDieDamnIt","GLOBAL",1)
+	Continue()
+END
+
+//Wedding Timer - post widowing
+IF
+	Global("YF_LordAndLadyDelryn","GLOBAL",4)
+	Global("YF_CrocodileTears","GLOBAL",1)
+	GlobalTimerExpired("YF_AnomenClaraTimer3","GLOBAL")
+THEN
+	RESPONSE #100
+	SetGlobal("YF_LordAndLadyDelryn","GLOBAL",2)
+END
+
+//Timer for Travel after Cor Wedding
+IF
+	Global("YF_ClaraAndCor","GLOBAL",2)
+	Global("YF_LadyDelryn","GLOBAL",1)
+	GlobalTimerExpired("YF_CorWeddingTravel","GLOBAL")
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraAndCor","GLOBAL",3)
+END
+
+//To remove Cor's body after the rest in Darkside Anomen
+IF
+	OR(2)
+	Global("YF_LordAndLadyDelryn","GLOBAL",2)
+	Global("YF_DarksideAnomen","GLOBAL",2)
+	Global("YF_DestroyBodyofCor","GLOBAL",0)
+THEN
+	RESPONSE #100
+	ActionOverride("Cor",DestroySelf())
+	SetGlobal("YF_DestroyBodyofCor","GLOBAL",1)
+	Continue()
+END

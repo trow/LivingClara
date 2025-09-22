@@ -1,0 +1,30 @@
+
+//For the second Darkside Anomen talk
+IF
+	Global("YF_CouncilSixTalk","GLOBAL",2)
+	!See("Anomen")  // Anomen
+	IfValidForPartyDialog("Anomen")  // Anomen
+THEN
+	RESPONSE #100
+	MoveToObject("Anomen")  // Anomen
+END
+
+//For the Clara-Rose quest
+IF
+	Global("YF_RoseClara","GLOBAL",2)
+	IfValidForPartyDialog("YF_Clara")
+	!See("YF_Clara")  //Clara
+THEN
+	RESPONSE #100
+	MoveToObjectNoInterrupt("YF_Clara")  //YF_Clara
+END
+
+//To make sure he doesn't get stuck somewhere on the Clara version
+IF
+	Global("YF_RoseClara","GLOBAL",2)
+	GlobalTimerExpired("YF_SpawnTerlClara","GLOBAL")
+	!IfValidForPartyDialog("YF_Clara")  //Clara
+THEN
+	RESPONSE #100
+	EscapeArea()
+END

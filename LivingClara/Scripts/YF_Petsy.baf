@@ -1,0 +1,24 @@
+//Petsy wears sex change belt.
+IF
+HasItemEquiped("YF_BELT2",Myself)
+Gender(Myself,FEMALE)
+Global("YF_PetsyGoesMale","GLOBAL",0)
+THEN
+	RESPONSE #100
+CreateVisualEffectObject("SPPOLYMP",Myself)
+ChangeGender(Myself,MALE)
+Polymorph(THIEF_MALE_HALFLING)
+SetGlobal("YF_PetsyGoesMale","GLOBAL",1)
+END
+
+IF
+!HasItemEquiped("YF_BELT2",Myself)
+Gender(Myself,MALE)
+Global("YF_PetsyGoesMale","GLOBAL",1)
+THEN
+	RESPONSE #100
+CreateVisualEffectObject("SPPOLYMP",Myself)
+ChangeGender(Myself,FEMALE)
+Polymorph(THIEF_FEMALE_HALFLING)
+SetGlobal("YF_PetsyGoesMale","GLOBAL",0)
+END

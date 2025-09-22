@@ -1,0 +1,110 @@
+IF  //To make Hexxat attack you while not in your party
+	Global("YF_HexFight","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride("HEXXAT",Enemy())
+	ActionOverride("HEXXAT",Attack("Player1"))
+	SetGlobal("YF_HexFight","GLOBAL",2)
+	Continue()
+END
+
+//Trigger for waking up conversation after ClaraSex
+//IF
+//	Global("YF_SleptWithClara","GLOBAL",6)
+//	CombatCounter(0)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,StartDialogue("player1",Player1))
+//	Continue()
+//END
+
+//Trigger for SuperDark floating text
+IF
+	Global("YF_SuperDark","GLOBAL",1)
+THEN
+	RESPONSE #100
+	FadeToColor([20.0],0)
+	Wait(3)
+	ActionOverride(Player1,DisplayStringNoNameHead(Player1,@3)) /*"Thank you for using Jan Jansen's Patented Ball of Superdark Darkness. When you need darker than dark, try Superdark!"*/
+	SetGlobal("YF_SuperDark","GLOBAL",2)
+	Continue()
+END
+
+IF
+	Global("YF_SuperDark","GLOBAL",2)
+THEN
+	RESPONSE #100
+	ActionOverride("YF_Clara",DestroySelf())
+	Wait(10)
+	SetGlobal("YF_SuperDark","GLOBAL",3)
+	Continue()
+END
+
+IF
+	Global("YF_SuperDark","GLOBAL",3)
+THEN
+	RESPONSE #100
+	FadeFromColor([20.0],0)
+	SetGlobal("YF_SuperDark","GLOBAL",4)
+	Continue()
+END
+
+//Trigger for floating text post SuperDark
+
+IF
+	Global("YF_SuperDark","GLOBAL",4)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_SuperDark","GLOBAL",5)
+	ActionOverride(Player1,DisplayStringNoNameHead(Player1,@4)) /*When the darkness fades, Clara is nowhere to be seen.*/
+	Continue()
+END
+
+
+//To make Anomen go back to house post Cor's death
+IF
+	GlobalTimerExpired("YF_AnomensReturn","GLOBAL")
+	Global("YF_LordAndLadyDelryn","GLOBAL",3)
+THEN
+	RESPONSE #100
+	MoveGlobal("AR1001","Anomen",[514.321])
+	SetGlobal("YF_LordAndLadyDelryn","GLOBAL",4)
+	Continue()
+END
+
+
+//Code to make the doors to Mae'Var's place open if Gorch is dead.
+IF
+GlobalLT("GorchOpen","GLOBAL",2)
+Dead("gorch")
+THEN
+RESPONSE #100
+ActionOverride(Player1,Unlock("DOOR01"))
+ActionOverride(Player1,Unlock("DOOR02"))
+SetGlobal("GorchOpen","GLOBAL",2)
+END
+
+//Script to set Paladins not hostile once Garren Windspear intervenes for you.
+IF
+Global("TempleShout0903","GLOBAL",1)
+Global("DomainPaladinBattle","GLOBAL",3)
+Global("YF_GarrenMakesPeace","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("TempleShout0903","GLOBAL",0)
+	SetGlobal("YF_GarrenMakesPeace","GLOBAL",1)
+END
+
+//Script to make thieves/Joster stop showing up once you betray your guild.
+IF
+	Global("PGFailed","GLOBAL",0)
+	Global("PlayerThiefGuild","GLOBAL",1)  //Means you have the guild
+	GlobalGT("YF_FightThieves","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("PGFailed","GLOBAL",10)
+	SetGlobal("JosterLeave","GLOBAL",10)
+	SetGlobal("NotifyThiefHead","GLOBAL",10)
+	SetGlobal("PGThievesLeave","GLOBAL",10)
+	DisplayStringHead(Player1,@5) /*You have turned against the Shadow Thieves and thus lost your guild.*/
+END

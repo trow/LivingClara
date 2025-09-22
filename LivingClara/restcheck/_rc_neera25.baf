@@ -5,19 +5,19 @@ IF	//1st Neera Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~neera25.bcs~
 	OR(2)
 		TimeLT(3)
 		TimeGT(15)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("OHN_TOB_PLOT","GLOBAL",5)
-	Global("_bOHN_TOB_PLOT5","GLOBAL",0)
+	Global("YF_OHN_TOB_PLOT5","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bOHN_TOB_PLOT5","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_OHN_TOB_PLOT5","GLOBAL",1)
 END
 
 
@@ -26,18 +26,18 @@ IF	//2nd Neera Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~neera25.bcs~
 	AreaCheck("oh6400")
 	TimeGT(2)
 	TimeLT(16)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("OHN_TOB_PLOT","GLOBAL",5)
-	Global("_bOHN_TOB_PLOT5","GLOBAL",0)
+	Global("YF_OHN_TOB_PLOT5","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bOHN_TOB_PLOT5","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_OHN_TOB_PLOT5","GLOBAL",1)
 END
 

@@ -1,0 +1,35 @@
+//Stops guard from dying when Anomen goes to fight his dad
+IF
+	Global("YF_ADKDG","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("AnomenBreaksIn","AR1000",3)
+	SetGlobal("YF_ADKDG","GLOBAL",1)
+	Continue()
+END
+
+//Sets Cor Cutscene Global 
+//(We need these to bogart the romance cutscene, but don't want to set the match too early, so triggers off Clara-Anomen)
+IF
+	Global("YF_ACGonnaStabCor","GLOBAL",1)
+	Global("YF_ADKDG","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("AnomenCor","GLOBAL",1)
+	SetGlobal("AnomenMatch","GLOBAL",1)
+	SetGlobal("YF_ADKDG","GLOBAL",2)
+	Continue()
+END
+
+//Clara-Anomen Code when timer up & they've killed Cor
+IF
+	GlobalTimerExpired("YF_AnomenClaraCorTimer","GLOBAL")
+	Global("YF_ACGonnaStabCor","GLOBAL",1)
+	Global("YF_LordAndLadyDelryn","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("AnomenCor","GLOBAL",4)
+	SetGlobal("YF_ACGonnaStabCor","GLOBAL",2)
+	SetGlobal("YF_LordAndLadyDelryn","GLOBAL",1)
+	Continue()
+END

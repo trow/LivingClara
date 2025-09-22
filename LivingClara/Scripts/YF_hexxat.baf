@@ -1,0 +1,13 @@
+IF	//Trigger for Hexxat leaving the party forever.
+	Global("YF_HexxatLeavesForever","GLOBAL",1)
+THEN
+	RESPONSE #100 
+	SetGlobal("KickedOut","LOCALS",2)
+	GivePartyAllEquipment()
+	TakePartyItem("OHHCLOAK") 
+	DestroyItem("OHHCLOAK")
+	LeaveParty() 
+	EscapeArea()
+END
+
+//Hexxat attack script in bbaldur to make sure it triggers while she's not in your party

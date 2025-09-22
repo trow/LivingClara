@@ -1,0 +1,867 @@
+IF	//Trigger for Anomen leaving the party forever.
+	Global("YF_AnoLeavesForever","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("KickedOut","LOCALS",2)
+	GivePartyAllEquipment()
+	LeaveParty() 
+	EscapeArea()
+END
+
+//ClaraSex scene trigger - if had sex already
+//IF
+//	Global("YF_SleepsWithClara","GLOBAL",4) 
+//	Global("YF_SWCAn1","GLOBAL",0)
+//	IfValidForPartyDialog("Anomen")
+//	Global("AnomenRomanceActive","GLOBAL",2)
+//THEN
+//	RESPONSE #100
+//	StartDialogNoSet(Player1)
+//END
+//
+////ClaraSex scene trigger - if haven't had sex
+//IF
+//	Global("YF_SleepsWithClara","GLOBAL",4)
+//	Global("YF_SWCAn2","GLOBAL",0)	
+//	IfValidForPartyDialog("Anomen")
+//	Global("AnomenMatch","GLOBAL",1) 
+//	!Global("AnomenRomanceActive","GLOBAL",2)
+//THEN
+//	RESPONSE #100
+//	StartDialogNoSet(Player1)
+//END
+
+//Anomen Romance Fix
+IF	Global("AnomenMatch","GLOBAL",1)
+	InParty("Anomen") 
+	Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("YF_AnomenRomanceActive","GLOBAL",2)
+THEN 
+	RESPONSE #100
+	SetGlobal("YF_AnomenRomanceActive","GLOBAL",2)
+END
+
+IF	Global("AnomenMatch","GLOBAL",1)
+	IfValidForPartyDialog("Anomen")
+	CombatCounter(0)
+	Global("AnomenRomanceActive","GLOBAL",3)
+	Global("YF_AnomenRomanceFix","GLOBAL",0)
+THEN 
+	RESPONSE #100
+	SetGlobal("YF_AnomenRomanceFix","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Anomen")
+	CombatCounter(0)
+	Global("YF_AnomenRomanceFix","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobalTimer("YF_AnomenFixTimer","GLOBAL",ONE_HOUR)
+	SetGlobal("YF_AnomenRomanceFix","GLOBAL",2)
+END
+
+IF
+	InParty("Anomen") 
+	!StateCheck("Anomen",CD_STATE_NOTVALID)
+	CombatCounter(0)
+	Global("YF_AnomenRomanceFix","GLOBAL",2)
+	GlobalTimerExpired("YF_AnomenFixTimer","GLOBAL")
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Clara-Anomen Talk Timer (all talks w/ same timer). Shortened to be possible before test
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	OR(4)
+	Global("YF_ClaraAnomenLove","GLOBAL",0)
+	Global("YF_ClaraAnomenLove","GLOBAL",3)
+	Global("YF_ClaraAnomenLove","GLOBAL",12)
+	Global("YF_ClaraAnomenLove","GLOBAL",15)
+THEN 
+	RESPONSE #100
+	SetGlobalTimer("YF_CALoveTime","GLOBAL",TWO_DAYS)
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF	
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	GlobalTimerExpired("YF_CALoveTime","GLOBAL")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	OR(4)
+	Global("YF_ClaraAnomenLove","GLOBAL",1)
+	Global("YF_ClaraAnomenLove","GLOBAL",4)
+	Global("YF_ClaraAnomenLove","GLOBAL",13)
+	Global("YF_ClaraAnomenLove","GLOBAL",16)
+	CombatCounter(0)
+THEN 
+	RESPONSE #100
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	OR(4)
+	Global("YF_ClaraAnomenLove","GLOBAL",2)
+	Global("YF_ClaraAnomenLove","GLOBAL",5)
+	Global("YF_ClaraAnomenLove","GLOBAL",14)
+	Global("YF_ClaraAnomenLove","GLOBAL",17)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+
+//4th & 7th Talk - different timer
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	OR(2)
+	Global("YF_ClaraAnomenLove","GLOBAL",18)
+	Global("YF_ClaraAnomenLove","GLOBAL",9)
+THEN 
+	RESPONSE #100
+	SetGlobalTimer("YF_CALoveTime2","GLOBAL",ONE_DAY)
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF	
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	GlobalTimerExpired("YF_CALoveTime2","GLOBAL")
+	OR(2)
+	Global("YF_ClaraAnomenLove","GLOBAL",19)
+	Global("YF_ClaraAnomenLove","GLOBAL",10)
+	CombatCounter(0)
+THEN 
+	RESPONSE #100
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	OR(2)
+	Global("YF_ClaraAnomenLove","GLOBAL",20)
+	Global("YF_ClaraAnomenLove","GLOBAL",11)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+
+//8th Talk needs own timer so it doesn't try to play too early
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	Global("YF_ClaraAnomenLove","GLOBAL",21)
+THEN 
+	RESPONSE #100
+	SetGlobalTimer("YF_CALoveTime","GLOBAL",TWO_DAYS)
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF	
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	GlobalTimerExpired("YF_CALoveTime","GLOBAL")
+	Global("YF_ClaraAnomenLove","GLOBAL",22)
+THEN 
+	RESPONSE #100
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF//killed Saerk version
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	Global("YF_ClaraAnomenLove","GLOBAL",23)
+	Global("SaerkRevengeDone","LOCALS",1) //This gets set when Anomen talks after Saerk's death
+	!Global("AnomenDecide","GLOBAL",4)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	Wait(10)
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+
+IF//didn't kill Saerk version
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	Global("YF_ClaraAnomenLove","GLOBAL",23)
+	Global("AnomenDecide","GLOBAL",4)
+	!AreaCheck("AR1001")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	Wait(5)
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+
+//Timer for Talks 9 & 10. Require Anomen not having taken test
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	GlobalGT("YF_ClaraAnomenLove","GLOBAL",23)
+	Global("YF_AnomenClaraRomance","GLOBAL",1)
+	Global("AnomenIsNotKnight","GLOBAL",0) 
+	Global("AnomenIsKnight","GLOBAL",0)
+	OR(2)
+	Global("YF_ACTestTalk","GLOBAL",0)
+	Global("YF_ACTestTalk","GLOBAL",3)
+THEN 
+	RESPONSE #100
+	SetGlobalTimer("YF_CALoveTime2","GLOBAL",ONE_DAY)
+	IncrementGlobal("YF_ACTestTalk","GLOBAL",1)
+END
+
+IF	
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	GlobalTimerExpired("YF_CALoveTime2","GLOBAL")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	Global("AnomenIsNotKnight","GLOBAL",0)
+	Global("AnomenIsKnight","GLOBAL",0)
+	OR(2)
+	Global("YF_ACTestTalk","GLOBAL",1)
+	Global("YF_ACTestTalk","GLOBAL",4)
+THEN 
+	RESPONSE #100
+	IncrementGlobal("YF_ACTestTalk","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	Global("AnomenIsNotKnight","GLOBAL",0) 
+	Global("AnomenIsKnight","GLOBAL",0)
+	OR(2)
+	Global("YF_ACTestTalk","GLOBAL",2)
+	Global("YF_ACTestTalk","GLOBAL",5)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+
+//Timer for Post Test Failure - has to not be a knight
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	Global("YF_AnomenClaraRomance","GLOBAL",1)
+	Global("AnomenIsNotKnight","GLOBAL",1)
+	OR(5)
+	Global("YF_ClaraAnomenLove","GLOBAL",24)
+	Global("YF_ClaraAnomenLove","GLOBAL",27)
+	Global("YF_ClaraAnomenLove","GLOBAL",30)
+	Global("YF_ClaraAnomenLove","GLOBAL",33)
+	Global("YF_ClaraAnomenLove","GLOBAL",36)
+THEN 
+	RESPONSE #100
+	SetGlobalTimer("YF_CALoveTime","GLOBAL",TWO_DAYS)
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF	//some of these are in d script instead
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	GlobalTimerExpired("YF_CALoveTime","GLOBAL")
+	OR(4)
+	Global("YF_ClaraAnomenLove","GLOBAL",25)
+	Global("YF_ClaraAnomenLove","GLOBAL",28)
+	Global("YF_ClaraAnomenLove","GLOBAL",34)
+	Global("YF_ClaraAnomenLove","GLOBAL",37)
+THEN 
+	RESPONSE #100
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	Global("AnomenIsNotKnight","GLOBAL",1)
+	OR(4)
+	Global("YF_ClaraAnomenLove","GLOBAL",26)
+	Global("YF_ClaraAnomenLove","GLOBAL",29)
+	Global("YF_ClaraAnomenLove","GLOBAL",32)
+	Global("YF_ClaraAnomenLove","GLOBAL",35)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+
+//Trigger for proposal talk, has to be nightime
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	Global("AnomenIsNotKnight","GLOBAL",1)
+	Global("YF_ClaraAnomenLove","GLOBAL",38)
+	!AreaType(DUNGEON)
+	CombatCounter(0)
+	OR(2)
+	TimeOfDay(DUSK)
+	TimeOfDay(NIGHT)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+
+//Post Proposal Talks
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	Global("YF_AnomenClaraRomance","GLOBAL",2)
+	Global("AnomenIsNotKnight","GLOBAL",1)
+	OR(2)
+	Global("YF_ClaraAnomenLove","GLOBAL",39)
+	Global("YF_ClaraAnomenLove","GLOBAL",42)
+THEN 
+	RESPONSE #100
+	SetGlobalTimer("YF_CALoveTime","GLOBAL",TWO_DAYS)
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF	//one of these is in d script instead
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	GlobalTimerExpired("YF_CALoveTime","GLOBAL")
+	Global("YF_ClaraAnomenLove","GLOBAL",40)
+THEN 
+	RESPONSE #100
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	Global("AnomenIsNotKnight","GLOBAL",1)
+	OR(2)
+	Global("YF_ClaraAnomenLove","GLOBAL",41)
+	Global("YF_ClaraAnomenLove","GLOBAL",44)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+
+//Script to make Terl show up in our version
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	GlobalTimerExpired("SpawnTerl","GLOBAL")  //Borrowed from standard code. If we ever have issues, make unique timer.
+	!Global("Chapter","GLOBAL",%bg2_chapter_4%) //Chapter 4 (this is the code the buffer evaluates)
+	!Global("Chapter","GLOBAL",%bg2_chapter_5%)  //Chapter 5 (Underdark)
+	//!Global("Chapter","GLOBAL",%bg2_chapter_7%)  //Chapter 7  (Suldanesselar)
+	//!AreaCheck("AR1900")  //Druid Grove Area
+	//!AreaCheck("AR2500")   //Elven Temple at Underdark
+	//!AreaCheck("AR2600")   //Thetyr Wood
+	AreaType(OUTDOOR)
+	!Exists("Terl")  // Terl
+	CombatCounter(0)
+	!AreaCheck("AR0041")   //Random Encounter
+	!AreaCheck("AR0042")   //Random Encounter
+	!AreaCheck("AR0043")   //Random Encounter
+	!AreaCheck("AR0044")   //Random Encounter
+	!AreaCheck("AR0045")   //Random Encounter
+	!AreaCheck("AR0046")   //Random Encounter
+	!AreaCheck("AR2601")   //Meet Drizzt
+	!AreaCheck("AR2700")   //Ancient Spirits (mod only)
+	!AreaCheck("AR2800")   //Suldanessellar
+	!AreaCheck("AR2806")   //Tree of Life
+	!AreaCheck("AR2807")   //Black Dragon Hideout	
+	!AreaCheck("OH6010")   //Neera random encounter
+	//!AreaCheck("OH6000")   //Wild Forest
+	//!AreaCheck("OH6100")   //Hidden Refuge
+	//!AreaCheck("OH6200")    //Hidden Refuge Destroyed
+	!AreaCheck("OH7310")   //Hexxat - L Scene
+	//!AreaCheck("OH5100")    //Resurrection Gorge
+	//!AreaCheck("OH5200")    //Resurrection Gorge Interior
+	//!AreaCheck("OH5300")    //Helmite Camp
+	//!AreaCheck("OH4000")    //Rasaad Amphitheater
+	//!AreaCheck("OH4100")    //Rasaad Dark Moon Heretic Temple
+	Global("YF_AnomenClaraRomance","GLOBAL",2)
+	Global("YF_ClaraAnomenLove","GLOBAL",45)
+	!Global("AnomenRomanceActive","GLOBAL",2) //Still can't be romancing Anomen
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	Global("RomancePartFour","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		CreateCreatureObjectEffect("bdoffscr","",Myself)  // No such index
+		ApplySpellRES("bdoffscr","bdoffscr")  // No such index
+		SmallWait(1)
+		CreateCreatureObjectEffect("TERL","","bdoffscr")  // Terl
+		SetInterrupt(TRUE)
+END
+
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	GlobalTimerExpired("SpawnTerl","GLOBAL")
+	!Global("Chapter","GLOBAL",%bg2_chapter_4%)
+	!Global("Chapter","GLOBAL",%bg2_chapter_5%)
+	//!Global("Chapter","GLOBAL",%bg2_chapter_7%)
+	See("Terl")  // Terl
+	AreaType(OUTDOOR) //This might not be necessary
+	Global("RomancePartFour","GLOBAL",0)
+	!See([ENEMY])
+	Global("YF_AnomenClaraRomance","GLOBAL",2)
+THEN
+	RESPONSE #100
+	Interact(Player1)
+END
+
+
+//Triggers Cor Talking if Clara dumped Anomen
+IF
+	Global("YF_ClaraAndCor","GLOBAL",1)
+	Global("YF_ClaraAnomenLove","GLOBAL",24)
+	InParty("Anomen") 
+	See("Cor")
+	!StateCheck("Anomen",CD_STATE_NOTVALID)
+	!StateCheck("Cor",STATE_SLEEPING)  // Cor Delryn
+	!StateCheck("Cor",STATE_STUNNED)  // Cor Delryn
+	!StateCheck("Cor",STATE_HELPLESS)  // Cor Delryn
+	!StateCheck("Cor",STATE_PANIC)  // Cor Delryn
+	Global("YF_ClaraAndCorFix","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraAndCorFix","GLOBAL",1)
+END
+
+
+IF
+	Global("YF_ClaraAndCorFix","GLOBAL",1)
+	Global("YF_ClaraAndCor","GLOBAL",1)
+	Global("YF_ClaraAnomenLove","GLOBAL",24)
+	InParty("Anomen") 
+	!StateCheck("Anomen",CD_STATE_NOTVALID)
+	!StateCheck("Cor",STATE_SLEEPING)  // Cor Delryn
+	!StateCheck("Cor",STATE_STUNNED)  // Cor Delryn
+	!StateCheck("Cor",STATE_HELPLESS)  // Cor Delryn
+	!StateCheck("Cor",STATE_PANIC)  // Cor Delryn
+THEN
+	RESPONSE #100
+	ActionOverride("Cor",StartDialogNoSet(Player1))
+END
+
+//This should make Anomen talk to you if timer expired first
+IF
+	Global("AnomenCor","GLOBAL",4)
+	Global("YF_LordAndLadyDelryn","GLOBAL",1)
+	Global("YF_ACGonnaStabCor","GLOBAL",3)
+	Global("YF_CNMissedStabbing","GLOBAL",0)
+	Detect(Player1)
+THEN
+	RESPONSE #100
+	ActionOverride("Anomen",StartDialog("ANOMENP",Player1))
+END
+
+//This should make Anomen talk to you if he's returned to his house
+IF
+	Global("YF_LordAndLadyDelryn","GLOBAL",4)
+	Global("YF_CorDieDamnIt","GLOBAL",1)
+	Global("YF_CrocodileTears","GLOBAL",0)
+	Detect(Player1)
+THEN
+	RESPONSE #100
+	ActionOverride("Anomen",StartDialog("ANOMENP",Player1))
+END
+
+
+//To change Anomen's sounds when he fails his order test.
+IF
+	Global("AnomenIsNotKnight","GLOBAL",1)
+	Global("YF_DarksideAnomenSounds","GLOBAL",0)
+THEN
+	RESPONSE #100
+SetPlayerSound(Myself,70837,UNHAPPY_SERIOUS)  // *sigh* Mayhap it is time I thought of leaving. I can almost endure no more of your actions!
+SetPlayerSound(Myself,70838,LEADER)  // Are you sure? I had enough of leadership in the Order. Oh, very well. *sigh* But it's a week vacation for everyone. *chuckle*
+SetPlayerSound(Myself,70839,TIRED)  // A bottle of wine, a blanket, a little music as we rest... are these things too much to ask?
+SetPlayerSound(Myself,70840,BORED)  // *chuckle* Hurry up and wait, hurry up and wait. Hm. Sounds like my days in the Order.
+SetPlayerSound(Myself,70841,BATTLE_CRY1)  // Helm's fury upon you all!
+SetPlayerSound(Myself,70842,BATTLE_CRY2)  // By skill and might, we shall prevail!
+SetPlayerSound(Myself,70843,AREA_CITY)  // Hmm. I don't think I have ever looked upon the bustle of the city without keeping a watchful eye out for evil. It seems... quieter.
+SetPlayerSound(Myself,70844,SELECT_COMMON1)  // I am ready to act.
+SetPlayerSound(Myself,70845,SELECT_COMMON4)  // Yes?
+SetPlayerSound(Myself,70846,SELECT_ACTION1)  // Of course.
+SetPlayerSound(Myself,70847,SELECT_ACTION4)  // Not a problem.
+SetPlayerSound(Myself,70848,SELECT_ACTION5)  // *chuckle* So long as I never have to breathe the same stuffy air as those rusted suits of armor in the Order... well, I'm with you.
+SetPlayerSound(Myself,70840,SELECT_RARE2)  // *chuckle* Hurry up and wait, hurry up and wait. Hm. Sounds like my days in the Order.
+SetGlobal("YF_DarksideAnomenSounds","GLOBAL",1)
+END
+
+//To Turn off Anomen Attacking Dorn if he fails test
+IF
+	Global("AnomenIsNotKnight","GLOBAL",1)
+	Global("YF_DornAttacksTemple","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("OHD_anomenkeldorninterject","GLOBAL",9)
+	SetGlobal("YF_DornAttacksTemple","GLOBAL",1)
+END
+
+//Code for post Cor Anomen-Clara talks
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	Global("YF_LordAndLadyDelryn","GLOBAL",5)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	OR(2)
+	Global("YF_ClaraAnomenLove","GLOBAL",46)
+	Global("YF_ClaraAnomenLove","GLOBAL",49)
+THEN 
+	RESPONSE #100
+	SetGlobalTimer("YF_CAMarriageTime","GLOBAL",TWO_DAYS)
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF	
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	GlobalTimerExpired("YF_CAMarriageTime","GLOBAL")
+	OR(2)
+	Global("YF_ClaraAnomenLove","GLOBAL",47)
+	Global("YF_ClaraAnomenLove","GLOBAL",50)
+	CombatCounter(0)
+THEN 
+	RESPONSE #100
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	OR(2)
+	Global("YF_ClaraAnomenLove","GLOBAL",48)
+	Global("YF_ClaraAnomenLove","GLOBAL",51)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+
+//Clearing Name Timer
+IF
+	InParty("Anomen")
+	Global("YF_AnomenClearsName","GLOBAL",2)
+	Global("YF_CorneilPaid","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobalTimer("YF_CorneilTimer","GLOBAL",TWO_DAYS)
+	SetGlobal("YF_AnomenClearsName","GLOBAL",3)
+END
+
+IF
+	InParty("Anomen")
+	Global("YF_AnomenClearsName","GLOBAL",3)
+	GlobalTimerExpired("YF_CorneilTimer","GLOBAL")
+THEN
+	RESPONSE #100
+	SetGlobal("YF_AnomenClearsName","GLOBAL",4)
+END
+
+IF
+	InParty("Anomen")
+	!StateCheck("Anomen",CD_STATE_NOTVALID)
+	Global("YF_AnomenClearsName","GLOBAL",4)
+	See("corneil")
+THEN
+	RESPONSE #100
+	ActionOverride("corneil",StartDialogNoSet(Player1))
+END
+
+//Terl Jysstev Letter Timer - Same Timer for Clara & CN
+IF
+	InParty("Anomen")
+	Dead("aran")
+	Global("YF_CouncilSixTalk","GLOBAL",1) //set w/ CN & Clara
+THEN
+	RESPONSE #100
+	SetGlobalTimer("YF_Terl2Timer","GLOBAL",THREE_DAYS)
+	SetGlobal("YF_CouncilSixTalk","GLOBAL",2)
+END
+
+//Script to make Terl show up again
+IF
+	InParty("Anomen")
+	!StateCheck("Anomen",CD_STATE_NOTVALID)
+	GlobalTimerExpired("YF_Terl2Timer","GLOBAL")
+	!Global("Chapter","GLOBAL",%bg2_chapter_4%) //Chapter 4 (this is the code the buffer evaluates)
+	!Global("Chapter","GLOBAL",%bg2_chapter_5%)  //Chapter 5 (Underdark)
+	//!Global("Chapter","GLOBAL",%bg2_chapter_7%)  //Chapter 7  (Suldanesselar)
+	//!AreaCheck("AR1900")  //Druid Grove Area
+	//!AreaCheck("AR2500")   //Elven Temple at Underdark
+	//!AreaCheck("AR2600")   //Thetyr Wood
+	AreaType(OUTDOOR)
+	!Exists("Terl")  // Terl
+	CombatCounter(0)
+	!AreaCheck("AR0041")   //Random Encounter
+	!AreaCheck("AR0042")   //Random Encounter
+	!AreaCheck("AR0043")   //Random Encounter
+	!AreaCheck("AR0044")   //Random Encounter
+	!AreaCheck("AR0045")   //Random Encounter
+	!AreaCheck("AR0046")   //Random Encounter
+	!AreaCheck("AR2601")   //Meet Drizzt
+	!AreaCheck("AR2700")   //Ancient Spirits (mod only)
+	!AreaCheck("AR2800")   //Suldanessellar
+	!AreaCheck("AR2806")   //Tree of Life
+	!AreaCheck("AR2807")   //Black Dragon Hideout	
+	!AreaCheck("OH6010")   //Neera random encounter
+	//!AreaCheck("OH6000")   //Wild Forest
+	//!AreaCheck("OH6100")   //Hidden Refuge
+	//!AreaCheck("OH6200")    //Hidden Refuge Destroyed
+	!AreaCheck("OH7310")   //Hexxat - L Scene
+	//!AreaCheck("OH5100")    //Resurrection Gorge
+	//!AreaCheck("OH5200")    //Resurrection Gorge Interior
+	//!AreaCheck("OH5300")    //Helmite Camp
+	//!AreaCheck("OH4000")    //Rasaad Amphitheater
+	//!AreaCheck("OH4100")    //Rasaad Dark Moon Heretic Temple
+	Global("YF_CouncilSixTalk","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		CreateCreatureObjectEffect("bdoffscr","",Myself)  // No such index
+		ApplySpellRES("bdoffscr","bdoffscr")  // No such index
+		SmallWait(1)
+		CreateCreatureObjectEffect("TERL","","bdoffscr")  // Terl
+		SetInterrupt(TRUE)
+END
+
+IF
+	InParty(Myself)
+	!StateCheck("Anomen",CD_STATE_NOTVALID)
+	GlobalTimerExpired("YF_Terl2Timer","GLOBAL")
+	!Global("Chapter","GLOBAL",%bg2_chapter_4%)
+	!Global("Chapter","GLOBAL",%bg2_chapter_5%)
+	//!Global("Chapter","GLOBAL",%bg2_chapter_7%)
+	See("Terl")  // Terl
+	AreaType(OUTDOOR)
+	!See([ENEMY])
+	Global("YF_CouncilSixTalk","GLOBAL",2)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_TerlFix1","GLOBAL",1) 
+	Continue()
+END
+
+IF
+	Global("YF_TerlFix1","GLOBAL",1)
+	Global("YF_CouncilSixTalk","GLOBAL",2)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+
+//Code to make Lord Jysstev appear if some mod destroys him
+IF
+	AreaCheck("AR1006")
+	InParty(Myself)
+	!Exists("scqar")
+	Global("YF_CouncilSixTalk","GLOBAL",3)
+THEN
+	RESPONSE #100
+	CreateCreature("scqar",[904.328],S)
+END
+	
+	
+//Code for post Cor love talks w/ CN
+IF
+	InParty("Anomen")
+	Global("YF_DarksideAnomen","GLOBAL",2)
+	Global("AnomenRomanceActive","GLOBAL",2)
+	OR(2)
+	Global("YF_CNAnomenLove","GLOBAL",0)
+	Global("YF_CNAnomenLove","GLOBAL",3)
+THEN 
+	RESPONSE #100
+	SetGlobalTimer("YF_CNAnoTimer","GLOBAL",TWO_DAYS)
+	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
+END
+
+IF	
+	IfValidForPartyDialog("Anomen")
+	GlobalTimerExpired("YF_CNAnoTimer","GLOBAL")
+	OR(2)
+	Global("YF_CNAnomenLove","GLOBAL",1)
+	Global("YF_CNAnomenLove","GLOBAL",4)
+	CombatCounter(0)
+THEN 
+	RESPONSE #100
+	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Anomen")
+	OR(2)
+	Global("YF_CNAnomenLove","GLOBAL",2)
+	Global("YF_CNAnomenLove","GLOBAL",5)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+
+//CN-Anomen Talk after name cleared
+IF
+	InParty("Anomen")
+	Global("YF_AnomenClearsName","GLOBAL",5)
+	Global("YF_CNAnomenLove","GLOBAL",6)
+THEN 
+	RESPONSE #100
+	SetGlobalTimer("YF_CACouncilTalk","GLOBAL",EIGHT_HOURS)
+	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
+END
+
+IF	
+	IfValidForPartyDialog("Anomen")
+	GlobalTimerExpired("YF_CACouncilTalk","GLOBAL")
+	Global("YF_CNAnomenLove","GLOBAL",7)
+	Global("AnomenRomanceActive","GLOBAL",2)
+	CombatCounter(0)
+THEN 
+	RESPONSE #100
+	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Anomen")
+	Global("YF_CNAnomenLove","GLOBAL",8)
+	Global("AnomenRomanceActive","GLOBAL",2)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+
+//CN-Anomen Talk after talk with Jysstev
+IF
+	InParty("Anomen")
+	Global("YF_CouncilSixTalk","GLOBAL",4)
+	Global("YF_CNAnomenLove","GLOBAL",9)
+THEN 
+	RESPONSE #100
+	SetGlobalTimer("YF_CASeatTalk","GLOBAL",TWO_HOURS)
+	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
+END
+
+IF	
+	IfValidForPartyDialog("Anomen")
+	GlobalTimerExpired("YF_CASeatTalk","GLOBAL")
+	Global("AnomenRomanceActive","GLOBAL",2)
+	Global("YF_CNAnomenLove","GLOBAL",10)
+	CombatCounter(0)
+THEN 
+	RESPONSE #100
+	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Anomen")
+	Global("YF_CNAnomenLove","GLOBAL",11)
+	Global("AnomenRomanceActive","GLOBAL",2)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+
+//Windspear Hills Quest
+IF
+	Global("MostNobleOrder","GLOBAL",0)
+	Global("YF_AnomenFearsOrder","GLOBAL",0)
+	IfValidForPartyDialog("Anomen")
+	OR(2)
+		Global("FollowGarren","GLOBAL",1)
+		Global("FollowedGarren","GLOBAL",1)
+	OR(8)
+		AreaCheck("AR0020") // City Gates
+		AreaCheck("AR0300") //  The docks
+		AreaCheck("AR0400") // The slums
+		AreaCheck("AR0500 ") // Bridge district
+		AreaCheck("AR0700") // Waukeen's Promenade
+		AreaCheck("AR0800") // Graveyard
+		AreaCheck("AR0900") // Temple District
+		AreaCheck("AR1000") // Government District
+THEN
+	RESPONSE #100
+	SetGlobal("YF_AnomenFearsOrder","GLOBAL",1)
+END
+
+IF
+	Global("YF_AnomenFearsOrder","GLOBAL",1)
+THEN RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+

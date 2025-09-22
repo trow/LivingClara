@@ -2,38 +2,38 @@
 
 //Rest check timer.
 IF
-	Global("_brestcheck","GLOBAL",2)
+	Global("YF_restcheck","GLOBAL",2)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",3)
-	RealSetGlobalTimer("_brestchecktimer1","GLOBAL",TWO_TURNS)
+	SetGlobal("YF_restcheck","GLOBAL",3)
+	RealSetGlobalTimer("YF_restchecktimer1","GLOBAL",TWO_TURNS)
 END
 
 IF
-	RealGlobalTimerExpired("_brestchecktimer1","GLOBAL")
-		Global("_brestcheck","GLOBAL",3)
+	RealGlobalTimerExpired("YF_restchecktimer1","GLOBAL")
+		Global("YF_restcheck","GLOBAL",3)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",0)
+	SetGlobal("YF_restcheck","GLOBAL",0)
 END
 
 //Restcheck back-up fix timer.
 IF
-	Global("_brestcheck","GLOBAL",1)
-	Global("_brestcheckfix","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",1)
+	Global("YF_restcheckfix","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobalTimer("_brestchecktimerfix","GLOBAL",ONE_DAY)
-	SetGlobal("_brestcheckfix","GLOBAL",1)
+	SetGlobalTimer("YF_restchecktimerfix","GLOBAL",ONE_DAY)
+	SetGlobal("YF_restcheckfix","GLOBAL",1)
 END
 
 IF
-	GlobalTimerExpired("_brestchecktimerfix","GLOBAL")
-	Global("_brestcheckfix","GLOBAL",1)
+	GlobalTimerExpired("YF_restchecktimerfix","GLOBAL")
+	Global("YF_restcheckfix","GLOBAL",1)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",0)
-	SetGlobal("_brestcheckfix","GLOBAL",0)
+	SetGlobal("YF_restcheck","GLOBAL",0)
+	SetGlobal("YF_restcheckfix","GLOBAL",0)
 END
 
 
@@ -41,19 +41,19 @@ IF //First Imoen Dream
 	GlobalTimerExpired("ImoenDream1","GLOBAL")
 	Global("HadImoenDream1","GLOBAL",0)
 	GlobalLT("Chapter","GLOBAL",4)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("HadImoenDream1","GLOBAL",1)
-	Global("_bHadImoenDream1","GLOBAL",0)
+	Global("YF_HadImoenDream1","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_bHadImoenDream1","GLOBAL",1)	
-	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("YF_HadImoenDream1","GLOBAL",1)	
+	SetGlobal("YF_restcheck","GLOBAL",2)
 END
 
 
@@ -61,19 +61,19 @@ IF //First Jon Dream
 	GlobalTimerExpired("JonDream1","GLOBAL")
 	Global("HadJonDream1","GLOBAL",0)
 	GlobalLT("Chapter","GLOBAL",4)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("HadJonDream1","GLOBAL",1)
-	Global("_bHadJonDream1","GLOBAL",0)
+	Global("YF_HadJonDream1","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_bHadJonDream1","GLOBAL",1)
-	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("YF_HadJonDream1","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
 END
 
 
@@ -81,19 +81,19 @@ IF //Second Jon Dream
 	GlobalTimerExpired("JonDream2","GLOBAL")
 	Global("HadJonDream2","GLOBAL",0)
 	GlobalLT("Chapter","GLOBAL",4)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("HadJonDream2","GLOBAL",1)
-	Global("_bHadJonDream2","GLOBAL",0)
+	Global("YF_HadJonDream2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_bHadJonDream2","GLOBAL",1)
-	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("YF_HadJonDream2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
 END
 
 
@@ -101,38 +101,38 @@ IF //Slayer Dream
 	GlobalGT("DrowTalk","GLOBAL",3)
 	Global("HadSlayerDream","GLOBAL",0)
 	GlobalGT("AsylumPlot","GLOBAL",54)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF 
 	Global("HadSlayerDream","GLOBAL",1)
-	Global("_bHadSlayerDream","GLOBAL",0)
+	Global("YF_HadSlayerDream","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bHadSlayerDream","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_HadSlayerDream","GLOBAL",1)
 END
 
 
 IF //Ellesime Dream
 	GlobalTimerExpired("EllesimeDream1","GLOBAL")
 	Global("HadEllesimeDream1","GLOBAL",0)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END 
 
 IF
 	Global("HadEllesimeDream1","GLOBAL",1)
-	Global("_bHadEllesimeDream1","GLOBAL",0)
+	Global("YF_HadEllesimeDream1","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bHadEllesimeDream1","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_HadEllesimeDream1","GLOBAL",1)
 END
 
 
@@ -143,19 +143,19 @@ IF //First Imoen Romance Mod Dream
 	Global("HadImoenDreamRomance1","GLOBAL",0)
 	GlobalLT("Chapter","GLOBAL",4)
 	!AreaCheck("AR0334")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF 
 	Global("HadImoenDreamRomance1","GLOBAL",1)
-	Global("_bHadImoenDreamRomance1","GLOBAL",0)
+	Global("YF_HadImoenDreamRomance1","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_bHadImoenDreamRomance1","GLOBAL",1)
-	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("YF_HadImoenDreamRomance1","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
 END
 
 
@@ -165,19 +165,19 @@ IF //Second Imoen Romance Mod Dream
 	Global("HadImoenDreamRomance2","GLOBAL",0)
 	GlobalLT("Chapter","GLOBAL",4)
 	!AreaCheck("AR0334")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF 
 	Global("HadImoenDreamRomance2","GLOBAL",1)
-	Global("_bHadImoenDreamRomance2","GLOBAL",0)
+	Global("YF_HadImoenDreamRomance2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_bHadImoenDreamRomance2","GLOBAL",1)
-	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("YF_HadImoenDreamRomance2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
 END
 
 
@@ -187,19 +187,19 @@ IF //Third Imoen Romance Mod Dream
 	Global("HadImoenDreamRomance3","GLOBAL",0)
 	GlobalLT("Chapter","GLOBAL",4)
 	!AreaCheck("AR0334")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF 
 	Global("HadImoenDreamRomance3","GLOBAL",1)
-	Global("_bHadImoenDreamRomance3","GLOBAL",0)
+	Global("YF_HadImoenDreamRomance3","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_bHadImoenDreamRomance3","GLOBAL",1)
-	SetGlobal("_brestcheck","GLOBAL",2)
+	SetGlobal("YF_HadImoenDreamRomance3","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
 END
 
 
@@ -209,53 +209,53 @@ IF //Yoshimo Under Cut Scene (Yoshimo Romance Mod)
 	GlobalGT("HadSlayerDream","GLOBAL",0)
 	Global("YoshimoRomanceActive","GLOBAL",2)
 	Global("YoshimoUnderCutScene","GLOBAL",0)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF 
 	Global("YoshimoUnderCutScene","GLOBAL",1)
-	Global("_bYoshimoUnderCutScene","GLOBAL",0)
+	Global("YF_YoshimoUnderCutScene","GLOBAL",0)
 THEN
 RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bYoshimoUnderCutScene","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_YoshimoUnderCutScene","GLOBAL",1)
 END
 
 
 IF //For the Yoshimo Romance, but no idea what this is. (Yoshimo Romance Mod)
 	Global("PI#Test","GLOBAL",1)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("PI#Test","GLOBAL",2)
-	Global("_bPI#Test","GLOBAL",0)
+	Global("YF_PI#Test","GLOBAL",0)
 THEN
 	RESPONSE #100	
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bPI#Test","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_PI#Test","GLOBAL",1)
 END
 
 
 IF // For the Yoshimo Romance, but no idea what this is either. (Yoshimo Romance Mod)
 	Global("PI#Test2","GLOBAL",1)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("PI#Test2","GLOBAL",2)
-	Global("_bPI#Test2","GLOBAL",0)
+	Global("YF_PI#Test2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bPI#Test2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_PI#Test2","GLOBAL",1)
 END

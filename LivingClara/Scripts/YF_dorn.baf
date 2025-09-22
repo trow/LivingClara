@@ -1,0 +1,74 @@
+
+//ClaraSex scene trigger
+//IF
+//	Global("YF_SleepsWithClara","GLOBAL",4) 
+//	InParty("DORN") 
+//	!StateCheck("DORN",CD_STATE_NOTVALID) 
+//	Global("OHD_dornsex","GLOBAL",1) 
+//	Global("YF_SWCD","GLOBAL",0)
+//	!Global("DornRomanceActive","GLOBAL",3)
+//THEN
+//	RESPONSE #100
+//	StartDialogNoSet(Player1)
+//END
+
+//Final Clara Banter Trigger - 1st in d
+IF 
+	InParty("YF_Clara") 
+	See("YF_Clara") 
+	!StateCheck("DORN",CD_STATE_NOTVALID) 
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID) 
+	Global("YF_BCLARADORN","GLOBAL",3)
+	!Global("DornRomanceActive","GLOBAL",2)
+	AreaType(FOREST)
+THEN
+	RESPONSE #100
+	UndoExplore()
+	Interact("YF_Clara")
+END
+
+
+//Breakup Talk
+IF
+	Global("DornRomanceActive","GLOBAL",3) 
+	Global("YF_MazNotDorn","GLOBAL",1)
+	InParty("Dorn") 
+	InParty("Mazzy")
+THEN
+	RESPONSE #100
+	SetGlobalTimer("YF_DornBreakUp","GLOBAL",TEN_MINUTES)
+	SetGlobal("YF_MazNotDorn","GLOBAL",2)
+END
+
+IF
+	GlobalTimerExpired("YF_DornBreakUp","GLOBAL") 
+	Global("YF_MazNotDorn","GLOBAL",2)
+	IfValidForPartyDialogue("Dorn")
+	IfValidForPartyDialogue("Mazzy")
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_MazNotDorn","GLOBAL",3)
+END
+
+IF
+	Global("YF_MazNotDorn","GLOBAL",3)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("YF_Maz1")
+	StartDialogNoSet(Player1)
+END
+
+
+//Failsafe to make sure Dorn regains Paladinhood
+IF
+	FallenPaladin("Dorn")
+	OR(2)
+		Global("YF_DornServesTalos","GLOBAL",1)
+		Global("YF_DornServesUmberlee","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride("Dorn",RegainPaladinHood())
+END
+

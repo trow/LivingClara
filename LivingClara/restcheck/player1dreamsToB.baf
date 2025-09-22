@@ -2,38 +2,38 @@
 
 //Rest check timer.
 IF
-	Global("_brestcheck","GLOBAL",2)
+	Global("YF_restcheck","GLOBAL",2)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",3)
-	RealSetGlobalTimer("_brestchecktimer1","GLOBAL",TWO_TURNS)
+	SetGlobal("YF_restcheck","GLOBAL",3)
+	RealSetGlobalTimer("YF_restchecktimer1","GLOBAL",TWO_TURNS)
 END
 
 IF
-	RealGlobalTimerExpired("_brestchecktimer1","GLOBAL")
-		Global("_brestcheck","GLOBAL",3)
+	RealGlobalTimerExpired("YF_restchecktimer1","GLOBAL")
+		Global("YF_restcheck","GLOBAL",3)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",0)
+	SetGlobal("YF_restcheck","GLOBAL",0)
 END
 
 //Restcheck back-up fix timer.
 IF
-	Global("_brestcheck","GLOBAL",1)
-	Global("_brestcheckfix","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",1)
+	Global("YF_restcheckfix","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobalTimer("_brestchecktimerfix","GLOBAL",ONE_DAY)
-	SetGlobal("_brestcheckfix","GLOBAL",1)
+	SetGlobalTimer("YF_restchecktimerfix","GLOBAL",ONE_DAY)
+	SetGlobal("YF_restcheckfix","GLOBAL",1)
 END
 
 IF
-	GlobalTimerExpired("_brestchecktimerfix","GLOBAL")
-	Global("_brestcheckfix","GLOBAL",1)
+	GlobalTimerExpired("YF_restchecktimerfix","GLOBAL")
+	Global("YF_restcheckfix","GLOBAL",1)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",0)
-	SetGlobal("_brestcheckfix","GLOBAL",0)
+	SetGlobal("YF_restcheck","GLOBAL",0)
+	SetGlobal("YF_restcheckfix","GLOBAL",0)
 END
 
 
@@ -42,19 +42,19 @@ IF // Yoshimo Grave Dream (Yoshimo Romance Mod)
 	AreaCheck("AR4500")
 	Global("YoshimoGraveDream","GLOBAL",0)
 	CombatCounter(0)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("YoshimoGraveDream","GLOBAL",1)
-	Global("_bYoshimoGraveDream","GLOBAL",0)
+	Global("YF_YoshimoGraveDream","GLOBAL",0)
 THEN
 RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bYoshimoGraveDream","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_YoshimoGraveDream","GLOBAL",1)
 END
 
 
@@ -64,17 +64,17 @@ IF	//Yoshimo Candle Dream (Yoshimo Romance Mod)
 	AreaCheck("AR4500")
 	Global("YoshimoCandleDream","GLOBAL",0)
 	CombatCounter(0)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("YoshimoCandleDream","GLOBAL",1)
-	Global("_bYoshimoCandleDream","GLOBAL",0)
+	Global("YF_YoshimoCandleDream","GLOBAL",0)
 THEN
 RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bYoshimoCandleDream","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_YoshimoCandleDream","GLOBAL",1)
 END

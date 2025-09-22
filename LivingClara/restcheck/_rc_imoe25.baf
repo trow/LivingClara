@@ -7,19 +7,19 @@ IF	//1st Imoen Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~imoe25.bcs~
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	AreaCheck("AR4500")
 	Global("BeginChallenge2","GLOBAL",3)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("IRTSlayerTurnLesson","GLOBAL",2)
-	Global("_bIRTSlayerTurnLesson2","GLOBAL",0)
+	Global("YF_IRTSlayerTurnLesson2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bIRTSlayerTurnLesson2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_IRTSlayerTurnLesson2","GLOBAL",1)
 END
 	
 
@@ -33,19 +33,19 @@ IF	//2nd Imoen Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~imoe25.bcs~
 	Global("IRTImAerTalks","GLOBAL",12)
 	!Global("ImoenRomanceActive","GLOBAL",2)
 	!Global("IRTAerImFriend","GLOBAL",2)	
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF 	
 	Global("IRTImAerTalks","GLOBAL",13)
-	Global("_bIRTImAerTalks13","GLOBAL",0)
+	Global("YF_IRTImAerTalks13","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bIRTImAerTalks13","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_IRTImAerTalks13","GLOBAL",1)
 END
 
 IF	//3rd Imoen Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~imoe25.bcs~
@@ -53,17 +53,17 @@ IF	//3rd Imoen Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~imoe25.bcs~
 	Global("IRTFemaleBedtimeStories","GLOBAL",0)
 	Gender(Player1,FEMALE)
 	Global("ImoenRomanceActive","GLOBAL",2)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("IRTFemaleBedtimeStories","GLOBAL",1)
-	Global("_bIRTFemaleBedtimeStories","GLOBAL",0)
+	Global("YF_IRTFemaleBedtimeStories","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bIRTFemaleBedtimeStories","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_IRTFemaleBedtimeStories","GLOBAL",1)
 END

@@ -1,0 +1,19 @@
+IF	//Script for triggering Renal's conversation with OHHFAK about Dragomir's Tomb
+	See("Renal Bloodscalp")
+	InParty("OHHFAK")
+	!StateCheck("OHHFAK",CD_STATE_NOTVALID)
+	Global("YF_RenalOHHFAK","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_RenalOHHFAK","GLOBAL",1)
+END
+
+IF
+	Detect("Renal Bloodscalp")
+	InParty("OHHFAK")
+	!StateCheck("OHHFAK",CD_STATE_NOTVALID)
+	Global("YF_RenalOHHFAK","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride("Renal Bloodscalp",StartDialogNoSet(Player1))
+END

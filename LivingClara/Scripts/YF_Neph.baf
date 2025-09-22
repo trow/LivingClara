@@ -1,0 +1,24 @@
+//Nephele wears sex change belt.
+IF
+HasItemEquiped("YF_BELT2",Myself)
+Gender(Myself,FEMALE)
+Global("YF_NephGoesMale","GLOBAL",0)
+THEN
+	RESPONSE #100
+CreateVisualEffectObject("SPPOLYMP",Myself)
+ChangeGender(Myself,MALE)
+Polymorph(CLERIC_MALE_HALFLING)
+SetGlobal("YF_NephGoesMale","GLOBAL",1)
+END
+
+IF
+!HasItemEquiped("YF_BELT2",Myself)
+Gender(Myself,MALE)
+Global("YF_NephGoesMale","GLOBAL",1)
+THEN
+	RESPONSE #100
+CreateVisualEffectObject("SPPOLYMP",Myself)
+ChangeGender(Myself,FEMALE)
+Polymorph(CLERIC_FEMALE_HALFLING)
+SetGlobal("YF_NephGoesMale","GLOBAL",0)
+END

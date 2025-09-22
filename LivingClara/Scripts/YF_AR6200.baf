@@ -1,0 +1,128 @@
+//Basic Clara Epilogue
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("YF_Clara")
+	Global("YF_ClaraBios","GLOBAL",0)
+	!Global("YF_LordAndLadyDelryn","GLOBAL",5)
+	!Global("YF_LadyDelryn","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("YF_ClaraBios","GLOBAL",1)
+	TextScreen("YF_Cla01")
+	SmallWait(1)
+	Continue()
+END
+
+//If Clara marries Anomen (& he's not dead)
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("YF_Clara")
+	!Dead("Anomen")
+	Global("YF_ClaraBios","GLOBAL",0)
+	Global("YF_LordAndLadyDelryn","GLOBAL",5)
+THEN
+RESPONSE #100
+	SetGlobal("YF_ClaraBios","GLOBAL",1)
+	TextScreen("YF_Cla02")
+	SmallWait(1)
+	Continue()
+END
+
+//If Clara marries Cor or Anomen and both he and Anomen are dead
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("YF_Clara")
+	Dead("Anomen")
+	Dead("Cor")
+	Global("YF_ClaraBios","GLOBAL",0)
+	OR(2)
+	Global("YF_LadyDelryn","GLOBAL",1)
+	Global("YF_LordAndLadyDelryn","GLOBAL",5)
+THEN
+RESPONSE #100
+	SetGlobal("YF_ClaraBios","GLOBAL",1)
+	TextScreen("YF_Cla03")
+	SmallWait(1)
+	Continue()
+END
+
+//If Clara marries Cor and he and Anomen are alive
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("YF_Clara")
+	!Dead("Anomen")
+	!Dead("Cor")
+	Global("YF_ClaraBios","GLOBAL",0)
+	Global("YF_LadyDelryn","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("YF_ClaraBios","GLOBAL",1)
+	TextScreen("YF_Cla04")
+	SmallWait(1)
+	Continue()
+END
+
+//If Clara marries Cor and Anomen is dead
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("YF_Clara")
+	Dead("Anomen")
+	!Dead("Cor")
+	Global("YF_ClaraBios","GLOBAL",0)
+	Global("YF_LadyDelryn","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("YF_ClaraBios","GLOBAL",1)
+	TextScreen("YF_Cla05")
+	SmallWait(1)
+	Continue()
+END
+
+//If Clara marries Cor and he's dead but Anomen is alive
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("YF_Clara")
+	!Dead("Anomen")
+	Dead("Cor")
+	Global("YF_ClaraBios","GLOBAL",0)
+	Global("YF_LadyDelryn","GLOBAL",1)
+THEN
+RESPONSE #100
+	SetGlobal("YF_ClaraBios","GLOBAL",1)
+	TextScreen("YF_Cla06")
+	SmallWait(1)
+	Continue()
+END
+
+//New Anomen Epilogue if Darkside CN relationship & CN not god
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("Anomen")  // Anomen
+	Global("YF_DarksideAnomen","GLOBAL",2)
+	Global("AnomenRomanceActive","GLOBAL",2)
+	Global("PlayerChoseEssence","GLOBAL",0)
+	Global("YF_AnomenBio","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("YF_AnomenBio","GLOBAL",1)
+	TextScreen("YF_Ano02")
+	SmallWait(1)
+	Continue()
+END
+
+//New Anomen Epilogue if Darkside CN & CN chose god
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("Anomen")  // Anomen
+	Global("AnomenRomanceActive","GLOBAL",2)
+	Global("YF_DarksideAnomen","GLOBAL",2)
+	Global("PlayerChoseEssence","GLOBAL",1)
+	Global("YF_AnomenBio","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_AnomenBio","GLOBAL",1)
+	TextScreen("YF_Ano03")
+	SmallWait(1)
+	Continue()
+END
+

@@ -7,18 +7,18 @@ IF	//Imoen Romance Campire Scene. EXTEND_BOTTOM ~imoen2.bcs~
 	Global("MRCampSleepTalk","GLOBAL",0)
 	GlobalGT("MRLoveTalk","GLOBAL",9)
 	AreaCheck("AR2500")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF	Global("MRCampSleepTalk","GLOBAL",1)
-	Global("_bMRCampSleepTalk","GLOBAL",0)
+	Global("YF_MRCampSleepTalk","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bMRCampSleepTalk","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_MRCampSleepTalk","GLOBAL",1)
 END
 
 
@@ -32,19 +32,19 @@ IF	//1st Imoen Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~imoen2.bcs~
 	Global("ImoenRomanceActive","GLOBAL",2)
 	See(Player1)
 	!AreaCheck("AR0334")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF	
 	Global("MRLoveTalk","GLOBAL",11)
-	Global("_bMRLoveTalk11","GLOBAL",0)
+	Global("YF_MRLoveTalk11","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bMRLoveTalk11","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_MRLoveTalk11","GLOBAL",1)
 END
 
 
@@ -58,19 +58,19 @@ IF	//2nd Imoen Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~imoen2.bcs~
 	GlobalGT("MRCampSleepTalk","GLOBAL",1)
 	See(Player1)
 	!AreaCheck("AR0334")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("MRLoveTalk","GLOBAL",11)
-	Global("_bMRLoveTalk11","GLOBAL",0)
+	Global("YF_MRLoveTalk11","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bMRLoveTalk11","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_MRLoveTalk11","GLOBAL",1)
 END
 
 
@@ -80,18 +80,18 @@ IF	//3rd Imoen Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~imoen2.bcs~
 	Global("MRQuality5","GLOBAL",2)
 	Global("ImoenRomanceActive","GLOBAL",2)
 	!AreaCheck("AR0334")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF	
 	Global("MRQuality5","GLOBAL",3)
-	Global("_bMRQuality53","GLOBAL",0)
+	Global("YF_MRQuality53","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bMRQuality53","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_MRQuality53","GLOBAL",1)
 END
 

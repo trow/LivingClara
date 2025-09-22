@@ -7,19 +7,19 @@ IF	//1st Haer'Dalis Romance Mod Throne of Bhaal Rest. EXTEND_BOTTOM ~haer25.bcs~
 	AreaCheck("AR5003")
 	!Dead("HaerDalis")
 	!InMyArea("b!laran")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LS_HaerDalisToBSaradush","GLOBAL",1)
-	Global("_bLS_HaerDalisToBSaradush","GLOBAL",0)
+	Global("YF_LS_HaerDalisToBSaradush","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLS_HaerDalisToBSaradush","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LS_HaerDalisToBSaradush","GLOBAL",1)
 END
 
 
@@ -54,19 +54,19 @@ IF	//2nd Haer'Dalis Romance Mod Throne of Bhaal Rest. EXTEND_BOTTOM ~haer25.bcs~
 		Global("LS#SarevokRomanceActive","GLOBAL",2)
 	AreaCheck("AR5501")
 	!Dead("HaerDalis")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LS_HaerDalisToBAmkethran","GLOBAL",1)
-	Global("_bLS_HaerDalisToBAmkethran","GLOBAL",0)
+	Global("YF_LS_HaerDalisToBAmkethran","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLS_HaerDalisToBAmkethran","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LS_HaerDalisToBAmkethran","GLOBAL",1)
 END
 
 	

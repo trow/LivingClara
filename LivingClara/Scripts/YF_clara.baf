@@ -1,0 +1,1896 @@
+
+IF	//Clara's script if Mazzy goes hostile.
+	Global("YF_MazzyHostile","GLOBAL",4)
+	InParty("YF_Clara") 
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID) 
+THEN
+	RESPONSE #100
+	MakeUnselectable(999999)
+	Hide()
+	Continue()
+END 
+
+IF	//Trigger for Clara leaving the party forever.
+	Global("YF_ClaraLeavesForever","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("KickedOut","LOCALS",2)
+	GivePartyAllEquipment()
+	LeaveParty() 
+	EscapeArea()
+	Continue()
+END
+
+
+IF	//Script to start dialogue after raising her.
+	Global("YF_ClaraLives","GLOBAL",2)
+	Detect(Player1)
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+IF	//Script to start dialogue with Renal Bloodscalp
+	Detect("Renal Bloodscalp")
+	InParty("YF_Clara")
+	Global("YF_ClaraRenal","GLOBAL",1)
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+	CombatCounter(0)
+	//!Global("YF_SleptWithClara","GLOBAL",7) 
+	Global("YF_RenalClara","GLOBAL",0)
+	!Global("YF_RenalOHHFAK","GLOBAL",2)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_RenalClara","GLOBAL",1)
+END
+
+IF
+	Detect("Renal Bloodscalp")
+	Global("YF_ClaraRenal","GLOBAL",1)
+	InParty("YF_Clara")
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+	CombatCounter(0)
+	Global("YF_RenalClara","GLOBAL",1)
+	!Global("YF_RenalOHHFAK","GLOBAL",2)
+THEN
+	RESPONSE #100
+	ActionOverride("Renal Bloodscalp",StartDialogNoSet(Player1))
+END
+
+IF	//Script to start dialogue with Renal Bloodscalp if not in party.
+	Detect("Renal Bloodscalp")
+	Detect(Player1)
+	!InParty("YF_Clara")
+	CombatCounter(0)
+	//!Global("YF_SleptWithClara","GLOBAL",7)
+	Global("YF_RenalClara","GLOBAL",0)
+	!Global("YF_RenalOHHFAK","GLOBAL",2)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_RenalClara","GLOBAL",1)
+END
+
+IF
+	Detect("Renal Bloodscalp")
+	Detect(Player1)
+	CombatCounter(0)
+	!InParty("YF_Clara")
+	Global("YF_RenalClara","GLOBAL",1)
+	!Global("YF_RenalOHHFAK","GLOBAL",2)
+THEN
+	RESPONSE #100
+	ActionOverride("Renal Bloodscalp",StartDialogNoSet(Player1))
+END
+
+////Clara sex trigger. Will not trigger in Ust Natha. I figure everyone is smart enough to know that isn't safe
+//IF	
+//	InParty("YF_Clara")
+//	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+//	!StateCheck(Player1,CD_STATE_NOTVALID)
+//	Detect(Player1)
+//	OR(11)
+//		AreaCheck("AR0021")        // City Gates - Crooked Crane 1st floor
+//		AreaCheck("AR0313")        // Docks - Sea's Bounty 1st floor
+//		AreaCheck("AR0406")        // Slums - Copper Coronet
+//		AreaCheck("AR0509")        // Bridge - Five Flagons 1st floor
+//		AreaCheck("AR0513")        // Bridge - Calbor's Inn 1st floor
+//		AreaCheck("AR0522")        // Bridge - Five Flagons 1st floor (stronghold)
+//		AreaCheck("AR0704")        // Waukeen's Promenade - Mithrest Inn
+//		AreaCheck("AR0709")        // Waukeen's Promenade - Den of the Seven Vales
+//		AreaCheck("AR1105")        // Umar Hills - Imnesvale Inn
+//		AreaCheck("AR1602")        // Brynnlaw - Brynnlaw Inn
+//		AreaCheck("AR2010")        // Trademeet - Vytori's Pub
+//	Global("YF_SleepsWithClara","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_SleepsWithClara","GLOBAL",2)
+//	SetGlobal("YF_restcheck","GLOBAL",2)
+//END
+//
+//IF
+//	Global("YF_SleepsWithClara","GLOBAL",2)
+//	InParty("YF_Clara")
+//	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+//	Detect(Player1)
+//	!StateCheck(Player1,CD_STATE_NOTVALID)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_SleepsWithClara","GLOBAL",3)
+//END	
+//	
+//IF
+//	Global("YF_SleepsWithClara","GLOBAL",3)
+//	InParty("YF_Clara")
+//	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+//	Detect(Player1)
+//	!StateCheck(Player1,CD_STATE_NOTVALID)
+//	CombatCounter(0)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
+//
+//
+////Triggers final roundup before you sleep w/ her - make sure this plays after everything else.
+//IF
+//	Global("YF_SleptWithClara","GLOBAL",3)
+//	IfValidForPartyDialog("YF_Clara")
+//THEN
+//	RESPONSE #100
+//	Wait(1)
+//	SetGlobal("YF_SleptWithClara","GLOBAL",4)
+//END
+//
+////Triggers final roundup before you sleep w/ her - if no other talks play
+//IF
+//	Global("YF_SleptWithClara","GLOBAL",1) 
+//	InParty("YF_Clara") 
+//	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+//	Global("YF_SWCJ","GLOBAL",0)
+//	Global("YF_SWCV","GLOBAL",0)
+//	Global("YF_SWCH","GLOBAL",0)
+//	Global("YF_SWCA","GLOBAL",0)
+//	Global("YF_SWCNe","GLOBAL",0)
+//	Global("YF_SWCNa","GLOBAL",0)
+//	Global("YF_SWCAn1","GLOBAL",0)
+//	Global("YF_SWCAn2","GLOBAL",0)
+//	Global("YF_SWCD","GLOBAL",0)
+//	Global("YF_SWCE","GLOBAL",0)
+//	Global("YF_SWCY","GLOBAL",0)
+//	Global("YF_SWCR","GLOBAL",0)
+//	Global("YF_SWCM","GLOBAL",0)
+//	Global("YF_SWCKe","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	Wait(3)
+//	SetGlobal("YF_SleptWithClara","GLOBAL",4)
+//END
+//
+//IF
+//	Global("YF_SleptWithClara","GLOBAL",4)
+//	InParty("YF_Clara") 
+//	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+//THEN
+//	RESPONSE #100
+//	ActionOverride("YF_Clara",MoveGlobalObject("YF_Clara",Player1))
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
+//	
+//
+////Trigger for Clara leaving after sex
+//IF
+//	Global("YF_SleptWithClara","GLOBAL",5)
+//	InParty("YF_Clara")
+//	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("KickedOut","LOCALS",1)
+//	TakePartyGold(3000)
+//	DestroyGold(3000)
+//	SetGlobal("YF_ClaraRT","GLOBAL",1)
+//	ChangeAIScript("",DEFAULT)
+//	LeaveParty()
+//	MoveGlobal("AR0306","YF_Clara",[578.328])
+//	SetGlobal("YF_SleptWithClara","GLOBAL",6)
+//END
+//
+////Trigger for post SleepsWithClara conversation in Renal's hideout (b/c not in party to start)
+//IF 
+//	Global("YF_ClaraRT","GLOBAL",1) 
+//	Global("YF_SleptWithClara","GLOBAL",7) 
+//	Detect(Player1)
+//	CombatCounter(0)
+//	!Dead("YF_Clara")
+//	!StateCheck(Player1,CD_STATE_NOTVALID)
+//	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+//THEN	
+//	RESPONSE #100
+//	Wait(2)
+//	SetGlobal("YF_ClaraRT","GLOBAL",2)
+//END
+//
+IF
+	Global("YF_ClaraRT","GLOBAL",2)
+	CombatCounter(0)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	ActionOverride("YF_Clara",StartDialogNoSet(Player1))
+END
+
+//Fix for Clara's sprite dying
+IF
+	InParty(Myself)
+	Global("SPRITE_IS_DEAD_BCLARA","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("SPRITE_IS_DEAD_BCLARA","GLOBAL",0)
+	Continue()
+END
+
+//Clara-Imoen Chapter 4 Talk
+IF
+	IfValidForPartyDialog("Imoen2")
+	IfValidForPartyDialog("YF_Clara")
+	Global("YF_CITalk","GLOBAL",0)
+	Global("Chapter","GLOBAL",%bg2_chapter_4%)
+	Global("C#IM_ImoenStays","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_CITalk","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Imoen2")
+	IfValidForPartyDialog("YF_Clara")
+	Global("YF_CITalk","GLOBAL",1)
+	CombatCounter(0)
+THEN
+	RESPONSE #100	
+	StartDialogNoSet(Player1)
+END
+
+//2nd Clara-Viconia Banter
+IF
+	InParty("Viconia") 
+	InParty("YF_Clara")
+	Global("YF_BCLARAVIC","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_BCLARAVIC","GLOBAL",2)
+	SetGlobalTimer("YF_CVPoison","GLOBAL",TWO_DAYS)
+END
+
+IF 	
+	InParty("Viconia") 
+	See("Viconia") 
+	!StateCheck("Viconia",CD_STATE_NOTVALID)
+	InParty("YF_Clara")
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID) 
+	Global("YF_BCLARAVIC","GLOBAL",2)
+	GlobalTimerExpired("YF_CVPoison","GLOBAL")
+	OR(14)
+		AreaCheck("AR0021")        // City Gates - Crooked Crane 1st floor
+		AreaCheck("AR0313")        // Docks - Sea's Bounty 1st floor
+		AreaCheck("AR0406")        // Slums - Copper Coronet
+		AreaCheck("AR0509")        // Bridge - Five Flagons 1st floor
+		AreaCheck("AR0513")        // Bridge - Calbor's Inn 1st floor
+		AreaCheck("AR0522")        // Bridge - Five Flagons 1st floor (stronghold)
+		AreaCheck("AR0704")        // Waukeen's Promenade - Mithrest Inn
+		AreaCheck("AR0709")        // Waukeen's Promenade - Den of the Seven Vales
+		AreaCheck("AR1105")        // Umar Hills - Imnesvale Inn
+		AreaCheck("AR1602")        // Brynnlaw - Brynnlaw Inn
+		AreaCheck("AR2010")        // Trademeet - Vytori's Pub
+		AreaCheck("AR2202")        //Ust Natha Inn 1st Floor
+		AreaCheck("AR2203")        //Ust Natha Inn 2nd Floor
+		Detect("udsvir04")         //Grey gnome innkeeper in Underdark
+THEN
+	RESPONSE #100
+	SetGlobal("YF_BCLARAVIC","GLOBAL",3)
+END
+
+IF
+	InParty("Viconia") 
+	Detect("Viconia") 
+	!StateCheck("Viconia",CD_STATE_NOTVALID)
+	InParty("YF_Clara")
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID) 
+	Global("YF_BCLARAVIC","GLOBAL",3)
+THEN
+	RESPONSE #100
+	Interact("Viconia")
+END
+
+//Clara-Viconia on Raise
+IF
+	InParty("Viconia") 
+	!StateCheck("Viconia",CD_STATE_NOTVALID)
+	Detect("Viconia")
+	InParty("YF_Clara")
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID) 
+	Global("YF_BCLARAVIC","GLOBAL",4)
+THEN
+	RESPONSE #100
+	Interact("Viconia")
+END
+
+
+//Clara- Viconia Poison Scene
+IF
+	IfValidForPartyDialog("Viconia")
+	IfValidForPartyDialog("YF_Clara") 
+	Global("YF_claracanpoison","GLOBAL",1)
+	Global("YF_clarapoisontalk","GLOBAL",0)
+	See("drunk2") // This is the drunk in the copper coronet. The one without a name.
+	See("drunk1") // This is the named drunk, Garoll.
+	!Dead("drunk2")
+	!Dead("drunk1")
+THEN
+	RESPONSE #100
+	SetGlobal("YF_clarapoisontalk","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Viconia")
+	IfValidForPartyDialog("YF_Clara") 
+	Global("YF_claracanpoison","GLOBAL",1)
+	Global("YF_clarapoisontalk","GLOBAL",1)
+	See("drunk2") // This is the drunk in the copper coronet. The one without a name.
+	See("drunk1") // This is the named drunk, Garoll.
+	CombatCounter(0)
+THEN
+	RESPONSE #100	
+	StartDialogNoSet(Player1)
+END
+
+//Viconia Special Ability (Poison Weapon)
+IF
+	Global("YF_clarapoisontalk","GLOBAL",2)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("SPCL423")
+	SetGlobal("YF_clarapoisontalk","GLOBAL",3)
+END	
+
+//Dorn Special Ability (Poison Weapon)
+IF
+	Global("YF_BCLARADORN","GLOBAL",2)
+	Global("YF_clarapw","GLOBAL",0)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("SPCL423")
+	SetGlobal("YF_clarapw","GLOBAL",1)
+END	
+
+//HaerDalis Special Ability (Shadow Door)
+IF
+	Global("YF_BCLARAHD","GLOBAL",2)
+	Global("YF_claraSD","GLOBAL",0)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("YF_SDO")
+	SetGlobal("YF_claraSD","GLOBAL",1)
+END	
+
+//Edwin Special Ability (Shadow Door)
+IF
+	Global("YF_BCLARAEDWIN","GLOBAL",2)
+	Global("YF_claraEdSD","GLOBAL",0)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("YF_SDO")
+	SetGlobal("YF_claraEdSD","GLOBAL",1)
+END	
+
+//Valygar Special Ability (Nondetection)
+IF
+	Global("YF_BCLARAVALYG","GLOBAL",3)
+	Global("YF_ClaraVND","GLOBAL",0)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("YF_NOND")
+	ActionOverride("Valygar",AddSpecialAbility("YF_NOND"))
+	SetGlobal("YF_ClaraVND","GLOBAL",1)
+END
+
+//Keldorn Special Ability (Nondetection)
+IF
+	Global("YF_BCLARAKELD","GLOBAL",2)
+	Global("YF_ClaraKND","GLOBAL",0)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("YF_NOND")
+	SetGlobal("YF_ClaraKND","GLOBAL",1)
+END
+
+//Viconia Special Ability (Poison arrows)
+IF
+	Global("YF_BCLARAVIC","GLOBAL",5)
+	Global("YF_claracanpoison","GLOBAL",0)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("YF_PoisA")
+	SetGlobal("YF_claracanpoison","GLOBAL",1)
+END
+
+//1st Minsc Ability (Truesight)
+IF
+	Global("YF_BCLARAMINSC","GLOBAL",2)
+	Global("YF_ClaraSeesAll","GLOBAL",0)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("SPCL732")
+	ApplySpellRES("YF_TIRED","YF_Clara")
+	SetGlobal("YF_ClaraSeesAll","GLOBAL",1)
+END
+
+//2nd Minsc Ability (Charm Animal)
+IF
+	Global("YF_BCLARAMINSC","GLOBAL",3)
+	Global("YF_ClaraBooTalk","GLOBAL",0)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("SPCL311")
+	SetGlobal("YF_ClaraBooTalk","GLOBAL",1)
+END
+
+//3rd Minsc Ability (Berserker)
+IF
+	Global("YF_BCLARAMINSC","GLOBAL",4)
+	Global("YF_ClaraHulksOut","GLOBAL",0)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("SPCL321")
+	SetGlobal("YF_ClaraHulksOut","GLOBAL",1)
+END
+
+//1st Aerie Ability (Charm Animal)
+IF
+	Global("YF_BCLARAAERIE","GLOBAL",2)
+	Global("YF_ClaraCFBoon","GLOBAL",0)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("SPCL311")
+	SetGlobal("YF_ClaraCFBoon","GLOBAL",1)
+END
+
+//2nd Aerie (Find traps)
+IF
+	Global("YF_BCLARAAERIE","GLOBAL",3)
+	Global("YF_ClaraAerieBoon","GLOBAL",0)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("YF_FTRAP")
+	SetGlobal("YF_ClaraAerieBoon","GLOBAL",1)
+END
+
+//Cernd (Find traps)
+IF
+	Global("YF_BCLARACERND","GLOBAL",2)
+	Global("YF_ClaraCerndBoon","GLOBAL",0)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("YF_FTRAP")
+	SetGlobal("YF_ClaraCerndBoon","GLOBAL",1)
+END
+
+//Imoen - Special Trap
+IF
+	Global("YF_BCLARAIMOEN","GLOBAL",4)
+	Global("YF_ClaraKaboom","GLOBAL",0)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("YF_FIRE")
+	ActionOverride("Imoen2",AddSpecialAbility("SPCL911"))
+	SetGlobal("YF_ClaraKaboom","GLOBAL",1)
+END
+
+	
+
+//3rd Anomen Talk Timer
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	Global("YF_ClaraAnomenLove","GLOBAL",6)
+THEN 
+	RESPONSE #100
+	SetGlobalTimer("YF_CALoveTime","GLOBAL",TWO_DAYS)
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF	
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	GlobalTimerExpired("YF_CALoveTime","GLOBAL")
+	Global("YF_ClaraAnomenLove","GLOBAL",7)
+THEN 
+	RESPONSE #100
+	SetGlobal("YF_ClaraAnomenLove","GLOBAL",8)
+END
+
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	Detect("Anomen")
+	!Global("AnomenRomanceActive","GLOBAL",2)
+	!Global("AnomenRomanceActive","GLOBAL",1)
+	!AreaCheck("AR1001")
+	Global("YF_ClaraAnomenLove","GLOBAL",8)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+
+//So Clara will hopefully join Anomen-Cor fight
+IF
+	Global("AnomenFinalFight","GLOBAL",1)
+	Global("HopToItClara","LOCALS",0)
+THEN
+	RESPONSE #100
+	SetGlobal("HopToItClara","LOCALS",1)
+	ChangeAIScript("",DEFAULT)
+	ChangeEnemyAlly(Myself,GOODBUTBLUE)
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,GOODBUTBLUE)
+	Global("AnomenFinalFight","GLOBAL",1)
+	!Global("YF_LordAndLadyDelryn","GLOBAL",5)
+THEN
+	RESPONSE #100
+	Enemy()
+	Continue()
+END
+
+//Timer for Last Korgan banter
+IF
+	InParty("Korgan") 
+	InParty("YF_Clara") 
+	Global("YF_BCLARAKOR","GLOBAL",2)
+THEN
+	RESPONSE #100 
+	SetGlobal("YF_BCLARAKOR","GLOBAL",3)
+	SetGlobalTimer("YF_CKOrgyTimer","GLOBAL",SEVEN_DAYS)
+END
+	
+	
+IF
+	InParty("Korgan") 
+	InParty("YF_Clara") 
+	Global("YF_BCLARAKOR","GLOBAL",3)
+	GlobalTimerExpired("YF_CKOrgyTimer","GLOBAL")
+THEN
+	RESPONSE #100 
+	SetGlobal("YF_BCLARAKOR","GLOBAL",4)
+END
+
+IF
+	InParty("Korgan") 
+	See("Korgan") 
+	!StateCheck("Korgan",CD_STATE_NOTVALID) 
+	InParty("YF_Clara") 
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID) 
+	!AreaType(DUNGEON) 
+	Global("YF_BCLARAKOR","GLOBAL",4)
+	PartyRested()
+THEN
+	RESPONSE #100
+	Interact("Korgan")
+END
+
+//Timer for Last Nalia Banter (middle trigger in d file)
+IF
+	InParty("Nalia")
+	InParty("YF_Clara") 
+	Global("YF_BCLARANALIA","GLOBAL",2)
+THEN
+	RESPONSE #100 
+	SetGlobal("YF_BCLARANALIA","GLOBAL",3)
+	SetGlobalTimer("YF_GirlsNightOut","GLOBAL",FOUR_DAYS)
+END
+
+IF
+	InParty("Nalia")
+	InParty("YF_Clara")
+	!StateCheck("Nalia",CD_STATE_NOTVALID) 
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID) 
+	Global("YF_BCLARANALIA","GLOBAL",4)
+THEN
+	RESPONSE #100
+	UndoExplore()
+	Interact("Nalia")
+END
+
+//In case Yoshimo's katana refuses to go away again.
+IF
+	Global("YF_ClaraKatana","GLOBAL",1)
+	PartyHasItem("NPSW02")
+THEN
+	RESPONSE #100
+	TakePartyItem("NPSW02") 
+	DestroyItem("NPSW02")
+	Continue()
+END
+
+//Keldorn Death Scene post Anomen Fight - Coded like this so he dies on rest instead of on waking.
+IF 
+	InParty("YF_Clara")
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+	InParty("Anomen")
+	InParty("Keldorn")
+	Global("YF_OldKnightMustDie","GLOBAL",2)
+THEN
+	RESPONSE #100
+	Kill("Keldorn")
+	RestParty()
+	SetGlobal("YF_OldKnightMustDie","GLOBAL",3)
+	Continue()
+END
+
+IF 
+	InParty("YF_Clara")
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+	InParty("Anomen")
+	Dead("Keldorn")
+	Global("YF_OldKnightMustDie","GLOBAL",3)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Clara-Anomen Talk after name cleared
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	Global("YF_AnomenClearsName","GLOBAL",5)
+	Global("YF_ClaraAnomenLove","GLOBAL",52)
+THEN 
+	RESPONSE #100
+	SetGlobalTimer("YF_CACouncilTalk","GLOBAL",EIGHT_HOURS)
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF	
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	GlobalTimerExpired("YF_CACouncilTalk","GLOBAL")
+	Global("YF_ClaraAnomenLove","GLOBAL",53)
+THEN 
+	RESPONSE #100
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	Global("YF_ClaraAnomenLove","GLOBAL",54)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+
+//Clara-Anomen Talk after talk with Jysstev
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	Global("YF_CouncilSixTalk","GLOBAL",4)
+	Global("YF_ClaraAnomenLove","GLOBAL",55)
+THEN 
+	RESPONSE #100
+	SetGlobalTimer("YF_CASeatTalk","GLOBAL",TWO_HOURS)
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF	
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	GlobalTimerExpired("YF_CASeatTalk","GLOBAL")
+	Global("YF_ClaraAnomenLove","GLOBAL",56)
+	CombatCounter(0)
+THEN 
+	RESPONSE #100
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	Global("YF_ClaraAnomenLove","GLOBAL",57)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySong(35)
+	StartDialogNoSet(Player1)
+END
+	
+//Clara wears sex change belt
+IF
+HasItemEquiped("YF_BELTC",Myself)
+Gender(Myself,FEMALE)
+Global("YF_ClaraGoesMale","GLOBAL",0)
+THEN
+	RESPONSE #100
+CreateVisualEffectObject("SPPOLYMP",Myself)
+ChangeGender(Myself,MALE)
+Polymorph(THIEF_MALE_HUMAN)
+SetGlobal("YF_ClaraGoesMale","GLOBAL",1)
+END
+
+IF
+!HasItemEquiped("YF_BELTC",Myself)
+Gender(Myself,MALE)
+Global("YF_ClaraGoesMale","GLOBAL",1)
+THEN
+	RESPONSE #100
+CreateVisualEffectObject("SPPOLYMP",Myself)
+ChangeGender(Myself,FEMALE)
+Polymorph(THIEF_FEMALE_HUMAN)
+SetGlobal("YF_ClaraGoesMale","GLOBAL",0)
+END
+
+
+//Aerie Wing Response
+IF
+	Global("YF_AerieWingResponse","GLOBAL",1)
+	InParty("YF_Clara")
+	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+	Global("YF_ClaraWingResponse","GLOBAL",0)
+	CombatCounter(0)
+THEN 
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+
+//Timer for Second/6th Mazzy-Clara Talk
+IF
+	IfValidForPartyDialog("Mazzy")
+	IfValidForPartyDialog("YF_Clara") 
+	OR(2)
+	Global("YF_MazzyClara","GLOBAL",3)
+	Global("YF_MazzyClara","GLOBAL",15)
+THEN
+	RESPONSE #100
+	IncrementGlobal("YF_MazzyClara","GLOBAL",1)
+	SetGlobalTimer("YF_MClaraTimer","GLOBAL",THREE_DAYS)
+END
+
+IF
+	IfValidForPartyDialog("Mazzy")
+	IfValidForPartyDialog("YF_Clara") 
+	GlobalTimerExpired("YF_MClaraTimer","GLOBAL")
+	OR(2)
+	Global("YF_MazzyClara","GLOBAL",4)
+	Global("YF_MazzyClara","GLOBAL",16)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	IncrementGlobal("YF_MazzyClara","GLOBAL",1)
+END
+
+IF
+	IfValidForPartyDialog("Mazzy")
+	IfValidForPartyDialog("YF_Clara") 
+	OR(2)
+	Global("YF_MazzyClara","GLOBAL",5)
+	Global("YF_MazzyClara","GLOBAL",17)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Clara Waiting Fix
+IF
+	InPartyAllowDead("YF_Clara")
+	!Global("YF_ClaraWaiting","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraWaiting","GLOBAL",0)
+END
+
+IF
+	InPartyAllowDead("YF_Clara")
+	!Global("KickedOut","LOCALS",0)
+THEN
+	RESPONSE #100
+	SetGlobal("KickedOut","LOCALS",0)
+END
+
+//Clara P File Adjustment - so she goes to Manor instead of CC if married
+IF	
+	Global("YF_ClaraCC","GLOBAL",1)
+	OR(2)
+	Global("YF_LadyDelryn","GLOBAL",1)
+	Global("YF_LordAndLadyDelryn","GLOBAL",5)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraCC","GLOBAL",0)
+END	
+
+//Clara Quest Code
+//First nudge to talk to Rose if you haven't yet
+IF
+	IsValidForPartyDialog("YF_Clara")
+	Global("YF_RoseClara","GLOBAL",0)
+	Global("YF_RoseClaraTimer","GLOBAL",0)
+THEN
+	RESPONSE #100 
+	SetGlobal("YF_RoseClaraTimer","GLOBAL",1)
+	SetGlobalTimer("YF_RCTimer","GLOBAL",FIVE_DAYS)
+END
+	
+IF
+	IsValidForPartyDialog("YF_Clara")
+	Global("YF_RoseClara","GLOBAL",0)
+	Global("YF_RoseClaraTimer","GLOBAL",1)
+	GlobalTimerExpired("YF_RCTimer","GLOBAL")
+	!AreaCheck("AR0500")
+THEN
+	RESPONSE #100 
+	SetGlobal("YF_RoseClaraTimer","GLOBAL",2)
+END
+
+IF
+	Global("YF_RoseClaraTimer","GLOBAL",2)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Code to make Terl Appear once Aran dead 
+IF
+	Global("YF_RoseClara","GLOBAL",1) //So you had their interaction
+	//Dead("aran")
+	!Dead("MurdGirl")
+	IsValidForPartyDialog("YF_Clara")
+	!Global("Chapter","GLOBAL",%bg2_chapter_4%) //Chapter 4 (this is the code the buffer evaluates)
+	!Global("Chapter","GLOBAL",%bg2_chapter_5%)  //Chapter 5
+THEN
+	RESPONSE #100 
+	SetGlobalTimer("YF_SpawnTerlClara","GLOBAL",FOUR_DAYS)
+	SetGlobal("YF_RoseClara","GLOBAL",2)
+END
+
+IF
+Global("YF_RoseClara","GLOBAL",2)
+GlobalTimerExpired("YF_SpawnTerlClara","GLOBAL")
+	IfValidForPartyDialog("YF_Clara")
+	!Global("Chapter","GLOBAL",%bg2_chapter_4%) //Chapter 4 (this is the code the buffer evaluates)
+	!Global("Chapter","GLOBAL",%bg2_chapter_5%)  //Chapter 5
+	AreaType(OUTDOOR)
+	AreaType(CITY)
+	!Exists("Terl")  // Terl
+	CombatCounter(0)
+	/*!AreaCheck("AR0041")   //Random Encounter
+	!AreaCheck("AR0042")   //Random Encounter
+	!AreaCheck("AR0043")   //Random Encounter
+	!AreaCheck("AR0044")   //Random Encounter
+	!AreaCheck("AR0045")   //Random Encounter
+	!AreaCheck("AR0046")   //Random Encounter
+	!AreaCheck("AR2601")   //Meet Drizzt
+	!AreaCheck("AR2700")   //Ancient Spirits
+	!AreaCheck("AR2800")   //Suldanessellar
+	!AreaCheck("AR2806")   //Tree of Life
+	!AreaCheck("AR2807")   //Black Dragon Hideout	
+	!AreaCheck("OH6010")   //Neera random encounter
+	!AreaCheck("AR0500")   //Bridge
+	!AreaCheck("OH7310")*/   //Hexxat - L Scene
+
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		CreateCreatureObjectEffect("bdoffscr","",Myself)  // No such index
+		ApplySpellRES("bdoffscr","bdoffscr")  // No such index
+		SmallWait(1)
+		CreateCreatureObjectEffect("TERL","","bdoffscr")  // Terl
+		SetInterrupt(TRUE)
+END
+
+IF
+	GlobalTimerExpired("YF_SpawnTerlClara","GLOBAL")
+	Global("YF_RoseClara","GLOBAL",2)
+	IfValidForPartyDialog("YF_Clara")
+	!Global("Chapter","GLOBAL",%bg2_chapter_4%)
+	!Global("Chapter","GLOBAL",%bg2_chapter_5%)
+	AreaType(OUTDOOR)
+	See("Terl")  // Terl
+	!See([ENEMY])
+THEN
+	RESPONSE #100
+	SetGlobal("YF_RoseLibrary","GLOBAL",1)
+	Continue()
+END
+
+IF
+	Global("YF_RoseLibrary","GLOBAL",1)
+	Global("YF_RoseClara","GLOBAL",2)
+THEN
+	RESPONSE #100
+	StartDialogNoSet(Player1)
+END
+
+//Clara-Viconia's talk after their first banter.
+//IF
+//	IfValidForPartyDialog("Viconia")
+//	IfValidForPartyDialog("YF_Clara")
+//	CombatCounter(0)
+//	GlobalGT("YF_BCLARAVIC","GLOBAL",0)
+//	Global("YF_ClaraRealizesMistakeViconia","GLOBAL",0)
+//	PartyRested()
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraRealizesMistakeViconia","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraRealizesMistakeViconia","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	StartDialogNoSet(Player1)
+//END
+
+//Clara's dialogue in Viconia's Peace Quest, after you talk to Rose.
+
+IF
+	Global("YF_ClaraAntidoteTalk","GLOBAL",2)
+	Global("YF_CNKillsAll","GLOBAL",1)
+	Global("YF_ClaraAntidoteTalkCN","GLOBAL",0)
+THEN
+	RESPONSE #100
+	Wait(1)
+	CreateCreature("MURDGIRL",[2947.1978],NW)
+	SetGlobal("YF_ClaraAntidoteTalkCN","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraAntidoteTalk","GLOBAL",2)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	Global("YF_ClaraAntidoteTalkClara","GLOBAL",0)
+THEN
+	RESPONSE #100
+	CreateCreature("MURDGIRL",[2947.1978],NW)
+	SetGlobal("YF_ClaraAntidoteTalkClara","GLOBAL",1)
+END
+
+IF
+	OR(2)
+		Global("YF_ClaraAntidoteTalkCN","GLOBAL",1)
+		Global("YF_ClaraAntidoteTalkClara","GLOBAL",1)
+THEN
+	RESPONSE #100
+	SetGlobal("CowledWarning","GLOBAL",50)
+	PlaySong(0)
+	PlaySound("YF_Moon")
+	StartDialogNoSet(Player1)
+END
+
+//Script for Rose to talk as everyone dies.
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_PostGenocideRoseTalk","GLOBAL",0)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	SetGlobal("YF_PostGenocideRoseTalk","GLOBAL",1)
+END
+
+IF
+	Global("YF_PostGenocideRoseTalk","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride("murdgirl",StartDialogNoSet(Player1))
+END
+
+//Scripts to talk and gain xp in each area if Clara's killing them.
+//Five Flagons
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	OR(2)
+		AreaCheck("AR0509") //Five Flagons Inn 1st Floor
+		AreaCheck("AR0522") //Five Flagons Inn (Stronghold)
+	Global("YF_ClaraKillsAllFiveFlagons","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllFiveFlagons","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllFiveFlagons","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Desolar's Inn
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0513") //Desolar's Inn 1st floor
+	Global("YF_ClaraKillsAllDesolar","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllDesolar","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllDesolar","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Docks District
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0300") //Docks district
+	Global("YF_ClaraKillsAllDocks","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllDocks","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllDocks","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("YF_Moon")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Sea's Bounty
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0313") //Sea's Bounty First floor
+	Global("YF_ClaraKillsAllSeaBounty","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllSeaBounty","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllSeaBounty","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Temple of Oghma
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0319") //Temple of Oghma
+	Global("YF_ClaraAllKillsOghma","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraAllKillsOghma","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraAllKillsOghma","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//City Gates
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0020") //City Gates
+	Global("YF_ClaraKillsAllCityGates","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllCityGates","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllCityGates","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("YF_Moon")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Crooked Crane
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0022") //Crooked Crane
+	Global("YF_ClaraKillsAllCrookedCrane","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllCrookedCrane","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllCrookedCrane","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Slums
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0400") //The Slums
+	Global("YF_ClaraKillsAllSlums","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllSlums","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllSlums","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("YF_Moon")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Copper Coronet
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0406") //The Copper Coronet
+	Global("YF_ClaraKillsAllCoronet","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllCoronet","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllCoronet","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Waukeen's Promenade
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0700") //Waukeen's Promenade
+	Global("YF_ClaraKillsAllPromenade","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllPromenade","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllPromenade","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("YF_Moon")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Circus
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0607") //Circus
+	Global("YF_ClaraKillsAllCircus","GLOBAL",0)
+	!Dead("Quayle")
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllCircus","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllCircus","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Adventurer's Mart
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0702") //Adventurer's Mart
+	Global("YF_ClaraKillsAllAdventurer","GLOBAL",0)
+	!Dead("Ribald")
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllAdventurer","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllAdventurer","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Graveyard
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0800") //Graveyard
+	Global("YF_ClaraKillsAllGraveyard","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllGraveyard","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllGraveyard","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("YF_Moon")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Temple District
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0900") //Temple District
+	Global("YF_ClaraKillsAllTempleDistrict","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllTempleDistrict","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllTempleDistrict","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("YF_Moon")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Temple of Helm
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0901") //Temple of Helm
+	Global("YF_ClaraKillsAllHelm","GLOBAL",0)
+	Global("TempleShout0901","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllHelm","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllHelm","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Order of the Radiant Heart
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0903") //Order of the Radiant Heart
+	Global("YF_ClaraKillsAllOrder","GLOBAL",0)
+	Global("TempleShout0903","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllOrder","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllOrder","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Government District
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR1000") //Government District
+	Global("YF_ClaraKillsAllGovernment","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllGovernment","GLOBAL",1)
+	SetGlobal("YouKilledMyFather","LOCALS",10)
+END
+
+IF
+	Global("YF_ClaraKillsAllGovernment","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("YF_Moon")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Firecam Estate
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR1003") //Firecam Estate
+	Global("YF_ClaraKillsAllFirecam","GLOBAL",0)
+	IfValidForPartyDialog("Keldorn")
+	OR(3)
+		Detect("maria")
+		Detect("leona")
+		Detect("vesper")
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllFirecam","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllFirecam","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Council of Six Building
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR1002") //Council of Six Building
+	Global("YF_ClaraKillsAllCouncil","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllCouncil","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllCouncil","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Aran's Hideout (friendly)
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0307") //Aran's Hideout (friendly)
+	Global("YF_ClaraKillsAllAran","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllAran","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllAran","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Booter
+//Aran's Hideout (friendly)
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0307") //Aran's Hideout (friendly)
+	Global("YF_ClaraKillsAllBooter","GLOBAL",0)
+	See("booter")
+	!Dead("booter")
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllBooter","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllBooter","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Shadow Thieves Guild Entrance (friendly)
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0305") //Shadow Thieves Guild Entrance (friendly)
+	Global("YF_ClaraKillsAllGuild","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllGuild","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllGuild","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Renal's Hideout (friendly)
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0306") //Renal's Hideout
+	Global("YF_ClaraKillsAllRenal","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllRenal","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllRenal","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Hidden Refuge
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	OR(2)
+		AreaCheck("OH6100")
+		AreaCheck("OH6200")
+	Global("YF_ClaraKillsAllRefuge","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllRefuge","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllRefuge","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("YF_Moon")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Umar Hills
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR1100") //Umar Hills
+	Global("YF_ClaraKillsAllUmar","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllUmar","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllUmar","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("YF_Moon")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Imnesvale Inn
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR1105") //Imnesvale Inn
+	Global("YF_ClaraKillsAllImnesvale","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllImnesvale","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllImnesvale","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Windspear Hills
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR1200") //Windspear Hills
+	Global("YF_ClaraKillsAllWindspear","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllWindspear","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllWindspear","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("YF_Moon")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Trademeet
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR2000") //Trademeet
+	Global("YF_ClaraKillsAllTrademeet","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllTrademeet","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllTrademeet","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("YF_Moon")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Trademeet Inn
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR2010") //Trademeet Inn
+	Global("YF_ClaraKillsAllTradmeetInn","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllTradmeetInn","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllTradmeetInn","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//De'Arnise Hold
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	OR(2)
+		AreaCheck("AR1300")
+		AreaCheck("AR1304")
+	Global("YF_ClaraKillsAllDeArnise","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllDeArnise","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllDeArnise","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("YF_Moon")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Mithrest Inn (Waukeen's Promanade)
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("AR0704") //Mithrest Inn
+	Global("YF_ClaraKillsAllMithrest","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllMithrest","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllMithrest","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Den of the Seven Vales (Waukeen's Promanade)
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	OR(2)
+	AreaCheck("AR0709") //Den of the Seven Vales 1st Floor
+	AreaCheck("AR0712") //Den of the Seven Vales 2nd Floor
+	Global("YF_ClaraKillsAllSevenVales","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllSevenVales","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllSevenVales","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Heretic Temple if not hostile
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("OH4100")
+	Global("YF_ClaraKillsAllHeretic","GLOBAL",0)
+	Global("OHR_TEMPLE_HOSTILE","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllHeretic","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllHeretic","GLOBAL",1)
+THEN
+	RESPONSE #100
+	PlaySong(0)
+	PlaySound("YF_Moon")
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Inside Heretic Temple
+IF
+	Global("YF_AllRivvinMustDie","GLOBAL",1)
+	Global("YF_ClaraKillsAll","GLOBAL",1)
+	IfValidForPartyDialog("YF_Clara")
+	AreaCheck("OH4101")
+	Global("YF_ClaraKillsAllHereticInside","GLOBAL",0)
+	Global("OHR_TEMPLE_HOSTILE","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_ClaraKillsAllHereticInside","GLOBAL",1)
+END
+
+IF
+	Global("YF_ClaraKillsAllHereticInside","GLOBAL",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("Player1"))
+	StartDialogNoSet(Player1)
+END
+
+//Timer for start of 2nd Clara Quest
+IF
+	Global("YF_RBook90","GLOBAL",1)
+	OR(2)
+		Global("Chapter","GLOBAL",%bg2_chapter_6%) //Chapter 6 
+		Global("Chapter","GLOBAL",%bg2_chapter_7%)  //Chapter 7
+	Global("YF_RoseLibrary","GLOBAL",1)
+	InParty("YF_Clara")
+THEN
+	RESPONSE #100
+	SetGlobal("YF_RoseLibrary","GLOBAL",2)
+	SetGlobalTimer("YF_SpawnTerlClara","GLOBAL",SEVEN_DAYS)
+END
+
+IF
+	Global("YF_RoseLibrary","GLOBAL",2)
+	GlobalTimerExpired("YF_SpawnTerlClara","GLOBAL")
+	IfValidForPartyDialog("YF_Clara")
+	OR(2)
+		Global("Chapter","GLOBAL",%bg2_chapter_6%) //Chapter 6 
+		Global("Chapter","GLOBAL",%bg2_chapter_7%)  //Chapter 7
+	AreaType(OUTDOOR)
+	!Exists("Terl")  // Terl
+	CombatCounter(0)
+		/*!AreaCheck("AR0041")   //Random Encounter
+		!AreaCheck("AR0042")   //Random Encounter
+		!AreaCheck("AR0043")   //Random Encounter
+		!AreaCheck("AR0044")   //Random Encounter
+		!AreaCheck("AR0045")   //Random Encounter
+		!AreaCheck("AR0046")   //Random Encounter
+		!AreaCheck("AR2601")   //Meet Drizzt
+		!AreaCheck("AR2700")   //Ancient Spirits
+		!AreaCheck("AR2800")   //Suldanessellar
+		!AreaCheck("AR2806")   //Tree of Life
+		!AreaCheck("AR2807")   //Black Dragon Hideout	
+		!AreaCheck("OH6010")   //Neera random encounter
+		!AreaCheck("AR0500")   //Bridge
+		!AreaCheck("OH7310")*/   //Hexxat - L Scene
+	OR(8)
+		AreaCheck("AR0900")   //神殿区
+		AreaCheck("AR1000")   //行政区
+		AreaCheck("AR0500")   //大桥区
+		AreaCheck("AR0020")   //城门区
+		AreaCheck("AR0300")   //码头
+		AreaCheck("AR0700")   //渥金商场
+		AreaCheck("AR0400")   //贫民区
+		AreaCheck("AR0800")   //墓园区
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		CreateCreatureObjectEffect("bdoffscr","",Myself)  // No such index
+		ApplySpellRES("bdoffscr","bdoffscr")  // No such index
+		SmallWait(1)
+		CreateCreatureObjectEffect("TERL","","bdoffscr")  // Terl
+		SetInterrupt(TRUE)
+END
+
+IF
+	GlobalTimerExpired("YF_SpawnTerlClara","GLOBAL")
+	Global("YF_RoseLibrary","GLOBAL",2)
+	IfValidForPartyDialog("YF_Clara")
+	AreaType(OUTDOOR)
+	See("Terl")  // Terl
+	!See([ENEMY])
+THEN
+	RESPONSE #100
+	SetGlobal("YF_RoseLibraryCheck","GLOBAL",1) 
+	Continue()
+END
+
+IF
+	Global("YF_RoseLibraryCheck","GLOBAL",1)
+	Global("YF_RoseLibrary","GLOBAL",2)
+THEN
+	RESPONSE #100
+	ActionOverride("Terl",StartDialogNoSet(Player1))
+END
+
+IF
+    Global("BD_JOINXP","LOCALS",0)
+    InParty(Myself)
+    XPGT(Player1,1249999)
+    XPLT(Myself,1250000)
+THEN
+    RESPONSE #100
+        SetInterrupt(FALSE)
+        SetGlobal("BD_JOINXP","LOCALS",1)
+        ChangeStat(Myself,XP,1250000,SET)
+        SetInterrupt(TRUE)
+END
+
+IF
+    Global("BD_JOINXP","LOCALS",0)
+    InParty(Myself)
+    XPGT(Player1,999999)
+    XPLT(Myself,1000000)
+THEN
+    RESPONSE #100
+        SetInterrupt(FALSE)
+        SetGlobal("BD_JOINXP","LOCALS",1)
+        ChangeStat(Myself,XP,1000000,SET)
+        SetInterrupt(TRUE)
+END
+
+IF
+    Global("BD_JOINXP","LOCALS",0)
+    InParty(Myself)
+    XPGT(Player1,749999)
+    XPLT(Myself,750000)
+THEN
+    RESPONSE #100
+        SetInterrupt(FALSE)
+        SetGlobal("BD_JOINXP","LOCALS",1)
+        ChangeStat(Myself,XP,750000,SET)
+        SetInterrupt(TRUE)
+END
+
+IF
+    Global("BD_JOINXP","LOCALS",0)
+    InParty(Myself)
+    XPGT(Player1,499999)
+    XPLT(Myself,500000)
+THEN
+    RESPONSE #100
+        SetInterrupt(FALSE)
+        SetGlobal("BD_JOINXP","LOCALS",1)
+        ChangeStat(Myself,XP,500000,SET)
+        SetInterrupt(TRUE)
+END
+
+IF
+    Global("BD_JOINXP","LOCALS",0)
+    InParty(Myself)
+    XPGT(Player1,249999)
+    XPLT(Myself,250000)
+THEN
+    RESPONSE #100
+        SetInterrupt(FALSE)
+        SetGlobal("BD_JOINXP","LOCALS",1)
+        ChangeStat(Myself,XP,250000,SET)
+        SetInterrupt(TRUE)
+END
+
+IF
+    Global("BD_JOINXP","LOCALS",0)
+    InParty(Myself)
+    XPGT(Player1,124999)
+    XPLT(Myself,125000)
+THEN
+    RESPONSE #100
+        SetInterrupt(FALSE)
+        SetGlobal("BD_JOINXP","LOCALS",1)
+        ChangeStat(Myself,XP,125000,SET)
+        SetInterrupt(TRUE)
+END
+
+IF
+    Global("BD_JOINXP","LOCALS",0)
+    InParty(Myself)
+    XPLT(Player1,89001)
+THEN
+    RESPONSE #100
+        SetInterrupt(FALSE)
+        SetGlobal("BD_JOINXP","LOCALS",1)
+		ChangeStat(Myself,XP,89000,SET)
+        SetInterrupt(TRUE)
+END

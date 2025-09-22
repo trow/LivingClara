@@ -1,0 +1,12 @@
+//Scripts for Second Clara Quest 
+IF
+	GlobalGT("YF_RoseLibrary","GLOBAL",5)
+	GlobalLT("YF_RoseLibrary","GLOBAL",9)
+	!Exists("Gereth")  //Gereth
+THEN
+	RESPONSE #100
+	CreateCreature("GERETH",[2099.1268],SE)  //Gereth
+	ActionOverride("GERETH",ChangeAIScript("YF_GERETH",OVERRIDE)
+	SetGlobal("YF_RoseLibrary","GLOBAL",9)
+END
+

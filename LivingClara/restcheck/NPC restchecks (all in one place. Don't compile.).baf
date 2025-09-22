@@ -5,19 +5,19 @@ IF //First Aerie Romance Shadows of Amn Rest. EXTEND_BOTTOM ~aerie.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",25)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LoveTalk","LOCALS",26)
-	Global("_bLoveTalk26","LOCALS",0)
+	Global("YF_LoveTalk26","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk26","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk26","LOCALS",1)
 END
 
 
@@ -28,19 +28,19 @@ IF //2nd Aerie Romance Shadows of Amn Rest. EXTEND_BOTTOM ~aerie.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",45)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 		
 IF
 	Global("LoveTalk","LOCALS",46)
-	Global("_bLoveTalk46","LOCALS",0)
+	Global("YF_LoveTalk46","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk46","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk46","LOCALS",1)
 END
 
 
@@ -49,19 +49,19 @@ IF	//Aerie Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~aeri25.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("ExpLoveTalk","LOCALS",3)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF	
 	Global("ExpLoveTalk","LOCALS",4)
-	Global("_bExpLoveTalk4","LOCALS",0)
+	Global("YF_ExpLoveTalk4","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bExpLoveTalk4","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_ExpLoveTalk4","LOCALS",1)
 END
 	
 	
@@ -72,19 +72,19 @@ IF //1st Anomen Romance Rest. EXTEND_BOTTOM ~anomen.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",31)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF 
 	Global("LoveTalk","LOCALS",32)
-	Global("_bLoveTalk32","LOCALS",0)
+	Global("YF_LoveTalk32","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk32","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk32","LOCALS",1)
 END
 
 
@@ -95,19 +95,19 @@ IF  //2nd Anomen Romance Rest. EXTEND_BOTTOM ~anomen.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",35)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LoveTalk","LOCALS",36)
-	Global("_bLoveTalk36","LOCALS",0)
+	Global("YF_LoveTalk36","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk36","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk36","LOCALS",1)
 END
 
 
@@ -123,19 +123,19 @@ IF	//1st Dorn Romance Rest. EXTEND_BOTTOM ~dorn.bcs~
 	!Global("chapter","GLOBAL",%bg2_chapter_5%)
 	Global("DornLovetalks","GLOBAL",7)
 	RealGlobalTimerExpired("DornLovetalksTimer","GLOBAL")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("DornLovetalks","GLOBAL",8)
-	Global("_bDornLovetalks8","GLOBAL",0)
+	Global("YF_DornLovetalks8","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bDornLovetalks8","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_DornLovetalks8","GLOBAL",1)
 END
 
 
@@ -152,19 +152,19 @@ IF	//2nd Dorn Romance Rest. EXTEND_BOTTOM ~dorn.bcs~
 	Global("DornLovetalks","GLOBAL",17)
 	RealGlobalTimerExpired("DornLovetalksTimer","GLOBAL")
 	Global("OHD_END_REWARD","GLOBAL",1)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF 
 	Global("DornLovetalks","GLOBAL",18)
-	Global("_bDornLovetalks18","GLOBAL",0)
+	Global("YF_DornLovetalks18","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bDornLovetalks18","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_DornLovetalks18","GLOBAL",1)
 END
 
 
@@ -180,19 +180,19 @@ IF	//1st Edwin Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~edwin.bcs~
 	OR(2)
 		Global("EddieCantGetDrunk","GLOBAL",0)
 		Global("EddieCantGetDrunk","GLOBAL",3)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("EdwinLoveTalk","LOCALS",10)
-	Global("_bEdwinLoveTalk10","LOCALS",0)
+	Global("YF_EdwinLoveTalk10","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bEdwinLoveTalk10","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_EdwinLoveTalk10","LOCALS",1)
 END
 
 
@@ -206,19 +206,19 @@ IF	//2nd Edwin Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~edwin.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("EdwinLoveTalk","LOCALS",31)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("EdwinKiss","GLOBAL",2)
-	Global("_bEdwinKiss2","GLOBAL",0)
+	Global("YF_EdwinKiss2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bEdwinKiss2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_EdwinKiss2","GLOBAL",1)
 END
 
 
@@ -230,19 +230,19 @@ IF	//3rd Edwin Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~edwin.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("EdwinLoveTalk","LOCALS",35)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("EdwinLoveTalk","LOCALS",36)
-	Global("_bEdwinLoveTalk36","LOCALS",0)
+	Global("YF_EdwinLoveTalk36","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bEdwinLoveTalk36","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_EdwinLoveTalk36","LOCALS",1)
 END
 
 
@@ -259,19 +259,19 @@ IF	//4th Edwin Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~edwin.bcs~
 	!Global("Chapter","GLOBAL",%bg2_chapter_4%)
 	!Global("Chapter","GLOBAL",%bg2_chapter_5%)
 	!Global("Chapter","GLOBAL",%bg2_chapter_7%)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("EdwinLoveTalk","LOCALS",22)
-	Global("_bEdwinLoveTalk22","LOCALS",0)
+	Global("YF_EdwinLoveTalk22","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bEdwinLoveTalk22","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_EdwinLoveTalk22","LOCALS",1)
 END
 
 
@@ -291,19 +291,19 @@ IF	//5th Edwin Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~edwin.bcs~
 		AreaCheck("AR1602")
 		AreaCheck("AR2010")
 		AreaCheck("AR2202")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("ERCook","GLOBAL",2)
-	Global("_bERCook2","GLOBAL",0)
+	Global("YF_ERCook2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bERCook2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_ERCook2","GLOBAL",1)
 END
 
 
@@ -330,18 +330,18 @@ IF	//1st Haer'Dalis Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~haerdali.bcs
 	!Global("LS_HaerDalisRomanceActive","GLOBAL",3)
 	Global("LS_HaerDalisSex","GLOBAL",0)
 	Global("LS_InnNookie","GLOBAL",0)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF	Global("LS_InnNookie","GLOBAL",1)
-	Global("_bLS_InnNookie","GLOBAL",0)
+	Global("YF_LS_InnNookie","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLS_InnNookie","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LS_InnNookie","GLOBAL",1)
 END
 	
 
@@ -360,19 +360,19 @@ IF	//2nd Haer'Dalis Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~haerdali.bcs
 	!Global("LS_HaerDalisRomanceActive","GLOBAL",3)
 	Global("LS_HaerDalisSex","GLOBAL",0)
 	Global("LS_OutsideNookie","GLOBAL",0)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LS_OutsideNookie","GLOBAL",1)
-	Global("_bLS_OutsideNookie","GLOBAL",0)
+	Global("YF_LS_OutsideNookie","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLS_OutsideNookie","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LS_OutsideNookie","GLOBAL",1)
 END
 
 
@@ -384,19 +384,19 @@ IF	//1st Haer'Dalis Romance Mod Throne of Bhaal Rest. EXTEND_BOTTOM ~haer25.bcs~
 	AreaCheck("AR5003")
 	!Dead("HaerDalis")
 	!InMyArea("b!laran")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LS_HaerDalisToBSaradush","GLOBAL",1)
-	Global("_bLS_HaerDalisToBSaradush","GLOBAL",0)
+	Global("YF_LS_HaerDalisToBSaradush","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLS_HaerDalisToBSaradush","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LS_HaerDalisToBSaradush","GLOBAL",1)
 END
 
 
@@ -431,19 +431,19 @@ IF	//2nd Haer'Dalis Romance Mod Throne of Bhaal Rest. EXTEND_BOTTOM ~haer25.bcs~
 		Global("LS#SarevokRomanceActive","GLOBAL",2)
 	AreaCheck("AR5501")
 	!Dead("HaerDalis")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LS_HaerDalisToBAmkethran","GLOBAL",1)
-	Global("_bLS_HaerDalisToBAmkethran","GLOBAL",0)
+	Global("YF_LS_HaerDalisToBAmkethran","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLS_HaerDalisToBAmkethran","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LS_HaerDalisToBAmkethran","GLOBAL",1)
 END
 
 	
@@ -457,19 +457,19 @@ IF  //Hexxat Romance Shadows of Amn Rest. EXTEND_BOTTOM ~hexxat.bcs~
 	!Global("chapter","GLOBAL",%bg2_chapter_5%)
 	Global("HexxatLovetalks","GLOBAL",23)
 	RealGlobalTimerExpired("HexxatLovetalksTimer","GLOBAL")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("HexxatLovetalks","GLOBAL",24)
-	Global("_bHexxatLovetalks24","GLOBAL",0)
+	Global("YF_HexxatLovetalks24","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bHexxatLovetalks24","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_HexxatLovetalks24","GLOBAL",1)
 END
 
 
@@ -480,19 +480,19 @@ IF	//Hexxat Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~hexxa25.bcs~
 	!AreaCheck("OH7300")
 	!AreaCheck("AR4500")
 	Global("OHH_final","GLOBAL",0)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF	
 	Global("OHH_final","GLOBAL",1)
-	Global("_bOHH_final","GLOBAL",0)
+	Global("YF_OHH_final","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bOHH_final","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_OHH_final","GLOBAL",1)
 END
 
 
@@ -503,18 +503,18 @@ IF	//Imoen Romance Campire Scene. EXTEND_BOTTOM ~imoen2.bcs~
 	Global("MRCampSleepTalk","GLOBAL",0)
 	GlobalGT("MRLoveTalk","GLOBAL",9)
 	AreaCheck("AR2500")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF	Global("MRCampSleepTalk","GLOBAL",1)
-	Global("_bMRCampSleepTalk","GLOBAL",0)
+	Global("YF_MRCampSleepTalk","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bMRCampSleepTalk","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_MRCampSleepTalk","GLOBAL",1)
 END
 
 
@@ -528,19 +528,19 @@ IF	//1st Imoen Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~imoen2.bcs~
 	Global("ImoenRomanceActive","GLOBAL",2)
 	See(Player1)
 	!AreaCheck("AR0334")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF	
 	Global("MRLoveTalk","GLOBAL",11)
-	Global("_bMRLoveTalk11","GLOBAL",0)
+	Global("YF_MRLoveTalk11","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bMRLoveTalk11","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_MRLoveTalk11","GLOBAL",1)
 END
 
 
@@ -554,19 +554,19 @@ IF	//2nd Imoen Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~imoen2.bcs~
 	GlobalGT("MRCampSleepTalk","GLOBAL",1)
 	See(Player1)
 	!AreaCheck("AR0334")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("MRLoveTalk","GLOBAL",11)
-	Global("_bMRLoveTalk11","GLOBAL",0)
+	Global("YF_MRLoveTalk11","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bMRLoveTalk11","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_MRLoveTalk11","GLOBAL",1)
 END
 
 
@@ -576,19 +576,19 @@ IF	//3rd Imoen Romance Mod Shadows of Amn Rest. EXTEND_BOTTOM ~imoen2.bcs~
 	Global("MRQuality5","GLOBAL",2)
 	Global("ImoenRomanceActive","GLOBAL",2)
 	!AreaCheck("AR0334")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF	
 	Global("MRQuality5","GLOBAL",3)
-	Global("_bMRQuality53","GLOBAL",0)
+	Global("YF_MRQuality53","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bMRQuality53","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_MRQuality53","GLOBAL",1)
 END
 
 
@@ -600,19 +600,19 @@ IF	//1st Imoen Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~imoe25.bcs~
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	AreaCheck("AR4500")
 	Global("BeginChallenge2","GLOBAL",3)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("IRTSlayerTurnLesson","GLOBAL",2)
-	Global("_bIRTSlayerTurnLesson2","GLOBAL",0)
+	Global("YF_IRTSlayerTurnLesson2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bIRTSlayerTurnLesson2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_IRTSlayerTurnLesson2","GLOBAL",1)
 END
 	
 
@@ -626,38 +626,38 @@ IF	//2nd Imoen Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~imoe25.bcs~
 	Global("IRTImAerTalks","GLOBAL",12)
 	!Global("ImoenRomanceActive","GLOBAL",2)
 	!Global("IRTAerImFriend","GLOBAL",2)	
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF 	
 	Global("IRTImAerTalks","GLOBAL",13)
-	Global("_bIRTImAerTalks13","GLOBAL",0)
+	Global("YF_IRTImAerTalks13","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bIRTImAerTalks13","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_IRTImAerTalks13","GLOBAL",1)
 END
 
 IF	//3rd Imoen Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~imoe25.bcs~
 	Global("SaradushSacked","GLOBAL",1)
 	Global("IRTFemaleBedtimeStories","GLOBAL",0)
 	Gender(Player1,FEMALE)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("IRTFemaleBedtimeStories","GLOBAL",1)
-	Global("_bIRTFemaleBedtimeStories","GLOBAL",0)
+	Global("YF_IRTFemaleBedtimeStories","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bIRTFemaleBedtimeStories","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_IRTFemaleBedtimeStories","GLOBAL",1)
 END
 
 	
@@ -670,19 +670,19 @@ IF //1st Jaheira Romance Rest. EXTEND_BOTTOM ~jaheira.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",57)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LoveTalk","LOCALS",58)
-	Global("_bLoveTalk58","LOCALS",0)
+	Global("YF_LoveTalk58","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk58","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk58","LOCALS",1)
 END
 
 
@@ -695,19 +695,19 @@ IF  //2nd Jaheira Romance Rest. EXTEND_BOTTOM ~jaheira.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",67)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LoveTalk","LOCALS",68)
-	Global("_bLoveTalk68","LOCALS",0)
+	Global("YF_LoveTalk68","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk68","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk68","LOCALS",1)
 END
 
 
@@ -722,19 +722,19 @@ IF	//1st Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 	CombatCounter(0)
 	!See([ENEMY])
 	Global("B!KelLT","GLOBAL",15)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelLT","GLOBAL",16)
-	Global("_bB!KelLT16","GLOBAL",0)
+	Global("YF_B!KelLT16","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelLT16","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelLT16","GLOBAL",1)
 END
 
 
@@ -751,19 +751,19 @@ IF 	//2nd Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 	!See([ENEMY])
 	Global("B!KelLT","GLOBAL",67)
 	GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelLT","GLOBAL",68)
-	Global("_bB!KelLT68","GLOBAL",0)
+	Global("YF_B!KelLT68","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelLT68","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelLT68","GLOBAL",1)
 END
 
 
@@ -789,19 +789,19 @@ IF	//3rd Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 		AreaCheck("AR1105")
 		AreaCheck("AR1602")
 		AreaCheck("AR2010")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelLT","GLOBAL",12)
-	Global("_bB!KelLT12","GLOBAL",0)
+	Global("YF_B!KelLT12","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelLT12","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelLT12","GLOBAL",1)
 END
 	
 	
@@ -827,19 +827,19 @@ IF	//4th Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 		AreaCheck("AR1105")
 		AreaCheck("AR1602")
 		AreaCheck("AR2010")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelLT","GLOBAL",54)
-	Global("_bB!KelLT54","GLOBAL",0)
+	Global("YF_B!KelLT54","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelLT54","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelLT54","GLOBAL",1)
 END
 
 
@@ -855,19 +855,19 @@ IF	//4th Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 	!See([ENEMY])
 	GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)
 	Global("B!KelNT","GLOBAL",1)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelNT","GLOBAL",2)
-	Global("_bB!KelNT2","GLOBAL",0)
+	Global("YF_B!KelNT2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelNT2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelNT2","GLOBAL",1)
 END
 
 
@@ -883,19 +883,19 @@ IF	//5th Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 	!See([ENEMY])
 	GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)
 	Global("B!KelNT","GLOBAL",3)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelNT","GLOBAL",4)
-	Global("_bB!KelNT4","GLOBAL",0)
+	Global("YF_B!KelNT4","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelNT4","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelNT4","GLOBAL",1)
 END
 
 
@@ -911,19 +911,19 @@ IF	//6th Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 	!See([ENEMY])
 	GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)
 	Global("B!KelNT","GLOBAL",5)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelNT","GLOBAL",6)
-	Global("_bB!KelNT6","GLOBAL",0)
+	Global("YF_B!KelNT6","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelNT6","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelNT6","GLOBAL",1)
 END
 
 
@@ -939,19 +939,19 @@ IF	//7th Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 	!See([ENEMY])
 	GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)
 	Global("B!KelNT","GLOBAL",7)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelNT","GLOBAL",8)
-	Global("_bB!KelNT8","GLOBAL",0)
+	Global("YF_B!KelNT8","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelNT8","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelNT8","GLOBAL",1)
 END
 
 
@@ -964,19 +964,19 @@ IF	//8th Keldorn Romance Mod SoA Rest EXTEND_BOTTOM ~keldorn.bcs~
 	CombatCounter(0)
 	!See([ENEMY])
 	GlobalLT("Chapter","GLOBAL",%bg2_chapter_8%)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelBandage","LOCALS",2)
-	Global("_bB!KelBandage2","LOCALS",0)
+	Global("YF_B!KelBandage2","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelBandage2","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelBandage2","LOCALS",1)
 END
 
 
@@ -991,19 +991,19 @@ IF	//1st Keldorn Romance Mod ToB Rest EXTEND_BOTTOM ~keld25.bcs~
 	!StateCheck(Player1,CD_STATE_NOTVALID)
 	CombatCounter(0)
 	!See([ENEMY])
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelToBLT","GLOBAL",2)
-	Global("_bB!KelToBLT2","GLOBAL",0)
+	Global("YF_B!KelToBLT2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelToBLT2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelToBLT2","GLOBAL",1)
 END
 
 
@@ -1013,19 +1013,19 @@ IF	//2nd Keldorn Romance Mod ToB Rest EXTEND_BOTTOM ~keld25.bcs~
 	See(Player1)
 	!StateCheck(Player1,CD_STATE_NOTVALID)
 	!StateCheck(Myself,CD_STATE_NOTVALID)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KR_MWLovedOne","GLOBAL",3)
-	Global("_bB!KR_MWLovedOne3","GLOBAL",0)
+	Global("YF_B!KR_MWLovedOne3","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KR_MWLovedOne3","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KR_MWLovedOne3","GLOBAL",1)
 END
 
 
@@ -1039,19 +1039,19 @@ IF	//3rd Keldorn Romance Mod ToB Rest EXTEND_BOTTOM ~keld25.bcs~
 	See(Player1)
 	CombatCounter(0)
 	!See([ENEMY])
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KR_ToBc4","GLOBAL",1)
-	Global("_bB!KR_ToBc4","GLOBAL",0)
+	Global("YF_B!KR_ToBc4","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KR_ToBc4","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KR_ToBc4","GLOBAL",1)
 END
 
 
@@ -1064,19 +1064,19 @@ IF	//4th Keldorn Romance Mod ToB Rest EXTEND_BOTTOM ~keld25.bcs~
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	See(Player1)
 	CombatCounter(0)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("B!KelSaradushFell","GLOBAL",1)
-	Global("_bB!KelSaradushFell","GLOBAL",0)
+	Global("YF_B!KelSaradushFell","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bB!KelSaradushFell","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_B!KelSaradushFell","GLOBAL",1)
 END
 
 
@@ -1085,19 +1085,19 @@ IF	//Mazzy Friendship Rest Talk for Mazzy Friendship Mod. EXTEND_BOTTOM ~mazzy.b
 	See(Player1)
 	RealGlobalTimerExpired("I#MazzyFriendTalksTimer","GLOBAL")
 	Global("I#MazzyFriendTalks","GLOBAL",14)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("I#MazzyFriendTalks","GLOBAL",15)
-	Global("_bI#MazzyFriendTalks15","GLOBAL",0)
+	Global("YF_I#MazzyFriendTalks15","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bI#MazzyFriendTalks15","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_I#MazzyFriendTalks15","GLOBAL",1)
 END
 
 
@@ -1110,19 +1110,19 @@ IF	//1st Nalia Romance Mod SoA Rest. EXTEND_BOTTOM ~nalia.bcs~
 	!AreaType(DUNGEON)
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	!StateCheck(Player1,CD_STATE_NOTVALID)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("PGNaliaLoveTalk","GLOBAL",10)
-	Global("_bPGNaliaLoveTalk10","GLOBAL",0)
+	Global("YF_PGNaliaLoveTalk10","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bPGNaliaLoveTalk10","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_PGNaliaLoveTalk10","GLOBAL",1)
 END
 
 
@@ -1143,19 +1143,19 @@ IF	//2nd Nalia Romance Mod SoA Rest. EXTEND_BOTTOM ~nalia.bcs~
 	ReputationGT(Player1,8)
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	!StateCheck(Player1,CD_STATE_NOTVALID)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("PGNaliaLoveTalk","GLOBAL",52)
-	Global("_bPGNaliaLoveTalk52","GLOBAL",0)
+	Global("YF_PGNaliaLoveTalk52","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bPGNaliaLoveTalk52","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_PGNaliaLoveTalk52","GLOBAL",1)
 END
 
 
@@ -1179,19 +1179,19 @@ IF	//3rd Nalia Romance Mod SoA Rest. EXTEND_BOTTOM ~nalia.bcs~
 	!StateCheck(Myself,CD_STATE_NOTVALID)
 	CombatCounter(0)
 	!See([ENEMY])
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("PGNaliaSpyingReaction","GLOBAL",1)
-	Global("_bPGNaliaSpyingReaction","GLOBAL",0)
+	Global("YF_PGNaliaSpyingReaction","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bPGNaliaSpyingReaction","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_PGNaliaSpyingReaction","GLOBAL",1)
 END
 	
 
@@ -1201,19 +1201,19 @@ IF	//1st Neera Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~neera25.bcs~
 	OR(2)
 		TimeLT(3)
 		TimeGT(15)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("OHN_TOB_PLOT","GLOBAL",5)
-	Global("_bOHN_TOB_PLOT5","GLOBAL",0)
+	Global("YF_OHN_TOB_PLOT5","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bOHN_TOB_PLOT5","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_OHN_TOB_PLOT5","GLOBAL",1)
 END
 
 
@@ -1222,19 +1222,19 @@ IF	//2nd Neera Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~neera25.bcs~
 	AreaCheck("oh6400")
 	TimeGT(2)
 	TimeLT(16)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("OHN_TOB_PLOT","GLOBAL",5)
-	Global("_bOHN_TOB_PLOT5","GLOBAL",0)
+	Global("YF_OHN_TOB_PLOT5","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bOHN_TOB_PLOT5","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_OHN_TOB_PLOT5","GLOBAL",1)
 END
 
 
@@ -1251,19 +1251,19 @@ IF	//1st Rasaad Romance Rest. EXTEND_BOTTOM ~rasaad.bcs~
 		TimeOfDay(NIGHT)
 	!Global("chapter","GLOBAL",%bg2_chapter_5%)
 	RealGlobalTimerExpired("RasaadLovetalksTimer","GLOBAL")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("RasaadLovetalks","GLOBAL",8)
-	Global("_bRasaadLovetalks8","GLOBAL",0)
+	Global("YF_RasaadLovetalks8","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bRasaadLovetalks8","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_RasaadLovetalks8","GLOBAL",1)
 END
 
 
@@ -1277,19 +1277,19 @@ IF	//2nd Rasaad Romance Rest. EXTEND_BOTTOM ~rasaad.bcs~
 	!Global("chapter","GLOBAL",%bg2_chapter_5%)
 	GlobalGT("OHR_PLOT","GLOBAL",5)
 	RealGlobalTimerExpired("RasaadLovetalksTimer","GLOBAL")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("RasaadLovetalks","GLOBAL",16)
-	Global("_bRasaadLovetalks16","GLOBAL",0)
+	Global("YF_RasaadLovetalks16","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bRasaadLovetalks16","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_RasaadLovetalks16","GLOBAL",1)
 END
 
 
@@ -1304,19 +1304,19 @@ IF	//1st Sarevok Romance Mod Rest. EXTEND_BOTTOM ~sarev25.bcs~
 	CombatCounter(0)
 	!See([ENEMY])
 	Global("LS#SarevokSex","GLOBAL",1)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LS#SarevokSex","GLOBAL",2)
-	Global("_bLS#SarevokSex2","GLOBAL",0)
+	Global("YF_LS#SarevokSex2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLS#SarevokSex2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LS#SarevokSex2","GLOBAL",1)
 END
 
 
@@ -1332,19 +1332,19 @@ IF	//2nd Sarevok Romance Mod Rest. EXTEND_BOTTOM ~sarev25.bcs~
 	!See([ENEMY])
 	Global("LS#SarevokSex","GLOBAL",0)
 	Global("LS#SarevokSexNP2","GLOBAL",0)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 
 IF
 	Global("LS#SarevokSexNP2","GLOBAL",1)
-	Global("_bLS#SarevokSexNP2","GLOBAL",0)
+	Global("YF_LS#SarevokSexNP2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLS#SarevokSexNP2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LS#SarevokSexNP2","GLOBAL",1)
 END
 
 
@@ -1355,19 +1355,19 @@ IF	//1st Viconia Romance Shadows of Amn Rest. EXTEND_BOTTOM ~viconia.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",39)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 	
 IF
 	Global("LoveTalk","LOCALS",40)
-	Global("_bLoveTalk40","LOCALS",0)
+	Global("YF_LoveTalk40","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk40","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk40","LOCALS",1)
 END
 	
 
@@ -1378,19 +1378,19 @@ IF	//2nd Viconia Romance Shadows of Amn Rest. EXTEND_BOTTOM ~viconia.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",49)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 	
 IF
 	Global("LoveTalk","LOCALS",50)
-	Global("_bLoveTalk50","LOCALS",0)
+	Global("YF_LoveTalk50","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk50","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk50","LOCALS",1)
 END
 	
 
@@ -1401,19 +1401,19 @@ IF	//3rd Viconia Romance Shadows of Amn Rest. EXTEND_BOTTOM ~viconia.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",61)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 	
 IF
 	Global("LoveTalk","LOCALS",62)
-	Global("_bLoveTalk62","LOCALS",0)
+	Global("YF_LoveTalk62","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk62","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk62","LOCALS",1)
 END
 
 
@@ -1428,19 +1428,19 @@ IF	//Viconia Friendship Mod Shadows of Amn Rest. EXTEND_BOTTOM ~viconia.bcs~
 	CombatCounter(0)
 	!See([ENEMY])
 	Global("I#ViconiaFriendTalks","GLOBAL",10)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 	
 IF
 	Global("I#ViconiaFriendTalks","GLOBAL",11)
-	Global("_bI#ViconiaFriendTalks11","GLOBAL",0)
+	Global("YF_I#ViconiaFriendTalks11","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bI#ViconiaFriendTalks11","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_I#ViconiaFriendTalks11","GLOBAL",1)
 END
 
 
@@ -1463,19 +1463,19 @@ IF	//Viconia-Anomen banter on rest in IEPBanters Mod. EXTEND_BOTTOM ~viconia.bcs
 		AreaCheck("AR1105")
 		AreaCheck("AR1602")
 		AreaCheck("AR2010")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 	
 IF
 	Global("I#B_AnomenViconia","GLOBAL",2)
-	Global("_bI#B_AnomenViconia2","GLOBAL",0)
+	Global("YF_I#B_AnomenViconia2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bI#B_AnomenViconia2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_I#B_AnomenViconia2","GLOBAL",1)
 END
 
 
@@ -1485,19 +1485,19 @@ IF	//1st Viconia Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~vico25.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("ExpLoveTalk","LOCALS",5)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 	
 IF
 	Global("ExpLoveTalk","LOCALS",6)
-	Global("_bExpLoveTalk","LOCALS",0)
+	Global("YF_ExpLoveTalk","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bExpLoveTalk","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_ExpLoveTalk","LOCALS",1)
 END
 
 
@@ -1507,19 +1507,19 @@ IF	//2nd Viconia Romance Throne of Bhaal Rest. EXTEND_BOTTOM ~vico25.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("ExpLoveTalk","LOCALS",13)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 	
 IF
 	Global("ExpLoveTalk","LOCALS",14)
-	Global("_bExpLoveTalk","LOCALS",0)
+	Global("YF_ExpLoveTalk","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bExpLoveTalk","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_ExpLoveTalk","LOCALS",1)
 END
 
 

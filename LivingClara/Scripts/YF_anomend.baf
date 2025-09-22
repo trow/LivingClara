@@ -1,0 +1,17 @@
+
+//Clara- Anomen Talk 13/17 Trigger, next trigger in regular script
+IF 
+	IfValidForPartyDialog("Anomen")
+	IfValidForPartyDialog("YF_Clara")
+	GlobalTimerExpired("YF_CALoveTime","GLOBAL")
+	OR(2)
+	Global("YF_ClaraAnomenLove","GLOBAL",31)
+	Global("YF_ClaraAnomenLove","GLOBAL",43)
+	Global("YF_restcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	IncrementGlobal("YF_ClaraAnomenLove","GLOBAL",1)
+END
+
+

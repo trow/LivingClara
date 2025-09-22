@@ -6,19 +6,19 @@ IF	//1st Viconia Romance Shadows of Amn Rest. EXTEND_BOTTOM ~viconia.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",39)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 	
 IF
 	Global("LoveTalk","LOCALS",40)
-	Global("_bLoveTalk40","LOCALS",0)
+	Global("YF_LoveTalk40","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk40","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk40","LOCALS",1)
 END
 	
 
@@ -29,19 +29,19 @@ IF	//2nd Viconia Romance Shadows of Amn Rest. EXTEND_BOTTOM ~viconia.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",49)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 	
 IF
 	Global("LoveTalk","LOCALS",50)
-	Global("_bLoveTalk50","LOCALS",0)
+	Global("YF_LoveTalk50","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk50","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk50","LOCALS",1)
 END
 	
 
@@ -52,19 +52,19 @@ IF	//3rd Viconia Romance Shadows of Amn Rest. EXTEND_BOTTOM ~viconia.bcs~
 	See(Player1)
 	CombatCounter(0)
 	Global("LoveTalk","LOCALS",61)
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 	
 IF
 	Global("LoveTalk","LOCALS",62)
-	Global("_bLoveTalk62","LOCALS",0)
+	Global("YF_LoveTalk62","LOCALS",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bLoveTalk62","LOCALS",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_LoveTalk62","LOCALS",1)
 END
 
 
@@ -87,18 +87,18 @@ IF	//Viconia-Anomen banter on rest in IEPBanters Mod. EXTEND_BOTTOM ~viconia.bcs
 		AreaCheck("AR1105")
 		AreaCheck("AR1602")
 		AreaCheck("AR2010")
-	Global("_brestcheck","GLOBAL",0)
+	Global("YF_restcheck","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",1)
 END
 	
 IF
 	Global("I#B_AnomenViconia","GLOBAL",2)
-	Global("_bI#B_AnomenViconia2","GLOBAL",0)
+	Global("YF_I#B_AnomenViconia2","GLOBAL",0)
 THEN
 	RESPONSE #100
-	SetGlobal("_brestcheck","GLOBAL",2)
-	SetGlobal("_bI#B_AnomenViconia2","GLOBAL",1)
+	SetGlobal("YF_restcheck","GLOBAL",2)
+	SetGlobal("YF_I#B_AnomenViconia2","GLOBAL",1)
 END
 
