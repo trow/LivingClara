@@ -53,7 +53,7 @@ IF
 	Global("_bCorFight","GLOBAL",1)
 	Global("_bACGonnaStabCor","GLOBAL",1)
 	Dead("Cor")  // Cor Delryn
-	Global("AnomenIsAntipaladin","GLOBAL",0)
+	Global("YF_AnomenIsAntipaladin","GLOBAL",0)
 	!HasItemEquipedReal("NPSHLD","Anomen")
 	!Dead("Anomen")  // Anomen
 	!StateCheck("Anomen",CD_STATE_NOTVALID)
@@ -67,7 +67,8 @@ THEN
     ActionOverride("Anomen",AddKit(Blackguard))
     ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
     ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
-	SetGlobal("AnomenIsAntipaladin","GLOBAL",1)
+	AddXPObject("Anomen",64000) 
+	SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",1)
 	ActionOverride("Anomen",StartDialog("ANOMENP",Player1))
 	Continue()
 END
@@ -78,7 +79,7 @@ IF
 	Global("_bACGonnaStabCor","GLOBAL",1)
 	Dead("Cor")  // Cor Delryn
 	HasItemEquipedReal("NPSHLD","Anomen")
-	Global("AnomenIsAntipaladin","GLOBAL",0)
+	Global("YF_AnomenIsAntipaladin","GLOBAL",0)
 	!Dead("Anomen")  // Anomen
 	!StateCheck("Anomen",CD_STATE_NOTVALID)
 	CombatCounter(0)
@@ -91,8 +92,9 @@ THEN
     ActionOverride("Anomen",AddKit(Blackguard))
     ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
     ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
+	AddXPObject("Anomen",64000) 
     ActionOverride("Anomen",DropItem("NPSHLD",[-1.-1]))  // 德尔林家传护盾
-	SetGlobal("AnomenIsAntipaladin","GLOBAL",1)
+	SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",1)
 	ActionOverride("Anomen",StartDialog("ANOMENP",Player1))
 	Continue()
 END
@@ -103,7 +105,7 @@ IF
     Global("AnomenCor","GLOBAL",4)
     Global("_bLordAndLadyDelryn","GLOBAL",1)
     Global("_bCNMissedStabbing","GLOBAL",0)
-    Global("AnomenIsAntipaladin","GLOBAL",0)
+    Global("YF_AnomenIsAntipaladin","GLOBAL",0)
 THEN
     RESPONSE #100
 		Wait(1)
@@ -112,7 +114,8 @@ THEN
         ActionOverride("Anomen",AddKit(Blackguard))
         ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
         ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
-        SetGlobal("AnomenIsAntipaladin","GLOBAL",1)
+		AddXPObject("Anomen",64000) 
+        SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",1)
         ActionOverride("Anomen",DropItem("NPSHLD",[-1.-1]))  // 德尔林家传护盾
         ActionOverride("Anomen",PickUpItem("NPSHLD"))  // 德尔林家传护盾
 		Continue()

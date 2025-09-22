@@ -417,7 +417,6 @@ UNLESS ~_bClara~// 同样使用 UNLESS 防止重复添加。
 //EVALUATE_BUFFER is required on any file that uses the EET chapter code as a trigger. It can go on all files to be safe.
 COMPILE EVALUATE_BUFFER ~LivingClara/Dialogues/b_bcla25.d~
 	~LivingClara/Dialogues/b_bclara.d~
-	~LivingClara/Dialogues/_bBodhij.d~
 	~LivingClara/Dialogues/_bcla25.d~
 	~LivingClara/Dialogues/_bcla25j.d~
 	~LivingClara/Dialogues/_bcla25p.d~
@@ -434,7 +433,7 @@ COMPILE EVALUATE_BUFFER ~LivingClara/Dialogues/b_bcla25.d~
 	
 //Dialogue Files- always installed (this code means whole folder compiled. You can also compile each dialogue file individually if you list the names)
 // ----- 编译善良/邪恶路线共用的 SOA 对话文件 -----
-// 编译 goodevil/soa 目录下的所有对话文件。
+// 编译 /soa 目录下的所有对话文件。
 // EVALUATE_BUFFER 确保处理文件中的变量。
 COMPILE EVALUATE_BUFFER ~LivingClara/dialogues/_banomenfixsoa.d~	
 	~LivingClara/dialogues/_bdarksideanomensoa.d~
@@ -446,7 +445,7 @@ Sex-loving Imoen added.
 Searching for halfling orgy.
 No orgy found. Insufficient halflings.*/
 // ----- 编译 TOB 阶段的善良/中立路线对话文件 -----
-// 编译 goodevil/tob 目录下的所有对话文件。
+// 编译 /tob 目录下的所有对话文件。
 COMPILE ~LivingClara/dialogues/_banomenfixtob.d~
 
 // ----- 编译 Clara 的行为脚本 (BAF -> BCS) -----
@@ -662,38 +661,38 @@ Miniaturization successful.*/
 // 将善良/中立路线的通用脚本逻辑附加到游戏核心和 NPC 的脚本中。
 
 // 将善良/中立路线的初始化逻辑添加到游戏主脚本 baldur.bcs 的顶部。
-EXTEND_TOP ~baldur.bcs~ ~LivingClara/scripts/_bbaldurgoodevil.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~baldur.bcs~ ~LivingClara/scripts/_bbaldur.baf~ EVALUATE_BUFFER
 // 将 Anomen 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~anomen.bcs~ ~LivingClara/scripts/_banomengoodevil.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~anomen.bcs~ ~LivingClara/scripts/_banomen.baf~ EVALUATE_BUFFER
 // 将 Anomen 的 D 对话脚本的善良/中立路线逻辑添加到底部。
-EXTEND_BOTTOM ~anomend.bcs~ ~LivingClara/scripts/_banomendgoodevil.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~anomend.bcs~ ~LivingClara/scripts/_banomend.baf~ EVALUATE_BUFFER
 // ----- 扩展特定区域脚本以支持 Mazzy 恋爱任务和其他剧情 -----
 // 将 Clara 与 Anomen 相关剧情的脚本逻辑添加到 AR1000 的顶部。
-EXTEND_TOP ~AR1000.bcs~ ~LivingClara/scripts/_bAR1000goodevil.baf~ EVALUATE_BUFFER //Just for Clara-Anomen 
+EXTEND_TOP ~AR1000.bcs~ ~LivingClara/scripts/_bAR1000.baf~ EVALUATE_BUFFER //Just for Clara-Anomen 
 // 将 Clara 与 Anomen 相关剧情的脚本逻辑添加到 AR1001 的顶部。
-EXTEND_TOP ~AR1001.bcs~ ~LivingClara/scripts/_bAR1001goodevil.baf~ EVALUATE_BUFFER //Just for Clara-Anomen 
+EXTEND_TOP ~AR1001.bcs~ ~LivingClara/scripts/_bAR1001.baf~ EVALUATE_BUFFER //Just for Clara-Anomen 
 // 将 Clara 的第二个任务相关的脚本逻辑添加到 AR0702 的顶部。
-EXTEND_TOP ~AR0702.bcs~ ~LivingClara/scripts/_bAR0702goodevil.baf~ EVALUATE_BUFFER //2nd Clara Quest
+EXTEND_TOP ~AR0702.bcs~ ~LivingClara/scripts/_bAR0702.baf~ EVALUATE_BUFFER //2nd Clara Quest
 // 将 Clara 的第二个任务相关的脚本逻辑添加到 AR1700 的顶部。
-EXTEND_TOP ~AR1700.bcs~ ~LivingClara/scripts/_bAR1700goodevil.baf~ EVALUATE_BUFFER //2nd Clara Quest
+EXTEND_TOP ~AR1700.bcs~ ~LivingClara/scripts/_bAR1700.baf~ EVALUATE_BUFFER //2nd Clara Quest
 
 // 将 Terl NPC 的对话后备脚本逻辑添加到 terl.bcs 的底部。
-EXTEND_TOP ~terl.bcs~ ~LivingClara/scripts/_bTerlgoodevil.baf~ EVALUATE_BUFFER //For all the Terl talks, mostly backup 
+EXTEND_TOP ~terl.bcs~ ~LivingClara/scripts/_bTerl.baf~ EVALUATE_BUFFER //For all the Terl talks, mostly backup 
 
-EXTEND_BOTTOM ~dornd.bcs~ ~LivingClara/scripts/_bdorngoodevil.baf~ EVALUATE_BUFFER//??
-EXTEND_BOTTOM ~dornd.bcs~ ~LivingClara/scripts/_bdorndgoodevil.baf~ EVALUATE_BUFFER//??
+EXTEND_BOTTOM ~dornd.bcs~ ~LivingClara/scripts/_bdorn.baf~ EVALUATE_BUFFER//??
+EXTEND_BOTTOM ~dornd.bcs~ ~LivingClara/scripts/_bdornd.baf~ EVALUATE_BUFFER//??
 // 将 Hexxat 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~hexxat.bcs~ ~LivingClara/scripts/_bhexxatgoodevil.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~hexxat.bcs~ ~LivingClara/scripts/_bhexxat.baf~ EVALUATE_BUFFER
 // 将 TOB 阶段 Anomen 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~anom25.bcs~ ~LivingClara/scripts/_banomengoodeviltob.baf~
+EXTEND_BOTTOM ~anom25.bcs~ ~LivingClara/scripts/_banomentob.baf~
 
 
 // 将 TOB 阶段 Dorn 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~dorn25.bcs~ ~LivingClara/scripts/_bdorngoodeviltob.baf~
+EXTEND_BOTTOM ~dorn25.bcs~ ~LivingClara/scripts/_bdorntob.baf~
 // 将 TOB 阶段 Dorn 的 D 对话脚本的善良/中立路线逻辑添加到底部。
-EXTEND_BOTTOM ~dorn25d.bcs~ ~LivingClara/scripts/_bdorndgoodeviltob.baf~
+EXTEND_BOTTOM ~dorn25d.bcs~ ~LivingClara/scripts/_bdorndtob.baf~
 // 将 TOB 阶段 Hexxat 的善良/中立路线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~hexxa25.bcs~ ~LivingClara/scripts/_bhexxatgoodeviltob.baf~
+EXTEND_BOTTOM ~hexxa25.bcs~ ~LivingClara/scripts/_bhexxattob.baf~
 
 
 

@@ -410,7 +410,7 @@ INTERJECT BANOMEN 484 _bClaraMakesItBetter /*I... I lost everything I worked tow
 	== _BCLARAJ @256 /*Could he be persuaded to corroborate our story?*/
 	== ANOMENJ @257 /*Jardine? He is loyal to our house, but he has hated watching my father destroy it. Perhaps we could bring him to our side. We will talk to him before we enter.*/
 	= @258 /*<CHARNAME>, I must go to my father's house. Please give me several days to take care of this and then I will be happy to travel with you again.*/
-	DO ~SetGlobal("_bClaraAnomenLove","GLOBAL",46) SetGlobalTimer("_bAnomenClaraCorTimer","GLOBAL",ONE_DAY) SetGlobal("_bACGonnaStabCor","GLOBAL",1) SetGlobal("KickedOut","LOCALS",1) ChangeAIScript("",DEFAULT) SetLeavePartyDialogueFile() LeaveParty() EscapeAreaMove("AR1001",692,218,SWW) SetGlobal("AnomenIsAntipaladin","GLOBAL",0)~
+	DO ~SetGlobal("_bClaraAnomenLove","GLOBAL",46) SetGlobalTimer("_bAnomenClaraCorTimer","GLOBAL",ONE_DAY) SetGlobal("_bACGonnaStabCor","GLOBAL",1) SetGlobal("KickedOut","LOCALS",1) ChangeAIScript("",DEFAULT) SetLeavePartyDialogueFile() LeaveParty() EscapeAreaMove("AR1001",692,218,SWW) SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",0)~
 	== _BCLARAJ @259 /*And I will be by your side, my love, no matter what occurs.*/
 	DO ~AddJournalEntry(@999,USER) SetGlobal("KickedOut","LOCALS",1) ChangeAIScript("",DEFAULT) LeaveParty() EscapeAreaMove("AR1001",652,209,SWW) ~ /*Journal Entry: Anomen received a letter from his father that distressed him greatly. It seems the true killers of his sister Moira were discovered and his father has disowned him for killing Saerk instead. A cruel twist of fate given all that he has paid. 
 
