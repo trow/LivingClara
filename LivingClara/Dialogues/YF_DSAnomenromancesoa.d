@@ -10,7 +10,7 @@ CHAIN IF WEIGHT #-1 ~Global("YF_ClaraAnomenLove","GLOBAL",48)~ THEN ANOMENJ YF_D
 = @6 /*Those in the Order might call them acts of evil, but that is just the cowards rationalizing their own fear and hesitation. Minor acts of evil can ultimately serve the greater good. The calculated deaths of a few can save the lives of many!*/
 == YF_clarj @7 /*Oh, my love, I am so proud of you. You should be ruling this city, you are surely wiser than even the most learned Paladin!*/
 == ANOMENJ @8 /*I am. I see that now.*/
-DO ~SetGlobal("YF_ClaraAnomenLove","GLOBAL",49) ChangeStat("Anomen",WIS,4,ADD)~
+DO ~SetGlobal("YF_ClaraAnomenLove","GLOBAL",49) ChangeStat("Anomen",STR,1,ADD)~
 = @9 /*I wish to make the world a better place and I will make it better once I am in control! The lives of the worthless smallfolk of Amn will improve more than they ever have in history!*/
 = @10 /*But to do that I need money, power, and influence among the great houses of Athkatla.*/
 = @11 /*My dearest Lady Caroline, will you help me?*/
@@ -198,7 +198,7 @@ ADD_TRANS_ACTION BANOMEN BEGIN 501 END BEGIN END ~SetGlobal("YF_CNHAKC","GLOBAL"
 
 //Add global to give WIS to Anomen if he spares Cor.
 /*I am sorry, my love, for all of this disturbance. You have a quest to attend to... and I intend to be there to assist you. Now... and forevermore...*/
-ADD_TRANS_ACTION BANOMEN BEGIN 513 END BEGIN END ~ChangeStat("Anomen",WIS,4,ADD)~
+ADD_TRANS_ACTION BANOMEN BEGIN 513 END BEGIN END ~ChangeStat("Anomen",WIS,1,ADD)~
 
 //Adds extra options after Cor dead
 ADD_TRANS_TRIGGER BANOMEN 518 ~!Global("YF_CNHAKC","GLOBAL",1)~ DO 0
@@ -331,7 +331,7 @@ END
 
 CHAIN ANOMENJ YF_DSACN6
 @9 /*I wish to make the world a better place and I will make it better once I am in control! The lives of the worthless smallfolk of Amn will improve more than they ever have in history!*/
-DO ~SetGlobal("YF_CNAnomenLove","GLOBAL",3) ChangeStat("Anomen",WIS,4,ADD)~
+DO ~SetGlobal("YF_CNAnomenLove","GLOBAL",3) ChangeStat("Anomen",WIS,1,ADD)~
 = @10 /*But to do that I need money, power, and influence among the great houses of Athkatla.*/
 = @155 /*My love, will you help me?*/
 END

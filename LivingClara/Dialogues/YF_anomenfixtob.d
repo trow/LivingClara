@@ -53,13 +53,13 @@ END
 
 CHAIN ANOME25J YF_BadAnomen2B
 	@1603 /*So I lost the Order, my family, and my home. All I have is you, my love.*/
-	DO ~ChangeStat("Anomen",WIS,4,ADD)~
+	DO ~ChangeStat("Anomen",WIS,2,ADD)~
 EXIT
 	
 CHAIN ANOME25J YF_BadAnomen3
 @20 /*Then what happened?*/
 END
-	++ @21 /*You and Clara professed your love to each other and were married. Your father tried to disown you so we killed him and framed brigands for the murder so that you and Clara became Lord and Lady Delryn. Then we paid a cowled wizard to investigate the murder of Saerk and clear your name. Saerk is officially a villian and we are all officially heroes.*/ + YF_BadAnomen4
+	++ @21 /*You and Clara professed your love to each other and were married. Your father tried to disown you so we killed him and framed brigands for the murder so that you and Clara became Lord and Lady Delryn. Then we paid a cowled wizard to investigate the murder of Saerk and clear your name. Saerk is officially a villian and we are all officially heroes.*/ DO ~ChangeClass("Anomen",PALADIN) ActionOverride("Anomen",AddKit(Blackguard)) ChangeAlignment("Anomen",LAWFUL_EVIL) ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT) ChangeStat("Anomen",CON,1,ADD) ChangeStat("Anomen",STR,1,ADD) SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",1)~ + YF_BadAnomen4
 	
 CHAIN ANOME25J YF_BadAnomen4
 @17 /*That is most excellent. I always knew we were. Anything else?*/
@@ -69,12 +69,12 @@ END
 	
 CHAIN ANOME25J YF_BadAnomen5
 @19 /*I have been busy. Let us continue, my love.*/
-DO ~ChangeStat("Anomen",WIS,4,ADD) ApplySpellRES("YF_REP","Anomen")~
+DO ~ChangeStat("Anomen",STR,1,ADD) ApplySpellRES("YF_REP","Anomen")~
 EXIT
 
 CHAIN ANOME25J YF_BadAnomen7
 @22 /*I have been busy. Let us continue.*/
-DO ~ChangeStat("Anomen",WIS,4,ADD) ApplySpellRES("YF_REP","Anomen")~
+DO ~ChangeStat("Anomen",CON,1,ADD) ApplySpellRES("YF_REP","Anomen")~
 EXIT
 
 //Romance Banter DSA Fix 1

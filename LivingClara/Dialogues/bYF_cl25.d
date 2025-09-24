@@ -267,7 +267,7 @@ EXIT
 //1st Anomen Banter, if married. He talks first.
 CHAIN IF WEIGHT #2 ~InParty("YF_Clara") InMyArea("YF_Clara") IfValidForPartyDialog("Anomen") IfValidForPartyDialog("YF_Clara") Global("YF_LordAndLadyDelryn","GLOBAL",5) Global("YF_BCLARAANOMTOB","GLOBAL",0)~ THEN BANOME25 YF_ClaraAnomenHus1
 @391 /*My love, may I speak with you privately?*/
-DO ~SetGlobal("YF_BCLARAANOMTOB","GLOBAL",1) ChangeStat("YF_Clara",WIS,1,ADD) ChangeStat("Anomen",WIS,1,ADD)~
+DO ~SetGlobal("YF_BCLARAANOMTOB","GLOBAL",1) ChangeStat("YF_Clara",WIS,1,ADD) ChangeStat("Anomen",STR,1,ADD)~
 == BYF_Cl25 @392 /*Of course. What troubles you? You know I am always here to listen to whatever worries cloud your mind.*/
 == BANOME25 @393 /*I know and I am grateful, but... I have been thinking about the future, about what I will do when this latest fight is done.*/
 == BYF_Cl25 @394 /*I think you mean WE, my darling. What WE will do when <CHARNAME> has set us free at last...*/
@@ -618,7 +618,7 @@ EXIT
 CHAIN IF ~InParty("YF_Clara") InMyArea("YF_Clara") IfValidForPartyDialog("Anomen") IfValidForPartyDialog("YF_Clara") Global("YF_LordAndLadyDelryn","GLOBAL",5) Global("YF_BCLARAANOMTOB","GLOBAL",1)~ THEN BANOME25 YF_ClaraAnomenHus2
 @490 /*I find myself worrying about our future once again. A seat on the Council of Six is a must if I am to make any difference whatsoever.*/
 == BYF_Cl25 @491 /*Of course, my love, it is practically yours.*/
-DO ~SetGlobal("YF_BCLARAANOMTOB","GLOBAL",2) ChangeStat("YF_Clara",WIS,1,ADD) ChangeStat("Anomen",WIS,1,ADD)~
+DO ~SetGlobal("YF_BCLARAANOMTOB","GLOBAL",2) ChangeStat("YF_Clara",WIS,1,ADD) ChangeStat("Anomen",CON,1,ADD)~
 == BANOME25 @492 /*No, that seat is only as secure as our fortunes, and trade is always risky.*/
 = @493 /*I remember when my father lost three ships in the same month; it was what ruined him.*/
 = @494 /*They were insured, of course, but Saerk used his influence to prevent full repayment. That was the act that broke my father.*/

@@ -660,7 +660,7 @@ EXIT
 //Anomen Talk after Clara widowed 
 CHAIN IF WEIGHT #-10 ~Global("KickedOut","LOCALS",1) Global("YF_CrocodileTears","GLOBAL",0) Global("YF_LordAndLadyDelryn","GLOBAL",4)~ THEN ANOMENP YF_CrocodileTears
 @355 /*Ahh, <CHARNAME> you have returned. I have most fortunate news.*/
-DO ~SetGlobal("YF_CrocodileTears","GLOBAL",1) SetGlobalTimer("YF_AnomenClaraTimer3","GLOBAL",SEVEN_DAYS) ChangeStat("Anomen",WIS,4,ADD)~
+DO ~SetGlobal("YF_CrocodileTears","GLOBAL",1) SetGlobalTimer("YF_AnomenClaraTimer3","GLOBAL",SEVEN_DAYS) ChangeStat("Anomen",WIS,2,ADD)~
 = @356 /*My father passed away suddenly, but on his deathbed, he forgave me and reinstated me as his son. I am once again Lord Delryn.*/
 = @357 /*This does make Clara my Lady Mother, which is a little awkward, but we will be married as soon as her mourning period ends and then she shall be Lady Delryn as before. The public wedding will have to wait at least a year, of course, but a week should be enough to say our vows.*/
 = @358 /*Furthermore, new evidence has surfaced that Saerk really was behind the murder of my sister. This makes my murder of him and his family, if not legal and justified, than at least understandable by society.*/
