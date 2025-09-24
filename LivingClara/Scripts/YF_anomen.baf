@@ -198,6 +198,7 @@ END
 IF//killed Saerk version
 	IfValidForPartyDialog("Anomen")
 	IfValidForPartyDialog("YF_Clara")
+	AreaType(OUTDOOR)
 	!Global("AnomenRomanceActive","GLOBAL",2)
 	!Global("AnomenRomanceActive","GLOBAL",1)
 	Global("YF_ClaraAnomenLove","GLOBAL",23)
@@ -206,7 +207,7 @@ IF//killed Saerk version
 	CombatCounter(0)
 THEN
 	RESPONSE #100
-	Wait(10)
+	Wait(3)
 	PlaySong(0)
 	PlaySong(35)
 	StartDialogNoSet(Player1)
