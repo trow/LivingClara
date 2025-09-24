@@ -289,8 +289,8 @@ IF
 	InParty("YF_Clara")
 THEN
 	RESPONSE #100
-	GiveItemCreate("YF_Ring45","YF_Clara",0,0,0)
-	XEquipItem("YF_Ring45","YF_Clara",SLOT_RING_LEFT,EQUIP)
+	GiveItemCreate("YF_Rng45","YF_Clara",0,0,0)
+	XEquipItem("YF_Rng45","YF_Clara",SLOT_RING_LEFT,EQUIP)
 	SetGlobal("YF_ClaraRingTOB","GLOBAL",2)
 END
 

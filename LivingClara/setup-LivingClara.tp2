@@ -168,6 +168,11 @@ COPY ~LivingClara/Characters/YF_clara.cre~ ~override~
 	SAY HIDDEN_IN_SHADOWS @44 /*I shall slip away unseen.*/
 	SAY PICKED_POCKET @45 /*Your coin belongs to me.*/
 	SAY REACT_TO_DIE_GENERAL @46 /*I think I'm going to be sick.*/
+	WRITE_ASCII 0x34 "OHHEXM" #8
+	WRITE_ASCII 0x3C "OHHEXL" #8
+	WRITE_ASCII SCRIPT_OVERRIDE "YF_CLARA" #8
+	WRITE_ASCII DEATHVAR "YF_CLARA" #32
+	WRITE_ASCII DIALOG "YF_CLARA" #8
 	
 // ----- 安装 Clara 在 TOB (Throne of Bhaal) 阶段的 CRE 文件 -----
 // 复制并重命名 Clara 在 TOB 阶段的角色文件 (YF_cla25.cre)。
@@ -219,6 +224,11 @@ COPY ~LivingClara/Characters/YF_cla25.cre~ ~override~
 	SAY HIDDEN_IN_SHADOWS @44 /*I shall slip away unseen.*/
 	SAY PICKED_POCKET @45 /*Your coin belongs to me.*/
 	SAY REACT_TO_DIE_GENERAL @46 /*I think I'm going to be sick.*/
+	WRITE_ASCII 0x34 "OHHEXM" #8
+	WRITE_ASCII 0x3c "OHHEXL" #8
+	WRITE_ASCII SCRIPT_OVERRIDE "YF_CLA25.BCS" #8
+	WRITE_ASCII DEATHVAR "YF_CLA25" #32
+	WRITE_ASCII DIALOG "YF_CLA25.DLG" #8
 
 // ========== 模块 2: Living Clara NPC - Clara 专属新物品和法术 ==========
 // 在安装日志中打印一条信息，表明正在添加新物品和法术。	
@@ -384,15 +394,21 @@ SAY UNIDENTIFIED_DESC @106 /*This ability allows Clara to create a Fireball trap
 // 复制 "Little Clara" 的幽魂生物文件，并设置其属性。
   COPY ~LivingClara/Characters/YF_LITCL.bmp~ ~override~
   COPY ~LivingClara/Characters/YF_LITCL.cre~ ~override~
-      // 设置名称。
+        // 设置名称。
   SAY NAME1 @130 /*Little Clara*/
   SAY NAME2 @130
       // 设置对话文件、死亡变量和覆盖脚本。
   WRITE_EVALUATED_ASCII DIALOG          ~YF_LITCL~ #8
   WRITE_EVALUATED_ASCII DEATHVAR        ~YF_LITCL~ #32
   WRITE_EVALUATED_ASCII SCRIPT_OVERRIDE ~~       #8 
+	WRITE_ASCII DEATHVAR "YF_LITCL" #32
+	WRITE_ASCII DIALOG "YF_LITCL" #8
   
 COPY ~LivingClara/Characters/YF_Hdead.cre~ ~override~
+	WRITE_ASCII SCRIPT_DEFAULT "YF_HDEAD.BCS" #8
+	WRITE_ASCII DEATHVAR "YF_HDEAD" #32
+	WRITE_EVALUATED_ASCII DIALOG "YF_HDEAD.DLG"  #8
+
 
 // ========== 模块 2: Living Clara NPC - Clara 核心脚本与对话安装 ==========
 PRINT @141 /*Setting up Jan Jansen's Ball of Superdark Darkness.*/

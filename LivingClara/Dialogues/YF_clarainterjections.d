@@ -37,7 +37,7 @@ INTERJECT_COPY_TRANS2 YOSHIMOX 2 YF_ClaraKatana /*No redemptions, no second chan
 	DO ~DestroyItem("NPSW02")~
 	== YF_clarj IF ~IfValidForPartyDialog("YF_Clara") Global("YF_BCLARAYOSH","GLOBAL",3)~ THEN
 	@10 /*It is here, Yoshimo. I told you I would be watching your actions carefully.*/
-	DO ~TakePartyItem("NPSW02") DestroyItem("NPSW02") CreateItem("YF_Katana",0,0,0) ActionOverride("Yoshimo",DestroyItem("NPSW02"))~
+	DO ~TakePartyItem("NPSW02") DestroyItem("NPSW02") CreateItem("YF_Kata",0,0,0) ActionOverride("Yoshimo",DestroyItem("NPSW02"))~
 	== YOSHIMOX IF ~IfValidForPartyDialog("YF_Clara") Global("YF_BCLARAYOSH","GLOBAL",3)~ THEN
 	@11 /*Indeed, you did. And you have shown yourself to be a true geisha-assassin after all, dancing beneath this warrior's defenses before he could even blink.*/
 	DO ~DestroyItem("NPSW02")~

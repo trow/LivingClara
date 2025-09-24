@@ -339,7 +339,7 @@ CHAIN IF WEIGHT #-1 ~Global("YF_ClaraAnomenLove","GLOBAL",38)~ THEN ANOMENJ YF_C
 == YF_CLARJ @210 /*Oh, Anomen, what a glorious idea!*/
 == ANOMENJ @211 /*I'm glad you agree, although it means that we will have to speak with my father.*/
 = @212 /*Please take this ring; it was my sister's. I keep it close to remind me of her. It is not much, my lady, but let it serve as a sign of our love and a symbol of our commitment to each other.*/
-DO ~GiveItemCreate("YF_Ring45","YF_Clara",0,0,0) XEquipItem("YF_Ring45","YF_Clara",SLOT_RING_LEFT,EQUIP) SetGlobal("YF_ClaraAnomenLove","GLOBAL",39) SetGlobal("YF_AnomenClaraRomance","GLOBAL",2)~
+DO ~GiveItemCreate("YF_Rng45","YF_Clara",0,0,0) XEquipItem("YF_Rng45","YF_Clara",SLOT_RING_LEFT,EQUIP) SetGlobal("YF_ClaraAnomenLove","GLOBAL",39) SetGlobal("YF_AnomenClaraRomance","GLOBAL",2)~
 = @213 /*Keep the ring near your heart, my love. It shall bind us together when the forces of the world try to tear us apart. A single kiss to seal the deal, my lady...*/
 = @214 /*Your lips as ever taste of sweet nectar, and my skin tingles at their touch! Alas, my lady, we must set off again lest the others leave us behind.*/
 == YF_CLARJ @215 /*No, my love, call a rest right now. We must celebrate and seal the bargain.*/
