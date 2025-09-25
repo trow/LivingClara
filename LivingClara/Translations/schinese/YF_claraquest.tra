@@ -1,6 +1,6 @@
 
 //First Clara nudge if you haven't talked to Rose yet
-@1 /*Clara*/ = ~嘿，<CHARNAME>，我们方便的时候能去大桥区吗？我听说我的一个老朋友可能在那儿工作。~
+@1 /*Clara*/ = ~嘿，<CHARNAME>，我听说我的一个老朋友可能在那儿干活。我们顺路的时候能去看看她么？~
 @2 /*CHARNAME*/ = ~我们没有时间做那个。~
 @3 /*CHARNAME*/ = ~当然可以。~
 @4 /*Clara*/ = ~那好吧。（也许我会悄悄溜走，无论如何去看看她。）~
@@ -532,7 +532,7 @@
 //Journal Entries
 @999 /*Initial Clara Nudge*/ = ~为克拉拉帮忙
 
-克拉拉希望我们前往大桥区。她希望找到一个朋友，根据我对她的过去的了解，她可能是指其中的一个卖身女。~
+克拉拉希望我们路过大桥区的时候让她去看望一个朋友。~
 
 @1000 /*Initial Rose Request*/ = ~来自萝丝·布凯的请求
 

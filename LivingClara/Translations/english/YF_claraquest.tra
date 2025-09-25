@@ -1,6 +1,6 @@
 
 //First Clara nudge if you haven't talked to Rose yet
-@1 /*Clara*/ = ~Hey, <CHARNAME>, can we go to the Bridge District whenever it's convenient? I heard an old friend of mine might be working there.~
+@1 /*Clara*/ = ~Hey, <CHARNAME>, I heard an old friend of mine might be working there. Could we go see her when we're in the area?~
 @2 /*CHARNAME*/ = ~We don't have time for that.~
 @3 /*CHARNAME*/ = ~Of course.~
 @4 /*Clara*/ = ~Fine then. (Maybe I'll just sneak off and check on her anyway.)~
@@ -531,7 +531,7 @@
 //Journal Entries
 @999 /*Initial Clara Nudge*/ = ~A Favor for Clara
 
-Clara would like us to travel to the Bridge District. She's hoping to find a friend and from what I know about her past, she likely means one of the working girls.~
+Clara hopes we can stop by the Bridge District so she can visit a friend.~
 
 @1000 /*Initial Rose Request*/ = ~A Request From Rose Bouquet
 
