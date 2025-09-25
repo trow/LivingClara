@@ -23,14 +23,14 @@ ALWAYS
   END
 END
 
-
+LANGUAGE ~Simplified Chinese~ ~schinese~
+		 ~LivingClara/translations/schinese/setup.tra~
+		 ~LivingClara/translations/schinese/prompts.tra~		 
 LANGUAGE ~English~ ~english~
 		 ~LivingClara/translations/english/setup.tra~
 LANGUAGE ~Russian~ ~russian~
 		 ~LivingClara/translations/russian/setup.tra~
-LANGUAGE ~Simplified Chinese~ ~schinese~
-		 ~LivingClara/translations/schinese/setup.tra~
-		 ~LivingClara/translations/schinese/prompts.tra~
+
 
 
 BEGIN @1 /*~All Things Mazzy~*/        //Any text written after Begin will appear as XXX in the Weidu install: Install XXX?
