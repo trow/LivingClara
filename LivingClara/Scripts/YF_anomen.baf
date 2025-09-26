@@ -414,6 +414,7 @@ IF
 	//!AreaCheck("AR2500")   //Elven Temple at Underdark
 	//!AreaCheck("AR2600")   //Thetyr Wood
 	AreaType(OUTDOOR)
+	AreaType(CITY)
 	!Exists("Terl")  // Terl
 	CombatCounter(0)
 	!AreaCheck("AR0041")   //Random Encounter
@@ -659,6 +660,7 @@ IF
 	//!AreaCheck("AR2500")   //Elven Temple at Underdark
 	//!AreaCheck("AR2600")   //Thetyr Wood
 	AreaType(OUTDOOR)
+	AreaType(CITY)
 	!Exists("Terl")  // Terl
 	CombatCounter(0)
 	!AreaCheck("AR0041")   //Random Encounter

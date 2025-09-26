@@ -15,25 +15,25 @@ RESPONSE #100
 StartDialogNoSet(Player1)
 END
 
-IF	//Clara's script if Mazzy goes hostile.
-	Global("YF_MazzyHostile","GLOBAL",4)
-	InParty("YF_Clara") 
-	!StateCheck("YF_Clara",CD_STATE_NOTVALID) 
-THEN
-	RESPONSE #100
-	Hide()
-	MakeUnselectable(999999)
-END 
+//F	//Clara's script if Mazzy goes hostile.
+//	Global("YF_MazzyHostile","GLOBAL",4)
+//	InParty("YF_Clara") 
+//	!StateCheck("YF_Clara",CD_STATE_NOTVALID) 
+//HEN
+//	RESPONSE #100
+//	Hide()
+//	MakeUnselectable(999999)
+//ND 
 
-IF	//Trigger for Clara leaving the party forever.
-	Global("YF_ClaraLeavesForever","GLOBAL",1)
-THEN
-	RESPONSE #100
-	SetGlobal("KickedOut","LOCALS",2)
-	GivePartyAllEquipment()
-	LeaveParty() 
-	EscapeArea()
-END
+//IF	//Trigger for Clara leaving the party forever.
+//	Global("YF_ClaraLeavesForever","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("KickedOut","LOCALS",2)
+//	GivePartyAllEquipment()
+//	LeaveParty() 
+//	EscapeArea()
+//END
 
 
 //2nd Clara-Viconia Banter
@@ -153,17 +153,6 @@ END
 //1st Minsc Ability
 IF
 	Global("YF_BCLARAMINSC","GLOBAL",2)
-	Global("YF_ClaraSeesAll","GLOBAL",0)
-THEN
-	RESPONSE #100
-	AddSpecialAbility("SPCL732")
-	ApplySpellRES("YF_TIRED","YF_Clara")
-	SetGlobal("YF_ClaraSeesAll","GLOBAL",1)
-END	
-
-//2nd Minsc Ability
-IF
-	Global("YF_BCLARAMINSC","GLOBAL",3)
 	Global("YF_ClaraBooTalk","GLOBAL",0)
 THEN
 	RESPONSE #100
@@ -171,15 +160,26 @@ THEN
 	SetGlobal("YF_ClaraBooTalk","GLOBAL",1)
 END
 
-//3rd Minsc Ability
+//2nd Minsc Ability
 IF
-	Global("YF_BCLARAMINSC","GLOBAL",4)
+	Global("YF_BCLARAMINSC","GLOBAL",3)
 	Global("YF_ClaraHulksOut","GLOBAL",0)
 THEN
 	RESPONSE #100
 	AddSpecialAbility("SPCL321")
 	SetGlobal("YF_ClaraHulksOut","GLOBAL",1)
 END
+
+//3rd Minsc Ability
+IF
+	Global("YF_BCLARAMINSC","GLOBAL",4)
+	Global("YF_ClaraSeesAll","GLOBAL",0)
+THEN
+	RESPONSE #100
+	AddSpecialAbility("SPCL732")
+	ApplySpellRES("YF_TIRED","YF_Clara")
+	SetGlobal("YF_ClaraSeesAll","GLOBAL",1)
+END	
 
 //1st Aerie Ability (Charm Animal)
 IF
@@ -321,16 +321,16 @@ END
 
 
 //Aerie Wing Response
-IF
-	Global("YF_AerieWingResponse","GLOBAL",1)
-	InParty("YF_Clara")
-	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
-	Global("YF_ClaraWingResponse","GLOBAL",0)
-	CombatCounter(0)
-THEN 
-	RESPONSE #100
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AerieWingResponse","GLOBAL",1)
+//	InParty("YF_Clara")
+//	!StateCheck("YF_Clara",CD_STATE_NOTVALID)
+//	Global("YF_ClaraWingResponse","GLOBAL",0)
+//	CombatCounter(0)
+//THEN 
+//	RESPONSE #100
+//	StartDialogNoSet(Player1)
+//END
 
 
 //Timer for Second/6th Mazzy-Clara Talk

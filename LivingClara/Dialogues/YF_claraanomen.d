@@ -12,8 +12,8 @@ END
 	++ @7 /**say nothing**/ + YF_AnomenBrag
 	++ @8 /**roll your eyes**/ + YF_AnomenBrag
 	++ @9 /**sigh heavily**/ + YF_AnomenBrag
-	++ @9001 /*Absolutely not. There will be no fraternizing. Eyes straight ahead, hands to yourself. I don't want to see you two even look at each other for the rest of our adventures.*/
-		DO ~SetGlobal("YF_AnomenClaraRomance","GLOBAL",3) SetGlobal ("YF_ClaraAnomenLove","GLOBAL",111)~ EXIT
+	//++ @9001 /*Absolutely not. There will be no fraternizing. Eyes straight ahead, hands to yourself. I don't want to see you two even look at each other for the rest of our adventures.*/
+	//	DO ~SetGlobal("YF_AnomenClaraRomance","GLOBAL",3) SetGlobal ("YF_ClaraAnomenLove","GLOBAL",111)~ EXIT
 
 APPEND ANOMENJ IF ~~ THEN YF_AnomenPetty
 	SAY @10 /*I regret that things did not work out between us, <CHARNAME>, but Clara may yet prove more receptive. Now where was I... Oh yes.*/
