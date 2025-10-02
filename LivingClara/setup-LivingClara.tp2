@@ -33,7 +33,7 @@ LANGUAGE ~Russian~ ~russian~
 
 
 
-BEGIN @1 /*~All Things Mazzy~*/        //Any text written after Begin will appear as XXX in the Weidu install: Install XXX?
+BEGIN @1 /*~Living Clara~*/        //Any text written after Begin will appear as XXX in the Weidu install: Install XXX?
 
 // Adds CD_STATE_NOTVALID state from CamDawg. May be unnecessary when coding for EE.
 APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
@@ -453,7 +453,7 @@ COMPILE EVALUATE_BUFFER ~LivingClara/Dialogues/bYF_cl25.d~
 	~LivingClara/Dialogues/YF_ohhfakthieves.d~
 	
 //Dialogue Files- always installed (this code means whole folder compiled. You can also compile each dialogue file individually if you list the names)
-// ----- 编译善良/邪恶路线共用的 SOA 对话文件 -----
+// ----- 编译模组主线共用的 SOA 对话文件 -----
 // 编译 /soa 目录下的所有对话文件。
 // EVALUATE_BUFFER 确保处理文件中的变量。
 COMPILE EVALUATE_BUFFER ~LivingClara/dialogues/YF_anomenfixsoa.d~	
@@ -465,7 +465,7 @@ Adding inappropriate sex-loving Imoen.
 Sex-loving Imoen added.
 Searching for halfling orgy.
 No orgy found. Insufficient halflings.*/
-// ----- 编译 TOB 阶段的善良/中立路线对话文件 -----
+// ----- 编译 TOB 阶段的模组主线对话文件 -----
 // 编译 /tob 目录下的所有对话文件。
 COMPILE ~LivingClara/dialogues/YF_anomenfixtob.d~
 
@@ -488,7 +488,7 @@ COMPILE ~LivingClara/scripts/YF_Gereth.baf~ EVALUATE_BUFFER  //2nd Clara Quest
 // 注释警告：将代码放在脚本顶部可能很危险，因为持续触发的代码可能会阻止后续代码执行，需要仔细测试。
 EXTEND_TOP ~baldur.bcs~ ~LivingClara/Scripts/YF_gettingclara.baf~ EVALUATE_BUFFER //Extend Top puts code at top of bcs file so it plays first. This can be dangerous since code that fires continuously will stop anything after it from triggering. TEST TEST TEST.
 
-//前面的脚本拆成两部分，第一部分保留在全局脚本，第二部分检查物品的代码太多，召唤鸟YF_Hdead来承载by shohy
+//前面的脚本拆成两部分，第一部分保留在全局脚本，第二部分检查物品的代码太多，召唤老鼠YF_Hdead来承载by shohy
 COMPILE ~LivingClara/Scripts/YF_Hdead.baf~ EVALUATE_BUFFER
 COMPILE ~LivingClara/Dialogues/YF_Hdead.d~ EVALUATE_BUFFER
 
@@ -676,16 +676,16 @@ Miniaturizing initiated.
 Miniaturization successful.*/
 
 //Script Files - always installed
-// ========== 模块 1: All Things Mazzy - 核心善良/中立路线脚本扩展 ==========
+// ========== 模块 1: Living Clara - 核心模组主线脚本扩展 ==========
 
-// ----- 扩展现有游戏脚本 (善良/中立路线) - 总是安装 -----
-// 将善良/中立路线的通用脚本逻辑附加到游戏核心和 NPC 的脚本中。
+// ----- 扩展现有游戏脚本 (模组主线) - 总是安装 -----
+// 将模组主线的通用脚本逻辑附加到游戏核心和 NPC 的脚本中。
 
-// 将善良/中立路线的初始化逻辑添加到游戏主脚本 baldur.bcs 的顶部。
+// 将模组主线的初始化逻辑添加到游戏主脚本 baldur.bcs 的顶部。
 EXTEND_TOP ~baldur.bcs~ ~LivingClara/scripts/YF_baldur.baf~ EVALUATE_BUFFER
-// 将 Anomen 的善良/中立路线逻辑添加到其脚本底部。
+// 将 Anomen 的模组主线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~anomen.bcs~ ~LivingClara/scripts/YF_anomen.baf~ EVALUATE_BUFFER
-// 将 Anomen 的 D 对话脚本的善良/中立路线逻辑添加到底部。
+// 将 Anomen 的 D 对话脚本的模组主线逻辑添加到底部。
 EXTEND_BOTTOM ~anomend.bcs~ ~LivingClara/scripts/YF_anomend.baf~ EVALUATE_BUFFER
 // ----- 扩展特定区域脚本以支持 Mazzy 恋爱任务和其他剧情 -----
 // 将 Clara 与 Anomen 相关剧情的脚本逻辑添加到 AR1000 的顶部。
@@ -704,17 +704,17 @@ EXTEND_BOTTOM ~Cor.bcs~ ~LivingClara/scripts/YF_Cor.baf~ //在阿诺门死后寇
 
 EXTEND_BOTTOM ~dornd.bcs~ ~LivingClara/scripts/YF_dorn.baf~ EVALUATE_BUFFER//??
 EXTEND_BOTTOM ~dornd.bcs~ ~LivingClara/scripts/YF_dornd.baf~ EVALUATE_BUFFER//??
-// 将 Hexxat 的善良/中立路线逻辑添加到其脚本底部。
+// 将 Hexxat 的模组主线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~hexxat.bcs~ ~LivingClara/scripts/YF_hexxat.baf~ EVALUATE_BUFFER
-// 将 TOB 阶段 Anomen 的善良/中立路线逻辑添加到其脚本底部。
+// 将 TOB 阶段 Anomen 的模组主线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~anom25.bcs~ ~LivingClara/scripts/YF_anomentob.baf~
 
 
-// 将 TOB 阶段 Dorn 的善良/中立路线逻辑添加到其脚本底部。
+// 将 TOB 阶段 Dorn 的模组主线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~dorn25.bcs~ ~LivingClara/scripts/YF_dorntob.baf~
-// 将 TOB 阶段 Dorn 的 D 对话脚本的善良/中立路线逻辑添加到底部。
+// 将 TOB 阶段 Dorn 的 D 对话脚本的模组主线逻辑添加到底部。
 EXTEND_BOTTOM ~dorn25d.bcs~ ~LivingClara/scripts/YF_dorndtob.baf~
-// 将 TOB 阶段 Hexxat 的善良/中立路线逻辑添加到其脚本底部。
+// 将 TOB 阶段 Hexxat 的模组主线逻辑添加到其脚本底部。
 EXTEND_BOTTOM ~hexxa25.bcs~ ~LivingClara/scripts/YF_hexxattob.baf~
 
 
