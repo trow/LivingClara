@@ -345,6 +345,11 @@ STR_VAR
 resource = Edwin// 限制给 "Edwin"
 END 
 
+COPY ~LivingClara/Items/YF_NPSHD.itm~ ~override~
+SAY NAME1  @94
+SAY NAME2  @94
+SAY DESC  @95
+
 // 单独复制需要修改文本或效果的物品文件。
 // 复制并修改 YF_BELT2.itm (Girdle of Femininity/Masculinity)。
 COPY ~LivingClara/Items/YF_BELT2.itm~ ~override~ //If you do have to change text/add effects, you need to copy the item individually.
@@ -694,6 +699,8 @@ EXTEND_TOP ~AR1700.bcs~ ~LivingClara/scripts/YF_AR1700.baf~ EVALUATE_BUFFER //2n
 
 // 将 Terl NPC 的对话后备脚本逻辑添加到 terl.bcs 的底部。
 EXTEND_TOP ~terl.bcs~ ~LivingClara/scripts/YF_Terl.baf~ EVALUATE_BUFFER //For all the Terl talks, mostly backup 
+
+EXTEND_BOTTOM ~Cor.bcs~ ~LivingClara/scripts/YF_Cor.baf~ //在阿诺门死后寇尔会继续攻击克拉拉，不会停下来触发对话
 
 EXTEND_BOTTOM ~dornd.bcs~ ~LivingClara/scripts/YF_dorn.baf~ EVALUATE_BUFFER//??
 EXTEND_BOTTOM ~dornd.bcs~ ~LivingClara/scripts/YF_dornd.baf~ EVALUATE_BUFFER//??

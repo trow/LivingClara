@@ -392,6 +392,7 @@
 @3251 /*Anomen*/ = ~Oh, my hands are trembling so much that I can barely hold anything. Yet in my heart, it feels as if a great burden has been lifted.~
 @326 /*Clara*/ = ~Hmm... Somehow everything feels changed, and your very aura seems palpably different... You did it my love, our future is secure. You are Lord Delryn.~
 @327 /*Anomen*/ = ~Let us clean ourselves up and then send Jardine to call the guard.~
+@3271 /*Anomen*/ = ~My love, Clara, I will take you to the temple right away and ask the priests to bring you back to life.~
 @328 /*Anomen*/ = ~<CHARNAME>, please give us a few more days to put all of our affairs in order, and then we will happily join you again if you will have us.~
 @329 /*CHARNAME*/ = ~Of course, Anomen, you are both valuable members of this group.~
 @330 /*CHARNAME*/ = ~Anomen, you are both monsters and I want nothing more to do with you.~
@@ -586,3 +587,7 @@ Anomen and Clara have left for his estate, asking me to join them in a few days 
 @468 /*Clara*/ = ~Our future, my love. The past cannot be changed. And your future is with me.~
 @469 /*Anomen*/ = ~Thank you, my lady. Once again, you have shown me the wisest path. I shall not let my past destroy what we have built together. I... I shall be all right. Let us continue with the task at hand.~
 
+@470 /*Clara*/ = ~Oh, they're both dead. All my efforts were for nothing. There's nothing left for me here now, I need to get out of this place as soon as possible. <CHARNAME>, are you coming with me?~
+@471 /*CHARNAME*/ = ~Yes, let's go.~
+@472 /*CHARNAME*/ = ~No, you go ahead. I'll catch up with you later.~
+@473 /*Clara*/ = ~Alright... I'm off, then. You can find me at the Five Flagons Inn on the Bridge. See you. *whispers* Still need to split what's left with Jardine...~

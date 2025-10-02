@@ -31,6 +31,7 @@ IF
 	Global("YF_ACGonnaStabCor","GLOBAL",1)
 	Global("YF_CorExtra","GLOBAL",0)
 	Dead("Anomen")  // Anomen
+	Dead("YF_Clara")
 	!Dead("Cor")  // Cor Delryn
 	!StateCheck("Cor",STATE_SLEEPING)  // Cor Delryn
 	!StateCheck("Cor",STATE_STUNNED)  // Cor Delryn

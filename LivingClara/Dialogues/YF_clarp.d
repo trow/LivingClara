@@ -1,7 +1,7 @@
 BEGIN YF_clarp
 
 //Standard, not married to Cor or Anomen
-APPEND YF_clarp IF ~Global("KickedOut","LOCALS",0) !Global("YF_LordAndLadyDelryn","GLOBAL",5) !Global("YF_LadyDelryn","GLOBAL",1)~ THEN YF_CP1
+APPEND YF_clarp IF ~Global("KickedOut","LOCALS",0) !Global("YF_LordAndLadyDelryn","GLOBAL",5) !Global("YF_LadyDelryn","GLOBAL",1) !Global("YF_ClaraWihtAnomenLeave","LOCALS",1)~ THEN YF_CP1
 	SAY @0 /*So I guess this is it then?*/
 		++ @1 /*No, I want you to stay.*/ DO ~JoinParty()~ EXIT
 		+ ~!GlobalGT("YF_ClaraAnomenLove","GLOBAL",23) Dead("aran")~ + @2 /*Yes, we should go our separate ways.*/ GOTO YF_CP2
@@ -172,7 +172,7 @@ APPEND YF_clarp IF ~Global("KickedOut","LOCALS",1) !Dead("sterk") Global("YF_cla
 END
 	
 //If no other conditions apply. Not Married to Cor or Anomen
-APPEND YF_clarp IF ~Global("KickedOut","LOCALS",1) !Global("YF_LordAndLadyDelryn","GLOBAL",5) !Global("YF_LadyDelryn","GLOBAL",1)~ THEN YF_Clara2Join1
+APPEND YF_clarp IF ~Global("KickedOut","LOCALS",1) !Global("YF_LordAndLadyDelryn","GLOBAL",5) !Global("YF_LadyDelryn","GLOBAL",1) !Global("YF_ClaraWihtAnomenLeave","LOCALS",1)~ THEN YF_Clara2Join1
 	SAY @54 /*Hi, <CHARNAME>, how can I help you? Do you need something?*/
 		++ @34 /*No, I'm just saying hi. How are you?*/ GOTO YF_Clara2Join2
 		++ @35 /*Yes, I want you to come with me.*/ GOTO YF_Clara2Join3

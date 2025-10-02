@@ -540,6 +540,7 @@ THEN
 	SetGlobal("HopToItClara","LOCALS",1)
 	ChangeAIScript("",DEFAULT)
 	ChangeEnemyAlly(Myself,GOODBUTBLUE)
+	Hide()
 END
 
 IF
@@ -981,751 +982,751 @@ THEN
 END
 
 //Script for Rose to talk as everyone dies.
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_PostGenocideRoseTalk","GLOBAL",0)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	SetGlobal("YF_PostGenocideRoseTalk","GLOBAL",1)
-END
-
-IF
-	Global("YF_PostGenocideRoseTalk","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride("murdgirl",StartDialogNoSet(Player1))
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_PostGenocideRoseTalk","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	SetGlobal("YF_PostGenocideRoseTalk","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_PostGenocideRoseTalk","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride("murdgirl",StartDialogNoSet(Player1))
+//END
 
 //Scripts to talk and gain xp in each area if Clara's killing them.
 //Five Flagons
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	OR(2)
-		AreaCheck("AR0509") //Five Flagons Inn 1st Floor
-		AreaCheck("AR0522") //Five Flagons Inn (Stronghold)
-	Global("YF_ClaraKillsAllFiveFlagons","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllFiveFlagons","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllFiveFlagons","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	OR(2)
+//		AreaCheck("AR0509") //Five Flagons Inn 1st Floor
+//		AreaCheck("AR0522") //Five Flagons Inn (Stronghold)
+//	Global("YF_ClaraKillsAllFiveFlagons","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllFiveFlagons","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllFiveFlagons","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Desolar's Inn
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0513") //Desolar's Inn 1st floor
-	Global("YF_ClaraKillsAllDesolar","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllDesolar","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllDesolar","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0513") //Desolar's Inn 1st floor
+//	Global("YF_ClaraKillsAllDesolar","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllDesolar","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllDesolar","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Docks District
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0300") //Docks district
-	Global("YF_ClaraKillsAllDocks","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllDocks","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllDocks","GLOBAL",1)
-THEN
-	RESPONSE #100
-	PlaySong(0)
-	PlaySound("YF_Moon")
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0300") //Docks district
+//	Global("YF_ClaraKillsAllDocks","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllDocks","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllDocks","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	PlaySong(0)
+//	PlaySound("YF_Moon")
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Sea's Bounty
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0313") //Sea's Bounty First floor
-	Global("YF_ClaraKillsAllSeaBounty","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllSeaBounty","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllSeaBounty","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0313") //Sea's Bounty First floor
+//	Global("YF_ClaraKillsAllSeaBounty","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllSeaBounty","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllSeaBounty","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Temple of Oghma
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0319") //Temple of Oghma
-	Global("YF_ClaraAllKillsOghma","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraAllKillsOghma","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraAllKillsOghma","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0319") //Temple of Oghma
+//	Global("YF_ClaraAllKillsOghma","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraAllKillsOghma","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraAllKillsOghma","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //City Gates
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0020") //City Gates
-	Global("YF_ClaraKillsAllCityGates","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllCityGates","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllCityGates","GLOBAL",1)
-THEN
-	RESPONSE #100
-	PlaySong(0)
-	PlaySound("YF_Moon")
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0020") //City Gates
+//	Global("YF_ClaraKillsAllCityGates","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllCityGates","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllCityGates","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	PlaySong(0)
+//	PlaySound("YF_Moon")
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Crooked Crane
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0022") //Crooked Crane
-	Global("YF_ClaraKillsAllCrookedCrane","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllCrookedCrane","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllCrookedCrane","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0022") //Crooked Crane
+//	Global("YF_ClaraKillsAllCrookedCrane","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllCrookedCrane","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllCrookedCrane","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Slums
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0400") //The Slums
-	Global("YF_ClaraKillsAllSlums","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllSlums","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllSlums","GLOBAL",1)
-THEN
-	RESPONSE #100
-	PlaySong(0)
-	PlaySound("YF_Moon")
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0400") //The Slums
+//	Global("YF_ClaraKillsAllSlums","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllSlums","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllSlums","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	PlaySong(0)
+//	PlaySound("YF_Moon")
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Copper Coronet
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0406") //The Copper Coronet
-	Global("YF_ClaraKillsAllCoronet","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllCoronet","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllCoronet","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0406") //The Copper Coronet
+//	Global("YF_ClaraKillsAllCoronet","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllCoronet","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllCoronet","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Waukeen's Promenade
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0700") //Waukeen's Promenade
-	Global("YF_ClaraKillsAllPromenade","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllPromenade","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllPromenade","GLOBAL",1)
-THEN
-	RESPONSE #100
-	PlaySong(0)
-	PlaySound("YF_Moon")
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0700") //Waukeen's Promenade
+//	Global("YF_ClaraKillsAllPromenade","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllPromenade","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllPromenade","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	PlaySong(0)
+//	PlaySound("YF_Moon")
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Circus
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0607") //Circus
-	Global("YF_ClaraKillsAllCircus","GLOBAL",0)
-	!Dead("Quayle")
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllCircus","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllCircus","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0607") //Circus
+//	Global("YF_ClaraKillsAllCircus","GLOBAL",0)
+//	!Dead("Quayle")
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllCircus","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllCircus","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Adventurer's Mart
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0702") //Adventurer's Mart
-	Global("YF_ClaraKillsAllAdventurer","GLOBAL",0)
-	!Dead("Ribald")
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllAdventurer","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllAdventurer","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0702") //Adventurer's Mart
+//	Global("YF_ClaraKillsAllAdventurer","GLOBAL",0)
+//	!Dead("Ribald")
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllAdventurer","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllAdventurer","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Graveyard
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0800") //Graveyard
-	Global("YF_ClaraKillsAllGraveyard","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllGraveyard","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllGraveyard","GLOBAL",1)
-THEN
-	RESPONSE #100
-	PlaySong(0)
-	PlaySound("YF_Moon")
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0800") //Graveyard
+//	Global("YF_ClaraKillsAllGraveyard","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllGraveyard","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllGraveyard","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	PlaySong(0)
+//	PlaySound("YF_Moon")
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Temple District
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0900") //Temple District
-	Global("YF_ClaraKillsAllTempleDistrict","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllTempleDistrict","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllTempleDistrict","GLOBAL",1)
-THEN
-	RESPONSE #100
-	PlaySong(0)
-	PlaySound("YF_Moon")
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0900") //Temple District
+//	Global("YF_ClaraKillsAllTempleDistrict","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllTempleDistrict","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllTempleDistrict","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	PlaySong(0)
+//	PlaySound("YF_Moon")
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Temple of Helm
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0901") //Temple of Helm
-	Global("YF_ClaraKillsAllHelm","GLOBAL",0)
-	Global("TempleShout0901","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllHelm","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllHelm","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0901") //Temple of Helm
+//	Global("YF_ClaraKillsAllHelm","GLOBAL",0)
+//	Global("TempleShout0901","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllHelm","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllHelm","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Order of the Radiant Heart
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0903") //Order of the Radiant Heart
-	Global("YF_ClaraKillsAllOrder","GLOBAL",0)
-	Global("TempleShout0903","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllOrder","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllOrder","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0903") //Order of the Radiant Heart
+//	Global("YF_ClaraKillsAllOrder","GLOBAL",0)
+//	Global("TempleShout0903","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllOrder","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllOrder","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Government District
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR1000") //Government District
-	Global("YF_ClaraKillsAllGovernment","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllGovernment","GLOBAL",1)
-	SetGlobal("YouKilledMyFather","LOCALS",10)
-END
-
-IF
-	Global("YF_ClaraKillsAllGovernment","GLOBAL",1)
-THEN
-	RESPONSE #100
-	PlaySong(0)
-	PlaySound("YF_Moon")
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR1000") //Government District
+//	Global("YF_ClaraKillsAllGovernment","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllGovernment","GLOBAL",1)
+//	SetGlobal("YouKilledMyFather","LOCALS",10)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllGovernment","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	PlaySong(0)
+//	PlaySound("YF_Moon")
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Firecam Estate
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR1003") //Firecam Estate
-	Global("YF_ClaraKillsAllFirecam","GLOBAL",0)
-	IfValidForPartyDialog("Keldorn")
-	OR(3)
-		Detect("maria")
-		Detect("leona")
-		Detect("vesper")
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllFirecam","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllFirecam","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR1003") //Firecam Estate
+//	Global("YF_ClaraKillsAllFirecam","GLOBAL",0)
+//	IfValidForPartyDialog("Keldorn")
+//	OR(3)
+//		Detect("maria")
+//		Detect("leona")
+//		Detect("vesper")
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllFirecam","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllFirecam","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Council of Six Building
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR1002") //Council of Six Building
-	Global("YF_ClaraKillsAllCouncil","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllCouncil","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllCouncil","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR1002") //Council of Six Building
+//	Global("YF_ClaraKillsAllCouncil","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllCouncil","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllCouncil","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Aran's Hideout (friendly)
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0307") //Aran's Hideout (friendly)
-	Global("YF_ClaraKillsAllAran","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllAran","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllAran","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0307") //Aran's Hideout (friendly)
+//	Global("YF_ClaraKillsAllAran","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllAran","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllAran","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Booter
 //Aran's Hideout (friendly)
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0307") //Aran's Hideout (friendly)
-	Global("YF_ClaraKillsAllBooter","GLOBAL",0)
-	See("booter")
-	!Dead("booter")
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllBooter","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllBooter","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0307") //Aran's Hideout (friendly)
+//	Global("YF_ClaraKillsAllBooter","GLOBAL",0)
+//	See("booter")
+//	!Dead("booter")
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllBooter","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllBooter","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Shadow Thieves Guild Entrance (friendly)
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0305") //Shadow Thieves Guild Entrance (friendly)
-	Global("YF_ClaraKillsAllGuild","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllGuild","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllGuild","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0305") //Shadow Thieves Guild Entrance (friendly)
+//	Global("YF_ClaraKillsAllGuild","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllGuild","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllGuild","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Renal's Hideout (friendly)
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0306") //Renal's Hideout
-	Global("YF_ClaraKillsAllRenal","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllRenal","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllRenal","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0306") //Renal's Hideout
+//	Global("YF_ClaraKillsAllRenal","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllRenal","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllRenal","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Hidden Refuge
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	OR(2)
-		AreaCheck("OH6100")
-		AreaCheck("OH6200")
-	Global("YF_ClaraKillsAllRefuge","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllRefuge","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllRefuge","GLOBAL",1)
-THEN
-	RESPONSE #100
-	PlaySong(0)
-	PlaySound("YF_Moon")
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	OR(2)
+//		AreaCheck("OH6100")
+//		AreaCheck("OH6200")
+//	Global("YF_ClaraKillsAllRefuge","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllRefuge","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllRefuge","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	PlaySong(0)
+//	PlaySound("YF_Moon")
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Umar Hills
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR1100") //Umar Hills
-	Global("YF_ClaraKillsAllUmar","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllUmar","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllUmar","GLOBAL",1)
-THEN
-	RESPONSE #100
-	PlaySong(0)
-	PlaySound("YF_Moon")
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR1100") //Umar Hills
+//	Global("YF_ClaraKillsAllUmar","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllUmar","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllUmar","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	PlaySong(0)
+//	PlaySound("YF_Moon")
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Imnesvale Inn
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR1105") //Imnesvale Inn
-	Global("YF_ClaraKillsAllImnesvale","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllImnesvale","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllImnesvale","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR1105") //Imnesvale Inn
+//	Global("YF_ClaraKillsAllImnesvale","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllImnesvale","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllImnesvale","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Windspear Hills
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR1200") //Windspear Hills
-	Global("YF_ClaraKillsAllWindspear","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllWindspear","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllWindspear","GLOBAL",1)
-THEN
-	RESPONSE #100
-	PlaySong(0)
-	PlaySound("YF_Moon")
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR1200") //Windspear Hills
+//	Global("YF_ClaraKillsAllWindspear","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllWindspear","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllWindspear","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	PlaySong(0)
+//	PlaySound("YF_Moon")
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Trademeet
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR2000") //Trademeet
-	Global("YF_ClaraKillsAllTrademeet","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllTrademeet","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllTrademeet","GLOBAL",1)
-THEN
-	RESPONSE #100
-	PlaySong(0)
-	PlaySound("YF_Moon")
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR2000") //Trademeet
+//	Global("YF_ClaraKillsAllTrademeet","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllTrademeet","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllTrademeet","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	PlaySong(0)
+//	PlaySound("YF_Moon")
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Trademeet Inn
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR2010") //Trademeet Inn
-	Global("YF_ClaraKillsAllTradmeetInn","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllTradmeetInn","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllTradmeetInn","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR2010") //Trademeet Inn
+//	Global("YF_ClaraKillsAllTradmeetInn","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllTradmeetInn","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllTradmeetInn","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //De'Arnise Hold
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	OR(2)
-		AreaCheck("AR1300")
-		AreaCheck("AR1304")
-	Global("YF_ClaraKillsAllDeArnise","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllDeArnise","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllDeArnise","GLOBAL",1)
-THEN
-	RESPONSE #100
-	PlaySong(0)
-	PlaySound("YF_Moon")
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	OR(2)
+//		AreaCheck("AR1300")
+//		AreaCheck("AR1304")
+//	Global("YF_ClaraKillsAllDeArnise","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllDeArnise","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllDeArnise","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	PlaySong(0)
+//	PlaySound("YF_Moon")
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Mithrest Inn (Waukeen's Promanade)
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("AR0704") //Mithrest Inn
-	Global("YF_ClaraKillsAllMithrest","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllMithrest","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllMithrest","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("AR0704") //Mithrest Inn
+//	Global("YF_ClaraKillsAllMithrest","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllMithrest","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllMithrest","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Den of the Seven Vales (Waukeen's Promanade)
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	OR(2)
-	AreaCheck("AR0709") //Den of the Seven Vales 1st Floor
-	AreaCheck("AR0712") //Den of the Seven Vales 2nd Floor
-	Global("YF_ClaraKillsAllSevenVales","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllSevenVales","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllSevenVales","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	OR(2)
+//	AreaCheck("AR0709") //Den of the Seven Vales 1st Floor
+//	AreaCheck("AR0712") //Den of the Seven Vales 2nd Floor
+//	Global("YF_ClaraKillsAllSevenVales","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllSevenVales","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllSevenVales","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Heretic Temple if not hostile
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("OH4100")
-	Global("YF_ClaraKillsAllHeretic","GLOBAL",0)
-	Global("OHR_TEMPLE_HOSTILE","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllHeretic","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllHeretic","GLOBAL",1)
-THEN
-	RESPONSE #100
-	PlaySong(0)
-	PlaySound("YF_Moon")
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("OH4100")
+//	Global("YF_ClaraKillsAllHeretic","GLOBAL",0)
+//	Global("OHR_TEMPLE_HOSTILE","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllHeretic","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllHeretic","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	PlaySong(0)
+//	PlaySound("YF_Moon")
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Inside Heretic Temple
-IF
-	Global("YF_AllRivvinMustDie","GLOBAL",1)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	IfValidForPartyDialog("YF_Clara")
-	AreaCheck("OH4101")
-	Global("YF_ClaraKillsAllHereticInside","GLOBAL",0)
-	Global("OHR_TEMPLE_HOSTILE","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_ClaraKillsAllHereticInside","GLOBAL",1)
-END
-
-IF
-	Global("YF_ClaraKillsAllHereticInside","GLOBAL",1)
-THEN
-	RESPONSE #100
-	ActionOverride(Player1,SetDialog("Player1"))
-	StartDialogNoSet(Player1)
-END
+//IF
+//	Global("YF_AllRivvinMustDie","GLOBAL",1)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	IfValidForPartyDialog("YF_Clara")
+//	AreaCheck("OH4101")
+//	Global("YF_ClaraKillsAllHereticInside","GLOBAL",0)
+//	Global("OHR_TEMPLE_HOSTILE","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_ClaraKillsAllHereticInside","GLOBAL",1)
+//END
+//
+//IF
+//	Global("YF_ClaraKillsAllHereticInside","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	ActionOverride(Player1,SetDialog("Player1"))
+//	StartDialogNoSet(Player1)
+//END
 
 //Timer for start of 2nd Clara Quest
 IF
@@ -1766,15 +1767,15 @@ IF
 		!AreaCheck("OH6010")   //Neera random encounter
 		!AreaCheck("AR0500")   //Bridge
 		!AreaCheck("OH7310")   //Hexxat - L Scene
-	/*OR(8)
+	OR(7)
 		AreaCheck("AR0900")   //神殿区
 		AreaCheck("AR1000")   //行政区
-		AreaCheck("AR0500")   //大桥区
+		//AreaCheck("AR0500")   //大桥区
 		AreaCheck("AR0020")   //城门区
 		AreaCheck("AR0300")   //码头
 		AreaCheck("AR0700")   //渥金商场
 		AreaCheck("AR0400")   //贫民区
-		AreaCheck("AR0800")*/   //墓园区
+		AreaCheck("AR0800")   //墓园区
 THEN
 	RESPONSE #100
 		SetInterrupt(FALSE)
@@ -1804,6 +1805,21 @@ IF
 THEN
 	RESPONSE #100
 	ActionOverride("Terl",StartDialogNoSet(Player1))
+END
+
+IF
+    Dead("Cor")
+    Dead("Anomen")
+    Global("AnomenFinalFight","GLOBAL",1)
+    Global("YF_ACGonnaStabCor","GLOBAL",1)
+    !See([ENEMY])
+    Global("AnomenCor","GLOBAL",5) 
+	Global("HopToItClara","LOCALS",1)
+	Global("YF_ClaraWihtAnomenLeave","LOCALS",1)
+THEN 
+    RESPONSE #100
+    MoveToObject(Player1)
+    StartDialogueNoSet(Player1)
 END
 
 IF

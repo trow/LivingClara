@@ -226,7 +226,18 @@ Requires:
 
 Weight: 5~
 
+@94 = ~Delryn Family Legacy +4~
+@95 = ~Delryn Family Legacy +4
 
+This is Anomen's family legacy, the original shield had been given to him by his father. Now, it is reforged and regained all of its original abilities.
+
+STATISTICS
+
+AC Bonus: +5, +8 vs. missiles
+Resistance to fire and cold: + 40%
+Resistance to missile damage: + 50%
+Immunity to Charm, Confusion, Domination and Hold Person
+Magic Resistance: +10%~
 //Clara's Wedding Ring
 @96 /*Name*/ = ~Delryn Family Ring~
 @97 /*DESC*/ = ~This simple band, though not of great material value, is a Delryn family heirloom. Once worn by his dear sister Moira, Anomen gave this ring to Clara as a symbol of their love. It has been enchanted to help protect his noble bride.

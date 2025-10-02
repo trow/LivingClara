@@ -1,0 +1,8 @@
+IF
+	Global("AnomenFinalFight","GLOBAL",1)
+	Global("HopToItClara","GLOBAL",1)
+	AttackedBy("YF_clara",DEFAULT)
+THEN
+	RESPONSE #100
+		AttackReevaluate("YF_clara",30)
+END

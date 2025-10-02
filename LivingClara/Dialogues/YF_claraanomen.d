@@ -410,9 +410,9 @@ INTERJECT BANOMEN 484 YF_ClaraMakesItBetter /*I... I lost everything I worked to
 	== YF_CLARJ @256 /*Could he be persuaded to corroborate our story?*/
 	== ANOMENJ @257 /*Jardine? He is loyal to our house, but he has hated watching my father destroy it. Perhaps we could bring him to our side. We will talk to him before we enter.*/
 	= @258 /*<CHARNAME>, I must go to my father's house. Please give me several days to take care of this and then I will be happy to travel with you again.*/
-	DO ~SetGlobal("YF_ClaraAnomenLove","GLOBAL",46) SetGlobalTimer("YF_AnomenClaraCorTimer","GLOBAL",ONE_DAY) SetGlobal("YF_ACGonnaStabCor","GLOBAL",1) SetGlobal("KickedOut","LOCALS",1) ChangeAIScript("",DEFAULT) SetLeavePartyDialogueFile() LeaveParty() EscapeAreaMove("AR1001",692,218,SW) SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",0)~
+	DO ~SetGlobal("YF_ClaraAnomenLove","GLOBAL",46) SetGlobalTimer("YF_AnomenClaraCorTimer","GLOBAL",ONE_DAY) SetGlobal("YF_ACGonnaStabCor","GLOBAL",1) SetGlobal("KickedOut","LOCALS",1) ChangeAIScript("",DEFAULT) SetLeavePartyDialogueFile() LeaveParty() EscapeAreaMove("AR1001",665,260,SW) SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",0) SetGlobal("YF_ClaraWihtAnomenLeave","LOCALS",0)~
 	== YF_CLARJ @259 /*And I will be by your side, my love, no matter what occurs.*/
-	DO ~AddJournalEntry(@999,USER) SetGlobal("KickedOut","LOCALS",1) ChangeAIScript("",DEFAULT) LeaveParty() EscapeAreaMove("AR1001",652,209,SW) ~ /*Journal Entry: Anomen received a letter from his father that distressed him greatly. It seems the true killers of his sister Moira were discovered and his father has disowned him for killing Saerk instead. A cruel twist of fate given all that he has paid. 
+	DO ~AddJournalEntry(@999,USER) SetGlobal("KickedOut","LOCALS",1) ChangeAIScript("",DEFAULT) LeaveParty() EscapeAreaMove("AR1001",620,280,N) SetGlobal("YF_ClaraWihtAnomenLeave","LOCALS",1)~ /*Journal Entry: Anomen received a letter from his father that distressed him greatly. It seems the true killers of his sister Moira were discovered and his father has disowned him for killing Saerk instead. A cruel twist of fate given all that he has paid. 
 
 Anomen and Clara have left for his estate, asking me to join them in a few days once this matter has been settled. While I could not hear their entire conversation, the couple is determined to reclaim their honor and I fear Cor may have finally pushed his son too far. Perhaps I should follow them to confirm my suspicions and ensure that Anomen does not stain his hands again. Or perhaps I should let that useless drunk reap what he has sowed.*/
 EXIT
@@ -527,6 +527,16 @@ CHAIN BANOMEN YF_YESSTABCOR
 DO ~SetGlobal("AttackedCor","GLOBAL",1) SetGlobal("AnomenFinalFight","GLOBAL",1) SetDialogue("")~
 EXIT
 
+CHAIN IF ~Dead("Cor") Dead("Anomen") Global("AnomenFinalFight","GLOBAL",1) Global("YF_ACGonnaStabCor","GLOBAL",1) Global("AnomenCor","GLOBAL",5) Global("HopToItClara","LOCALS",1) Global("YF_ClaraWihtAnomenLeave","LOCALS",1)~ THEN YF_CLARP YF_ClaraRunAwayFromDelryn
+    @470 /*哦，他们两个都死了，我的心思全白费了。现在这里已经和我没有关系了，我得尽快离开这里。<CHARNAME>，要一起么*/
+END
+    ++ @471 /*好，我们走。*/ DO ~SetGlobal("YF_ClaraWihtAnomenLeave","LOCALS",2) SetGlobal("KickedOut","LOCALS",0) ActionOverride("YF_Clara",JoinParty())~ EXIT
+    ++ @472 /*不，你先走吧。我之后再去找你。*/ + YF_ClaraRunAway
+CHAIN YF_CLARP YF_ClaraRunAway
+	@473 /*好吧……那我就走了。你可以在大桥区的五酒壶旅店找到我。走了走了。*低语*还得和贾丁分一下剩下的东西。*/ DO ~SetGlobal("YF_ClaraWihtAnomenLeave","LOCALS",2) EscapeAreaMove("AR0509",470,404,E)~ 
+EXIT
+
+
 CHAIN BANOMEN YF_CNisaKilljoy
 @299 /*Then we are finished. We cannot oppose both you and my father. We are fugitives and you will not see us again.*/
 == COR @300 /*You are finished, boy, but why waste so pretty a wife?*/
@@ -577,6 +587,8 @@ CHAIN IF WEIGHT #-10 ~Global("AnomenCor","GLOBAL",5) Global("YF_CorFight","GLOBA
 == YF_CLARP IF ~!StateCheck("YF_Clara",CD_STATE_NOTVALID)~ @326 /*You did it my love, our future is secure. You are Lord Delryn.*/
 == ANOMENP @327 /*Let us clean ourselves up and then send Jardine to call the guard.*/
 DO ~SetGlobalTimer("YF_AnomenClaraCorTimer2","GLOBAL",TWO_DAYS) SetGlobal("AnomenCor","GLOBAL",6) SetGlobal("YF_LordAndLadyDelryn","GLOBAL",1) SetGlobal("YF_CorFight","GLOBAL",2)~ //ReallyForceSpell("Anomen",PALADIN_DETECT_EVIL)~//让阿诺门整个变红一下，以示转变
+== ANOMENP IF ~Dead("YF_Clara")~ @3271 //我的爱，克拉拉，我马上带你去神殿请求牧师复活你。
+DO ~ClearAllActions() StartCutSceneMode() FadeToColor([20.0],0) ReallyForceSpell("YF_Clara",CLERIC_RAISE_DEAD) Wait(2) FadeFromColor([20.0],0) Wait(2) SmallWait(1) EndCutSceneMode()~
 = @328 /*<CHARNAME>, please give us a few more days to put all of our affairs in order, and then we will happily join you again if you will have us.*/
 END
 	++ @329 /*Of course, Anomen, you are both valuable members of this group.*/ 
