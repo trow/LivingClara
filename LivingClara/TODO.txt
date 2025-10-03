@@ -2,3 +2,5 @@ Need to clean up unused variables.
 
 [TOB part]
 If Dorn chooses to betray and slay both of his former masters, becoming a fallen blackguard, then Dorn's Bloody Path personal quest is replaced by Anomen’s Kinslayer Vengeance. The overall flow remains largely the same, though some details differ.
+
+I want to give Anomen a new shield to replace his original family shield, which becomes unusable after he kills his father, but I'm not sure where would be the best place to put it. Maybe it should be placed among the crafted items?
