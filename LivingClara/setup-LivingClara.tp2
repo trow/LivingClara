@@ -340,7 +340,7 @@ target = 1
 timing = 2
 parameter2 = 11
 power = 1
-special = RESOLVE_STR_REF (@681) // 引用 "Edwin"
+special = RESOLVE_STR_REF (#271) // 引用 "Edwin"
 STR_VAR
 resource = Edwin// 限制给 "Edwin"
 END 
@@ -349,6 +349,17 @@ COPY ~LivingClara/Items/YF_NPSHD.itm~ ~override~
 SAY NAME1  @94
 SAY NAME2  @94
 SAY DESC  @95
+LPF ADD_ITEM_EQEFFECT
+INT_VAR
+opcode = 319
+target = 1
+timing = 2
+parameter2 = 11
+power = 1
+special = RESOLVE_STR_REF (#9138)
+STR_VAR
+resource = Anomen
+END 
 
 // 单独复制需要修改文本或效果的物品文件。
 // 复制并修改 YF_BELT2.itm (Girdle of Femininity/Masculinity)。
