@@ -63,13 +63,13 @@ THEN
 	RESPONSE #100
 	CreateVisualEffectObject("SHAIR","Anomen")
 	Wait(1)
-	ChangeClass("Anomen",PALADIN)  // 阿诺门
-	SmallWait(5)
     ActionOverride("Anomen",AddKit(Blackguard))
     ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
     ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
 	AddXPObject("Anomen",64000) 
 	SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",1)
+	ChangeClass("Anomen",PALADIN)  // 阿诺门
+	SmallWait(5)
 	ActionOverride("Anomen",StartDialog("ANOMENP",Player1))
 	Continue()
 END
@@ -88,14 +88,14 @@ THEN
 	RESPONSE #100	
 	CreateVisualEffectObject("SHAIR","Anomen")
 	Wait(1)
-	ChangeClass("Anomen",PALADIN)  // 阿诺门
-	SmallWait(5)
     ActionOverride("Anomen",AddKit(Blackguard))
     ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
     ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
 	AddXPObject("Anomen",64000) 
     ActionOverride("Anomen",DropItem("NPSHLD",[-1.-1]))  // 德尔林家传护盾
 	SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",1)
+	ChangeClass("Anomen",PALADIN)  // 阿诺门
+	SmallWait(5)
 	ActionOverride("Anomen",StartDialog("ANOMENP",Player1))
 	Continue()
 END
@@ -110,8 +110,6 @@ IF
 THEN
     RESPONSE #100
 		Wait(1)
-        ChangeClass("Anomen",PALADIN)  // 阿诺门
-		SmallWait(5)
         ActionOverride("Anomen",AddKit(Blackguard))
         ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
         ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
@@ -119,6 +117,8 @@ THEN
         SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",1)
         ActionOverride("Anomen",DropItem("NPSHLD",[-1.-1]))  // 德尔林家传护盾
         ActionOverride("Anomen",PickUpItem("NPSHLD"))  // 德尔林家传护盾
+        ChangeClass("Anomen",PALADIN)  // 阿诺门
+		SmallWait(5)
 		Continue()
 END
 
