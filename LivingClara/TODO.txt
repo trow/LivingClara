@@ -1,6 +1,6 @@
 Need to clean up unused variables.
 
-[TOB part]
+[TOB part] Maybe not
 If Dorn chooses to betray and slay both of his former masters, becoming a fallen blackguard, then Dorn's Bloody Path personal quest is replaced by Anomen’s Kinslayer Vengeance. The overall flow remains largely the same, though some details differ.
 
-I want to give Anomen a new shield to replace his original family shield, which becomes unusable after he kills his father, but I'm not sure where would be the best place to put it. Maybe it should be placed among the crafted items?
+I'd like to create a new shield for Anomen to replace his original family shield (which becomes unusable after he kills his father). However, I'm unsure about the best place to introduce it. Perhaps it could be added to Cespy's crafting options? The recipe would be: Combine the Delryn Family Shield (NPSHLD) with an Iron Rod (OHHROD), another component, and 100,000 GP to create the Delryn Family Legacy +4 (YD_NPSHD).Is it the best way to implement this?
