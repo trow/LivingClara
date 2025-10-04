@@ -257,6 +257,7 @@ special = RESOLVE_STR_REF (@2)  // 特殊参数：这里引用 @2 ("Clara") 的�
 STR_VAR
 resource = YF_Clara// 指定允许使用的角色脚本名是 "YF_Clara"。
 END// 结束 LPF 调用。
+
 // --- 物品: Clara's Jansen Techno-Gloves (YF_Glove.itm) ---
 // 复制需要修改文本/脚本的单个物品文件。
 COPY ~LivingClara/Items/YF_Glove.itm~ ~override~
@@ -358,8 +359,25 @@ parameter2 = 11
 power = 1
 special = RESOLVE_STR_REF (#9138)
 STR_VAR
-resource = Anomen
-END 
+resource = ANOMEN
+END
+
+EXTEND_BOTTOM ~BOTSMITH.bcs~ ~LivingClara/Scripts/YF_BOTSMITH.baf~
+COMPILE ~LivingClara/Dialogues/YF_BOTSMITH.d~
+
+ACTION_IF FILE_EXISTS_IN_GAME ~item_use.2da~ BEGIN
+	OUTER_SET strref_clara = RESOLVE_STR_REF (@2)
+	APPEND ~item_use.2da~ ~YF_SCOPE YF_Clara 9382 2 %strref_clara%~ UNLESS ~YF_SCOPE~
+	APPEND ~item_use.2da~ ~YF_Glove YF_Clara 9382 2 %strref_clara% ~ UNLESS ~YF_Glove~
+	APPEND ~item_use.2da~ ~YF_Kata YF_Clara 9382 2 %strref_clara% ~ UNLESS ~YF_Kata~
+	APPEND ~item_use.2da~ ~YF_Rng45 YF_Clara 9382 2 %strref_clara% ~ UNLESS ~YF_Rng45~
+	APPEND ~item_use.2da~ ~YF_BELTC YF_Clara 9382 2 %strref_clara% ~ UNLESS ~YF_BELTC~
+	APPEND ~item_use.2da~ ~YF_BELTE YF_Clara 9382 2 271 ~ UNLESS ~YF_BELTE~
+	APPEND ~item_use.2da~ ~YF_NPSHD ANOMEN 9382 2 9138~ UNLESS ~YF_NPSHD~
+	
+	COPY_EXISTING ~item_use.2da~ ~override~
+	PRETTY_PRINT_2DA
+END
 
 // 单独复制需要修改文本或效果的物品文件。
 // 复制并修改 YF_BELT2.itm (Girdle of Femininity/Masculinity)。
