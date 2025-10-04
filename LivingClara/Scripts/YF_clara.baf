@@ -540,7 +540,6 @@ THEN
 	SetGlobal("HopToItClara","LOCALS",1)
 	ChangeAIScript("",DEFAULT)
 	ChangeEnemyAlly(Myself,GOODBUTBLUE)
-	Hide()
 END
 
 IF
