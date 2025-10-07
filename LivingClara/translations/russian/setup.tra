@@ -2,49 +2,49 @@
 @1 /*Begin*/ = ~Клара и Дарксайд Аномен~
 @2 /*Clara Name*/ = ~Клара~
 @3 /*Clara Bio*/ = ~Клара не решается распространяться о своём прошлом, но может поделиться некоторыми фактами, если её расспросить. Она выросла на ферме и прибыла в Аткатлу несколько лет назад в надежде найти работу актрисы. Однако её усилия не увенчались успехом, поэтому она выучилась основам воровства у старого теневого вора, чтобы наскрести на жизнь. Несмотря на то, что Клара была обычной воровкой, она зарабатывала достаточно, чтобы регулярно платить гильдии за разрешение работать в городе, пока не попала в плен к Хексат.~
-@4 /*MORALE*/ = ~Я не хочу умирать снова!~ [YF_Cla01] //"I.. need help" - Ariannee,  
-@5 /*LEADER*/ = ~Ты можешь доверять мне, это сделает нас богатыми.~ [YF_Cla02] // "A fine idea" - Ariannev
-@6 /*TIRED*/ = ~Мы можем остановиться на отдых? Мне нужен мой прекрасный сон.~ [YF_Cla03] //"Yawn" - Arianned
+@4 /*MORALE*/ = ~Мне... нужна помощь!~ [YF_Cla01] //"I.. need help" - Ariannee,  
+@5 /*LEADER*/ = ~Отличная идея.~ [YF_Cla02] // "A fine idea" - Ariannev
+@6 /*TIRED*/ = ~*зевает*~ [YF_Cla03] //"Yawn" - Arianned
 @7 /*BORED*/ = ~Сколько мне ещё ждать, пока мы сделаем что-нибудь интересное?~ [NYMPH01]  
-@8 /*BATTLE_CRY1*/ = ~Почувствуй мой кинжал в своей спине!~ [YF_Cla04] //"After em" - PoEFFeisty8
-@9 /*BATTLE_CRY2*/ = ~Я буду сражаться с тобой... подальше отсюда.~ [YF_Cla05] // "I am not afraid" - Arianne8
-@10 /*BATTLE_CRY3*/ = ~Сейчас ты меня видишь. А теперь нет. Теперь ты умираешь!~ [YF_Cla06] //"I will defeat you" - Ariannea   
-@11 /*BATTLE_CRY4*/ = ~Смотри туда! (Сейчас я ударю.)~ [YF_Cla07] //"I will strike you down" - Arianne9 
-@12 /*BATTLE_CRY5*/ = ~Эта леди убьёт тебя за твою наглость!~ [YF_Cla34] //"Oh, I'm gonna get you!" - Sigruna
+@8 /*BATTLE_CRY1*/ = ~За ними!~ [YF_Cla04] //"After em" - PoEFFeisty8
+@9 /*BATTLE_CRY2*/ = ~Я не боюсь.~ [YF_Cla05] // "I am not afraid" - Arianne8
+@10 /*BATTLE_CRY3*/ = ~Я тебя одолею!~ [YF_Cla06] //"I will defeat you" - Ariannea   
+@11 /*BATTLE_CRY4*/ = ~Я сокрушу тебя.~ [YF_Cla07] //"I will strike you down" - Arianne9 
+@12 /*BATTLE_CRY5*/ = ~Ох, я тебя достану!~ [YF_Cla34] //"Oh, I'm gonna get you!" - Sigruna
 @13 /*DAMAGE*/ = ~Это больно! Как смеешь ты трогать леди?~ [HVILLF06]
 @14 /*DYING*/ = ~О, нет. Пришёл час моей смерти.~ [PEASF208] 
-@15 /*HURT*/ = ~Я ранена. Я должна спрятаться.~ [YF_Cla08] //"I... think I'm bleeding" - Arianneeee
+@15 /*HURT*/ = ~Я... кажется, у меня кровь.~ [YF_Cla08] //"I... think I'm bleeding" - Arianneeee
 @16 /*AREA_FOREST*/ = ~Я не люблю лес. В нём так много жуков.~
 @17 /*AREA_CITY*/ = ~Мужчины для обольщения, народ для обкрадывания. Как хорошо вернуться в привычную обстановку.~
 @18 /*AREA_DUNGEON*/ = ~Кароли́на Луи́за Одри́ Роза́нна Алекса́ндра Сильвершилд слишком хороша для этого места.~
 @19 /*AREA_DAY*/ = ~Солнце приятно, но я предпочитаю темноту. Вот где я действительно сияю.~
-@20 /*AREA_NIGHT*/ = ~Это время секретов. Ночь скроет всё.~ [YF_Cla09] //"Time to see and not be seen" - PoEFFeisty5
-@21 /*SELECT_COMMON1*/ = ~Чего ты хочешь?~ [YF_Cla10] //"Yeah?" - PoEFFeistyf 
-@22 /*SELECT_COMMON2*/ = ~Я тебе нужна?~ [YF_Cla11] //"What can I do? - Sigrunx 
-@23 /*SELECT_COMMON3*/ = ~Чем благородная леди может помочь?~ [YF_Cla12] //"Mmm-hmm?" - PoEFSmoothg
+@20 /*AREA_NIGHT*/ = ~Время видеть, но оставаться невидимым.~ [YF_Cla09] //"Time to see and not be seen" - PoEFFeisty5
+@21 /*SELECT_COMMON1*/ = ~А?~ [YF_Cla10] //"Yeah?" - PoEFFeistyf 
+@22 /*SELECT_COMMON2*/ = ~Что я могу сделать?~ [YF_Cla11] //"What can I do? - Sigrunx 
+@23 /*SELECT_COMMON3*/ = ~М-м-м?~ [YF_Cla12] //"Mmm-hmm?" - PoEFSmoothg
 @24 /*SELECT_COMMON4*/ = ~Да?~ [YF_Cla13] //"Yes?" - Arianne0, 
-@25 /*SELECT_COMMON5*/ = ~Я слушаю.~ [YF_Cla14] //"Ready & waiting" - Arianneg
-@26 /*SELECT_COMMON6*/ = ~Что на этот раз? Я занята.~ [YF_Cla15] //"Hmm?" - PoEFFeistyg
-@27 /*SELECT_ACTION1*/ = ~Сделаю всё возможное.~ [YF_Cla16] //"I go" - Ariannei,
-@28 /*SELECT_ACTION2*/ = ~Рада помочь.~ [YF_Cla17] //"Of course" - Sigruns, 
-@29 /*SELECT_ACTION3*/ = ~Будет сделано.~ [YF_Cla18] //"It is done" - Ariannek
-@30 /*SELECT_ACTION4*/ = ~Я не предназначена для такой работы.~ [YF_Cla19] //"I've got this" - PoEFFeistyb
-@31 /*SELECT_ACTION5*/ = ~Я должна это сделать?~ [YF_Cla20] //"Already gone" - PoEFFeistys
-@32 /*SELECT_ACTION6*/ = ~Хорошо. Я сделаю, как ты хочешь.~ [YF_Cla21] //"At your command" - Ariannef,   
-@33 /*SELECT_ACTION7*/ = ~Как пожелаешь. (Где же большой и сильный мужчина, чтобы таскать вещи?~ [YF_Cla22] //"Immediately" - Ariannej
-@34 /*SELECT_RARE1*/ = ~Тьфу, ты хочешь слишком много.~ [YF_Cla23] //"Watch it" - PoEFFeistyx  
-@35 /*SELECT_RARE2*/ = ~Отойди. Я флиртую.~ [YF_Cla24] //"Do it again and I'm taking it away" - PoEFFeistyy
-@36 /*CRITICAL_HIT*/ = ~Прямо в сердце!~ [YF_Cla25] //"Hah, got him" - PoEFFeistyz
-@37 /*CRITICAL_MISS*/ = ~Упс... Я надеюсь, никто этого не видел.~ [YF_Cla26] //"Oops" - Arianne1
-@38 /*TARGET_IMMUNE*/ = ~Моё оружие не действует. Обычно они кровоточат.~ [YF_Cla27] //"Hand me another sword!" - Arianne2
-@39 /*INVENTORY_FULL*/ = ~Я не вьючное животное. Я не могу нести больше.~ [YF_Cla28] //"That's impossible" - Arianne3
-@40 /*HAPPY*/ = ~Сегодня замечательный день. Я богата, и я красива; что ещё нужно девушке?~ [YF_Cla29] //"Happy Whistling" - Sigrund
+@25 /*SELECT_COMMON5*/ = ~Готов и жду.~ [YF_Cla14] //"Ready & waiting" - Arianneg
+@26 /*SELECT_COMMON6*/ = ~Хм?~ [YF_Cla15] //"Hmm?" - PoEFFeistyg
+@27 /*SELECT_ACTION1*/ = ~Я пошёл.~ [YF_Cla16] //"I go" - Ariannei,
+@28 /*SELECT_ACTION2*/ = ~Конечно.~ [YF_Cla17] //"Of course" - Sigruns, 
+@29 /*SELECT_ACTION3*/ = ~Сделано.~ [YF_Cla18] //"It is done" - Ariannek
+@30 /*SELECT_ACTION4*/ = ~Это на мне.~ [YF_Cla19] //"I've got this" - PoEFFeistyb
+@31 /*SELECT_ACTION5*/ = ~Уже ушёл.~ [YF_Cla20] //"Already gone" - PoEFFeistys
+@32 /*SELECT_ACTION6*/ = ~К вашим услугам.~ [YF_Cla21] //"At your command" - Ariannef,   
+@33 /*SELECT_ACTION7*/ = ~Немедленно.~ [YF_Cla22] //"Immediately" - Ariannej
+@34 /*SELECT_RARE1*/ = ~Поаккуратнее.~ [YF_Cla23] //"Watch it" - PoEFFeistyx  
+@35 /*SELECT_RARE2*/ = ~Сделаешь ещё раз — и я это отберу.~ [YF_Cla24] //"Do it again and I'm taking it away" - PoEFFeistyy
+@36 /*CRITICAL_HIT*/ = ~Ха, попался!~ [YF_Cla25] //"Hah, got him" - PoEFFeistyz
+@37 /*CRITICAL_MISS*/ = ~Упс.~ [YF_Cla26] //"Oops" - Arianne1
+@38 /*TARGET_IMMUNE*/ = ~Подай мне другой меч!~ [YF_Cla27] //"Hand me another sword!" - Arianne2
+@39 /*INVENTORY_FULL*/ = ~Это невозможно.~ [YF_Cla28] //"That's impossible" - Arianne3
+@40 /*HAPPY*/ = ~*весело свистит*~ [YF_Cla29] //"Happy Whistling" - Sigrund
 @41 /*UNHAPPY_ANNOYED*/ = ~Я не хочу это делать.~
 @42 /*UNHAPPY_SERIOUS*/ = ~Тьфу. Лучше бы я снова работала на Теневых воров.~  
-@43 /*SET_A_TRAP*/ = ~Это было удачно. Я думаю, это может взорваться.~ [YF_Cla30] //"And that's how it's done" - PoEFSmooth7 
-@44 /*HIDDEN_IN_SHADOWS*/ = ~Я невидимо ускользну.~ [YF_Cla31] //"Like a shadow" - Sigrun5
-@45 /*PICKED_POCKET*/ = ~Твои денежки теперь мои.~ [YF_Cla32] //"It's mine now" - PoEFFeisty
-@46 /*REACT_TO_DIE_GENERAL*/ = ~Кажется, мне сейчас станет плохо.~ [YF_Cla33] //"Get up, damn you" - PoEFFeistyw  
+@43 /*SET_A_TRAP*/ = ~Вот так это делается.~ [YF_Cla30] //"And that's how it's done" - PoEFSmooth7 
+@44 /*HIDDEN_IN_SHADOWS*/ = ~Как тень.~ [YF_Cla31] //"Like a shadow" - Sigrun5
+@45 /*PICKED_POCKET*/ = ~Теперь это моё.~ [YF_Cla32] //"It's mine now" - PoEFFeisty
+@46 /*REACT_TO_DIE_GENERAL*/ = ~Вставай, чёрт возьми.~ [YF_Cla33] //"Get up, damn you" - PoEFFeistyw  
 
 
 
@@ -271,7 +271,7 @@ THAC0: +3
 
 СТАТИСТИКА
 
-Бонус к КБ: +5, +8 против метательных снарядов
+Бонус к КБ: +5, +7 против метательных снарядов
 Сопротивление огню и холоду: +40%
 Сопротивление урону от метательных снарядов: +50%
 Иммунитет к очарованию, замешательству, подчинению и удержанию персоны

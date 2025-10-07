@@ -2,49 +2,49 @@
 @1 /*Begin*/ = ~Clara & Darkside Anomen~
 @2 /*Clara Name*/ = ~Clara~
 @3 /*Clara Bio*/ = ~Clara is hesitant to tell you much about her past, but she will share some facts when pressed. The young woman was raised on a farm and came to Athkatla several years ago, hoping to find work as an actress. However, her efforts were unsuccessful so she learned the basics of thievery from an old Shadow Thief in order to scrape by. Although only a passable thief, Clara earned enough to pay the guild regular dues for permission to work in the city until she fell into Hexxat's thrall.~
-@4 /*MORALE*/ = ~I don't wanna die again!~ [YF_Cla01] //"I.. need help" - Ariannee,  
-@5 /*LEADER*/ = ~You can trust me to make us rich.~ [YF_Cla02] // "A fine idea" - Ariannev
-@6 /*TIRED*/ = ~Can we please stop to rest? I need my beauty sleep.~ [YF_Cla03] //"Yawn" - Arianned
+@4 /*MORALE*/ = ~I.. need help!~ [YF_Cla01] //"I.. need help" - Ariannee,  
+@5 /*LEADER*/ = ~A fine idea.~ [YF_Cla02] // "A fine idea" - Ariannev
+@6 /*TIRED*/ = ~*Yawn*~ [YF_Cla03] //"Yawn" - Arianned
 @7 /*BORED*/ = ~How long must I wait before we do something interesting?~ [NYMPH01]  
-@8 /*BATTLE_CRY1*/ = ~Feel my dagger in your back!~ [YF_Cla04] //"After em" - PoEFFeisty8
-@9 /*BATTLE_CRY2*/ = ~I will fight you... from very far away.~ [YF_Cla05] // "I am not afraid" - Arianne8
-@10 /*BATTLE_CRY3*/ = ~Now you see me. Now you don't. Now you die!~ [YF_Cla06] //"I will defeat you" - Ariannea   
-@11 /*BATTLE_CRY4*/ = ~Look over there! (And now I strike.)~ [YF_Cla07] //"I will strike you down" - Arianne9 
-@12 /*BATTLE_CRY5*/ = ~This lady will kill you for your insolence!~ [YF_Cla34] //"Oh, I'm gonna get you!" - Sigruna
+@8 /*BATTLE_CRY1*/ = ~After em!~ [YF_Cla04] //"After em" - PoEFFeisty8
+@9 /*BATTLE_CRY2*/ = ~I am not afraid.~ [YF_Cla05] // "I am not afraid" - Arianne8
+@10 /*BATTLE_CRY3*/ = ~I will defeat you!~ [YF_Cla06] //"I will defeat you" - Ariannea   
+@11 /*BATTLE_CRY4*/ = ~I will strike you down.~ [YF_Cla07] //"I will strike you down" - Arianne9 
+@12 /*BATTLE_CRY5*/ = ~Oh, I'm gonna get you!~ [YF_Cla34] //"Oh, I'm gonna get you!" - Sigruna
 @13 /*DAMAGE*/ = ~That hurt! How dare you touch a lady?~ [HVILLF06]     
 @14 /*DYING*/ = ~Oh, no. Time for my death scene.~ [PEASF208]  
-@15 /*HURT*/ = ~I am injured. I must hide.~ [YF_Cla08] //"I... think I'm bleeding" - Arianneeee
+@15 /*HURT*/ = ~I... think I'm bleeding.~ [YF_Cla08] //"I... think I'm bleeding" - Arianneeee
 @16 /*AREA_FOREST*/ = ~I don't like the woods. There are so many bugs.~  
 @17 /*AREA_CITY*/ = ~Men to flatter, people to swindle. It's good to be back where I belong.~
 @18 /*AREA_DUNGEON*/ = ~Caroline Louisa Audrey Rosanna Alexandra Silvershield is too good for this place.~  
 @19 /*AREA_DAY*/ = ~The sun is nice but I prefer the dark. That is where I truly shine.~   
-@20 /*AREA_NIGHT*/ = ~This is the time for secrets. The night hides everything.~ [YF_Cla09] //"Time to see and not be seen" - PoEFFeisty5
-@21 /*SELECT_COMMON1*/ = ~What do you want?~ [YF_Cla10] //"Yeah?" - PoEFFeistyf 
-@22 /*SELECT_COMMON2*/ = ~Do you need me?~ [YF_Cla11] //"What can I do? - Sigrunx 
-@23 /*SELECT_COMMON3*/ = ~How can this noble lady help?~ [YF_Cla12] //"Mmm-hmm?" - PoEFSmoothg
+@20 /*AREA_NIGHT*/ = ~Time to see and not be seen.~ [YF_Cla09] //"Time to see and not be seen" - PoEFFeisty5
+@21 /*SELECT_COMMON1*/ = ~Yeah?~ [YF_Cla10] //"Yeah?" - PoEFFeistyf 
+@22 /*SELECT_COMMON2*/ = ~What can I do?~ [YF_Cla11] //"What can I do? - Sigrunx 
+@23 /*SELECT_COMMON3*/ = ~Mmm-hmm?~ [YF_Cla12] //"Mmm-hmm?" - PoEFSmoothg
 @24 /*SELECT_COMMON4*/ = ~Yes?~ [YF_Cla13] //"Yes?" - Arianne0, 
-@25 /*SELECT_COMMON5*/ = ~I'm listening.~ [YF_Cla14] //"Ready & waiting" - Arianneg
-@26 /*SELECT_COMMON6*/ = ~What is it now? I'm busy.~ [YF_Cla15] //"Hmm?" - PoEFFeistyg
-@27 /*SELECT_ACTION1*/ = ~I'll do my best.~ [YF_Cla16] //"I go" - Ariannei,
-@28 /*SELECT_ACTION2*/ = ~Happy to help.~ [YF_Cla17] //"Of course" - Sigruns, 
-@29 /*SELECT_ACTION3*/ = ~It will be done.~ [YF_Cla18] //"It is done" - Ariannek
-@30 /*SELECT_ACTION4*/ = ~I'm not meant for work like this.~ [YF_Cla19] //"I've got this" - PoEFFeistyb
-@31 /*SELECT_ACTION5*/ = ~Do I have to?~ [YF_Cla20] //"Already gone" - PoEFFeistys
-@32 /*SELECT_ACTION6*/ = ~Fine. I'll do as you command.~ [YF_Cla21] //"At your command" - Ariannef,   
-@33 /*SELECT_ACTION7*/ = ~As you wish. (Where's a big strong man to carry things?)~ [YF_Cla22] //"Immediately" - Ariannej
-@34 /*SELECT_RARE1*/ = ~Uggh, you're so demanding.~ [YF_Cla23] //"Watch it" - PoEFFeistyx  
-@35 /*SELECT_RARE2*/ = ~Go away. I'm flirting.~ [YF_Cla24] //"Do it again and I'm taking it away" - PoEFFeistyy
-@36 /*CRITICAL_HIT*/ = ~Right in the heart!~ [YF_Cla25] //"Hah, got him" - PoEFFeistyz
-@37 /*CRITICAL_MISS*/ = ~Oops. I hope no one saw that.~ [YF_Cla26] //"Oops" - Arianne1
-@38 /*TARGET_IMMUNE*/ = ~My weapon isn't working. Usually things bleed.~ [YF_Cla27] //"Hand me another sword!" - Arianne2
-@39 /*INVENTORY_FULL*/ = ~I am not a beast of burden. I can't carry anymore.~ [YF_Cla28] //"That's impossible" - Arianne3
-@40 /*HAPPY*/ = ~This is the most wonderful day. I'm rich and I'm pretty; what more could a girl want?~ [YF_Cla29] //"Happy Whistling" - Sigrund
+@25 /*SELECT_COMMON5*/ = ~Ready & waiting.~ [YF_Cla14] //"Ready & waiting" - Arianneg
+@26 /*SELECT_COMMON6*/ = ~Hmm?~ [YF_Cla15] //"Hmm?" - PoEFFeistyg
+@27 /*SELECT_ACTION1*/ = ~I go.~ [YF_Cla16] //"I go" - Ariannei,
+@28 /*SELECT_ACTION2*/ = ~Of course.~ [YF_Cla17] //"Of course" - Sigruns, 
+@29 /*SELECT_ACTION3*/ = ~It is done.~ [YF_Cla18] //"It is done" - Ariannek
+@30 /*SELECT_ACTION4*/ = ~I've got this.~ [YF_Cla19] //"I've got this" - PoEFFeistyb
+@31 /*SELECT_ACTION5*/ = ~Already gone.~ [YF_Cla20] //"Already gone" - PoEFFeistys
+@32 /*SELECT_ACTION6*/ = ~At your command.~ [YF_Cla21] //"At your command" - Ariannef,   
+@33 /*SELECT_ACTION7*/ = ~Immediately.~ [YF_Cla22] //"Immediately" - Ariannej
+@34 /*SELECT_RARE1*/ = ~Watch it.~ [YF_Cla23] //"Watch it" - PoEFFeistyx  
+@35 /*SELECT_RARE2*/ = ~Do it again and I'm taking it away.~ [YF_Cla24] //"Do it again and I'm taking it away" - PoEFFeistyy
+@36 /*CRITICAL_HIT*/ = ~Hah, got him!~ [YF_Cla25] //"Hah, got him" - PoEFFeistyz
+@37 /*CRITICAL_MISS*/ = ~Oops.~ [YF_Cla26] //"Oops" - Arianne1
+@38 /*TARGET_IMMUNE*/ = ~Hand me another sword!~ [YF_Cla27] //"Hand me another sword!" - Arianne2
+@39 /*INVENTORY_FULL*/ = ~That's impossible.~ [YF_Cla28] //"That's impossible" - Arianne3
+@40 /*HAPPY*/ = ~*Happy Whistling*~ [YF_Cla29] //"Happy Whistling" - Sigrund
 @41 /*UNHAPPY_ANNOYED*/ = ~I don't want to do this.~    
 @42 /*UNHAPPY_SERIOUS*/ = ~Uggh. I'd rather be working for the Shadow Thieves again.~   
-@43 /*SET_A_TRAP*/ = ~That was lucky. I thought it might explode.~ [YF_Cla30] //"And that's how it's done" - PoEFSmooth7 
-@44 /*HIDDEN_IN_SHADOWS*/ = ~I shall slip away unseen.~ [YF_Cla31] //"Like a shadow" - Sigrun5
-@45 /*PICKED_POCKET*/ = ~Your coin belongs to me.~ [YF_Cla32] //"It's mine now" - PoEFFeisty
-@46 /*REACT_TO_DIE_GENERAL*/ = ~I think I'm going to be sick.~ [YF_Cla33] //"Get up, damn you" - PoEFFeistyw  
+@43 /*SET_A_TRAP*/ = ~And that's how it's done.~ [YF_Cla30] //"And that's how it's done" - PoEFSmooth7 
+@44 /*HIDDEN_IN_SHADOWS*/ = ~Like a shadow.~ [YF_Cla31] //"Like a shadow" - Sigrun5
+@45 /*PICKED_POCKET*/ = ~It's mine now.~ [YF_Cla32] //"It's mine now" - PoEFFeisty
+@46 /*REACT_TO_DIE_GENERAL*/ = ~Get up, damn you.~ [YF_Cla33] //"Get up, damn you" - PoEFFeistyw  
 
 
 
@@ -231,7 +231,7 @@ Weight: 5~
 
 STATISTICS
 
-AC Bonus: +5, +8 vs. missiles
+AC Bonus: +5, +7 vs. missiles
 Resistance to fire and cold: + 40%
 Resistance to missile damage: + 50%
 Immunity to Charm, Confusion, Domination and Hold Person

@@ -2,49 +2,49 @@
 @1 /*Begin*/ = ~克拉拉与阴暗的阿诺门~
 @2 /*Clara Name*/ = ~克拉拉~
 @3 /*Clara Bio*/ = ~克拉拉不太愿意告诉你她的过去，但在你的追问下，她会告诉你一些实情。她在农场长大，几年前来到阿斯卡特拉，希望找到一份演员的工作。然而，她并没有成功，所以她向一个老影贼学习了基本的偷窃技巧，以勉强度日。虽然只是一个刚及格的盗贼，但克拉拉也能赚够公会的例钱，以获得在城市活动的许可，直到她陷入赫克塞特的魔掌。~
-@4 /*MORALE*/ = ~我不想再死一次！~ [YF_Cla01] //"I.. need help" - Ariannee,  
-@5 /*LEADER*/ = ~你可以相信我，我会让我们变富。~ [YF_Cla02] // "A fine idea" - Ariannev
-@6 /*TIRED*/ = ~我们能停下来休息一下吗？我需要睡个美容觉。~ [YF_Cla03] //"Yawn" - Arianned
+@4 /*MORALE*/ = ~我……需要帮忙。~ [YF_Cla01] //"I.. need help" - Ariannee,  
+@5 /*LEADER*/ = ~好主意。~ [YF_Cla02] // "A fine idea" - Ariannev
+@6 /*TIRED*/ = ~*哈欠*~ [YF_Cla03] //"Yawn" - Arianned
 @7 /*BORED*/ = ~在我们做一些有趣的事情之前，我还要等多久？~ [NYMPH01]  
-@8 /*BATTLE_CRY1*/ = ~感受我的匕首刺入你后背的感觉。~ [YF_Cla04] //"After em" - PoEFFeisty8
-@9 /*BATTLE_CRY2*/ = ~我会在很远的地方……和你战斗。~ [YF_Cla05] // "I am not afraid" - Arianne8
-@10 /*BATTLE_CRY3*/ = ~现在你看到我了。现在你看不到了。现在你死了！~ [YF_Cla06] //"I will defeat you" - Ariannea   
-@11 /*BATTLE_CRY4*/ = ~看那边！（现在该我打了。）~ [YF_Cla07] //"I will strike you down" - Arianne9 
-@12 /*BATTLE_CRY5*/ = ~这位女士会因为你的无礼而杀了你！~ [YF_Cla34] //"Oh, I'm gonna get you!" - Sigruna
+@8 /*BATTLE_CRY1*/ = ~追上他们！~ [YF_Cla04] //"After em" - PoEFFeisty8
+@9 /*BATTLE_CRY2*/ = ~我不怕。~ [YF_Cla05] // "I am not afraid" - Arianne8
+@10 /*BATTLE_CRY3*/ = ~我会打败你。~ [YF_Cla06] //"I will defeat you" - Ariannea   
+@11 /*BATTLE_CRY4*/ = ~我会把你击倒。~ [YF_Cla07] //"I will strike you down" - Arianne9 
+@12 /*BATTLE_CRY5*/ = ~噢，我要抓住你！~ [YF_Cla34] //"Oh, I'm gonna get you!" - Sigruna
 @13 /*DAMAGE*/ = ~好痛！你怎么敢碰一位女士？~ [HVILLF06]     
 @14 /*DYING*/ = ~哦，不。要上演我的死亡了。~ [PEASF208]  
-@15 /*HURT*/ = ~我受伤了。我必须躲起来。~ [YF_Cla08] //"I…… think I'm bleeding" - Arianneeee
+@15 /*HURT*/ = ~我……好像流血了。~ [YF_Cla08] //"I…… think I'm bleeding" - Arianneeee
 @16 /*AREA_FOREST*/ = ~我不喜欢树林。虫子太多了。~  
 @17 /*AREA_CITY*/ = ~谄媚的人，诈骗的人。回到属于我的地方真好。~
 @18 /*AREA_DUNGEON*/ = ~这地方真配不上我卡罗琳·路易莎·奥黛丽·罗莎娜·亚历山德拉·银盾。~  
 @19 /*AREA_DAY*/ = ~阳光很好，但我更喜欢黑暗。那才是我真正闪耀的地方。~   
-@20 /*AREA_NIGHT*/ = ~这是秘密的时刻。黑夜掩盖了一切。~ [YF_Cla09] //"Time to see and not be seen" - PoEFFeisty5
-@21 /*SELECT_COMMON1*/ = ~你想要什么？~ [YF_Cla10] //"Yeah?" - PoEFFeistyf 
-@22 /*SELECT_COMMON2*/ = ~需要我帮忙吗？~ [YF_Cla11] //"What can I do? - Sigrunx 
-@23 /*SELECT_COMMON3*/ = ~这位高贵的女士能帮上什么忙呢？~ [YF_Cla12] //"Mmm-hmm?" - PoEFSmoothg
-@24 /*SELECT_COMMON4*/ = ~怎么了？~ [YF_Cla13] //"Yes?" - Arianne0, 
-@25 /*SELECT_COMMON5*/ = ~我在听呢。~ [YF_Cla14] //"Ready & waiting" - Arianneg
-@26 /*SELECT_COMMON6*/ = ~又怎么了？我很忙。~ [YF_Cla15] //"Hmm?" - PoEFFeistyg
-@27 /*SELECT_ACTION1*/ = ~我会尽力的。~ [YF_Cla16] //"I go" - Ariannei,
-@28 /*SELECT_ACTION2*/ = ~乐意效劳。~ [YF_Cla17] //"Of course" - Sigruns, 
-@29 /*SELECT_ACTION3*/ = ~会成功的。~ [YF_Cla18] //"It is done" - Ariannek
-@30 /*SELECT_ACTION4*/ = ~我不适合做这种工作。~ [YF_Cla19] //"I've got this" - PoEFFeistyb
-@31 /*SELECT_ACTION5*/ = ~我必须这么做吗？~ [YF_Cla20] //"Already gone" - PoEFFeistys
-@32 /*SELECT_ACTION6*/ = ~好吧。我听你指挥。~ [YF_Cla21] //"At your command" - Ariannef,   
-@33 /*SELECT_ACTION7*/ = ~如你所愿。（来个壮汉帮我搬东西啊？）~ [YF_Cla22] //"Immediately" - Ariannej
-@34 /*SELECT_RARE1*/ = ~唉，你要求真高。~ [YF_Cla23] //"Watch it" - PoEFFeistyx  
-@35 /*SELECT_RARE2*/ = ~走开。我在调情。~ [YF_Cla24] //"Do it again and I'm taking it away" - PoEFFeistyy
-@36 /*CRITICAL_HIT*/ = ~直击心灵！~ [YF_Cla25] //"Hah, got him" - PoEFFeistyz
-@37 /*CRITICAL_MISS*/ = ~哎呀。希望没人看到。~ [YF_Cla26] //"Oops" - Arianne1
-@38 /*TARGET_IMMUNE*/ = ~我的武器失效了。本来会流血的。~ [YF_Cla27] //"Hand me another sword!" - Arianne2
-@39 /*INVENTORY_FULL*/ = ~我不是头驮东西的牲口。我再也背不动了。~ [YF_Cla28] //"That's impossible" - Arianne3
-@40 /*HAPPY*/ = ~这是最美好的一天。有钱，漂亮，一个女孩还想要什么呢？~ [YF_Cla29] //"Happy Whistling" - Sigrund
+@20 /*AREA_NIGHT*/ = ~是时候观察而不被发现了。~ [YF_Cla09] //"Time to see and not be seen" - PoEFFeisty5
+@21 /*SELECT_COMMON1*/ = ~嗯？~ [YF_Cla10] //"Yeah?" - PoEFFeistyf 
+@22 /*SELECT_COMMON2*/ = ~需要我做什么？~ [YF_Cla11] //"What can I do? - Sigrunx 
+@23 /*SELECT_COMMON3*/ = ~嗯哼？~ [YF_Cla12] //"Mmm-hmm?" - PoEFSmoothg
+@24 /*SELECT_COMMON4*/ = ~什么事？~ [YF_Cla13] //"Yes?" - Arianne0, 
+@25 /*SELECT_COMMON5*/ = ~准备就绪，随时待命。~ [YF_Cla14] //"Ready & waiting" - Arianneg
+@26 /*SELECT_COMMON6*/ = ~嗯？~ [YF_Cla15] //"Hmm?" - PoEFFeistyg
+@27 /*SELECT_ACTION1*/ = ~我上了。~ [YF_Cla16] //"I go" - Ariannei,
+@28 /*SELECT_ACTION2*/ = ~当然。~ [YF_Cla17] //"Of course" - Sigruns, 
+@29 /*SELECT_ACTION3*/ = ~搞定。~ [YF_Cla18] //"It is done" - Ariannek
+@30 /*SELECT_ACTION4*/ = ~交给我了。~ [YF_Cla19] //"I've got this" - PoEFFeistyb
+@31 /*SELECT_ACTION5*/ = ~已经搞定了。~ [YF_Cla20] //"Already gone" - PoEFFeistys
+@32 /*SELECT_ACTION6*/ = ~听您指挥。~ [YF_Cla21] //"At your command" - Ariannef,   
+@33 /*SELECT_ACTION7*/ = ~马上。~ [YF_Cla22] //"Immediately" - Ariannej
+@34 /*SELECT_RARE1*/ = ~小心点。~ [YF_Cla23] //"Watch it" - PoEFFeistyx  
+@35 /*SELECT_RARE2*/ = ~再这样我就把它没收了。~ [YF_Cla24] //"Do it again and I'm taking it away" - PoEFFeistyy
+@36 /*CRITICAL_HIT*/ = ~哈，逮到他了。~ [YF_Cla25] //"Hah, got him" - PoEFFeistyz
+@37 /*CRITICAL_MISS*/ = ~哎呀。~ [YF_Cla26] //"Oops" - Arianne1
+@38 /*TARGET_IMMUNE*/ = ~再给我一把剑！~ [YF_Cla27] //"Hand me another sword!" - Arianne2
+@39 /*INVENTORY_FULL*/ = ~这不可能。~ [YF_Cla28] //"That's impossible" - Arianne3
+@40 /*HAPPY*/ = ~*愉快地吹口哨*~ [YF_Cla29] //"Happy Whistling" - Sigrund
 @41 /*UNHAPPY_ANNOYED*/ = ~我不想这么做。~    
 @42 /*UNHAPPY_SERIOUS*/ = ~唉。我宁愿再为影贼干活。~   
-@43 /*SET_A_TRAP*/ = ~真幸运。我还以为会爆炸呢。~ [YF_Cla30] //"And that's how it's done" - PoEFSmooth7 
-@44 /*HIDDEN_IN_SHADOWS*/ = ~我会偷偷溜走。~ [YF_Cla31] //"Like a shadow" - Sigrun5
-@45 /*PICKED_POCKET*/ = ~你的钱是我的了。~ [YF_Cla32] //"It's mine now" - PoEFFeisty
-@46 /*REACT_TO_DIE_GENERAL*/ = ~我觉得我要吐了。~ [YF_Cla33] //"Get up, damn you" - PoEFFeistyw  
+@43 /*SET_A_TRAP*/ = ~搞定，就该这么办。~ [YF_Cla30] //"And that's how it's done" - PoEFSmooth7 
+@44 /*HIDDEN_IN_SHADOWS*/ = ~如同影子一般。~ [YF_Cla31] //"Like a shadow" - Sigrun5
+@45 /*PICKED_POCKET*/ = ~现在归我了。~ [YF_Cla32] //"It's mine now" - PoEFFeisty
+@46 /*REACT_TO_DIE_GENERAL*/ = ~给我起来，混蛋。~ [YF_Cla33] //"Get up, damn you" - PoEFFeistyw  
 
 
 
@@ -60,7 +60,7 @@
 
 在那些墙壁之内，人们谈论着这样的秘密，达成了这样的商业交易，如果最终结果总是对德尔林勋爵有利，那也是理所当然的。毕竟，德尔林女士是每个富贾贵胄所渴望的贤内助，每当他们看到阿诺门身边的卡罗琳时，他们对他充满了羡慕。~
 
-@79 /*If Clara married Cor & he and Anomen are dead*/ = ~在离开<CHARNAME>的团队后，克拉拉回到了德尔林庄园，致力于重建她已故丈夫的财富。好运似乎总是伴随着这位女士，因为她的所有主要商业对手突然退休或去世，不到一年，她就还清了丈夫的债务，并开始积累自己的小财富。许多人预测，她将把德尔林的资产发展成为一个足以与安姆任何商业帝国相媲美的商业帝国。
+@79 /*If Clara married Cor & he and Anomen are dead*/ = ~在离开<CHARNAME>的团队后，克拉拉回到了德尔林庄园，致力于重建她已故丈夫的财富。好运似乎总是伴随着这位女士，因为她的所有主要商业对手突然退休或去世，不到一年，她就清偿了丈夫的债务，并开始积累自己的小财富。许多人预测，她将把德尔林的资产发展成为一个足以与安姆任何商业帝国相媲美的商业帝国。
 
 然而，事实并非如此。在她返回三年后，这位女士卖掉了她无法携带的一切，从此卡罗琳·路易莎·奥黛丽·罗莎娜·亚历山德拉·银盾·德尔林女士再也没有出现过。~
 
@@ -83,7 +83,7 @@
 然而，命运却另有安排。在她返回三年后，这位女士变卖了她无法带走的一切，从此卡罗琳·路易莎·奥黛丽·罗莎娜·亚历山德拉·银盾·德尔林女士再也没有出现过。~
 
 
-@83 /*New Anomen epilogue if he married Clara*/ = ~在离开<CHARNAME>的陪伴后，阿诺门与他的妻子，卡罗琳女士，一同回到了德尔林庄园，并携手努力重建家族的财富。好运似乎总是伴随着这对夫妇，不久之后，这位领主不仅清除了他父亲的债务，还开始积累自己的财富。然而，尽管他的地位有所提升，阿诺门仍然忠于他所信仰的神的教义。尽管有时显得严厉，但他的判断总是公正的，那些为他的家族工作的人都知道，他们的忠诚将会得到相应的回报。
+@83 /*New Anomen epilogue if he married Clara*/ = ~在离开<CHARNAME>的陪伴后，阿诺门与他的妻子，卡罗琳女士，一同回到了德尔林庄园，并携手努力重建家族的财富。好运似乎总是伴随着这对夫妇，不久之后，这位领主不仅清偿了他父亲的债务，还开始积累自己的财富。然而，尽管他的地位有所提升，阿诺门仍然忠于他所信仰的神的教义。尽管有时显得严厉，但他的判断总是公正的，那些为他的家族工作的人都知道，他们的忠诚将会得到相应的回报。
 
 最终，年轻的德尔林领主被邀请加入六人议会。虽然没有人正式知道他的地位，但阿斯卡特拉统治者的变化对所有人来说都是显而易见的。在阿诺门的指导下，政府开始更多地帮助普通民众，并与世界上的邪恶作斗争。他不满足于让不公正的事情视而不见，那些反对他的人往往会迅速改变态度或突然消失。这足以引起几次调查，但德尔林领主的妻子始终支持他，从未发现任何不正当行为的证据。
 
@@ -202,7 +202,7 @@
 @95 = ~这是阿诺门家族遗产，原先的盾牌是他父亲给他的。现在这面盾牌得以重铸并提升了它的能力。
 
 数据资料：
-防御等级：+5改善，对远程武器+8
+防御等级：+5改善，对远程武器额外+2
 火焰和寒冰抗力：+40%
 远程武器抗力：+50%
 魔法抗力：+10%
@@ -222,12 +222,12 @@
 
 @98 /*Darkside Anomen Romance Epilogue - player doesn't choose god*/ = ~阿诺门和<CHARNAME>一起回到了德尔林庄园，两人在一场盛大的仪式中结为夫妇。这对夫妇共同努力重建家族的财富，并且在每一个努力中都得到了好运的跟随。不久，这位领主不仅清偿了他父亲的债务，还开始积累了自己的财富。然而，尽管他获得了新的地位，阿诺门仍然忠于他的神的教义。尽管有时严厉，但他的判断总是公正的，那些为他的家族工作的人都知道，他们的忠诚将会得到相应的回报。
 
-最终，年轻的德莱林领主被提供在六人议会中担任职位，虽然没有人正式知道他的地位，但阿斯卡特拉的统治变化对所有人来说都是显而易见的。在阿诺门和<CHARNAME>的领导下，政府开始更多地帮助普通民众，并更多地与世界上的邪恶作斗争。他不满足于让不公正的事情视而不见，那些反对他的人往往会遭遇不幸的事故。尽管这些巧合引发了调查，但德莱林领主的妻子始终支持他，并且从未发现任何不当行为的证据。
+最终，年轻的德莱林领主被提议在六人议会中担任职位，虽然没有人正式知道他的地位，但阿斯卡特拉的统治变化对所有人来说都是显而易见的。在阿诺门和<CHARNAME>的领导下，政府开始更多地帮助普通民众，并更多地与世界上的邪恶作斗争。他不满足于让不公正的事情视而不见，那些反对他的人往往会遭遇不幸的事故。尽管这些巧合引发了调查，但德莱林领主的妻子始终支持他，并且从未发现任何不当行为的证据。
 
 确实，当年轻的领主和嫉妒的对手询问他好运的秘密时，阿诺门只会谦虚地说：“我一直很幸运。是的，为了将家族的事业建设成今天这样，我付出了辛勤的努力，但我并非独自一人完成的。我所拥有的一切都归功于海姆以及我亲爱的<CHARNAME>的持续支持。没有她，我就不会是今天的我。”~
 
 
-@99 /*Darkside Anomen Romance Epilogue - player chose god*/ = ~离开<CHARNAME>之后，阿诺门回到了德尔林庄园，努力重建家族的财富。好运在每一个努力中都伴随着他，不久这位领主不仅清除了他父亲的债务，还开始积累了自己的财富。尽管有时严厉，阿诺门的判断总是公正的，那些为他的家族工作的人都知道，他们的忠诚将会得到相应的回报。
+@99 /*Darkside Anomen Romance Epilogue - player chose god*/ = ~离开<CHARNAME>之后，阿诺门回到了德尔林庄园，努力重建家族的财富。好运在每一个努力中都伴随着他，不久这位领主不仅清偿了他父亲的债务，还开始积累了自己的财富。尽管有时严厉，阿诺门的判断总是公正的，那些为他的家族工作的人都知道，他们的忠诚将会得到相应的回报。
 
 最终，年轻的德尔林领主被提供在六人议会中担任职位，虽然没有人正式知道他的地位，但阿斯卡特拉的统治变化对所有人来说都是显而易见的。在阿诺门的指导下，政府开始更多地帮助普通民众，并更多地与世界上的邪恶作斗争。他不满足于让不公正的事情视而不见，那些反对他的人往往会在一夜之间改变主意或者干脆消失。尽管有几次针对这些事件的调查，但从未发现德尔林领主有任何不当行为的证据。
 
