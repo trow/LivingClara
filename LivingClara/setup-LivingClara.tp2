@@ -346,6 +346,7 @@ STR_VAR
 resource = Edwin// 限制给 "Edwin"
 END 
 
+//德尔林的家族遗产+4
 COPY ~LivingClara/Items/YF_NPSHD.itm~ ~override~
 SAY NAME1  @94
 SAY NAME2  @94
@@ -362,9 +363,11 @@ STR_VAR
 resource = ANOMEN
 END
 
+//给塞斯潘纳增加重铸阿诺门盾牌的对话
 EXTEND_BOTTOM ~BOTSMITH.bcs~ ~LivingClara/Scripts/YF_BOTSMITH.baf~
 COMPILE ~LivingClara/Dialogues/YF_BOTSMITH.d~
 
+//在2da文件中添加成员专用属性限制，以免万能巧手的队友可以随意使用
 ACTION_IF FILE_EXISTS_IN_GAME ~item_use.2da~ BEGIN
 	OUTER_SET strref_clara = RESOLVE_STR_REF (@2)
 	APPEND ~item_use.2da~ ~YF_SCOPE YF_Clara 9382 2 %strref_clara%~ UNLESS ~YF_SCOPE~
