@@ -54,9 +54,9 @@ CHAIN ANOMENJ YF_InnocenceBribe
 = @30 /*<CHARNAME> may I borrow the rest from the group coffers?*/
 END
 	++ @31 /*Not right now, Anomen. We need the money.*/ EXTERN CORNEIL YF_NoMFC
-	+ ~PartyGoldGT(4999) Global("AnomenRomanceActive","GLOBAL",2)~ + @32 /*Of course, Anomen, I know you will pay it back when you can.*/ EXTERN CORNEIL YF_YesMFC
-	+ ~PartyGoldGT(4999) !Global("AnomenRomanceActive","GLOBAL",2)~ + @33 /*Of course, Anomen; I am sure you will pay it back when you can.*/ EXTERN CORNEIL YF_YesMFC
-	+ ~PartyGoldLT(5000)~ + @34 /*Sorry, Anomen. We don't have the funds right now.*/ EXTERN CORNEIL YF_NoMFC
+	+ ~PartyGoldGT(9999) Global("AnomenRomanceActive","GLOBAL",2)~ + @32 /*Of course, Anomen, I know you will pay it back when you can.*/ EXTERN CORNEIL YF_YesMFC
+	+ ~PartyGoldGT(9999) !Global("AnomenRomanceActive","GLOBAL",2)~ + @33 /*Of course, Anomen; I am sure you will pay it back when you can.*/ EXTERN CORNEIL YF_YesMFC
+	+ ~PartyGoldLT(10000)~ + @34 /*Sorry, Anomen. We don't have the funds right now.*/ EXTERN CORNEIL YF_NoMFC
 
 CHAIN CORNEIL YF_NoMFC
 @35 /*That is regrettable, but there is no hurry. Please return when you have the funds.*/
@@ -65,13 +65,13 @@ EXIT
 
 CHAIN CORNEIL YF_YesMFC
 @36 /*Excellent. Return in two days and I should have the results of my investigation.*/
-DO ~TakePartyGold(5000) SetGlobal("YF_AnomenClearsName","GLOBAL",2) SetGlobal("YF_CorneilPaid","GLOBAL",1) SetGlobal("YF_CorneilWaiting","GLOBAL",2) AddJournalEntry(@1002,QUEST)~ /*Clearing Anomen's Name: A Visit to a Wizard
+DO ~TakePartyGold(10000) SetGlobal("YF_AnomenClearsName","GLOBAL",2) SetGlobal("YF_CorneilPaid","GLOBAL",1) SetGlobal("YF_CorneilWaiting","GLOBAL",2) AddJournalEntry(@1002,QUEST)~ /*Clearing Anomen's Name: A Visit to a Wizard
 
 Anomen wishes us to stop by the Council of Six Building in Athkatla and speak with the wizard Corneil in an effort to clear his name. He hopes the wizard can use his magic to find evidence of Saerk's wrongdoing and thus make his murder justified.*/
 EXIT
 
 EXTEND_BOTTOM CORNEIL 0 /*What is it you wish? You are obviously out of place here, so unless you have pressing business, I am very busy and do not wish to be bothered by such as you.*/
-	+ ~Global("YF_CorneilWaiting","GLOBAL",1) PartyGoldGT(4999) InParty("Anomen")~ + @37 /*We have the money to investigate the actions of House Farrahd for Lord Anomen Delryn.*/ + YF_YesMFC
+	+ ~Global("YF_CorneilWaiting","GLOBAL",1) PartyGoldGT(9999) InParty("Anomen")~ + @37 /*We have the money to investigate the actions of House Farrahd for Lord Anomen Delryn.*/ + YF_YesMFC
 END
 
 
