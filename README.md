@@ -1,41 +1,38 @@
-![Language](https://img.shields.io/static/v1?label=language&message=Chinese%20%7C%20English%20%7C%20Russian&color=limegreen)
-![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2EE%20%7C%20EET&color=dodgerblue)
-
 # Living Clara
-**Clara NPC Mod and Dark Side Anomen!**
+**Clara NPC Mod and Dark Side Anomen Expansion**
 
 ---
 
 **Project Address:** https://github.com/trow/LivingClara
 
-This mod is a **modified and streamlined version** based on Ratatoskr and BCaesar's "All Things Mazzy", focusing exclusively on Clara's NPC content. If you want to keep Clara in your party, this mod is perfect for you!
+This mod focuses exclusively on Clara's NPC content, allowing you to save Clara when facing Hexxat.
 
 ![Clara Portrait](https://static.wikia.nocookie.net/baldursgategame/images/5/5f/Clara_OHHEX_Portrait_BG2EE.png)
 
-> Created with [authorization](https://forums.beamdog.com/discussion/71473/megamod-3-16-mazzy-romance-clara-npc-darkside-anomen-flying-aerie-for-the-evil-more-done/p46) from BCaesar and Ratatoskr.
+> This is an **overhaul** of Ratatoskr and BCaesar's "All Things Mazzy", created with explicit [authorization](https://forums.beamdog.com/discussion/71473/_/p46) from the original authors, for which we are very grateful.
 
 ## Project Overview
 
-This mod streamlines content from the original Mazzy MegaMod, retaining only Clara-related components while removing all other content. It includes two main features:
+This mod includes two main features:
 
 ### 1. Keepable Clara
-Clara will no longer disappear shortly after recruitment at the Copper Coronet. We have reworked the conclusion of Hexxat's companion quest, allowing you to destroy Hexxat and save Clara permanently. 
+When facing Hexxat, Clara will no longer die. We've reworked the conclusion of Hexxat's companion quest, allowing you to permanently destroy Hexxat and save Clara.
 
-Clara is a Female Human Lawful Evil Thief **with the ability to change her kit at any time**. Though initially weak, she can level up rapidly through numerous interjections with party members, gaining various attribute and ability bonuses. She can also be summoned directly when starting a new *Throne of Bhaal* campaign.
+Clara is a Female Human Lawful Evil Thief **with the ability to change her kit at any time**. Though initially underpowered, she can rapidly level up through numerous interjections with party members, gaining various attribute and ability bonuses. She can also be directly summoned when starting a new *Throne of Bhaal* campaign.
 
-### 2. Dark Side Anomen: An Evil Path Expansion
-If Anomen fails his paladin trial, this component adds extensive content for his Chaotic Neutral alignment. With Clara's influence, Anomen might still achieve his goal of becoming a paladin - through darker means.
+### 2. Dark Side Anomen
+If Anomen fails his paladin trial, this component adds extensive content for his Chaotic Neutral alignment. With Clara's influence, Anomen might still achieve his goal of becoming a <span style="background-color: black; color: black;">real</span> paladin.
 
 ## Compatibility & Installation
 
 **Compatibility Notes:**
 - Compatible with most mods
 - **Do NOT install alongside the original Mazzy MegaMod** (contains duplicate content)
-- Recommended to use with Banter Accelerator for better interjection frequency
 
 **Installation Order:**
 - Install after Saradas-Magic-BG2 for proper Crossmod interjections
-- On EET: install before EET_End
+- On EET installations: install before EET_End
+- Recommended to use with Banter Accelerator for optimal interjection frequency
 
 ## Credits
 
