@@ -34,6 +34,7 @@ LANGUAGE ~Russian~ ~russian~
 
 
 BEGIN @1 /*~Living Clara~*/        //Any text written after Begin will appear as XXX in the Weidu install: Install XXX?
+LABEL YF-LivingClara
 
 // Adds CD_STATE_NOTVALID state from CamDawg. May be unnecessary when coding for EE.
 APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
