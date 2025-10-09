@@ -21,7 +21,7 @@ When facing Hexxat, Clara will no longer die. We've reworked the conclusion of H
 Clara is a Female Human Lawful Evil Thief **with the ability to change her kit at any time**. Though initially underpowered, she can rapidly level up through numerous interjections with party members, gaining various attribute and ability bonuses. She can also be directly summoned when starting a new *Throne of Bhaal* campaign.
 
 ### 2. Dark Side Anomen
-If Anomen fails his paladin trial, this component adds extensive content for his Chaotic Neutral alignment. With Clara's influence, Anomen might still achieve his goal of becoming a <span style="background-color: black; color: black;">real</span> paladin.
+If Anomen fails his paladin trial, this component adds extensive content for his Chaotic Neutral alignment. With Clara's influence, Anomen might still achieve his goal of becoming a *real* paladin.
 
 ## Compatibility & Installation
 
