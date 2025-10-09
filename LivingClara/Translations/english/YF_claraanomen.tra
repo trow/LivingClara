@@ -587,6 +587,7 @@ Anomen and Clara have left for his estate, asking me to join them in a few days 
 @468 /*Clara*/ = ~Our future, my love. The past cannot be changed. And your future is with me.~
 @469 /*Anomen*/ = ~Thank you, my lady. Once again, you have shown me the wisest path. I shall not let my past destroy what we have built together. I... I shall be all right. Let us continue with the task at hand.~
 
+//Clara romance with Anomen, Anomen &Cor all dead
 @470 /*Clara*/ = ~Oh, they're both dead. All my efforts were for nothing. There's nothing left for me here now, I need to get out of this place as soon as possible. <CHARNAME>, are you coming with me?~
 @471 /*CHARNAME*/ = ~Yes, let's go.~
 @472 /*CHARNAME*/ = ~No, you go ahead. I'll catch up with you later.~

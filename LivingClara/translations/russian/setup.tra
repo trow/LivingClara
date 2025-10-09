@@ -312,13 +312,13 @@ THAC0: +3
 
 
 //PRINT Notes (for Weidu Setup) - mostly just our flavor commments
-@137 = ~Wilson detected - Wilson interdia.2da append - set Wilsons's banter file (BWILSON & BWILSO25)~
-@138 = ~Wilson has no ToB override script? That must be changed!~
-@139 = ~Clara not detected. Clara is hiding. Casting True Sight and adding Clara's content.~
-@140 = ~Adding new items and spells.~
-@141 = ~Setting up Jan Jansen's Ball of Superdark Darkness.~
-@142 = ~EE Journal Entries. Titles needed.~
-@143 = ~Adding new items, new nonsense, new strange abilities...~
+@137 = ~Обнаружен Вилсон - добавление в Wilson interdia.2da - настройка файла шуток Вилсона (BWILSON & BWILSO25)~
+@138 = ~Добавление override-скрипта Вилсона для Throne of Bhaal~
+@139 = ~Добавление контента Клары~
+@140 = ~Добавление новых предметов и заклинаний~
+@141 = ~Настройка диалогов и скриптов~
+@142 = ~Записи журнала Улучшенной редакции (EE). Необходимы названия~
+@143 = ~Добавление кросмодовых реплик Сарадаста...~
 //Crossmod NPC stuff
 @144 = ~'Alora in BG2' mod detected - adding crossmod Easter egg~
 @145 = ~'Alora in BG2' mod not detected~
@@ -331,11 +331,7 @@ THAC0: +3
 @150 = ~Saradas detected - adding crossmod banters~
 @151 = ~Saradas NPC not detected~
 
-@152 = ~Searching for pure, chaste Imoen.~
-@153 = ~Searching for giant space hamster.~
-@154 = ~Creating epilogues. Too many epilogues... Why are there so many options here?~
-@155 = ~RestCheck Files: to help with all the joys of mod compatibility.~
-@156 = ~Adding Bodhi NPC for all your evil vampire needs~
-@157 = ~Adding evil options. To let you do bad things...~
-@158 = ~Crossmod Content... Because everyone must die.~
-@159 = ~Activating Sheriff Mazzy. Big Brother is watching you. Don't you dare do evil things...~
+@152 = ~Компиляция скриптов~
+@153 = ~Расширение существующих игровых скриптов~
+@154 = ~Изменение скриптов концовки~
+@155 = ~Файлы проверки сброса: чтобы помочь со всеми прелестями совместимости модов.~
