@@ -2,34 +2,35 @@
 ![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2EE%20%7C%20EET&color=dodgerblue)
 
 # Living Clara
-**Clara NPC, and Darkside Anomen!**
+**Clara NPC Mod and Dark Side Anomen!**
 ---
-This mod is a **lite edition** of Ratatoskr and BCaesar's Multi-Mod: [All Things Mazzy](https://github.com/Ratatoskr589/All-Things-Mazzy), it is a NPC mod of [Clara](https://baldursgate.fandom.com/wiki/Clara).  
-![If you want to keep Clara, this mod is likely right for you!](https://static.wikia.nocookie.net/baldursgategame/images/5/5f/Clara_OHHEX_Portrait_BG2EE.png)
+This mod is a **modified and streamlined version** of Ratatoskr and BCaesar's "All Things Mazzy", focusing exclusively on Clara's NPC content.  
+![If you want to keep Clara, this mod is perfect for you!](https://static.wikia.nocookie.net/baldursgategame/images/5/5f/Clara_OHHEX_Portrait_BG2EE.png)
 
 Created by MephistoSatanDevil with [authorization](https://forums.beamdog.com/discussion/71473/megamod-3-16-mazzy-romance-clara-npc-darkside-anomen-flying-aerie-for-the-evil-more-done/p46) from BCaesar and Ratatoskr.
 
-## What This Mod Is
-This mod modifies Ratatoskr and BCaesar's *[Mazzy MegaMod](https://github.com/Ratatoskr589/All-Things-Mazzy)*.  
-It removes some excessively explicit and sexual content from the original mod, retaining only 2 part:  
-• Keepable Clara NPC  
-• Darkside Anomen
+## Project Description
+This mod adapts content from Ratatoskr and BCaesar's *Mazzy MegaMod*, removing all content unrelated to Clara while retaining two main components:  
+• Keepable Clara
+• Dark Side Anomen
 
-**Part 1: Keepable Clara NPC**
-Clara no longer disappears shortly after recruitment at the Copper Coronet. The end of Hexxat's introductory quest have reworked ,It allowing you to **destroy Hexxat to keep Clara**. Clara is a Female Human Lawful Evil Thief **with the ability to change her kit type at will**. Though initially weak, she levels up quickly, gaining stats and abilities through party banter. You may also summon Clara when starting a new *Throne of Bhaal* game.
+**Part 1: Keepable Clara**
+Clara will no longer disappear shortly after recruitment at the Copper Coronet. We have reworked the conclusion of Hexxat's companion quest, allowing you to completely destroy Hexxat and save Clara. Clara is a Female Human Lawful Evil Thief **with the ability to change her kit at any time**. Though initially weak, she can level up rapidly through numerous interjections with party members, gaining various attribute and ability bonuses. She can also be directly summoned when starting a new *Throne of Bhaal* campaign.
 
-Living Clara also includes an soundset for Clara from *Mazzy MegaMod* (details below).
-
-**Part 2: Darkside Anomen**
-Adds content for Chaotic Neutral Anomen if he **fails his paladin test**. 
+**Part 2: Dark Side Anomen: An Expansion for Evil Anomen**
+If Anomen fails his paladin trial, this component adds content for the Chaotic Neutral Anomen. With Clara's assistance, Anomen might yet achieve his goal of becoming a paladin.
 
 ## Compatibility & Installation  
-*Living Clara* is compatible with most mods **except** the original *Mazzy MegaMod*. Do **not** install both mods simultaneously, as *Mazzy MegaMod* already includes this content. If installing on EET, make sure to do so before EET_End.
+Living Clara is compatible with most mods, but **should not** be installed alongside the original Mazzy MegaMod, as that mod already contains all content included here. Due to the extensive interjection content, we recommend using Banter Accelerator to speed up banter triggers.
+
+Install after Saradas-Magic-BG2 to properly trigger Crossmod interjections. When installing on EET, install before EET_End, or uninstall EET_End before installation.
 
 ---
 
 ## Credits  
-• **BCaesar & Ratatoskr**: Authors/maintainers of *Mazzy MegaMod*  
-• **[MephistoSatanDevil](https://github.com/MephistoSatanDevil)**: Adapted *Mazzy MegaMod* into this mod  
-• **[Shohy](https://github.com/shohysie/)**: Coding & event optimization  
-• **[Esceen](https://github.com/Esceen-cn/)**: Testing & bug reporting 
+• **MephistoSatanDevil**: Project lead, text adaptation and translation  
+• **Shohy**: Coding and event optimization  
+• **Esceen**: Testing and bug reporting
+
+## Special Thanks
+• **BCaesar & Ratatoskr**: Original Mazzy MegaMod authors/maintainers
