@@ -2,7 +2,7 @@
 ![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2EE%20%7C%20EET&color=dodgerblue)
 
 # Living Clara
-**Clara NPC Mod and Dark Side Anomen Expansion**
+**Clara NPC and Dark Side Anomen Expansion**
 
 ---
 
@@ -12,7 +12,7 @@ This mod focuses exclusively on Clara's NPC content, allowing you to save Clara 
 
 ![Clara Portrait](https://static.wikia.nocookie.net/baldursgategame/images/5/5f/Clara_OHHEX_Portrait_BG2EE.png)
 
-> This is an **overhaul** of Ratatoskr and BCaesar's "All Things Mazzy", created with explicit [authorization](https://forums.beamdog.com/discussion/71473/_/p46) from the original authors, for which we are very grateful.
+> This is an **overhaul** of Ratatoskr and BCaesar's "All Things Mazzy", created with [authorization](https://forums.beamdog.com/discussion/71473/_/p46) from the original authors, for which we are very grateful.
 
 ## Project Overview
 
