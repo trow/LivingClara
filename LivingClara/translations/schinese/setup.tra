@@ -1,127 +1,154 @@
 //Set Up TRA file
-@1 /*Begin*/ = ~克拉拉与阴暗的阿诺门~
-@2 /*Clara Name*/ = ~克拉拉~
-@3 /*Clara Bio*/ = ~克拉拉不太愿意告诉你她的过去，但在你的追问下，她会告诉你一些实情。她在农场长大，几年前来到阿斯卡特拉，希望找到一份演员的工作。然而，她并没有成功，所以她向一个老影贼学习了基本的偷窃技巧，以勉强度日。虽然只是一个刚及格的盗贼，但克拉拉也能赚够公会的例钱，以获得在城市活动的许可，直到她陷入赫克塞特的魔掌。~
-@4 /*MORALE*/ = ~我……需要帮忙。~ [YF_Cla01] //"I.. need help" - Ariannee,  
-@5 /*LEADER*/ = ~好主意。~ [YF_Cla02] // "A fine idea" - Ariannev
-@6 /*TIRED*/ = ~*哈欠*~ [YF_Cla03] //"Yawn" - Arianned
-@7 /*BORED*/ = ~在我们做一些有趣的事情之前，我还要等多久？~ [NYMPH01]  
-@8 /*BATTLE_CRY1*/ = ~追上他们！~ [YF_Cla04] //"After em" - PoEFFeisty8
-@9 /*BATTLE_CRY2*/ = ~我不怕。~ [YF_Cla05] // "I am not afraid" - Arianne8
-@10 /*BATTLE_CRY3*/ = ~我会打败你。~ [YF_Cla06] //"I will defeat you" - Ariannea   
-@11 /*BATTLE_CRY4*/ = ~我会把你击倒。~ [YF_Cla07] //"I will strike you down" - Arianne9 
-@12 /*BATTLE_CRY5*/ = ~噢，我要抓住你！~ [YF_Cla34] //"Oh, I'm gonna get you!" - Sigruna
-@13 /*DAMAGE*/ = ~好痛！你怎么敢碰一位女士？~ [HVILLF06]     
-@14 /*DYING*/ = ~哦，不。要上演我的死亡了。~ [PEASF208]  
-@15 /*HURT*/ = ~我……好像流血了。~ [YF_Cla08] //"I…… think I'm bleeding" - Arianneeee
-@16 /*AREA_FOREST*/ = ~我不喜欢树林。虫子太多了。~  
-@17 /*AREA_CITY*/ = ~谄媚的人，诈骗的人。回到属于我的地方真好。~
-@18 /*AREA_DUNGEON*/ = ~这地方真配不上我卡罗琳·路易莎·奥黛丽·罗莎娜·亚历山德拉·银盾。~  
-@19 /*AREA_DAY*/ = ~阳光很好，但我更喜欢黑暗。那才是我真正闪耀的地方。~   
-@20 /*AREA_NIGHT*/ = ~是时候观察而不被发现了。~ [YF_Cla09] //"Time to see and not be seen" - PoEFFeisty5
-@21 /*SELECT_COMMON1*/ = ~嗯？~ [YF_Cla10] //"Yeah?" - PoEFFeistyf 
-@22 /*SELECT_COMMON2*/ = ~需要我做什么？~ [YF_Cla11] //"What can I do? - Sigrunx 
-@23 /*SELECT_COMMON3*/ = ~嗯哼？~ [YF_Cla12] //"Mmm-hmm?" - PoEFSmoothg
-@24 /*SELECT_COMMON4*/ = ~什么事？~ [YF_Cla13] //"Yes?" - Arianne0, 
-@25 /*SELECT_COMMON5*/ = ~准备就绪，随时待命。~ [YF_Cla14] //"Ready & waiting" - Arianneg
-@26 /*SELECT_COMMON6*/ = ~嗯？~ [YF_Cla15] //"Hmm?" - PoEFFeistyg
-@27 /*SELECT_ACTION1*/ = ~我上了。~ [YF_Cla16] //"I go" - Ariannei,
-@28 /*SELECT_ACTION2*/ = ~当然。~ [YF_Cla17] //"Of course" - Sigruns, 
-@29 /*SELECT_ACTION3*/ = ~搞定。~ [YF_Cla18] //"It is done" - Ariannek
-@30 /*SELECT_ACTION4*/ = ~交给我了。~ [YF_Cla19] //"I've got this" - PoEFFeistyb
-@31 /*SELECT_ACTION5*/ = ~已经搞定了。~ [YF_Cla20] //"Already gone" - PoEFFeistys
-@32 /*SELECT_ACTION6*/ = ~听您指挥。~ [YF_Cla21] //"At your command" - Ariannef,   
-@33 /*SELECT_ACTION7*/ = ~马上。~ [YF_Cla22] //"Immediately" - Ariannej
-@34 /*SELECT_RARE1*/ = ~小心点。~ [YF_Cla23] //"Watch it" - PoEFFeistyx  
-@35 /*SELECT_RARE2*/ = ~再这样我就把它没收了。~ [YF_Cla24] //"Do it again and I'm taking it away" - PoEFFeistyy
-@36 /*CRITICAL_HIT*/ = ~哈，逮到他了。~ [YF_Cla25] //"Hah, got him" - PoEFFeistyz
-@37 /*CRITICAL_MISS*/ = ~哎呀。~ [YF_Cla26] //"Oops" - Arianne1
-@38 /*TARGET_IMMUNE*/ = ~再给我一把剑！~ [YF_Cla27] //"Hand me another sword!" - Arianne2
-@39 /*INVENTORY_FULL*/ = ~这不可能。~ [YF_Cla28] //"That's impossible" - Arianne3
-@40 /*HAPPY*/ = ~*愉快地吹口哨*~ [YF_Cla29] //"Happy Whistling" - Sigrund
-@41 /*UNHAPPY_ANNOYED*/ = ~我不想这么做。~    
-@42 /*UNHAPPY_SERIOUS*/ = ~唉。我宁愿再为影贼干活。~   
-@43 /*SET_A_TRAP*/ = ~搞定，就该这么办。~ [YF_Cla30] //"And that's how it's done" - PoEFSmooth7 
-@44 /*HIDDEN_IN_SHADOWS*/ = ~如同影子一般。~ [YF_Cla31] //"Like a shadow" - Sigrun5
-@45 /*PICKED_POCKET*/ = ~现在归我了。~ [YF_Cla32] //"It's mine now" - PoEFFeisty
-@46 /*REACT_TO_DIE_GENERAL*/ = ~给我起来，混蛋。~ [YF_Cla33] //"Get up, damn you" - PoEFFeistyw  
+@1 /*Begin*/ = ~Clara & Darkside Anomen~
+@2 /*Clara Name*/ = ~Clara~
+@3 /*Clara Bio*/ = ~Clara is hesitant to tell you much about her past, but she will share some facts when pressed. The young woman was raised on a farm and came to Athkatla several years ago, hoping to find work as an actress. However, her efforts were unsuccessful so she learned the basics of thievery from an old Shadow Thief in order to scrape by. Although only a passable thief, Clara earned enough to pay the guild regular dues for permission to work in the city until she fell into Hexxat's thrall.~
+@4 /*MORALE*/ = ~I.. need help!~ [YF_Cla01] //"I.. need help" - Ariannee,  
+@5 /*LEADER*/ = ~A fine idea.~ [YF_Cla02] // "A fine idea" - Ariannev
+@6 /*TIRED*/ = ~*Yawn*~ [YF_Cla03] //"Yawn" - Arianned
+@7 /*BORED*/ = ~How long must I wait before we do something interesting?~ [NYMPH01]  
+@8 /*BATTLE_CRY1*/ = ~After em!~ [YF_Cla04] //"After em" - PoEFFeisty8
+@9 /*BATTLE_CRY2*/ = ~I am not afraid.~ [YF_Cla05] // "I am not afraid" - Arianne8
+@10 /*BATTLE_CRY3*/ = ~I will defeat you!~ [YF_Cla06] //"I will defeat you" - Ariannea   
+@11 /*BATTLE_CRY4*/ = ~I will strike you down.~ [YF_Cla07] //"I will strike you down" - Arianne9 
+@12 /*BATTLE_CRY5*/ = ~Oh, I'm gonna get you!~ [YF_Cla34] //"Oh, I'm gonna get you!" - Sigruna
+@13 /*DAMAGE*/ = ~That hurt! How dare you touch a lady?~ [HVILLF06]     
+@14 /*DYING*/ = ~Oh, no. Time for my death scene.~ [PEASF208]  
+@15 /*HURT*/ = ~I... think I'm bleeding.~ [YF_Cla08] //"I... think I'm bleeding" - Arianneeee
+@16 /*AREA_FOREST*/ = ~I don't like the woods. There are so many bugs.~  
+@17 /*AREA_CITY*/ = ~Men to flatter, people to swindle. It's good to be back where I belong.~
+@18 /*AREA_DUNGEON*/ = ~Caroline Louisa Audrey Rosanna Alexandra Silvershield is too good for this place.~  
+@19 /*AREA_DAY*/ = ~The sun is nice but I prefer the dark. That is where I truly shine.~   
+@20 /*AREA_NIGHT*/ = ~Time to see and not be seen.~ [YF_Cla09] //"Time to see and not be seen" - PoEFFeisty5
+@21 /*SELECT_COMMON1*/ = ~Yeah?~ [YF_Cla10] //"Yeah?" - PoEFFeistyf 
+@22 /*SELECT_COMMON2*/ = ~What can I do?~ [YF_Cla11] //"What can I do? - Sigrunx 
+@23 /*SELECT_COMMON3*/ = ~Mmm-hmm?~ [YF_Cla12] //"Mmm-hmm?" - PoEFSmoothg
+@24 /*SELECT_COMMON4*/ = ~Yes?~ [YF_Cla13] //"Yes?" - Arianne0, 
+@25 /*SELECT_COMMON5*/ = ~Ready & waiting.~ [YF_Cla14] //"Ready & waiting" - Arianneg
+@26 /*SELECT_COMMON6*/ = ~Hmm?~ [YF_Cla15] //"Hmm?" - PoEFFeistyg
+@27 /*SELECT_ACTION1*/ = ~I go.~ [YF_Cla16] //"I go" - Ariannei,
+@28 /*SELECT_ACTION2*/ = ~Of course.~ [YF_Cla17] //"Of course" - Sigruns, 
+@29 /*SELECT_ACTION3*/ = ~It is done.~ [YF_Cla18] //"It is done" - Ariannek
+@30 /*SELECT_ACTION4*/ = ~I've got this.~ [YF_Cla19] //"I've got this" - PoEFFeistyb
+@31 /*SELECT_ACTION5*/ = ~Already gone.~ [YF_Cla20] //"Already gone" - PoEFFeistys
+@32 /*SELECT_ACTION6*/ = ~At your command.~ [YF_Cla21] //"At your command" - Ariannef,   
+@33 /*SELECT_ACTION7*/ = ~Immediately.~ [YF_Cla22] //"Immediately" - Ariannej
+@34 /*SELECT_RARE1*/ = ~Watch it.~ [YF_Cla23] //"Watch it" - PoEFFeistyx  
+@35 /*SELECT_RARE2*/ = ~Do it again and I'm taking it away.~ [YF_Cla24] //"Do it again and I'm taking it away" - PoEFFeistyy
+@36 /*CRITICAL_HIT*/ = ~Hah, got him!~ [YF_Cla25] //"Hah, got him" - PoEFFeistyz
+@37 /*CRITICAL_MISS*/ = ~Oops.~ [YF_Cla26] //"Oops" - Arianne1
+@38 /*TARGET_IMMUNE*/ = ~Hand me another sword!~ [YF_Cla27] //"Hand me another sword!" - Arianne2
+@39 /*INVENTORY_FULL*/ = ~That's impossible.~ [YF_Cla28] //"That's impossible" - Arianne3
+@40 /*HAPPY*/ = ~*Happy Whistling*~ [YF_Cla29] //"Happy Whistling" - Sigrund
+@41 /*UNHAPPY_ANNOYED*/ = ~I don't want to do this.~    
+@42 /*UNHAPPY_SERIOUS*/ = ~Uggh. I'd rather be working for the Shadow Thieves again.~   
+@43 /*SET_A_TRAP*/ = ~And that's how it's done.~ [YF_Cla30] //"And that's how it's done" - PoEFSmooth7 
+@44 /*HIDDEN_IN_SHADOWS*/ = ~Like a shadow.~ [YF_Cla31] //"Like a shadow" - Sigrun5
+@45 /*PICKED_POCKET*/ = ~It's mine now.~ [YF_Cla32] //"It's mine now" - PoEFFeisty
+@46 /*REACT_TO_DIE_GENERAL*/ = ~Get up, damn you.~ [YF_Cla33] //"Get up, damn you" - PoEFFeistyw  
 
 
 
-@47 /*Basic Clara Epilogue*/ = ~在离开<CHARNAME>的团队后，贝尔苟斯特的卡罗琳·路易莎·奥黛丽·罗莎娜·亚历山德拉·银盾返回了阿斯卡特拉。作为城市中最有资格的新贵族女子，她以她的魅力和优雅给小镇留下了深刻的印象。许多富有的求婚者试图赢得她的手，但这一荣誉最终落在了凯特拉·阿格里姆爵士的长子身上，他年轻、英俊，并且是他父亲众多金矿的管理者。
+@47 /*Basic Clara Epilogue*/ = ~After leaving <CHARNAME>'s company, Caroline Louisa Audrey Rosanna Alexandra Silvershield of Beregost returned to Athkatla. As the city's most eligible new noble maiden, she impressed the town with her charm and her grace. Many rich suitors tried to win her hand, but that honor went to the eldest son of Lord Ketlaar Argrim, who was young, handsome, and the manager of his father's many gold mines.
 
-遗憾的是，他们的婚姻幸福并没有持续太久。当卡罗琳在贝尔苟斯特的远亲得知她幸存于杀害她父母的袭击后，他们非常高兴。他们邀请她回家，整个阿格里姆家族坚持要北上拜访他们，他们的马车装满了礼物、衣服、硬币和珠宝。即使有重兵保护，他们的车队仍然太过诱人，最终在旅途中被强盗袭击。除了卡罗琳之外，家族的所有成员都被发现已死，人们认为她被俘虏了。
+Sadly, their wedded bliss did not last. When Caroline's extended family in Beregost learned that she had survived the attack that killed her parents, they were overjoyed. They invited her to return home and the entire Argrim family insisted on venturing north to see them, their wagons loaded down with a fortune in gifts, clothes, coin, and jewelry. Even heavily guarded, their caravan proved too alluring a prize and during the journey, it was overwhelmed by bandits. Every member of the family was found dead, except for Caroline, and it was assumed she had been captured.
 
-许多伟大的骑士北上击败强盗并营救他们尊贵的人质，虽然数十名强盗被击倒，阿格里姆家族的大部分财富被追回，但卡罗琳·路易莎·奥黛丽·罗莎娜·亚历山德拉·银盾·阿格里姆夫人再也没有出现过。~
+Many great knights rode north to defeat the bandits and rescue their noble prisoner, but while dozens of brigands were put down and most of the Argrim fortune recovered, Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Argrim was never seen again.~
 
-@78 /*If Clara marries Anomen*/ = ~在离开<CHARNAME>的团队后，卡罗琳·路易莎·奥黛丽·罗莎娜·亚历山德拉·银盾·德尔林女士回到了德尔林庄园，与她的丈夫阿诺门一起努力重建家族的财富。好运似乎总是伴随着他们，他们的主要商业对手突然退休或去世。在短短一年内，他们清除了债务，并开始积累自己的小财富。许多人预测，卡罗琳和她的丈夫将会把德尔林的资产发展成为一个足以与安姆任何商业帝国相媲美的商业帝国。
+@78 /*If Clara marries Anomen*/ = ~After leaving the company of <CHARNAME>, Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn returned to the Delryn estate with her husband, Anomen, and together they worked to rebuild the family's fortune. Luck seemed to follow the couple wherever they went as all of their major business rivals abruptly retired or passed away. Within a year, they had erased their debts and begun to amass a small fortune of their own. Many predicted that Caroline and her husband would grow the Delryn holdings into a business empire large enough to rival any in Amn.
 
-确实，事情正是这样发生的。在接下来的十年里，德尔林勋爵和夫人成为了阿斯卡特拉最富有、最有影响力的商人之一。当她的丈夫专注于将他们的家族推向新的高度时，德尔林女士以铁腕统治着她的家庭，作为朋友和知己支持阿诺门的努力。她是一位完美的女主人：优雅、得体，并且是每一个舞会上的焦点，很快，德尔林庄园成为了那些重要人物聚集和露面的地方。
+Indeed, that is exactly what occurred. Over the next decade, Lord and Lady Delryn became two of the richest and most powerful merchants in Athkatla. While her husband focused on raising their family to new heights, Lady Caroline ruled her household with an iron fist, supporting Anomen's endeavors as friend and confidante. She was the perfect hostess: graceful, polite, and the belle of every ball, and soon the Delryn Estate became the place for those important to gather and be seen.
 
-在那些墙壁之内，人们谈论着这样的秘密，达成了这样的商业交易，如果最终结果总是对德尔林勋爵有利，那也是理所当然的。毕竟，德尔林女士是每个富贾贵胄所渴望的贤内助，每当他们看到阿诺门身边的卡罗琳时，他们对他充满了羡慕。~
+Such secrets were spoken within those walls, such business deals were struck, and if the end result was always in Lord Delryn's favor, that was only as it should be after all. For Lady Delryn was the wife that every merchant lord desired and they looked upon Anomen with envy when he had Caroline on his arm.~
 
-@79 /*If Clara married Cor & he and Anomen are dead*/ = ~在离开<CHARNAME>的团队后，克拉拉回到了德尔林庄园，致力于重建她已故丈夫的财富。好运似乎总是伴随着这位女士，因为她的所有主要商业对手突然退休或去世，不到一年，她就清偿了丈夫的债务，并开始积累自己的小财富。许多人预测，她将把德尔林的资产发展成为一个足以与安姆任何商业帝国相媲美的商业帝国。
+@79 /*If Clara married Cor & he and Anomen are dead*/ = ~After leaving the company of <CHARNAME>, Clara returned to the Delryn estate to rebuild her late husband's fortune. Luck seemed to follow the woman wherever she went as every major business rival abruptly retired or passed away and within a year, she had erased her husband's debts and begun to amass a small fortune of her own. It was predicted by many that she would grow the Delryn holdings into a business empire large enough to rival any in Amn.
 
-然而，事实并非如此。在她返回三年后，这位女士卖掉了她无法携带的一切，从此卡罗琳·路易莎·奥黛丽·罗莎娜·亚历山德拉·银盾·德尔林女士再也没有出现过。~
+However, this was not to be. Exactly three years after her return, the woman sold everything she could not carry, and Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn was never seen again.~
 
-@80 /*If Clara marries Cor and he and Anomen are alive*/ = ~在离开<CHARNAME>之后，克拉拉回到了她丈夫寇尔的身边，并在他余生中享受着幸福的婚姻生活。不幸的是，这段幸福的时光只持续了短短三个月，寇尔便平静地在睡梦中离世，留下了悲痛欲绝的寡妇克拉拉来管理家务。
+@80 /*If Clara marries Cor and he and Anomen are alive*/ = ~After leaving the company of <CHARNAME>, Clara returned to her husband, Cor, and lived out the rest of his days in blissful wedlock. Sadly, that was only three short months before he died peacefully in his sleep and left his distraught widow in charge of his household. 
 
-由于寇尔的儿子阿诺门经常不在家，克拉拉凭借她的魅力和优雅重建了丈夫的财富。好运似乎总是伴随着她，她所到之处，所有的主要商业竞争对手要么突然退休，要么去世；不到一年，她不仅清除了丈夫的债务，还开始积累了自己的小财富。许多人预测，她将使德尔林家族的资产发展成为一个足以与安姆任何商业帝国相媲美的商业帝国。
+With Cor's son Anomen continuously away from the home, Clara rebuilt her husband's fortunes with charm and grace. Luck seemed to follow her wherever she went, every major business rival abruptly retiring or passing away; within a year she had erased her husband's debts and began to amass a small fortune of her own. It was predicted by many that she would grow the Delryn holdings into a business empire large enough to rival any in Amn.
 
-然而，事与愿违。在丈夫去世整整三年后，她变卖了她无法带走的一切，从此卡罗琳·路易莎·奥黛丽·罗莎娜·亚历山德拉·银盾·德尔林女士再也没有出现过。~
-
-
-@81 /*If Clara marries Cor and Anomen only is dead*/ = ~在离开<CHARNAME>之后，克拉拉回到了她丈夫寇尔的身边，并陪伴他度过了生命中最后的幸福时光。然而，这段幸福的时光非常短暂，仅三个月后，寇尔便在睡梦中安详离世，将他所有的财产留给了悲痛欲绝的克拉拉。
-
-尽管心中充满了悲伤，德尔林夫人还是接管了丈夫的生意。似乎好运总是伴随着她的每一步，她的每一个主要商业竞争对手要么突然退休，要么去世；不到一年，她不仅清偿了丈夫的债务，还开始积累了自己的小财富。许多人相信，她有能力将德尔林家族的产业扩张成一个在安姆无人能敌的商业巨头。
-
-然而，命运却另有安排。在丈夫去世三年后，克拉拉变卖了她无法带走的一切，从此卡罗琳·路易莎·奥黛丽·罗莎娜·亚历山德拉·银盾·德尔林女士再也没有出现过。~
+However, this was not to be. Exactly three years after her husband's death, she sold everything she could not carry, and Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn was never seen again.~
 
 
-@82 /*If Clara marries Cor and he's dead but Anomen is alive*/ = ~在离开<CHARNAME>之后，克拉拉回到了德尔林庄园。由于寇尔的儿子阿诺门经常不在家，克拉拉凭借她的魅力和优雅，成功地赚回了她丈夫的财产。幸运之神似乎特别眷顾这位女士，因为她的每一个主要商业竞争对手要么突然退休，要么去世；在短短一年内，她不仅清偿了丈夫的债务，还开始积累了自己的小财富。许多人预测，她很快就会使德尔林家族的资产发展成为一个足以与安姆任何商业帝国相媲美的商业帝国。
+@81 /*If Clara marries Cor and Anomen only is dead*/ = ~After leaving the company of <CHARNAME>, Clara returned to her husband, Cor, and lived out the rest of his days in blissful wedlock. Sadly, that was only three short months. The man died peacefully in his sleep and left his distraught widow everything he owned. 
 
-然而，命运却另有安排。在她返回三年后，这位女士变卖了她无法带走的一切，从此卡罗琳·路易莎·奥黛丽·罗莎娜·亚历山德拉·银盾·德尔林女士再也没有出现过。~
+However, despite her grief, Lady Delyrn took over her husband's business and luck seemed to follow the woman's every step. Her every major business rival abruptly retired or passed away, and within a year she had erased her husband's debts and begun to amass a small fortune of her own. It was predicted by many that she would grow the Delryn holdings into a business empire large enough to rival any in Amn.
+
+However, this was not to be. Exactly three years after her husband's death, the woman sold everything she could not carry, and Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn was never seen again.~
 
 
-@83 /*New Anomen epilogue if he married Clara*/ = ~在离开<CHARNAME>的陪伴后，阿诺门与他的妻子，卡罗琳女士，一同回到了德尔林庄园，并携手努力重建家族的财富。好运似乎总是伴随着这对夫妇，不久之后，这位领主不仅清偿了他父亲的债务，还开始积累自己的财富。然而，尽管他的地位有所提升，阿诺门仍然忠于他所信仰的神的教义。尽管有时显得严厉，但他的判断总是公正的，那些为他的家族工作的人都知道，他们的忠诚将会得到相应的回报。
+@82 /*If Clara marries Cor and he's dead but Anomen is alive*/ = ~After leaving the company of <CHARNAME>, Clara returned to the Delryn estate. With Cor's son Anomen continuously away from home, Clara rebuilt her husband's fortunes with charm and grace. Lady Luck smiled on the woman as every major business rival abruptly retired or passed away and within a year, she had erased her husband's debts and begun to amass a small fortune of her own. It was predicted by many that she would soon grow the Delryn holdings into a business empire large enough to rival any in Amn.
 
-最终，年轻的德尔林领主被邀请加入六人议会。虽然没有人正式知道他的地位，但阿斯卡特拉统治者的变化对所有人来说都是显而易见的。在阿诺门的指导下，政府开始更多地帮助普通民众，并与世界上的邪恶作斗争。他不满足于让不公正的事情视而不见，那些反对他的人往往会迅速改变态度或突然消失。这足以引起几次调查，但德尔林领主的妻子始终支持他，从未发现任何不正当行为的证据。
+However, this was not to be. Exactly three years after her return, the woman sold everything she could not carry, and Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn was never seen again.~
 
-的确，当年轻的领主和嫉妒的对手询问他好运的秘诀时，阿诺门只会谦逊地说：“我非常幸运。是的，建立今天的事业需要辛勤工作，但我并非独自完成。我感谢神明和我最亲爱的卡罗琳的持续支持。没有她，我的人生道路将会大不相同。”~
+
+@83 /*New Anomen epilogue if he married Clara*/ = ~After leaving the company of <CHARNAME>, Anomen returned to the Delryn estate with his wife, Lady Caroline, and together they worked to rebuild his family's fortune. Luck followed the couple in every endeavor and soon the lord had not only erased his father's debts but begun to amass a fortune of his own. However, despite his newfound status, Anomen stayed true to the tenets of his god. Although sometimes harsh, his judgment was always fair and those who worked for his family knew that their loyalty would be rewarded in kind.
+
+Eventually, the young Lord Delryn was offered a position on the Council of Six and while no one officially knew his status, the change in Athkatla's rulership was obvious to all. Under Anomen's direction, the government began doing more to help the common folk and more to combat evil in the world. He was not content to let injustice pass by blindly and those who stood against him tended to change their tune quite quickly or abruptly pass away. This was coincidence enough to spark several investigations, but Lord Delryn's wife stood by him and no evidence of foul play was ever found.
+
+Indeed, when asked the secret of his good fortune by young lords and jealous rivals, Anomen would only say humbly, "I have been very lucky. It took hard work, aye, to build this business into what it is today, but I did not do it by myself. I owe everything to the god and to the continuous support of my beloved Caroline. Without her, my path in life would have gone much differently."~
+
+
+//@48 /*Mazzy Romance/Friendship Epilogue - PC GOD*/ = ~After the ascension of <CHARNAME>, Mazzy retired as an adventurer and returned to Trademeet where she opened a school of archery that soon became known for producing the finest archers in the realm. She joined the Trademeet militia and the local chapter of the Temple of Arvoreen, quickly rising in their ranks and eventually leading both for many years.
+//
+//Her personal life was also fruitful. She married a good friend, a halfling ranger, and the couple had three children, each of whom grew up to be a great hero of their own. Mazzy taught them all she knew and was proud of their accomplishments, though she'd hung up her weapons except in dire need. Whenever someone asked her why she'd decided to retire, her answer was always the same:
+//
+//“When I was young and foolish, I thought I had to venture to far away lands and battle great world-threatening evil in order to be a hero, but I was incorrect. True heroism is exhibited day-to-day, and my talents are needed here by my friends and family. There is glory in great deeds, but there is also loneliness and in my time with Patrick and later <CHARNAME>, I realized that I did not want great power or a glorious death. I chose to come home so that I could live and love instead.”
+//
+//And indeed, when Mazzy died at home in her bed, everyone in Trademeet agreed. Few had lived as fully as Mazzy Fentan and few had been as loved.~
+//
+//@49 /*Romance Epilogue - PC Family*/ = ~Mazzy and <CHARNAME> journeyed together for many years as heroes, their names revered and respected far and wide. However, the couple eventually decided that it was time to settle down. They said farewell to their companions and returned to Trademeet. Mazzy joined the local chapter of the Temple of Arvoreen and started a school for archery while <CHARNAME> joined the local militia, years of adventuring experience translating well to teaching others how to fight.
+//
+//A year after their return, Mazzy and <CHARNAME> were married in a small ceremony. They invited many of their old adventuring companions along with Mazzy's family and the celebrations lasted for a week. The couple had three children and taught them all they knew, their sons and daughters choosing to be heroes and continue the family legacy.
+//
+//Mazzy and <CHARNAME> were content to live in peace as much as possible and whenever someone asked why they'd retired, the answer was always the same. They might be the saviours of multiple planes and worlds, but they had had enough of fighting and destruction. Instead, the couple wished to focus on their family and their home.~
+//
+//@50 /*Romance Epilogue - Mortal, No Family*/ = ~Mazzy and <CHARNAME> journeyed together for many years as heroes, their names revered and respected far and wide. However, although they loved each other, Mazzy eventually decided to retire as an adventurer. She said farewell to <CHARNAME> and returned to Trademeet, where she opened a school of archery that became known for producing the finest archers in the realm. Mazzy joined the Trademeet militia and the local chapter of the Temple of Arvoreen, quickly rising in their ranks and eventually leading both for many years.
+//
+//Her personal life was also fruitful. She married a good friend, a halfling ranger, and the couple had three children whom they taught all they knew. Their sons and daughter continued the Fentan legacy of protecting innocents, growing up to be great heroes of their own.
+//
+//Mazzy and <CHARNAME> remained friends and her former lover would often come to visit, stopping in Trademeet to rest and regroup on the way to far off kingdoms. There was no animosity between them; their paths had simply led to different futures and neither of them regretted the time they'd spent together or the choices they had made. Indeed, whenever someone asked Mazzy why she'd retired, her answer was always the same:
+//
+//“When I was young and foolish, I thought I had to venture to far away lands and battle great world-threatening evil in order to be a hero, but I was incorrect. True heroism is exhibited day-to-day, and my talents are needed here by my friends and family. There is glory in great deeds, but there is also loneliness and in my time with Patrick and later <CHARNAME>, I realized that I did not want great power or a glorious death. I chose to come home so that I could live and love instead.”
+//
+//And when Mazzy died at home in her bed, everyone in Trademeet agreed. Few had lived as fully as Mazzy Fentan and few had been as loved.~
+
+
 
 //New Items
 //Gender Belt
-@680 /*NAME1*/ = ~束带~
-@68 /*NAME2*/ = ~变性束带~
-@69 /*DESC*/ = ~类似于罕见但常被讨论的被诅咒的变性束带，这是一种能够改变穿戴者性别的魔法物品，这个版本没有被诅咒，很可能仅仅是为了娱乐而创造的。这条腰带的魔法只影响半身人。
+@680 /*NAME1*/ = ~Girdle~
+@68 /*NAME2*/ = ~Girdle of Femininity/Masculinity~
+@69 /*DESC*/ = ~Similar to the rare yet oft-discussed cursed Girdle of Masculinity/Femininity, a magical item that changes the wearer's gender, this version is not cursed and was likely created simply for entertainment. The magic of the belt only affects halflings.
 
-数据资料：
+STATISTICS:
 
-装备能力：
--改变穿戴者的性别
+Equipped abilities:
+– Changes the wearer's gender
 
-重量：2~
+Weight: 2~
 
 //Gender Belt that only works on Clara
-@690 /*DESC*/ = ~类似于罕见但常被讨论的被诅咒的变性束带，这是一种能够改变穿戴者性别的魔法物品，这个特定的束带作为玩笑被特意施加了魔法，只影响克拉拉一个人。
+@690 /*DESC*/ = ~Similar to the rare yet oft-discussed cursed Girdle of Masculinity/Femininity, a magical item that changes the wearer's gender, this particular girdle was specifically enchanted to only work on Clara as a joke.
 
-数据资料：
+STATISTICS:
 
-装备能力：
--改变穿戴者的性别
+Equipped abilities:
+– Changes the wearer's gender
 
-重量：2~
+Weight: 2~
 
 //Gender Belt that only Edwin can use
 @681 /*Script*/ = ~Edwin~
-@691 /*DESC*/ = ~类似于罕见但常被讨论的被诅咒的变性束带，这是一种能够改变穿戴者性别的魔法物品，这个特定的束带被施加了魔法，只对艾德温有用。
+@691 /*DESC*/ = ~Similar to the rare yet oft-discussed cursed Girdle of Masculinity/Femininity, a magical item that changes the wearer's gender, this particular girdle was enchanted to be only usuable by Edwin.
 
-数据资料：
+STATISTICS:
 
-装备能力：
--改变穿戴者的性别
+Equipped abilities:
+– Changes the wearer's gender
 
-重量：2~
+Weight: 2~
 
 //STATISTICS:
 
@@ -131,137 +158,140 @@
 //Weight: 2~
 
 //Clara's Goggles
-@70 /*NAME*/ = ~克拉拉的姚森分光镜~
-@71 /*DESC*/ = ~姚森牌微观宏观分光镜（紫色兄弟会官方指定分光镜）
-姚恩·姚森的另外一项发明，这副镜片是专门为克拉拉制作的，允许她侦测隐形，一天一次。它们也让克拉拉的侦测及解除陷阱能力提高25%。各种镜片使克拉拉侦测幻象的能力提高20%。无需多言，这只分光镜的风格非常独特。
+@70 /*NAME*/ = ~Clara's Jansen Spectroscopes~
+@71 /*DESC*/ = ~Jansen-Brand Micro-Macro Spectroscopes (Official Spectroscopes of the Purple Brotherhood)
+Another one of Jan Jansen's inventions, these glasses were made specifically for Clara and allow her to detect invisibility once per day. They also add an additional 25% to Clara's detect and disarm traps abilities. Various lenses on the contraption increase Clara's ability to detect illusions by 20%. The style of the Spectroscopes is so obvious it hardly needs to be mentioned.
 
-数据资料：
+STATISTICS:
 
-装备能力：
--寻找陷阱：+25%
--侦测幻象：+20%
--免疫目盲
+Equipped abilities:
+– Find Traps: +25%
+– Detect Illusion: +20%
+– Immunity to blindness
 
-充能能力：
--每天一次侦测隐形
-影响范围：半径15呎
+Charge abilities:
+– Detect Invisibility once per day
+  Area of Effect: 15-ft. radius
 
-需求：
-敏捷17
+Requires:
+ 17 Dexterity
 
-重量：0~
+Weight: 0~
 
 //Clara's Poison Arrows
-@72 /*Name*/ = ~制造毒箭~
-@73 /*DESC*/ = ~这项能力允许克拉拉制造15支有毒的刺骨箭，并将它们添加到她的背包中。小心使用！~
+@72 /*Name*/ = ~Create Poison Arrows~
+@73 /*DESC*/ = ~This ability allows Clara to create 15 poisonous Arrows of Biting, adding them to her inventory. Handle with care!~
 
 
 //Clara's Gloves
-@74 /*NAME*/ = ~克拉拉的姚森牌技术窃盗手套~
-@75 /*DESC*/ = ~克拉拉的姚森牌技术窃盗手套
-这套偷窃工具为克拉拉提供了额外的开锁和盗窃技能加成。只有克拉拉可以使用这些手套，因为姚恩专门为他的学徒制造了它们，并训练她如何使用。克拉拉似乎在戴手套时能毫不费力地融入阴影中，这可能是因为这双手套比姚恩的原版要低调得多。
+@74 /*NAME*/ = ~Clara's Jansen Techno-Gloves~
+@75 /*DESC*/ = ~Clara's Jansen-Brand Techno-Thieving Gadgetizer Gloves—(TM)
+This set of thieving tools gives Clara an additional bonus to both her lockpicking and pickpocketing skills. She is the only one who can use these gloves, as Jan created them specifically for his apprentice and trained her in their use. Clara seems to have no trouble slipping into the shadows while wearing the gloves, probably because this pair is less gaudy than Jan's originals.
 
-数据资料：
+STATISTICS:
 
-装备能力：
--开锁：+20%
--扒窃：+20%
-	
-需求：
-敏捷17
+Equipped abilities:
+– Open Locks: +20%
+– Pick Pockets: +20%
 
-重量：0~
-@750 /*Usability Note*/ = ~克拉拉~
+Requires:
+ 17 Dexterity
+
+Weight: 0~
+@750 /*Usability Note*/ = ~Clara~
 
 //New Version of Yoshimo's Katana
-@76 /*NAME*/ = ~善最的武士刀+3~
-@77 /*DESC*/ = ~这把刀自从被善最送给克拉拉后似乎变得更加强大了。可能是逝者的祝福，或者是刀剑希望尽快恢复其前主人的荣耀。
+@76 /*NAME*/ = ~Yoshimo's Katana +3~
+@77 /*DESC*/ = ~This blade seems to have grown stronger since Yoshimo gifted it to Clara. Perhaps it is the dead man's blessing or perhaps the blade wishes to regain its former master's honor as soon as possible. 
 
-无论原因如何，这把武器在克拉拉手中焕发了生机，当它被挥舞时，可以感受到善最的存在。当附近有陷阱时，这把武士刀会颤抖，似乎在新主人有利的情况下扭曲命运。在战斗中，随着每一次品尝到鲜血，刀都会增强其持有者的力量，这样克拉拉就不会在善最的名字恢复之前倒下。确实，只有他的许可才允许挥舞这把武士刀。没有其他人能从剑鞘中拔出这把武器。
+Whatever the reason, this weapon comes alive in Clara's hands and Yoshimo's presence can be felt when it is wielded. The katana trembles when a trap is near and seems to twist fate in its new master's favor. During combat, the sword strengthens its wielder with every taste of blood so that Clara will not fall before Yoshimo's name has been restored. Indeed, only his permission allows the katana to be wielded. No one else can pull the weapon from its sheath.
 
-数据资料：
+STATISTICS:
 
-装备能力：
-– 寻找陷阱：+20%
-– 幸运
+Equipped abilities:
+– Find Traps: +20%
+– Luck Bonus
 
-战斗能力：
-– 每次命中为持有者恢复1点生命值。
+Combat abilities:
+– Each hit heals the wielder 1 Hit Point
 
-零级命中值：+3
-伤害：1d10+3（挥砍）
-使用速度：3
-武器特长类别：武士刀
-使用类别：单手
+THAC0: +3
+Damage: 1d10+3 (slashing)
+Speed Factor: 3
+Proficiency Type: Katana
+Type: One-handed
 
-需求：
-力量6
+Requires:
+ 6 Strength
 
-重量：5~
-@94 = ~德尔林家族遗产+4~
-@95 = ~这是阿诺门家族遗产，原先的盾牌是他父亲给他的。现在这面盾牌得以重铸并提升了它的能力。
+Weight: 5~
 
-数据资料：
-防御等级：+5改善，对远程武器额外+2
-火焰和寒冰抗力：+40%
-远程武器抗力：+50%
-魔法抗力：+10%
-免疫魅惑、困惑、支配、定身和震慑~
+@94 = ~Delryn Family Legacy +4~
+@95 = ~This is Anomen's family legacy, the original shield had been given to him by his father. Now, it is reforged and improved all of its abilities.
 
+STATISTICS
+
+AC Bonus: +5, +7 vs. missiles
+Resistance to fire and cold: + 40%
+Resistance to missile damage: + 50%
+Immunity to Charm, Confusion, Domination and Hold Person
+Magic Resistance: +10%~
 //Clara's Wedding Ring
-@96 /*Name*/ = ~德尔林家族戒指~
-@97 /*DESC*/ = ~这个简单的戒指，虽然材质上并不珍贵，却是德尔林家族的传家宝。它曾是他亲爱的妹妹茉伊拉所佩戴的，阿诺门将这枚戒指赠予克拉拉，作为他们爱情的象徵。它已被施加了魔法，以帮助保护他高贵的新娘。
+@96 /*Name*/ = ~Delryn Family Ring~
+@97 /*DESC*/ = ~This simple band, though not of great material value, is a Delryn family heirloom. Once worn by his dear sister Moira, Anomen gave this ring to Clara as a symbol of their love. It has been enchanted to help protect his noble bride.
 
-数据资料
+STATISTICS:
 
-装备能力：
-所有属性+1
+Equipped abilities:
++1 to All Stats
 
-重量：0~
-
-
-@98 /*Darkside Anomen Romance Epilogue - player doesn't choose god*/ = ~阿诺门和<CHARNAME>一起回到了德尔林庄园，两人在一场盛大的仪式中结为夫妇。这对夫妇共同努力重建家族的财富，并且在每一个努力中都得到了好运的跟随。不久，这位领主不仅清偿了他父亲的债务，还开始积累了自己的财富。然而，尽管他获得了新的地位，阿诺门仍然忠于他的神的教义。尽管有时严厉，但他的判断总是公正的，那些为他的家族工作的人都知道，他们的忠诚将会得到相应的回报。
-
-最终，年轻的德莱林领主被提议在六人议会中担任职位，虽然没有人正式知道他的地位，但阿斯卡特拉的统治变化对所有人来说都是显而易见的。在阿诺门和<CHARNAME>的领导下，政府开始更多地帮助普通民众，并更多地与世界上的邪恶作斗争。他不满足于让不公正的事情视而不见，那些反对他的人往往会遭遇不幸的事故。尽管这些巧合引发了调查，但德莱林领主的妻子始终支持他，并且从未发现任何不当行为的证据。
-
-确实，当年轻的领主和嫉妒的对手询问他好运的秘密时，阿诺门只会谦虚地说：“我一直很幸运。是的，为了将家族的事业建设成今天这样，我付出了辛勤的努力，但我并非独自一人完成的。我所拥有的一切都归功于海姆以及我亲爱的<CHARNAME>的持续支持。没有她，我就不会是今天的我。”~
+Weight: 0~
 
 
-@99 /*Darkside Anomen Romance Epilogue - player chose god*/ = ~离开<CHARNAME>之后，阿诺门回到了德尔林庄园，努力重建家族的财富。好运在每一个努力中都伴随着他，不久这位领主不仅清偿了他父亲的债务，还开始积累了自己的财富。尽管有时严厉，阿诺门的判断总是公正的，那些为他的家族工作的人都知道，他们的忠诚将会得到相应的回报。
+@98 /*Darkside Anomen Romance Epilogue - player doesn't choose god*/ = ~Anomen returned to the Delryn estate with <CHARNAME> and the two were married in a grand ceremony. Together, the couple worked to rebuild his family's fortunes and luck followed them in every endeavor. Soon the lord had not only erased his father's debts but begun to amass a fortune of his own. However, despite his newfound status, Anomen stayed true to the tenets of his god. Although sometimes harsh, his judgment was always fair and those who worked for his family knew that their loyalty would be rewarded in kind.
 
-最终，年轻的德尔林领主被提供在六人议会中担任职位，虽然没有人正式知道他的地位，但阿斯卡特拉的统治变化对所有人来说都是显而易见的。在阿诺门的指导下，政府开始更多地帮助普通民众，并更多地与世界上的邪恶作斗争。他不满足于让不公正的事情视而不见，那些反对他的人往往会在一夜之间改变主意或者干脆消失。尽管有几次针对这些事件的调查，但从未发现德尔林领主有任何不当行为的证据。
+Eventually, the young Lord Delryn was offered a position on the Council of Six and while no one officially knew his status, the change in Athkatla's rulership was obvious to all. Under Anomen and <CHARNAME>'s direction, the government began doing more to help the common folk and more to combat evil in the world. He was not content to let injustice pass by blindly and those who stood against him tended to have unhappy accidents. Although these coincidences sparked investigations, Lord Delryn's wife stood by him and no evidence of foul play was ever found.
 
-确实，当年轻的领主和嫉妒的对手询问他好运的秘密时，阿诺门只会谦虚地说：“我一直很幸运。是的，为了将家族的事业建设成今天这样，我付出了辛勤的努力，但我并非独自一人完成的。我所拥有的一切都归功于我亲爱的女神<CHARNAME>。没有她的指引，我就不会是今天的我。”~
+Indeed, when asked the secret of his good fortune by young lords and jealous rivals, Anomen would only say humbly, "I have been very lucky. It took hard work, aye, to build my family's business into what it is today, but I did not do it by myself. I owe everything to Helm and to the continuous support of my beloved <CHARNAME>. Without her, I would not be the man I am today."~
+
+
+@99 /*Darkside Anomen Romance Epilogue - player chose god*/ = ~After losing <CHARNAME>, Anomen returned to the Delryn estate and worked hard to rebuild his family's fortunes. Luck followed him in every endeavor and soon the lord had not only erased his father's debts but begun to amass a fortune of his own. Although sometimes harsh, Anomen's judgment was always fair and those who worked for his family knew that their loyalty would be rewarded in kind.
+
+Eventually, the young Lord Delryn was offered a position on the Council of Six and while no one officially knew his status, the change in Athkatla's rulership was obvious to all. Under Anomen's direction, the government began doing more to help the common folk and more to combat evil in the world. He was not content to let injustice pass by blindly and those who stood against him tended to change their minds overnight or simply disappear. Although several investigations were put forth into these incidents, no evidence of wrongdoing on Lord Delryn's part was ever found.
+
+Indeed, when asked the secret of his good fortune by young lords and jealous rivals, Anomen would only say humbly, "I have been very lucky. It took hard work, aye, to build my family's business into what it is today, but I did not do it by myself. I owe everything to my beloved goddess <CHARNAME>. Without her guidance, I would not be the man I am today."~
+
 
 //Clara's Fireball
-@105 /*NAME*/ = ~设置火球陷阱~
-@106 /*DESC*/ = ~这项能力允许克拉拉设置一个火球陷阱，它会保持在原位，直到有人走得太近。不论是友是敌，火球随后都会爆炸，造成巨大的伤害。~
+@105 /*NAME*/ = ~Set Fireball Trap~
+@106 /*DESC*/ = ~This ability allows Clara to create a Fireball trap that will stay in position until someone walks too close. Friend or foe, the Fireball will then explode for massive damage.~
 
-@108 /*Begin*/ = ~禁止多个TOB结局：如果您安装了这个组件，Mod结局将覆盖现有的游戏结局和大多数模组结局。如果您不安装这个组件，游戏将允许在可用的情况下有多个NPC结局。~
+@108 /*Begin*/ = ~Do NOT allow multiple TOB epilogues: If you install this component, AllThingsMazzy epilogues will override existing game epilogues and most mod epilogues. If you do not install this component, the game will allow multiple NPC epilogues where applicable.~
 
-@130 /*Girl Wraith*/ = ~小克拉拉~
+@130 /*Girl Wraith*/ = ~Little Clara~
+
 
 //PRINT Notes (for Weidu Setup) - mostly just our flavor commments
-@137 = ~检测到威尔逊 - 威尔逊 interdia.2da 附加 - 设置威尔逊的戏谑文件 (BWILSON & BWILSO25)~
-@138 = ~添加威尔逊ToB override脚本~
-@139 = ~添加克拉拉的内容。~
-@140 = ~添加新的物品和法术。~
-@141 = ~设置对话与脚本~
-@142 = ~增强版（EE）日志条目。需要标题。~
-@143 = ~添加萨拉达斯的Crossmod插话……~
+@137 = ~Wilson detected - Wilson interdia.2da append - setting Wilson's banter file (BWILSON & BWILSO25)~
+@138 = ~Adding Wilson's ToB override script~
+@139 = ~Adding Clara's content~
+@140 = ~Adding new items and spells~
+@141 = ~Setting up dialogues and scripts~
+@142 = ~Enhanced Edition (EE) journal entries. Titles required~
+@143 = ~Adding Saradust's Crossmod banters...~
 //Crossmod NPC stuff
-@144 = ~检测到“BG2中的阿罗拉”MOD - 添加跨模组彩蛋~
-@145 = ~未检测到“BG2中的阿罗拉” Mod~
-@1440 = ~检测到“BG1 NPCs in SoA & ToB” - 添加跨模组彩蛋~
-@1450 = ~未检测到“BG1 NPCs in SoA & ToB”的阿罗拉NPC~
-@146 = ~检测到Nephele detected - 添加跨模组彩蛋~
-@147 = ~未检测到Nephele NPC~
-@148 = ~检测到Petsy - 添加跨模组彩蛋~
-@149 = ~未检测到Petsy NPC~
-@150 = ~检测到Saradas - 添加跨模组戏谑~
-@151 = ~未检测到Saradas NPC~
+@144 = ~'Alora in BG2' mod detected - adding crossmod Easter egg~
+@145 = ~'Alora in BG2' mod not detected~
+@1440 = ~'BG1 NPCs in SoA & ToB' Alora detected - adding crossmod Easter egg~
+@1450 = ~'BG1 NPCs in SoA & ToB' Alora NPC not detected~
+@146 = ~Nephele detected - adding crossmod Easter egg~
+@147 = ~Nephele NPC not detected~
+@148 = ~Petsy detected - adding crossmod Easter egg~
+@149 = ~Petsy NPC not detected~
+@150 = ~Saradas detected - adding crossmod banters~
+@151 = ~Saradas NPC not detected~
 
-@152 = ~编译脚本~
-@153 = ~扩展现有游戏脚本~
-@154 = ~修改结局脚本~
-@155 = ~重置检查文件：帮助解决所有模组兼容性带来的乐趣。~
+@152 = ~Compiling scripts~
+@153 = ~Extending existing game scripts~
+@154 = ~Modifying ending scripts~
+@155 = ~Reset Check Files: to help with all the joys of mod compatibility.~
