@@ -43,3 +43,19 @@ If Anomen fails his paladin trial, this component adds extensive content for his
 - **MephistoSatanDevil**: Project lead, text adaptation and translation
 - **Shohy**: Coding and event optimization  
 - **Esceen**: Testing and bug reporting
+
+
+## Crossmod Policy and License
+**CROSSMOD**
+
+You may freely do crossmod content with Living Clara Mod if you include attribution to Living Clara Mod in your documentation.
+
+**MOD LICENSE**
+
+Living Clara Mod does not use a traditional formal license such as [Creative Commons](https://creativecommons.org/share-your-work/cclicenses/) nor [MIT](https://opensource.org/license/mit); however, it uses a similar license as described here:
+
+- All work you do with this is for non-commercial purposes.
+
+- You may use code from Living Clara Mod in your works if you include attribution to Living Clara Mod in your documentation and you notify at least one of the authors of Living Clara Mod in the [Living Clara Mod thread](https://trow.cc/board/showtopic=53570) or directly by other means regarding what code portions you used.
+
+- You may do crossmod with Living Clara Mod as described above.
