@@ -9,16 +9,19 @@ APPEND BOTSMITH
     IF ~Global("YF_NPSHDforge","GLOBAL",0)
     PartyHasItem("NPSHLD") 
     PartyHasItem("OHHROD")
-    PartyGoldGT(49999)
+	PartyHasItem("DWDUST")
+    PartyGoldGT(9999)
       ~ THEN REPLY @2 DO ~SetGlobal("YF_NPSHDMaker","GLOBAL",1)
                                  SetGlobal("YF_NPSHDforge","GLOBAL",1)
                                  SetGlobal("ImpForgeStuff","GLOBAL",1)
                                  TakePartyItem("NPSHLD")
                                  TakePartyItem("OHHROD")
+								 TakePartyItem("DWDUST")
                                  DestroyItem("NPSHLD")
                                  DestroyItem("OHHROD")
-                                 TakePartyGold(50000)
-                                 DestroyGold(50000)~ GOTO 11
+								 DestroyItem("DWDUST")
+                                 TakePartyGold(10000)
+                                 DestroyGold(10000)~ GOTO 11
     // 11 starts "cutsmith" cutscene,
 
  

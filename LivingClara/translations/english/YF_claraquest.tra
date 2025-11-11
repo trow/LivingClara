@@ -1,4 +1,3 @@
-
 //First Clara nudge if you haven't talked to Rose yet
 @1 /*Clara*/ = ~Hey, <CHARNAME>, I heard an old friend of mine might be working there. Could we go see her when we're in the area?~
 @2 /*CHARNAME*/ = ~We don't have time for that.~
