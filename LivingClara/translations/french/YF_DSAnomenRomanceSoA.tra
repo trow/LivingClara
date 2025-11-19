@@ -1,0 +1,240 @@
+//Darkside Anomen Romance Talks
+//First Clara Talk
+@1 /*Anomen*/ = ~Mon amour, je crois que j'ai eu une sorte de révélation.~
+@2 /*Clara*/ = ~Je vous en prie, dites-moi, mon seigneur. J'aimerais beaucoup l'entendre.~
+@3 /*Anomen*/ = ~Tuer mon père était contre la loi ; cela m'aurait valu d'être chassé de l'Ordre que je désirais tant rejoindre, et pourtant, cela a rendu le monde meilleur.~
+@4 /*Anomen*/ = ~Il en a été de même pour Saerk, car il était aussi mauvais que mon père. Même la fille de Saerk, bien que techniquement considérée comme innocente, était probablement aussi mauvaise que le reste de sa famille.~
+@5 /*Anomen*/ = ~Suivre la loi n'est pas nécessairement bon. Enfreindre la loi n'est pas nécessairement mauvais. En fait, pour accomplir de grandes actions bonnes, pour vraiment changer le monde en mieux, nous devons commettre de nombreux actes qui sont contre la loi.~
+@6 /*Anomen*/ = ~Ceux de l'Ordre pourraient les qualifier d'actes mauvais, mais ce n'est que la rationalisation des lâches pour justifier leur propre peur et leur hésitation. De petits actes de mal peuvent finalement servir le plus grand bien. Les morts calculées de quelques-uns peuvent sauver la vie de nombreux autres !~
+@7 /*Clara*/ = ~Oh, mon amour, je suis si fière de vous. Vous devriez gouverner cette ville, vous êtes sûrement plus sage que le plus érudit des Paladins !~
+@8 /*Anomen*/ = ~Je le suis. Je le vois maintenant.~
+@9 /*Anomen*/ = ~Je veux rendre le monde meilleur et je le rendrai meilleur une fois que j'aurai le contrôle ! La vie des petits gens sans valeur d'Amn s'améliorera plus qu'elle ne l'a jamais fait dans l'histoire !~
+@10 /*Anomen*/ = ~Mais pour cela, j'ai besoin d'argent, de pouvoir et d'influence parmi les grandes maisons d'Athkatla.~
+@11 /*Anomen*/ = ~Ma très chère Lady Caroline, m'aiderez-vous ?~
+@12 /*Clara*/ = ~Bien sûr, mon amour. Tout ce que vous souhaiterez.~
+
+//2nd Clara Talk
+@13 /*Anomen*/ = ~Je suis Lord Delryn, et pourtant mon nom n'est pas lavé de tout soupçon. Le meurtre de Saerk et de sa maisonnée me hante encore. Au fond de moi, je sais qu'il était responsable de nombreux crimes odieux ; si seulement je pouvais le prouver !~
+@14 /*Clara*/ = ~Peut-être que de telles preuves pourraient être trouvées si les gardes effectuaient une nouvelle perquisition à sa résidence ?~
+@15 /*Anomen*/ = ~Oui, j'en suis sûr ! Allons au bâtiment du Conseil des Six et parlons à l'autorité compétente.~
+@16 /*Anomen*/ = ~Pas Bylanna, je ne pense pas qu'elle soit la personne idoine pour voir la vérité. Et peut-être pas l'Inspectrice en Chef Bregga non plus... ah, le magicien, Corneil, sa magie pourrait trouver des preuves que les autres n'ont pu obtenir.~
+@17 /*Anomen*/ = ~<CHARNAME>, la prochaine fois que nous en aurons l'occasion, arrêtons-nous au bâtiment du Conseil des Six pour parler à Corneil. J'ai une affaire à régler avec lui.~
+
+//Clearing Name
+@18 /*Anomen*/ = ~Seigneur Corneil, je dois solliciter un moment de votre temps.~
+@19 /*Corneil*/ = ~Lord Delryn, bien sûr ! Permettez-moi de vous présenter mes condoléances pour la mort de votre père. Vous faites honneur à votre nom, et j'ai entendu dire que la fortune de la Maison Delryn était déjà en hausse.~
+@20 /*Corneil - CN Line*/ = ~Et vous devez être Lady <CHARNAME>. Je vois pourquoi notre seigneur ici est si épris de vous. Vous ferez une fine Lady Delryn, une fois la période de deuil requise pour son père passée, bien sûr.~
+@200 /*Corneil - Clara line*/ = ~Et vous devez être Lady Delryn. Mes rapports n'ont pas rendu justice à votre beauté. Ce jeune seigneur a de la chance de vous avoir à ses côtés.~
+@201 /*Clara*/ = ~Merci, mon seigneur. Vos paroles sont très aimables.~
+@21 /*Corneil*/ = ~Inutile de faire tant de cérémonie. Appelez-moi Corneil. En quoi puis-je vous être utile ?~
+@22 /*Anomen*/ = ~Mes remerciements, Corneil. Vous avez peut-être entendu parler de mon conflit avec la Maison Farrahd. C'étaient des hommes mauvais, de basse naissance mais de haute ambition, qui ont rendu la vie misérable à mon père et à d'innombrables autres.~
+@23 /*Corneil*/ = ~Cependant, par la peur, l'argent et des transactions soigneuses, la malfaisance de la Maison Farrahd est restée cachée et les inspecteurs n'ont jamais trouvé de preuve de leurs méfaits.~
+@24 /*Anomen*/ = ~J'espère qu'avec vos magies considérables, vous pourriez trouver ce que les inspecteurs n'ont pas pu.~
+@25 /*Corneil*/ = ~Un récit tragique, Anomen. Je vais immédiatement agir pour vous aider. En fait, je le ferai gratuitement, car vous êtes un homme bon.~
+@26 /*Corneil*/ = ~Le seul problème est que les composants pour une magie d'investigation aussi puissante sont extrêmement coûteux et que mon propre salaire modeste ne les couvre pas.~
+@27 /*Anomen*/ = ~Et je ne vous demanderais pas de le faire. Acheter les composants est le moins que je puisse faire. Combien de milliers de pièces d'or sont nécessaires ?~
+@28 /*Corneil*/ = ~20 000 pièces d'or devraient suffire, mon seigneur.~
+@29 /*Anomen*/ = ~Je regrette, je ne porte jamais plus de 10 000 pièces sur moi en même temps...~
+@30 /*Anomen*/ = ~<CHARNAME>, puis-je emprunter le reste dans la caisse du groupe ?~
+@31 /*CHARNAME*/ = ~Pas maintenant, Anomen. Nous avons besoin de cet argent.~
+@32 /*CHARNAME*/ = ~Bien sûr, Anomen, je sais que tu le rembourseras quand tu pourras.~
+@33 /*CHARNAME*/ = ~Bien sûr, Anomen ; je suis sûr que tu le rembourseras quand tu pourras.~
+@34 /*CHARNAME*/ = ~Désolé, Anomen. Nous n'avons pas les fonds pour le moment.~
+@35 /*Corneil*/ = ~C'est regrettable, mais il n'y a pas d'urgence. Revenez quand vous aurez les fonds.~
+@36 /*Corneil*/ = ~Excellent. Revenez dans deux jours et j'aurai normalement les résultats de mon enquête.~
+@37 /*CHARNAME*/ = ~Nous avons l'argent pour enquêter sur les agissements de la Maison Farrahd pour le compte de Lord Anomen Delryn.~
+
+//Post Investigation Talk
+@38 /*Corneil*/ = ~Lord Delryn, justement l'homme que je cherchais ! J'ai d'excellentes nouvelles.~
+@39 /*Anomen*/ = ~Votre enquête a trouvé quelque chose ?~
+@40 /*Corneil*/ = ~Oui, j'ai découvert ce qui suit, à proclamer publiquement comme un acte officiel de gouvernance :~
+@41 /*Corneil*/ = ~Saerk Farrahd était le fils illégitime d'une prostituée et d'un marin, qui a fait fortune en séduisant la fille d'un marché au cœur tendre.~
+@42 /*Corneil*/ = ~Saerk Farrahd était actif dans la recherche et le commerce d'esclaves, préférant s'attaquer aux dames de bonne famille tombées en disgrâce.~
+@43 /*Corneil*/ = ~Pour éliminer un rival, Saerk Farrahd a payé plusieurs anciens ouvriers mécontents de Lord Cor Delryn pour qu'ils s'introduisent dans le manoir Delryn et assassinent Lord Cor. Il n'était pas présent, alors ils en ont profité pour assassiner la fille de Lord Delryn à la place.~
+@44 /*Corneil*/ = ~Le fils de Lord Delryn, Anomen, a confronté pacifiquement Saerk au sujet du meurtre. Cependant, Saerk a ordonné à ses gardes d'attaquer Anomen afin d'éteindre la lignée Delryn. C'est dans cette mêlée que Saerk a finalement rencontré la justice.~
+@45 /*Corneil - if CN*/ = ~Le fils de Lord Delryn, Anomen, et son amie, Lady <CHARNAME>, ont confronté pacifiquement Saerk au sujet du meurtre. Cependant, Saerk a ordonné à ses gardes de les attaquer afin d'éteindre la lignée Delryn. C'est dans cette mêlée que Saerk a finalement rencontré la justice.~
+@46 /*Corneil*/ = ~Saerk Farrahd a soudoyé des officiels de la ville pour accroître sa fortune. Ces mêmes officiels ont arrangé la mort de Lord Cor Delryn afin de protéger leurs noms après la mort de Saerk. Ces officiels ont déjà été traités.~
+@47 /*Corneil*/ = ~Lord Anomen Delryn a été lavé de tout acte répréhensible dans la mort de Saerk Farrahd et de sa maisonnée, et doit être honoré pour son courage et sa vertu.~
+@48 /*Corneil - if CN*/ = ~Lord Anomen Delryn et Lady <CHARNAME> ont été lavés de tout acte répréhensible dans la mort de Saerk Farrahd et de sa maisonnée, et doivent être honorés pour leur courage et leur vertu.~
+@49 /*Corneil*/ = ~Je suppose que ces résultats sont satisfaisants ?~
+@50 /*Anomen*/ = ~Au-delà de tout ce que j'aurais pu espérer ! Vous avez mes remerciements.~
+
+//3rd Clara Talk
+@51 /*Clara*/ = ~Mon amour, votre nom est lavé de tout soupçon. Vous êtes honoré, vos affaires sont prospères, et votre Maison est chuchotée comme une force montante parmi les nobles d'Athkatla. Quelle est la prochaine étape pour nous ?~
+@52 /*Anomen*/ = ~Nous remercions les dieux pour notre bonne fortune ! Je suis satisfait pour le moment. La Maison Delryn est l'une des principales maisons marchandes d'Amn.~
+@53 /*Clara*/ = ~Le Conseil des Six est composé des chefs des grandes maisons marchandes d'Amn, mais personne ne sait qui ils sont...~
+@54 /*Anomen*/ = ~Hah, tout le monde sait qui ils sont, mon amour. C'est le secret le moins bien gardé d'Athkatla.~
+@55 /*Anomen*/ = ~Malheureusement, on ne peut pas rejoindre le Conseil sans qu'une place ne soit vacante, et les six sièges du conseil sont actuellement pourvus.~
+@56 /*Anomen*/ = ~Le Meisarque est Erlranther Alibakkar ; la rumeur dit qu'il est parti s'occuper de la rébellion à Riatavin.~
+@57 /*Anomen*/ = ~Le Tessarque est Phaan Colwyvv. Il est rarement en ville, toujours outre-mer à poursuivre des accords commerciaux.~
+@58 /*Anomen*/ = ~Le Namarque est Qar Jysstev ; nous le trouverions probablement dans son domaine.~
+@59 /*Anomen*/ = ~L'Iltarque est Rhinnom Dannihyr, mais personne ne l'a jamais vu. Il est le seul membre du conseil dont l'identité est réellement secrète, et la rumeur dit qu'il contrôle les Voleurs de l'Ombre.~
+@60 /*Anomen*/ = ~Ou du moins, il les contrôlait avant que nous ne nettoyions cette fléau de la ville.~
+@61 /*Anomen*/ = ~La Pommarque est Tyrda Q'Helvor. Elle n'est qu'une femme, donc personne ne la prend au sérieux. Sans vouloir vous offenser, bien sûr.~
+@62 /*Anomen*/ = ~Et enfin le Dahaunarque est Pehllus Tanislove. Il se promène souvent dans le quartier du gouvernement et avait toujours un mot gentil pour moi.~
+@63 /*Clara*/ = ~Peut-être qu'une ouverture pourrait être trouvée au Conseil si l'un de ses membres rencontrait un accident malencontreux et tragique ?~
+@64 /*Anomen*/ = ~Peut-être, mais même s'il y avait une ouverture, on ne peut pas demander à rejoindre le Conseil. Un membre du conseil doit vous approcher.~
+@65 /*Anomen*/ = ~Pourtant, des retournements inattendus pourraient être proches. Peut-être y a-t-il déjà une ouverture.~
+@66 /*Anomen*/ = ~Peut-être pourrions-nous arranger la chute de l'Iltarque, Rhinnom Dannihyr. Personne ne sait qui il est, mais son pouvoir vient de son contrôle des Voleurs de l'Ombre.~
+@67 /*Anomen*/ = ~Éradiquer les Voleurs de cette ville serait un acte d'une bonté inouïe et pourrait aussi servir nos intérêts.~
+@68 /*Anomen*/ = ~Mais chasse tout cela de ton esprit, chère Caroline. Le <DAYNIGHTALL> est trop beau, et tu es trop belle pour t'inquiéter de telles politiques.~
+
+//Terl Letter
+@69 /*Anomen*/ = ~Terl ! Par les dieux, non ! Dois-tu toujours apparaître avec des nouvelles horribles dès que je connais un peu de paix ?~
+@70 /*Terl*/ = ~Je suis désolé, mon seigneur, je ne suis que le messager.~
+@71 /*Anomen*/ = ~Et quel messager incroyable tu es pour toujours me trouver, peu importe la distance que je parcoure. Très bien alors, de qui vient ton message cette fois ?~
+@72 /*Terl*/ = ~De Lord Qar Jysstev.~
+@73 /*Anomen*/ = ~Vraiment ? Donne-le moi.~
+@74 /*Anomen*/ = ~Oui... Je vois...~
+@75 /*Anomen*/ = ~<CHARNAME>, Lord Qar Jysstev souhaite nous voir ; enfin, me voir. Je suggère que nous lui rendions visite à la première occasion. Il devrait être dans son domaine du quartier du gouvernement.~
+
+//Jysstev Talk
+@76 /*Anomen*/ = ~Toutes mes excuses, Lord Jysstev, mais vous souhaitiez me voir ?~
+@77 /*Jysstev*/ = ~Oh, Lord Delryn ! Je suis désolé, je ne vous ai pas reconnu au premier abord.~
+@78 /*Jysstev*/ = ~Regardez-vous ! Un vrai guerrier, des épaules solides et des membres longs ; vous faites honneur à la Maison Delryn !~
+@79 /*Jysstev*/ = ~En fait, c'est votre Maison qui vous amène à moi aujourd'hui. Vous vous êtes fait un nom en tant que guerrier habile et marchand honnête et astucieux. Vous êtes exactement ce que nous recherchons.~
+@80 /*Anomen*/ = ~Rechercher ? Rechercher quoi ?~
+@81 /*Jysstev*/ = ~Bien sûr, je vais trop vite. Asseyez-vous ! Reposez-vous ! Prenez quelques rafraîchissements !~
+@82 /*Jysstev - if Clara*/ = ~Vos compagnons sont les bienvenus également. En effet, vous devez être la nouvelle Lady Delryn. J'ai beaucoup entendu parler de vous et vous ne décevez pas. Pas étonnant que vous ayez capturé le cœur de notre jeune seigneur.~
+@83 /*Jysstev - if CN*/ = ~Vos compagnons sont les bienvenus également. En effet, vous devez être Lady <CHARNAME>. J'ai beaucoup entendu parler de vos exploits. Tant de puissance cachée dans une forme de grâce et de beauté. Pas étonnant que vous ayez capturé le cœur de notre jeune seigneur.~
+@84 /*Jysstev*/ = ~Je suis sûr que vous connaissez le Conseil des Six ?~
+@85 /*Jysstev if CN or Clara*/ = ~Je suis sûr que vous connaissez tous les deux le Conseil des Six ?~
+@86 /*Anomen*/ = ~Bien sûr, mon seigneur. Six membres choisis pour gouverner parmi les familles marchandes les plus méritantes d'Amn ; leurs identités sont secrètes.~
+@87 /*Jysstev*/ = ~Hah, pas aussi secrètes qu'on le souhaiterait, mais oui, vous avez raison. Sauf que maintenant, ils ne sont plus que cinq.~
+@88 /*Anomen*/ = ~Cinq, mon seigneur ?~
+@89 /*Jysstev*/ = ~Oui, l'Iltarque, Rhinnom Dannihyr, recherchait un pouvoir plus grand que sa station, utilisant les Voleurs de l'Ombre comme son armée personnelle et essayant d'intimider et de assassiner son chemin vers plus de pouvoir.~
+@90 /*Jysstev*/ = ~Comme vous le savez, ils ont par la suite déclenché une guerre de guildes avec une autre guilde montante.~
+@91 /*Anomen*/ = ~Et l'Iltarque ? Personne ne l'a jamais vu, mon seigneur.~
+@92 /*Jysstev*/ = ~Selon mes informateurs, il est mort dans la guerre. Il y utilisait un nom différent pour protéger son identité.~
+@93 /*Anomen*/ = ~Ah ! C'est... c'est beaucoup à digérer.~
+@94 /*Jysstev*/ = ~Bien sûr, bien sûr, et je souhaite vous récompenser pour vos actions. Avec lui mort, et la Maison Farrahd disparue, mes journées sont plus légères que jamais.~
+@95 /*Jysstev*/ = ~Quelle meilleure façon de vous récompenser que de vous offrir un siège à la table ?~
+@96 /*Anomen*/ = ~Une place au Conseil des Six ? Mon seigneur, cette position est trop lourde ! Je crains de ne guère être compétent.~
+@97 /*Jysstev*/ = ~Non, non, non, Lord Delryn. J'ai entendu ces chuchotements sur votre incompétence. Mais je n'écouterai pas de telles objections. Ce dont j'ai besoin, c'est simplement d'un autre allié de mon côté lors des futures disputes du conseil. Vous comprenez, il y a toujours un ou deux membres qui ne cessent de s'opposer à vous.~
+@98 /*Jysstev*/ = ~Bien sûr, la proposition devra attendre la prochaine réunion du conseil, ce qui pourrait prendre quelques mois... qui sait combien de temps ces paysans inutiles de Riatavin tiendront contre nous. D'ici là, gardez vos navires chargés de pièces—un siège au conseil coûte cher à entretenir, vous comprenez ?~
+@99 /*Anomen*/ = ~Oui, oui, je comprends parfaitement. Je ferai livrer les frais d'entretien à votre domaine immédiatement. Merci beaucoup, mon seigneur. L'honneur est pour moi, mon seigneur.~
+@100 /*Jysstev*/ = ~Héhé, content que vous compreniez. Je ne vous retiendrai pas plus longtemps. Vous êtes clairement occupé... n'hésitez pas à aller où bon vous semble, et à éliminer quelques-uns de mes opposants supplémentaires.~
+@101 /*Anomen*/ = ~Mon seigneur, une dernière question si je puis. Quelle est l'opinion du conseil sur l'Ordre du Cœur Radieux ?~
+@102 /*Jysstev*/ = ~L'Ordre opère indépendamment du Conseil. Ils traversent librement les frontières, ne paient pas d'impôts et n'obéissent à aucune autorité sauf la leur. Ils ont même leurs propres sources de revenus !~
+@103 /*Jysstev*/ = ~Ils sont nombreux à souhaiter voir ces guerriers moralisateurs tomber en disgrâce. Les paysans les aiment, mais les paysans ont la mémoire courte. Ils croiront n'importe quelle rumeur que nous leur dirons.~
+@104 /*Jysstev*/ = ~Cependant, je ne m'attends pas à ce qu'ils tombent de sitôt. L'Ordre est la force de combat la plus puissante d'Athkatla, faisant même honte à nos propres gardes.~
+@105 /*Jysstev*/ = ~Même ainsi, il faut se rappeler que les paladins mènent une vie dangereuse et que le sang se lave facilement des sols en marbre. Laissons cela ainsi.~
+@106 /*Anomen*/ = ~Bien sûr, mon seigneur. Adieu, mon seigneur.~
+
+//4th Clara Talk
+@107 /*Clara*/ = ~Le Conseil des Six, mon seigneur !~
+@108 /*Anomen*/ = ~Oui, je sais, la réalité n'est pas encore totalement intégrée. Mais je rejoindrai l'échelon le plus bas de l'échelle et il faudra peut-être des années avant que je n'obtienne un véritable pouvoir.~
+@109 /*Clara*/ = ~Cela pourrait être moins... Le Conseil est plein de vieillards, fragiles et sujets aux petites tentations. Peut-être que l'un d'eux fera quelque chose de stupide.~
+@110 /*Anomen*/ = ~Peut-être que oui. Mais pour l'instant, cherchons l'honneur et la gloire. Et la richesse ! Nous aurons besoin de vastes quantités de pièces si je veux apporter un vrai changement.~
+
+//CN Alternate Options after Cor's death
+@111 /*CHARNAME*/ = ~Adieu mon amour, et bonne chance.~
+@112 /*CHARNAME*/ = ~Ce que NOUS avons fait, Anomen. Nous l'avons tué ensemble, toi et moi. Si tu pars, qu'advient-il de moi ?~
+@113 /*CHARNAME*/ = ~Je ne suis pas prêt à te perdre. Il doit y avoir un autre moyen.~
+@114 /*Anomen*/ = ~C'est pour cela que j'ai essayé d'agir seul ! Oh... tout est ruiné maintenant. Nous sommes des meurtriers, je suis renié...~
+@115 /*CHARNAME*/ = ~Es-tu renié ? Ton père l'a-t-il officialisé ?~
+@116 /*CHARNAME*/ = ~Il n'y a pas de témoins. Qui nous a vus le tuer ?~
+@117 /*Anomen*/ = ~S'il y en a, je ne les vois pas. Nous sommes des meurtriers et je suis renié....~
+@118 /*CHARNAME*/ = ~Je suppose que tu as raison. Adieu, mon amour, et bonne chance.~
+@119 /*Anomen*/ = ~Il ne l'a peut-être pas fait ! Nous devrions vérifier auprès du garde de la porte, Jardine. Il aurait porté tout message au bâtiment du gouvernement.~
+@120 /*Anomen*/ = ~Notre garde de la porte, Jardine, m'a laissé passer. Il connaîtrait la vérité.~
+@121 /*CHARNAME*/ = ~Parlons à Jardine.~
+
+//Guard Line
+@122 /*Jardine*/ = ~Salutations, <CHARNAME>. Lord Delryn et son fils sont à l'intérieur et je crains qu'ils en viennent aux mains.~
+@123 /*CHARNAME*/ = ~Merci, j'y vais immédiatement.~
+@124 /*CHARNAME*/ = ~Pourquoi n'as-tu pas empêché Anomen d'entrer ? N'avait-il pas été renié ?~
+@125 /*Jardine*/ = ~Je n'ai reçu aucun ordre d'interdire l'entrée à Anomen, et j'en suis reconnaissant.~
+@126 /*Jardine*/ = ~Anomen n'avait pas l'humeur à être retenu, et je n'aurais pas pu l'arrêter si cela avait dégénéré en bagarre. Il fut un temps où j'étais de taille, mais plus maintenant.~
+@127 /*Jardine*/ = ~Vous êtes un ami d'Anomen, donc vous pouvez entrer. Faites-le rapidement, je vous prie.~
+
+//Post-death Guard Talk
+@128 /*Guard*/ = ~Lord Delryn. Je suis peiné d'apprendre le décès de votre père. Les espoirs de votre famille et de votre Maison reposent désormais sur vous, mon seigneur.~
+@129 /*Anomen*/ = ~Suis-je Lord Delryn ? Vous... vous devez avoir entendu que mon père m'a renié...~
+@130 /*Guard*/ = ~Je n'ai rien entendu de tel, mon seigneur. Et on ne m'a pas demandé de porter ce message aux autorités compétentes. Vous êtes Lord Delryn.~
+@131 /*Guard*/ = ~Vous avez vu que votre feu père a été assassiné, mon seigneur ? Des brigands, peut-être ? Ils doivent être venus quand votre père m'a envoyé acheter plus de boisson pour lui.~
+@132 /*Anomen*/ = ~Oui... des brigands. Vous porteriez ce message aux officiels ?~
+@133 /*Guard*/ = ~Bien sûr, mon seigneur. Votre parole est mon commandement.~
+@134 /*Anomen*/ = ~Vous avez été un serviteur loyal, Jardine. Le plus loyal de tous. Je sais que mon père ne vous a jamais payé à votre juste valeur. Je vais rectifier cela immédiatement.~
+@135 /*Guard*/ = ~C'est un honneur de servir, mon seigneur.~
+@136 /*Guard*/ = ~Puis-je recommander de vous laver, mon seigneur ? Vous avez l'air d'avoir été dans un combat sanglant. Vous étiez dehors à pourchasser des bandits, j'en suis sûr.~
+@137 /*Guard*/ = ~Cela aiderait aussi si certaines des valeurs à l'intérieur de la maison manquaient, mon seigneur.~
+@138 /*Anomen*/ = ~Des valeurs ?~
+@139 /*Guard*/ = ~Les brigands qui ont assassiné votre père doivent s'être échappés avec des objets de valeur, mon seigneur. Ils manqueraient.~
+@140 /*Anomen*/ = ~C'est vrai... <CHARNAME>, allons à l'intérieur et occupons-nous de tout, puis nous nous reposerons. Ma maison est la vôtre, bien sûr.~
+
+//New Normal Guard Dialogue
+@141 /*Guard*/ = ~Mon seigneur, ma dame, une perle à vous.~
+@142 /*Guard*/ = ~Une perle à vous, Lady <CHARNAME>.~
+
+//New Anomen Kicked Out Dialogue
+@143 /*CHARNAME*/ = ~Oui, allons-y, Anomen.~
+@144 /*CHARNAME*/ = ~Non, il vaudrait mieux se séparer pour l'instant.~
+@145 /*Anomen*/ = ~En es-tu sûr, mon amour ? Je ne souhaite pas être séparé de toi.~
+@146 /*Anomen*/ = ~Mais tu as probablement raison ; j'ai tellement de travail à faire pour maintenir l'empire commercial de ma famille. Retrouve-moi chez nous si tu as à nouveau besoin de moi.~
+@1460 /*CHARNAME*/ = ~D'accord, je te retrouverai là-bas.~
+@1461 /*CHARNAME*/ = ~Non, attends-moi simplement ici jusqu'à mon retour.~
+
+//CN Changes to 1st Post Cor Talk
+@147 /*CHARNAME*/ = ~Je vous en prie, dites-moi.~
+@148 /*CHARNAME*/ = ~Et qu'est-ce que c'est, mon amour ?~
+@149 /*CHARNAME*/ = ~Oui ?~
+@150 /*CHARNAME*/ = ~Je suis si fier de toi. Tu es sûrement plus sage que le plus érudit des paladins.~
+@151 /*CHARNAME*/ = ~Je le crois depuis un moment. Je suis content que tu sois d'accord.~
+@152 /*CHARNAME*/ = ~Bien sûr. C'est pourquoi nous devrions gouverner cette ville. Nous n'aurions pas peur de faire ce qui est nécessaire.~
+@153 /*Anomen*/ = ~C'est vrai. Je vois maintenant que tu as raison.~
+@154 /*Anomen*/ = ~Oui, mon amour. Nous sommes les seuls à pouvoir voir la vérité.~
+@155 /*Anomen*/ = ~Mon amour, m'aiderez-vous ?~
+@156 /*CHARNAME*/ = ~Bien sûr. Tout ce que tu souhaites.~
+@157 /*CHARNAME*/ = ~Je suis allé trop loin pour reculer maintenant.~
+@158 /*CHARNAME*/ = ~Bien sûr, cela a l'air amusant.~
+
+//CN Changes to 2nd Cor Talk
+@159 /*CHARNAME*/ = ~Peut-être pouvons-nous reparler à Bylanna.~
+@160 /*CHARNAME*/ = ~Tu as raison. Il doit y avoir quelque chose que nous puissions faire.~
+@161 /*Anomen*/ = ~Oui, j'ai une idée. Allons au bâtiment du Conseil des Six et parlons à l'autorité compétente.~
+
+//CN Changes to Talk 3
+@162 /*Anomen*/ = ~Remercions les dieux pour notre bonne fortune ! La Maison Delryn sera bientôt l'une des principales maisons marchandes d'Amn.~
+@163 /*Anomen*/ = ~Mon amour, que sais-tu du Conseil des Six ?~
+@164 /*CHARNAME*/ = ~Tout ce que je sais, c'est que ses membres sont secrets.~
+@165 /*CHARNAME*/ = ~Des figurines au mieux. Il est évident que les Mages Cagoulés sont aux commandes. Je ne sais pas pourquoi le Conseil se donne la peine de cacher ses membres.~
+@166 /*CHARNAME*/ = ~Rien, et c'est comme ça que je l'aime. J'ai mieux à faire que de m'inquiéter d'un quelconque Conseil secret de vieillards.~
+@167 /*Anomen*/ = ~La Pommarque est Tyrda Q'Helvor. Elle n'est qu'une femme, donc personne ne la prend au sérieux. Sans vouloir t'offenser, mon amour.~
+@168 /*Anomen*/ = ~Un jour, j'espère me tenir parmi eux....~
+@169 /*Anomen*/ = ~Bah, je rêve. Même s'il y avait une ouverture, on ne peut pas demander à rejoindre le Conseil. Un membre du conseil doit vous approcher.~
+@170 /*Anomen*/ = ~Mais chasse tout cela de ton esprit, mon amour. Le <DAYNIGHTALL> est trop beau, et tu es trop belle pour t'inquiéter de telles politiques.~
+
+//CN Talk 4
+@171 /*Anomen*/ = ~Le Conseil des Six, <CHARNAME> ! La réalité n'est pas encore totalement intégrée.~
+@172 /*CHARNAME*/ = ~Ce sera un grand honneur, mais un honneur que tu devras mériter.~
+@173 /*CHARNAME*/ = ~Tu as de la chance d'être considéré.~
+@174 /*CHARNAME*/ = ~C'est la première étape, mais nous avons encore loin à aller.~
+@175 /*CHARNAME*/ = ~Je te promets, ce n'est pas un rêve. Bientôt, le Conseil sera nôtre.~
+@176 /*CHARNAME*/ = ~D'abord le Conseil, puis Athkathla, puis Amn lui-même sera à nos pieds.~
+@177 /*Anomen*/ = ~Tu as raison, bien sûr. Je rejoindrai l'échelon le plus bas de l'échelle et il faudra peut-être des années avant que je n'obtienne un véritable pouvoir.~
+@178 /*Anomen*/ = ~Nous devons être patients. Je rejoindrai l'échelon le plus bas de l'échelle et il faudra peut-être des années avant que je n'obtienne un véritable pouvoir.~
+@179 /*CHARNAME*/ = ~Il n'y a pas de hâte. D'ici là, nous consoliderons notre position par d'autres moyens.~
+@180 /*CHARNAME*/ = ~NOUS le rejoindrons, mon amour. Je grimperai avec toi à chaque étape.~
+@181 /*Anomen*/ = ~Peut-être. Pour l'instant, cherchons l'honneur et la gloire. Et la richesse ! Nous aurons besoin de vastes quantités de pièces si je veux apporter un vrai changement.~
+@182 /*Anomen*/ = ~Bien sûr, mon amour. Pour l'instant, cherchons l'honneur et la gloire. Et la richesse ! Nous aurons besoin de vastes quantités de pièces si je veux apporter un vrai changement.~
+@183 /*Anomen*/ = ~Et je ne pourrais pas faire cela sans toi. Cherchons ensemble l'honneur et la gloire. Et la richesse ! Nous aurons besoin de vastes quantités de pièces si je veux apporter un vrai changement.~
+
+
+//Clearing Name Journal's
+@1000 /*Title*/ = ~Blanchir le nom d'Anomen~
+
+@1001 /*First Entry*/ = ~Blanchir le nom d'Anomen : Une visite chez un magicien
+
+Anomen souhaite que nous nous arrêtions au bâtiment du Conseil des Six à Athkatla et que nous parlions au magicien Corneil dans le but de blanchir son nom. Il espère que le magicien pourra utiliser sa magie pour trouver des preuves des méfaits de Saerk et ainsi justifier son meurtre.~
+
+@1002 /*Second Entry*/ = ~Blanchir le nom d'Anomen : Un magicien payé
+
+Anomen a payé le magicien Corneil 10 000 pièces d'or pour réenquêter sur les affaires de Saerk. Il prétend n'avoir acheté que des composants sortilèges, mais c'est une technicité au mieux. Toute la situation a une aura de pot-de-vin.~
+
+@1003 /*Third Entry*/ = ~Blanchir le nom d'Anomen : L'affaire réglée
+
+Corneil a terminé son enquête et a officiellement blanchi Anomen de tout acte répréhensible dans la mort de Saerk Farrahd. Le magicien a fait une déclaration officielle selon laquelle Saerk faisait commerce d'esclaves et était responsable du meurtre de la sœur d'Anomen, Moira. Que cela soit vrai ou non, je ne saurais le dire, mais au moins le spectre de la culpabilité ne plane plus au-dessus de la tête d'Anomen.~
+
+//Jysstev Letter
+@1004 /*Council Letter*/ = ~Anomen souhaite que nous rendions visite à Lord Qar Jysstev, qui a demandé à lui parler. Le seigneur peut être trouvé dans son domaine du quartier du gouvernement.~

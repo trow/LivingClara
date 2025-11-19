@@ -1,0 +1,25 @@
+//1er Dialogue Clara-Saradas
+@1 /*Clara*/ = ~Hé, Saradas, je peux te poser une question ?~
+@2 /*Saradas*/ = ~Bien sûr. Les esprits curieux méritent d'être récompensés, et les jeunes ne peuvent grandir sans écouter la sagesse de leurs aînés. Que désires-tu savoir ?~
+@3 /*Clara*/ = ~Eh bien, je suppose que tu ne t'attendais certainement pas à être invoqué par <CHARNAME>... Est-ce que quelqu'un va te manquer ? As-tu une famille qui attend ton retour ?~
+@4 /*Saradas*/ = ~Ah, j'ai bien peur que non. J'ai passé de nombreuses années à poursuivre connaissances et artefacts magiques, et si je ne regrette pas mes choix, je n'ai jamais eu de famille ni d'endroit que je puisse appeler un foyer.~
+@5 /*Saradas*/ = ~En effet, des rumeurs de magies oubliées ont souvent guidé mes pas, et bien que le temple ait probablement remarqué mon absence, ce n'est pas la première fois que je disparaîs soudainement.~
+@6 /*Clara*/ = ~Oh, tant mieux. Ça me soulage de l'entendre.~
+@7 /*Saradas*/ = ~Ça te soulage ?~
+@8 /*Clara*/ = ~Ouais, je veux dire, tu es VRAIMENT très vieux. J'avais peur que <CHARNAME> ait kidnappé l'arrière-grand-père de quelqu'un, et qu'on vienne te rechercher.~
+@9 /*Clara*/ = ~Mais si tu n'as pas de famille, ça veut dire qu'on peut garder tes affaires si tu meurs dans ton sommeil. C'est tellement pratique ! Merci !~
+@10 /*Saradas*/ = ~Cette réflexion est... intéressante.~
+
+//2ème Dialogue
+@11 /*Saradas*/ = ~Tu observes avec une certaine insistance, Clara. Quelque chose ne va pas ?~
+@12 /*Clara*/ = ~Non, je vérifie juste que tu es toujours en vie.~
+@13 /*Saradas*/ = ~Je le suis en effet. Navré de te décevoir.~
+@14 /*Clara*/ = ~Je ne suis pas déçue, je suis impressionnée ! Je n'ai jamais vu personne d'aussi vieux que toi, et je veux connaître ton secret. Comment as-tu réussi à rester en vie pendant des siècles ?~
+@15 /*Saradas*/ = ~Des siècles— Quel âge crois-tu que j'ai ?~
+@16 /*Clara*/ = ~Je ne sais pas. Deux cents ans ? Tu as l'air d'avoir deux cents ans. Mais tu te bats comme un jeune homme.~
+@17 /*Saradas*/ = ~Tu es une enfant étrange, Clara, avec une vision de la vie tout aussi étrange. Je ne sais jamais si je dois être flatté ou insulté lorsque tu parles.~
+@18 /*Saradas*/ = ~Cependant, si tu souhaites véritablement connaître les secrets de la longévité, je serais ravi de t'instruire si je le peux.~
+@19 /*Clara*/ = ~Vraiment ? C'est fantastique ! Apprends-moi comment vivre éternellement... Enfin, à condition que ce soit facile et que je n'aie absolument rien à changer à ma vie.~
+@20 /*Saradas*/ = ~Je vois...~
+@21 /*Saradas*/ = ~Dans ce cas, j'ai bien peur que ce ne soit de la magie, mon enfant, et que tu n'aies tout simplement pas les compétences nécessaires.~
+@22 /*Clara*/ = ~Ooh. C'est dommage. Merci quand même d'avoir essayé.~

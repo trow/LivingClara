@@ -1,0 +1,24 @@
+@1 /*Hexxat Dead- create bag*/ = ~Vous vainquez le vampire, mais elle se transforme en brouillard et disparaît rapidement. À l'endroit où elle se tenait ne reste qu'un vieux sac qu'elle n'a pas eu le temps d'emporter.~
+@2 /*Hexxat Dead- have bag but not stake*/ = ~En suivant l'odeur sur le sac, vous découvrez que le vampire s'est réfugié dans ce cercueil après sa défaite. Si vous aviez un pieu en bois, vous pourriez tenter de le détruire définitivement.~
+@3 /*Hexxat dead- have bag and stake*/ = ~Alors que le sort fait effet, la force vitale dissipée est canalisée dans le corps de la pauvre victime, et sa respiration revient.~
+@4 /*Journal*/ = ~La tombe de Dragomir était un piège. Celle que je connaissais sous le nom d'Hexxat était un thrall sous le contrôle d'un vampire, qui souhaitait me parler. Mais je ne négocie pas avec les monstres. J'ai tué le vampire et libéré l'âme de cette fille. Espérons qu'elle sera plus loquace maintenant.~
+
+@11 = ~Enfoncer le pieu de bois dans son cœur immonde.~
+@12 = ~Pour l'instant, ne pas y toucher.~
+@13 = ~Aller d'abord trouver un pieu.~
+@20 = ~La force vitale de cette pauvre victime a été complètement drainée. Maintenant que le coupable a été détruit, la vitalité volée s'est dissipée. Peut-être qu'un sort de Restauration ou une magie similaire pourrait aider.~
+@21 = ~Demander à <PLAYER1> de lancer Restauration mineure.~
+@22 = ~Demander à <PLAYER2> de lancer Restauration mineure.~
+@23 = ~Demander à <PLAYER3> de lancer Restauration mineure.~
+@24 = ~Demander à <PLAYER4> de lancer Restauration mineure.~
+@25 = ~Demander à <PLAYER5> de lancer Restauration mineure.~
+@26 = ~Demander à <PLAYER6> de lancer Restauration mineure.~
+@30 = ~Utiliser un parchemin de Restauration.~
+@31 = ~Demander à <PLAYER1> de lancer Restauration.~
+@32 = ~Demander à <PLAYER2> de lancer Restauration.~
+@33 = ~Demander à <PLAYER3> de lancer Restauration.~
+@34 = ~Demander à <PLAYER4> de lancer Restauration.~
+@35 = ~Demander à <PLAYER5> de lancer Restauration.~
+@36 = ~Demander à <PLAYER6> de lancer Restauration.~
+@40 = ~Pour l'instant, la laisser en l'état.~
+@41 = ~Aller d'abord préparer le sort.~

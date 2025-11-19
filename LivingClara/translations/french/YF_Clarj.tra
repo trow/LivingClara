@@ -1,0 +1,48 @@
+//Renal Bloodscalp et Clara
+@1 /*Renal*/ = ~Te voilà enfin, Clara. Je pensais que tu étais morte, car ceux qui osent manquer leurs paiements le sont généralement.~
+@2 /*Renal*/ = ~Je suppose que tu as une explication farfelue pour justifier pourquoi tu n'as pas pu payer ta part à temps comme les autres ?~
+@3 /*Clara*/ = ~En fait, monsieur, c'est le cas. Vous voyez, j'étais possédée par un vampire ancien nommé Hexxat qui m'utilisait pour recruter <CHARNAME> afin de tuer Dragomir, un vampire encore plus ancien qu'elle n'aimait pas. Nous avons tué Dragomir, ou du moins <CHARNAME> l'a fait... J'étais possédée donc je ne peux pas vraiment dire que j'ai fait quoi que ce soit... et puis Hexxat m'a tuée, alors <CHARNAME> l'a tuée, mais ensuite <CHARNAME> m'a ressuscitée alors...~
+@4 /*Renal*/ = ~Arrête. Arrête tout. Je m'en fiche. Tu es avec <CHARNAME> et c'est la seule explication dont j'ai besoin. Va aider <PRO_HIMHER> dans ses missions et tout sera pardonné.~
+@5 /*Renal*/ = ~Quant à toi, <CHARNAME>, bon travail pour avoir détruit ces vampires ; cela me fait plaisir d'entendre parler de dissensions et de luttes internes dans leurs rangs. Inutile de traîner ici ; retourne sur le terrain et continue ton bon travail.~
+
+//Dialogue Clara-Imoen 1
+@6 /*Clara*/ = ~Bonjour.~
+@7 /*Imoen*/ = ~Oh, je ne t'avais pas vue là. Salut, je suis Imoen. <CHARNAME> ne nous a pas présentées.~
+@8 /*Imoen*/ = ~Tu dois être vraiment douée pour te cacher. D'habitude, je vois tout le monde.~
+@9 /*Clara*/ = ~J'ai un don pour disparaître des mémoires quand je le veux ; même les gens qui me cherchent oublient souvent que je suis là.~
+@10 /*Clara*/ = ~Donc tu es la sœur que nous sommes venus sauver de si loin.~
+@11 /*Clara*/ = ~Et nous l'avons fait. Nous avons pris d'assaut la forteresse et sauvé la demoiselle.~
+@12 /*Clara*/ = ~Nous avons gagné. Maintenant, nous allons vivre heureux pour toujours. N'est-ce pas ?~
+@13 /*Imoen*/ = ~Ouaip ! Dès que nous serons de retour à Athkatla.~
+@14 /*Imoen*/ = ~Tu as l'air un peu déprimée. Réessayons.~
+@15 /*Imoen*/ = ~Salut, je suis Imoen. Je viens de me faire arracher l'âme du corps. Quelle est ton histoire ?~
+@16 /*Clara*/ = ~Ma famille a été tuée, un vampire m'a tuée, et puis <CHARNAME> m'a sauvée, alors maintenant je suis <PRO_HIMHER> partout et j'essaie de ne pas mourir de façon horrible.~
+@17 /*Clara*/ = ~Assez normal d'après ce que j'ai vu.~
+@18 /*Imoen*/ = ~Ouais, c'est à peu près l'histoire de tout le monde. Nous sommes un groupe de perdus et de solitaires.~
+@19 /*Imoen*/ = ~Allez, garde la tête haute. Nous avons un autre round de "tenter-de-ne-pas-mourir-horriblement" devant nous.~
+
+//Scène du poison Clara-Viconia
+@20 /*Clara*/ = ~Home sweet home. L'odeur de ce bar me rappelle toujours le passé.~
+@21 /*Ivre1*/ = ~Regarde cette petite chose. 'ey fille ! Viens ici *rot* et donne-nous un baiser.~
+@22 /*Ivre2*/ = ~Maintenant Garoll, mon *hic* ami... ne la garde pas toute pour toi.~
+@23 /*Ivre2*/ = ~'ey belle poitrine, j'ai besoin d'un baiser aussi !~
+@24 /*Clara*/ = ~Eux ?~
+@25 /*Viconia*/ = ~Ce sont des mâles ivres et grossiers. Le monde ne regrettera jamais, au grand jamais, des mâles ivres et grossiers.~
+@26 /*Clara*/ = ~D'accord, alors. Regarde-moi faire. Tu ne verras rien.~
+@27 /*Clara*/ = ~Garoll, c'est ça ? Tu es un homme si fort et beau. Bien sûr que je vais te donner un baiser. Là. Un pour le sommet de ta tête. Ohh, touche ton bras, tu es si fort.~
+@28 /*Clara*/ = ~Et un pour ton ami. Oooh, il est fort aussi.~
+@29 /*Clara*/ = ~Maintenant, vous deux les garçons, restez assis ici pendant que je vais discuter avec mon amie là-bas. Nous devons nous rafraîchir, mais nous vous reverrons bientôt.~
+@30 /*Viconia*/ = ~Tu as fini ? Rien que de t'entendre, j'ai envie de vomir.~
+@31 /*Clara*/ = ~Alors, on va où ?~
+@32 /*Viconia*/ = ~Maintenant, nous attendons et nous les regardons mourir.~
+@33 /*Clara*/ = ~Alors, qu'est-ce qu'on fait pendant qu'on attend ?~
+@34 /*Clara*/ = ~Je sais ! Jouons à un jeu ! C'est le jeu du mensonge et...~
+@35 /*Viconia*/ = ~Je ne joue pas à des jeux.~
+@36 /*Clara*/ = ~Mais c'est amusant. Regarde, d'abord tu...~
+@37 /*Viconia*/ = ~Chut.~
+@38 /*Clara*/ = ~Tu n'es pas du tout amusante.~
+@39 /*Ivre1*/ = ~*hic* Je ne me sens pas très bien.~
+@40 /*Ivre2*/ = ~*rot* Garoll, ça va ? Ohhhh.~
+@41 /*Viconia*/ = ~C'était plus rapide que ce à quoi je m'attendais. Tu as utilisé plus que nécessaire pour détruire de si faibles individus.~
+@42 /*Clara*/ = ~Juste deux ivrognes de plus qui ne tiennent pas l'alcool. On peut y aller maintenant ?~
+@43 /*Viconia*/ = ~Oui. Ma journée est déjà un peu plus brillante.~

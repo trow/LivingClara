@@ -1,0 +1,32 @@
+//Dialogue d'Invocation de l'Esprit du Destin pour Clara
+@0 /*Charname*/ = ~Amène-moi Clara, l'ombre-danseuse humaine.~
+
+//si vous l'avez sauvée auparavant
+@1 /*Clara*/ = ~<CHARNAME>, que fais-tu ici ? Et d'ailleurs, que fais-*je* ici, et où suis-je exactement ?~
+@2 /*Player*/ = ~C'est mon plan poche et tu es ici parce que je veux que nous voyagions à nouveau ensemble.~
+@3 /*Player*/ = ~Tout ce que tu as besoin de savoir, c'est qu'il est temps de te mettre en rang et de me suivre.~
+@4 /*Player*/ = ~Je ne supportais pas de voyager sans toi, Clara. Tu égayes ma journée.~
+@5 /*Player*/ = ~Désolé(e), Clara. J'ai changé d'avis. Attends ici pour l'instant.~
+@6 /*Clara*/ = ~Tu dis ça comme si c'était censé avoir du sens, <CHARNAME>, mais je sais que je finirai par comprendre ce que tu veux dire. Allons-y.~
+@7 /*Clara*/ = ~Directe et précise comme toujours, <CHARNAME>, mais c'est pour ça que je t'aime bien. Allons-y !~
+@8 /*Clara*/ = ~Ooh, c'est gentil, <CHARNAME>. J'apprécie aussi ta compagnie. En avant alors !~
+@9 /*Clara*/ = ~Tu vas juste me laisser ici ? Ce n'est pas très gentil.~
+@10 /*Clara*/ = ~Mais je suppose que je vais attendre. Je n'ai pas l'air d'avoir beaucoup d'autre choix.~
+
+//si vous ne l'avez pas sauvée auparavant
+@11 /*Clara*/ = ~Quoi ? Où suis-je ? Qui es-tu ? Tu as l'air familier(ère) mais je ne me souviens plus vraiment... tout cela ressemble à un mauvais rêve.~
+@12 /*Player*/ = ~Félicitations, tu as été enrôlée. J'espère que tu as des compétences utiles.~
+@13 /*Player*/ = ~Nous avons voyagé ensemble brièvement et j'ai à nouveau besoin de ton aide.~
+@14 /*Player*/ = ~Je ne sais pas à quoi je pensais. Je vais invoquer quelqu'un d'autre.~
+@15 /*Clara*/ = ~Je veux dire, je suppose que oui. Je suis si confuse.~
+@17 /*Clara*/ = ~C'était <CHARNAME>, n'est-ce pas ? Je crois que je me souviens. Peut-être peux-tu m'en dire plus.~
+@18 /*Clara*/ = ~Tu vas juste me laisser ici ? Ce n'est pas très gentil.~
+
+//Quand elle attend et ne vous a pas rejoint auparavant
+@20 /*Clara*/ = ~Oh, <CHARNAME>. Tu es de retour. Je peux voyager avec toi maintenant ?~
+@21 /*Player*/ = ~Oui, Clara. Viens avec moi.~
+@22 /*Player*/ = ~Désolé(e). Je n'ai pas encore besoin de toi.~
+@23 /*Clara*/ = ~Tu es sérieux/sérieuse ? Oh, dieu merci. Sortons d'ici.~
+@24 /*Clara*/ = ~Sérieusement ? D'accord alors. Laisse-moi juste ici à mourir de faim.~
+
+

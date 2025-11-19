@@ -1,0 +1,278 @@
+//SOA Interjections
+//Anomen/Saerk
+@1 /*Clara*/ = ~Je ne vois pas d'autre choix, mon seigneur. Cet homme a assassiné votre sœur et, si on le laisse faire, il pourrait recommencer. Nous devons l'arrêter, pas seulement pour votre famille, mais pour toutes les futures victimes que nous pourrions sauver.~
+
+//Hendak Defenses
+@2 /*Clara*/ = ~Vous voulez attaquer des marchands d'esclaves, <CHARNAME> ? Cela semble dangereux. Je pense que je vais rester à l'arrière.~
+
+//Tassa Talk
+@3 /*Clara*/ = ~Et pour une vieille amie ? J'ai besoin d'or aussi ?~
+@4 /*Tassa*/ = ~Clara ! Ou devrais-je dire Dame Silvershield ? Je ne t'ai pas vue depuis des années. Tu sembles plutôt bien t'en sortir.~
+@5 /*Clara*/ = ~Pas aussi bien que toi, Tassa, mais peu de gens le peuvent.~
+@6 /*Tassa*/ = ~Eh bien, merci, bien que tu saches qu'il n'y a pas d'avenir dans notre métier. Une fille doit amasser des noisettes pour survivre quand la neige tombe.~
+
+//Post Hell Talk
+@7 /*Clara*/ = ~Où... où sommes-nous maintenant, <CHARNAME> ? Je me suis sentie mourir à nouveau, déchirée et brisée en mille morceaux. Mais au lieu des ténèbres, j'ai senti ton esprit me tirer.~
+@8 /*Clara*/ = ~Tu n'aurais pas pu m'emmener dans un au-delà meilleur ? Cet endroit est si déprimant. Mais je suppose que tu ne pouvais pas supporter de terminer ton histoire sans moi.~
+
+//Yoshimo Betrayal Talk - if got 3rd banter
+@9 /*Yoshimo*/ = ~Attends - mon épée, où est mon épée ?~
+@10 /*Clara*/ = ~Elle est ici, Yoshimo. Je t'avais dit que je surveillerais attentivement tes actions.~
+@11 /*Yoshimo*/ = ~En effet, tu l'as fait. Et tu t'es montrée être une vraie geisha-assassin après tout, dansant sous les défenses de ce guerrier avant qu'il ne puisse même cligner des yeux.~
+@12 /*Yoshimo*/ = ~Mais c'est peut-être mieux ainsi. Je vais me battre et mourir ici ; je n'en doute pas. Alors je te donne mon épée librement. Utilise-la avec ma bénédiction et que la lame de ma famille regagne l'honneur que j'ai perdu.~
+@13 /*Yoshimo*/ = ~Adieu, mon élève. Pense à moi avec bienveillance de temps en temps.~
+
+//Waylane Talk
+@14 /*Waylane*/ = ~Salutations, madame. Seriez-vous intéressée par la possession d'un merveilleux joyau architectural pour...~
+@15 /*Clara*/ = ~Waylane ! Tu es encore en train de faire cette vieille arnaque ?~
+@16 /*Waylane*/ = ~Oh, Clara, je ne t'avais pas reconnue. J'ai entendu dire que tu étais devenue bizarre et effrayante, mais tu as l'air bien pour moi. Et baisse la voix, veux-tu ? Quelqu'un pourrait nous entendre.~
+@17 /*Clara*/ = ~Hah, tout le monde dans les bas-fonds est au courant pour toi, Waylane. Qu'est-ce que tu vends cette fois ? Un manoir que tu ne possèdes pas ? Quelque "héritage" fin d'une boutique de bric-à-brac ?~
+@18 /*Waylane*/ = ~Bien sûr que non. Je vends ce glorieux sphère voyageant dans l'espace que vous pouvez voir derrière moi. (Elle est tombée sur ma boutique de bric-à-brac habituelle. J'ai dû improviser.)~
+@19 /*Clara*/ = ~Hein. C'est du nouveau, je te l'accorde. Et qui sait, peut-être que tu trouveras quelqu'un d'assez fou pour l'acheter.~
+@20 /*Clara*/ = ~Je dois y aller maintenant, mais je te souhaite bonne chance. Je pense que nous gravissons tous les deux des échelons dans ce monde.~
+
+//Jermien Talk
+@21 /*Clara*/ = ~Est-ce que c'est normal pour les aventuriers ? Je pensais que nous allions sauver le monde pour la gloire et la richesse, pas aider chaque petit sorcier qui a besoin qu'on fasse une course pour lui.~
+
+//Boy in Umar Hills
+@22 /*Clara*/ = ~...ce n'est qu'une rumeur, n'est-ce pas ? La mort par exsanguination n'est pas une expérience que j'ai envie de revivre.~
+@23 /*Atta*/ = ~La mort par exsangui-quoi ? Qu'est-ce que ça veut dire ?~
+@24 /*Clara*/ = ~Eh bien... ça veut dire qu'un vampire terrifiant a bondi de son cercueil et a enfoncé ses crocs dans ma gorge. Elle a déchiré mon cou, le sang et les débris volant partout jusqu'à ce que je m'effondre en un tas inanimé à ses pieds.~
+@25 /*Atta*/ = ~C'est....~
+@26 /*Jaheira*/ = ~Un peu dramatique, tu ne trouves pas ? Inutile d'effrayer davantage ce pauvre garçon.~
+@27 /*Clara*/ = ~Attends de voir...~
+@28 /*Atta*/ = ~C'est trop COOL !~
+@29 /*Atta*/ = ~M'man ! M'man ! Je veux être un aventurier ! Je veux être exsanguiné comme cette dame !~
+@30 /*Clara*/ = ~Ouaip. Je l'ai toujours. C'est pour ça qu'il faut toujours connaître son public.~
+
+//Shadow Thief
+@31 /*Clara*/ = ~Il a raison, <CHARNAME>. Tu devrais faire attention. Quand j'ai vu ce qui restait du dernier type qui a essayé de se soustraire à ses dettes, j'ai fait des cauchemars pendant une semaine.~
+
+//Noblewoman in Sailor's Bounty
+@32 /*Clara*/ = ~Tu crois qu'on devrait lui dire que c'est probablement du verre coloré ? Si cette femme est aussi crédule, on pourrait probablement lui vendre aussi des bagues en "diamant".~
+
+//Seeing Eye Prophet
+@33 /*Clara*/ = ~Beurk, toute foi qui te fait faire ça n'est pas une que je veux rejoindre.~
+@34 /*Clara*/ = ~Quoique... vision divine ou pas, c'est probablement beaucoup plus facile de prendre sa bourse à pièces maintenant.~
+@35 /*Clara*/ = ~Je vais juste me faufiler par ici... et couper... et soulever...~
+
+//Count Claylan Talk
+@36 /*Clara*/ = ~*reniflement* Je suis sûr qu'il le pourrait. Je parie qu'elles sont longues et épaisses et ont besoin d'être polies.~
+
+//Bodhi's Initial Offer
+@37 /*Clara*/ = ~Hé, <CHARNAME>, tu sais qu'Hexxat était totalement un vampire ? Je ressens la même vibe "Je veux te déchirer la gorge" de la part de grand, brun et effrayant, là-bas. Je pensais que tu aimerais le savoir.~
+
+//Lord Argrim in Council Building
+@38 /*Clara*/ = ~C'est terrible, mon seigneur. C'est vraiment dommage qu'il soit si difficile de trouver de la bonne aide de nos jours.~
+@39 /*Argrim*/ = ~Oui, oui, c'est vrai. Je suis désolé, madame, je n'ai pas saisi votre nom.~
+@40 /*Clara*/ = ~Je suis la Dame Caroline Louisa Audrey Rosanna Alexandra Silvershield de Bérégost. Je viens tout juste d'arriver dans cette belle ville et je suis ravie de faire votre connaissance. Si jamais vous avez besoin d'une oreille compatissante, je serais ravie d'écouter vos troubles... avec un chaperon convenable, bien sûr.~
+@41 /*Argrim*/ = ~Bien sûr, Dame Silvershield. Et en effet, le plaisir est tout pour moi.~
+
+//Amauna's Ghost
+@42 /*Clara*/ = ~Ça me va. Je peux garder ça, <CHARNAME> ? Je veux vraiment, vraiment pas finir comme cette fille.~
+
+//Trapped Shadow
+@43 /*Clara*/ = ~Oh, allez ! Même quand on aide ces choses, elles essaient toujours de nous tuer. Ce n'est vraiment pas juste du tout.~
+
+//Wallace - Mazzy's Quest
+@44 /*Clara*/ = ~Vous n'auriez pas encore une de ces potions, par hasard ? Un truc comme ça pourrait être très utile dans les bonnes circonstances.~
+@45 /*Wallace*/ = ~Je ne suis pas ce genre de marchand. Même si j'avais une autre de ces potions, je ne la vendrais pas maintenant.~
+
+//The Thumb - Jan's Quest
+@46 /*Clara*/ = ~Sérieusement ? Pourquoi les gens que nous recherchons sont-ils toujours à l'autre bout de la ville ? Tu ne m'as pas dit que l'aventure impliquait autant de randonnées aller-retour.~
+
+//Bright Moon Monk, Rasaad's Quest
+@47 /*Clara*/ = ~Ces moines sont si pompeux, mais ils ne savent rien. La vérité est ce que tu crois au moment où tu le dis, rien de plus.~
+@48 /*Rasaad*/ = ~C'est une... perspective unique. Certains diraient que tu es une menteuse.~
+@49 /*Clara*/ = ~Et certains disent que tu es un traître. Tu es trop obsédé par les faits, Rasaad. Les faits n'ont pas vraiment d'importance. Tu es comme le type qui rencontre le bourreau en protestant encore de son innocence et qui pense que ça va le sauver ; coupable ou pas, ton cou se brise quand même.~
+@50 /*Clara*/ = ~En plus, nous ne sommes ici que parce que tu crois que ce type, Collus, est secrètement l'Alorgoth qui a détourné ton frère de toi et t'a poussé à l'abattre. Tu l'affirmes avec conviction mais tu n'as pas une once de preuve. Est-ce que ça veut dire que tu te trompes ? Ou est-ce que c'est assez vrai pour toi ?~
+@51 /*Rasaad*/ = ~Je... Je vais devoir réfléchir à ça. Peut-être que le monde n'est pas aussi noir et blanc que je le croyais.~
+@52 /*Rasaad*/ = ~Pour l'instant, je dois avoir des réponses, où que mène cette voie. Affronteras-tu encore cette épreuve, <CHARNAME> ?~
+
+//Renal Guild Gift
+@53 /*Clara*/ = ~Waouh, <CHARNAME>, tu es déjà un maître de guilde. Tant que je reste avec toi, je n'aurai plus jamais à payer mes cotisations.~
+
+//Nalia Castle Quest
+@54 /*Clara*/ = ~C'est une chose étrange d'en avoir honte. Je pensais que toutes les plus vieilles familles avaient quelque chose de similaire et c'est bien un château. Que serait-il sans un donjon pour y enfermer ses ennemis ?~
+
+//Nalia Funeral Quest
+@55 /*Clara*/ = ~Je reconnais ce type, <CHARNAME>. Les filles évitaient toujours sa compagnie comme la peste, à moins d'être vraiment désespérées ; son or ne valait pas son caractère franchement désagréable.~
+
+//Anomen-Keldorn Fight Post Test Fail
+@56 /*Clara*/ = ~*soupir* *doucement* Tout cet effort gâché dans un accès de colère. Mais je suppose que si Anomen gagne, je pourrais encore sauver la situation.~
+
+@57 /*Clara-if married*/ = ~Mon mari, tu ne peux pas ! Je sais que tu es en colère, mais ce n'est pas ainsi qu'un vrai seigneur doit agir.~
+@58 /*Clara*/ = ~*chuchote* Si tu souhaites vraiment sa mort, nous pouvons assurer ce résultat de manière bien plus subtile.~
+@59 /*Anomen*/ = ~Mais- Il- Je- ... Tu as raison, mon amour. Je suis désolé.~
+@60 /*Anomen*/ = ~Toutes mes excuses, Sir Keldorn. Je n'aurais pas dû laisser ma colère prendre le dessus. Je n'attends pas de vous que vous me pardonniez, mais je jure sur mon honneur que je ne lèverai plus jamais une lame contre vous.~
+@61 /*Keldorn*/ = ~Bien que je comprenne ta colère, Anomen, ce n'est pas ainsi que tu devrais la montrer. Cependant, tant que tu as appris de cette erreur, je n'ai pas envie de te combattre. Souviens-toi simplement que je surveillerai attentivement tes actions et que je ne te laisserai pas faire de mal à un innocent.~
+@62 /*Keldorn*/ = ~Tu devrais être reconnaissant que ta dame ait eu la force de t'arrêter et pense à elle à l'avenir avant d'agir aussi bêtement. Je ne voudrais pas la voir veuve à cause de ta haine.~
+@63 /*Clara*/ = ~Merci, Sir Keldorn. Vous êtes toujours si gracieux. Je m'excuse encore pour les actions de mon mari ici.~
+
+//On next rest
+@64 /*Clara*/ = ~Mon Seigneur, Keldorn est mort. Il semble que son cœur ait lâché pendant la nuit.~
+@65 /*Clara*/ = ~Ce pauvre vieux guerrier. Il a vécu une longue vie, cependant. C'était son heure.~
+@66 /*Clara*/ = ~Peut-être devrions-nous l'enterrer ici même.~
+@67 /*CHARNAME*/ = ~Bonne idée, Clara. Faisons cela.~
+@68 /*CHARNAME*/ = ~Ou... nous pourrions simplement le ressusciter...~
+@69 /*Clara*/ = ~*soupir* Ou je suppose que nous pourrions le ressusciter.~
+@70 /*Clara*/ = ~*doucement* Quel gaspillage de bon poison.~
+
+//Firkraag Talk
+@71 /*Clara*/ = ~Tu peux faire ce que tu veux, bien sûr, et Garren était un peu ennuyeux. Mais si tu décides de trahir ce dragon aussi, peux-tu me prévenir à l'avance ? Je veux être loin quand tu te feras avaler tout cru.~
+
+//Priest Stronghold Quest
+@72 /*Clara*/ = ~Et c'est pourquoi je n'ai jamais travaillé dans le Quartier des Temples. Vole le mauvais objet et c'est toute une église qui te poursuivra.~
+
+//Paladin Protection Quest
+@73 /*Anomen*/ = ~Devons-nous vraiment protéger ce morveux de noble ? Des ordres comme celui-ci me font dire que j'ai bien fait de rater mon test de chevalerie après tout.~
+@74 /*Clara*/ = ~En effet, mon seigneur. Vos compétences pourraient être bien mieux utilisées qu'ainsi.~
+
+@75 /*Clara*/ = ~Ça ne peut être que le bon gars, <CHARNAME>. Seul un vrai paladin pourrait parvenir à avoir l'air à la fois si snob et si suffisant.~
+@76 /*Mazzy*/ = ~Tu te trompes, Clara. Un vrai paladin ne parlerait pas à ses alliés sur ce ton. Cet homme est soit un imposteur, soit un piètre exemple de sa foi.~
+
+//Cernd Baby Quest
+@79 /*Clara*/ = ~Alors... ces retrouvailles sont sympas et tout, mais personne ne va parler du truc de liche vraiment flippant ? Non ? D'accord, je demandais juste.~
+
+//Bertrand Talk
+@81 /*Bertrand*/ = ~Ahh, Caroline, ma délicieuse chouchette d'amour. Es-tu partante pour un autre round de passion et de plaisir incomparables ?~
+@82 /*Clara*/ = ~Chut, Bertrand, pas pendant que je travaille. Je me faufilerai et viendrai te voir bientôt, promis.~
+
+//Interjection into final battle with Jon.
+@98 /*Clara*/ = ~Tu as déjà perdu, sorcier. Tu es juste trop bête pour réaliser que mon dague est dans ta colonne vertébrale.~
+
+//Interjection into the dialogue by the Skeleton outside of Bodhi's hideout that comes at night.
+@99 /*Clara*/ = ~Il a peut-être raison, <CHARNAME>. Je pense que je vais juste me faufiler...~
+
+//Haerdalis Quest
+@100 /*Clara*/ = ~Tu aurais dû m'engager à la place. Je ne me serais pas fait prendre.~
+
+//Trademeet Peasant
+@101 /*Clara*/ = ~Oh arrête de te plaindre. Si tu étais capable de te sauver toi-même, tu n'aurais pas eu à nous payer pour tout régler. Tu en as eu pour ton argent.~
+
+//Bard Stronghold
+@102 /*Clara*/ = ~C'était moi, <CHARNAME>. Si avide de gloire et de fortune que j'aurais fait n'importe quoi.~
+@103 /*Clara*/ = ~Peut-être que je devrais parler à ce metteur en scène. Si tout ce truc de héros ne marche pas, je pourrais rejoindre cette troupe.~
+
+@104 /*Clara*/ = ~Oh, être une actrice... J'aurais pu faire fortune sur les planches.~
+
+@105 /*Clara*/ = ~Donc tu es aussi dramaturge maintenant, <CHARNAME> ? Ne m'oublie pas quand tu écris ton chef-d'œuvre.~
+
+@106 /*Clara*/ = ~Je parie que tu ne pensais pas que monter une pièce coûterait si cher, hein, <CHARNAME> ? Mais l'argent fait tourner le monde.~
+
+@107 /*Clara*/ = ~Merde. Pourquoi est-ce que ce ne serait pas une des dames qui serait tombée malade ?~
+
+//Bridge District
+@108 /*Clara*/ = ~Roturière ? Regardez encore, madame. Vous vous trompez tout à fait.~
+@109 /*Lady Diana*/ = ~Dame Delryn ? Toutes mes excuses... Je n'avais pas réalisé que c'était vous. Que faites-vous parmi ces... plébéiens ?~
+@110 /*Clara*/ = ~Aider les moins fortunés, bien sûr. Quelle autre raison pourrait-il y avoir à voyager dans ces parages ?~
+@111 /*Lady Diana*/ = ~En effet. Une telle compassion montre votre qualité. (Sauvage du Nord. Lord Delryn aurait dû épouser quelqu'un de sang annien.)~
+
+//Abandoned Temple
+@112 /*Clara*/ = ~Cet enfant est... effrayant, <CHARNAME>. Je ne pense pas que j'aime être ici.~
+
+//Hidden Refuge
+@113 /*Clara*/ = ~Je sais que tu es à peu près le saint patron des causes perdues, <CHARNAME>, et je suis bien contente que tu m'aies aidée. Mais n'avons-nous pas mieux à faire que de *réellement* rassembler des chats ?~
+@114 /*Barad Ding*/ = ~On ne peut pas RASSEMBLER les chats. Tu n'écoutais pas ? Tu dois les attirer vers toi avec soin, et faire attention aux griffes.~
+
+//Half-Orc Mage
+@115 /*Clara*/ = ~Tu vois, Dorn. C'est pour ça que tu n'as pas d'amis. Peut-être que toi et ce type pourriez être copains si tu essayais.~
+@116 /*Dorn*/ = ~Pourquoi aurais-je besoin d'amis quand j'ai un voleur furtif entêté pour m'ennuyer à la place ?~
+@117 /*Clara*/ = ~Hah... Je savais que au fond tu tenais à moi. Très profond, sous les grognements.~
+
+//Asylum Interjections-Dili
+@118 /*Clara*/ = ~Voilà un tour utile. On peut l'emmener avec nous, <CHARNAME> ? J'ai toujours voulu être la mentor de pauvres petites filles perdues. (Surtout celles qui feraient des cambrioleuses parfaites.)~
+
+//Asylum - Naljier
+@119 /*Clara*/ = ~Un mage fou avec un trésor caché ? Libérons celui-là aussi.~
+
+//Asylum - Dradeel
+@120 /*Clara - if Cernd*/ = ~Ne sois pas stupide, nous ne sommes pas des loups-garous. Enfin... à part notre druide. Pourquoi ne lui pousserais-tu pas un petit grognement ?~
+@121 /*Cernd*/ = ~…Non, Clara. Je ne le ferai pas. (Pourquoi met-elle ma patience à l'épreuve ainsi ?)~
+
+//Brynnlaw - Saemon
+@122 /*Clara*/ = ~Eh bien, si quelqu'un le savait...~
+
+//Sunken City
+@123 /*Clara*/ = ~(Et si nous échouons au test, je sais quel poisson-personne voler sur notre chemin de sortie.)~
+
+//Grey Gnome
+@124 /*Clara*/ = ~"Cherchez la lumière au bout du tunnel sombre ?" Je n'aime pas ce que cela sous-entend...~
+
+//Innkeeper - Mage Book
+@125 /*Clara*/ = ~*chuchote* Je pourrais voler ce livre pour toi, <CHARNAME>. Ce ne serait pas trop difficile du tout.~
+
+//Silver Dragon
+@126 /*Clara*/ = ~Ooh... oui, s'il vous plaît, madame. Je me suis toujours demandé à quoi je ressemblerais en elfe noire.~
+
+//Spelljammer Drow
+@127 /*Clara*/ = ~Naviguer sur les mers Astrales avec un bon capitaine à la barre... Cela ressemble à une aventure, mais je ne suis pas libre de partir. (Si seulement j'étais vraiment une elfe noire, peut-être que je pourrais m'enfuir pour de bon.)~
+
+//Tree Of Life
+@128 /*Player1*/ = ~Clara, la fille dont tu as sauvé l'âme. Elle a prétendu être beaucoup de choses : une actrice, une noble, une citoyenne respectueuse des lois, mais elle s'est avérée une survivante jusqu'au bout.~
+@129 /*CHARNAME*/ = ~Es-tu prête pour cela, Clara ? J'aurai besoin de tous mes alliés pour ce combat.~
+@130 /*CHARNAME*/ = ~C'est le moment, Clara. Si les choses tournent mal, tu ne pourras pas fuir et te cacher cette fois.~
+@131 /*CHARNAME*/ = ~Tu peux partir, Clara. Tu n'es pas obligée de rester pour ça.~
+@132 /*Clara*/ = ~Je ne suis plus une petite fille, <CHARNAME>. J'ai traversé des épreuves qui auraient abattu même les plus grands chevaliers du Très Noble Ordre du Cœur Radieux.~
+@133 /*Clara*/ = ~Je ne m'inquiète pas... Je connais déjà la fin de cette histoire. Nous vainquons le méchant et nous vivons tous heureux pour toujours.~
+
+//Elf General
+@134 /*Clara*/ = ~Waouh, ces elfes portent l'ingratitude à un tout autre niveau.~
+
+
+///TOB Interjections
+
+//Neera - Anomen Banter
+@77 /*Anomen*/ = ~Mon cœur appartient à Clara, elfe. Cesse cette ridicule exhibition.~
+@78 /*Clara*/ = ~Tout va bien, mon cher. Je sais que ce n'est pas de ta faute et je ne te blâme pas pour la jalousie de Neera.~
+
+//Peltjie
+@80 /*Clara*/ = ~Je peux faire l'impasse sur celle-là, <CHARNAME> ? J'ai eu de la malchance avec les vampires.~
+
+//Saradush Waitress
+@135 /*Clara*/ = ~Je sais que je suis généralement celle qui dit de ne pas s'impliquer, mais nous sommes de grands héros maintenant, non ? Et il ne semble pas que ces gardes manqueraient vraiment à quelqu'un... Je pourrais me faufiler là-bas et en poignarder un avant qu'il n'ait cligné des yeux.~
+@136 /*Mazzy- if Clara*/ = ~Clara ! Nous sommes des héros et les héros ne poignardent pas les gens sans raison.~
+@137 /*Mazzy*/ = ~Cependant, leurs actions sont intolérables, et nous devrions aider à protéger cette femme si possible. Peut-être qu'un des gardes nous donnera une raison de dégainer nos armes après tout.~
+
+//Saradush Volo
+@138 /*CHARNAME*/ = ~Parle-moi de Clara.~
+@139 /*Volo*/ = ~Aah, oui, la charmante Dame Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn. Devenue orpheline tragiquement sur la route de Baldur's Gate, elle est ressuscitée des cendres de son passé pour reprendre sa juste place. Mariée à l'un des grands seigneurs d'Amn, personne ne peut nier l'âme noble de Dame Delryn ni la compassion avec laquelle elle traite les moins fortunés.~
+@140 /*Volo*/ = ~Aah, oui, la charmante Dame Caroline Louisa Audrey Rosanna Alexandra Silvershield. Devenue orpheline tragiquement sur la route de Baldur's Gate, elle est ressuscitée des cendres de son passé pour rendre le monde meilleur. Belle et gracieuse, nul ne peut nier l'âme noble de Caroline ni la compassion avec laquelle elle traite les moins fortunés.~
+@141 /*Clara*/ = ~Mon bon monsieur, vous me flattez. Je ne mérite pas vos paroles, mais je suis heureuse de les entendre. (Je ferais mieux de m'assurer que ce type survive. Une fille ne peut pas refuser une si bonne publicité.)~
+
+//Saradush Hectan
+@143 /*Clara*/ = ~Aww, pourquoi fallait-il lui dire ? Il mérite de se faire écrabouiller pour être un mauvais voleur.~
+
+//Nyalee
+@144 /*Clara*/ = ~Oh, allez, ce n'est pas juste ! Si nous ne faisons pas ce que les gens disent, ils essaient de nous tuer. Si nous faisons ce qu'ils disent, ils essaient de nous tuer quand même. Ce métier de héros est vraiment ingrat de temps en temps.~
+
+//Dorn Planetar Talks
+@145 /*Clara*/ = ~Non pas que je me plaigne, attention, mais les anges ne sont-ils pas censés savoir quand tu mens ?~
+
+//Dennaton Neera Quest
+@146 /*Clara*/ = ~Ça ressemble beaucoup à voyager avec <CHARNAME>. Les gens pourraient développer un complexe à se faire téléporter comme ça.~
+
+//Rasaad Quest
+@147 /*Clara*/ = ~Tu vas quoi ? Je sais que tu es musclé et tout, mais même toi tu ne peux pas frapper une montagne.~
+@148 /*Clara - if HD*/ = ~Allons, Haer'Dalis, je pensais que tu essayais d'améliorer les métaphores de Dorn.~
+@149 /*HD-if Dorn*/ = ~Je le fais, ma fine pie. Mais le minerai le plus brut doit être affiné avant de pouvoir être trempé, et ce moineau admet être parfois distrait pendant nos leçons.~
+
+//Hexxat Quest
+@150 /*Clara*/ = ~Et bien sûr, le reste d'entre nous sera juste traîné dans l'aventure comme d'habitude. Personne ne demande jamais si *Clara* a envie de risquer sa vie... (Hexxat m'a déjà tuée une fois, ça ne suffit pas ?)~
+
+//Sendai Quest - Spectator
+@151 /*Clara*/ = ~Tu te lies d'amitié avec les créatures les plus bizarres, <CHARNAME>. Ça maintient l'intérêt, c'est sûr.~
+
+//Balthazar Quest
+@152 /*Clara*/ = ~*soupir* C'est reparti.~
+
+//Watcher's Keep (SOA & TOB)
+//Lich Priest
+@153 /*Clara*/ = ~Waouh. Quel vieux... zombie sympa ? J'aimerais que tout le monde soit aussi détendu quand on pille des tombes.~
+
+//Odren
+@154 /*Mazzy*/ = ~Vous vous êtes déshonorés par vos actions. Mourir en défendant la vertu est la voie du vrai héros.~
+@155 /*Clara*/ = ~C'est bien typique d'un prêtre, n'est-ce pas ? Dire à *quelqu'un d'autre* qu'il devrait mourir pour le bien commun.~
+
+//Scroll Ghost
+@156 /*Clara*/ = ~J'aime cette option, <CHARNAME>. Combien de fois un dieu en personne te dit-il que tu n'as pas à te battre ?~

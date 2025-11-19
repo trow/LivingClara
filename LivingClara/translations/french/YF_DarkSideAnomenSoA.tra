@@ -1,0 +1,13 @@
+//Anomen utilise la troisième ligne CN
+
+@0 /*Keldorn*/ = ~Vous prévoyez d'attaquer un temple du Cœur Radieux, <CHARNAME> ? Vous savez que je ne peux laisser faire cela.~
+@1 /*CHARNAME*/ = ~Keldorn, mon ami, vous devriez vous détendre. Ne reconnaissez-vous pas une plaisanterie lorsque vous en entendez une ?~
+@2 /*CHARNAME*/ = ~Détends-toi, Keldorn. Ce n'était qu'un plan, à peine... Ce n'était que la première ébauche infime d'un schéma, sinon moins, l'esquisse la plus sommaire de la notion d'une vague possibilité de complot. Donc si celui-ci n'aboutit pas. Je survivrai. J'en ai d'autres.~
+@3 /*CHARNAME*/ = ~Vous ne pouvez pas laisser faire cela ? Alors je ne peux vous laisser debout. Dégainez votre lame !~
+
+//Après l'échec d'Anomen au test
+@4 /*CHARNAME*/ = ~Un jour, Anomen, mais pas encore. Nous ne sommes pas encore assez forts pour l'emporter.~
+@5 /*Anomen*/ = ~*soupir* Vous avez raison comme d'habitude, <CHARNAME>. Poursuivons notre route. Le jour du jugement de l'Ordre peut attendre.~
+
+//Une interpolation dans la quête du paladin déchu
+@6 /*Anomen*/ = ~Il semble que les règles oppressives de l'Ordre puissent briser même leurs larbins les plus dévoués.~

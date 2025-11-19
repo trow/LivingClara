@@ -1,0 +1,35 @@
+// Correction de la romance d'Anomen
+@0 /*Anomen*/ = ~Ma Dame, je crains que nous ayons eu un malentendu. Je souhaite que nous continuions comme avant. Pouvez-vous me pardonner ?~
+@1 /*CHARNAME*/ = ~Non Anomen, je souhaite simplement que nous restions amis.~
+@2 /*CHARNAME*/ = ~Bien sûr, Anomen. Tout est pardonné.~
+
+//Dialogue pour choisir le passé d'Anomen en nouvelle partie
+@3 /*Anomen*/ = ~<CHARNAME>, parle-moi de notre temps ensemble à Athkatla. Ai-je réussi mon test ? Suis-je un chevalier de l'Ordre du Cœur Radieux ?~
+@4 /*CHARNAME*/ = ~Oui, tu as réussi. Tu es un chevalier. Ton père t'a toutefois renié.~
+@5 /*CHARNAME*/ = ~Non, tu as échoué. Tu as été chassé de l'Ordre.~
+@6 /*CHARNAME*/ = ~Tu n'as pas encore passé le test. Nous avons à peine voyagé ensemble en Amn.~
+@7 /*Anomen*/ = ~Je vois. Avais-je une relation amoureuse ?~
+@8 /*CHARNAME*/ = ~Oui, avec moi.~
+@9 /*CHARNAME*/ = ~Eh bien, tu as essayé de séduire Clara, mais elle t'a quitté pour ton père.~
+@10 /*CHARNAME*/ = ~Non, tu n'en avais pas.~
+@11 /*CHARNAME*/ = ~Nous nous sommes avoué notre amour. Saerk a été reconnu responsable du meurtre de ta sœur, et ton père est allé l'affronter et a également été tué. Nous avons aussi affronté Saerk, mais avons décidé de partir pacifiquement et de laisser la justice de la ville prévaloir.~
+@12 /*Anomen*/ = ~C'est bien déprimant, mais au moins j'ai réalisé le rêve de ma vie en rejoignant l'Ordre.~
+@13 /*Anomen*/ = ~Continuons.~
+
+@14 /*Anomen*/ = ~Oui, avec Clara.~
+@15 /*Anomen*/ = ~Alors que s'est-il passé, mon amour ?~
+@16 /*CHARNAME*/ = ~Nous nous sommes avoué notre amour, mais ton père a tenté de te renier alors nous l'avons tué.~
+@1600 /*CHARNAME*/ = ~Nous nous sommes avoué notre amour, mais ensuite les autorités d'Athkatla ont rapporté que Saerk n'était pas responsable de la mort de ta sœur. Ton père t'a renié alors tu es allé l'affronter. Ensemble, nous avons décidé de lui épargner la vie.~
+@1601 /*Anomen*/ = ~Le vieil ivrogne a finalement eu ce qu'il méritait. Et ensuite ?~
+@1602 /*CHARNAME*/ = ~Ensuite, nous avons imputé le crime à des brigands, et tu es devenu Seigneur Delryn. Nous avons payé un Mage Cagoulé pour enquêter sur le meurtre de Saerk et blanchir ton nom. Saerk est officiellement un vilain et nous sommes officiellement des héros.~
+@1603 /*CHARNAME*/ = ~J'ai donc perdu l'Ordre, ma famille et ma maison. Tout ce que j'ai, c'est toi, mon amour.~
+@17 /*Anomen*/ = ~C'est excellent. J'ai toujours su que nous étions faits l'un pour l'autre. Autre chose ?~
+@18 /*CHARNAME*/ = ~Nous avons aussi complètement résolu les problèmes de sécurité découlant de la guerre des guildes. Lorsque tu rencontras le Conseil des Six plusieurs mois plus tard, on te proposa le siège vacant au Conseil, à condition que tu deviennes l'un des seigneurs les plus riches d'Amn.~
+@19 /*Anomen*/ = ~J'ai été bien occupé. Continuons, mon amour.~
+
+@20 /*Anomen*/ = ~Alors que s'est-il passé ?~
+@21 /*CHARNAME*/ = ~Toi et Clara vous êtes avoué votre amour et vous vous êtes mariés. Ton père a tenté de te renier alors nous l'avons tué et avons imputé le meurtre à des brigands pour que toi et Clara deveniez Seigneur et Dame Delryn. Puis nous avons payé un Mage Cagoulé pour enquêter sur le meurtre de Saerk et blanchir ton nom. Saerk est officiellement un vilain et nous sommes tous officiellement des héros.~
+@22 /*Anomen*/ = ~J'ai été bien occupé. Continuons.~
+
+// Correction de la tirade romantique DSA 1
+@23 /*Anomen*/ = ~Quand tu m'as aidé contre mon père, tu m'as appris que l'effusion de sang peut être nécessaire pour le plus grand bien. Pourtant, il doit aussi y avoir des moments où nous mettons en pause notre quête de conflit et profitons également de nos vies.~

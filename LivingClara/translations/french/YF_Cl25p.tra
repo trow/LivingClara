@@ -1,0 +1,44 @@
+//Si tu renvoies Clara
+@0 /*Clara*/ = ~Alors je suppose que c'est fini ?~
+@1 /*Joueur*/ = ~Non, je veux que tu restes.~
+@2 /*Joueur*/ = ~Attends ici. Je reviendrai te chercher.~
+@3 /*Joueur*/ = ~Retourne dans mon plan poche. Je te retrouverai là-bas plus tard.~
+@4 /*Clara*/ = ~Uggh, d'accord. Laisse-moi juste ici en enfer. Mais cet endroit est affreux, alors tu ferais mieux de revenir vite.~
+@5 /*Clara*/ = ~Bien. J'attendrai. Mais tu ferais mieux de revenir bientôt.~
+@6 /*Clara*/ = ~Uggh, d'accord. Renvoie-moi simplement en enfer par portail dès que tu ne veux plus de moi. Mais ton plan poche est super ennuyeux, alors tu ferais mieux de venir me chercher vite !~
+
+//Si elle t'attend dans le Plan Poche
+@7 /*Clara*/ = ~Salut, <CHARNAME>. Je peux *s'il te plaît* sortir d'ici ?~
+@8 /*Joueur*/ = ~Oui. Alors, viens.~
+@9 /*Joueur*/ = ~Désolé, Clara. Je n'ai pas encore besoin de toi.~
+@10 /*Clara*/ = ~Oui, enfin ! Allons-y !~
+@11 /*Clara*/ = ~Uggh, d'accord. Je vais aller parler à Cespanar. Il me raconte des histoires sur les Plans Infernaux et elles sont vraiment intéressantes.~
+
+//Pas dans le Plan Poche
+@12 /*Clara*/ = ~Salut, <CHARNAME>. Tu es là pour me reprendre ?~
+@13 /*Joueur*/ = ~Désolé, Clara. Continue juste de m'attendre ici.~
+@14 /*Clara*/ = ~Bien sûr, <CHARNAME>, à moins que j'aie une meilleure offre.~
+
+//Dialogue pour changer de kit.
+@93 /*CHARNAME*/ = ~Non, je veux juste que tu changes de type de compétences de voleuse.~
+@94 /*Clara*/ = ~Oh bien, je commençais à m'ennuyer de faire la même chose tous les jours. Quel genre de voleuse devrais-je être ?~
+@95 /*CHARNAME*/ = ~Une assassine !~
+@96 /*CHARNAME*/ = ~Une chasseuse de primes !~
+@97 /*CHARNAME*/ = ~Une bretteuse !~
+@98 /*CHARNAME*/ = ~Une danseuse de l'ombre !~
+@99 /*CHARNAME*/ = ~Ne te spécialise pas, sois juste bonne en tout.~
+@100 /*CHARNAME*/ = ~Laisse tomber, reste comme tu es maintenant.~
+@101 /*Clara*/ = ~Ténèbres partout, un homme attend complaisamment, inconscient de son environnement, quand... ENTAILLE ! L'assassine Caroline frappe avec une précision mortelle !~
+@102 /*Clara*/ = ~L'homme trébuche en s'éloignant alors que le poison inonde son système, laissant Caroline disparaître dans la nuit.~
+@103 /*Clara*/ = ~J'aime ça, <CHARNAME>. Je peux travailler avec ça.~
+@104 /*Clara*/ = ~Entendant un bruit, le fidèle homme de main enquête lentement, son arme à la main. Malheureusement pour lui, il tombe dans les pièges attendant la chasseuse de primes Caroline ! Blessé et immobilisé, l'homme de main regarde, terrifié, Caroline se promener jusqu'à sa forme impuissante.~
+@105 /*Clara*/ = ~Avec un rire et le mouvement habile de son poignet gracieux, elle lui tranche la gorge... son sang se drainant sur le sol.~
+@106 /*Clara*/ = ~Les marins marchands tremblent de peur alors que la goélette de la redoutable pirate Caroline les dépasse lentement. Une âme courageuse se lève pour se battre, mais une entaille rapide de l'épée de Caroline met fin à sa vaine résistance.~
+@107 /*Clara*/ = ~La galère marchande étant maintenant entre les mains de son équipage loyal, la bretteuse Caroline exige que les marins remettent tout objet de valeur sur leur personne en échange de sa clémence.~
+@108 /*Clara*/ = ~L'or sécurisé, Caroline offre à la place la clémence d'Umberlee, envoyant les marchands par-dessus bord dans l'étreinte salée de la Déesse de la Mer.~
+@109 /*Clara*/ = ~Rapide comme une ombre, silencieuse comme la mort, la danseuse de l'ombre Caroline glisse à travers les rues.~
+@110 /*Clara*/ = ~Personne ne la voit, personne ne l'entend, et le seul signe de son passage est la traînée de victimes malchanceuses qu'elle laisse dans son sillage.~
+@111 /*Clara*/ = ~Maîtresse en tout, Caroline est une voleuse d'une habileté et d'une capacité sans égales.~
+@112 /*Clara*/ = ~Aucune serrure ne peut résister, aucune poche ne peut éviter sa pichenette, rien ne se dresse sur son chemin.~
+@113 /*Clara*/ = ~Défenses réduites contre sa polyvalence mortelle, les ennemis de Caroline n'ont d'autre recours que de se cacher et de prier pour qu'elle ne les trouve pas.~
+@114 /*Clara*/ = ~~

@@ -1,0 +1,59 @@
+//Dialogue d'Imoen sur le livre
+@1 /*Imoen*/ = ~Alors... qu'est-ce que tu lis là ?~
+@2 /*Neera*/ = ~"Le Grimoire de l'Annihilation Absolue." Tu l'adorerais !~
+@3 /*Imoen*/ = ~"...traduit du gnome et incluant tous les diagrammes originaux." Ooh, excitant.~
+@4 /*Imoen*/ = ~Je peux lire par-dessus ton épaule ?~
+@5 /*Neera*/ = ~Bien sûr ! Serre-toi. Tu pourras m'aider à comprendre certains passages, je ne pense pas tout saisir.~
+
+//Dialogue de Nalia sur le livre
+@6 /*Nalia*/ = ~Neera, tu as lu ce livre à chaque moment libre. Qu'est-ce que c'est ?~
+@7 /*Neera*/ = ~Oh, ça ? C'est « Le Grimoire de l'Annihilation Absolue ». C'est génial !~
+@8 /*Neera*/ = ~Mais je ne suis pas sûre de tout comprendre et je ne veux pas faire d'erreur.~
+@9 /*Neera*/ = ~Tu veux le prendre un moment ?~
+@10 /*Nalia*/ = ~Oh, je peux ? Ce serait merveilleux. Je me souviens des livres de sorts dans le donjon de mon père... tant de bonnes heures...~
+@11 /*Nalia*/ = ~Merci, Neera !~
+
+//Dialogue d'Aerie sur le livre
+@12 /*Aerie*/ = ~Est-ce que c'est un livre gnome que tu lis ? Il ressemble juste à ceux avec lesquels mon oncle Quayle m'a appris.~
+@13 /*Aerie*/ = ~Toi aussi, tu lis le gnome ?~
+@14 /*Neera*/ = ~Moi ? Non, il est traduit en commun. Mais il a toutes les images originales. Tu as déjà lu celui-là ?~
+@15 /*Aerie*/ = ~"Le Grimoire de l'Annihilation Absolue." Tu es sûre que c'est sans danger ?~
+@16 /*Neera*/ = ~Bien sûr que non. Il s'agit d'exploiter la puissance de l'univers pour faire exploser des choses !~
+@17 /*Neera*/ = ~Tu veux emprunter le livre quand je ne le lis pas ?~
+@18 /*Aerie*/ = ~Oh, je peux ? Merci, Neera ! Moi aussi, parfois, j'aime bien faire exploser des choses.~
+
+//Dialogue du PNJ sur le livre
+@19 /*Neera*/ = ~<CHARNAME>, Clara m'a donné un livre que j'ai pensé que tu aimerais regarder.~
+@20 /*Neera*/ = ~Ça s'appelle « Le Grimoire de l'Annihilation Absolue ». Tu peux me l'emprunter quand je ne le lis pas, si tu veux.~
+@21 /*CHARNAME*/ = ~Merci, Neera, je le regarderai.~
+@22 /*CHARNAME*/ = ~Non merci, Neera, je l'ai déjà lu. Dans la version gnome originale !~
+@23 /*CHARNAME*/ = ~Désolé, Neera, je n'aime pas lire.~
+@24 /*Neera*/ = ~De rien ! Tu me dois une.~
+@25 /*Neera*/ = ~Bien sûr que tu l'as fait. Bon... très bien alors !~
+@26 /*Neera*/ = ~C'est ce que j'ai remarqué. Tant pis pour toi.~
+
+//Dialogue d'Edwin sur le livre
+@27 /*Edwin*/ = ~"Le Grimoire de l'Annihilation Absolue", traduit DU gnome ?~
+@28 /*Edwin*/ = ~Quoi, quelqu'un dormait pendant ses leçons de gnome ?~
+@29 /*Neera*/ = ~Je n'ai jamais appris le gnome, alors voilà.~
+@30 /*Neera*/ = ~Pourquoi tu m'embêtes d'ailleurs ? Ne me dis pas que tu veux me l'emprunter.~
+@31 /*Edwin*/ = ~Emprunter ton "Grimoire pour les Débiles" ? Non, j'ai déjà lu la vraie version... en gnome, bien sûr.~
+@32 /*Neera*/ = ~Espèce de...~
+
+//Dialogue de Jan sur le livre
+@33 /*Jan*/ = ~Est-ce que c'est "Le Grimoire de l'Annihilation Absolue" ? Je ne l'ai jamais lu.~
+@34 /*Neera*/ = ~Tu veux me l'emprunter ?~
+@35 /*Jan*/ = ~Tu as pris une version traduite DU gnome ?~
+@36 /*Jan*/ = ~Tu ne réalises clairement pas ça, Neera, mais je lis le gnome, alors il aurait été plus logique de me prendre une version traduite en gnome.~
+@37 /*Neera*/ = ~Je le sais ! Je ne l'ai pas pris pour...~
+@38 /*Jan*/ = ~Je suppose que je pourrais le retraduire en gnome moi-même. Je peux le voir maintenant, "Le Grimoire de l'Annihilation Absolue, traduit du gnome et avec tous les diagrammes originaux, maintenant retraduit en gnome par Jan Jansen."~
+@39 /*Jan*/ = ~Il a tous les ingrédients d'un best-seller. Enfin, pas parmi vous les humains, bien sûr, puisque aucun de vous ne lit le gnome...~
+@40 /*Neera*/ = ~Je suis une demi-elfe !~
+@41 /*Jan*/ = ~Je ne vous vois pas non plus, les elfes, l'acheter vraiment, étant donné que vous êtes trop snobs pour apprendre le gnome.~
+@42 /*Neera*/ = ~Je suis une DEMI-ELFE ! Un parent était un elfe et l'autre était un humain !~
+@43 /*Jan*/ = ~Non pas que j'aie jamais appris l'elfique non plus. En fait, je ne sais pas comment nous avons pu avoir cette conversation étant donné que je parle gnome et que tu babilles en elfe.~
+@44 /*Neera*/ = ~Nous. Parlons. Tous. Les. Deux. Le. Commun !~
+@45 /*Jan*/ = ~Te revoilà partie, ma chère, à agir comme si je pouvais te comprendre.~
+@46 /*Jan*/ = ~Mais j'emprunterai ton livre, merci !~
+@47 /*Jan*/ = ~Oh regarde, c'est en commun ! Tu ne réalises peut-être pas ça, étant donné que je suis un gnome et que tu ne comprends pas un mot de ce que je dis, mais je lis aussi le commun.~
+@48 /*Neera*/ = ~Aaaaaaagh !~
