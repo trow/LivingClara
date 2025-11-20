@@ -1,2 +1,3 @@
 Need to clean up unused variables.
 Adjust the rewards from character quests and item attributes to align with "vanilla game balance."
+Russian, French, and English translations need proofreading (preferably based on the Chinese version).
