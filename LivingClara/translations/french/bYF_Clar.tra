@@ -345,7 +345,7 @@
 @300 /*Nalia*/ = ~Tu veux juste dire pour danser, n'est-ce pas ?~
 @301 /*Nalia - si romance*/ = ~Je ne voudrais pas que <CHARNAME> ait la mauvaise idée.~
 @302 /*Clara*/ = ~Ne t'inquiète pas. Nous nous dirigeons vers un établissement semi-respectable et si quelqu'un essaie de forcer les choses, eh bien, c'est à ça que sert une dague. Reste avec moi et tout ira bien.~
-@303 /*Clara*/ = ~Nous prendrons quelques verres, danserons sur quelques chansons et reviendrons avant que notre leader intrépide ne sache même que nous étions parties.~
+@303 /*Clara*/ = ~Nous prendrons quelques verres, danserons sur quelques chansons et reviendrons avant que notre chef intrépide ne sache même que nous étions parties.~ ~Nous prendrons quelques verres, danserons sur quelques chansons et reviendrons avant que notre cheffe intrépide ne sache même que nous étions parties.~
 @304 /*Clara*/ = ~...Et nous y sommes : la Salle de Fête Flamboyante de Félix, laisse tes yeux s'en repaître.~
 @305 /*Nalia*/ = ~...Oh waouh, regarde les lumières et la musique... Il y a tellement de monde. (Ils sont censés danser aussi proches ?)~
 @306 /*Clara*/ = ~Tiens, bois ça. Les violettes te feront danser toute la nuit.~
@@ -462,7 +462,7 @@
 @395 /*Edwina*/ = ~Quoi ? Tu l'as trouvée ? Donne-moi cette ceinture instantanément !~
 @396 /*Clara*/ = ~Je ne sais pas. Peut-être que je devrais la garder. Cette ceinture pourrait être amusante de toutes sortes de manières et tu as été terriblement grossier...~
 @397 /*Edwina*/ = ~Tu penses me faire chanter ? Moi ? Edwin Odesseiron ? Ton simple cerveau simiesque ne peut même pas commencer à comprendre l'agonie que je pourrais t'infliger.~
-@398 /*Clara*/ = ~Tu le pourrais, mais tu ne le feras pas. <CHARNAME> n'aimerait pas ça et tu ne risques pas de perdre sa protection. Je connais ton genre et malgré toute ta fierté, l'auto-préservation sera toujours ta priorité numéro un.~
+@398 /*Clara*/ = ~Tu le pourrais, mais tu ne le feras pas. <CHARNAME> n'aimerait pas ça et tu ne risques pas de perdre sa protection. Je connais ton genre et malgré toute ta fierté, l'auto-préservation sera toujours ta priorité numéro un.~ ~Tu le pourrais, mais tu ne le feras pas. <CHARNAME> n'aimerait pas ça et tu ne risques pas de perdre sa protection. Je connais ton genre et malgré toute ta fierté, l'auto-préservation sera toujours ta priorité numéro un.~
 @399 /*Edwina*/ = ~(Peut-être qu'elle n'est pas aussi stupide que je le pensais.) Alors quel est ton prix ? Je suppose que tu veux quelque chose.~
 @400 /*Clara*/ = ~Pas grand-chose. Demande-moi gentiment. Un "s'il te plaît" serait préféré.~
 @401 /*Edwina*/ = ~(Et ainsi la paysanne enfonce le couteau un peu plus profondément. Un tel sadisme serait admirable s'il était visé sur une autre cible. Mais je dois obtenir cette ceinture.) Bien. Comme tu l'ordonnes.~
@@ -720,7 +720,7 @@
 @644 /*Dorn*/ = ~Aucune de mes relations ne se termine bien.~
 @645 /*Clara -si romance CN-Dorn*/ = ~Tu as l'air assez amical avec <CHARNAME>. Comment t'attends-tu à ce que ça se termine ?~
 @6450 /*Clara -si romance HD*/ = ~Tu as l'air assez amical avec Haer'Dalis. Comment t'attends-tu à ce que ça se termine ?~
-@646 /*Dorn -si romance CN*/ = ~Avec ma mort ou celle de <CHARNAME>, comme toujours.~
+@646 /*Dorn -si romance CN*/ = ~Avec ma mort ou celle du héros, comme toujours.~ ~Avec ma mort ou celle de l'héroïne, comme toujours.~
 @6460 /*Dorn -si romance HD*/ = ~Avec ma mort ou celle du tieffelin, comme toujours.~
 @647 /*Clara -si romance CN-Dorn*/ = ~Mais toi et <CHARNAME> êtes ensemble et cela semble très bien se passer.~
 @6470 /*Clara -si romance HD*/ = ~Mais toi et Haer'Dalis êtes ensemble et cela semble très bien se passer... Surtout au lit.~
@@ -737,8 +737,8 @@
 @655 /*Clara*/ = ~La mort est partout, mais je n'avais jamais vu quelqu'un comme moi revenir avant. Seules les personnes assez riches pour payer un clerc reviennent. Enfin, eux et de puissants héros comme vous.~
 @656 /*Jaheira*/ = ~Pas tous.~
 @657 /*Clara*/ = ~Ouais, j'ai entendu parler de ton mari. Alors pourquoi es-tu ici ?~
-@658 /*Jaheira*/ = ~Khalid et moi étions amis du père adoptif de <CHARNAME>, Gorion.~
-@659 /*Jaheira*/ = ~Quand Gorion est mort, nous avons décidé que nous veillerions sur <CHARNAME> et Imoen aussi longtemps qu'ils voudraient de nous.~
+@658 /*Jaheira*/ = ~Khalid et moi étions amis du père adoptif de <CHARNAME>, Gorion.~ ~Khalid et moi étions amies du père adoptif de <CHARNAME>, Gorion.~
+@659 /*Jaheira*/ = ~Quand Gorion est mort, nous avons décidé que nous veillerions sur lui et Imoen aussi longtemps qu'ils voudraient de nous.~ ~Quand Gorion est mort, nous avons décidé que nous veillerions sur elle et Imoen aussi longtemps qu'ils voudraient de nous.~
 @660 /*Jaheira*/ = ~Je n'ai plus beaucoup d'amis... cette vie est dangereuse.~
 @661 /*Jaheira*/ = ~Tu devrais partir et retourner dans ta famille noble. Sauf que tu ne peux pas parce qu'ils ne sont qu'un fruit de ton imagination.~
 @662 /*Clara*/ = ~Je...~
@@ -848,7 +848,7 @@
 @757 /*Clara*/ = ~Oui, tu pourrais manger ton cheval puisque tu ne pourrais pas le monter.~
 @758 /*Clara*/ = ~Mais tout ça est hypothétique puisque <CHARNAME> refuse de permettre à qui que ce soit d'entre nous de monter des chevaux !~
 @759 /*Wilson*/ = ~Renifle, renifle... rff ?~
-@760 /*Clara*/ = ~*soupir* Oui, peut-être que <CHARNAME> te permettrait de manger un cheval même si le reste d'entre nous ne peut pas les monter. Tu devras demander à <PRO_HIMHER> à ce sujet.~
+@760 /*Clara*/ = ~*soupir* Oui, peut-être que <CHARNAME> te permettrait de manger un cheval même si le reste d'entre nous doit marcher. Demande-lui toi-même.~ ~*soupir* Oui, peut-être que <CHARNAME> te permettrait de manger un cheval même si le reste d'entre nous doit marcher. Demande-lui toi-même.~
 
 //2ème Dialogue de Wilson
 @761 /*Wilson*/ = ~Renifle renifle.~

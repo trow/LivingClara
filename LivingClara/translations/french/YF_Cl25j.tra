@@ -1,6 +1,6 @@
 //Final Solaris Conversation
 
-@1 /*Clara*/ = ~Waouh, <CHARNAME>. Tu as la chance de devenir un dieu et de laisser tout cela derrière toi. Quand tu choisiras le pouvoir impressionnant, n'oublie pas les petites gens qui t'ont aidé à arriver ici.~
+@1 /*Clara*/ = ~Waouh, <CHARNAME>. Tu as la chance de devenir un dieu et de laisser tout cela derrière toi. Quand tu auras acquis cette puissance redoutable, n'oublie pas nous, les simples mortels qui t'ont aidé à y parvenir.~ ~Waouh, <CHARNAME>. Tu as la chance de devenir une déesse et de laisser tout cela derrière toi. Quand tu auras acquis cette puissance redoutable, n'oublie pas nous, les simples mortelles qui t'ont aidée à y parvenir.~
 
 //Hexxat Talk
 @2 /*Hexxat*/ = ~Pardonne-moi, Clara... C'est la seule façon.~ [OH81268]
