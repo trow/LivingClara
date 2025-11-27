@@ -300,7 +300,7 @@
 @300 /*Nalia*/ = ~Tu veux juste dire pour danser, n'est-ce pas ?~
 @301 /*Nalia - if romance*/ = ~Je ne voudrais pas que <CHARNAME> se fasse de fausses idées.~
 @222 /*Clara*/ = ~Ne t'inquiète pas. Je nous ai trouvé un établissement à peu près respectable et si quelqu'un essaie de forcer les choses, eh bien, c'est à ça que sert une dague. Reste avec moi et tout ira bien.~
-@303 /*Clara*/ = ~Nous prendrons quelques verres, danserons sur quelques chansons et reviendrons avant que notre leader intrépide ne sache même que nous étions parties.~
+@303 /*Clara*/ = ~Nous prendrons quelques verres, danserons sur quelques chansons et reviendrons avant que notre leader intrépide ne sache même que nous étions parties.~ ~Nous prendrons quelques verres, danserons sur quelques chansons et reviendrons avant que notre leader intrépide ne sache même que nous étions parties.~
 @223 /*Clara*/ = ~...Et nous y voilà : le Sous-sol d'Unkar, régale-toi les yeux.~
 @305 /*Nalia*/ = ~...Oh waouh, regarde les lumières et la musique... Il y a tellement de monde. (Ils sont censés danser aussi serrés ?)~
 @306 /*Clara*/ = ~Tiens, bois ça. Les violettes te feront danser toute la nuit.~
@@ -413,10 +413,10 @@
 @227 /*Sarevok*/ = ~Et j'ai été tué pour mes peines. Si tu as l'intention de me faire la morale, économise ton souffle. Je n'ai pas besoin d'un autre pleutre pour dire que j'étais un imbécile.~
 @228 /*Clara*/ = ~Tu plaisantes ? J'admire ton ambition. Tu as failli mettre toute la Côte des Épées à tes pieds.~
 @229 /*Clara*/ = ~Bien sûr, ça ne s'est pas très bien terminé, mais moi, j'ai été tuée par un vampire. Je ne peux pas vraiment parler. Au moins, tu as touché les étoiles avant de tomber. Tu aurais été une légende si <CHARNAME> n'avait pas tout gâché.~
-@230 /*Sarevok*/ = ~Eh bien, c'est un changement rafraîchissant. La plupart des compagnons de mon <PRO_BROTHERSISTER> continuent de saisir leurs armes chaque fois que je passe.~
+@230 /*Sarevok*/ = ~Eh bien, c'est un changement rafraîchissant. La plupart des compagnons de mon frère continuent de saisir leurs armes chaque fois que je passe.~ ~Eh bien, c'est un changement rafraîchissant. La plupart des compagnons de ma sœur continuent de saisir leurs armes chaque fois que je passe.~
 @231 /*Clara*/ = ~Ce serait stupide de ma part. Si je voulais te tuer, j'attendrais que tu sois distrait et puis je te poignarderais dans le dos.~
 @232 /*Sarevok*/ = ~Hah ! Je crois que je t'aime bien, Clara. C'est toujours agréable de rencontrer quelqu'un qui ne cache pas ses sentiments derrière des convenances sociales.~
-@233 /*Sarevok*/ = ~Voyager avec <CHARNAME> ne sera peut-être pas si douloureux après tout.~
+@233 /*Sarevok*/ = ~<CHARNAME>... Voyager avec lui ne sera peut-être pas si douloureux après tout.~ ~<CHARNAME>... Voyager avec elle ne sera peut-être pas si douloureux après tout.~
 
 //Edwin Belt Banter
 @234 /*Clara*/ = ~Hé Edwin, viens voir ça. J'ai trouvé quelque chose que je pense que tu voudras voir.~
@@ -442,7 +442,7 @@
 @394 /*Clara*/ = ~Je pense que tu veux dire NOUS, mon cher. Ce que NOUS ferons quand <CHARNAME> nous aura enfin libérés...~
 @395 /*Clara*/ = ~Tu es mon mari, après tout, et j'ai prononcé mes vœux avec sincérité. Si nous pouvons affronter ensemble les profondeurs de l'enfer, alors nous pouvons affronter tous les conflits que l'avenir apportera.~
 @396 /*Anomen*/ = ~Parfois, je n'arrive toujours pas à croire que nous sommes mariés. Je ne mérite pas ton amour, mais je suis reconnaissant de l'avoir.~
-@398 /*Anomen*/ = ~Si voyager avec <CHARNAME> m'a appris une chose, c'est que les mortels sont petits et insignifiants dans les batailles des dieux. Nos vies sont courtes et nos rêves sont fragiles, et l'homme que j'étais aurait accueilli cette connaissance avec désespoir.~
+@398 /*Anomen*/ = ~Si <CHARNAME> et voyager avec lui m'ont appris une chose, c'est que les mortels sont petits et insignifiants dans les batailles des dieux. Nos vies sont courtes et nos rêves sont fragiles, et l'homme que j'étais aurait accueilli cette connaissance avec désespoir.~ ~Si <CHARNAME> et voyager avec elle m'ont appris une chose, c'est que les mortels sont petits et insignifiants dans les batailles des dieux. Nos vies sont courtes et nos rêves sont fragiles, et l'homme que j'étais aurait accueilli cette connaissance avec désespoir.~
 @399 /*Anomen*/ = ~Cependant, tu m'as appris qu'un chemin différent n'est pas toujours le mauvais. Une vie n'a pas besoin d'être grandiose pour avoir un but et la plus petite gentillesse peut signifier le plus quand quelqu'un a besoin d'une main guide.~
 @400 /*Anomen*/ = ~Quand ce sera fini, je souhaite retourner à notre maison à Athkatla. Pendant des années, j'ai rêvé de combattre le mal en tant que chevalier de l'Ordre et pourtant, en vérité, je crois que je peux faire bien plus pour aider ma ville en tant que seigneur.~
 @397 /*Anomen*/ = ~Je ne me suis jamais beaucoup soucié des affaires de mon père, mais il semble que j'aie des aptitudes pour cela, et il y a beaucoup de travail à faire. On ne peut pas changer le monde sans argent ni pouvoir.~
@@ -731,7 +731,7 @@
 @644 /*Dorn*/ = ~Aucune de mes relations ne se termine bien.~
 @645 /*Clara -si romance CN-Dorn*/ = ~Tu as l'air plutôt amical avec <CHARNAME>. Comment penses-tu que cela va finir ?~
 @6450 /*Clara -si romance HD*/ = ~Tu as l'air plutôt amical avec Haer'Dalis. Comment penses-tu que cela va finir ?~
-@646 /*Dorn -si romance CN*/ = ~Avec ma mort ou celle de <CHARNAME>, comme toujours.~
+@646 /Dorn -si romance CN/ = ~Avec ma mort ou celle de <CHARNAME>, comme toujours.~ ~Avec ma mort ou celle de <CHARNAME>, comme toujours.~
 @6460 /*Dorn -si romance HD*/ = ~Avec ma mort ou celle du tieffelin, comme toujours.~
 @647 /*Clara -si romance CN-Dorn*/ = ~Mais toi et <CHARNAME> êtes ensemble et cela semble très bien se passer.~
 @6470 /*Clara -si romance HD*/ = ~Mais toi et Haer'Dalis êtes ensemble et cela semble très bien se passer... Surtout au lit.~
@@ -748,8 +748,8 @@
 @655 /*Clara*/ = ~La mort est partout, mais je n'avais jamais vu quelqu'un comme moi revenir avant. Seules les personnes assez riches pour payer un clerc reviennent. Enfin, eux et les héros puissants comme vous.~
 @656 /*Jaheira*/ = ~Pas tous.~
 @657 /*Clara*/ = ~Ouais, j'ai entendu parler de ton mari. Alors pourquoi es-tu ici ?~
-@658 /*Jaheira*/ = ~Khalid et moi étions amis avec le père adoptif de <CHARNAME>, Gorion.~
-@659 /*Jaheira*/ = ~Quand Gorion est mort, nous avons décidé de veiller sur <CHARNAME> et Imoen aussi longtemps qu'ils voudraient de nous.~
+@658 /*Jaheira*/ = ~Khalid et moi étions amis avec Gorion, et <CHARNAME> est son fils adoptif.~ ~Khalid et moi étions amis avec Gorion, et <CHARNAME> est sa fille adoptive.~
+@659 /*Jaheira*/ = ~Quand Gorion est mort, nous avons décidé de veiller sur lui et Imoen aussi longtemps qu'ils voudraient de nous.~ ~Quand Gorion est mort, nous avons décidé de veiller sur elle et Imoen aussi longtemps qu'ils voudraient de nous.~
 @660 /*Jaheira*/ = ~Il ne me reste plus beaucoup d'amis... cette vie est dangereuse.~
 @661 /*Jaheira*/ = ~Tu devrais partir et retourner dans ta famille noble. Sauf que tu ne peux pas parce qu'ils ne sont qu'un produit de ton imagination.~
 @662 /*Clara*/ = ~Je...~
@@ -761,7 +761,7 @@
 @666 /*Clara*/ = ~L'or achète la sécurité. Il achète la liberté.~
 @667 /*Jaheira*/ = ~Je ne discute pas avec toi ; j'essaie simplement de t'évaluer.~
 @668 /*Clara*/ = ~Et...?~
-@669 /*Jaheira*/ = ~Tu n'es pas un danger pour nous. Tu nous sacrifierais pour sauver ta peau, mais tu es trop terrifiée et en admiration devant <CHARNAME> pour nous trahir. Je crois que tu es globalement un atout.~
+@669 /*Jaheira*/ = ~Tu n'es pas un danger pour nous. Tu nous sacrifierais pour sauver ta peau, mais tu es trop terrifiée et en admiration devant lui pour nous trahir. Je crois que tu es globalement un atout.~ ~Tu n'es pas un danger pour nous. Tu nous sacrifierais pour sauver ta peau, mais tu es trop terrifiée et en admiration devant elle pour nous trahir. Je crois que tu es globalement un atout.~
 @670 /*Clara*/ = ~Awww, merci ! Je pense que tu es un atout aussi.~
 @671 /*Jaheira*/ = ~Tu n'as aucune boussole morale d'aucune sorte, mais tu n'es pas non plus pleine d'amertume et de haine.~
 @672 /*Jaheira*/ = ~Quiconque t'a fait du tort, tu t'es déjà vengée.~
@@ -861,7 +861,7 @@
 @757 /*Clara*/ = ~Oui, tu pourrais manger ton cheval puisque tu ne pourrais pas le monter.~
 @758 /*Clara*/ = ~Mais tout cela est hypothétique puisque <CHARNAME> refuse de permettre à qui que ce soit d'entre nous de monter des chevaux !~
 @759 /*Wilson*/ = ~Renifle, renifle... rff ?~
-@760 /*Clara*/ = ~*soupir* Oui, peut-être que <CHARNAME> te permettrait de manger un cheval même si le reste d'entre nous ne peut pas les monter. Tu devras demander à <PRO_HIMHER> à ce sujet.~
+@760 /*Clara*/ = ~*soupir* Oui, peut-être que <CHARNAME> te permettrait de manger un cheval même si le reste d'entre nous ne peut pas les monter. Tu devras demander à lui à ce sujet.~ ~*soupir* Oui, peut-être que <CHARNAME> te permettrait de manger un cheval même si le reste d'entre nous ne peut pas les monter. Tu devras demander à elle à ce sujet.~
 
 //2ème discussion avec Wilson
 @761 /*Wilson*/ = ~Renifle renifle.~

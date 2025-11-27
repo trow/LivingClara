@@ -90,7 +90,7 @@
 @52 /*Rasaad*/ = ~Pour l'instant, je dois avoir des réponses, où que mène cette voie. Affronteras-tu encore cette épreuve, <CHARNAME> ?~
 
 //Renal Guild Gift
-@53 /*Clara*/ = ~Waouh, <CHARNAME>, tu es déjà un maître de guilde. Tant que je reste avec toi, je n'aurai plus jamais à payer mes cotisations.~
+@53 /*Clara*/ = ~Waouh, <CHARNAME>, tu es déjà un maître de guilde. Tant que je reste avec toi, je n'aurai plus jamais à payer mes cotisations.~ ~Waouh, <CHARNAME>, tu es déjà une maîtresse de guilde. Tant que je reste avec toi, je n'aurai plus jamais à payer mes cotisations.~
 
 //Nalia Castle Quest
 @54 /*Clara*/ = ~C'est une chose étrange d'en avoir honte. Je pensais que toutes les plus vieilles familles avaient quelque chose de similaire et c'est bien un château. Que serait-il sans un donjon pour y enfermer ses ennemis ?~
@@ -110,7 +110,7 @@
 @63 /*Clara*/ = ~Merci, Sir Keldorn. Vous êtes toujours si gracieux. Je m'excuse encore pour les actions de mon mari ici.~
 
 //On next rest
-@64 /*Clara*/ = ~Mon Seigneur, Keldorn est mort. Il semble que son cœur ait lâché pendant la nuit.~
+@64 /*Clara*/ = ~Mon Seigneur, Keldorn est mort. Il semble que son cœur ait lâché pendant la nuit.~ ~Ma Dame, Keldorn est mort. Il semble que son cœur ait lâché pendant la nuit.~
 @65 /*Clara*/ = ~Ce pauvre vieux guerrier. Il a vécu une longue vie, cependant. C'était son heure.~
 @66 /*Clara*/ = ~Peut-être devrions-nous l'enterrer ici même.~
 @67 /*CHARNAME*/ = ~Bonne idée, Clara. Faisons cela.~
@@ -172,7 +172,7 @@
 @112 /*Clara*/ = ~Cet enfant est... effrayant, <CHARNAME>. Je ne pense pas que j'aime être ici.~
 
 //Hidden Refuge
-@113 /*Clara*/ = ~Je sais que tu es à peu près le saint patron des causes perdues, <CHARNAME>, et je suis bien contente que tu m'aies aidée. Mais n'avons-nous pas mieux à faire que de *réellement* rassembler des chats ?~
+@113 /*Clara*/ = ~Je sais que tu es à peu près le saint patron des causes perdues, <CHARNAME>, et je suis bien contente que tu m'aies aidée. Mais n'avons-nous pas mieux à faire que de *réellement* rassembler des chats ?~ ~Je sais que tu es à peu près la sainte patronne des causes perdues, <CHARNAME>, et je suis bien contente que tu m'aies aidée. Mais n'avons-nous pas mieux à faire que de *réellement* rassembler des chats ?~
 @114 /*Barad Ding*/ = ~On ne peut pas RASSEMBLER les chats. Tu n'écoutais pas ? Tu dois les attirer vers toi avec soin, et faire attention aux griffes.~
 
 //Half-Orc Mage

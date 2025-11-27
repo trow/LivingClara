@@ -271,14 +271,14 @@
 @255 /*Rose*/ = ~Si tu souhaites vraiment abandonner ça, alors j'accepte. Mais je pense que cette Jaheira destinait ses mots à toi seul.~
 @256 /*Rose*/ = ~Oh, fantastique, tu m'as apporté le Journal du Projet Sorcière d'Umar encore... Je ne peux pas garder celui-ci sur les étagères.~
 @257 /*Rose*/ = ~Le Journal du Projet Sorcière d'Umar... Oh, ça me donne des frissons. Parfait.~
-@258 /*Rose*/ = ~Le Tome du Chaos... tu es certain que ce livre n'explosera pas ou quelque chose, n'est-ce pas ?~
+@258 /*Rose*/ = ~Le Tome du Chaos... tu es certain que ce livre n'explosera pas ou quelque chose, n'est-ce pas ?~ ~Le Tome du Chaos... tu es certaine que ce livre n'explosera pas ou quelque chose, n'est-ce pas ?~
 @259 /*Rose*/ = ~Des registres fiscaux, bien sûr. Je suis sûre que quelqu'un les voudra un jour.~
-@260 /*Rose*/ = ~On dirait que tu as été occupé, <CHARNAME>. Es-tu sûr de vouloir que cette note soit enregistrée ?~
+@260 /*Rose*/ = ~On dirait que tu as été occupé, <CHARNAME>. Es-tu sûr de vouloir que cette note soit enregistrée ?~ ~On dirait que tu as été occupée, <CHARNAME>. Es-tu sûre de vouloir que cette note soit enregistrée ?~
 @261 /*Rose*/ = ~Le Journal de Tombelthen... dommage qu'il soit déchiré.~
 @262 /*Rose*/ = ~Le Journal de Tombelthen... Cela attirera les chasseurs de trésors.~
 @263 /*Rose*/ = ~J'ai comme l'impression que le Seigneur Tombelthen n'est jamais rentré chez lui.~
 
-@264 /*Rose*/ = ~Ce Lavok a l'air à la fois fou et dangereux, <CHARNAME>. Tu dois être très puissant(e) pour abattre de telles personnes.~
+@264 /*Rose*/ = ~Ce Lavok a l'air à la fois fou et dangereux, <CHARNAME>. Tu dois être très puissant pour abattre de telles personnes.~ ~Ce Lavok a l'air à la fois fou et dangereux, <CHARNAME>. Tu dois être très puissante pour abattre de telles personnes.~
 @265 /*Valygar*/ = ~En effet, ce fut une bataille assez intense. Mon ancêtre s'est perdu dans les griffes de la magie il y a de nombreuses années. Prenez ce volume comme un avertissement pour ceux qui feraient de même.~
 @266 /*Rose*/ = ~Peut-être que les Mages Capuchonnés ont parfois raison.~
 
@@ -302,8 +302,8 @@
 @282 /*Rose*/ = ~C'est bon à entendre.~
 @283 /*Rose*/ = ~Il avait l'air globalement assez désagréable.~
 
-@284 /*Rose*/ = ~Le Journal de Tizzak... ces détails sont importants, n'est-ce pas ? J'ai envie d'embrasser ce livre maintenant.~
-@285 /*Rose*/ = ~Es-tu sûr que tu n'as pas besoin de cette note de Demin ? Ça a l'air important. Mais cette fille n'est pas assez stupide pour refuser un cadeau.~
+@284 /*Rose*/ = ~Le Journal de Tizzak... ces détails sont importants, comment tu as tué le Maître des Ombres, n'est-ce pas ? J'ai envie d'embrasser ce livre maintenant.~ ~Le Journal de Tizzak... ces détails sont importants, comment tu as tuée la Maîtresse des Ombres, n'est-ce pas ? J'ai envie d'embrasser ce livre maintenant.~
+@285 /*Rose*/ = ~Es-tu sûr que tu n'as pas besoin de cette note de Demin ? Ça a l'air important. Mais cette fille n'est pas assez stupide pour refuser un cadeau.~ ~Es-tu sûre que tu n'as pas besoin de cette note de Demin ? Ça a l'air important. Mais cette fille n'est pas assez stupide pour refuser un cadeau.~
 @286 /*Rose*/ = ~Le Journal de Geldorf Tinbasher... Quelle pauvre âme torturée....~
 @287 /*Rose*/ = ~Le Journal de Thassk Kun... Magie, chasseurs et devas, comme c'est excitant !~
 @288 /*Rose*/ = ~Le Journal de Bannor... Beurk, ces expériences ont l'air horribles. Je le prêterai avec prudence.~
@@ -346,7 +346,7 @@
 @321 /*Rose*/ = ~Quelle belle calligraphie. Quelqu'un a mis beaucoup d'effort là-dedans.~
 @322 /*Rose*/ = ~L'Histoire de l'Emprisonné... Peut-être que les disciples d'Helm seront intéressés par cela.~
 @323 /*Rose*/ = ~Les scribes apprécieront cette note. Elle a l'air assez professionnelle.~
-@324 /*Rose*/ = ~Est-ce que tu as pris la correspondance d'un pauvre vieil homme ? Et un vieil homme froid en plus...~
+@324 /*Rose*/ = ~Est-ce que tu as pris la correspondance d'un pauvre vieil homme ? Et un vieil homme froid en plus...~ ~Est-ce que tu as prise la correspondance d'un pauvre vieil homme ? Et un vieil homme froid en plus...~
 @325 /*Rose*/ = ~Ce journal contient de la poésie... comme c'est agréable...~
 @326 /*Rose*/ = ~Qu'avons-nous ici.... Le journal privé de Sir Kalthorine ut Wistan...~
 @327 /*Rose*/ = ~....De quoi ça parle ? Une sorte de rivalité de mages ?~
@@ -354,7 +354,7 @@
 @329 /*Rose*/ = ~Beurk, cette note est mouillée.~
 @330 /*Rose*/ = ~Cette lettre est-elle faite de glace ? Je vais avoir des sorciers qui se battent pour l'étudier.~
 @331 /*Rose*/ = ~Hmm, dommage que tu n'aies pas le reste de ce journal.~
-@332 /*Rose*/ = ~Quel journal étrange... J'espère que cette personne, Carston, était reconnaissante si tu l'as libérée.~
+@332 /*Rose*/ = ~Quel journal étrange... J'espère que ce Carston était reconnaissant si tu l'as libéré.~ ~Quel journal étrange... J'espère que ce Carston était reconnaissant si tu l'as libéré.~
 @333 /*Rose*/ = ~Les nobles ont toujours aimé utiliser dix mots quand un suffirait. Le Seigneur Jierdan Firkraag a l'air plutôt snob à mon goût.~
 @334 /*Rose*/ = ~On dirait que ce voleur a connu une fin malheureuse. Méritée très probablement.~
 @335 /*Rose*/ = ~Cette écriture est presque douloureuse à regarder, <CHARNAME> ; où as-tu eu ça ?~
@@ -374,7 +374,7 @@
 @349 /*Rose*/ = ~Délices Rubis... c'est un nom étrange pour un dessert mais cette recette a l'air bonne.~
 @350 /*Rose*/ = ~Une sorte de rune ? J'espère que ce n'est pas dangereux...~
 @351 /*Rose*/ = ~Oh, est-ce une lettre à cet affreux meurtrier ? Comme c'est macabre. Mais les gens aiment ces choses.~
-@469 /*Rose*/ = ~Intéressant... On dirait que tu es tombé sur une autre situation dangereuse. Je suis heureuse de prendre cette note si tu n'en as plus besoin.~
+@469 /*Rose*/ = ~Intéressant... On dirait que tu es tombé sur une autre situation dangereuse. Je suis heureuse de prendre cette note si tu n'en as plus besoin.~ ~Intéressant... On dirait que tu es tombée sur une autre situation dangereuse. Je suis heureuse de prendre cette note si tu n'en as plus besoin.~
 @470 /*Rose*/ = ~As-tu vraiment transporté des ordres secrets du Maître de l'Ombre juste froissés dans ton sac ? Si Aran était encore en vie, il n'y aurait aucun moyen que je puisse prendre ça... Mais j'espère que son âme pourrit dans les Enfers où elle appartient.~
 
 @352 /*Rose*/ = ~Quelle lettre étrange... Pourquoi quelqu'un voudrait-il quitter une ville pour une clairière ?~
@@ -386,7 +386,7 @@
 @357 /*Aran*/ = ~Ce serait très apprécié. Un mercenaire peut toujours utiliser une bonne publicité.~
 @358 /*Rose*/ = ~Peut-être qu'un de mes clients aura bientôt besoin d'une traduction.~
 
-@359 /*Rose*/ = ~Tu es un espion maintenant, <CHARNAME> ? Je pense que ce sera plus sûr si cette note part au rebut.~
+@359 /*Rose*/ = ~Tu es un espion maintenant, <CHARNAME> ? Je pense que ce sera plus sûr si cette note part au rebut.~ ~Tu es une espionne maintenant, <CHARNAME> ? Je pense que ce sera plus sûr si cette note part au rebut.~
 @360 /*Rose*/ = ~Ooh, quelqu'un a des ennuis. J'espère que tu as aidé la femme de ce Jysstev.~
 @361 /*Rose*/ = ~Une liste de potions... Eh bien, je peux penser à quelques alchimistes qui pourraient en avoir l'utilité.~
 
@@ -428,7 +428,7 @@
 @385 /*Clara*/ = ~Alors, qui est le voleur de livre ? Tout ce que tu sais nous aidera à le retrouver.~
 @386 /*Rose*/ = ~Un type du coin. Il s'appelle Gereth. Je ne sais pas où il habite, mais vous devriez pouvoir le trouver au Marché des Aventuriers.~
 @387 /*Rose*/ = ~J'irais bien le chercher moi-même, mais les filles comme moi ne sont pas exactement les bienvenues sur la Promenade de Waukyne.~
-@388 /*Clara*/ = ~Eh bien, personne n'empêchera <CHARNAME> d'aller où <PRO_IL-ELLE> veut.~
+@388 /*Clara*/ = ~Eh bien, personne n'empêchera <CHARNAME> d'aller où il veut.~ ~Eh bien, personne n'empêchera <CHARNAME> d'aller où elle veut.~
 @389 /*Clara*/ = ~Quel exemple devrions-nous faire de ce Gereth ? Tu veux juste récupérer le livre ou quelque chose de plus... permanent ?~
 @390 /*Rose*/ = ~Juste le livre, ça va. Si j'avais besoin d'un assassin, je demanderais juste à des gardes locaux. Mais je ne veux pas que quiconque pense qu'on peut voler Rose Bouquet.~
 @391 /*Rose*/ = ~Alors, <CHARNAME>, tu veux bien m'aider encore ? J'ai reçu quelques livres intéressants d'anciens clients et je serais heureuse de t'en donner un en récompense.~
@@ -471,7 +471,7 @@
 @418 /*CHARNAME*/ = ~Savez-vous où Gereth pourrait être allé ?~
 @419 /*Ribald*/ = ~Je ne peux pas dire que oui, mais mon garde de la porte en sait peut-être plus. Si vous trouvez Gereth, dites-lui qu'il me still doit dix pièces d'or pour la dernière livraison.~
 @420 /*Garde de la Porte*/ = ~Ce type maigre de sorcier ? Nous n'avons jamais été amis, mais je l'ai entendu récemment marmonner à propos de dents pointues.~
-@421 /*Garde de la Porte*/ = ~Les gardes aux portes de la ville gardent une trace des voyageurs. Vous pourriez essayer de leur demander, citoyen, et me laisser faire mon travail.~
+@421 /*Garde de la Porte*/ = ~Les gardes aux portes de la ville gardent une trace des voyageurs. Vous pourriez essayer de leur demander, citoyen, et me laisser faire mon travail.~ ~Les gardes aux portes de la ville gardent une trace des voyageurs. Vous pourriez essayer de leur demander, citoyenne, et me laisser faire mon travail.~
 
 //Garde des Portes de la Ville
 @422 /*CHARNAME*/ = ~Avez-vous vu un sorcier passer par ici récemment ? Nommé Gereth ?~

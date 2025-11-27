@@ -2,12 +2,12 @@
 @1 /*Renal*/ = ~Te voilà enfin, Clara. Je pensais que tu étais morte, car ceux qui osent manquer leurs paiements le sont généralement.~
 @2 /*Renal*/ = ~Je suppose que tu as une explication farfelue pour justifier pourquoi tu n'as pas pu payer ta part à temps comme les autres ?~
 @3 /*Clara*/ = ~En fait, monsieur, c'est le cas. Vous voyez, j'étais possédée par un vampire ancien nommé Hexxat qui m'utilisait pour recruter <CHARNAME> afin de tuer Dragomir, un vampire encore plus ancien qu'elle n'aimait pas. Nous avons tué Dragomir, ou du moins <CHARNAME> l'a fait... J'étais possédée donc je ne peux pas vraiment dire que j'ai fait quoi que ce soit... et puis Hexxat m'a tuée, alors <CHARNAME> l'a tuée, mais ensuite <CHARNAME> m'a ressuscitée alors...~
-@4 /*Renal*/ = ~Arrête. Arrête tout. Je m'en fiche. Tu es avec <CHARNAME> et c'est la seule explication dont j'ai besoin. Va aider <PRO_HIMHER> dans ses missions et tout sera pardonné.~
+@4 /*Renal*/ = ~Arrête. Arrête tout. Je m'en fiche. Tu es avec <CHARNAME> et c'est la seule explication dont j'ai besoin. Va aider lui dans ses missions et tout sera pardonné.~ ~Arrête. Arrête tout. Je m'en fiche. Tu es avec <CHARNAME> et c'est la seule explication dont j'ai besoin. Va aider elle dans ses missions et tout sera pardonné.~
 @5 /*Renal*/ = ~Quant à toi, <CHARNAME>, bon travail pour avoir détruit ces vampires ; cela me fait plaisir d'entendre parler de dissensions et de luttes internes dans leurs rangs. Inutile de traîner ici ; retourne sur le terrain et continue ton bon travail.~
 
 //Dialogue Clara-Imoen 1
 @6 /*Clara*/ = ~Bonjour.~
-@7 /*Imoen*/ = ~Oh, je ne t'avais pas vue là. Salut, je suis Imoen. <CHARNAME> ne nous a pas présentées.~
+@7 /*Imoen*/ = ~Oh, je ne t'avais pas vue là. Salut, je suis Imoen. <CHARNAME> ne nous a pas présentés.~ ~Oh, je ne t'avais pas vue là. Salut, je suis Imoen. <CHARNAME> ne nous a pas présentées.~
 @8 /*Imoen*/ = ~Tu dois être vraiment douée pour te cacher. D'habitude, je vois tout le monde.~
 @9 /*Clara*/ = ~J'ai un don pour disparaître des mémoires quand je le veux ; même les gens qui me cherchent oublient souvent que je suis là.~
 @10 /*Clara*/ = ~Donc tu es la sœur que nous sommes venus sauver de si loin.~
@@ -16,7 +16,7 @@
 @13 /*Imoen*/ = ~Ouaip ! Dès que nous serons de retour à Athkatla.~
 @14 /*Imoen*/ = ~Tu as l'air un peu déprimée. Réessayons.~
 @15 /*Imoen*/ = ~Salut, je suis Imoen. Je viens de me faire arracher l'âme du corps. Quelle est ton histoire ?~
-@16 /*Clara*/ = ~Ma famille a été tuée, un vampire m'a tuée, et puis <CHARNAME> m'a sauvée, alors maintenant je suis <PRO_HIMHER> partout et j'essaie de ne pas mourir de façon horrible.~
+@16 /*Clara*/ = ~Ma famille a été tuée, un vampire m'a tuée, et puis <CHARNAME> m'a sauvée, alors maintenant je suis lui partout et j'essaie de ne pas mourir de façon horrible.~ ~Ma famille a été tuée, un vampire m'a tuée, et puis <CHARNAME> m'a sauvée, alors maintenant je suis elle partout et j'essaie de ne pas mourir de façon horrible.~
 @17 /*Clara*/ = ~Assez normal d'après ce que j'ai vu.~
 @18 /*Imoen*/ = ~Ouais, c'est à peu près l'histoire de tout le monde. Nous sommes un groupe de perdus et de solitaires.~
 @19 /*Imoen*/ = ~Allez, garde la tête haute. Nous avons un autre round de "tenter-de-ne-pas-mourir-horriblement" devant nous.~

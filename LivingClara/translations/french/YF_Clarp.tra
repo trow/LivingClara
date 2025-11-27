@@ -12,7 +12,7 @@
 @70 /*Clara*/ = ~S'il te plaît, ne m'abandonne pas. Les Voleurs de l'Ombre me tueront !~
 @71 /*Player1*/ = ~Désolé, je n'ai plus besoin de toi. Au revoir.~
 @72 /*Player1*/ = ~D'accord, arrête de pleurnicher. Tu peux rester.~
-@73 /*Clara*/ = ~S'il te plaît, je ne tiendrai pas trois jours ! Je ne peux pas rentrer à la maison, je ne peux pas ! Laisse-moi rester avec toi. Je ne gênerai pas. Je ferai n'importe quoi, je te le promets. Je veux dire, si tu es un homme, je peux prouver ma valeur, et aussi, je peux laver tes vêtements, cuisiner ta nourriture, et nettoyer tes armes et ton armure !~
+@73 /*Clara*/ = ~S'il te plaît, je ne tiendrai pas trois jours ! Je ne peux pas rentrer à la maison, je ne peux pas ! Laisse-moi rester avec toi. Je ne gênerai pas. Je ferai n'importe quoi, je te le promets. Je veux dire, si tu es un homme, je peux prouver ma valeur, et aussi, je peux laver tes vêtements, cuisiner ta nourriture, et nettoyer tes armes et ton armure !~ ~S'il te plaît, je ne tiendrai pas trois jours ! Je ne peux pas rentrer à la maison, je ne peux pas ! Laisse-moi rester avec toi. Je ne gênerai pas. Je ferai n'importe quoi, je te le promets. Bien sûr, si tu étais un homme, ce serait plus facile pour moi. Mais je peux laver tes vêtements, cuisiner ta nourriture, et nettoyer tes armes et ton armure !~
 @74 /*Player1*/ = ~Très bien, j'accepte.~
 @75 /*Player1*/ = ~Pourquoi laisser le fait que je sois une femme t'arrêter ? Tu peux toujours partager mon lit. Fais-le assez bien et je pourrais décider de te garder.~
 @76 /*Player1*/ = ~Non, désolé, au revoir.~
@@ -25,7 +25,7 @@
 // Si on parle à Clara pendant qu'elle attend avec un timer actif.
 @8 /*Clara*/ = ~Je... déteste... attendre. Je peux revenir maintenant ?~
 @9 /*CHARNAME*/ = ~Non, pas encore. Reste ici un peu plus longtemps.~
-@10 /*CHARNAME*/ = ~Oui. Désolé de t'avoir fait attendre.~
+@10 /*CHARNAME*/ = ~Oui. Désolé de t'avoir fait attendre.~ ~Oui. Désolée de t'avoir fait attendre.~
 
 //Si Clara est aux Cinq Chopes, la première fois.
 @11 /*Clara*/ = ~Bon timing, <CHARNAME>, nous étions justement en train de parler de toi. Je racontais à Lord Sterk comment tu m'as sauvée d'Hexxat et de Dragomir.~
@@ -34,7 +34,7 @@
 @14 /*CHARNAME*/ = ~Et quel gaspillage c'était. Ils n'avaient même pas d'or.~
 @15 /*Sterk*/ = ~C'était du bon travail, <CHARNAME>. Avec des héros comme toi, il sera bientôt à nouveau sûr de voyager dans les rues la nuit. Dommage que tu n'aies pas pu sauver les parents de Caroline.~
 @16 /*Clara*/ = ~Oui, je pleure encore la nuit parfois en pensant à eux. Cependant, comme mon père me l'a toujours dit, une jeune femme doit être forte. Je persévérerai.~
-@17 /*Clara*/ = ~Monseigneur, je crois que <CHARNAME> souhaite me parler, et puisque <PRO_HESHE> m'a sauvé la vie, je peux difficilement refuser.~
+@17 /*Clara*/ = ~Monseigneur, je crois que <CHARNAME> souhaite me parler, et puisqu'il m'a sauvé la vie, je peux difficilement refuser.~ ~Monseigneur, je crois que <CHARNAME> souhaite me parler, et puisqu'elle m'a sauvé la vie, je peux difficilement refuser.~
 @18 /*Sterk*/ = ~Bien sûr. Parlez en privé tous les deux. Je vais m'occuper d'autres choses.~
 @19 /*Clara*/ = ~Salut <CHARNAME> ! Qu'est-ce que tu fais ici ?~
 @20 /*CHARNAME*/ = ~Eh bien, 'Caroline', je voulais juste dire bonjour et voir comment tu allais.~
@@ -44,7 +44,7 @@
 @24 /*Clara*/ = ~Je vais bien, <CHARNAME> ! Lord Sterk n'arrive pas à décider s'il veut me sauver ou coucher avec moi, ou les deux. Avec un peu de chance, il pourrait m'installer dans sa maison en tant que 'servante' et ensuite tout l'endroit sera à moi !~
 @25 /*Clara*/ = ~Bien sûr, je ne peux pas faire de progrès pendant que je suis assise ici à te parler. Alors... au revoir ! N'hésite pas à repasser.~
 @26 /*Clara*/ = ~Tu aimes l'accent ? J'ai copié le tien mais je l'ai rendu plus noble. Je suis Caroline Louisa Audrey Rosanna Alexandra Silvershield de Bérégost, la pauvre orpheline fille d'un cousin mineur des plus célèbres Silvershield du nord.~
-@27 /*Clara*/ = ~Nous sommes entrés dans Athkatla la nuit et Hexxat et Dragomir nous ont attaqués. Nos lâches mercenaires se sont enfuis et même si mon père s'est bravement battu avec ses deux serviteurs les plus fidèles et un garde de la maison, ils étaient bien surpassés. Les vampires les ont tués, ainsi que ma mère, sans pitié. Ils m'auraient tuée moi aussi si tu n'étais pas intervenu pour me sauver. Merci encore, au fait.~
+@27 /*Clara*/ = ~Nous sommes entrés dans Athkatla la nuit et Hexxat et Dragomir nous ont attaqués. Nos lâches mercenaires se sont enfuis et même si mon père s'est bravement battu avec ses deux serviteurs les plus fidèles et un garde de la maison, ils étaient bien surpassés. Les vampires les ont tués, ainsi que ma mère, sans pitié. Ils m'auraient tuée moi aussi si tu n'étais pas intervenu pour me sauver. Merci encore, au fait.~ ~Nous sommes entrés dans Athkatla la nuit et Hexxat et Dragomir nous ont attaqués. Nos lâches mercenaires se sont enfuis et même si mon père s'est bravement battu avec ses deux serviteurs les plus fidèles et un garde de la maison, ils étaient bien surpassés. Les vampires les ont tués, ainsi que ma mère, sans pitié. Ils m'auraient tuée moi aussi si tu n'étais pas intervenue pour me sauver. Merci encore, au fait.~
 @28 /*Clara*/ = ~Tu dis juste bonjour ou tu veux quelque chose ?~
 @29 /*CHARNAME*/ = ~Je dis juste bonjour. Comment vas-tu ?~
 @30 /*CHARNAME*/ = ~Mais ce n'est pas ce qui s'est vraiment passé.~
@@ -65,7 +65,7 @@
 @45 /*CHARNAME*/ = ~Nan, tu ne les vaux pas. À plus.~
 @46 /*CHARNAME*/ = ~Désolé, je n'ai pas ce genre d'argent.~
 @47 /*Clara*/ = ~Youpi ! D'accord, laisse-moi juste dire au revoir à Lord Sterk.~
-@48 /*Clara*/ = ~Excusez-moi, monseigneur ? <CHARNAME> a besoin de mon aide pour certaines affaires, et je peux difficilement refuser à <PRO_MANWOMAN> qui m'a sauvée. <CHARNAME> souhaite partir immédiatement, mais je ne pouvais pas le faire sans vous dire au revoir et vous recier pour toute votre aide. Vous êtes un vrai gentleman.~
+@48 /*Clara*/ = ~Excusez-moi, monseigneur ? <CHARNAME> a besoin de mon aide pour certaines affaires, et je peux difficilement refuser à celui qui m'a sauvée. <CHARNAME> souhaite partir immédiatement, mais je ne pouvais pas le faire sans vous dire au revoir et vous recier pour toute votre aide. Vous êtes un vrai gentleman.~ ~Excusez-moi, monseigneur ? <CHARNAME> a besoin de mon aide pour certaines affaires, et je peux difficilement refuser à celle qui m'a sauvée. <CHARNAME> souhaite partir immédiatement, mais je ne pouvais pas le faire sans vous dire au revoir et vous recier pour toute votre aide. Vous êtes un vrai gentleman.~
 @49 /*Sterk*/ = ~Vous devez partir ? Eh bien bien sûr, ma chère, vous êtes la bienvenue. Je suis content d'avoir pu aider. Revenez quand vous pourrez.~
 @50 /*Sterk*/ = ~Prends bien soin d'elle, <CHARNAME>, et assure-toi qu'elle soit en sécurité.~
 @51 /*Clara*/ = ~Ça me va. N'hésite pas à repasser dire bonjour à l'avenir. Si tu arrives à ne pas mourir...~
@@ -79,7 +79,7 @@
 @55 /*Clara*/ = ~Ne t'inquiète pas pour moi. Je traîne juste et je profite d'être en vie. Il y a toujours quelque chose à faire... à voir... à voler. N'hésite pas à traîner mais je devrais vraiment retourner travailler.~
 @56 /*Clara*/ = ~Te rejoindre ? Tu veux que j'abandonne ma vie confortable et lucrative pour aller chercher la mort avec toi ? Explorer des donjons gluants et pleins de pièges, grouillants de morts-vivants et combattre des monstres puissants avec le sort du monde en balance ? Mon prix est de 1000 pièces d'or.~
 @57 /*Clara*/ = ~Je crois que vous faites erreur, <CHARNAME>. Vous voulez Clara la pute et elle est morte. Je suis Caroline Louisa Audrey Rosanna Alexandra Silvershield de Bérégost, la pauvre orpheline fille d'un cousin mineur des plus célèbres Silvershield du nord. J'ai peut-être perdu mes parents à cause des vampires, mais je n'ai pas perdu ma dignité.~
-@58 /*Clara*/ = ~J'ai été sauvée par le héros, <CHARNAME>, et je suis si reconnaissante que je raconte cette histoire à tous ceux que je rencontre. Ce héros n'essaierait jamais de s'en prendre à une noble dame tombée dans l'infortune. Maintenant, au revoir. Comme toute noble dame, j'ai des préoccupations importantes qui requièrent mon attention.~
+@58 /*Clara*/ = ~J'ai été sauvée par le héros, <CHARNAME>, et je suis si reconnaissante que je raconte cette histoire à tous ceux que je rencontre. Ce héros n'essaierait jamais de s'en prendre à une noble dame tombée dans l'infortune. Maintenant, au revoir. Comme toute noble dame, j'ai des préoccupations importantes qui requièrent mon attention.~ ~J'ai été sauvée par la héroïne, <CHARNAME>, et je suis si reconnaissante que je raconte cette histoire à tous ceux que je rencontre. Cette héroïne n'essaierait jamais de s'en prendre à une noble dame tombée dans l'infortune. Maintenant, au revoir. Comme toute noble dame, j'ai des préoccupations importantes qui requièrent mon attention.~
 @59 /*Clara*/ = ~Youpi ! D'accord, laisse-moi juste prendre mes affaires.~
 
 
@@ -93,7 +93,7 @@
 
 //Nouveau dialogue de Clara P si elle a épousé Cor et qu'il est mort
 @65 /*Clara*/ = ~Bonjour, <CHARNAME>, vous êtes toujours le bienvenu dans la maison de Dame Delryn. Que puis-je faire pour vous ?~
-@66 /*CHARNAME*/ = ~Rien, je suis juste passé pour voir comment tu allais.~
+@66 /*CHARNAME*/ = ~Rien, je suis juste passé pour voir comment tu allais.~ ~Rien, je suis juste passée pour voir comment tu allais.~
 @67 /*CHARNAME*/ = ~Tu pourrais voyager avec moi.~
 @68 /*Clara*/ = ~Eh bien, je suis la Dame d'une maison noble appauvrie. Les finances sont en désordre... Saerk était vraiment en train de détruire les affaires de mon défunt mari à chaque tournant.~
 @69 /*Clara*/ = ~Je devrais vraiment faire quelque chose pour cet homme...~

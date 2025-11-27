@@ -328,9 +328,9 @@
 @270 /*Anomen*/ = ~Nous lui avons déjà donné plus d'or qu'il n'en a vu en une vie de travail pour vous. Il vérifiera que notre histoire est vraie dans les moindres détails.~
 @271 /*Anomen*/ = ~Et maintenant vous mourez.~
 @272 /*Anomen*/ = ~<CHARNAME> ? Que faites-vous ici ?!~
-@273 /*CHARNAME*/ = ~Je suis venu vous arrêter, Anomen. Vous ne pouvez pas tuer votre père.~
-@274 /*CHARNAME*/ = ~Je suis venu voir ce que vous comptiez faire.~
-@275 /*CHARNAME*/ = ~Je suis venu vous aider.~
+@273 /*CHARNAME*/ = ~Je suis venu vous arrêter, Anomen. Vous ne pouvez pas tuer votre père.~ ~Je suis venue vous arrêter, Anomen. Vous ne pouvez pas tuer votre père.~
+@274 /*CHARNAME*/ = ~Je suis venu voir ce que vous comptiez faire.~ ~Je suis venue voir ce que vous comptiez faire.~
+@275 /*CHARNAME*/ = ~Je suis venu vous aider.~ ~Je suis venue vous aider.~
 @276 /*Anomen*/ = ~Pourquoi pas ?! Dites-moi pourquoi il ne devrait pas mourir !~
 @277 /*CHARNAME*/ = ~Il n'est pas responsable de ce qui vous est arrivé, Anomen, et vous le savez.~
 @278 /*CHARNAME*/ = ~Cela vous mènera plus loin sur la voie du mal, Anomen... ne le faites pas.~
@@ -431,7 +431,7 @@
 @354 /*Clara*/ = ~Je suis contente de l'entendre. J'apprécie beaucoup le mariage et je détesterais partir si tôt.~
 
 //Après que Clara soit devenue veuve
-@355 /*Anomen*/ = ~Ahh, <CHARNAME>, vous êtes revenu. J'ai une nouvelle des plus fortunées.~
+@355 /*Anomen*/ = ~Ahh, <CHARNAME>, vous êtes revenu. J'ai une nouvelle des plus fortunées.~ ~Ahh, <CHARNAME>, vous êtes revenue. J'ai une nouvelle des plus fortunées.~
 @356 /*Anomen*/ = ~Mon père est décédé soudainement, mais sur son lit de mort, il m'a pardonné et m'a réintégré en tant que son fils. Je suis à nouveau Lord Delryn.~
 @357 /*Anomen*/ = ~Cela fait de Clara ma Lady Mère, ce qui est un peu gênant, mais nous nous marierons dès la fin de sa période de deuil et alors elle sera Lady Delryn comme avant. Le mariage public devra attendre au moins un an, bien sûr, mais une semaine devrait suffire pour prononcer nos vœux.~
 @358 /*Anomen*/ = ~De plus, de nouvelles preuves ont fait surface que Saerk était vraiment derrière le meurtre de ma sœur. Cela rend mon meurtre de lui et de sa famille, sinon légal et justifié, du moins compréhensible par la société.~
@@ -450,7 +450,7 @@
 @3680 /*CHARNAME*/ = ~Je veux que vous voyagiez à nouveau avec moi.~
 @369 /*CHARNAME*/ = ~Êtes-vous prête à voyager ?~
 @370 /*CHARNAME*/ = ~Cette mascarade a assez duré. J'ai de nouveau besoin d'un voleur.~
-@371 /*CHARNAME*/ = ~Lady Clementine Louisa Machin-Chose Delryn a le temps pour un roturier comme moi ? Je me sens tellement béni. *roule des yeux*~
+@371 /*CHARNAME*/ = ~Lady Clementine Louisa Machin-Chose Delryn a le temps pour un roturier comme moi ? Je me sens tellement béni. *roule des yeux*~ ~Lady Clementine Louisa Machin-Chose Delryn a le temps pour une roturière comme moi ? Je me sens tellement bénie. *roule des yeux*~
 @3710 /*CHARNAME*/ = ~Je veux que vous voyagiez à nouveau avec moi.~
 @3711 /*CHARNAME*/ = ~Laissez tomber. Je n'ai besoin de rien.~
 @3712 /*Clara*/ = ~Vous voulez que je vous rejoigne ? Quitter ma vie luxueuse de Lady Delryn pour patauger dans des donjons crasseux jour et nuit ?~
@@ -472,9 +472,9 @@
 @386 /*Clara*/ = ~Cependant, si vous souhaitez que je vous accompagne, je serais heureuse de voyager à nouveau avec mon bien-aimé.~
 @387 /*Clara*/ = ~Alors peut-être devriez-vous aller en louer un. Mon cher père et ma chère mère décédés ont eu la gentillesse de m'engager des professeurs d'acrobatie et de discrétion, mais je ne suis pas un voleur ordinaire. Malgré la mort de mon mari, je suis toujours Lady Delryn et vous feriez bien d'être civilisé dans ma maison.~
 @388 /*Clara*/ = ~Cependant, si vous souhaitez que je vous accompagne, je suppose que ce serait mieux que de rester ici seule. Les affaires de mon défunt mari sont entre de bonnes mains, je m'en suis assurée, et combattre à vos côtés peut aider à apaiser mon chagrin.~
-@389 /*Clara*/ = ~Vous n'avez pas besoin d'être si modeste. Vous êtes, après tout, un héros ! Même nous, de naissance plus élevée, devons respecter ceux qui risquent leur vie pour nous protéger.~
+@389 /*Clara*/ = ~Vous n'avez pas besoin d'être si modeste. Vous êtes, après tout, un héros ! Même nous, de naissance plus élevée, devons respecter ceux qui risquent leur vie pour nous protéger.~ ~Vous n'avez pas besoin d'être si modeste. Vous êtes, après tout, une héroïne ! Même nous, de naissance plus élevée, devons respecter ceux qui risquent leur vie pour nous protéger.~
 @390 /*Clara*/ = ~Mais pour en revenir à la question, souhaitez-vous que je remplisse mon vœu et vous accompagne à nouveau dans votre quête audacieuse ?~
-@391 /*CHARNAME*/ = ~Non, je dis juste bonjour.~
+@391 /*CHARNAME*/ = ~Non, je dis juste bonjour.~ ~Non, je dis juste bonjour.~
 @392 /*CHARNAME*/ = ~Oui, êtes-vous prête à partir ?~
 
 //Nouveau dialogue d'expulsion d'Anomen
@@ -491,8 +491,8 @@
 @399 /*Anomen*/ = ~Salutations, <CHARNAME>. Souhaitez-vous que ma femme et moi vous rejoignions ?~
 @400 /*CHARNAME*/ = ~Oui. Allons-y.~
 @401 /*Anomen*/ = ~Salutations, <CHARNAME>. Souhaitez-vous que je vous rejoigne ?~
-@402 /*CHARNAME*/ = ~Désolé, je passais juste. Je n'ai pas besoin de vous maintenant.~
-@403 /*Anomen*/ = ~Bien sûr, mon ami. Je serai ravi de voyager avec ma chère femme une fois de plus.~
+@402 /*CHARNAME*/ = ~Désolé, je passais juste. Je n'ai pas besoin de vous maintenant.~ ~Désolée, je passais juste. Je n'ai pas besoin de vous maintenant.~
+@403 /*Anomen*/ = ~Bien sûr, mon ami. Je serai ravi de voyager avec ma chère femme une fois de plus.~ ~Bien sûr, mon amie. Je serai ravi de voyager avec ma chère femme une fois de plus.~
 @404 /*Anomen*/ = ~Je suis désolé de l'entendre, <CHARNAME>, mais je suis reconnaissant de la chance de revoir ma bien-aimée. S'il vous plaît, ne restez pas absent trop longtemps.~
 @405 /*Clara*/ = ~Bien sûr que non, chéri. Vous me manquez terriblement.~
 @406 /*Anomen*/ = ~Vous me manquez aussi, mon amour. Mais je fais beaucoup pour assurer notre avenir ici pendant votre absence.~
@@ -532,7 +532,7 @@
 @432 /*Clara*/ = ~Dois-je partir aussi, cher mari ?~
 @433 /*Cor*/ = ~Oh, mon amour, je ne t'avais pas vue là. Tu es aussi silencieuse et gracieuse que toujours. As-tu fini tes voyages ?~
 @434 /*Clara*/ = ~Suis-je incluse dans vos paroles dures, mon cher ? Cela me briserait le cœur si vous aviez une mauvaise opinion de moi.~
-@435 /*Cor*/ = ~Non, bien sûr que je ne te parle pas, je suis désolé. Je sais que <CHARNAME> est le seul en faute.~
+@435 /*Cor*/ = ~Non, bien sûr que je ne te parle pas, je suis désolé. Je sais que <CHARNAME> est le seul en faute.~ ~Non, bien sûr que je ne te parle pas, je suis désolé. Je sais que <CHARNAME> est la seule en faute.~
 
 //Entrée de Journal Initiale Après le Départ d'Anomen
 @999 = ~Anomen a reçu une lettre de son père qui l'a grandement bouleversé. Il semble que les vrais meurtriers de sa sœur Moira aient été découverts et que son père l'ait renié pour avoir tué Saerk à la place. Un cruel retour du destin étant donné tout ce qu'il a payé.
@@ -540,20 +540,20 @@
 Anomen et Clara sont partis pour son domaine, me demandant de les rejoindre dans quelques jours une fois cette affaire réglée. Bien que je n'aie pas pu entendre toute leur conversation, le couple est déterminé à reconquérir son honneur et je crains que Cor n'ait finalement poussé son fils trop loin. Peut-être devrais-je les suivre pour confirmer mes soupçons et m'assurer qu'Anomen ne se salit pas à nouveau les mains. Ou peut-être devrais-je laisser cet ivrogne inutile récolter ce qu'il a semé.~
 
 //Entrée de Journal du Retour d'Anomen
-@1000 = ~J'ai empêché Anomen et Clara de tuer son père ; l'homme est peut-être un salaud mais je ne pouvais pas le laisser être assassiné de sang-froid. Confronté à devoir me combattre aussi, Anomen s'est enfui et Clara a épousé Cor à la place. Le mariage semble légal mais j'ai le sentiment que ce n'est pas encore fini. Cor a peut-être invité une veuve noire dans son lit et je devrais revenir dans quelques semaines pour m'assurer qu'il a survécu.~
+@1000 = ~J'ai empêché Anomen et Clara de tuer son père ; l'homme est peut-être un salaud mais je ne pouvais pas le laisser être assassiné de sang-froid. Confronté à devoir me combattre aussi, Anomen s'est enfui et Clara a épousé Cor à la place. Le mariage semble légal mais j'ai le sentiment que ce n'est pas encore fini. Cor a peut-être invité une veuve noire dans son lit et je devrais revenir dans quelques semaines pour m'assurer qu'il a survécu.~ ~J'ai empêché Anomen et Clara de tuer son père ; l'homme est peut-être un salaud mais je ne pouvais pas le laisser être assassiné de sang-froid. Confrontée à devoir me combattre aussi, Anomen s'est enfui et Clara a épousé Cor à la place. Le mariage semble légal mais j'ai le sentiment que ce n'est pas encore fini. Cor a peut-être invité une veuve noire dans son lit et je devrais revenir dans quelques semaines pour m'assurer qu'il a survécu.~
 
 
 //TOB
 //Scène du Spectre de Gorion
 @436 /*Spectre*/ = ~Vous êtes une force de vilenie qui balaie la terre.~
-@437 /*Anomen*/ = ~Esprit de Gorion, je suis Lord Anomen Delryn, et je parle au nom de <CHARNAME>. Notre chef est une bonne personne et un agent de vertu !~
+@437 /*Anomen*/ = ~Esprit de Gorion, je suis Lord Anomen Delryn, et je parle au nom de <CHARNAME>. Notre chef est une bonne personne et un agent de vertu !~ ~Esprit de Gorion, je suis Lord Anomen Delryn, et je parle au nom de <CHARNAME>. Notre cheffe est une bonne personne et une agente de vertu !~
 @438 /*Spectre*/ = ~Dit Anomen-de-l'Épreuve-Ratée, Tueur-de-Sang et Meurtrier-d'Innocents...~
 @439 /*Anomen*/ = ~J'ai tué mon père, c'est vrai... mais il n'était pas innocent.~
 @440 /*Spectre*/ = ~Ce n'était pas de Cor Delryn dont je parlais...~
 
 //Ajustements du Spectre d'Imoen
 @441 /*Spectre*/ = ~Vous et Imoen êtes des forces de vilenie qui balaient la terre.~
-@442 /*Anomen*/ = ~Esprit de Gorion, je suis Lord Anomen Delryn, et je parle au nom de mes amis. Imoen et <CHARNAME> sont de bonnes personnes et des agents de vertu !~
+@442 /*Anomen*/ = ~Esprit de Gorion, je suis Lord Anomen Delryn, et je parle au nom de mes amis. Imoen et <CHARNAME> sont de bonnes personnes et des agents de vertu !~ ~Esprit de Gorion, je suis Lord Anomen Delryn, et je parle au nom de mes amies. Imoen et <CHARNAME> sont de bonnes personnes et des agentes de vertu !~
 
 //Interjection du Dialogue de Moira
 @443 /*Anomen*/ = ~Non ! Non, non ! Je... Je n'ai jamais... par Helm, non ! Je vous en supplie ! Faites que cela s'arrête !~ [ANOM2552]

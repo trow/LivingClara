@@ -130,7 +130,7 @@
 //CN Alternate Options after Cor's death
 @111 /*CHARNAME*/ = ~Adieu mon amour, et bonne chance.~
 @112 /*CHARNAME*/ = ~Ce que NOUS avons fait, Anomen. Nous l'avons tué ensemble, toi et moi. Si tu pars, qu'advient-il de moi ?~
-@113 /*CHARNAME*/ = ~Je ne suis pas prêt à te perdre. Il doit y avoir un autre moyen.~
+@113 /*CHARNAME*/ = ~Je ne suis pas prêt à te perdre. Il doit y avoir un autre moyen.~ ~Je ne suis pas prête à te perdre. Il doit y avoir un autre moyen.~
 @114 /*Anomen*/ = ~C'est pour cela que j'ai essayé d'agir seul ! Oh... tout est ruiné maintenant. Nous sommes des meurtriers, je suis renié...~
 @115 /*CHARNAME*/ = ~Es-tu renié ? Ton père l'a-t-il officialisé ?~
 @116 /*CHARNAME*/ = ~Il n'y a pas de témoins. Qui nous a vus le tuer ?~
