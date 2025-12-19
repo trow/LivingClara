@@ -212,12 +212,17 @@ Poids : 5~
 @94 = ~Héritage de la Famille Delryn +4~
 @95 = ~Ceci est l'héritage familial d'Anomen, le bouclier original lui avait été donné par son père. Maintenant, il est reforgé et a amélioré toutes ses capacités.
 
-STATISTIQUES
+STATISTIQUES:
+
+Capacités équipées :
 Bonus CA : +5, +7 contre les projectiles
 Résistance au feu et au froid : +40%
 Résistance aux dégâts des projectiles : +50%
+Résistance à la magie : +10%
 Immunité au charme, à la confusion, à la domination et à l'immobilisation
-Résistance à la magie : +10%~
+Porteur indétectable à la détection de l'alignement
+
+Poids : 7~
 
 //Clara's Wedding Ring
 @96 /*Name*/ = ~Bague de la Famille Delryn~
