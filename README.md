@@ -40,9 +40,9 @@ If Anomen fails his paladin trial, this component adds extensive content for his
 ## Credits
 
 **Development Team:**
-- **MephistoSatanDevil**: Project lead, text adaptation and translation
-- **Shohy**: Coding and event optimization  
-- **Esceen**: Testing and bug reporting
+- **[MephistoSatanDevil](https://github.com/MephistoSatanDevil/)**: Project lead, text adaptation and translation
+- **[Shohy](https://github.com/shohysie/)**: Coding and event optimization  
+- **[Esceen](https://github.com/Esceen-cn/)**: Testing and bug reporting
 
 
 ## Crossmod Policy and License
