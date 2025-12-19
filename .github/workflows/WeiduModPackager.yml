@@ -1,158 +1,25 @@
+# WeiDU Mod Packager by Argent77
+# See: https://github.com/InfinityTools/WeiduModPackager
+
 name: 'WeiDU Mod Packager (iemod; win/lin/mac: amd64; use tp2 VERSION suffix)'
 
 on:
-  # Trigger this action whenever a release is published.
   release:
     types: [published]
-  # Can be omitted if you don't want to call the script manually.
   workflow_dispatch:
 
 jobs:
   call_workflow:
-    # Important: The action requires write access to work properly
+    strategy:
+      matrix:
+        type: [iemod, windows, linux, macos]
+
     permissions:
       contents: write
 
-    # This directive executes the mod package build script.
     uses: InfinityTools/WeiduModPackagerLibrary/.github/workflows/WeiduModPackagerLibrary.yml@master
-    # The "with" directive allows you to customize mod package generation.
     with:
-      # "type" determines the resulting archive format.
-      # Supported keywords: iemod, windows, linux, macos, multi
-      # "iemod" creates a .iemod package for Project Infinity.
-      # "windows", "linux" and "macos" create a zip file which includes a compatible setup binary.
-      # "macos" also contains a .command script file.
-      # Platform-specific package names will be prefixed by "win-", "lin-" and "mac-" respectively.
-      # "multi" creates a zip file that includes setup binaries and scripts for all supported platforms
-      # (Windows, Linux, macOS).
-      # Notes about multi-platform archives:
-      # 1) Size of the mod package will increase by about 10 MB compared to "iemod".
-      # 2) On Windows platforms users will run setup-*.exe directly.
-      #    For macOS and Linux interactive mod installation will be invoked by a script
-      #    ("setup-*.command" for macOS, "setup-*.sh" for Linux), and the WeiDU binaries
-      #    are placed into the "weidu_external/tools/weidu/{platform}" folder structure.
-      # "iemod" is used if this parameter is omitted.
-      type: windows
-
-      # "architecture" defines the architecture of the included setup binary.
-      # This is currently only relevant if "type" is "windows". Other platforms provide architecture-
-      # specific binaries only for WeiDU version 246.
-      # Supported keywords: amd64, x86, x86-legacy
-      # Specify "x86-legacy" to include a setup binary that is still compatible with older Windows
-      # versions and does not mangle non-ASCII characters in filenames. This can be useful for
-      # specific mods, such as Generalized Biffing in combination with Infinity Animations.
-      # "amd64" is used if this parameter is omitted.
+      type: ${{ matrix.type }}
       architecture: amd64
-
-      # "suffix" defines the version string that is appended to the mod package filename.
-      # Specify one of the predefined constants:
-      # - version: Attempts to fetch the VERSION string from the mod's own tp2 file.
-      # - none:    Indicates that no version suffix is added.
-      # Everything else is treated as a literal string that is added to the mod package name.
-      # Important: Do not include spaces in the suffix string. The build script may not handle it
-      #            properly.
-      # Note: Special characters (such as :, <, >, or ?) are replaced by underscores.
-      # "version" is used if this parameter is omitted.
-      suffix: ${{ github.event.release.tag_name }}
-
-      # An arbitrary string that will be appended after the package base name but before the version
-      # suffix. This can be used to further specialize a package name (e.g. when providing packages
-      # for different architectures for the same platform).
-      # Unused if this parameter is omitted.
-      extra: ''
-
-      # This parameter defines the mod package base name.
-      # Supported types: tp2, ini. Anything else is treated as a literal string.
-      # - tp2: Uses the tp2 filename as base for generating the mod package base name.
-      # - ini: Fetches the "Name" definition from the associated Project Infinity metadata ini file.
-      #        Falls back to "tp2" if not available.
-      # "tp2" is used if this parameter is omitted.
-      naming: ini
-
-      # This parameter defines the tp2 filename of the mod to include in the mod package.
-      # Specifying this option is only useful if a project contains multiple mods
-      # (e.g. EET, EET_end, EET_gui).
-      # All available mods are included if this parameter is omitted.
-      tp2_name: ''
-
-      # WeiDU version to use for the setup binaries for platform-specific zip archives.
-      # Specify "latest" to use the latest WeiDU version, or a specific WeiDU version.
-      # Currently supported versions: 246 or later.
-      # "latest" version is used if this parameter is omitted.
-      weidu_version: latest
-
-      # Defines the prefix string to use for Windows-specific zip archive names.
-      # "win" is used if this parameter is omitted.
-      prefix_windows: win
-
-      # Defines the prefix string to use for Linux-specific zip archive names.
-      # "lin" is used if this parameter is omitted.
-      prefix_linux: lin
-
-      # Defines the prefix string to use for macOS-specific zip archive names.
-      # "mac" is used if this parameter is omitted.
-      prefix_macos: mac
-
-      # "name_fmt" defines the format of the mod package name without file extension. It supports
-      # placeholder variables that can be placed into individual groups together with optional
-      # literal strings to form the resulting package name.
-      # Groups are delimited by angle brackets (<group content>).
-      # Placeholder variables are delimited by percentage signs (%placeholder%).
-      # Any characters outside of groups are preserved in the resulting mod package name.
-      # A group is discarded completely if the placeholder variables in the group are empty.
-      # A group without placeholder variables is always considered empty and will be discarded.
-      # To use percent characters literally you have to escape them with backslash characters
-      # (e.g. \%). Note that only the percentage sign is preserved. Angle brackets are considered
-      # invalid filename characters and are replaced by the standard placeholder character.
-      # Supported placeholder variables:
-      # type        Specifies the package type (as defined by the "type" parameter).
-      # arch        Specifies the architecture of the WeiDU binary (as defined by the "arch"
-      #             parameter). This variable is empty for iemod package types.
-      # os_prefix   Specifies the platform-specific prefix (as defined by "prefix_win", "prefix_lin",
-      #             and "prefix_mac"). This variable is empty for "iemod" and "multi" package types.
-      # base_name   Specifies the base name of the mod package without any prefix or suffix (as
-      #             defined by the "naming" parameter).
-      # extra       Specifies the content of the "extra" parameter.
-      # version     Specifies the version string (as defined by the "suffix" parameter).
-      # Unsupported placeholder variables are resolved to empty strings.
-      # The string "<%os_prefix%-><%base_name%><-%extra%><-%version%>" is used if this parameter
-      # is omitted.
-      name_fmt: '<%os_prefix%-><%base_name%><-%extra%><-%version%>'
-
-      # Defines the list of platforms for which setup binaries should be included in multi-platform
-      # mod packages. Individual platforms are separated by colons (:). Package type is treated as
-      # a regular platform-specific zip archive if only a single platform is specified.
-      # Supported platforms: linux, macos, windows
-      # "linux:macos:windows" is used if this parameter is omitted.
-      multi_platforms: 'linux:macos:windows'
-
-      # Specifies whether to enable or disable the WeiDU auto-update feature in setup scripts of
-      # multi-platform zip archives (see "type" parameter above).
-      # "true" is used if this parameter is omitted.
-      multi_autoupdate: true
-
-      # Indices whether duplicate files which only differ in case should be preserved when found in
-      # the same folder of the mod.
-      # Enabling this option can be useful on Linux where filesystems are case-sensitive by default.
-      # Otherwise, duplicate files with the oldest modification date are removed.
-      # "false" is used if this parameter is omitted.
-      case_sensitive: false
-
-      # Specifies whether version strings should be "beautified". When this option is enabled then:
-      # - version numbers are prefixed with a "v"
-      # - Capital letter "V" prefix is lowercased
-      # - spaces between "v" and the version number are removed
-      # "true" is used if this parameter is omitted.
-      beautify: true
-
-      # Specifies whether all letters in the mod package filename should be lowercased.
-      # "false" is used if this parameter is omitted.
-      lower_case: false
-
-      # Specifies whether submodules defined in the repository should be checked out.
-      # Supported types: false, true, recursive
-      # - false:      Don't check out submodules.
-      # - true:       Check out submodules defined in the repo.
-      # - recursive:  Recursively check out submodules defined in the repo.
-      # "false" is used if this parameter is omitted.
-      include_submodules: 'false'
+      suffix: version
+      naming: tp2
