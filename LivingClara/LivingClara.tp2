@@ -2,7 +2,7 @@ BACKUP ~LivingClara/backup~
 
 AUTHOR ~MephistoSatanDevil Authorization from BCaesar and Ratatoskr (Briana)~
 
-VERSION ~Version 0.9999~
+VERSION ~Version 0.99999~
 
 README ~LivingClara/translations/%LANGUAGE%/readme.txt~ ~LivingClara/readme.md~
 
@@ -37,7 +37,7 @@ LANGUAGE ~French~ ~french~
 
 BEGIN @1 /*~Living Clara~*/        //Any text written after Begin will appear as XXX in the Weidu install: Install XXX?
 LABEL YF-LivingClara
-
+FORBID_FILE ~override/_bPICKP.spl~ @52
 // Adds CD_STATE_NOTVALID state from CamDawg. May be unnecessary when coding for EE.
 APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
 UNLESS ~CD_STATE_NOTVALID~	
@@ -229,9 +229,9 @@ COPY ~LivingClara/characters/YF_cla25.cre~ ~override~
 	SAY REACT_TO_DIE_GENERAL @46 /*I think I'm going to be sick.*/
 	WRITE_ASCII 0x34 "OHHEXM" #8
 	WRITE_ASCII 0x3c "OHHEXL" #8
-	WRITE_ASCII SCRIPT_OVERRIDE "YF_CLA25.BCS" #8
+	WRITE_ASCII SCRIPT_OVERRIDE "YF_CLA25" #8
 	WRITE_ASCII DEATHVAR "YF_CLA25" #32
-	WRITE_ASCII DIALOG "YF_CLA25.DLG" #8
+	WRITE_ASCII DIALOG "YF_CLA25" #8
 
 // ========== 模块 2: Living Clara NPC - Clara 专属新物品和法术 ==========
 // 在安装日志中打印一条信息，表明正在添加新物品和法术。	
