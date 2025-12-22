@@ -26,6 +26,9 @@ Clara is a Female Human Lawful Evil Thief **with the ability to change her kit a
 ### 2. Dark Side Anomen
 If Anomen fails his paladin trial, this component adds extensive content for his Chaotic Neutral alignment. With Clara's influence, Anomen might still achieve his goal of becoming a *real* paladin.
 
+## Note
+When encountering "Hexxat" at the Copper Coronet, the party can decline the whole thing through dialogue and never bother with it at all, or can temporarily decline and later, if desired, initiate contact and dialogue with "Hexxat" again and agree to take her to the tomb. This is identical to the original game's Hexxat quest. This must occur before Chapter 4 and will be unavailable after that time marker. So, either do it or don't by then.
+
 ## Compatibility & Installation
 
 **Compatibility Notes:**
