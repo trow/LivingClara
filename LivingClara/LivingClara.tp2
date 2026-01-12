@@ -37,7 +37,7 @@ LANGUAGE ~French~ ~french~
 
 BEGIN @1 /*~Living Clara~*/        //Any text written after Begin will appear as XXX in the Weidu install: Install XXX?
 LABEL YF-LivingClara
-FORBID_FILE ~override/_bPICKP.spl~ @52
+FORBID_FILE ~override/_bclara.CRE~ @52
 // Adds CD_STATE_NOTVALID state from CamDawg. May be unnecessary when coding for EE.
 APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
 UNLESS ~CD_STATE_NOTVALID~	
