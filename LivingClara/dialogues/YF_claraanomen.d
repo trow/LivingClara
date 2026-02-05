@@ -527,15 +527,23 @@ CHAIN BANOMEN YF_YESSTABCOR
 DO ~SetGlobal("AttackedCor","GLOBAL",1) SetGlobal("AnomenFinalFight","GLOBAL",1) SetDialogue("")~
 EXIT
 
-CHAIN IF ~Dead("Cor") Dead("Anomen") Global("AnomenFinalFight","GLOBAL",1) Global("YF_ACGonnaStabCor","GLOBAL",1) Global("AnomenCor","GLOBAL",5) Global("HopToItClara","LOCALS",1) Global("YF_ClaraWihtAnomenLeave","LOCALS",1)~ THEN YF_CLARP YF_ClaraRunAwayFromDelryn
+CHAIN IF ~Dead("Cor") Dead("Anomen") !Global("PLAYHOUSE","GLOBAL",1) Global("AnomenFinalFight","GLOBAL",1) Global("YF_ACGonnaStabCor","GLOBAL",1) Global("AnomenCor","GLOBAL",5) Global("HopToItClara","LOCALS",1) Global("YF_ClaraWihtAnomenLeave","LOCALS",1)~ THEN YF_CLARP YF_ClaraRunAwayFromDelryn
     @470 /*哦，他们两个都死了，我的心思全白费了。现在这里已经和我没有关系了，我得尽快离开这里。<CHARNAME>，要一起么*/
 END
     ++ @471 /*好，我们走。*/ DO ~SetGlobal("YF_ClaraWihtAnomenLeave","LOCALS",2) SetGlobal("KickedOut","LOCALS",0) ActionOverride("YF_Clara",JoinParty())~ EXIT
-    ++ @472 /*不，你先走吧。我之后再去找你。*/ + YF_ClaraRunAway
-CHAIN YF_CLARP YF_ClaraRunAway
+    ++ @472 /*不，你先走吧。我之后再去找你。*/ + YF_ClaraRunAwayToFiveFlagons
+CHAIN YF_CLARP YF_ClaraRunAwayToFiveFlagons
 	@473 /*好吧……那我就走了。你可以在大桥区的五酒壶旅店找到我。走了走了。*低语*还得和贾丁分一下剩下的东西。*/ DO ~SetGlobal("YF_ClaraWihtAnomenLeave","LOCALS",2) EscapeAreaMove("AR0509",470,404,E)~ 
 EXIT
 
+CHAIN IF ~Dead("Cor") Dead("Anomen") Global("PLAYHOUSE","GLOBAL",1) Global("AnomenFinalFight","GLOBAL",1) Global("YF_ACGonnaStabCor","GLOBAL",1) Global("AnomenCor","GLOBAL",5) Global("HopToItClara","LOCALS",1) Global("YF_ClaraWihtAnomenLeave","LOCALS",1)~ THEN YF_CLARP YF_ClaraRunAwayFromDelryn
+    @470 /*哦，他们两个都死了，我的心思全白费了。现在这里已经和我没有关系了，我得尽快离开这里。<CHARNAME>，要一起么*/
+END
+    ++ @471 /*好，我们走。*/ DO ~SetGlobal("YF_ClaraWihtAnomenLeave","LOCALS",2) SetGlobal("KickedOut","LOCALS",0) ActionOverride("YF_Clara",JoinParty())~ EXIT
+    ++ @472 /*不，你先走吧。我之后再去找你。*/ + YF_ClaraRunAwayToFiveFlagonsStronghold
+CHAIN YF_CLARP YF_ClaraRunAwayToFiveFlagonsStronghold
+	@473 /*好吧……那我就走了。你可以在大桥区的五酒壶旅店找到我。走了走了。*低语*还得和贾丁分一下剩下的东西。*/ DO ~SetGlobal("YF_ClaraWihtAnomenLeave","LOCALS",2) EscapeAreaMove("AR0522",470,404,E)~ 
+EXIT
 
 CHAIN BANOMEN YF_CNisaKilljoy
 @299 /*Then we are finished. We cannot oppose both you and my father. We are fugitives and you will not see us again.*/
