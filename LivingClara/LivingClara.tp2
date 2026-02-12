@@ -37,7 +37,12 @@ LANGUAGE ~French~ ~french~
 
 BEGIN @1 /*~Living Clara~*/        //Any text written after Begin will appear as XXX in the Weidu install: Install XXX?
 LABEL YF-LivingClara
-FORBID_FILE ~override/_bclara.CRE~ @52
+	FORBID_COMPONENT ~AllThingsMazzy.tp2~ ~0~ @52
+	FORBID_COMPONENT ~setup-AllThingsMazzy.tp2~ ~0~ @52
+	FORBID_COMPONENT ~EET_end.tp2~ ~0~ @53
+	FORBID_COMPONENT ~EET_end.tp2~ ~1~ @53
+	FORBID_FILE ~override/_bclara.CRE~ @52
+
 // Adds CD_STATE_NOTVALID state from CamDawg. May be unnecessary when coding for EE.
 APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
 UNLESS ~CD_STATE_NOTVALID~	
@@ -397,8 +402,52 @@ SAY DESC @69 /*Similar to the rare yet oft-discussed cursed Girdle of Masculinit
 //New Items & Spells for Clara
 
 COPY ~LivingClara/items/YF_cask2.ITM~ ~override~
-COPY ~LivingClara/items/YF_BELT0.ITM~ ~override~
 
+  	ACTION_IF !FILE_EXISTS ~luaAuto.cfg~ BEGIN
+  		COPY ~LivingClara/items/luaAuto.cfg~ ~luaAuto.cfg~
+  	END
+
+  	<<<<<<<< .../StoreItemYF_cask2Select.LUA
+local old = CScreenStore.SelectStoreItem
+CScreenStore.SelectStoreItem = function(self, nIndex, bSelected)
+    if store.storeItems[nIndex + 1].item.res == "YF_cask2" then return end
+    old(self, nIndex, bSelected)
+end
+	>>>>>>>>
+
+  	ACTION_IF !FILE_CONTAINS ~luaAuto.cfg~ ~"YF_cask2"~ BEGIN
+  		COPY_EXISTING ~luaAuto.cfg~ ~luaAuto.cfg~
+  		APPEND_FILE ~.../StoreItemYF_cask2Select.LUA~
+  	END
+  	
+	<<<<<<<< .../StoreItemOHHCASKSelect.LUA
+local old = CScreenStore.SelectStoreItem
+CScreenStore.SelectStoreItem = function(self, nIndex, bSelected)
+    if store.storeItems[nIndex + 1].item.res == "OHHCASK" then return end
+    old(self, nIndex, bSelected)
+end
+	>>>>>>>>
+
+  	ACTION_IF !FILE_CONTAINS ~luaAuto.cfg~ ~"OHHCASK"~ BEGIN
+  		COPY_EXISTING ~luaAuto.cfg~ ~luaAuto.cfg~
+  		APPEND_FILE ~.../StoreItemOHHCASKSelect.LUA~
+  	END
+	
+	<<<<<<<< .../StoreItemOHHCASK2Select.LUA
+local old = CScreenStore.SelectStoreItem
+CScreenStore.SelectStoreItem = function(self, nIndex, bSelected)
+    if store.storeItems[nIndex + 1].item.res == "OHHCASK2" then return end
+    old(self, nIndex, bSelected)
+end
+	>>>>>>>>
+
+  	ACTION_IF !FILE_CONTAINS ~luaAuto.cfg~ ~"OHHCASK2"~ BEGIN
+  		COPY_EXISTING ~luaAuto.cfg~ ~luaAuto.cfg~
+  		APPEND_FILE ~.../StoreItemOHHCASK2Select.LUA~
+  	END
+
+
+COPY ~LivingClara/items/YF_BELT0.ITM~ ~override~
 COPY ~LivingClara/spells/YF_BKSTB.SPL~ ~override~
 COPY ~LivingClara/spells/YF_FTRAP.SPL~ ~override~
 COPY ~LivingClara/spells/YF_HIDE.SPL~ ~override~
