@@ -1,18 +1,18 @@
-![Language](https://img.shields.io/static/v1?label=language&message=Chinese%20%7C%20English%20%7C%20Russian%20%7C%20French&color=limegreen)
-![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2EE%20%7C%20EET&color=dodgerblue)
+![Language](https://img.shields.io/static/v1?label=language&message=Chinese%20%7C%20English%20%7C%20Russian%20%7C%20French&color=limegreen )
+![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2EE%20%7C%20EET&color=dodgerblue )
 
 # Living Clara
 **Clara NPC and Dark Side Anomen Expansion**
 
 ---
 
-**Project Address:** https://github.com/trow/LivingClara
+**Project Address:** https://github.com/trow/LivingClara 
 
-This mod focuses exclusively on Clara's NPC content, allowing you to save Clara when facing Hexxat.
+This mod transforms Clara into a fully fleshed‑out NPC, allowing you to save her when facing Hexxat. It also expands Anomen’s dark side path with new interactions.
 
-![Clara Portrait](https://static.wikia.nocookie.net/baldursgategame/images/5/5f/Clara_OHHEX_Portrait_BG2EE.png)
+![Clara Portrait](https://static.wikia.nocookie.net/baldursgategame/images/5/5f/Clara_OHHEX_Portrait_BG2EE.png )
 
-> This is an **overhaul** of Ratatoskr and BCaesar's "All Things Mazzy", created with [authorization](https://forums.beamdog.com/discussion/71473/_/p46) from the original authors, for which we are very grateful.
+> This project builds upon the Clara‑related content originally created by Ratatoskr and BCaesar, and is developed with their kind [permission](https://forums.beamdog.com/discussion/71473/_/p46). It has been completely overhauled and expanded into a standalone mod focused solely on Clara.
 
 ## Project Overview
 
@@ -33,7 +33,7 @@ When encountering "Hexxat" at the Copper Coronet, the party can decline the whol
 
 **Compatibility Notes:**
 - Compatible with most mods
-- **Do NOT install alongside the original Mazzy MegaMod** (contains duplicate content)
+- **Do NOT install alongside the Mazzy MegaMod** (the original mod from which the Clara content was derived, as it contains duplicate material)
 
 **Installation Order:**
 - Install after Saradas-Magic-BG2 for proper Crossmod interjections
@@ -43,10 +43,12 @@ When encountering "Hexxat" at the Copper Coronet, the party can decline the whol
 ## Credits
 
 **Development Team:**
-- **[MephistoSatanDevil](https://github.com/MephistoSatanDevil/)**: Project lead, text adaptation and translation
-- **[Shohy](https://github.com/shohysie/)**: Coding and event optimization  
-- **[Esceen](https://github.com/Esceen-cn/)**: Testing and bug reporting
+- **[MephistoSatanDevil](https://github.com/MephistoSatanDevil/ )**: Project lead, text adaptation and translation
+- **[Shohy](https://github.com/shohysie/ )**: Coding and event optimization  
+- **[Esceen](https://github.com/Esceen-cn/ )**: Testing and bug reporting
 
+**Acknowledgments**  
+We are deeply grateful to **Ratatoskr** and **BCaesar** for their original work on the Clara content, and for granting permission to rework and expand it into this standalone mod.
 
 ## Crossmod Policy and License
 **CROSSMOD**
@@ -55,10 +57,10 @@ You may freely do crossmod content with Living Clara Mod if you include attribut
 
 **MOD LICENSE**
 
-Living Clara Mod does not use a traditional formal license such as [Creative Commons](https://creativecommons.org/share-your-work/cclicenses/) nor [MIT](https://opensource.org/license/mit); however, it uses a similar license as described here:
+Living Clara Mod does not use a traditional formal license such as [Creative Commons](https://creativecommons.org/share-your-work/cclicenses/ ) nor [MIT](https://opensource.org/license/mit ); however, it uses a similar license as described here:
 
 - All work you do with this is for non-commercial purposes.
 
-- You may use code from Living Clara Mod in your works if you include attribution to Living Clara Mod in your documentation and you notify at least one of the authors of Living Clara Mod in the [Living Clara Mod thread](https://trow.cc/board/showtopic=53570) or directly by other means regarding what code portions you used.
+- You may use code from Living Clara Mod in your works if you include attribution to Living Clara Mod in your documentation and you notify at least one of the authors of Living Clara Mod in the [Living Clara Mod thread](https://trow.cc/board/showtopic=53570 ) or directly by other means regarding what code portions you used.
 
 - You may do crossmod with Living Clara Mod as described above.
