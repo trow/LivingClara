@@ -250,7 +250,7 @@ END
 		++ @1 /*No, I want you to stay.*/ DO ~JoinParty()~ EXIT
 		+ ~!Dead("Cor")~ + @2 /*Yes, we should go our separate ways.*/ + YF_LadyDelrynP2
 		+ ~Dead("Cor")~ + @2 + YF_LadyDelrynP3
-		++ @93 /*No, I just want you to change what kind of thief you are.*/ GOTO YF_ClaraKitChange1
+		+ ~!Kit(Myself,C0TRICKS)~ + @93 /*No, I just want you to change what kind of thief you are.*/ GOTO YF_ClaraKitChange1
 
 
 //New Clara P Dialogue if Married Cor & he's dead

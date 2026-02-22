@@ -6,7 +6,7 @@ APPEND YF_cl25p IF ~Global("KickedOut","LOCALS",0)~ THEN BEGIN YF_ClaraKickedOut
 		+ ~AreaCheck("AR4500")~ + @2 /*Just wait here. I'll be back for you.*/ GOTO YF_TOBCP2
 		+ ~!AreaCheck("AR4500") !AreaCheck("AR4000") !AreaCheck("AR6200")~ + @2 /*Just wait here. I'll be back for you.*/ GOTO YF_TOBCP3
 		+ ~!AreaCheck("AR4500") !AreaCheck("AR4000") !AreaCheck("AR6200")~ + @3 /*Go back to my pocket plane. I'll find you there later on.*/ GOTO YF_TOBCP4
-		++ @93 /*No, I just want you to change what kind of thief you are.*/ GOTO YF_ClaraKitChange1
+		+ ~!Kit(Myself,C0TRICKS)~ + @93 /*No, I just want you to change what kind of thief you are.*/ GOTO YF_ClaraKitChange1
 	END	
 	
 	IF ~~ THEN YF_TOBCP2

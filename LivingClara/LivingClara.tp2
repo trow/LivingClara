@@ -677,6 +677,27 @@ END ELSE BEGIN    // 如果未检测到 Saradas，则打印信息。
  PRINT @151 /*Saradas NPC not detected*/
 END // 结束 Saradas 不存在的处理块。
 
+// ========== Living Clara NPC -Artisan's Kitpack Trickster 宗派兼容 ==========
+// 检查 Trickster 宗派 mod 是否已安装
+ACTION_IF MOD_IS_INSTALLED ~Setup-ArtisansKitpack.tp2~ 7003 BEGIN
+  PRINT @156 /*Trickster mod detected - making Clara a Trickster.*/
+  // SOA阶段的Clara
+  COPY_EXISTING ~YF_clara.cre~ ~override~
+    WRITE_SHORT 0x246 (IDS_OF_SYMBOL (~kit~ ~C0TRICKS~))
+    ADD_MEMORIZED_SPELL ~C0TR#29Z~ #0 ~innate~
+    LPF ADD_CRE_EFFECT INT_VAR opcode = 206 timing = 9 target = 2 STR_VAR resource = C0TR#04 END
+  BUT_ONLY
+  
+  // TOB阶段的Clara
+  COPY_EXISTING ~YF_cla25.cre~ ~override~
+    WRITE_SHORT 0x246 (IDS_OF_SYMBOL (~kit~ ~C0TRICKS~))
+    ADD_MEMORIZED_SPELL ~C0TR#29Z~ #0 ~innate~
+    LPF ADD_CRE_EFFECT INT_VAR opcode = 206 timing = 9 target = 2 STR_VAR resource = C0TR#04 END
+  BUT_ONLY
+END ELSE BEGIN
+  PRINT @157 /*Trickster mod not detected - Clara will not be a Trickster.*/
+END
+
 // --- 跨 Mod 侏儒腰带代码 ("Alora in BG2" Mod) ---
 // 检测 "Alora in BG2" Mod 是否安装 (通过检查 ALORA09.cre 文件)。
 //Crossmod Halfling Belt Code ("Alora in BG2" mod)
