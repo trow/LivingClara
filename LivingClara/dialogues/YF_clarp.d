@@ -9,7 +9,7 @@ APPEND YF_clarp IF ~Global("KickedOut","LOCALS",0) !Global("YF_LordAndLadyDelryn
 		+ ~!GlobalGT("YF_ClaraAnomenLove","GLOBAL",23) !Global("B!Alternatives","GLOBAL",6) !Global("D0AranHostile","GLOBAL",1) !GlobalGT("WorkingforBodhi","GLOBAL",0) !Global("AttackedThieves","GLOBAL",1) !Dead("aran") OR(2) Global("YF_RenalOHHFAK","GLOBAL",2) Global("YF_RenalClara","GLOBAL",2)~ + @2 /*Yes, we should go our separate ways.*/ GOTO YF_CP4
 		+ ~!GlobalGT("YF_ClaraAnomenLove","GLOBAL",23) !Dead("aran") OR(4) Global("B!Alternatives","GLOBAL",6) Global("D0AranHostile","GLOBAL",1) GlobalGT("WorkingforBodhi","GLOBAL",0) Global("AttackedThieves","GLOBAL",1)~ + @2 /*Yes, we should go our separate ways.*/ GOTO YF_CP5
 		+ ~GlobalGT("YF_ClaraAnomenLove","GLOBAL",23)~ + @2 /*Yes, we should go our separate ways.*/ GOTO YF_CPA
-		++ @93 /*No, I just want you to change what kind of thief you are.*/ GOTO YF_ClaraKitChange1
+		+ ~!Kit(Myself,C0TRICKS)~ + @93 /*No, I just want you to change what kind of thief you are.*/ GOTO YF_ClaraKitChange1
 	END	
 	
 	IF ~~ THEN YF_CP2
@@ -220,7 +220,7 @@ END
 		+ ~OR(2) InParty("Anomen") InMyArea("Anomen")~ + @2 /*Yes, we should go our separate ways.*/ + YF_LadyDelrynP1
 		+ ~!InParty("Anomen") !InMyArea("Anomen") !Dead("Anomen")~ + @2 /*Yes, we should go our separate ways.*/ + YF_LadyDelrynP2
 		+ ~Dead("Anomen")~ + @2 /*Yes, we should go our separate ways.*/ + YF_LadyDelrynP3
-		++ @93 /*No, I just want you to change what kind of thief you are.*/ GOTO YF_ClaraKitChange1
+		+ ~!Kit(Myself,C0TRICKS)~ + @93 /*No, I just want you to change what kind of thief you are.*/ GOTO YF_ClaraKitChange1
 
 		
 CHAIN YF_clarp YF_LadyDelrynP1
