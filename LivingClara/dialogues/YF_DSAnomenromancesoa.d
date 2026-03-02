@@ -90,7 +90,7 @@ CHAIN IF WEIGHT #-1 ~Global("YF_AnomenClearsName","GLOBAL",4)~ THEN CORNEIL YF_A
 == CORNEIL IF ~Global("AnomenRomanceActive","GLOBAL",2)~ THEN @48 /*Lord Anomen Delryn and Lady <CHARNAME> have been cleared of any wrongdoing in the death of Saerk Farrahd and his household, and are to be honored for their courage and virtue.*/
 == CORNEIL @49 /*I trust these results are satisfactory?*/
 == ANOMENJ @50 /*More than I could possibly have hoped for! You have my thanks.*/
-DO ~AddexperienceParty(20000) AddXPObject("Anomen",250000) SetGlobal("YF_AnomenClearsName","GLOBAL",5) AddJournalEntry(@1003,QUEST_DONE)~ /*~Clearing Anomen's Name: The Matter Settled
+DO ~AddexperienceParty(20000) AddXPObject("Anomen",25000) SetGlobal("YF_AnomenClearsName","GLOBAL",5) AddJournalEntry(@1003,QUEST_DONE)~ /*~Clearing Anomen's Name: The Matter Settled
 
 Corneil has finished his investigation and officially cleared Anomen of any misconduct in the death of Saerk Farrahd. The wizard made a formal statement that Saerk had been dealing in slaves and was responsible for the murder of Anomen's sister, Moira. Whether this is true or not, I couldn't say, but at least the specter of guilt is no longer hanging above Anomen's head.*/
 EXIT
