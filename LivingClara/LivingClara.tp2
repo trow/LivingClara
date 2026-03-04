@@ -1,8 +1,8 @@
 BACKUP ~LivingClara/backup~
 
-AUTHOR ~MephistoSatanDevil Authorization from BCaesar and Ratatoskr (Briana)~
+AUTHOR ~MephistoSatanDevil~
 
-VERSION ~Version 1.0.2~
+VERSION ~Version 1.0.4~
 
 README ~LivingClara/translations/%LANGUAGE%/readme.txt~ ~LivingClara/readme.md~
 
