@@ -481,14 +481,18 @@ INTERJECT_COPY_TRANS2 SENBEH01 13 YF_ClaraSpectator /*Nature calls and all that.
 END
 
 //Balthazar Quest
-EXTEND_BOTTOM AMMONK03 1 /*I knew Balthazar was a fool to trust you, Saemon!*/
-IF ~IfValidForPartyDialog("YF_Clara")~ THEN EXTERN YF_cl25j YF_ClaraMonk
-END
-	
-CHAIN YF_cl25j YF_ClaraMonk 
-@152 /**sigh* Here we go again.*/
-END COPY_TRANS AMMONK03 1 
+//EXTEND_BOTTOM AMMONK03 1 /*I knew Balthazar was a fool to trust you, Saemon!*/
+//IF ~IfValidForPartyDialog("YF_Clara")~ THEN EXTERN YF_cl25j YF_ClaraMonk
+//END
+//	
+//CHAIN YF_cl25j YF_ClaraMonk 
+//@152 /**sigh* Here we go again.*/
+//END COPY_TRANS AMMONK03 1 
 
+//Balthazar Quest
+INTERJECT_COPY_TRANS2 AMMONK03 1 YF_ClaraMonk/*I knew Balthazar was a fool to trust you, Saemon!*/
+ == YF_cl25j IF ~IfValidForPartyDialog("YF_Clara")~ THEN @152 /**sigh* Here we go again.*/
+END
 
 //Watcher's Keep Interjections
 //Lich Priest (ICT4, so either talk should trigger)
