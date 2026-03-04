@@ -94,6 +94,20 @@ RESPONSE #100
 	Continue()
 END
 
+//New Anomen Epilogue if Married to Clara & she's not dead 
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("Anomen")  // Anomen
+	!Dead("YF_Clara") //She doesn't have to be in party, just alive
+	Global("YF_LordAndLadyDelryn","GLOBAL",5) //Should be mutually exclusive with DS Anomen being 2
+	Global("YF_AnomenBio","GLOBAL",0)
+THEN
+RESPONSE #100
+	SetGlobal("YF_AnomenBio","GLOBAL",1)
+	TextScreen("YF_Ano01")
+	SmallWait(1)
+	Continue()
+END
 //New Anomen Epilogue if Darkside CN relationship & CN not god
 IF
 	Global("StartEndBios","AR6200",1)
