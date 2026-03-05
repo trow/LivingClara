@@ -20,7 +20,7 @@ CHAIN ANOME25J YF_GoodAnomen1
 @7 /*I see. Was I romantically involved?*/
 END
 	+ ~Gender(Player1,FEMALE)~ + @8 /*Yes, with me.*/ DO ~SetGlobal("AnomenRomanceActive","GLOBAL",2)~ + YF_GoodAnomen2
-	++ @9 /*Well, you tried to romance Clara, but she left you for your father.*/ DO ~SetGlobal("YF_LadyDelryn","GLOBAL",1) SetGlobal("OHH_HexxatSummoned","GLOBAL",3)~ + YF_GoodAnomen3 
+	+ ~!Global("OHH_HexxatSummoned","GLOBAL",1) !Global("OHH_HexxatSummoned","GLOBAL",2) !InMyArea("hexxat")~ + @9 /*Well, you tried to romance Clara, but she left you for your father.*/ DO ~SetGlobal("YF_LadyDelryn","GLOBAL",1) SetGlobal("OHH_HexxatSummoned","GLOBAL",3)~ + YF_GoodAnomen3 
 	++ @10 /*No, you were not.*/ EXIT
 	
 CHAIN ANOME25J YF_GoodAnomen2
@@ -37,7 +37,7 @@ CHAIN ANOME25J YF_BadAnomen1
 @7 /*I see. Was I romantically involved?*/
 END
 	+ ~Gender(Player1,FEMALE)~ + @8 /*Yes, with me.*/ DO ~SetGlobal("AnomenRomanceActive","GLOBAL",2)~ + YF_BadAnomen2
-	++ @14 /*Yes, with Clara.*/ DO ~SetGlobal("YF_LordAndLadyDelryn","GLOBAL",5) SetGlobal("YF_ClaraRingTOB","GLOBAL",1) SetGlobal("YF_AnomenClaraRomance","GLOBAL",2) SetGlobal("OHH_HexxatSummoned","GLOBAL",3)~ + YF_BadAnomen3 
+	+ ~!Global("OHH_HexxatSummoned","GLOBAL",1) !Global("OHH_HexxatSummoned","GLOBAL",2) !InMyArea("hexxat")~ + @14 /*Yes, with Clara.*/ DO ~SetGlobal("YF_LordAndLadyDelryn","GLOBAL",5) SetGlobal("YF_ClaraRingTOB","GLOBAL",1) SetGlobal("YF_AnomenClaraRomance","GLOBAL",2) SetGlobal("OHH_HexxatSummoned","GLOBAL",3)~ + YF_BadAnomen3 
 	++ @10 /*No, you were not.*/ EXIT
 	
 CHAIN ANOME25J YF_BadAnomen2
