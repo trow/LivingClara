@@ -2,7 +2,7 @@ BACKUP ~LivingClara/backup~
 
 AUTHOR ~MephistoSatanDevil~
 
-VERSION ~Version 1.0.4~
+VERSION ~Version 1.0.5~
 
 README ~LivingClara/translations/%LANGUAGE%/readme.txt~ ~LivingClara/readme.md~
 
@@ -597,7 +597,7 @@ COPY_EXISTING ~oh7000.are~ ~override~
 	item_to_add = ~RESTORE~
   END
 
-// 将 Clara 与 "OHHFAK" NPC (可能是一个特定事件或 NPC) 的互动脚本 (YF_OHHFAKClara.baf)
+// 将 Clara 与 "OHHFAK" NPC 的互动脚本 (YF_OHHFAKClara.baf)
 // 添加到 OHHFAK.bcs 脚本的底部 (EXTEND_BOTTOM)。
 // EVALUATE_BUFFER 同样用于处理脚本中的变量。
 EXTEND_BOTTOM ~OHHFAK.bcs~ ~LivingClara/scripts/YF_OHHFAKClara.baf~ EVALUATE_BUFFER
@@ -766,11 +766,12 @@ EXTEND_BOTTOM ~L3Pet25.BCS~ ~LivingClara/scripts/YF_Petsy.baf~
  // 结束 Petsy (TOB) 存在的处理块。
 END
 
-COPY ~LivingClara/audio/YF_Blank.mus~ ~override~
+
+COPY ~LivingClara/audio/G3Blank.mus~ ~override~
 // This code is also used by BG2 Fixpack - it would help you to run custom music for your NPC from "a clean slate", installing "blank" music you could run it with. Not everyone installs the Fixpack, though, so here we go:
 // Feel free to skip this code if you're not using any music in your mod, only your NPC's voice.
 COPY_EXISTING ~songlist.2da~ ~override~
-  SET_2DA_ENTRY 0 2 3 ~YF_Blank.mus~
+  SET_2DA_ENTRY 0 2 3 ~G3Blank.mus~
 // You will note there's a Blank.mus file in your Audio directory - it's needed exactly for that purpose. Delete it if you're not using any music in your mod.
 
 
