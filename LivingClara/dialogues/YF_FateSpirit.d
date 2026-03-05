@@ -9,4 +9,13 @@ CreateCreature("YF_Cla25",[1999.1228],0)
 SetGlobal("YF_ClaraSummoned","GLOBAL",1)~ GOTO 8
 END
 
+EXTEND_TOP FATESP 6 #4
+IF ~!InMyArea("YF_Clara") Global("YF_ClaraSummoned","GLOBAL",0)
+	OR(3)
+	Global("OHH_HexxatSummoned","GLOBAL",1) 
+	Global("OHH_HexxatSummoned","GLOBAL",2) 
+	InMyArea("hexxat")~
+THEN REPLY @0 GOTO 10
+END
+
 //Has to be separate in order to be compatible with EET
