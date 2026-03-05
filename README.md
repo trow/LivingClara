@@ -37,6 +37,7 @@ When encountering "Hexxat" at the Copper Coronet, the party can decline the whol
 
 **Installation Order:**
 - Install after Saradas-Magic-BG2 for proper Crossmod interjections
+- Installing this mod after the Trickster kit from The Artisan's Kitpack will change Clara's kit to Trickster.
 - On EET installations: install before EET_End
 - Recommended to use with Banter Accelerator for optimal interjection frequency
 
