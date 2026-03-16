@@ -226,12 +226,19 @@ Poids : 7~
 
 //Clara's Wedding Ring
 @96 /*Name*/ = ~Bague de la Famille Delryn~
-@97 /*DESC*/ = ~Ce simple anneau, bien que sans grande valeur matérielle, est un héritage de la famille Delryn. Portée autrefois par sa chère sœur Moira, Anomen a donné cette bague à Clara comme symbole de leur amour. Elle a été enchantée pour aider à protéger sa noble épouse.
+@97 /*DESC*/ = ~Ce simple anneau, bien que sans grande valeur matérielle, est un héritage de la famille Delryn. Porté autrefois par sa chère sœur Moira, Anomen a offert cet anneau à Clara en gage de leur amour. Il a été enchanté pour protéger sa noble épouse.
 
 STATISTIQUES :
 
 Capacités équipées :
-+1 à toutes les caractéristiques
++1 au Charisme
+Indétectable à l'alignement
+
+Capacités de charge :
+– Charmement de créature (Jet de sauvegarde contre les Sorts à -1 annule)
+Portée : 12 m
+Durée : 12 heures
+Zone d'effet : 1 créature
 
 Poids : 0~
 
