@@ -36,7 +36,7 @@ LANGUAGE ~French~ ~french~
 
 
 BEGIN @1 /*~Living Clara~*/        //Any text written after Begin will appear as XXX in the Weidu install: Install XXX?
-LABEL YF-LivingClara
+DESIGNATED 0 LABEL ~LivingClara-main~
 	FORBID_COMPONENT ~AllThingsMazzy.tp2~ ~0~ @52
 	FORBID_COMPONENT ~setup-AllThingsMazzy.tp2~ ~0~ @52
 	FORBID_COMPONENT ~EET_end.tp2~ ~0~ @53
@@ -961,3 +961,34 @@ LAF HANDLE_AUDIO
     oggdec_path = ~LivingClara/audio~ // OGG 解码器路径 (可能未使用)
     sox_path = ~LivingClara/audio~ // Sox 音频处理工具路径 (可能未使用)
 END
+
+
+BEGIN @158 /*Optional BG2 Style Portrait for Clara*/
+DESIGNATED 1 LABEL ~LivingClara-BG2_Style_Portrait~
+REQUIRE_COMPONENT ~LivingClara.tp2~ ~0~ @54 /*You must have the main mod installed.*/
+
+PRINT @159
+ACTION_READLN how
+OUTER_WHILE !IS_AN_INT how OR how > 2 OR how < 1 BEGIN
+	PRINT @159
+	ACTION_READLN how
+END
+
+ACTION_IF how = 1 THEN BEGIN
+COPY ~LivingClara/characters/YF_ClarL.bmp~ ~override/YF_ClarL.bmp~ 
+COPY ~LivingClara/characters/YF_ClarM.bmp~ ~override/YF_ClarM.bmp~ 
+
+COPY_EXISTING ~YF_Clara.cre~ ~override/YF_Clara.cre~
+ WRITE_ASCII 0x34 ~YF_ClarM~ #8 //portraits
+ WRITE_ASCII 0x3c ~YF_ClarL~ #8
+
+COPY_EXISTING ~YF_Cla25.cre~ ~override/YF_Cla25.cre~
+ WRITE_ASCII 0x34 ~YF_ClarM~ #8 //portraits
+ WRITE_ASCII 0x3c ~YF_ClarL~ #8
+END
+
+ACTION_IF how = 2 THEN BEGIN
+COPY ~LivingClara/characters/YF_ClarL.bmp~ ~override/OHHEXL.BMP~ 
+COPY ~LivingClara/characters/YF_ClarM.bmp~ ~override/OHHEXM.BMP~ 
+END
+

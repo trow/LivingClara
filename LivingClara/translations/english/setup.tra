@@ -303,9 +303,18 @@ Indeed, when asked the secret of his good fortune by young lords and jealous riv
 @151 = ~Saradas NPC not detected~
 @52 = ~All Thing Mazzy mod detected. Due to overlapping functionality, please do not install this mod alongside it.~
 @53  = ~This mod needs to be installed before EET_End on your EET install.~
+@54 = ~You must have the main mod installed.~
 @152 = ~Compiling scripts~
 @153 = ~Extending existing game scripts~
 @154 = ~Modifying ending scripts~
 @155 = ~Reset Check Files: to help with all the joys of mod compatibility.~
 @156 = "Trickster Kit detected - making Clara a Trickster."
 @157 = "Trickster Kit not detected - Clara will not be a Trickster."
+@158 = ~Optional BG2 Style Portrait for Clara~
+@159 = ~Change Clara's portrait?
+
+1.Change only Clara's portrait after rescue
+
+2.Change all of Clara's portraits
+
+Please choose 1 or 2~

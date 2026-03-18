@@ -283,9 +283,18 @@ En effet, lorsqu'on lui demandait le secret de sa bonne fortune par de jeunes se
 @151 = ~PNJ Saradas non détecté~
 @52 = ~Le mod All Thing Mazzy a été détecté. En raison du chevauchement des fonctionnalités, veuillez ne pas installer ce mod en même temps que celui-ci.~
 @53  = ~Ce mod doit etre installe avant EET_End et apres EET, comme tous les mods ajoutant un PNJ dans un jeu EET.~
+@54 = ~Vous devez avoir installé le mod principal.~
 @152 = ~Compilation des scripts~
 @153 = ~Extension des scripts de jeu existants~
 @154 = ~Modification des scripts de fin~
 @155 = ~Réinitialisation des fichiers de vérification : pour aider avec toutes les joies de la compatibilité des mods.~
 @156 = "Kit de farceur détecté - Clara devient une farceuse."
 @157 = "Kit de farceur non détecté - Clara ne sera pas une farceuse."
+@158 = ~Portrait optionnel pour Clara dans le style de BG2~
+@159 = ~Changer le portrait de Clara ?
+
+1. Modifier uniquement le portrait de Clara après le sauvetage
+
+2. Modifier tous les portraits de Clara
+
+Veuillez choisir 1 ou 2~
