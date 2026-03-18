@@ -11,6 +11,7 @@
 This mod transforms Clara into a fully fleshed‑out NPC, allowing you to save her when facing Hexxat. It also expands Anomen’s dark side path with new interactions.
 
 ![Clara Portrait](https://static.wikia.nocookie.net/baldursgategame/images/5/5f/Clara_OHHEX_Portrait_BG2EE.png )
+![Another_Clara Portrait](https://github.com/trow/LivingClara/blob/main/LivingClara/characters/YF_ClarL.bmp)
 
 > This project builds upon the Clara‑related content originally created by Ratatoskr and BCaesar, and is developed with their kind [permission](https://forums.beamdog.com/discussion/71473/_/p46). It has been completely overhauled and expanded into a standalone mod focused solely on Clara.
 
