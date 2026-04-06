@@ -1,5 +1,5 @@
 //Fate Spirit Dialogue for summoning Clara
-@0 /*Charname*/ = ~把人类影舞者克拉拉，带来。~
+@0 /*Charname*/ = ~把那个盗贼克拉拉带来。~
 
 //if you rescued her before
 @1 /*Clara*/ = ~<CHARNAME>，你在这里干什么？或者说，*我*在这里做什么，到底在哪里？~

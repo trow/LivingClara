@@ -1,5 +1,5 @@
 //Fate Spirit Dialogue for summoning Clara
-@0 /*Charname*/ = ~Доставь мне Клару, теневого танцора.~
+@0 /*Charname*/ = ~Доставь мне Клару, воровку.~
 
 //if you rescued her before
 @1 /*Clara*/ = ~<CHARNAME>, что ты тут делаешь? Точнее, что *я* тут делаю, и где мы вообще?~

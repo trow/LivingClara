@@ -1,5 +1,5 @@
 //Dialogue d'Invocation de l'Esprit du Destin pour Clara
-@0 /*Charname*/ = ~Amène-moi Clara, l'ombre-danseuse humaine.~
+@0 /*Charname*/ = ~Amène-moi Clara, la voleuse humain.~
 
 //si vous l'avez sauvée auparavant
 @1 /*Clara*/ = ~<CHARNAME>, que fais-tu ici ? Et d'ailleurs, que fais-*je* ici, et où suis-je exactement ?~

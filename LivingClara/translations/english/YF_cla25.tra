@@ -1,5 +1,5 @@
 //Fate Spirit Dialogue for summoning Clara
-@0 /*Charname*/ = ~Bring me Clara, the human shadowdancer.~
+@0 /*Charname*/ = ~Bring me Clara, the human thief.~
 
 //if you rescued her before
 @1 /*Clara*/ = ~<CHARNAME>, what are you doing here? For that matter, what am *I* doing here and where is here anyway?~

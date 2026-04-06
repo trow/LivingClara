@@ -370,3 +370,15 @@ THEN
 	RESPONSE #100
 	StartDialogNoSet(Player1)
 END
+
+IF
+    Global("BD_JOINXP","LOCALS",0)
+    InParty(Myself)
+    XPLT(Myself,2500000)
+THEN
+    RESPONSE #100
+        SetInterrupt(FALSE)
+        SetGlobal("BD_JOINXP","LOCALS",1)
+        ChangeStat(Myself,XP,2500000,SET)
+        SetInterrupt(TRUE)
+END
