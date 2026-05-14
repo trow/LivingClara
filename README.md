@@ -22,7 +22,7 @@ This mod includes two main features:
 ### 1. Keepable Clara
 When facing Hexxat, Clara will no longer die. We've reworked the conclusion of Hexxat's companion quest, allowing you to permanently destroy Hexxat and save Clara.
 
-Clara is a Female Human Lawful Evil Thief **with the ability to change her kit at any time**. Though initially underpowered, she can rapidly level up through numerous interjections with party members, gaining various attribute and ability bonuses. She can also be directly summoned when starting a new *Throne of Bhaal* campaign.
+Clara is a Female Human Lawful Evil Thief. Though initially underpowered, she can rapidly level up through numerous interjections with party members, gaining various attribute and ability bonuses. She can also be directly summoned when starting a new *Throne of Bhaal* campaign.
 
 ### 2. Dark Side Anomen
 If Anomen fails his paladin trial and kills his father, he would normally be forced to leave the party permanently. This component adds content that can allow him to stay if he is in a romance. Furthermore, if Clara takes Charname's place as his romantic partner, Anomen may gain an unexpected benefit.
