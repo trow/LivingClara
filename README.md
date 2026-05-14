@@ -25,7 +25,7 @@ When facing Hexxat, Clara will no longer die. We've reworked the conclusion of H
 Clara is a Female Human Lawful Evil Thief. Though initially underpowered, she can rapidly level up through numerous interjections with party members, gaining various attribute and ability bonuses. She can also be directly summoned when starting a new *Throne of Bhaal* campaign.
 
 ### 2. Dark Side Anomen
-If Anomen fails his paladin trial and kills his father, he would normally be forced to leave the party permanently. This component adds content that can allow him to stay if he is in a romance. Furthermore, if Clara takes Charname's place as his romantic partner, Anomen may gain an unexpected benefit.
+If Anomen fails his knight trial and kills his father, he would normally be forced to leave the party permanently. This component adds content that can allow him to stay if he is in a romance. Furthermore, if Clara takes Charname's place as his romantic partner, Anomen may gain an unexpected benefit.
 
 ## Note
 When encountering "Hexxat" at the Copper Coronet, the party can decline the whole thing through dialogue and never bother with it at all, or can temporarily decline and later, if desired, initiate contact and dialogue with "Hexxat" again and agree to take her to the tomb. This is identical to the original game's Hexxat quest. This must occur before Chapter 4 and will be unavailable after that time marker. So, either do it or don't by then.
