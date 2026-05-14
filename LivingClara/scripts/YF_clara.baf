@@ -527,7 +527,8 @@ IF
 THEN
 	RESPONSE #100
 	PlaySong(0)
-	PlaySong(35)
+	//PlaySong(35)
+	PlaySound("YF_Gypa")
 	StartDialogNoSet(Player1)
 END
 
@@ -679,7 +680,8 @@ IF
 THEN
 	RESPONSE #100
 	PlaySong(0)
-	PlaySong(35)
+	//PlaySong(35)
+	PlaySound("YF_Gypa")
 	StartDialogNoSet(Player1)
 END
 
@@ -714,7 +716,8 @@ IF
 THEN
 	RESPONSE #100
 	PlaySong(0)
-	PlaySong(35)
+	//PlaySong(35)
+	PlaySound("YF_Gypa")
 	StartDialogNoSet(Player1)
 END
 	
