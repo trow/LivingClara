@@ -81,7 +81,12 @@ COPY_EXISTING ~Wilson13.cre~ ~override~ // Wilson version summoned by Fate Spiri
   WRITE_EVALUATED_ASCII SCRIPT_OVERRIDE ~WILSON25~ #8
   ADD_CRE_ITEM ~L#wilroc~ #1 #0 #0 ~identified~ ~qitem~ // missed quest reward from SoA
   
-  
+// 复制 Clara 罗曼史的 bgm音乐到 music 目录，并添加至music list中。
+MKDIR ~music/YF_Gymn~
+COPY ~%MOD_FOLDER%/music/YF_Gymn.mus~ ~music/YF_Gymn.mus~
+COPY ~%MOD_FOLDER%/music/YF_Gymno.ogg~ ~music/YF_Gymn/YF_GymnO.acm~
+ADD_MUSIC ~YF_Gymn~ ~music/YF_Gymn.mus~
+
 //This code adds scriptnames to several NPCs that lack them in the normal game. This can cause issues with any other mods that try to do the same, so use sparingly. These scriptnames will only appear on newly created characters, so they will not appear if you install the mod mid-game.
     // ----- 为缺少脚本名的 NPC 添加脚本名 -----
     // 这部分代码为游戏中一些默认没有死亡变量/脚本名 (DEATHVAR/Scriptname) 的 CRE 文件添加一个。
@@ -767,11 +772,11 @@ EXTEND_BOTTOM ~L3Pet25.BCS~ ~LivingClara/scripts/YF_Petsy.baf~
 END
 
 
-COPY ~LivingClara/audio/G3Blank.mus~ ~override~
+//COPY ~LivingClara/audio/G3Blank.mus~ ~override~
 // This code is also used by BG2 Fixpack - it would help you to run custom music for your NPC from "a clean slate", installing "blank" music you could run it with. Not everyone installs the Fixpack, though, so here we go:
 // Feel free to skip this code if you're not using any music in your mod, only your NPC's voice.
-COPY_EXISTING ~songlist.2da~ ~override~
-  SET_2DA_ENTRY 0 2 3 ~G3Blank.mus~
+//COPY_EXISTING ~songlist.2da~ ~override~
+//  SET_2DA_ENTRY 0 2 3 ~G3Blank.mus~
 // You will note there's a Blank.mus file in your Audio directory - it's needed exactly for that purpose. Delete it if you're not using any music in your mod.
 
 
@@ -951,8 +956,6 @@ EXTEND_TOP ~AR6200.bcs~ ~LivingClara/scripts/YF_AR6200X.baf~  //This script just
 //FtE Only portion
  // 结束对 FtE 部分的处理。
 
-    // 复制 Clara 的 WAV 音频文件到 override 目录。
-//COPY ~LivingClara/Clara/audio/wav_files~ ~override~  
     // 调用 Weidu 的内置函数 HANDLE_AUDIO 来处理音频文件（可能包括转换或复制 OGG 文件）。
 LAF HANDLE_AUDIO
         // 传递给函数的字符串变量，指定音频文件的路径。
@@ -969,12 +972,12 @@ REQUIRE_COMPONENT ~LivingClara.tp2~ ~0~ @54 /*You must have the main mod install
 
 PRINT @159
 ACTION_READLN how
-OUTER_WHILE !IS_AN_INT how OR how > 2 OR how < 1 BEGIN
+OUTER_WHILE (!IS_AN_INT %how%) OR (%how% > 2) OR (%how% < 1) BEGIN
 	PRINT @159
 	ACTION_READLN how
 END
 
-ACTION_IF how = 1 THEN BEGIN
+ACTION_IF (%how% = 1) THEN BEGIN
 COPY ~LivingClara/characters/YF_ClarL.bmp~ ~override/YF_ClarL.bmp~ 
 COPY ~LivingClara/characters/YF_ClarM.bmp~ ~override/YF_ClarM.bmp~ 
 
@@ -987,8 +990,7 @@ COPY_EXISTING ~YF_Cla25.cre~ ~override/YF_Cla25.cre~
  WRITE_ASCII 0x3c ~YF_ClarL~ #8
 END
 
-ACTION_IF how = 2 THEN BEGIN
+ACTION_IF (%how% = 2) THEN BEGIN
 COPY ~LivingClara/characters/YF_ClarL.bmp~ ~override/OHHEXL.BMP~ 
 COPY ~LivingClara/characters/YF_ClarM.bmp~ ~override/OHHEXM.BMP~ 
 END
-

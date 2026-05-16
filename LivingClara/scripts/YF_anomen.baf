@@ -119,9 +119,7 @@ IF
 	CombatCounter(0)
 THEN
 	RESPONSE #100
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 
@@ -166,9 +164,7 @@ IF
 	CombatCounter(0)
 THEN
 	RESPONSE #100
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 
@@ -210,9 +206,7 @@ IF//killed Saerk version
 THEN
 	RESPONSE #100
 	Wait(3)
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 
@@ -228,9 +222,7 @@ IF//didn't kill Saerk version
 THEN
 	RESPONSE #100
 	Wait(5)
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 
@@ -282,9 +274,7 @@ IF
 	CombatCounter(0)
 THEN
 	RESPONSE #100
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 
@@ -336,9 +326,7 @@ IF
 	CombatCounter(0)
 THEN
 	RESPONSE #100
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 
@@ -357,9 +345,7 @@ IF
 	TimeOfDay(NIGHT)
 THEN
 	RESPONSE #100
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 
@@ -404,9 +390,7 @@ IF
 	CombatCounter(0)
 THEN
 	RESPONSE #100
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 
@@ -610,9 +594,7 @@ IF
 	CombatCounter(0)
 THEN
 	RESPONSE #100
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 
@@ -776,9 +758,7 @@ IF
 	CombatCounter(0)
 THEN
 	RESPONSE #100
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 
@@ -811,9 +791,7 @@ IF
 	CombatCounter(0)
 THEN
 	RESPONSE #100
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 
@@ -846,9 +824,7 @@ IF
 	CombatCounter(0)
 THEN
 	RESPONSE #100
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 

@@ -526,9 +526,7 @@ IF
 	CombatCounter(0)
 THEN
 	RESPONSE #100
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 
@@ -679,9 +677,7 @@ IF
 	CombatCounter(0)
 THEN
 	RESPONSE #100
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 
@@ -715,9 +711,7 @@ IF
 	CombatCounter(0)
 THEN
 	RESPONSE #100
-	PlaySong(0)
-	//PlaySong(35)
-	PlaySound("YF_Gypa")
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 	
@@ -978,8 +972,8 @@ IF
 THEN
 	RESPONSE #100
 	SetGlobal("CowledWarning","GLOBAL",50)
-	PlaySong(0)
-	PlaySound("YF_Gypa")
+	//PlaySong(0)
+	PlaySong(%YF_Gymn%)
 	StartDialogNoSet(Player1)
 END
 
