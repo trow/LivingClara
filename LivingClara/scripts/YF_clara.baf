@@ -435,6 +435,7 @@ IF
 THEN
 	RESPONSE #100
 	AddSpecialAbility("SPCL321")
+	ApplySpellRES("YF_TIRED","YF_Clara")
 	SetGlobal("YF_ClaraHulksOut","GLOBAL",1)
 END
 
@@ -445,7 +446,6 @@ IF
 THEN
 	RESPONSE #100
 	AddSpecialAbility("SPCL732")
-	ApplySpellRES("YF_TIRED","YF_Clara")
 	SetGlobal("YF_ClaraSeesAll","GLOBAL",1)
 END
 
