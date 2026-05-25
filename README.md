@@ -35,6 +35,7 @@ When encountering "Hexxat" at the Copper Coronet, the party can decline the whol
 **Compatibility Notes:**
 - Compatible with most mods
 - **Do NOT install alongside the Mazzy MegaMod** (the original mod from which the Clara content was derived, as it contains duplicate material)
+- **Do not install the "Nothing kills romances" component** from the Romance Cheats section of The Tweaks Anthology mod, as it will prevent Anomen and Clara from developing a romance.
 
 **Installation Order:**
 - Install after Saradas-Magic-BG2 for proper Crossmod interjections
