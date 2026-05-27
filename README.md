@@ -39,9 +39,9 @@ When encountering "Hexxat" at the Copper Coronet, the party can decline the whol
 
 **Installation Order:**
 - Install after Saradas-Magic-BG2 for proper Crossmod interjections
-- Installing this mod after the Trickster kit from The Artisan's Kitpack will change Clara's kit to Trickster.
-- Installing this mod after the Seducer Kit from semiticgoddess's Expanded Classes and Kits, and without the Trickster kit from The Artisan's Kitpack installed, will change Clara's kit to Seducer.
-- Installing this mod after the Charming Rogue from Jarno Mikkola's Mega Mod Kits, and without the Trickster kit from The Artisan's Kitpack or the Seducer Kit from semiticgoddess's Expanded Classes and Kits installed, will change Clara's kit to Charming Rogue.
+- Installing this mod after the Trickster kit from [The Artisan's Kitpack](https://github.com/TheArtisanBG/The-Artisan-s-Kitpack/) will change Clara's kit to Trickster.
+- Installing this mod after the Seducer Kit from semiticgoddess's [Expanded Classes and Kits](https://forums.beamdog.com/discussion/77859/), and without the Trickster kit installed, will change Clara's kit to Seducer.
+- Installing this mod after the Charming Rogue from Jarno Mikkola's [Mega Mod Kits](https://www.shsforums.net/files/file/905-megamodkits/), and without the Trickster kit or the Seducer Kit installed, will change Clara's kit to Charming Rogue.
 - To keep Clara's kit as Shadowdancer, install this mod prior to the three kit mods mentioned above.
 - On EET installations: install before EET_End
 - Recommended to use with Banter Accelerator for optimal interjection frequency
