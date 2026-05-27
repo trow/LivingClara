@@ -35,11 +35,14 @@ When encountering "Hexxat" at the Copper Coronet, the party can decline the whol
 **Compatibility Notes:**
 - Compatible with most mods
 - **Do NOT install alongside the Mazzy MegaMod** (the original mod from which the Clara content was derived, as it contains duplicate material)
-- **Do not install the "Nothing kills romances" component** from the Romance Cheats section of The Tweaks Anthology mod, as it will prevent Anomen and Clara from developing a romance.
+- **Do NOT install the "Nothing kills romances" component** from the Romance Cheats section of The Tweaks Anthology mod (as it will prevent Anomen and Clara from developing a romance)
 
 **Installation Order:**
 - Install after Saradas-Magic-BG2 for proper Crossmod interjections
 - Installing this mod after the Trickster kit from The Artisan's Kitpack will change Clara's kit to Trickster.
+- Installing this mod after the Seducer Kit from semiticgoddess's Expanded Classes and Kits, and without the Trickster kit from The Artisan's Kitpack installed, will change Clara's kit to Seducer.
+- Installing this mod after the Charming Rogue from Jarno Mikkola's Mega Mod Kits, and without the Trickster kit from The Artisan's Kitpack or the Seducer Kit from semiticgoddess's Expanded Classes and Kits installed, will change Clara's kit to Charming Rogue.
+- To keep Clara's kit as Shadowdancer, install this mod prior to the three kit mods mentioned above.
 - On EET installations: install before EET_End
 - Recommended to use with Banter Accelerator for optimal interjection frequency
 

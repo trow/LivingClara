@@ -308,8 +308,8 @@ Indeed, when asked the secret of his good fortune by young lords and jealous riv
 @153 = ~Extending existing game scripts~
 @154 = ~Modifying ending scripts~
 @155 = ~Reset Check Files: to help with all the joys of mod compatibility.~
-@156 = "Trickster Kit detected - making Clara a Trickster."
-@157 = "Trickster Kit not detected - Clara will not be a Trickster."
+@156 = ~Specific thief kit detected - converting Clara to a special thief.~
+@157 = ~Specific thief kit not detected - Clara's kit will remain Shadowdancer.~
 @158 = ~Optional BG2 Style Portrait for Clara~
 @159 = ~Change Clara's portrait?
 

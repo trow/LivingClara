@@ -682,6 +682,40 @@ END ELSE BEGIN    // 如果未检测到 Saradas，则打印信息。
  PRINT @151 /*Saradas NPC not detected*/
 END // 结束 Saradas 不存在的处理块。
 
+// ========== Living Clara NPC -MegaModKits Charming Rogue Kit 宗派兼容 ==========
+// 检查 Charming Rogue 宗派 mod 是否已安装
+ACTION_IF MOD_IS_INSTALLED ~MEGAMODKITS.tp2~ 1 BEGIN
+  PRINT @156 /*Charming Rogue Kit mod detected - making Clara a Charming Rogue Kit.*/
+  // SOA阶段的Clara
+  COPY_EXISTING ~YF_clara.cre~ ~override~
+    WRITE_SHORT 0x246 (IDS_OF_SYMBOL (~kit~ ~CHARMING_ROGUE~))
+  BUT_ONLY
+  
+  // TOB阶段的Clara
+  COPY_EXISTING ~YF_cla25.cre~ ~override~
+    WRITE_SHORT 0x246 (IDS_OF_SYMBOL (~kit~ ~CHARMING_ROGUE~))
+  BUT_ONLY
+END ELSE BEGIN
+  PRINT @157 /*Charming Rogue Kit mod not detected - Clara will not be a Charming Rogue Kit.*/
+END
+
+// ========== Living Clara NPC -ExpandedClasses Seducer 宗派兼容 ==========
+// 检查 Seducer Kit for Thieves 宗派 mod 是否已安装
+ACTION_IF MOD_IS_INSTALLED ~ExpandedClasses.tp2~ 8 BEGIN
+  PRINT @156 /*Seducer Kit for Thieves mod detected - making Clara a Seducer Kit for Thieves.*/
+  // SOA阶段的Clara
+  COPY_EXISTING ~YF_clara.cre~ ~override~
+    WRITE_SHORT 0x246 (IDS_OF_SYMBOL (~kit~ ~USSD77~))
+  BUT_ONLY
+  
+  // TOB阶段的Clara
+  COPY_EXISTING ~YF_cla25.cre~ ~override~
+    WRITE_SHORT 0x246 (IDS_OF_SYMBOL (~kit~ ~USSD77~))
+  BUT_ONLY
+END ELSE BEGIN
+  PRINT @157 /*Trickster mod not detected - Clara will not be a Trickster.*/
+END
+
 // ========== Living Clara NPC -Artisan's Kitpack Trickster 宗派兼容 ==========
 // 检查 Trickster 宗派 mod 是否已安装
 ACTION_IF MOD_IS_INSTALLED ~Setup-ArtisansKitpack.tp2~ 7003 BEGIN
