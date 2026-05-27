@@ -38,13 +38,13 @@ When encountering "Hexxat" at the Copper Coronet, the party can decline the whol
 - **Do NOT install the "Nothing kills romances" component** from the Romance Cheats section of The Tweaks Anthology mod (as it will prevent Anomen and Clara from developing a romance)
 
 **Installation Order:**
-- Install after Saradas-Magic-BG2 for proper Crossmod interjections
-- Installing this mod after the Trickster kit from [The Artisan's Kitpack](https://github.com/TheArtisanBG/The-Artisan-s-Kitpack/) will change Clara's kit to Trickster.
-- Installing this mod after the Seducer Kit from semiticgoddess's [Expanded Classes and Kits](https://forums.beamdog.com/discussion/77859/), and without the Trickster kit installed, will change Clara's kit to Seducer.
-- Installing this mod after the Charming Rogue from Jarno Mikkola's [Mega Mod Kits](https://www.shsforums.net/files/file/905-megamodkits/), and without the Trickster kit or the Seducer Kit installed, will change Clara's kit to Charming Rogue.
-- To keep Clara's kit as Shadowdancer, install this mod prior to the three kit mods mentioned above.
+- Install after [Saradas Magic for BG2](https://github.com/Spellhold-Studios/Saradas-Magic-BG2) for proper Crossmod interjections
+- To keep Clara's kit as Shadowdancer, install this mod prior to the three kit mods mentioned below.
+  - Installing this mod after the Trickster kit from [The Artisan's Kitpack](https://github.com/TheArtisanBG/The-Artisan-s-Kitpack/) will change Clara's kit to Trickster.
+  - Installing this mod after the Seducer Kit from semiticgoddess's [Expanded Classes and Kits](https://forums.beamdog.com/discussion/77859/), and without the Trickster kit installed, will change Clara's kit to Seducer.
+  - Installing this mod after the Charming Rogue from Jarno Mikkola's [Mega Mod Kits](https://www.shsforums.net/files/file/905-megamodkits/), and without the Trickster kit or the Seducer Kit installed, will change Clara's kit to Charming Rogue.
 - On EET installations: install before EET_End
-- Recommended to use with Banter Accelerator for optimal interjection frequency
+- Recommended to use with [Banter Accelerator](https://github.com/Argent77/A7-BanterAccelerator) for optimal interjection frequency
 
 ## Credits
 
