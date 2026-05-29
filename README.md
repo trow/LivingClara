@@ -30,7 +30,7 @@ If Anomen fails his knight trial and kills his father, he would normally be forc
 ## Note
 When encountering "Hexxat" at the Copper Coronet, the party can decline the whole thing through dialogue and never bother with it at all, or can temporarily decline and later, if desired, initiate contact and dialogue with "Hexxat" again and agree to take her to the tomb. This is identical to the original game's Hexxat quest. This must occur before Chapter 4 and will be unavailable after that time marker. So, either do it or don't by then.
 
-## Compatibility & Installation
+## Compatibility, Installation & Known Issue
 
 **Compatibility Notes:**
 - Compatible with most mods
@@ -45,6 +45,9 @@ When encountering "Hexxat" at the Copper Coronet, the party can decline the whol
   - Installing this mod after the Charming Rogue from Jarno Mikkola's [Mega Mod Kits](https://www.shsforums.net/files/file/905-megamodkits/), and without the Trickster kit or the Seducer Kit installed, will change Clara's kit to Charming Rogue.
 - On EET installations: install before EET_End
 - Recommended to use with [Banter Accelerator](https://github.com/Argent77/A7-BanterAccelerator) for optimal interjection frequency
+
+**Known Issue:**
+- In the scene where Clara assists Anomen in patricide, if Clara is chunked death, she will not be resurrected correctly. If you encounter this issue, please reload a previous save and replay this scene.
 
 ## Credits
 
