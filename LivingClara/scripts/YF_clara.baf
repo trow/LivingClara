@@ -537,7 +537,7 @@ IF
 THEN
 	RESPONSE #100
 	SetGlobal("HopToItClara","LOCALS",1)
-	ChangeAIScript("",DEFAULT)
+	ChangeAIScript("YoshX",DEFAULT)
 	ChangeEnemyAlly(Myself,GOODBUTBLUE)
 END
 
@@ -944,38 +944,38 @@ END
 
 //Clara's dialogue in Viconia's Peace Quest, after you talk to Rose.
 
-IF
-	Global("YF_ClaraAntidoteTalk","GLOBAL",2)
-	Global("YF_CNKillsAll","GLOBAL",1)
-	Global("YF_ClaraAntidoteTalkCN","GLOBAL",0)
-THEN
-	RESPONSE #100
-	Wait(1)
-	CreateCreature("MURDGIRL",[2947.1978],NW)
-	SetGlobal("YF_ClaraAntidoteTalkCN","GLOBAL",1)
-END
+//IF
+//	Global("YF_ClaraAntidoteTalk","GLOBAL",2)
+//	Global("YF_CNKillsAll","GLOBAL",1)
+//	Global("YF_ClaraAntidoteTalkCN","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	Wait(1)
+//	CreateCreature("MURDGIRL",[2947.1978],NW)
+//	SetGlobal("YF_ClaraAntidoteTalkCN","GLOBAL",1)
+//END
 
-IF
-	Global("YF_ClaraAntidoteTalk","GLOBAL",2)
-	Global("YF_ClaraKillsAll","GLOBAL",1)
-	Global("YF_ClaraAntidoteTalkClara","GLOBAL",0)
-THEN
-	RESPONSE #100
-	CreateCreature("MURDGIRL",[2947.1978],NW)
-	SetGlobal("YF_ClaraAntidoteTalkClara","GLOBAL",1)
-END
+//IF
+//	Global("YF_ClaraAntidoteTalk","GLOBAL",2)
+//	Global("YF_ClaraKillsAll","GLOBAL",1)
+//	Global("YF_ClaraAntidoteTalkClara","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	CreateCreature("MURDGIRL",[2947.1978],NW)
+//	SetGlobal("YF_ClaraAntidoteTalkClara","GLOBAL",1)
+//END
 
-IF
-	OR(2)
-		Global("YF_ClaraAntidoteTalkCN","GLOBAL",1)
-		Global("YF_ClaraAntidoteTalkClara","GLOBAL",1)
-THEN
-	RESPONSE #100
-	SetGlobal("CowledWarning","GLOBAL",50)
-	//PlaySong(0)
-	PlaySong(%YF_Gymn%)
-	StartDialogNoSet(Player1)
-END
+//IF
+//	OR(2)
+//		Global("YF_ClaraAntidoteTalkCN","GLOBAL",1)
+//		Global("YF_ClaraAntidoteTalkClara","GLOBAL",1)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("CowledWarning","GLOBAL",50)
+//	//PlaySong(0)
+//	PlaySong(%YF_Gymn%)
+//	StartDialogNoSet(Player1)
+//END
 
 //Script for Rose to talk as everyone dies.
 //IF

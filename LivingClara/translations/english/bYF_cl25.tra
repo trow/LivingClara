@@ -738,13 +738,13 @@
 @643 /*Dorn*/ = ~With <CHARNAME>'s help, I tracked her down and put her in the grave. Even now her soul writhes in the abyss.~
 @644 /*Dorn*/ = ~None of my relationships end well.~
 @645 /*Clara -if CN-Dorn Romance*/ = ~You seem to be pretty friendly with <CHARNAME>. How do you expect that to end?~
-@6450 /*Clara -if HD romance*/ = ~You seem pretty friendly with Haer'Dalis. How do you expect that to end?~
+//@6450 /*Clara -if HD romance*/ = ~You seem pretty friendly with Haer'Dalis. How do you expect that to end?~
 @646 /*Dorn -if CN romance*/ = ~With my death or <CHARNAME>'s, same as always.~
-@6460 /*Dorn -if HD romance*/ = ~With my death or the tiefling's, same as always.~
+//@6460 /*Dorn -if HD romance*/ = ~With my death or the tiefling's, same as always.~
 @647 /*Clara -if CN-Dorn romance*/ = ~But you and <CHARNAME> are together and that seems to be going very well.~
-@6470 /*Clara -if HD romance*/ = ~But you and Haer'Dalis are together and that seems to be going very well... Especially in bed.~
+//@6470 /*Clara -if HD romance*/ = ~But you and Haer'Dalis are together and that seems to be going very well... Especially in bed.~
 @648 /*Dorn - if CN romance*/ = ~Things often go well for a time. That does not mean it will end any other way.~
-@6480 /*Dorn - if HD romance*/ = ~Things often go well for a time. That does not mean our relationship will not end in bloodshed... even if I might wish otherwise.~
+//@6480 /*Dorn - if HD romance*/ = ~Things often go well for a time. That does not mean our relationship will not end in bloodshed... even if I might wish otherwise.~
 @649 /*Clara*/ = ~You know, Dorn, for a murderous psychopath, you sure are broody and depressing.~
 @650 /*Dorn*/ = ~And for a two-gold cheat and liar, you are astoundingly nosy. Now let me be.~
 

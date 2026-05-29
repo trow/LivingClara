@@ -466,8 +466,8 @@ END
 //Rasaad Quest
 INTERJECT_COPY_TRANS2 DORN25J 4 YF_ClaraSharran /*Try it Sharran! I'll chop your mountain down with the side of my hand!*/
 	== YF_cl25j IF ~IfValidForPartyDialog("YF_Clara")~ THEN @147 /*You'll what? I know you're buff and all, but even you can't punch a mountain.*/
-	== YF_cl25j IF ~IfValidForPartyDialog("YF_Clara") IfValidForPartyDialog("HaerDalis") Global("YF_HDDORNROMANCE","GLOBAL",2)~ THEN @148 /*Come on, Haer'Dalis, I thought you were trying to improve Dorn's metaphors.*/
-	== HAERD25J IF ~IfValidForPartyDialog("YF_Clara") IfValidForPartyDialog("HaerDalis") Global("YF_HDDORNROMANCE","GLOBAL",2)~ THEN @149 /*I am, my fine margay. But the roughest ore must be refined before it may be tempered and this sparrow admits to some distraction during our lessons now and then.*/
+	//== YF_cl25j IF ~IfValidForPartyDialog("YF_Clara") IfValidForPartyDialog("HaerDalis") Global("YF_HDDORNROMANCE","GLOBAL",2)~ THEN @148 /*Come on, Haer'Dalis, I thought you were trying to improve Dorn's metaphors.*/
+	//== HAERD25J IF ~IfValidForPartyDialog("YF_Clara") IfValidForPartyDialog("HaerDalis") Global("YF_HDDORNROMANCE","GLOBAL",2)~ THEN @149 /*I am, my fine margay. But the roughest ore must be refined before it may be tempered and this sparrow admits to some distraction during our lessons now and then.*/
 END
 
 //Hexxat Quest

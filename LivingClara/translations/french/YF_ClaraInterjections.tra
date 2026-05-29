@@ -254,8 +254,8 @@
 
 //Rasaad Quest
 @147 /*Clara*/ = ~Tu vas quoi ? Je sais que tu es musclé et tout, mais même toi tu ne peux pas frapper une montagne.~
-@148 /*Clara - if HD*/ = ~Allons, Haer'Dalis, je pensais que tu essayais d'améliorer les métaphores de Dorn.~
-@149 /*HD-if Dorn*/ = ~Je le fais, ma fine pie. Mais le minerai le plus brut doit être affiné avant de pouvoir être trempé, et ce moineau admet être parfois distrait pendant nos leçons.~
+//@148 /*Clara - if HD*/ = ~Allons, Haer'Dalis, je pensais que tu essayais d'améliorer les métaphores de Dorn.~
+//@149 /*HD-if Dorn*/ = ~Je le fais, ma fine pie. Mais le minerai le plus brut doit être affiné avant de pouvoir être trempé, et ce moineau admet être parfois distrait pendant nos leçons.~
 
 //Hexxat Quest
 @150 /*Clara*/ = ~Et bien sûr, le reste d'entre nous sera juste traîné dans l'aventure comme d'habitude. Personne ne demande jamais si *Clara* a envie de risquer sa vie... (Hexxat m'a déjà tuée une fois, ça ne suffit pas ?)~

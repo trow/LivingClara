@@ -1115,13 +1115,13 @@ DO ~ChangeStat("YF_Clara",SAVEVSDEATH,-1,ADD) SetGlobal("YF_BCLARADORN","GLOBAL"
 = @643 /*With <CHARNAME>'s help, I tracked her down and put her in the grave. Even now her soul writhes in the abyss.*/
 = @644 /*None of my relationships end well.*/
 == BYF_Clar IF ~Global("DornRomanceActive","GLOBAL",1)~ THEN @645 /*You seem to be pretty friendly with <CHARNAME>. How do you expect that to end?*/
-== BYF_Clar IF ~Global("YF_HDDornRomance","GLOBAL",1)~ THEN @6450 /*You seem pretty friendly with Haer'Dalis. How do you expect that to end?*/
+//== BYF_Clar IF ~Global("YF_HDDornRomance","GLOBAL",1)~ THEN @6450 /*You seem pretty friendly with Haer'Dalis. How do you expect that to end?*/
 == BDORN IF ~Global("DornRomanceActive","GLOBAL",1)~ THEN @646 /*With my death or <CHARNAME>'s, same as always.*/
-== BDORN IF ~Global("YF_HDDornRomance","GLOBAL",1)~ THEN @6460 /*With my death or the tiefling's, same as always.*/
+//== BDORN IF ~Global("YF_HDDornRomance","GLOBAL",1)~ THEN @6460 /*With my death or the tiefling's, same as always.*/
 == BYF_Clar IF ~Global("DornRomanceActive","GLOBAL",2)~ THEN @647 /*But you and <CHARNAME> are together and that seems to be going very well.*/
-== BYF_Clar IF ~Global("YF_HDDornRomance","GLOBAL",2)~ THEN @6470 /*But you and Haer'Dalis are together and that seems to be going very well... Especially in bed.*/
+//== BYF_Clar IF ~Global("YF_HDDornRomance","GLOBAL",2)~ THEN @6470 /*But you and Haer'Dalis are together and that seems to be going very well... Especially in bed.*/
 == BDORN IF ~Global("DornRomanceActive","GLOBAL",2)~ THEN @648 /*Things often go well for a time. That does not mean it will end any other way.*/
-== BDORN IF ~Global("YF_HDDornRomance","GLOBAL",2)~ THEN @6480 /*Things often go well for a time. That does not mean our relationship will not end in bloodshed... even if I might wish otherwise.*/
+//== BDORN IF ~Global("YF_HDDornRomance","GLOBAL",2)~ THEN @6480 /*Things often go well for a time. That does not mean our relationship will not end in bloodshed... even if I might wish otherwise.*/
 == BYF_Clar @649 /*You know, Dorn, for a murderous psychopath, you sure are broody and depressing.*/
 == BDORN @650 /*And for a two-gold cheat and liar, you are astoundingly nosy. Now let me be.*/
 EXIT

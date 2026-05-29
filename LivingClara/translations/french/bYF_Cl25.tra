@@ -730,13 +730,13 @@
 @643 /*Dorn*/ = ~Avec l'aide de <CHARNAME>, je l'ai traquée et mise dans la tombe. Même maintenant, son âme se tord dans les abysses.~
 @644 /*Dorn*/ = ~Aucune de mes relations ne se termine bien.~
 @645 /*Clara -si romance CN-Dorn*/ = ~Tu as l'air plutôt amical avec <CHARNAME>. Comment penses-tu que cela va finir ?~
-@6450 /*Clara -si romance HD*/ = ~Tu as l'air plutôt amical avec Haer'Dalis. Comment penses-tu que cela va finir ?~
+//@6450 /*Clara -si romance HD*/ = ~Tu as l'air plutôt amical avec Haer'Dalis. Comment penses-tu que cela va finir ?~
 @646 /Dorn -si romance CN/ = ~Avec ma mort ou celle de <CHARNAME>, comme toujours.~ ~Avec ma mort ou celle de <CHARNAME>, comme toujours.~
-@6460 /*Dorn -si romance HD*/ = ~Avec ma mort ou celle du tieffelin, comme toujours.~
+//@6460 /*Dorn -si romance HD*/ = ~Avec ma mort ou celle du tieffelin, comme toujours.~
 @647 /*Clara -si romance CN-Dorn*/ = ~Mais toi et <CHARNAME> êtes ensemble et cela semble très bien se passer.~
-@6470 /*Clara -si romance HD*/ = ~Mais toi et Haer'Dalis êtes ensemble et cela semble très bien se passer... Surtout au lit.~
+//@6470 /*Clara -si romance HD*/ = ~Mais toi et Haer'Dalis êtes ensemble et cela semble très bien se passer... Surtout au lit.~
 @648 /*Dorn - si romance CN*/ = ~Les choses se passent souvent bien pendant un temps. Cela ne signifie pas que cela finira autrement.~
-@6480 /*Dorn - si romance HD*/ = ~Les choses se passent souvent bien pendant un temps. Cela ne signifie pas que notre relation ne se terminera pas dans un bain de sang... même si je pourrais souhaiter que ce ne soit pas le cas.~
+//@6480 /*Dorn - si romance HD*/ = ~Les choses se passent souvent bien pendant un temps. Cela ne signifie pas que notre relation ne se terminera pas dans un bain de sang... même si je pourrais souhaiter que ce ne soit pas le cas.~
 @649 /*Clara*/ = ~Tu sais, Dorn, pour un psychopathe meurtrier, tu es vraiment mélancolique et déprimant.~
 @650 /*Dorn*/ = ~Et pour une tricheuse et menteuse à deux sous, tu es étonnamment fouineuse. Maintenant, laisse-moi tranquille.~
 
