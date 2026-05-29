@@ -999,6 +999,7 @@ LAF HANDLE_AUDIO
     sox_path = ~LivingClara/audio~ // Sox 音频处理工具路径 (可能未使用)
 END
 
+COPY_EXISTING ~PEASF208.WAV~ ~override/OH102440.WAV~
 
 BEGIN @158 /*Optional BG2 Style Portrait for Clara*/
 DESIGNATED 1 LABEL ~LivingClara-BG2_Style_Portrait~
