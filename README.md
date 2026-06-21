@@ -24,6 +24,22 @@ When facing Hexxat, Clara will no longer die. We've reworked the conclusion of H
 
 Clara is a Female Human Lawful Evil Thief. Though initially underpowered, she can rapidly level up through numerous interjections with party members, gaining various attribute and ability bonuses. She can also be directly summoned when starting a new *Throne of Bhaal* campaign.
 
+<details>
+<summary>Character Analysis</summary>
+
+"Clara was nobody. Raised on a farm, came to Athkatla to be an actress. Ended up working on her back until an old thief took pity on her and taught her the craft." Hexxat's assessment is precise and cruel: she is the most common disposable commodity in Athkatla, a farm girl who came dreaming of acting, ended up trading her body for survival, then trading theft for skill. But Hexxat was wrong about one thing—Clara was never nobody. She simply learned too early to run her own algorithms beneath the mask of nobody.
+
+She operates under the false name Caroline Louisa Audrey Rosanna Alexandra Silvershield, posing as a distant branch of the Silver Shield family to infiltrate noble circles. The name is a weapon, not vanity. Seven syllables stacked to create an auditory familiarity with aristocracy; the length itself makes the questioner feel rude, the rememberer feel honored, thereby establishing social debt in advance. She is not playing at nobility. She is using the density of the name to make the nobility too lazy to verify.
+
+Her character is survival-driven ruthlessness. Fawn over the strong and learn from them, ignore or exploit the weak, eliminate threats before they mature, seize opportunities without hesitation. No moral burden, no taste for ceremony, no lust for destruction or power for its own sake—only a continuously running cost-benefit calculation. Her sweetness is industrial product, her vulnerability meticulously calculated emotional labor. She remembers everyone's preferences, fears, and points of pride, delivering precisely calibrated affirmation at precisely calibrated moments, just enough to make the recipient feel seen.
+
+She excels at winning the affection of good-aligned companions, playing the lost soul, the grateful student, the fragile sister, making others willingly protect her, teach her, trust her. Good people need to believe in others; she provides the lowest-cost trust consumer goods available. Evil companions see through her at a glance, and she does not bother to hide, cutting straight to price and transaction, because she knows her own kind best recognizes the scent of their own.
+
+Her relationship with Anomen is built upon his failure path: two rejects of the system recognizing each other. She provides street wisdom and gray methods; he provides noble surname and formal legitimacy. Together they merge into a complete power unit. She needs no seat on the Council of Six. Holding real power from the shadows is safer, more flexible, more beyond accountability.
+
+She never learned sincerity, only optimization. Athkatla made her, and she became Athkatla's optimal solution.
+</details>
+
 ### 2. Dark Side Anomen
 If Anomen fails his knight trial and kills his father, he would normally be forced to leave the party permanently. This component adds content that can allow him to stay if he is in a romance. Furthermore, if Clara takes Charname's place as his romantic partner, Anomen may gain an unexpected benefit.
 
