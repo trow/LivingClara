@@ -58,7 +58,8 @@ THEN
 	// 强制玩家角色拾取队伍中的 "OHHBAG" 物品（确保它在物品栏中）。
 	ActionOverride(Player1,TakePartyItem("OHHBAG"))
 	// 强制将物品 "ohhcask" 转换为 "YF_cask2"（可能是一个封印状态的棺材）。
-	ActionOverride(Player1,TransformItem("ohhcask","YF_cask2"))
+	//ActionOverride(Player1,TransformItem("ohhcask","YF_cask2"))
+	ActionOverride(Player1,TransformItem("ohhcask2","ohhcask"))
 	// 设置标志，表示封印过程已完成。
 	SetGlobal("YF_HexxatDeadCasketTransform","GLOBAL",1)
 END

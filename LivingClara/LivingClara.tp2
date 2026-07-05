@@ -406,24 +406,24 @@ SAY DESC @69 /*Similar to the rare yet oft-discussed cursed Girdle of Masculinit
 //If you don't have to change text, you can just copy files en masse
 //New Items & Spells for Clara
 
-COPY ~LivingClara/items/YF_cask2.ITM~ ~override~
+//COPY ~LivingClara/items/YF_cask2.ITM~ ~override~
 
   	ACTION_IF !FILE_EXISTS ~luaAuto.cfg~ BEGIN
   		COPY ~LivingClara/items/luaAuto.cfg~ ~luaAuto.cfg~
   	END
 
-  	<<<<<<<< .../StoreItemYF_cask2Select.LUA
-local old = CScreenStore.SelectStoreItem
-CScreenStore.SelectStoreItem = function(self, nIndex, bSelected)
-    if store.storeItems[nIndex + 1].item.res == "YF_cask2" then return end
-    old(self, nIndex, bSelected)
-end
-	>>>>>>>>
-
-  	ACTION_IF !FILE_CONTAINS ~luaAuto.cfg~ ~"YF_cask2"~ BEGIN
-  		COPY_EXISTING ~luaAuto.cfg~ ~luaAuto.cfg~
-  		APPEND_FILE ~.../StoreItemYF_cask2Select.LUA~
-  	END
+//  	<<<<<<<< .../StoreItemYF_cask2Select.LUA
+//local old = CScreenStore.SelectStoreItem
+//CScreenStore.SelectStoreItem = function(self, nIndex, bSelected)
+//    if store.storeItems[nIndex + 1].item.res == "YF_cask2" then return end
+//    old(self, nIndex, bSelected)
+//end
+//	>>>>>>>>
+//
+//  	ACTION_IF !FILE_CONTAINS ~luaAuto.cfg~ ~"YF_cask2"~ BEGIN
+//  		COPY_EXISTING ~luaAuto.cfg~ ~luaAuto.cfg~
+//  		APPEND_FILE ~.../StoreItemYF_cask2Select.LUA~
+//  	END
   	
 	<<<<<<<< .../StoreItemOHHCASKSelect.LUA
 local old = CScreenStore.SelectStoreItem

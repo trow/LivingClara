@@ -13,8 +13,7 @@ THEN BEGIN woodpile0
 	SetGlobal("YF_HexxatBag","GLOBAL",2)
 	TakePartyItemNum("misc6w",1)
 	ActionOverride(Player1,TakePartyItem("OHHBAG"))
-	ActionOverride(Player1,TransformItem("ohhcask2","ohhcask"))
-	ActionOverride(Player1,TransformItem("YF_cask2","ohhcask"))
+	ActionOverride(Player1,TransformItem("ohhcask2","ohhcask"))	//ActionOverride(Player1,TransformItem("YF_cask2","ohhcask"))
 	SetGlobal("YF_ClaraLives","GLOBAL",0)~ EXIT	//使用木桩。
 	IF ~PartyHasItem("MISC6W")~ THEN REPLY @12 DO ~~ EXIT	//暂时不使用木桩。
 	IF ~!PartyHasItem("MISC6W")~ THEN REPLY @13	DO ~~ EXIT	//找到木桩再回来。
