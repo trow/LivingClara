@@ -46,6 +46,11 @@ If Anomen fails his knight trial and kills his father, he would normally be forc
 ## Note
 When encountering "Hexxat" at the Copper Coronet, the party can decline the whole thing through dialogue and never bother with it at all, or can temporarily decline and later, if desired, initiate contact and dialogue with "Hexxat" again and agree to take her to the tomb. This is identical to the original game's Hexxat quest. This must occur before Chapter 4 and will be unavailable after that time marker. So, either do it or don't by then.
 
+<details>
+<summary>Additional info</summary>
+To prevent the Cloak of Dragomir and Dragomir's Respite from going to waste after Clara joins the party, as a byproduct of the work to split this mod from ATM, Bodhi's NPC companion component has been extracted into a standalone mod here: https://github.com/trow/BodhiNPC/. Once Bodhi joins the party, she will be able to make use of the Cloak of Dragomir and Dragomir's Respite.
+</details>
+
 ## Compatibility, Installation & Known Issue
 
 **Compatibility Notes:**
