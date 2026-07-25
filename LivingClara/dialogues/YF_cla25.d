@@ -14,23 +14,23 @@ SAY @1 /*<CHARNAME>, what are you doing here? For that matter, what am *I* doing
 	
 	IF ~~ THEN YF_cs2
 	SAY @6 /*You say that like it's supposed to make sense, <CHARNAME>, but I know that I'll find out what you mean eventually. Let's get going.*/ 
-	IF ~~ THEN DO ~SetGlobal("YF_clarajoinedTOB","GLOBAL",1) JoinParty()~ EXIT
+	IF ~~ THEN DO ~SetGlobal("YF_clarajoinedTOB","GLOBAL",1) SetGlobal("YF_ClaraOHHbag","GLOBAL",1) SetGlobal("YF_ClaraOHHRod","GLOBAL",1) JoinParty()~ EXIT
 	END
 
 	IF ~~ THEN YF_cs3
 	SAY @7 /*Direct and to the point as ever, <CHARNAME>, but that's why I like you. Let's go!*/ 
-	IF ~~ THEN DO ~SetGlobal("YF_clarajoinedTOB","GLOBAL",1) JoinParty()~ EXIT
+	IF ~~ THEN DO ~SetGlobal("YF_clarajoinedTOB","GLOBAL",1) SetGlobal("YF_ClaraOHHbag","GLOBAL",1) SetGlobal("YF_ClaraOHHRod","GLOBAL",1) JoinParty()~ EXIT
 	END
 
 	IF ~~ THEN YF_cs4
 	SAY @8 /*Aww, that's sweet, <CHARNAME>. I enjoy your company as well. Onward then!*/ 
-	IF ~~ THEN DO ~SetGlobal("YF_clarajoinedTOB","GLOBAL",1) JoinParty()~ EXIT
+	IF ~~ THEN DO ~SetGlobal("YF_clarajoinedTOB","GLOBAL",1) SetGlobal("YF_ClaraOHHbag","GLOBAL",1) SetGlobal("YF_ClaraOHHRod","GLOBAL",1) JoinParty()~ EXIT
 	END
 
 	IF ~~ THEN YF_cs5
 	SAY @9 /*You're just going to leave me here? That's not very nice.*/ 
 	= @10 /*But I guess I'll wait. It doesn't look like I have much other choice.*/
-	IF ~~ THEN DO ~MoveToPointNoInterrupt([1702.1755]) Face(0)~ EXIT // This is where she'll wait for PC in the Pocket Plane.
+	IF ~~ THEN DO ~MoveToPointNoInterrupt([1702.1755]) SetGlobal("YF_ClaraOHHbag","GLOBAL",1) SetGlobal("YF_ClaraOHHRod","GLOBAL",1) Face(0)~ EXIT // This is where she'll wait for PC in the Pocket Plane.
 	END
 END
 

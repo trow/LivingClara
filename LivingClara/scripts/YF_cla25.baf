@@ -293,6 +293,28 @@ THEN
 	XEquipItem("YF_Rng45","YF_Clara",SLOT_RING_LEFT,EQUIP)
 	SetGlobal("YF_ClaraRingTOB","GLOBAL",2)
 END
+//Give Clara ohhbag if party hasn't
+IF
+	Global("YF_ClaraOHHbag","GLOBAL",1)
+	!PartyHasItem("ohhbag")
+	InParty("YF_Clara")
+THEN
+	RESPONSE #100
+	GiveItemCreate("ohhbag","YF_Clara",0,0,0)
+	SetGlobal("YF_ClaraOHHbag","GLOBAL",2)
+END
+//Give Clara ohhrod if party hasn't
+IF
+	Global("YF_ClaraOHHRod","GLOBAL",1)
+	!PartyHasItem("ohhrod")
+	PartyHasItem("YF_Rng45")
+	InParty("YF_Clara")
+THEN
+	RESPONSE #100
+	GiveItemCreate("ohhrod","YF_Clara",0,0,0)
+	GiveItemCreate("dwdust","YF_Clara",0,0,0)
+	SetGlobal("YF_ClaraOHHRod","GLOBAL",2)
+END
 
 //Clara wears sex change belt
 IF
