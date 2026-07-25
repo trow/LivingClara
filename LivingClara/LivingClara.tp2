@@ -426,6 +426,7 @@ SAY DESC @69 /*Similar to the rare yet oft-discussed cursed Girdle of Masculinit
 //  	END
   	
 	<<<<<<<< .../StoreItemOHHCASKSelect.LUA
+
 local old = CScreenStore.SelectStoreItem
 CScreenStore.SelectStoreItem = function(self, nIndex, bSelected)
     if store.storeItems[nIndex + 1].item.res == "OHHCASK" then return end
@@ -439,6 +440,7 @@ end
   	END
 	
 	<<<<<<<< .../StoreItemOHHCASK2Select.LUA
+
 local old = CScreenStore.SelectStoreItem
 CScreenStore.SelectStoreItem = function(self, nIndex, bSelected)
     if store.storeItems[nIndex + 1].item.res == "OHHCASK2" then return end
