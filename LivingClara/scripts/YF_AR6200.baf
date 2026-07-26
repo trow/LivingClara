@@ -108,35 +108,35 @@ RESPONSE #100
 	SmallWait(1)
 	Continue()
 END
-//New Anomen Epilogue if Darkside CN relationship & CN not god
-IF
-	Global("StartEndBios","AR6200",1)
-	InParty("Anomen")  // Anomen
-	Global("YF_DarksideAnomen","GLOBAL",2)
-	Global("AnomenRomanceActive","GLOBAL",2)
-	Global("PlayerChoseEssence","GLOBAL",0)
-	Global("YF_AnomenBio","GLOBAL",0)
-THEN
-RESPONSE #100
-	SetGlobal("YF_AnomenBio","GLOBAL",1)
-	TextScreen("YF_Ano02")
-	SmallWait(1)
-	Continue()
-END
-
-//New Anomen Epilogue if Darkside CN & CN chose god
-IF
-	Global("StartEndBios","AR6200",1)
-	InParty("Anomen")  // Anomen
-	Global("AnomenRomanceActive","GLOBAL",2)
-	Global("YF_DarksideAnomen","GLOBAL",2)
-	Global("PlayerChoseEssence","GLOBAL",1)
-	Global("YF_AnomenBio","GLOBAL",0)
-THEN
-	RESPONSE #100
-	SetGlobal("YF_AnomenBio","GLOBAL",1)
-	TextScreen("YF_Ano03")
-	SmallWait(1)
-	Continue()
-END
+////New Anomen Epilogue if Darkside CN relationship & CN not god
+//IF
+//	Global("StartEndBios","AR6200",1)
+//	InParty("Anomen")  // Anomen
+//	Global("YF_DarksideAnomen","GLOBAL",2)
+//	Global("AnomenRomanceActive","GLOBAL",2)
+//	Global("PlayerChoseEssence","GLOBAL",0)
+//	Global("YF_AnomenBio","GLOBAL",0)
+//THEN
+//RESPONSE #100
+//	SetGlobal("YF_AnomenBio","GLOBAL",1)
+//	TextScreen("YF_Ano02")
+//	SmallWait(1)
+//	Continue()
+//END
+//
+////New Anomen Epilogue if Darkside CN & CN chose god
+//IF
+//	Global("StartEndBios","AR6200",1)
+//	InParty("Anomen")  // Anomen
+//	Global("AnomenRomanceActive","GLOBAL",2)
+//	Global("YF_DarksideAnomen","GLOBAL",2)
+//	Global("PlayerChoseEssence","GLOBAL",1)
+//	Global("YF_AnomenBio","GLOBAL",0)
+//THEN
+//	RESPONSE #100
+//	SetGlobal("YF_AnomenBio","GLOBAL",1)
+//	TextScreen("YF_Ano03")
+//	SmallWait(1)
+//	Continue()
+//END
 

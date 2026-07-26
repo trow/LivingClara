@@ -724,109 +724,109 @@ THEN
 END
 	
 	
-//Code for post Cor love talks w/ CN
-IF
-	InParty("Anomen")
-	Global("YF_DarksideAnomen","GLOBAL",2)
-	Global("AnomenRomanceActive","GLOBAL",2)
-	OR(2)
-	Global("YF_CNAnomenLove","GLOBAL",0)
-	Global("YF_CNAnomenLove","GLOBAL",3)
-THEN 
-	RESPONSE #100
-	SetGlobalTimer("YF_CNAnoTimer","GLOBAL",TWO_DAYS)
-	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
-END
-
-IF	
-	IfValidForPartyDialog("Anomen")
-	GlobalTimerExpired("YF_CNAnoTimer","GLOBAL")
-	OR(2)
-	Global("YF_CNAnomenLove","GLOBAL",1)
-	Global("YF_CNAnomenLove","GLOBAL",4)
-	CombatCounter(0)
-THEN 
-	RESPONSE #100
-	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
-END
-
-IF
-	IfValidForPartyDialog("Anomen")
-	OR(2)
-	Global("YF_CNAnomenLove","GLOBAL",2)
-	Global("YF_CNAnomenLove","GLOBAL",5)
-	CombatCounter(0)
-THEN
-	RESPONSE #100
-	PlaySong(%YF_Gymn%)
-	StartDialogNoSet(Player1)
-END
-
-//CN-Anomen Talk after name cleared
-IF
-	InParty("Anomen")
-	Global("YF_AnomenClearsName","GLOBAL",5)
-	Global("YF_CNAnomenLove","GLOBAL",6)
-THEN 
-	RESPONSE #100
-	SetGlobalTimer("YF_CACouncilTalk","GLOBAL",EIGHT_HOURS)
-	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
-END
-
-IF	
-	IfValidForPartyDialog("Anomen")
-	GlobalTimerExpired("YF_CACouncilTalk","GLOBAL")
-	Global("YF_CNAnomenLove","GLOBAL",7)
-	Global("AnomenRomanceActive","GLOBAL",2)
-	CombatCounter(0)
-THEN 
-	RESPONSE #100
-	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
-END
-
-IF
-	IfValidForPartyDialog("Anomen")
-	Global("YF_CNAnomenLove","GLOBAL",8)
-	Global("AnomenRomanceActive","GLOBAL",2)
-	CombatCounter(0)
-THEN
-	RESPONSE #100
-	PlaySong(%YF_Gymn%)
-	StartDialogNoSet(Player1)
-END
-
-//CN-Anomen Talk after talk with Jysstev
-IF
-	InParty("Anomen")
-	Global("YF_CouncilSixTalk","GLOBAL",4)
-	Global("YF_CNAnomenLove","GLOBAL",9)
-THEN 
-	RESPONSE #100
-	SetGlobalTimer("YF_CASeatTalk","GLOBAL",TWO_HOURS)
-	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
-END
-
-IF	
-	IfValidForPartyDialog("Anomen")
-	GlobalTimerExpired("YF_CASeatTalk","GLOBAL")
-	Global("AnomenRomanceActive","GLOBAL",2)
-	Global("YF_CNAnomenLove","GLOBAL",10)
-	CombatCounter(0)
-THEN 
-	RESPONSE #100
-	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
-END
-
-IF
-	IfValidForPartyDialog("Anomen")
-	Global("YF_CNAnomenLove","GLOBAL",11)
-	Global("AnomenRomanceActive","GLOBAL",2)
-	CombatCounter(0)
-THEN
-	RESPONSE #100
-	PlaySong(%YF_Gymn%)
-	StartDialogNoSet(Player1)
-END
+////Code for post Cor love talks w/ CN
+//IF
+//	InParty("Anomen")
+//	Global("YF_DarksideAnomen","GLOBAL",2)
+//	Global("AnomenRomanceActive","GLOBAL",2)
+//	OR(2)
+//	Global("YF_CNAnomenLove","GLOBAL",0)
+//	Global("YF_CNAnomenLove","GLOBAL",3)
+//THEN 
+//	RESPONSE #100
+//	SetGlobalTimer("YF_CNAnoTimer","GLOBAL",TWO_DAYS)
+//	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
+//END
+//
+//IF	
+//	IfValidForPartyDialog("Anomen")
+//	GlobalTimerExpired("YF_CNAnoTimer","GLOBAL")
+//	OR(2)
+//	Global("YF_CNAnomenLove","GLOBAL",1)
+//	Global("YF_CNAnomenLove","GLOBAL",4)
+//	CombatCounter(0)
+//THEN 
+//	RESPONSE #100
+//	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
+//END
+//
+//IF
+//	IfValidForPartyDialog("Anomen")
+//	OR(2)
+//	Global("YF_CNAnomenLove","GLOBAL",2)
+//	Global("YF_CNAnomenLove","GLOBAL",5)
+//	CombatCounter(0)
+//THEN
+//	RESPONSE #100
+//	PlaySong(%YF_Gymn%)
+//	StartDialogNoSet(Player1)
+//END
+//
+////CN-Anomen Talk after name cleared
+//IF
+//	InParty("Anomen")
+//	Global("YF_AnomenClearsName","GLOBAL",5)
+//	Global("YF_CNAnomenLove","GLOBAL",6)
+//THEN 
+//	RESPONSE #100
+//	SetGlobalTimer("YF_CACouncilTalk","GLOBAL",EIGHT_HOURS)
+//	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
+//END
+//
+//IF	
+//	IfValidForPartyDialog("Anomen")
+//	GlobalTimerExpired("YF_CACouncilTalk","GLOBAL")
+//	Global("YF_CNAnomenLove","GLOBAL",7)
+//	Global("AnomenRomanceActive","GLOBAL",2)
+//	CombatCounter(0)
+//THEN 
+//	RESPONSE #100
+//	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
+//END
+//
+//IF
+//	IfValidForPartyDialog("Anomen")
+//	Global("YF_CNAnomenLove","GLOBAL",8)
+//	Global("AnomenRomanceActive","GLOBAL",2)
+//	CombatCounter(0)
+//THEN
+//	RESPONSE #100
+//	PlaySong(%YF_Gymn%)
+//	StartDialogNoSet(Player1)
+//END
+//
+////CN-Anomen Talk after talk with Jysstev
+//IF
+//	InParty("Anomen")
+//	Global("YF_CouncilSixTalk","GLOBAL",4)
+//	Global("YF_CNAnomenLove","GLOBAL",9)
+//THEN 
+//	RESPONSE #100
+//	SetGlobalTimer("YF_CASeatTalk","GLOBAL",TWO_HOURS)
+//	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
+//END
+//
+//IF	
+//	IfValidForPartyDialog("Anomen")
+//	GlobalTimerExpired("YF_CASeatTalk","GLOBAL")
+//	Global("AnomenRomanceActive","GLOBAL",2)
+//	Global("YF_CNAnomenLove","GLOBAL",10)
+//	CombatCounter(0)
+//THEN 
+//	RESPONSE #100
+//	IncrementGlobal("YF_CNAnomenLove","GLOBAL",1)
+//END
+//
+//IF
+//	IfValidForPartyDialog("Anomen")
+//	Global("YF_CNAnomenLove","GLOBAL",11)
+//	Global("AnomenRomanceActive","GLOBAL",2)
+//	CombatCounter(0)
+//THEN
+//	RESPONSE #100
+//	PlaySong(%YF_Gymn%)
+//	StartDialogNoSet(Player1)
+//END
 
 //Windspear Hills Quest
 IF

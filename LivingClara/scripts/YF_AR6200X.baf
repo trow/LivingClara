@@ -13,13 +13,13 @@ RESPONSE #100
 	SetGlobal("AnomenBio","GLOBAL",3)
 END
 
-IF
-	Global("StartEndBios","AR6200",1)
-	InParty("Anomen")  // Anomen
-	Global("YF_DarksideAnomen","GLOBAL",2)
-	Global("AnomenRomanceActive","GLOBAL",2) //Anomen CN Romance
-	Global("AnomenBio","GLOBAL",0)
-THEN
-RESPONSE #100
-	SetGlobal("AnomenBio","GLOBAL",3)
-END
+//IF
+//	Global("StartEndBios","AR6200",1)
+//	InParty("Anomen")  // Anomen
+//	Global("YF_DarksideAnomen","GLOBAL",2)
+//	Global("AnomenRomanceActive","GLOBAL",2) //Anomen CN Romance
+//	Global("AnomenBio","GLOBAL",0)
+//THEN
+//RESPONSE #100
+//	SetGlobal("AnomenBio","GLOBAL",3)
+//END
