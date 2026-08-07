@@ -41,7 +41,7 @@ She never learned sincerity, only optimization. Athkatla made her, and she becam
 </details>
 
 ### 2. Dark Side Anomen
-If Anomen fails his knight trial and kills his father, he would normally be forced to leave the party permanently. This component adds content that can allow him to stay if he is in a romance. Furthermore, if Clara takes Charname's place as his romantic partner, Anomen may gain an unexpected benefit.
+If Anomen fails his knight trial and kills his father, he would normally be forced to leave the party permanently. However, this component allows him to remain if he enters a committed romance with Clara. Additionally, Anomen's career may take an unexpected turn.
 
 ## Note
 When encountering "Hexxat" at the Copper Coronet, the party can decline the whole thing through dialogue and never bother with it at all, or can temporarily decline and later, if desired, initiate contact and dialogue with "Hexxat" again and agree to take her to the tomb. This is identical to the original game's Hexxat quest. This must occur before Chapter 4 and will be unavailable after that time marker. So, either do it or don't by then.
@@ -69,6 +69,9 @@ To prevent the Cloak of Dragomir and Dragomir's Respite from going to waste afte
 
 **Known Issue:**
 - In the scene where Clara assists Anomen in patricide, if Clara is chunked death, she will not be resurrected correctly. If you encounter this issue, please reload a previous save and replay this scene.
+
+**On Multilingual Translation**
+- As my native language is Chinese, all other languages have been translated with the assistance of AI. If you encounter any text-related issues while playing, please do not hesitate to let me know. Contributions and help with translations into other languages are greatly appreciated.
 
 ## Credits
 
