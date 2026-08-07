@@ -112,28 +112,28 @@
 //2nd Viconia Banter - actually triggered
 @98 /*Clara*/ = ~D'accord, donc je mélange le bleu avec le vert.~
 @99 /*Viconia*/ = ~Bien. Maintenant... verse ça soigneusement dans la cruche.~
-@100 /*Clara*/ = ~Versé. Et maintenant ? Et pourquoi es-tu plus loin ?~
-@101 /*Viconia*/ = ~Maintenant tu as fini. C'est l'une des premières potions que j'ai appris à faire. La solution résultante est extrêmement toxique et enseigne le respect et l'attention portée au processus.~
-@102 /*Viconia*/ = ~Tu as été un peu négligente et la goutte qui a éclaboussé la peau de ton cou va te tuer.~
+@100 /*Clara*/ = ~Versé. Et maintenant ? Et pourquoi es-tu si loin ?~
+@101 /*Viconia*/ = ~Ta tâche est accomplie. C'est l'une des premières potions que j'ai apprises à préparer. La solution résultante est extrêmement toxique ; elle enseigne le respect et la prudence pour l'ensemble du processus.~
+@102 /*Viconia*/ = ~Tu as été un peu négligente, et la goutte qui a éclaboussé la peau de ton cou suffit à te tuer.~
 @103 /*Clara*/ = ~Quoi ? Comment l'arrêter ? Aide-moi ! S'il te plaît !~
-@104 /*Viconia*/ = ~Encore de l'aide ? Tu es une enfant exigeante. Très bien, dis-moi un secret, et dis-moi la vérité.~
+@104 /*Viconia*/ = ~Encore de l'aide ? Tu es une enfant insatiable. Très bien, dis-moi un secret, et dis-moi la vérité.~
 @105 /*Clara*/ = ~Un secret ? De quoi parles-tu ?~
 @106 /*Viconia*/ = ~Un secret, c'est quelque chose que personne d'autre ne sait. Dépêche-toi maintenant ; tu n'as pas beaucoup de temps.~
-@107 /*Clara*/ = ~Mon père a été cousu dans une peau de cerf et traqué avec des chiens.~
-@108 /*Viconia*/ = ~Beaucoup de gens doivent savoir ça.~
-@109 /*Clara*/ = ~Tous ceux qui le savent sont morts. J'en ai tué la plupart.~
+@107 /*Clara*/ = ~J'ai dénoncé une fille de ma ville natale dans la prison de Porte de Baldur. Elle a pris tout le blâme pour moi.~
+@108 /*Viconia*/ = ~Ce genre de chose n'est pas rare en prison.~
+@109 /*Clara*/ = ~Mais personne ne sait que j'ai planté les preuves moi-même.~
 @110 /*Viconia*/ = ~Comment ?~
-@111 /*Clara*/ = ~Je leur ai servi de la nourriture et du vin empoisonnés.~
-@112 /*Clara*/ = ~Tu as ton secret. Ne me laisse pas mourir.~
-@113 /*Viconia*/ = ~Les as-tu regardés mourir ?~
-@114 /*Clara*/ = ~Oui.~
-@115 /*Viconia*/ = ~Quelqu'un d'autre est-il mort aussi ?~
-@116 /*Clara*/ = ~Pas beaucoup de gens. Juste six ou sept, quatre chats et deux chiens.~
+@111 /*Clara*/ = ~J'ai volé ses affaires dès le début et je les ai cachées dans le butin.~
+@112 /*Clara*/ = ~Je t'ai dit le secret. Ne me laisse pas mourir.~
+@113 /*Viconia*/ = ~Qu'est-il arrivé à cette fille ?~
+@114 /*Clara*/ = ~Je ne sais pas.~
+@115 /*Viconia*/ = ~Tu ne sais pas ?~
+@116 /*Clara*/ = ~Peut-être qu'elle a été pendue ? Peut-être vendue à des marchands d'esclaves ? Je ne sais vraiment pas.~
 @117 /*Clara*/ = ~Maintenant, s'il te plaît, sauve-moi...~
-@118 /*Viconia*/ = ~Tu as compté les morts ?~
-@119 /*Clara*/ = ~Avant de fuir, oui.~
+@118 /*Viconia*/ = ~Es-tu allée la chercher plus tard ?~
+@119 /*Clara*/ = ~Je ne suis jamais revenue après avoir fui Porte de Baldur.~
 @120 /*Clara*/ = ~Ça fait si mal... Je vais mourir, n'est-ce pas ?~
-@121 /*Viconia*/ = ~Oui, mais ne t'inquiète pas. Je tiens mes promesses.~
+@121 /*Viconia*/ = ~Oui, mais ne t'inquiète pas. Je tiens toujours mes promesses.~
 @122 /*Viconia*/ = ~<CHARNAME>, il semble que notre petite coupe-bourse ait expiré. Nous devrions la ressusciter.~
 
 //On Raise

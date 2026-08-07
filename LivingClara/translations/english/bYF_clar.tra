@@ -112,28 +112,28 @@
 //2nd Viconia Banter - actually triggered
 @98 /*Clara*/ = ~Okay, so I mix the blue with the green.~
 @99 /*Viconia*/ = ~Good. Now... carefully pour that into the pitcher.~
-@100 /*Clara*/ = ~Poured. Now what? And why are you farther away?~
-@101 /*Viconia*/ = ~Now you are done. This is one of the first potions I learned to make. The resulting solution is extremely poisonous and teaches respect and care for the process.~
-@102 /*Viconia*/ = ~You were a little careless and the drop that splashed on the skin of your neck will kill you.~
-@103 /*Clara*/ = ~What? How do I stop it? Help me! Please!~
-@104 /*Viconia*/ = ~More help? You are a demanding child. Very well, tell me a secret, and tell me the truth.~
+@100 /*Clara*/ = ~Poured. Now what? And why are you standing so far away?~
+@101 /*Viconia*/ = ~Now your task is done. This is one of the first potions I learned to make. The resulting solution is extremely poisonous; it teaches respect and care for the entire process.~
+@102 /*Viconia*/ = ~You were a little careless. The drop that splashed on the skin of your neck is enough to kill you.~
+@103 /*Clara*/ = ~What? How do I cure it? Help me! Please!~
+@104 /*Viconia*/ = ~More help? You are an insatiable child. Very well, tell me a secret, and tell me the truth.~
 @105 /*Clara*/ = ~A secret? What are you talking about?~
 @106 /*Viconia*/ = ~A secret is something that no one else knows. Hurry now; you do not have much time.~
-@107 /*Clara*/ = ~My father was sewn into a deer skin and hunted down with dogs.~
-@108 /*Viconia*/ = ~Many people must know that.~
-@109 /*Clara*/ = ~Everyone who knows it is dead. I killed most of them.~
-@110 /*Viconia*/ = ~How?~
-@111 /*Clara*/ = ~I served them poisoned food and wine.~
-@112 /*Clara*/ = ~You have your secret. Don't let me die.~
-@113 /*Viconia*/ = ~Did you watch them die?~
-@114 /*Clara*/ = ~Yes.~
-@115 /*Viconia*/ = ~Did anyone else die too?~
-@116 /*Clara*/ = ~Not many people. Just six or seven, four cats, and two dogs.~
+@107 /*Clara*/ = ~I sold out a girl from my hometown in the Baldur's Gate prison. She took all the blame for me.~
+@108 /*Viconia*/ = ~That sort of thing is not uncommon in prison.~
+@109 /*Clara*/ = ~But no one knows I planted the evidence myself.~
+@110 /*Viconia*/ = ~How did you do it?~
+@111 /*Clara*/ = ~I stole her things from the very beginning and hid them among the stolen goods.~
+@112 /*Clara*/ = ~I've told you the secret. Don't let me die.~
+@113 /*Viconia*/ = ~What happened to that girl?~
+@114 /*Clara*/ = ~I don't know.~
+@115 /*Viconia*/ = ~You don't know?~
+@116 /*Clara*/ = ~Maybe she was hanged? Maybe sold to slavers? I really don't know.~
 @117 /*Clara*/ = ~Now please save me...~
-@118 /*Viconia*/ = ~You counted the dead?~
-@119 /*Clara*/ = ~Before I fled, yes.~
+@118 /*Viconia*/ = ~Did you ever go look for her afterward?~
+@119 /*Clara*/ = ~I never went back after I fled from Baldur's Gate.~
 @120 /*Clara*/ = ~It hurts so much... I am going to die, aren't I?~
-@121 /*Viconia*/ = ~Yes, but don't worry. I keep my promises.~
+@121 /*Viconia*/ = ~Yes, but don't worry. I always keep my promises.~
 @122 /*Viconia*/ = ~<CHARNAME>, it seems our little cut-purse has expired. We should raise her.~
 
 //On Raise
