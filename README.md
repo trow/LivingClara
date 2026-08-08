@@ -71,7 +71,7 @@ To prevent the Cloak of Dragomir and Dragomir's Respite from going to waste afte
 - In the scene where Clara assists Anomen in patricide, if Clara is chunked death, she will not be resurrected correctly. If you encounter this issue, please reload a previous save and replay this scene.
 
 **On Multilingual Translation**
-- As my native language is Chinese, all other languages have been translated with the assistance of AI. If you encounter any text-related issues while playing, please do not hesitate to let me know. Contributions and help with translations into other languages are greatly appreciated.
+- Since Chinese is my native language, all translations into other languages were done with AI assistance. If you notice any text issues while playing, please feel free to report them. Pull requests for translations in other languages are warmly welcome!
 
 ## Credits
 
