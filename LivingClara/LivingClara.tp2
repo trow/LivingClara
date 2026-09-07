@@ -609,6 +609,43 @@ COPY_EXISTING ~oh7000.are~ ~override~
 // EVALUATE_BUFFER 同样用于处理脚本中的变量。
 EXTEND_BOTTOM ~OHHFAK.bcs~ ~LivingClara/scripts/YF_OHHFAKClara.baf~ EVALUATE_BUFFER
 
+//让克拉拉能够观礼阿诺门骑士评定
+COPY_EXISTING ~CUT11A.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~Face(NNW)~ ~Face(NNW)
+    END
+
+    IF
+        InParty("YF_Clara")
+		IfValidForPartyDialog("YF_Clara")
+		GlobalGT("YF_ACTestTalk","GLOBAL",5)
+    THEN
+        RESPONSE #100
+            CutSceneId("YF_Clara")
+            Wait(2)
+            JumpToPoint([1520.1290])
+            MoveViewPoint([1520.1290],INSTANT)
+			Face(NNW)~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~CUT11B.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+      REPLACE_TEXTUALLY ~1104~ ~1104])
+        FaceObject("hprelate")
+		END
+
+		IF
+			InParty("YF_Clara")
+			IfValidForPartyDialog("YF_Clara")
+			GlobalGT("YF_ACTestTalk","GLOBAL",5)
+		THEN
+			RESPONSE #100
+				CutSceneId("YF_Clara")
+				MoveViewPoint([1116.1041],BD_NORMAL)
+				MoveToPoint([1260.1110~
+  END
+  BUT_ONLY_IF_IT_CHANGES
 // ========== 模块 2: Living Clara NPC - EET 兼容性与跨 Mod 内容 ==========
 
 // ----- EET (Enhanced Edition Trilogy) 相关代码与召唤脚本 -----
