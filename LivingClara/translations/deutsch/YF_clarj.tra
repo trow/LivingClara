@@ -1,0 +1,48 @@
+//Renal Blutskalp und Clara
+@1 /*Renal*/ = ~Da bist du ja, Clara. Ich hatte schon angenommen, du wärst tot, denn Leute, die es wagen, ihre Zahlungen zu versäumen, sind es für gewöhnlich.~
+@2 /*Renal*/ = ~Ich nehme an, du hast irgendeine abwegige Erklärung dafür, warum du deine Beiträge nicht wie alle anderen pünktlich zahlen konntest?~
+@3 /*Clara*/ = ~Tatsächlich, mein Herr, die habe ich. Seht ihr, ich wurde von einem alten Vampir namens Hexxat besessen, der mich benutzte, um <CHARNAME> anzuwerben, um Dragomir zu töten, einen noch älteren Vampir, den sie nicht mochte. Wir töteten Dragomir, oder zumindest tat es <CHARNAME> ... ich war besessen, also kann ich nicht wirklich sagen, dass ich etwas getan habe ... und dann tötete Hexxat mich, also tötete <CHARNAME> sie, aber dann erweckte <CHARNAME> mich wieder, also ...~
+@4 /*Renal*/ = ~Hör auf. Hör einfach auf. Das ist mir egal. Du bist bei <CHARNAME>, und das ist alles an Erklärung, was ich brauche. Geh <PRO_HIMHER> bei <PRO_HISHER> Missionen helfen, und alles wird vergeben sein.~
+@5 /*Renal*/ = ~Was dich betrifft, <CHARNAME>, gute Arbeit, diese Vampire zu vernichten; es freut mich, von Zwist und internen Kämpfen in ihren Reihen zu hören. Es ist nicht nötig, dass du dich hier aufhältst; geh zurück und setze die gute Arbeit fort.~
+
+//Clara-Imoen-Gespräch 1
+@6 /*Clara*/ = ~Hallo.~
+@7 /*Imoen*/ = ~Oh, ich habe dich da nicht gesehen. Hi, ich bin Imoen. <CHARNAME> hat uns nicht vorgestellt.~
+@8 /*Imoen*/ = ~Du musst wirklich gut im Verstecken sein. Normalerweise sehe ich alle.~
+@9 /*Clara*/ = ~Ich habe eine Art, aus dem Gedächtnis zu verschwinden, wenn ich will; selbst die Leute, die nach mir suchen, vergessen oft, dass ich da bin.~
+@10 /*Clara*/ = ~Du bist also die Schwester, die wir so weit hergekommen sind, um zu retten.~
+@11 /*Clara*/ = ~Und das haben wir getan. Wir haben die Festung gestürmt und die Jungfrau gerettet.~
+@12 /*Clara*/ = ~Wir haben gewonnen. Jetzt leben wir glücklich bis ans Ende unserer Tage. Richtig?~
+@13 /*Imoen*/ = ~Genau! Sobald wir wieder in Athkatla sind.~
+@14 /*Imoen*/ = ~Du wirkst ein wenig niedergeschlagen. Versuchen wir es nochmal.~
+@15 /*Imoen*/ = ~Hi, ich bin Imoen. Mir wurde gerade meine Seele aus dem Körper gerissen. Was ist deine Geschichte?~
+@16 /*Clara*/ = ~Meine Familie wurde getötet, ein Vampir tötete mich, und dann rettete <CHARNAME> mich, also folge ich jetzt <PRO_HIMHER> und versuche, nicht furchtbar zu sterben.~
+@17 /*Clara*/ = ~So ziemlich normal, soweit ich das beurteilen kann.~
+@18 /*Imoen*/ = ~Ja, das ist im Grunde jedermanns Geschichte. Wir sind eine Gruppe von Verlorenen und Einsamen.~
+@19 /*Imoen*/ = ~Komm schon, Kopf hoch. Wir haben noch eine Runde "Versuche-nicht-furchtbar-zu-sterben" vor uns.~
+
+//Clara-Viconia-Giftszene
+@20 /*Clara*/ = ~Trautes Heim, Glück allein. Der Geruch dieser Kneipe weckt immer Erinnerungen.~
+@21 /*Drunk1*/ = ~Guck dir das süße Ding an. 'Ey, Mädchen! Komm her *rülps* und gib uns 'n Küsschen.~
+@22 /*Drunk2*/ = ~Nun, Garoll, mein *hic* Freund ... behalt sie nicht alle für dich.~
+@23 /*Drunk2*/ = ~'Ey, süße Titten, ich will auch 'n Küsschen!~
+@24 /*Clara*/ = ~Die da?~
+@25 /*Viconia*/ = ~Es sind betrunkene Männer. Die Welt wird betrunkene Männer niemals, niemals vermissen.~
+@26 /*Clara*/ = ~Na gut. Dann sieh mir zu. Du wirst nichts sehen.~
+@27 /*Clara*/ = ~Garoll, war es? Du bist so ein starker, hübscher Mann. Natürlich gebe ich dir ein Küsschen. Da. Eines für deinen Scheitel. Ohh, fühl deinen Arm, du bist so stark.~
+@28 /*Clara*/ = ~Und eines für deinen Freund. Oooh, der ist auch stark.~
+@29 /*Clara*/ = ~Jetzt setzt ihr zwei Jungs euch genau hier hin, während ich mit meiner Freundin da drüben rede. Wir müssen uns auffrischen, aber wir sehen euch bald wieder.~
+@30 /*Viconia*/ = ~Bist du endlich fertig? Mir wird schon vom Zuhören schlecht.~
+@31 /*Clara*/ = ~Und wohin jetzt?~
+@32 /*Viconia*/ = ~Jetzt warten wir und sehen zu, wie sie sterben.~
+@33 /*Clara*/ = ~Was machen wir also, während wir warten?~
+@34 /*Clara*/ = ~Ich weiß! Lass uns ein Spiel spielen! Siehst du, es heißt das Lügenspiel, und ...~
+@35 /*Viconia*/ = ~Ich spiele keine Spiele.~
+@36 /*Clara*/ = ~Aber es macht Spaß. Siehst du, zuerst ...~
+@37 /*Viconia*/ = ~Pssst.~
+@38 /*Clara*/ = ~Du machst überhaupt keinen Spaß.~
+@39 /*Drunk1*/ = ~*hic* Mir ist nicht so gut.~
+@40 /*Drunk2*/ = ~*rülps* Garoll, geht's dir gut? Ohhhh.~
+@41 /*Viconia*/ = ~Das ging schneller, als ich erwartet hatte. Du hast mehr verwendet, als nötig war, um solche Schwächlinge zu vernichten.~
+@42 /*Clara*/ = ~Nur noch ein paar Betrunkene, die ihren Alkohol nicht vertragen konnten. Können wir jetzt gehen?~
+@43 /*Viconia*/ = ~Ja. Mein Tag ist schon ein wenig heller geworden.~

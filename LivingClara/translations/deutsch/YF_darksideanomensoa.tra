@@ -1,0 +1,31 @@
+//Anomen verwendet dritte CN-Zeile
+
+@0 /*Keldorn*/ = ~Ihr plant, einen Tempel des Strahlendsten Herzens anzugreifen, <CHARNAME>? Ihr wisst, dass ich das nicht hinnehmen kann.~
+@1 /*CHARNAME*/ = ~Keldorn, mein Freund, du musst dich entspannen. Erkennst du denn keinen Scherz, wenn du einen hörst?~
+@2 /*CHARNAME*/ = ~Entspann dich, Keldorn. Es war ein Plan, kaum mehr ... es war nur die erste winzige Ahnung eines Schemas, wenn nicht weniger, die bloße Skizze des Gedankens an die vage Möglichkeit einer Verschwörung. Also kommt dieser nicht zur Ausführung. Ich werde überleben. Ich habe andere.~
+@3 /*CHARNAME*/ = ~Du kannst das nicht hinnehmen? Dann kann ich dich nicht stehen lassen. Zieh deine Klinge!~
+
+//Nachdem Anomen die Prüfung nicht bestanden hat
+@4 /*CHARNAME*/ = ~Eines Tages, Anomen, aber noch nicht. Wir sind noch nicht stark genug, um zu siegen.~
+@5 /*Anomen*/ = ~*seufz* Du hast wie immer recht, <CHARNAME>. Lasst uns weiterziehen. Der Tag der Abrechnung mit dem Orden kann warten.~
+
+//Ein Einschub in die Quest des gefallenen Paladins
+@6 /*Anomen*/ = ~Es scheint, dass die erdrückenden Regeln des Ordens selbst ihre treuesten Handlanger brechen können.~
+
+//Nachdem Anomen die Prüfung mit Clara nicht bestanden hat
+//@7 /*Anomen*/ = ~Clara, meine Dame, ich lade Euch gleichermaßen ein, meiner Ritterernennung beizuwohnen. Mit Euch an meiner Seite werde ich den Mut haben, jedem Ausgang zu begegnen.~
+@8 /*Charname*/ = ~Beruhige dich ...~
+@9 /*Anomen*/ = ~Lasst mich in Ruhe! Ihr habt es auch gesehen! Sie beschützen diesen Abschaum, anstatt anzuerkennen, dass ich meine Schwester gerächt habe! Was ist das für eine Gerechtigkeit? Was ist das für eine Ordnung?~
+@10 /*Clara*/ = ~*tritt vor* Ich habe es gesehen. Ich habe einen Bruder gesehen, der für seine Schwester getan hat, was getan werden musste. Es war kein Verbrechen, Anomen. Es war Gerechtigkeit.~
+@11 /*Anomen*/ = ~Gerechtigkeit? Ha! Sie nannten mich einen Schurken! Sagten, ich sei des Vertrauens des Ordens unwürdig! Sie kümmern sich nicht um mich und noch weniger um Moira!~
+@12 /*Clara*/ = ~Weil sie blind sind. Sie sitzen in ihren Türmen und klammern sich an verschimmelte Vorschriften, längst vergessen, wozu diese Vorschriften einst geschrieben wurden. Du hast dich an Moira erinnert. Du hast ihre Blutschuld beglichen – das ist weitaus realer als ihre Siegel und Schärpen.~
+@13 /*Anomen*/ = ~*keucht* Ich ... ich wollte nur, dass sie ruhen kann. Die anderen hatten es auch verdient ... sie haben den Mörder gedeckt, sie waren genauso schuldig!~
+@14 /*Clara*/ = ~Natürlich. Das Böse zu decken, bedeutet, böse zu sein. Du hast lediglich das wahre Urteil vollstreckt – das Urteil, das sie nicht den Mut hatten zu fällen.~
+@15 /*Anomen*/ = ~Aber ... ich bin jetzt nichts. Ehrlos aus dem Orden verstoßen ... ich bin nichts.~
+@16 /*Clara*/ = ~Nein. Du hast noch dich selbst. Du hast noch den Namen Delryn. Du hast noch dein Schwert. *Pause* Und du hast noch Zeit.~
+@17 /*Anomen*/ = ~Zeit? Ha, ich werde nicht warten! Ich werde hineinstürmen und all jene niedermetzeln, die den Schuldigen gedeckt haben!~
+@18 /*Clara*/ = ~Hör zu. Wenn du jetzt hineinstürmst, beweist du ihnen nur, dass sie recht haben – dass du ein unkontrollierbarer Verrückter bist. Aber wenn du dich umdrehst, lebst und höher kletterst, als sie es je könnten ... eines Tages wirst du über ihnen sitzen und diese Vorschriften selbst verfassen. Wer würde es dann wagen, dich hinauszuwerfen?~
+@19 /*Anomen*/ = ~*langes Schweigen* ...Höher klettern.~
+@20 /*Clara*/ = ~Solange du lebst, ist alles möglich. Stirb hier, und du bist wirklich nur Müll. Geh lebend fort, und eines Tages werden sie knien und dich bitten, zurückzukehren.~
+@21 /*Anomen*/ = ~*tiefer Atemzug* ...Du hast recht. Ich kann hier nicht fallen. Ich werde es ihnen zeigen – ohne ihre Anerkennung ist Anomen Delryn immer noch Anomen Delryn. Eines Tages ... eines Tages werde ich zurückkehren, und sie werden bei der Erinnerung an diese Entscheidung erzittern.~
+@22 /*Clara*/ = ~*lächelt* Das ist der Anomen, den ich kenne. Komm. Lasst uns diesen verdammten Ort hinter uns lassen. Sie alle sehen zu.~

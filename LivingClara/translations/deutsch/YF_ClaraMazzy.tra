@@ -1,0 +1,93 @@
+//Mazzy-Clara-Gespräche
+//1. Gespräch
+@1 /*Mazzy*/ = ~Clara, bitte nimm mir das nicht übel, aber manchmal habe ich nicht das Gefühl, dass du an die Notwendigkeit tugendhaften Handelns glaubst.~
+@2 /*Mazzy*/ = ~Vielleicht tust du nur so, als ob du gut wärst, um uns zu gefallen?~
+@3 /*Clara*/ = ~Was? Nein, ihr seid alle Helden, und ich möchte auch ein Held sein!~
+@4 /*Clara*/ = ~Wir ziehen von Ort zu Ort, helfen den Leuten, und sie lieben uns dafür! Wir verdienen auch viel Geld!~
+@5 /*Clara*/ = ~Wer würde das nicht wollen?~
+@6 /*Mazzy*/ = ~Es ist ein gutes Leben, das gebe ich zu, aber manchmal muss man das Richtige tun, auch wenn man dafür nicht geliebt wird und keine Belohnung erhält.~
+@7 /*Clara*/ = ~Verstanden! Aber woher weiß ich, was das Richtige ist?~
+@8 /*Mazzy*/ = ~Die richtige Handlung ist die, die den meisten Menschen nützt und das geringste Leid verursacht.~
+@9 /*Mazzy*/ = ~Lass dich davon leiten, und du wirst ein ebenso tugendhafter Held sein wie jeder andere.~
+
+//2. Gespräch
+@10 /*Clara*/ = ~Also, Mazzy, du hast gesagt, dass die richtige Handlung die ist, die den meisten Menschen nützt, richtig?~
+@11 /*Mazzy*/ = ~Ja, das ist richtig.~
+@12 /*Clara*/ = ~Wenn also eine Gruppe von Menschen alles von einer einzigen Person nehmen will, wäre das tugendhaft, weil es mehr von ihnen gibt?~
+@13 /*Mazzy*/ = ~Nein, es ist nicht tugendhaft, sich zu nehmen, was anderen gehört.~
+@14 /*Clara*/ = ~Aber wir nehmen ständig Sachen von anderen; wir töten sie nur vorher.~
+@15 /*Mazzy*/ = ~Wir haben nur Menschen in Notwehr getötet, nachdem sie uns angegriffen haben.~
+@16 /*Clara*/ = ~Ja, aber sie haben nur angegriffen, weil wir in ihre Häuser eingedrungen sind. Wenn ein Haufen bewaffneter Verrückter in deine Stadt stürmt und in dein Haus einbricht, würdest du sie nicht angreifen?~
+@17 /*Mazzy*/ = ~Du sprichst von den Höhlen, Wäldern und Verliesen, die wir erforschen, und den Monstern, die wir dort töten? Sie sind böse.~
+@18 /*Clara*/ = ~Aber woher wissen wir, dass sie böse sind? Wir reden nie mit ihnen, und wir lassen sie nie in Ruhe, selbst wenn sie uns darum bitten.~
+@19 /*Clara*/ = ~Wir gehen, wohin wir wollen, töten, wen wir wollen, und nehmen, was wir wollen, weil wir stärker sind und sie schwächer. Wie ist das tugendhaft?~
+@20 /*Mazzy*/ = ~Ich hatte nicht erwartet, dass diese Diskussion so kompliziert wird.~
+@21 /*Clara*/ = ~Das liegt daran, dass du nie in Betracht ziehst, dass du dich irren könntest.~
+
+//3. Gespräch
+@22 /*Mazzy*/ = ~Clara, ich habe nachgedacht, und du könntest recht haben, was die moralische Mehrdeutigkeit unserer gewalttätigen Handlungen betrifft.~
+@23 /*Clara*/ = ~Das sind viele Worte, nur um zu sagen, dass ich recht habe.~
+@24 /*Mazzy*/ = ~*seufz* Na gut. Sag mir, Clara, was ist tugendhaft?~
+@25 /*Clara*/ = ~Tugendhaft ist, zu Hause zu bleiben und sich um seine eigenen Angelegenheiten zu kümmern.~
+@26 /*Mazzy*/ = ~Aber was ist mit all den Menschen, die unsere Hilfe brauchen?~
+@27 /*Clara*/ = ~Was ist mit ihnen? Die Hälfte der Zeit belügen sie uns. Sie sind zu schwach, um ihre eigenen Kämpfe auszufechten, also bitten sie uns, an ihrer Stelle zu kämpfen, weil wir stark und naiv sind.~
+@28 /*Clara*/ = ~Sie sagen: "Mein Bruder hat meinen Edelstein gestohlen", obwohl der Edelstein nie ihnen gehörte. Sie sagen: "Gnolle greifen meine Farm an", obwohl das Land ursprünglich den Gnollen gehörte.~
+@29 /*Clara*/ = ~Und dann gehen wir rein und töten alle, und sie sagen: "Oh, ihr seid so großartig, danke, ihr Helden! Behaltet das ganze Geld der Leute, die ihr getötet habt, als Belohnung!"~
+@30 /*Clara*/ = ~Die schwachen Lügner, denen wir helfen, bekommen, was sie wollen, wir nehmen keine Belohnung von den Lügnern an, weil das uns noch tugendhafter erscheinen lässt, aber wir werden trotzdem reich, weil wir die Toten plündern. Und das macht uns zu Helden.~
+@31 /*Clara*/ = ~Nun, Mazzy, sind wir das nicht! Wir sind genau wie all die anderen schrecklichen Menschen in dieser elenden Welt!~
+@32 /*Mazzy*/ = ~Ich... ich bin mir nicht sicher, was du von uns erwartest.~
+@33 /*Clara*/ = ~Ich weiß es nicht! Hör einfach auf, bei allem so selbstgerecht zu sein!~
+@34 /*Clara*/ = ~Du bist kein besserer Mensch als alle anderen; du bist nur besser im Töten als sie.~
+@35 /*Mazzy*/ = ~Und wenn ich gewinne und sie tot sind, darf ich mich Held nennen? Ist es das?~
+@36 /*Clara*/ = ~Ja. Jeder ist der Held seiner eigenen Geschichte.~
+@37 /*Mazzy*/ = ~Ich stimme dir nicht zu, Clara, aber... ich kann nicht genau sagen, welcher Teil deines Arguments falsch ist.~
+@38 /*Mazzy*/ = ~Also lasst uns unseren Weg fortsetzen.~
+
+//4. Gespräch
+@39 /*Mazzy*/ = ~Clara, du solltest deinen Körper nicht benutzen, um die Männer um dich herum zu manipulieren.~
+@40 /*Clara*/ = ~Schon wieder eine Predigt? Na gut, Mazzy, sag mir, wie ich mich in deiner perfekten Fantasiewelt verhalten soll.~
+@41 /*Mazzy*/ = ~Die körperliche Liebe ist eine wunderbare Erfahrung, an der zwei willige Teilnehmer beteiligt sind und die beiden Seiten Freude bereitet.~
+@42 /*Clara*/ = ~*lacht* Es tut mir leid, aber was in aller Welt...?~
+@43 /*Mazzy*/ = ~Wenn du jedoch einen Mann findest, der offensichtlich an dir interessiert ist, und so tust, als ob du sein Interesse erwiderst, ist das unfair ihm gegenüber und potenziell gefährlich.~
+@44 /*Clara*/ = ~Unfair IHM gegenüber? Potenziell gefährlich?~
+@45 /*Clara*/ = ~Männer haben mich den größten Teil meines Lebens begehrt. Es war ihnen egal, was ich wollte, und sie waren IMMER gefährlich.~
+@46 /*Clara*/ = ~Jetzt, nach Jahren und Jahren, habe ich endlich herausgefunden, wie ich diese unerwünschte Aufmerksamkeit zu meinem Vorteil nutzen kann, und du hältst mir Vorträge über Liebe und Fürsorge und gegenseitigen Respekt?~
+@47 /*Clara*/ = ~Was lässt dich glauben, dass ich jemals nur im Entferntesten damit in Berührung gekommen bin?~
+@48 /*Mazzy*/ = ~Nun... ich...~
+@49 /*Clara*/ = ~Du lebst in einem Märchenbuch, Mazzy. Wir anderen müssen hier leben, in der Realität.~
+@50 /*Clara*/ = ~Und in der realen Welt benutzen wir alle die Werkzeuge, die wir haben, um zu überleben.~
+
+//4A – Falls Cor geheiratet – optional
+@51 /*Mazzy*/ = ~Was ist mit Lord Cor Delryn? Du bist jetzt verheiratet, und er scheint sich um dich zu kümmern. Ihr müsst doch eine liebevolle körperliche Verbindung gehabt haben?~
+@52 /*Clara*/ = ~Hah! Cor kümmert sich nur darum, einen neuen Sohn und Erben in mich zu pflanzen.~
+@53 /*Clara*/ = ~Unsere Nächte drehen sich nie um mich; er könnte mich durch jeden beliebigen ersetzen.~
+
+//4B – Falls Anomen geheiratet – optional
+@54 /*Mazzy*/ = ~Was ist mit Anomen? Du bist jetzt verheiratet, und er scheint sich um dich zu kümmern. Ihr müsst doch eine liebevolle körperliche Verbindung gehabt haben?~
+@55 /*Clara*/ = ~Anomen ist in seine adlige Frau verliebt: Caroline Louisa Audrey Rosanna Alexandra Silberschild Delryn. Wenn ich Clara-die-Diebin oder Clara-die-Bäuerin wäre, würde er mich dann noch wollen? Wie wäre es mit Clara-der-Hure?~
+@56 /*Clara*/ = ~Ich habe eine Frau für ihn erschaffen, die er lieben kann, und wenn sie zusammen sind, verhält sie sich genau so, wie er es erwartet.~
+@57 /*Mazzy*/ = ~Aber *du* bist Caroline Louisa Audrey Rosanna Alexandra Silberschild Delryn. Du bist die Frau, in die er sich verliebt hat.~
+@58 /*Clara*/ = ~Hah, du hältst wirklich viel von einem Mann, der dich hasst. Schau mir in die Augen und sag mir ganz ehrlich, ob du wirklich glaubst, dass Anomen mich noch lieben würde, wenn ich niemand wäre.~
+@59 /*Mazzy*/ = ~Ach, na gut, du hast vollkommen recht. Aber wie kann dich jemand wirklich lieben, wenn du niemals zulässt, dass er sieht, wer du wirklich bist?~
+
+//5. Gespräch
+@60 /*Mazzy*/ = ~Clara, ich entschuldige mich für vorhin. Darf ich dir eine Geschichte erzählen?~
+@61 /*Clara*/ = ~Eine Geschichte?~
+@62 /*Mazzy*/ = ~Ja. Über mich.~
+@63 /*Clara*/ = ~Na gut. Aber wenn du wieder anfängst, mir zu sagen, wie ich mein Leben leben soll, bin ich weg.~
+@64 /*Mazzy*/ = ~Als ich eine junge Frau war, etwa in deinem Alter, lebte ich tatsächlich in einer perfekten Welt.~
+@65 /*Mazzy*/ = ~Meine Eltern waren liebevoll, ich hatte viele Freunde, ich hatte immer Unterkunft und Essen, und meine ... ähm ... intimen Beziehungen waren immer für beide Seiten befriedigend.~
+@66 /*Mazzy*/ = ~Ich wusste vage, dass es Böses auf der Welt gab, und ich hatte schon einige Verluste erlitten ... Der einzige Junge, mit dem ich geschlafen hatte, war ein paar Jahre zuvor von Banditen getötet worden.~
+@67 /*Mazzy*/ = ~Ich war entschlossen, die Welt zu einem besseren Ort zu machen, also zog ich in den Krieg; ein junges und idealistisches Halbling-Mädchen, umgeben von meist Menschen.~
+@68 /*Mazzy*/ = ~Ein paar ältere Soldatinnen nahmen mich unter ihre Fittiche. Sie beschützten mich, damit ich lernen konnte, wie ich mit anderen Soldaten umgehe und die Aufmerksamkeit der Männer sicher von mir ablenken kann.~
+@69 /*Mazzy*/ = ~Bis wir eine Stadt plünderten und meine Kameraden die Bewohner töteten, vergewaltigten und ausplünderten, während meine Freunde, die Frauen, zu denen ich aufsah, einen alten Mann folterten, um sein Gold zu finden.~
+@70 /*Clara*/ = ~Typisch. Und?~
+@71 /*Mazzy*/ = ~Und sie wollten nicht aufhören, also tötete ich sie ... Ich rettete den alten Mann und seine Enkelin.~
+@72 /*Clara*/ = ~Und so lernte die kleine Mazzy, dass die Welt furchtbar ist. Warum bist du dann immer so unerträglich?~
+@73 /*Mazzy*/ = ~Weil die Welt böse sein kann, aber sie kann auch voller Liebe und Hoffnung sein. Und wir sind diejenigen, die die Welt erschaffen, in der wir leben.~
+
+//6. Gespräch
+@74 /*Clara*/ = ~Mazzy, nicht nur du hattest eine idyllische Kindheit.~
+@75 /*Clara*/ = ~Ich hatte ein gutes Leben. Meine Eltern liebten mich. Wir waren glücklich!~
+@76 /*Mazzy*/ = ~Darf ich fragen, was passiert ist?~
+@77 /*Clara*/ = ~Die Welt ist passiert, Mazzy. Und ich bin erwachsen geworden.~

@@ -1,0 +1,35 @@
+// Anomen-Romanze-Fix
+@0 /*Anomen*/ = ~Meine Dame, ich fürchte, wir hatten vielleicht ein Missverständnis. Ich wünschte, wir könnten weitermachen wie zuvor. Könnt Ihr mir verzeihen?~
+@1 /*CHARNAME*/ = ~Nein, Anomen, ich möchte nur, dass wir Freunde sind.~
+@2 /*CHARNAME*/ = ~Natürlich, Anomen. Alles ist vergeben.~
+
+//Gespräch, um Anomens Vergangenheit in einem neuen Spiel zu wählen
+@3 /*Anomen*/ = ~<CHARNAME>, bitte erzählt mir von unserer gemeinsamen Zeit in Athkatla. Habe ich meine Prüfung bestanden? Bin ich ein Ritter des Ordens vom Strahlendsten Herzen?~
+@4 /*CHARNAME*/ = ~Ja, das hast du. Du bist ein Ritter. Dein Vater hat dich jedoch enterbt.~
+@5 /*CHARNAME*/ = ~Nein, hast du nicht. Du wurdest aus dem Orden verstoßen.~
+@6 /*CHARNAME*/ = ~Du hast die Prüfung noch nicht abgelegt. Wir sind kaum zusammen in Amn gereist.~
+@7 /*Anomen*/ = ~Ich verstehe. War ich romantisch gebunden?~
+@8 /*CHARNAME*/ = ~Ja, mit mir.~
+@9 /*CHARNAME*/ = ~Nun, du hast versucht, Clara zu umwerben, aber sie hat dich für deinen Vater verlassen.~
+@10 /*CHARNAME*/ = ~Nein, warst du nicht.~
+@11 /*CHARNAME*/ = ~Wir gestanden uns unsere Liebe. Saerk wurde als Verantwortlicher für den Mord an deiner Schwester überführt, und dein Vater ging, um ihn zur Rede zu stellen, und wurde ebenfalls getötet. Wir stellten Saerk ebenfalls, entschieden uns aber, friedlich zu gehen und der Stadt Gerechtigkeit walten zu lassen.~
+@12 /*Anomen*/ = ~Nun, das ist deprimierend, aber wenigstens habe ich meinen Lebenstraum verwirklicht, dem Orden beizutreten.~
+@13 /*Anomen*/ = ~Lasst uns weitergehen.~
+
+@14 /*Anomen*/ = ~Ja, mit Clara.~
+@15 /*Anomen*/ = ~Was geschah dann, meine Liebe?~
+@16 /*CHARNAME*/ = ~Wir gestanden uns unsere Liebe, aber dein Vater versuchte, dich zu enterben, also töteten wir ihn.~
+@1600 /*CHARNAME*/ = ~Wir gestanden uns unsere Liebe, aber dann meldeten die Behörden von Athkatla, dass Saerk nicht für den Tod deiner Schwester verantwortlich war. Dein Vater enterbte dich, also gingst du, um ihn zur Rede zu stellen. Gemeinsam entschieden wir, ihn am Leben zu lassen.~
+@1601 /*Anomen*/ = ~Der alte Säufer bekam endlich, was er verdiente. Und dann?~
+@1602 /*CHARNAME*/ = ~Dann beschuldigten wir Räuber des Mordes, und du wurdest Lord Delryn. Wir bezahlten einen vermummten Magier, um den Mord an Saerk zu untersuchen und deinen Namen reinzuwaschen. Saerk ist offiziell ein Schurke, und wir sind offiziell Helden.~
+@1603 /*CHARNAME*/ = ~Also verlor ich den Orden, meine Familie und mein Zuhause. Alles, was ich habe, bist du, meine Liebe.~
+@17 /*Anomen*/ = ~Das ist höchst ausgezeichnet. Ich wusste immer, dass wir es waren. Noch etwas?~
+@18 /*CHARNAME*/ = ~Wir haben auch die Sicherheitsprobleme, die aus dem Gildenkrieg entstanden sind, vollständig gelöst. Als du einige Monate später mit dem Sechserrat zusammentriffst, wird dir der freie Sitz im Rat angeboten, vorausgesetzt, du wirst einer der reichsten Lords von Amn.~
+@19 /*Anomen*/ = ~Ich war beschäftigt. Lasst uns fortfahren, meine Liebe.~
+
+@20 /*Anomen*/ = ~Was geschah dann?~
+@21 /*CHARNAME*/ = ~Du und Clara gestanden euch eure Liebe und heirateten. Dein Vater versuchte, dich zu enterben, also töteten wir ihn und beschuldigten Räuber des Mordes, sodass du und Clara Lord und Lady Delryn wurdet. Dann bezahlten wir einen vermummten Magier, um den Mord an Saerk zu untersuchen und deinen Namen reinzuwaschen. Saerk ist offiziell ein Schurke, und wir sind alle offiziell Helden.~
+@22 /*Anomen*/ = ~Ich war beschäftigt. Lasst uns fortfahren.~
+
+//DSA-Romanze-Scherz-Fix 1
+@23 /*Anomen*/ = ~Als du mir gegen meinen Vater beistandest, hast du mich gelehrt, dass Blutvergießen für das größere Wohl notwendig sein kann. Doch es muss auch Zeiten geben, in denen wir unsere Suche nach Konflikten unterbrechen und unser Leben genießen.~

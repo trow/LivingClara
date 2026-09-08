@@ -1,0 +1,25 @@
+//1. Clara-Saradas-Scherz
+@1 /*Clara*/ = ~Hey, Saradas, darf ich dir eine Frage stellen?~
+@2 /*Saradas*/ = ~Natürlich. Neugierige Köpfe sollten belohnt werden, und die Jungen lernen nicht, wenn die Alten nicht ihre Weisheit teilen. Was möchtest du wissen?~
+@3 /*Clara*/ = ~Nun, ich bin sicher, du hast nicht erwartet, von <CHARNAME> beschworen zu werden ... wird dich jemand vermissen? Hast du eine Familie, die auf deine Rückkehr wartet?~
+@4 /*Saradas*/ = ~Ach, ich fürchte nicht. Ich habe viele Jahre damit verbracht, Wissen und arkane Artefakte zu suchen, und obwohl ich meine Wahl nicht bereue, hatte ich nie eine Familie oder einen Ort, den ich mein Eigen nennen konnte.~
+@5 /*Saradas*/ = ~In der Tat haben Gerüchte über verlorene Magie oft meine Schritte gelenkt, und obwohl der Tempel meine Abwesenheit bemerkt haben wird, ist dies nicht das erste Mal, dass ich plötzlich verschwunden bin.~
+@6 /*Clara*/ = ~Oh, gut. Das freut mich zu hören.~
+@7 /*Saradas*/ = ~Freut dich das?~
+@8 /*Clara*/ = ~Ja, ich meine, du bist WIRKLICH alt. Ich hatte schon Sorge, <CHARNAME> hätte jemandes Urgroßvater entführt und die würden versuchen, dich aufzuspüren.~
+@9 /*Clara*/ = ~Aber wenn du keine Familie hast, bedeutet das, dass wir deine Sachen behalten können, falls du im Schlaf stirbst. Was für eine Erleichterung! Danke!~
+@10 /*Saradas*/ = ~Das war ... interessant.~
+
+//2. Scherz
+@11 /*Saradas*/ = ~Du starrst ziemlich intensiv, Clara. Brauchst du etwas?~
+@12 /*Clara*/ = ~Nein, ich wollte nur sichergehen, dass du noch lebst.~
+@13 /*Saradas*/ = ~Das bin ich in der Tat. Tut mir leid, dich zu enttäuschen.~
+@14 /*Clara*/ = ~Ich bin nicht enttäuscht. Ich bin beeindruckt. Ich habe noch NIE jemanden so alt wie dich gesehen, und ich will dein Geheimnis wissen. Wie hast du Jahrhunderte überlebt?~
+@15 /*Saradas*/ = ~Jahrhunderte – wie alt glaubst du, dass ich bin?~
+@16 /*Clara*/ = ~Keine Ahnung. Zweihundert? Du siehst aus wie zweihundert. Aber du kämpfst wie ein junger Mann.~
+@17 /*Saradas*/ = ~Du bist ein seltsames Kind, Clara, mit einer seltsamen Sicht auf das Leben. Ich weiß nicht, ob ich geschmeichelt oder beleidigt sein soll, wenn du sprichst.~
+@18 /*Saradas*/ = ~Wenn du jedoch wirklich die Geheimnisse der Langlebigkeit erfahren möchtest, würde ich mich freuen, dich zu unterrichten, wenn ich kann.~
+@19 /*Clara*/ = ~Wirklich? Das ist fantastisch! Bring mir bei, für immer zu leben ... Solange es einfach ist und ich mich überhaupt nicht ändern muss.~
+@20 /*Saradas*/ = ~Ich verstehe ...~
+@21 /*Saradas*/ = ~In diesem Fall fürchte ich, es ist Magie, Kind, und du hast einfach nicht das Talent dazu.~
+@22 /*Clara*/ = ~Ach. Wie schade. Trotzdem danke für den Versuch.~

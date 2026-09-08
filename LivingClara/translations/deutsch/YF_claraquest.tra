@@ -1,0 +1,627 @@
+//Erster Clara-Hinweis, falls ihr noch nicht mit Rose gesprochen habt
+@1 /*Clara*/ = ~Hey, <CHARNAME>, ich habe gehört, dass eine alte Freundin von mir vielleicht dort arbeitet. Könnten wir sie besuchen, wenn wir in der Gegend sind?~
+@2 /*CHARNAME*/ = ~Dafür haben wir keine Zeit.~
+@3 /*CHARNAME*/ = ~Natürlich.~
+@4 /*Clara*/ = ~Na gut. (Vielleicht schleiche ich mich einfach weg und sehe trotzdem nach ihr.)~
+@5 /*Clara*/ = ~Danke! Du bist der Beste.~
+
+//Rose-Clara-Gespräch
+@83 /*Rose*/ = ~Oh, Süße, ich laufe nicht auf der richtigen Straßenseite für das, was du suchst. Ich kann dir aber die richtige Richtung zeigen.~
+@84 /*Clara*/ = ~Rose? Bist du es! Was machst du hier?~
+@85 /*Rose*/ = ~Clara! Ich habe dich ewig nicht gesehen! Wir dachten alle, du wärst tot.~
+@86 /*Clara*/ = ~War ich auch. <CHARNAME> hier hat mich gerettet und wieder zurückgebracht.~
+@87 /*Rose*/ = ~Nun, ich kann es dir nicht verübeln, dass du dich nach grüneren Weiden umgesehen hast. Hier gibt es keine Zukunft.~
+@88 /*Clara*/ = ~Apropos ... warum bist du ...?~
+@89 /*Rose*/ = ~Warum ich in dieser gefährlichen, verarmten Einöde festsitze, in die Huren zum Sterben geschickt werden?~
+@90 /*Rose*/ = ~Erinnerst du dich an den kleinen Tom? Hat Gelegenheitsarbeiten für Mae'Var gemacht? Ich habe ihm ein Ohr abgebissen.~
+@91 /*Clara*/ = ~Gut gemacht! Ich hoffe, die Priester haben es krumm wieder angeheilt.~
+@92 /*Rose*/ = ~Da war nichts zu heilen! Ich hab's abgekaut und runtergeschluckt!~
+@93 /*Rose*/ = ~Also bin ich jetzt hier, aber es ist gar nicht so schlimm. Ich bin die Königin dieses Ortes! Ich habe mir den besten Platz hier zwischen diesem Herrenhaus und diesem Theater geschnappt. Der sicherste Ort im Bezirk.~
+@94 /*Rose*/ = ~Ich verlange so viel wie alle anderen Mädchen hier zusammen und bin trotzdem noch beschäftigt, beschäftigt.~
+@95 /*Rose*/ = ~Viele reiche Männer auch, kaufen mir immer Sachen und bezahlen gute Zimmer; mein Leben war noch nie so gut!~
+@96 /*Clara*/ = ~Pass nur auf dich auf, okay?~
+@97 /*Rose*/ = ~Du auch! Mach dir keine Sorgen um Rose Blumenstrauß. Ich habe fast jeden Wächter, Soldaten, Taschendieb und Räuber als Kunden. Wenn ich schreie, kommt immer jemand gerannt, um mich zu retten.~
+
+//Terl-Gespräch, sobald Aran tot ist
+@6 /*Clara*/ = ~Da kommt jemand. Warte ... Terl, bist du das?~
+@7 /*Terl*/ = ~Hallo, Clara. Schön, dich wiederzusehen.~
+@12 /*Terl - ohne Anomen*/ = ~Ich habe einen Brief für dich.~
+@8 /*Anomen - falls dabei*/ = ~Nun, was ist die Nachricht? Gib her.~
+@9 /*Terl falls Anomen*/ = ~Es tut mir leid, mein Herr. Mein Brief ist für Clara.~
+@13 /*Clara*/ = ~Wirklich? Für mich?~
+@10 /*Anomen - falls dabei*/ = ~Hmpf. Natürlich ist er das. Das wusste ich.~
+@11 /*Anomen - falls dabei & verheiratet*/ = ~Und das ist Lady Delryn für dich, Bote.~
+@14 /*Clara - falls Anomen dabei & verheiratet*/ = ~Schon gut, meine Liebe. Ich bin sicher, er hat es nicht böse gemeint. Darf ich den Brief sehen?~
+@15 /*Clara*/ = ~Oh, er ist von Rose Blumenstrauß. Du erinnerst dich, <CHARNAME>, im Brückenbezirk? Sie möchte mit mir sprechen.~
+@16 /*Clara*/ = ~Das nächste Mal, wenn wir in der Gegend sind, müssen wir sie besuchen. Bitte? Es klingt wichtig.~
+@17 /*Anomen - falls dabei & verheiratet*/ = ~Du solltest nicht mit solchen Leuten wie ihr sprechen, Caroline. Jetzt, wo du Lady Delryn bist, ist das höchst unschicklich.~
+@18 /*Clara - falls Anomen dabei & verheiratet*/ = ~Gräm dich nicht, mein Herr. Ich habe kaum vor, sie zum Tee nach Hause einzuladen. Jedoch muss ein wahrer Edelmann den unteren Schichten gegenüber wohltätig sein. *flüstert* Wirf ihnen ein bisschen Freundlichkeit hin, und sie werden uns verzweifelt lieben.~
+@19 /*Clara*/ = ~Danke, Terl. Sag Rose, dass ich so schnell wie möglich komme.~
+@20 /*Terl*/ = ~Natürlich. Es war mir ein Vergnügen.~
+
+//Bitte um Bibliothek von Rose
+@21 /*Rose*/ = ~Clara! Hi! Terl hat mir erzählt, dass er dich gefunden hat. Ich bin so froh, dass du kommen konntest.~
+@22 /*Clara*/ = ~Natürlich. Ich weiß, wir sind auf einer super wichtigen Quest und so, aber <CHARNAME> ist immer froh, noch einen Umweg zu machen. Was können wir für dich tun?~
+@23 /*Rose*/ = ~Nun, ich habe über die Zukunft nachgedacht. Meine Zukunft.~
+@24 /*Rose*/ = ~Ich möchte eine respektable Person sein, weißt du. Besonders nicht mit Terl.~
+@25 /*Clara*/ = ~Du hast echt Glück, so einen Mann zu haben. Die meisten Kerle würden nicht zweimal auf Frauen wie dich und mich schauen.~
+@26 /*Rose - falls Clara verheiratet*/ = ~Was ist mit deinem Mann? Ich habe gehört, du bist jetzt eine Adlige.~
+@27 /*Clara - falls verheiratet*/ = ~Oh, ja, ich bin Lady Delryn, und es ist wunderbar. Aber du weißt, das ist nur, weil mein lieber Ehemann die Wahrheit nicht kennt.~
+@28 /*Clara - falls Anomen dabei ist*/ = ~Ich musste ihn zu dem Stand schicken, um sich Schmuck anzusehen, nur damit ich mit dir reden konnte.~
+@29 /*Clara*/ = ~Terl ist anders. Er weiß es und liebt dich trotzdem.~
+@30 /*Rose*/ = ~Du hast recht. Er hat mich sogar gebeten, ihn zu heiraten. Kannst du das glauben?~
+@31 /*Rose*/ = ~Wir werden eine Familie gründen, und wenn wir das tun wollen, nun, dann brauche ich einen neuen Beruf. Etwas, auf das meine Kinder stolz sein können, wenn sie es erfahren.~
+@32 /*Clara*/ = ~Also ... wozu brauchst du uns? Du willst doch nicht Abenteurerin werden, oder? <CHARNAME> ist ziemlich streng, was die Größe von <PRO_HISHER> Gruppe angeht.~
+@33 /*Rose*/ = ~*lacht* Natürlich nicht, sei nicht albern. Ich möchte mit Terl ein Zuhause aufbauen, nicht beim geringsten Anlass in Gefahr rennen.~
+@34 /*Rose*/ = ~Aber da IHR sowieso in Gefahr rennt, hatte ich gehofft, ihr könntet mir einen Gefallen tun. Weißt du, ich glaube, ich möchte eine Bibliothek aufbauen, einen Ort, an dem jeder kommen und lesen kann, ohne ein Adliger oder einer dieser vornehmen Zauberer-Typen sein zu müssen.~
+@35 /*Rose*/ = ~Vielleicht kann ich auch Kurse anbieten. Ich habe das Glück, die Grundlagen zu kennen, aber es gibt viele, die nicht einmal ihren Namen schreiben können.~
+@36 /*Rose - falls Huren-Quest*/ = ~Ich habe gehört, dass die Priester des Oghma am Hafen unterrichten, aber ich bin sicher, der Platz ist begrenzt, und ich möchte, dass diese Mädchen auch andere Möglichkeiten haben.~
+@37 /*Rose*/ = ~Nur, eine Bibliothek braucht Bücher, weißt du, und ich denke mir, du hast eher die Chance, an seltene Bände zu kommen als ich. Ich kann dir ein wenig für jedes bezahlen; ich habe etwas Geld gespart.~
+@38 /*Clara*/ = ~Das klingt großartig. Ich meine, ich weiß nicht viel über Bibliotheken, aber ich hatte schon immer ein Händchen dafür, Dinge zu finden. Du musst mich nicht einmal bezahlen; betrachte es als einen Gefallen für eine Freundin.~
+@39 /*Rose*/ = ~Bist du sicher? Ein Mädchen muss schließlich auch seinen Lebensunterhalt verdienen.~
+@40 /*Clara*/ = ~Mach dir keine Sorgen um mich. Ich komme in letzter Zeit ganz gut zurecht.~
+@41 /*Clara*/ = ~*flüstert* Um ehrlich zu sein, kümmert sich <CHARNAME> wirklich nur um magische Gegenstände. Ich habe ein Vermögen damit verdient, alles zu verkaufen, was <PRO_HESHE> zurücklässt.~
+@42 /*Rose*/ = ~Du warst schon immer eine Überlebenskünstlerin. Aber in dem Fall nehme ich an. Bring mir einfach alle Bücher, die du findest, und ich werde meine Bibliothek eröffnen.~
+@43 /*Rose*/ = ~Eigentlich, wo ich gerade darüber nachdenke, nehme ich auch andere Papiere und Dokumente. Ich weiß, dass die Gelehrten hier für den Zugang zu exklusiveren Stücken zahlen werden, und das wird mir helfen, meine Türen für alle anderen offen zu halten.~
+@44 /*Clara*/ = ~Du bist wirklich ein Schatz, Rose. Und ich bin sicher, <CHARNAME> wird nichts dagegen haben, dir einige der zufälligen Notizen zu geben, die wir unterwegs gesammelt haben. Ich weiß ehrlich gesagt nicht, warum <PRO_HESHE> sie aufbewahrt.~
+@45 /*Rose*/ = ~Danke, Clara. Du bist eine gute Freundin.~
+@46 /*Rose*/ = ~Du auch, <CHARNAME>. Du kannst jederzeit vorbeikommen.~
+
+//Endloses Buch-Gespräch
+@47 /*CHARNAME*/ = ~Ich habe dir etwas für deine Bibliothek mitgebracht.~
+@48 /*CHARNAME*/ = ~Nein, aber ich habe dir etwas für deine Bibliothek mitgebracht.~
+
+@49 /*Rose*/ = ~Wunderbar. Lass mich sehen, was du hast.~
+@50 /*Rose*/ = ~Irgendein magisches Buch? Danke, <CHARNAME>, das wird eine gute Ergänzung für meine Bibliothek sein.~
+@51 /*Rose*/ = ~Ein Zauberbuch eines Magiers? Ich will wahrscheinlich nicht wissen, wo du das gefunden hast, oder?~
+@52 /*Rose*/ = ~Noch ein Roman? Wunderbar.~
+@53 /*Rose*/ = ~Nun, das scheint nicht so interessant wie die anderen, aber ich denke, jede gute Bibliothek braucht auch einige Romane.~
+@54 /*Rose*/ = ~Noch eine Geschichte von Calimshan? Danke. Es schadet nie, ein weiteres Exemplar zu haben.~
+@55 /*Rose*/ = ~Die Geschichte von Calimshan ... Das sollte die Gelehrten glücklich machen.~
+@56 /*Rose*/ = ~Noch eine Geschichte von Cormyr? Nun, das andere wird langsam abgenutzt.~
+@57 /*Rose*/ = ~Geschichte von Cormyr. Ich werde es in die Sammlung aufnehmen.~
+@58 /*Rose*/ = ~Die Geschichte von Dambrath ... immer noch ein Türstopper. Wo hast du dieses Ding gefunden?~
+@59 /*Rose*/ = ~Die Geschichte von Dambrath? Mit diesem Buch könnte man jemanden umbringen, <CHARNAME>. Es ist definitiv schwer genug.~
+@60 /*Rose*/ = ~Du hast noch eine Geschichte von Durpar und Var dem Goldenen gefunden? Wunderbar, ich wollte mein eigenes Exemplar.~
+@61 /*Rose*/ = ~Die Geschichte von Durpar und Var dem Goldenen ... Das ist ein ganz schöner Zungenbrecher. Hoffentlich ist es interessant.~
+@62 /*Rose*/ = ~Oh gut, noch ein kurzes ... Geschichte von Estagund, das ist ein guter Band zum Lesen üben.~
+@63 /*Rose*/ = ~Geschichte von Estagund. Das ist ein kurzes, aber dennoch danke.~
+@64 /*Rose*/ = ~Noch eine Geschichte von Gondegal ... Das Buch war überraschend unterhaltsam, vielleicht aber auch nur, weil Terl es laut vorgelesen hat.~
+@65 /*Rose*/ = ~Oh, die Geschichte von Gondegal dem verlorenen König klingt interessant. Vielleicht lasse ich Terl mir dieses vorlesen.~
+@66 /*Rose*/ = ~Die Geschichte von Halruaa ... Ich brauchte noch ein Exemplar. Die Gelehrten haben sich darum gestritten.~
+@67 /*Rose*/ = ~Jemand hat mich vor ein paar Tagen nach der Geschichte von Halruaa gefragt. Das ist perfekt, <CHARNAME>.~
+
+@68 /*Rose*/ = ~Geschichte von Luiren, dem Land der Halblinge ...~
+@69 /*Rose*/ = ~Oh, noch eine Geschichte von Luiren, dem Land der Halblinge ...~
+@70 /*Mazzy*/ = ~Geschrieben von den Großvölkern, zweifellos. Solche Geschichten sind meist voller Lügen und falscher Vorstellungen.~
+@71 /*Rose - falls Mazzy*/ = ~Dann solltest du vielleicht eine Rezension für mich schreiben. Ich habe gehört, dass die besten Bibliotheken so etwas zur Hand haben.~
+@72 /*Mazzy*/ = ~Vielleicht.~
+@73 /*Rose*/ = ~Wunderbar. Das sollte faszinierend werden.~
+@74 /*Rose*/ = ~Lovely. Ich werde dieses Buch vorerst zu den anderen legen.~
+
+@75 /*Rose*/ = ~Noch eine Geschichte von Sembia ... Das wird geschätzt werden.~
+@76 /*Rose*/ = ~Geschichte von Sembia ... Das wird sich gut machen.~
+@77 /*Rose*/ = ~Schon wieder eine Geschichte von Shadowdale? Ich lege sie zu den anderen.~
+@78 /*Rose*/ = ~Die Geschichte von Shadowdale I ... Hmm, ich frage mich, wie viele es gibt.~
+@79 /*Rose*/ = ~Geschichte von Shadowdale II ... Gut, noch eine zu haben.~
+@80 /*Rose*/ = ~Geschichte von Shadowdale II ... Danke, das wird meine Sammlung ergänzen.~
+@100 /*Rose*/ = ~Noch eine Geschichte von Shadowdale III. Ich nehme sie, aber mir geht der Platz aus.~
+@101 /*Rose*/ = ~Die Geschichte von Shadowdale III. Ich werde sie zu den anderen legen.~
+@102 /*Rose*/ = ~Noch eine Geschichte von Shadowdale IV ... Ich nehme sie. Diese schlanken Bände sind perfekt für meinen Unterricht.~
+@103 /*Rose*/ = ~Geschichte von Shadowdale IV. Das ist nicht sehr lang, oder? Ich denke, die Autoren hätten diese problemlos in weniger Büchern zusammenfassen können.~
+@104 /*Rose*/ = ~Die Geschichte von Shadowdale ... schon wieder Nummer fünf? Nun, es schadet nicht, sie zur Hand zu haben.~
+@105 /*Rose*/ = ~Schon wieder eine Geschichte von Shadowdale ... Nummer fünf? Das wird langsam lächerlich.~
+@106 /*Rose*/ = ~Noch eine Geschichte von Shadowdale VI? Terl wird dich hassen, wenn er über diese stolpert.~
+@107 /*Rose*/ = ~Geschichte von Shadowdale VI – Khelben tötet Jyordhan ... Nun, das verrät ja die Handlung, nicht wahr? Aber trotzdem danke.~
+@108 /*Rose*/ = ~Die Geschichte von Shadowdale VII ... Danke. Ich fand die erste informativ.~
+@109 /*Rose*/ = ~Die Geschichte von Shadowdale VII. Ich schwöre, diese Bücher sind den Namen kaum wert. Obwohl ich sicher bin, dass die meisten Buchhändler trotzdem den vollen Preis verlangen würden.~
+@110 /*Rose*/ = ~Noch eine Geschichte von Shadowdale VIII? Immer noch langweilig, aber ich nehme sie.~
+@111 /*Rose*/ = ~Geschichte von Shadowdale VIII? So interessant kann dieser Ort gar nicht sein.~
+@112 /*Rose*/ = ~Du hast die Geschichte von Shadowdale IX schon wieder gefunden? Wunderbar, dieses Buch war überraschend beliebt.~
+@113 /*Rose*/ = ~Geschichte von Shadowdale IX? Ernsthaft, wie viele *gibt* es davon?~
+@114 /*Rose*/ = ~Oh, gut, die Geschichte von Shadowdale X ... Ich hatte schon mehrere Leute, die über Elminster lesen wollten.~
+@115 /*Rose*/ = ~Geschichte von Shadowdale X ... Nun, diese hat zumindest Elminster. Könnte sie beliebter machen.~
+@116 /*Rose*/ = ~Noch eine Geschichte von Shadowdale XI ... Ich kann immer noch nicht glauben, dass es so viele Bände in dieser Reihe gibt.~
+@117 /*Rose*/ = ~Die Geschichte von Shadowdale XI. Ich sollte bald die komplette Sammlung haben.~
+@118 /*Rose*/ = ~Die Geschichte von Shadowdale XII ... Wunderbar. Ich mag dieses.~
+@119 /*Rose*/ = ~Geschichte von Shadowdale XII ... Dieses scheint eine Liebesgeschichte zu sein; wie süß.~
+@120 /*Rose*/ = ~Die Geschichte von Shadowdale, Band dreizehn schon wieder. Ist das in diesem Fall Glück oder Pech?~
+@121 /*Rose*/ = ~Geschichte von Shadowdale XIII ... Also gut, das muss der letzte Band sein.~
+@122 /*Rose*/ = ~Ich nehme diese Geschichte von Tethyr nochmal. Angesichts unserer derzeitigen Beziehungen war diese sehr gefragt.~
+@123 /*Rose*/ = ~Die Geschichte von Tethyr. Das ist gut zu haben. Es ist wichtig, seine Nachbarn gut zu kennen.~
+@124 /*Rose*/ = ~Die Geschichte der Glocke in der Tiefe ... Nicht so tiefgründig wie es schien, aber ich nehme noch ein Exemplar.~
+@125 /*Rose*/ = ~Die Geschichte der Glocke in der Tiefe ... Das klingt geheimnisvoll.~
+@126 /*Rose*/ = ~Noch eine Geschichte der Auserwählten von Mystra ... Nun, die Vermummten Magier sind noch nicht für dieses Buch gekommen, aber ich sollte besser ein Ersatzexemplar haben.~
+@127 /*Rose*/ = ~Geschichte der Auserwählten von Mystra ... Hmm, eine magische Geschichte ... die Vermummten Magier sollten das lieben.~
+@128 /*Rose*/ = ~Wunderbar, ich wollte schon länger eine Geschichte der Dale und des Elfenhofs. Dieser Autor wusste den besten Klatsch.~
+@129 /*Rose*/ = ~Die Geschichte der Dale und des Elfenhofs. Wahrscheinlich eine trockene Lektüre, aber ich werde sie trotzdem einstellen.~
+@130 /*Rose*/ = ~Die Geschichte der Toten Drei ... Eher eine Fabel als eine Geschichte, aber ich könnte noch ein Exemplar gebrauchen.~
+@131 /*Rose*/ = ~Geschichte der Toten Drei – Knöchelchen, Schädelkegeln und der leere Thron. Das sollte eine gute Lektüre sein.~
+@132 /*Rose*/ = ~Die Geschichte der Drachenküste ... Einige der Hafenmädchen mögen dieses. Sie sagen, es gibt ihnen Ideen ...~
+@133 /*Rose*/ = ~Die Geschichte der Drachenküste ... Schmuggler, Piraten und Attentäter. Klingt passend; sie würden hier gut reinpassen.~
+
+@134 /*Rose*/ = ~Die Geschichte der Dunkelelfen I ... Das wollte ich schon immer lesen.~
+@135 /*Rose*/ = ~Noch eine Geschichte der Dunkelelfen ... Dieses Buch zu lesen, hat mir Albträume bereitet.~
+@136 /*Viconia*/ = ~Du tätest besser daran, mit einem echten Dunkelelfen zu sprechen. Ich bin sicher, dieser Band ist voller Lügen der Rasse der Oberfläche.~
+@137 /*Rose*/ = ~Oh, wärst du dazu bereit? Du bist ziemlich ... einschüchternd. Ich wollte nicht vorschnell handeln.~
+@138 /*Viconia*/ = ~Dann bist du keine Närrin. Vielleicht bist du meines Wissens würdig. Du bist eindeutig eine Überlebenskünstlerin und hast deine Angelegenheiten gut im Griff.~
+@139 /*Rose*/ = ~Manchmal hat Wissen seinen Preis.~
+@140 /*Rose*/ = ~Ich freue mich darauf.~
+
+@141 /*Rose*/ = ~Die Geschichte der Dunkelelfen II. Wunderbar.~
+@142 /*Rose*/ = ~Noch ein Exemplar? Wunderbar. Die Geschichte der Dunkelelfen II war seltsam beliebt.~
+@143 /*Viconia*/ = ~Die Rasse der Oberfläche schrieb zwei Bände dieses Geschwätzes? Warum überrascht mich das nicht?~
+@144 /*Rose*/ = ~Immerhin hält es mich im Geschäft.~
+@145 /*Rose*/ = ~Ich werde das zu meiner Bibliothek hinzufügen.~
+
+@146 /*Rose*/ = ~Noch ein Exemplar der Geschichte der Schicksalsmünze? Immerhin ist es kein weiteres <CHARNAME>. Ich bin sehr dankbar für deine Hilfe, aber ich bin mir nicht sicher, ob unsere Welt noch mehr von deiner Sorte vertragen könnte.~
+@147 /*Rose*/ = ~Die Geschichte der Schicksalsmünze ... Hmm, du musst ein glückloses Kind gewesen sein, <CHARNAME>, so wie du die Welt verändert hast.~
+@148 /*Rose*/ = ~Hmm, noch eine Geschichte des letzten Zuges der Riesen ... Die könnte ich gebrauchen.~
+@149 /*Rose*/ = ~Geschichte des letzten Zuges der Riesen ... Interessant. Ich bin sicher, ich werde viel daraus lernen.~
+@150 /*Rose*/ = ~Ich habe dieses hier empfohlen. Die Geschichte des Moonsees hat mich reisen lassen. Vielleicht mache ich eines Tages einen kurzen Ausflug mit Terl.~
+@151 /*Rose*/ = ~Geschichte des Moonsees. Ich wollte schon immer dorthin.~
+@152 /*Rose*/ = ~Oh, noch eine Geschichte des Nordens I. Immer noch nicht über Gartenarbeit, aber die Historiker scheinen es ganz gerne zu mögen.~
+@153 /*Rose*/ = ~Geschichte des Nordens I – Die erste Blüte ... Das klingt wie ein Handbuch für Gartenarbeit.~
+@154 /*Rose*/ = ~Du hast die Geschichte des Nordens II schon wieder? Das ist perfekt. Alle Bücher über Netheril wurden häufig angefragt.~
+@155 /*Rose*/ = ~Geschichte des Nordens II. Oh, dieses handelt von Netheril. Ich habe einige meiner Kunden erwähnen hören, dass sie dieses Imperium kennen.~
+@156 /*Rose*/ = ~Die Geschichte des Nordens III ... Dieses Buch war genauso langweilig, wie du vielleicht annimmst. Aber ich habe einen alten Gelehrten, der diese immer wieder verlangt.~
+@157 /*Rose*/ = ~Die Geschichte des Nordens III – Neuere Geschichte des Nordens. Hah! Jemandem war beim Benennen langweilig.~
+@158 /*Rose*/ = ~Noch eine Geschichte des Nordens ... dieser vierte Band war so eine Tragödie.~
+@159 /*Rose*/ = ~Geschichte des Nordens IV – Der Auszug der Elfen ... Vielleicht erklärt das, was mit dem Reich Netheril geschah.~
+@160 /*Rose*/ = ~Die Geschichte des Nordens V ... Ich nehme dieses nochmal.~
+@161 /*Rose*/ = ~Geschichte des Nordens V – Die Ausbreitung der Menschheit. Scheint ziemlich langweilig, aber was soll man machen?~
+@162 /*Rose*/ = ~*seufz* Die Geschichte des Nordens – Die Macht der Menschen schon wieder? Ich hatte auf etwas Interessanteres gehofft.~
+@163 /*Rose*/ = ~Geschichte des Nordens VI – Die Macht der Menschen ... Dieses Mädchen weiß *alles* darüber schon Bescheid.~
+@164 /*Rose*/ = ~Die Geschichte des Nordens VII – 1368, das Jahr des Banners ... Eine überraschend gute Lektüre.~
+@165 /*Rose*/ = ~Die Geschichte des Nordens VII – 1368, das Jahr des Banners ... Ein Buch über ein einziges Jahr? Es muss wohl ereignisreich gewesen sein.~
+@166 /*Rose*/ = ~Noch eine Geschichte des Nordens – 1369 ... Nun, die Autoren lagen nicht falsch. Es war sicherlich ein interessantes Jahr.~
+@167 /*Rose*/ = ~Die Geschichte des Nordens VIII – 1369, das Jahr des Handschuhs ... Sieht nach einer anständigen Lektüre aus.~
+@168 /*Rose*/ = ~Geschichte des Nordens IX schon wieder ... Wenigstens nimmt dieses nicht viel Regalplatz ein.~
+@169 /*Rose*/ = ~Geschichte des Nordens IX ... Bist du sicher, dass das ein Buch ist, <CHARNAME>? Es ist nur eine Seite lang.~
+@170 /*Rose*/ = ~Ich nehme das ... Die Geschichte des Nordens X – 1370, das Jahr des Krugs ... Nicht so sehr über Trinken, wie man erwarten würde.~
+@171 /*Rose*/ = ~Geschichte des Nordens X – 1370, das Jahr des Krugs ... Das ist mein Jahr.~
+@172 /*Rose*/ = ~Oh, wunderbar. Ich nehme diese Geschichte der Roten Raben nochmal ... Sie mögen nur Söldner sein, aber einige dieser Geschichten ziehen einem das Herz heraus.~
+@173 /*Rose*/ = ~Die Geschichte der Roten Raben ... Söldner. Nichts Besonderes.~
+@174 /*Rose*/ = ~Noch eine Geschichte der Schwestern von Licht und Dunkelheit ... Ja, bitte. Ich hatte Priester, die sich auf meiner Türschwelle darüber angeschrien haben. Ich hätte mir keine bessere Mundpropaganda wünschen können.~
+@175 /*Rose*/ = ~Ich bin sicher, die Priester werden dieses mögen: die Geschichte der Schwestern von Licht und Dunkelheit.~
+@176 /*Rose*/ = ~Du hast noch eine Geschichte des Einhornlaufs gefunden ... Ich nehme sie, wenn auch nur, um solches Wissen aus falschen Händen fernzuhalten.~
+@177 /*Rose*/ = ~Geschichte des Einhornlaufs ... Ich frage mich, wo das ist. Der Ort klingt wunderschön.~
+@178 /*Rose*/ = ~Hmm, noch eine Geschichte des Tals der Götter. Die kann ich gebrauchen.~
+@179 /*Rose*/ = ~Wer schreibt diesen Unsinn? Die Geschichte des Tals der Götter ... Wahrscheinlich ein Buch über vergebliche Suchen, wenn du mich fragst.~
+@180 /*Rose*/ = ~...Ich denke, ich könnte das gebrauchen, obwohl die Geschichte der Weiten nicht so interessant war. Wer hätte gedacht, dass jemand so viele Worte über Gras schreiben kann?~
+@181 /*Rose*/ = ~Die Geschichte der Weiten ... Du würdest dieses wahrscheinlich mögen, <CHARNAME>. Klingt ziemlich episch.~
+@182 /*Rose*/ = ~Ja, das wird gehen. Es gibt einige Leute aus dem westlichen Kernland, die gerne über ihre Heimat lesen.~
+@183 /*Rose*/ = ~Hier ist eine gute bodenständige Art von Geschichte: Geschichte des westlichen Kernlandes. Robuste Bauerntypen dort draußen.~
+@184 /*Rose*/ = ~Oh, die Geschichte der Zentariim. Die brauche ich. Mein letztes Exemplar ist verschwunden.~
+@185 /*Rose*/ = ~Geschichte der Zentariim ... Ich denke, ich kann von Glück reden, wenn dieses in meinen Regalen bleibt.~
+@186 /*Rose*/ = ~Wo hast du noch ein Exemplar der Geschichte von Ulgarth gefunden? Die Gelehrten waren ziemlich beeindruckt, dass ich eines hatte.~
+@187 /*Rose*/ = ~Die Geschichte von Ulgarth ... Es gibt so viele Orte, von denen ich nichts weiß ...~
+@188 /*Rose*/ = ~Oh gut, noch eine Geschichte von Amn. Jemand hat in mein Original geschrieben. Obwohl ich zugeben muss, die Limericks waren clever.~
+@189 /*Rose*/ = ~Nun, jede selbstachtende Bibliothek in Amn sollte dieses haben: Die Geschichte von Amn.~
+@190 /*Rose*/ = ~Die Geschichte von Wasserdeep schon wieder? Ich denke, ich fange eine weitere Reihe an.~
+@191 /*Rose*/ = ~Die Geschichte von Wasserdeep I ... Das wird der perfekte Reiseführer sein.~
+@192 /*Rose*/ = ~Oh, noch eine Geschichte von Wasserdeep II. Um ehrlich zu sein, weiß ich immer noch nicht, was ein Tuabemoot ist.~
+@193 /*Rose*/ = ~Die Geschichte von Wasserdeep II – Zeitalter 0, Tuabemoots und Pioniere ... Was zum Teufel ist überhaupt ein Tuabemoot?~
+@194 /*Rose*/ = ~Also gut, das ist gut. Noch eine Geschichte von Wasserdeep III. Kriegsherren waren sehr gefragt.~
+@195 /*Rose*/ = ~Geschichte von Wasserdeep III – Aufstieg der Kriegsherren ... Was gibt's sonst noch Neues?~
+@196 /*Rose*/ = ~Aaaah, die Geschichte von Wasserdeep V ... Wer liebt nicht eine gute Geschichte über Gildenkriege, die schiefgehen? Eigentlich trifft das ein wenig zu nah an zu Hause. Kein Wunder, dass das nie jemand liest.~
+@197 /*Rose*/ = ~Die Geschichte von Wasserdeep IV – Die blutige Herrschaft der Gildenmeister ... Wer hätte gedacht, dass Schiffbauer und Edelsteinschleifer so gewalttätig sind? Ihre Gilden klingen sehr nach unseren.~
+@198 /*Rose*/ = ~Hmm, das kann ich gebrauchen. Die Wasserdeep-Bände sind tatsächlich ziemlich fesselnd.~
+@199 /*Rose*/ = ~Hier ist ein neues für meine Regale: Geschichte von Wasserdeep V – Die Herrschaft der Lords beginnt.~
+@200 /*Rose*/ = ~Noch eine Geschichte von Wasserdeep VI – Die Rückkehr der Lords ... Nun, sie sind ja nicht gerade weggegangen.~
+@201 /*Rose*/ = ~Die Geschichte von Wasserdeep VI – Die Rückkehr der Lords ... Schade, sie hätten wegbleiben sollen.~
+
+@202 /*Rose*/ = ~Geschichte der Nether-Schriftrollen. Oh, das kann ich nicht lesen ... Aber ich bin sicher, jemand anderes kann es.~
+@203 /*Rose*/ = ~Noch eine Geschichte der Nether-Schriftrollen? Ich bin überrascht, dass du eine gefunden hast.~
+@204 /*Edwin*/ = ~Dieses Buch ist nichts für deinesgleichen. Gib es mir sofort.~
+@205 /*Rose*/ = ~Na, entschuldige mal. Wie unhöflich.~
+@206 /*Rose*/ = ~Ich weiß die Geste zu schätzen, <CHARNAME>.~
+
+@207 /*Rose*/ = ~Yagos Buch der Flüche ... Ähm, ich denke, ich stelle dieses nach hinten.~
+@208 /*Rose*/ = ~Das ist kein Buch, <CHARNAME>. Es ist ein gruseliges Gedicht auf blutigem Pergament.~
+@209 /*Rose*/ = ~"Hier starb mein Sohn, junger Furnebol," ... Hast du das von einem Grab geplündert?~
+@210 /*Rose*/ = ~Das sind die Ergüsse eines Wahnsinnigen ... Die Dichter werden es lieben.~
+@211 /*Rose*/ = ~Ich muss mich wirklich fragen, wo du dieses gefunden hast, <CHARNAME>. Es ist gruselig.~
+@212 /*Rose*/ = ~Plant jemand einen Mord oder erinnert sich an einen? Ich bin nicht sicher, ob ich das lesen möchte.~
+@213 /*Rose*/ = ~Wer auch immer das geschrieben hat, brauchte Hilfe, <CHARNAME>. Ich hoffe, du hast ihn von seinem Elend erlöst.~
+@214 /*Rose*/ = ~"Schmecke meine Angst." ... Ist es wirklich ein Buch, wenn es nur eine Zeile ist, die immer wieder geschrieben wird?~
+@215 /*Rose*/ = ~"Erkenne meinen Wahnsinn." ... Ich denke wirklich, ich würde lieber nicht.~
+@216 /*Rose*/ = ~"Stell dich meinen Dämonen." ... Wo findest du diese Dinge?~
+@217 /*Rose*/ = ~"Suche keine Erben." ... Ich hebe das für die Priester auf.~
+@218 /*Rose*/ = ~"Suche keinen Ausgang." ... Ich bin ziemlich froh, dass du auf dieses nicht gehört hast.~
+@219 /*Rose*/ = ~"Kenne keine Zuflucht." ... Wie unangenehm.~
+@220 /*Rose*/ = ~"Fühle keine Wärme." ... Das ist hier nicht schwer. Zumindest bevor ich Terl traf.~
+@221 /*Rose*/ = ~"Tanze mit den Toten." ... Hast du Nekromanten besucht? Ich will nicht, dass wütende Zauberer hinter mir her sind.~
+@222 /*Rose*/ = ~"Erkenne meinen Verlust." ... Ich hoffe, du hast eine Gabe hinterlassen, wenn du wirklich Gräber geplündert hast.~
+@223 /*Rose*/ = ~"Hier fiel Kiel der Legionstöter." Das klingt ziemlich grausig.~
+@224 /*Rose*/ = ~Baldurans Logbuch ... Bist du sicher, <CHARNAME>? Mit einem solchen Schatz wird meine Bibliothek die beliebteste in Amn sein ...~
+@225 /*Rose*/ = ~Die Rezepte und Betrachtungen eines gewissen Dradeel von Tethyr, ehemals "Ein hübsches Brötchen erhellt jedermanns Tag" ... Das klingt bezaubernd. Vielleichte behalte ich es für mich.~
+@226 /*Rose*/ = ~Das Buch von Kaza ... Dieser Band muss ein Vermögen wert sein. Die Seiten sind so alt ... Ich verspreche, dieses Buch wird einen Ehrenplatz bekommen.~
+@227 /*Rose*/ = ~Golem-Bau-Buch ... Ein Zauberer wird das stehlen, merk dir meine Worte. Aber wenigstens werde ich es eine Zeit lang haben.~
+@228 /*Rose*/ = ~Die Schriftrolle von Amaunator ... Interessant. Welches Mädchen mag nicht ein wenig Ketzerei?~
+@229 /*Rose*/ = ~Wunderbar, ein privates Tagebuch. Ich hoffe nur, Merella hat nichts dagegen.~
+@230 /*Rose*/ = ~Ein orkisches Kochbuch? Nun, ich denke, einige Leute könnten es aus Neugier lesen.~
+@231 /*Rose*/ = ~Der Vampiricus Omnibus: Ungekürzt ... Das brauchen wir hier unbedingt.~
+@232 /*Rose*/ = ~Dieses Buch ist mit Blut bedeckt, <CHARNAME>. Ich weiß, ich sagte, ich möchte interessante Bände für meine Bibliothek, aber ... Warum vergraben wir das nicht einfach im Hinterhof?~
+@233 /*Rose*/ = ~Beschwöre Ota Servanta ... Das scheint gefährlich. Ich werde es vielleicht dem Tempel des Oghma zurückgeben, falls es sich als problematisch erweist.~
+
+@234 /*Rose*/ = ~Oh, ein Tagebuch. Sag diesem Lellyn, dass es geschätzt wird.~
+@235 /*Mazzy*/ = ~Das wird nicht möglich sein. Er starb vor einiger Zeit.~
+@236 /*Rose*/ = ~Oh, das tut mir leid. Möchtest du dieses Tagebuch zurück?~
+@237 /*Mazzy*/ = ~Nein. Stelle das Tagebuch in deine Regale, damit er als Held in Erinnerung bleibt. Ich glaube, das hätte er vorgezogen.~
+@238 /*Rose*/ = ~Das werde ich tun. Danke.~
+
+@239 /*Rose*/ = ~Das Buch von König Strohm III. ... Das sollte in einem Museum sein. Aber ich werde mein Bestes geben.~
+@2400 /*Rose*/ = ~Oh gut, noch ein Bestiarium von Elminster. Die Kinder sehen sich gerne die Bilder in diesem an.~
+@240 /*Rose*/ = ~Elminsters Ökologien: Anhang IIIa ... Oh, ein Bestiarium. Das wird bei Abenteurern beliebt sein. Ich nehme an, du hast es sorgfältig gelesen?~
+@241 /*Rose*/ = ~Eine handgeschriebene Notiz ... du nimmst wirklich alles mit, nicht wahr?~
+@242 /*Rose*/ = ~Verrücktes Gekritzel, wunderbar. Die Barden werden es genießen.~
+@243 /*Rose*/ = ~Ich frage mich, wer dieser Lum ist. Diese Notiz ist ... ziemlich einzigartig.~
+@244 /*Rose*/ = ~Dein Schreiber hier scheint Magie nicht zu mögen. Hast du vermummte Magier bestohlen?~
+@245 /*Rose*/ = ~L.t. Verrückt ... Das klingt richtig.~
+@246 /*Rose*/ = ~"Die schönen Menschen sind klein, rot und grün." Das ist sicherlich eine Meinung.~
+@247 /*Rose*/ = ~Ich nehme an, dieses sinnlose Geschwafel sollte für ein Lachen gut sein.~
+@248 /*Rose*/ = ~Lum der Verrückte ... Nun, das erklärt den Inhalt dieser Notiz.~
+@249 /*Rose*/ = ~Das scheint eher Altpapier zu sein. Aber eine gute Bibliothek braucht das auch.~
+@250 /*Rose*/ = ~...Ein Lösegeldforderung, wirklich, <CHARNAME>? Ich hoffe, du hast dieses arme Mädchen gerettet.~
+@251 /*Rose*/ = ~Das scheint ziemlich persönlich zu sein, aber ich werde es meiner Sammlung hinzufügen.~
+@252 /*Rose*/ = ~Ein Hilferuf ... Ich hoffe, sie waren reich oder mächtig. Sonst hat dieser heilige Orden von hochnäsigen Paladinen das wahrscheinlich in den Dreck geworfen.~
+@253 /*Rose*/ = ~Ist das eine Herausforderung zum Duell? Wie aufregend.~
+@254 /*Rose*/ = ~Eine Einladung zur Einweihung, schade, dass sie datiert ist. Natürlich würde eine Frau wie mir niemals erlaubt werden, einer solchen Party nahezukommen, aber man kann ja träumen.~
+@255 /*Rose*/ = ~Wenn du das wirklich abgeben möchtest, dann nehme ich es an. Aber ich denke, diese Jaheira meinte ihre Worte nur für dich.~
+@256 /*Rose*/ = ~Oh, fantastisch, du hast mir das Tagebuch des Umar-Hexen-Projekts schon wieder gebracht ... Das kann ich nicht in den Regalen lassen.~
+@257 /*Rose*/ = ~Das Tagebuch des Umar-Hexen-Projekts ... Oh, das gibt mir Gänsehaut. Perfekt.~
+@258 /*Rose*/ = ~Die Schriftrolle des Chaos ... Bist du sicher, dass dieses Buch nicht explodiert oder so?~
+@259 /*Rose*/ = ~Steuerunterlagen, natürlich. Ich bin sicher, jemand wird die irgendwann wollen.~
+@260 /*Rose*/ = ~Das klingt, als wärst du beschäftigt gewesen, <CHARNAME>. Bist du sicher, dass du diese Notiz festhalten willst?~
+@261 /*Rose*/ = ~Tombelthens Tagebuch ... schade, dass es zerrissen ist.~
+@262 /*Rose*/ = ~Tombelthens Tagebuch ... Das wird die Schatzsucher anziehen.~
+@263 /*Rose*/ = ~Irgendwie habe ich das Gefühl, dass Lord Tombelthen nie nach Hause gekommen ist.~
+
+@264 /*Rose*/ = ~Dieser Lavok klingt sowohl verrückt als auch gefährlich, <CHARNAME>. Du musst sehr mächtig sein, um solche Leute zu Fall zu bringen.~
+@265 /*Valygar*/ = ~In der Tat, das war eine ziemliche Schlacht. Mein Vorfahr verlor sich vor vielen Jahren in den Fängen der Magie. Nimm diesen Band als Warnung für diejenigen, die dasselbe tun möchten.~
+@266 /*Rose*/ = ~Vielleicht haben die Vermummten Magier manchmal doch recht.~
+
+@267 /*Rose*/ = ~Hah! Die letzten arroganten Befehle einer sterbenden Gilde. Ich werde diese Notiz an einen Ehrenplatz stellen.~
+@268 /*Rose*/ = ~Drohungen von den Vampiren ... ein Stück moderne Geschichte. Das wird eines Tages wertvoll sein.~
+@269 /*Rose*/ = ~Morgenritual ... Ein Stück Geschichte.~
+@270 /*Rose*/ = ~Mittagsritual ... Wie traurig. Ich glaube nicht, dass du das hättest, wenn es noch lebende Anhänger gäbe.~
+@271 /*Rose*/ = ~Das Abendritual ... Sollte ich mir Sorgen machen, einen längst vergessenen Gott zu beleidigen?~
+@272 /*Rose*/ = ~Eine Notiz aus Imnesvale ... Aww, das ist so süß.~
+@273 /*Rose*/ = ~Liums Tagebuch der bösartigen Magie ... Das klingt nach Spaß. Obwohl ich vielleicht ein paar Vermummte Magier bestechen muss, um es in meinen Regalen zu behalten.~
+@340 /*Rose*/ = ~Du hast SCHON WIEDER ein erstes Tagebuch von Jon Irenicus gefunden? Was für ein Mensch transkribiert sein Tagebuch zweimal?~
+@274 /*Rose*/ = ~Das erste Tagebuch von Jon Irenicus ... Er klingt nach dem pompösen Typ.~
+@275 /*Rose*/ = ~Zweites Tagebuch von Jon Irenicus. Dieser Kerl schrieb wirklich gerne über sich selbst. Er klingt auch wie ein Verrückter.~
+@276 /*Rose*/ = ~Das dritte Tagebuch von Jon Irenicus ... Hmm, langweilig ... Dunkelelfen und so. Aber ich werde es in die Regale stellen.~
+@277 /*Rose*/ = ~Ein Buch über elementare Rituale ... Ich hoffe, dieses setzt den Block nicht in Brand.~
+@278 /*Rose*/ = ~Eine Notiz eines Aufsehers? Warst du kürzlich im Gefängnis?~
+@279 /*Rose*/ = ~Aufzeichnungen eines Sahuagin-Schreibers ... Das sieht selten aus; es sollte sehr gefragt sein. (Ich bin mir nicht einmal sicher, was ein Sahuagin ist.)~
+
+@280 /*Rose*/ = ~Diese Notiz ist ziemlich besorgniserregend, <CHARNAME>. Du solltest besser auf diesen Ployer aufpassen. Ich glaube, eines der Mädchen, die am Hafen arbeiten, hat ihn erwähnt.~
+@281 /*Jaheira*/ = ~Mach dir keine Sorgen um uns. Baron Ployer wurde sehr effektiv behandelt.~
+@282 /*Rose*/ = ~Das ist gut zu hören.~
+@283 /*Rose*/ = ~Er klang insgesamt ziemlich unangenehm.~
+
+@284 /*Rose*/ = ~Tizzaks Tagebuch ... diese Details sind wichtig, nicht wahr? Ich verspüre den Drang, dieses Buch jetzt zu küssen.~
+@285 /*Rose*/ = ~Bist du sicher, dass du diese Notiz von Demin nicht brauchst? Sie klingt wichtig. Aber dieses Mädchen ist nicht dumm genug, ein Geschenk auszuschlagen.~
+@286 /*Rose*/ = ~Das Tagebuch von Geldorf Tinbasher ... Was für eine arme, gequälte Seele ...~
+@287 /*Rose*/ = ~Das Tagebuch von Thassk Kun ... Magie, Jäger und Devas, wie aufregend!~
+@288 /*Rose*/ = ~Bannors Tagebuch ... Igitt, diese Experimente klingen furchtbar. Ich werde dieses vorsichtig verleihen.~
+@289 /*Rose*/ = ~Das Tagebuch von Dennaton ... *schnaubt* Einer von diesen Unterhaltungstypen.~
+@290 /*Rose*/ = ~Das Tagebuch von Dennaton ... Was für ein seltsamer Band ...~
+@291 /*Rose*/ = ~Das Tagebuch von Dennaton ... Klingt nach dem ehrgeizigen Typ, ich frage mich, wie diese Träume ausgegangen sind.~
+@292 /*Rose*/ = ~Das Tagebuch von Saemon Havarian ... Was? Es ist *leer*! Du spielst mir einen Streich.~
+@293 /*Rose*/ = ~Die Geschichte des ungeprüften Propheten ... Eines für die Fabelabteilung.~
+@294 /*Rose*/ = ~Über Simulacrum und Wahnsinn ... Verrückt? Check. Zauberhaft? Check. Das sollte sehr beliebt sein.~
+@295 /*Rose*/ = ~Kannst du das lesen, <CHARNAME>? Denn ich kann es sicher nicht. Aber ich bin sicher, ein Gelehrter wird die Herausforderung schätzen.~
+@296 /*Rose*/ = ~Oh wie schön ... Ein illustriertes Manuskript.~
+@297 /*Rose*/ = ~Hast du dieses Buch in eine Pfütze fallen lassen, <CHARNAME>? Du solltest dich schämen. Aber ich denke, das Papier könnte nützlich sein.~
+@298 /*Rose*/ = ~Lesbare Fragmente und verblasste Briefe ... Nun, vielleicht kann es restauriert werden.~
+@299 /*Rose*/ = ~Interessant. Ich habe noch nie ein Buch so knistern gehört.~
+@300 /*Rose*/ = ~Was für eine wunderschöne Geschichte. Ich denke, ich werde Freude daran haben, diese zu entziffern.~
+@301 /*Rose*/ = ~Hmm, eine Art Genealogie. Nun, jemand wird das mögen.~
+@302 /*Rose*/ = ~Ein Gedichtband, wunderbar, die Barden sollten ziemlich gut zahlen, um darauf Zugriff zu haben.~
+@303 /*Rose*/ = ~Das Tagebuch von Umolex dem Weitsichtigen ... oh, Tipps zum Eierbemalen. Das werde ich mir merken.~
+@304 /*Rose*/ = ~Was für ein grausiger Vertrag. Aber wer petzt, kriegt Prügel. Das haben sie verdient.~
+
+@305 /*Rose*/ = ~Hmm, ein Brief vom Oberhaupt des Ordens der Acht Stäbe. Nie von ihnen gehört.~
+@306 /*Neera*/ = ~Du verpasst wirklich nicht viel.~
+@307 /*Rose*/ = ~Aber selbst langweilige Briefe könnten eines Tages jemandem helfen.~
+
+@308 /*Rose*/ = ~Wie unangenehm. Ich hoffe, du hast dich um diese Lanneth gekümmert.~
+@309 /*Rose*/ = ~Das Tagebuch von Fadell Eisenaugen ... Klingt nach einem interessanten Kerl.~
+@310 /*Rose*/ = ~Hmm, das Tagebuch von Vicross ... Sie waren so freundlich, ihren Namen auf die erste Seite zu schreiben.~
+
+@311 /*Rose*/ = ~Alorgoths Tagebuch ... Was für ein aufgeblasener Schwätzer ...~
+@312 /*Rasaad*/ = ~Deine Worte erleichtern mein Herz, meine Dame. Ich habe schon seit einiger Zeit nicht mehr so gelacht.~
+@313 /*Rose*/ = ~Vielleicht möchten einige der Kinder darauf malen.~
+
+@314 /*Rose*/ = ~Das Tagebuch von Boldcam Tiefenstein ... Was sind das für tragische Tode?~
+@315 /*Rose*/ = ~Ein Fetzen Papier, wirklich? Nun, wenn es umsonst ist, nehme ich es.~
+@316 /*Rose*/ = ~Das spricht von einem versteckten Tempel ... das ist sehr interessant ...~
+@317 /*Rose*/ = ~Oh, eine alte Karte. Die Abenteurer werden es lieben.~
+@318 /*Rose*/ = ~"Halunken: Ein Gentleman's Leitfaden für Überfälle und Raubzüge" ... Ich liebe es!~
+@319 /*Rose*/ = ~Dieses zerrissene Pergament sieht sehr alt aus ... Es könnte wertvoll sein.~
+@320 /*Rose*/ = ~Irgendein Ritualdokument ...~
+@321 /*Rose*/ = ~Was für eine schöne Kalligrafie. Jemand hat sich große Mühe gegeben.~
+@322 /*Rose*/ = ~Die Geschichte des Eingekerkerten ... Vielleicht sind die Helm-Gläubigen daran interessiert.~
+@323 /*Rose*/ = ~Die Schreiber werden diese Notiz zu schätzen wissen. Sie sieht ziemlich professionell aus.~
+@324 /*Rose*/ = ~Hast du die Korrespondenz eines armen alten Mannes genommen? Und noch dazu eines kalten alten Mannes ...~
+@325 /*Rose*/ = ~Dieses Tagebuch enthält ein paar Gedichte ... wie schön ...~
+@326 /*Rose*/ = ~Was haben wir hier ... Das private Tagebuch von Sir Kalthorine ut Wistan ...~
+@327 /*Rose*/ = ~...Wovon spricht das? Eine Art Rivalität unter Magiern?~
+@328 /*Rose*/ = ~...Verbrannte Reste, wirklich? Das ist kaum Papier.~
+@329 /*Rose*/ = ~Igitt, diese Notiz ist nass.~
+@330 /*Rose*/ = ~Ist dieser Brief aus Eis? Ich werde Magier gegeneinander ausspielen lassen, um das zu studieren.~
+@331 /*Rose*/ = ~Hmm, schade, dass du den Rest dieses Tagebuchs nicht hast.~
+@332 /*Rose*/ = ~Was für ein seltsames Tagebuch ... Ich hoffe, dieser Carston war dankbar, wenn du ihn befreit hast.~
+@333 /*Rose*/ = ~Adlige benutzen immer zehn Wörter, wenn eines reicht. Lord Jierdan Firkraag klingt ziemlich hochnäsig für mich.~
+@334 /*Rose*/ = ~Klingt, als hätte dieser Dieb ein unglückliches Ende gefunden. Höchstwahrscheinlich verdient.~
+@335 /*Rose*/ = ~Diese Schrift ist fast schmerzhaft anzusehen, <CHARNAME>; wo hast du das her?~
+
+@336 /*Rose*/ = ~Eine Notiz von Mazzy Fentan ... Ich werde sie in den Katalog aufnehmen.~
+@337 /*Mazzy*/ = ~Ich kann nicht glauben, dass du das aufgehoben hast, <CHARNAME>.~
+@338 /*Rose*/ = ~Kurz und bündig. Das gefällt mir.~
+
+@341 /*Rose*/ = ~Schon wieder eine seltsame Notiz? Einige Gelehrte haben sich um die letzte gestritten, also sollte das sehr helfen.~
+@342 /*Rose*/ = ~Womit ... womit ist das geschrieben? Das ist unangenehm, aber einige Leute werden die Herausforderung mögen, da bin ich sicher.~
+@343 /*Rose*/ = ~Wo findest du diese Dokumente? Aber vielleicht hilft ein weiteres Exemplar dieses Unsinns meinen Kunden, den Code zu knacken.~
+@344 /*Rose*/ = ~Ist das eine Art Code? Sieht für mich nach Kauderwelsch aus, aber jemand wird es interessant finden.~
+@345 /*Rose*/ = ~Hmm, ein Rezept? Nun, der Name ist unglücklich, aber diese "Affenbälle" klingen tatsächlich ziemlich lecker.~
+@346 /*Rose*/ = ~Amnische Dragoner-Suppe ... Oh, das habe ich schon gemacht. Terl mag es sehr.~
+@347 /*Rose*/ = ~Jemand hatte einen süßen Zahn. Ich denke, dieses Rezept wird ziemlich beliebt sein.~
+@348 /*Rose*/ = ~Oh, das nehme ich. Ich kann immer mehr Rezepte gebrauchen.~
+@349 /*Rose*/ = ~Rubin-Rippchen ... das ist ein seltsamer Name für ein Dessert, aber dieses Rezept sieht gut aus.~
+@350 /*Rose*/ = ~Irgendeine Rune? Hoffentlich ist das nicht gefährlich ...~
+@351 /*Rose*/ = ~Oh, ist das ein Brief an diesen schrecklichen Mörder? Wie grauenhaft. Aber die Leute lieben solche Dinge.~
+@469 /*Rose*/ = ~Interessant ... Das klingt, als wärst du auf eine weitere gefährliche Situation gestoßen. Ich nehme diese Notiz gerne, wenn du sie nicht mehr brauchst.~
+@470 /*Rose*/ = ~Hast du wirklich geheime Befehle vom Schattenmeister nur zusammengeknüllt in deinem Rucksack getragen? Wenn Aran noch am Leben wäre, könnte ich das auf keinen Fall annehmen ... Aber ich hoffe, seine Seele verrottet in den Höllen, wo sie hingehört.~
+
+@352 /*Rose*/ = ~Was für ein seltsamer Brief ... Warum sollte jemand eine Stadt verlassen wollen, um zu einer Lichtung zu gehen?~
+@353 /*Cernd*/ = ~Es gibt viele Gründe, dem Ruf der Natur zu folgen. Eine Stadt wie diese erstickt die Seele.~
+@354 /*Rose*/ = ~Vielleicht jagten sie einen Traum. Das könnte ich verstehen.~
+
+@355 /*Rose*/ = ~Arbeitest du jetzt für ein Bordell, <CHARNAME>? Du solltest dich schämen, es sei denn, du hast diesen Mädchen zur Freiheit verholfen.~
+@356 /*Rose*/ = ~Irgendeine Stellenanzeige ... Ich könnte sie für diesen Weißhand-Kerl aushängen, wer immer er sein mag.~
+@357 /*Aran*/ = ~Das wird sehr geschätzt. Ein Söldner kann immer gute Mundpropaganda gebrauchen.~
+@358 /*Rose*/ = ~Vielleicht braucht einer meiner Kunden bald eine Übersetzung.~
+
+@359 /*Rose*/ = ~Bist du jetzt ein Spion, <CHARNAME>? Ich denke, es wird am sichersten sein, wenn diese Notiz im Altpapier landet.~
+@360 /*Rose*/ = ~Oh, jemand ist in Schwierigkeiten. Ich hoffe, du hast dieser Jysstevs Frau geholfen.~
+@361 /*Rose*/ = ~Eine Liste von Tränken ... Nun, mir fallen ein paar Alchemisten ein, die damit etwas anfangen könnten.~
+
+@362 /*Rose*/ = ~Schreibt jemand einen Roman? Und noch dazu einen anzüglichen ... Ich frage mich, ob sie in Betracht ziehen würden, mir ein Exemplar zu geben.~
+@363 /*Aran*/ = ~Wir verhandeln noch über die Bedingungen, meine Dame, aber ich würde mich freuen, dir eines der ersten Drucke zu geben. Alles für einen Fan.~
+@364 /*Rose*/ = ~Danke. Das würde meiner Bibliothek sehr helfen.~
+@365 /*Rose*/ = ~Ich würde es gerne lesen, und ich habe gehört, dass frühe Entwürfe sehr wertvoll sein können.~
+
+@366 /*Rose*/ = ~Wie spricht man das aus? Isle-Stray ... Ill-i-Straw ... Nun, egal, Diskussionen über andere Götter sind immer beliebt.~
+@367 /*Rose*/ = ~Eine Geschichte von Eilistraee, der Dunklen Jungfrau ... Das klingt geheimnisvoll.~
+@368 /*Rose*/ = ~Liebe, Tragödie, Verrat und ein Flehen um Vergebung ... Wenn du es wirklich hergeben möchtest, weiß ich, dass dieser Brief die Herzen meiner Kunden berühren wird.~
+@369 /*Rose*/ = ~Eintausend Gold für Lösegeld? Du hast wirklich Zeit unter den oberen Klassen verbracht. Obwohl es scheint, dass auch Adlige Helden brauchen.~
+@370 /*Rose*/ = ~Welche Sprache ist das? Ich kann es nicht lesen. Aber vielleicht kann es ein Gelehrter.~
+
+@466 /*Rose*/ = ~Was für ein trauriges Tagebuch. Da sowohl seine Frau als auch die Vermummten Magier versuchten, ihn zu töten, hatte dieser arme Kerl keine Chance.~
+@467 /*Rose*/ = ~Und auch eine Urkunde ... Bist du sicher, dass ich das haben kann? Wenn alles klappt, wirst du sicher zu unserer Einweihungsparty eingeladen!~
+@468 /*Rose*/ = ~Hmm, das sieht nach einem schlecht geschriebenen Zauberbuch aus, aber ich bin sicher, ein Lehrling wird es trotzdem wollen.~
+
+@339 /*Rose*/ = ~Danke, <CHARNAME>. Wenn du noch etwas findest, weißt du, wo ich bin.~
+
+//Zweite Buch-Quest
+//Terl-Gespräch
+@371 /*Terl*/ = ~Clara und <CHARNAME>! Ich bin froh, dass ich euch gefunden habe. Rose muss dringend mit euch sprechen.~
+@372 /*Clara*/ = ~Was ist los? Ist sie in Gefahr?~
+@373 /*Terl*/ = ~Nein, nichts dergleichen. Sie bat mich nur, euch zu finden, wenn ich könnte.~
+@374 /*Terl*/ = ~Ich musste schnell weg, also kenne ich nicht alle Details, aber etwas ist mit ihrer neuen Bibliothek schiefgegangen. Rose war seit der Eröffnung so aufgeregt, und das möchte ich nicht ändern. Also geht bitte zu ihr, wenn ihr könnt.~
+@375 /*Terl*/ = ~Selbst wenn ihr nicht helfen könnt, könnte sie jetzt eine Freundin gebrauchen. Ich muss noch mehrere Briefe zustellen, bevor ich nach Hause komme, und ich mache mir Sorgen, wenn ich weg bin.~
+@376 /*Clara*/ = ~Natürlich. Wir besuchen Rose so bald wie möglich.~
+@377 /*Terl*/ = ~Danke, Clara. Ich bin sicher, wir sehen uns noch.~
+
+//Rose-Gespräch
+@378 /*Rose*/ = ~Clara! Du bist gekommen!~
+@379 /*Clara*/ = ~Was ist los? Terl sagte, du müsstest nochmal mit uns sprechen.~
+@380 /*Rose*/ = ~Es geht um meine Bibliothek. Alles lief wirklich gut, seit ich angefangen habe. Ich habe nur ein paar Stunden am Tag geöffnet, aber ich hatte viel Interesse.~
+@381 /*Rose*/ = ~Es gab sogar einige Leute, die über Unterricht sprachen, und ein paar der reicheren Gelehrten haben bezahlt, um Bücher mit nach Hause zum Studieren zu nehmen.~
+@382 /*Rose*/ = ~Ich habe natürlich niemanden die seltensten Bücher ausleihen lassen ... die müssen sie hier lesen, wo ich sie sehen kann. Aber ich dachte nicht, dass es schadet, die anderen zu verleihen, und ich brauchte das zusätzliche Geld, um weniger Kunden zu haben. Ich kann meine Bibliothek nicht offen halten, wenn ich die ganze Zeit hier draußen bin.~
+@383 /*Rose*/ = ~Aber jetzt weigert sich einer meiner Kunden, sein Buch zurückzugeben, und das kann ich nicht haben! Was ist, wenn sie es alle tun? Es wird alles ruinieren!~
+@384 /*Clara*/ = ~Keine Sorge, Rose. Ich bin sicher, wir können das beheben.~
+@385 /*Clara*/ = ~Also, wer ist der Bücherdieb? Alles, was du weißt, hilft uns, ihn aufzuspüren.~
+@386 /*Rose*/ = ~Ein Einheimischer. Er heißt Gereth. Ich weiß nicht, wo er wohnt, aber du solltest ihn im Abenteurermarkt finden können.~
+@387 /*Rose*/ = ~Ich würde ihn selbst zur Rede stellen, aber Mädchen wie ich sind in Waukeens Promenade nicht gerade willkommen.~
+@388 /*Clara*/ = ~Nun, niemand wird <CHARNAME> davon abhalten, hinzugehen, wo <PRO_HESHE> hinwill.~
+@389 /*Clara*/ = ~Welches Exempel sollten wir an diesem Gereth statuieren? Willst du nur das Buch zurück oder etwas ... Dauerhafteres?~
+@390 /*Rose*/ = ~Nur das Buch ist in Ordnung. Wenn ich einen Attentäter bräuchte, würde ich einfach einige örtliche Wächter fragen. Aber ich werde nicht zulassen, dass jemand denkt, er könne von Rose Blumenstrauß stehlen.~
+@391 /*Rose*/ = ~Also, <CHARNAME>, wirst du mir wieder helfen? Ich habe von früheren Kunden ein paar interessante Bücher bekommen und würde dir gerne eines als Belohnung geben.~
+@392 /*CHARNAME*/ = ~Entschuldigung, ich habe keine Zeit.~
+@393 /*CHARNAME*/ = ~Natürlich. Klingt einfach genug.~
+@394 /*CHARNAME*/ = ~Welches Buch hat Gereth genommen?~
+@395 /*CHARNAME*/ = ~Wie trägst du all diese Bücher überhaupt?~
+
+@396 /*Clara*/ = ~Ach komm schon, <CHARNAME> ... das wäre kaum das Seltsamste, was wir getan haben. Aber wie auch immer, sei ein Spielverderber. Vielleicht spüre ich den Kerl selbst auf.~
+@397 /*Rose*/ = ~Schon gut, Clara. Ich weiß, dass <CHARNAME> wahrscheinlich andere Verpflichtungen hat, und ich bin sicher, ich werde irgendwann einen anderen Weg finden, es zurückzubekommen.~
+@398 /*Rose*/ = ~Ich gebe zu, ich bin enttäuscht, aber ich nehme trotzdem alle anderen Bücher, die du findest. Wenn das nochmal passiert, werde ich definitiv mehrere Exemplare von allem brauchen.~
+@399 /*Rose*/ = ~Danke, <CHARNAME>. Das ist sehr nett.~
+@400 /*Rose*/ = ~Sobald du Gereth gefunden und mein Buch zurückgeholt hast, gebe ich dir deine Belohnung.~
+
+@401 /*Rose*/ = ~Oh, natürlich. Gereth hat das Golem-Bau-Buch ausgeliehen, das du mir kürzlich gegeben hast. Er schien sehr aufgeregt, als er es sah.~
+@402 /*Rose*/ = ~Also, wirst du mir helfen, es zurückzubekommen?~
+
+@403 /*Rose*/ = ~Oh, das ist einfach. Einer meiner ehemaligen Kunden war ein exzentrischer Zauberer, besessen von magischen Gegenständen. Er ist jetzt tot, hat sich mit den Vermummten Magiern angelegt, aber bevor er starb, gab er mir diese verzauberte Tasche als Geschenk.~
+@404 /*Rose*/ = ~Sie fasst nur Bücher, aber eine Menge davon ... Ich habe es immer noch nicht geschafft, das Ding zu füllen. Immer wenn du mir ein neues Buch bringst, bewahre ich es hier auf, bis ich nach Hause gehe.~
+@405 /*Rose*/ = ~Meine eigentliche Bibliothek ist bisher nur ein großer Raum, aber Terl hat mir viele Regale gebaut. Hauptsächlich, damit er nicht mehr über meine Bücher stolpert.~
+@406 /*Rose*/ = ~Also, <CHARNAME>, kannst du dieses für mich zurückholen?~
+
+//Abenteurermarkt-Gespräche
+//Ribald
+@407 /*CHARNAME*/ = ~Ich suche einen Mann namens Gereth, und ich habe gehört, er könnte hier sein.~
+@408 /*Ribald*/ = ~Ach, natürlich. Er ist am Eingang, wenn du mit ihm sprechen möchtest.~
+@409 /*Ribald*/ = ~Weißt du, dieser Kerl war früher einer meiner schlimmsten Kunden, stand in der Ecke und verlangte, dass ich ihm allerlei seltene und nutzlose Dinge besorge. Konnte nie einfach die vorhandene Ware kaufen.~
+@410 /*Ribald*/ = ~Allerdings hat er in letzter Zeit Geld ausgegeben. Er hat sogar teure Zauberkomponenten gekauft, die für die Verzauberung von Golems verwendet werden, wenn der alte Ribald richtig liegt.~
+
+//Gereth
+@411 /*Gereth*/ = ~Wer seid ihr? Was wollt ihr?~
+@412 /*CHARNAME*/ = ~Du hast etwas, das Rose Blumenstrauß gehört.~
+@413 /*CHARNAME*/ = ~Ich werde dieses Buch zurückbrauchen, Gereth.~
+@414 /*CHARNAME*/ = ~Das Golem-Bau-Buch. Gib es mir oder stirb.~
+@415 /*CHARNAME*/ = ~Ich bin hier, um dir den Unterschied zwischen einer Bibliothek und einem Buchladen zu erklären. Das Stichwort: "Ausleihen".~
+@416 /*Gereth*/ = ~Nein! Dieses Buch und all seine Geheimnisse sind mein! Ich gebe es nie zurück! Nie! Nicht, wo ich so kurz davor bin!~
+@417 /*Gereth*/ = ~Ihr werdet mir nie meine wunderschönen Schöpfungen nehmen!~
+
+//Nach der Flucht
+@418 /*CHARNAME*/ = ~Weißt du, wohin Gereth gegangen sein könnte?~
+@419 /*Ribald*/ = ~Kann ich nicht sagen, aber mein Türwächter könnte mehr wissen. Wenn du Gereth findest, sag ihm, dass er mir noch zehn Gold für die letzte Lieferung schuldet.~
+@420 /*Door Guard*/ = ~Dieser spindelige Zauberer? Wir waren nie freundlich, aber ich habe ihn kürzlich über scharfe Zähne murmeln hören.~
+@421 /*Door Guard*/ = ~Die Wachen an den Stadttoren verfolgen Reisende. Du könntest sie fragen, Bürger, und lass mich meine Arbeit machen.~
+
+//Stadttor-Wache
+@422 /*CHARNAME*/ = ~Hast du kürzlich einen Zauberer hier vorbeikommen sehen? Name Gereth?~
+@439 /*CHARNAME*/ = ~Hier ist dein Geld. Sag mir jetzt, was du über Gereth weißt.~
+@440 /*CHARNAME*/ = ~Wohin ist Gereth nochmal gegangen?~
+@423 /*Gate Guard*/ = ~Könnte sein. Was ist's dir wert?~
+@424 /*CHARNAME*/ = ~Wie wär's mit 50 Gold?~
+@425 /*CHARNAME*/ = ~Ich schlag dir nicht das Gesicht ein.~
+@426 /*CHARNAME*/ = ~Bitte, mein Herr, es ist eine Frage von Leben und Tod!~
+@427 /*Gate Guard*/ = ~Willst du etwa einen ehrbaren, aufrechten Angehörigen der Athkatla-Wache bestechen?~
+@428 /*Gate Guard*/ = ~Willst du etwa einen ehrbaren, aufrechten Angehörigen der Athkatla-Wache bedrohen?~
+@429 /*Gate Guard*/ = ~Willst du etwa einen ehrbaren, aufrechten Angehörigen der Athkatla-Wache betrügen?~
+@430 /*Gate Guard*/ = ~Na gut. War mir ein Vergnügen, mit dir Geschäfte zu machen.~
+@431 /*Gate Guard*/ = ~Na gut. Na gut. Ich will keinen Ärger.~
+@432 /*Gate Guard*/ = ~*seufz* Nun, wenn es dir so viel bedeutet.~
+@433 /*Gate Guard*/ = ~500 Gold oder nichts.~
+@434 /*CHARNAME*/ = ~Na gut.~
+@435 /*CHARNAME*/ = ~Ich habe nicht so viel Geld.~
+@436 /*CHARNAME*/ = ~Das werde ich nicht bezahlen.~
+@437 /*Gate Guard*/ = ~Ich kenn den Mann, den du suchst. Er ist oft genug vorbeigekommen, dass es mir aufgefallen ist. Ich weiß nicht genau, wo er hingeht, aber ich hab ihn vor Kurzem den Pass der Kleinen Zähne erwähnen hören. Ich würd da zuerst suchen.~
+@438 /*Gate Guard*/ = ~Dann sag ich nix. Komm wieder, wenn du Münzen hast.~
+@441 /*Gate Guard*/ = ~Ich hab dir gesagt, ich weiß es nicht genau. Aber ich würd den Pass der Kleinen Zähne checken.~
+
+//Pass der Kleinen Zähne
+@442 /*Gereth*/ = ~Schon wieder ihr? Warum stört ihr meine Forschung?~
+@443 /*CHARNAME*/ = ~Du schuldest Rose ein Buch, Gereth. Ich bin hier, um es einzusammeln.~
+@444 /*CHARNAME*/ = ~Kein Grund. Dachte nur, ich mache einen Spaziergang durch diesen schönen Bergpass. Vielleicht sehe ich, ob jemand ein teures Buch über Golems hat liegen lassen.~
+@445 /*CHARNAME*/ = ~Ich bin hier, um sicherzustellen, dass du das Konzept einer Bibliothek verstehst. Man *leiht* Bücher aus, man behält sie nicht.~
+@446 /*Gereth*/ = ~Nein! Dieses Buch ist mein! Mein!~
+@447 /*Gereth*/ = ~Niemand wird mir diese Macht nehmen! Niemand! Im Feuer wird meine Armee geboren werden!~
+@448 /*Gereth*/ = ~Tötet sie! Tötet sie alle!~
+
+//Gereth, wenn er nahe dem Tod ist
+@449 /*Gereth*/ = ~Wartet! Wartet! Bitte tötet mich nicht! Ich entschuldige mich für alles.~
+@450 /*Gereth*/ = ~Ihr könnt das Buch zurücknehmen. Hier!~
+@452 /*Gereth*/ = ~Ohne eure Einmischung hätte ich eine Armee aufbauen und meine Kollegen endlich zwingen können, mich anzuerkennen. Aber das ist jetzt alles ruiniert.~
+@451 /*Gereth-falls Golem*/ = ~Ich bin sicher, ihr könnt meine Schöpfungen auch ohne meine Hilfe erledigen.~
+@453 /*Gereth*/ = ~*seufz* Zurück zum Abenteurermarkt, nehme ich an. Gebt das Buch Rose und sagt ihr, dass ich sie nicht wieder belästigen werde.~
+
+//Letztes Rose-Gespräch
+@454 /*CHARNAME*/ = ~Ich habe das Golem-Buch.~
+@455 /*Rose*/ = ~Oh, danke, <CHARNAME>! Ich hoffe, dieser törichte Zauberer hat dir nicht allzu viel Ärger bereitet. Aber nach diesem wird sich niemand mehr trauen, die Rückgabefrist für eines meiner Bücher zu verpassen.~
+@456 /*Rose*/ = ~Nochmals vielen Dank für all deine Hilfe. Du hast eine Belohnung verdient, und ich lasse nicht mit mir reden.~
+@457 /*Rose*/ = ~Tatsächlich habe ich mehrere magische Bände, die dich interessieren könnten. Einer meiner ehemaligen Stammkunden hat kürzlich seine gesamte Büchersammlung an meine Bibliothek gespendet. Er sagte mir, das würde seinen nichtsnutzigen Kindern eine Lehre sein.~
+@458 /*Rose*/ = ~Also, welches davon möchtest du als Belohnung?~
+@459 /*CHARNAME*/ = ~Das Handbuch der körperlichen Gesundheit (+1 Kon)~
+@460 /*CHARNAME*/ = ~Das Handbuch der nützlichen Übung (+1 Stä)~
+@461 /*CHARNAME*/ = ~Das Handbuch der schnellen Bewegung (+1 Gew)~
+@462 /*CHARNAME*/ = ~Die Schriftrolle der klaren Gedanken (+1 Int)~
+@463 /*CHARNAME*/ = ~Die Schriftrolle der Führung und des Einflusses (+1 Cha)~
+@464 /*CHARNAME*/ = ~Die Schriftrolle des Verständnisses (+1 Wei)~
+@465 /*Rose*/ = ~Bitte sehr. Nochmals vielen Dank für all deine Hilfe, und wenn du weitere Bücher findest, weißt du ja, wo ich bin.~
+
+
+//Tagebucheinträge
+@999 /*Initial Clara Nudge*/ = ~Ein Gefallen für Clara
+
+Clara hofft, dass wir im Brückenbezirk anhalten können, damit sie eine Freundin besuchen kann.~
+
+@1000 /*Initial Rose Request*/ = ~Eine Bitte von Rose Blumenstrauß
+
+Clara hat einen Brief von Rose Blumenstrauß im Brückenbezirk erhalten. Wenn wir das nächste Mal in der Gegend sind, sollten wir mit Rose sprechen und herausfinden, was sie möchte. Es könnte lukrativ sein.~
+
+@1001 /*Rose's Library*/ = ~Eine Bibliothek für Rose
+
+Rose Blumenstrauß hat Clara gebeten, ihr Bücher und Dokumente zu bringen, damit sie eine Bibliothek aufbauen kann. Eine seltsame Angewohnheit für eine Kurtisane, aber es ist nicht so, als ob sonst jemand an dem meisten Zeug interessiert wäre. Wenigstens ist Rose bereit, es uns abzunehmen.~
+
+@1002 /*Note about Tanner Letter - the text in quotes is from the game itself*/ = ~Rejiek Hidesmans Brief
+
+Ich habe Rose Blumenstrauß den Brief des Gerbers für ihre neue Bibliothek gegeben. Es war eine düstere Erinnerung an diese Morde, und ich bin froh, ihn los zu sein. Aber falls ich jemals Rejieks Meister aufspüren muss, habe ich hier einige Informationen aus dem Brief kopiert:
+
+„Sucht mich in den Hügeln von Umar und zeigt eure Identität durch den Kauf des Buches ‚Die Geschichte der Zentariim‘. Das wird euch ausweisen. Ihr müsst auch meinen geheimen Namen aussprechen, der aus dem Namen eures unmittelbaren Meisters gebildet wird.
+
+Unsere Namen sind gleich in ihrem Umfang und ihrem Schnitt.
+Der letzte seiner beginnt so wie der erste von mir.
+Der zweite meines ersten ist der zweite seines ersten, jedoch um vier volle Schritte zurückgenommen.
+Der dritte meines ersten ist vier mehr als der letzte seines ersten.
+Das gesamte letzte meines ersten ist das letzte seines ersten, außer der erste davon ist der erste meines letzten.
+Der erste seines letzten ist meiner plus eins.
+Der nächste meines letzten ist der letzte seines ersten plus eins.
+Die letzten meines letzten sind dritt und zweit, die bei ihm zuerst kommen."
+
+Ein Rätsel, offensichtlich. Obwohl ich es noch nicht gelöst habe. Ich glaube, der unmittelbare Meister, von dem der Brief spricht, war der Magier Vellin Dahn. Ich habe gegen ihn gekämpft, als der Gerber floh.~
+
+@1003 /*Note about potion list*/ = ~Jadaraths Liste der Tränke
+
+Rose Blumenstrauß war froh, dieses Papier von mir zu nehmen, aber ich dachte, es wäre besser, mir eine Erinnerung aufzuschreiben, falls ich jemals zusätzliche Münzen brauchen sollte. Jadarath hat zugestimmt, für jeden Trank auf dieser Liste, den ich ihm bringe, eine Zahlung zu leisten.
+
+1. Trank der Unsichtbarkeit
+2. Öl der Schnelligkeit
+3. Trank der Kälteresistenz
+4. Trank der Explosionen
+5. Trank der Widerstandskraft
+6. Trank der Isolation
+7. Trank der Magieblockade
+8. Trank der gespiegelten Augen
+9. Trank der Macht
+10. Trank der Einsicht
+11. Trank der Freiheit
+12. Trank der Steingestalt~
+
+@1004  /*Directions out of Maze*/ = ~Yakmans Tagebuch
+
+Obwohl Rose das Buch selbst hat, schien dieser Teil der wirren Rede des verrückten Elfen recht relevant:
+
+"Ich steh im Raum, der mir den Weg zeigt,
+und muss von hier entfliehn.
+Ich flieh zur Sonne, die grad aufgeht,
+find nah den Stein, der rund und kühn."
+
+"Von dort aus geh ich, wie ich begann,
+und sprach mit dem Dämon.
+Er heißt mich südlich weiterzieh'n,
+zu rennen, ohne Schon."
+
+"Südlich, bis ich den Obelisk find',
+mit Runen auf jeder Seit'.
+Die untergehnde Sonne zieht mich fort,
+in ihre rote Glut, so weit."
+
+"Von dort flieh ich zum kältesten Nord,
+und leg mich untern Baum.
+Doch selbst dort ruft der Norden noch,
+denn Norden ist mein Raum." ~
+
+@1005 /*Quest Title*/ = ~Überfällige Bücher~
+@1006 /*Start 2nd Quest*/ = ~Sprecht mit Rose Blumenstrauß
+
+Terl machte wieder einen Abstecher. Ich weiß wirklich nicht, wie dieser Mann uns immer aufspürt. Vielleicht war er in einem früheren Leben ein Bluthund. Aber Terl teilte Clara und mir mit, dass Rose Blumenstrauß mit uns über ihre Bibliothek sprechen möchte. Es scheint, dass etwas schiefgelaufen ist.~
+
+@1007 /*Refused Quest*/ = ~Ich bin kein Bibliothekar
+
+Ich weigerte mich, ein überfälliges Bibliotheksbuch für Rose Blumenstrauß zurückzuholen. Ich habe besseres zu tun, als mich mit solchen Kleinigkeiten zu befassen. Merken die Leute nicht, dass ich jetzt ein Held bin? Rose nahm es immerhin gut auf, und ich sollte in der Lage sein, weiterhin meine überschüssigen Bücher bei ihr zu entsorgen.~
+
+@1008 /*Accepted Quest*/ = ~Fällige Strafgebühren
+
+Ich erklärte mich bereit, ein fehlendes Buch für Rose Blumenstrauß aufzuspüren. Anscheinend weigert sich ein Magier-Gelehrter namens Gereth, das Buch zurückzugeben, das er aus ihrer Bibliothek ausgeliehen hat. Sie möchte, dass ich dafür sorge, dass der Magier nicht damit davonkommt, und denkt, dass ich ihn möglicherweise im Abenteurermarkt in Waukeens Promenade finden kann.~
+
+@1009 /*Post Gereth*/ = ~Bücherdieb!
+
+Ich fand Gereth im Abenteurermarkt, aber er weigerte sich, mir das Bibliotheksbuch zu geben, und teleportierte sich weg, bevor ich energischer insistieren konnte. Wenn ich Roses Buch zurückholen will, muss ich herausfinden, wohin er gegangen ist. Hoffentlich hat jemand im Abenteurermarkt eine Idee, wo ich anfangen soll, da Gereth offenbar ein SEHR treuer Kunde war.~
+
+@1010 /*Post City Guard*/ = ~Auf der Spur
+
+Ich sprach mit der Wache an den Stadttoren, und nach etwas Überzeugungsarbeit sagte er mir, dass Gereth regelmäßig aus der Stadt gereist ist. Die Wache ist sich nicht sicher, aber sie glaubt, dass der Magier zum Pass der Kleinen Zähne gegangen sein könnte.~
+
+@1011 /*Post Gereth*/ = ~Das Buch in der Hand
+
+Ich verfolgte Gereth zum Pass der Kleinen Zähne und entdeckte, dass der Magier Golems für einen unbekannten Zweck baute. Nachdem ich mich durch seine Kreationen gekämpft hatte, konnte ich Roses Buch zurückholen, bevor Gereth nach Athkatla floh. Ich sollte das Buch an seinen rechtmäßigen Besitzer zurückgeben und meine Belohnung abholen. Ich hoffe, sie weiß zu schätzen, was ich durchgemacht habe, um ihre Bibliothek zu unterstützen.~
+
+@1012 /*Finished 2nd Quest*/ = ~Wieder im Regal
+
+Ich habe das Golem-Bau-Buch an Rose Blumenstrauß zurückgegeben und sowohl ihre Dankbarkeit als auch die versprochene Belohnung erhalten. Ich hätte es mir denken können, dass es buchbezogen sein würde, aber es war trotzdem ein wertvoller Preis. Hoffentlich erkennen ihre anderen Kunden die Zeichen an der Wand und ich muss keine weiteren säumigen Ausleiher jagen.~

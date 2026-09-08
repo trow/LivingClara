@@ -1,0 +1,24 @@
+@1 /*Hexxat Dead- create bag*/ = ~Du besiegst den Vampir, aber sie verwandelt sich in Nebel und verschwindet schnell. An der Stelle, wo sie stand, bleibt nur ein alter Sack zurück, den sie in der Eile nicht mitnehmen konnte.~
+@2 /*Hexxat Dead- have bag but not stake*/ = ~Mit dem Geruch des Sacks als Spur entdeckst du, dass der Vampir nach der Niederlage in diesen Sarg geflüchtet ist. Wenn du einen hölzernen Pfahl besitzt, könntest du versuchen, sie vollständig zu zerstören.~
+@3 /*Hexxat dead- have bag and stake*/ = ~Als der Zauber wirkt, wird die freigesetzte Lebenskraft in den Körper des armen Opfers zurückgeleitet und ihr Atem kehrt wieder.~
+@4 /*Journal*/ = ~Dragomirs Grab war eine Falle. Die Person, die ich als Hexxat kannte, war ein Diener unter der Kontrolle eines Vampirs, der mit mir sprechen wollte. Aber ich verhandle nicht mit Monstern. Ich habe den Vampir getötet und die Seele dieses Mädchens befreit. Hoffentlich kann sie jetzt besser Gespräche führen.~
+
+@11 = ~Treibe den hölzernen Pfahl durch ihr verfluchtes Herz.~
+@12 = ~Lass es vorerst dabei bewenden.~
+@13 = ~Suche zuerst den hölzernen Pfahl.~
+@20 = ~Die Lebenskraft dieses armen Opfers wurde vollständig ausgesaugt. Nun der Täter vernichtet ist, wurde die gestohlene Vitalität freigesetzt. Vielleicht könnte ein Wiederherstellungszauber oder Ähnliches helfen.~
+@21 = ~Lass <PLAYER1> Geringe Wiederherstellung wirken.~
+@22 = ~Lass <PLAYER2> Geringe Wiederherstellung wirken.~
+@23 = ~Lass <PLAYER3> Geringe Wiederherstellung wirken.~
+@24 = ~Lass <PLAYER4> Geringe Wiederherstellung wirken.~
+@25 = ~Lass <PLAYER5> Geringe Wiederherstellung wirken.~
+@26 = ~Lass <PLAYER6> Geringe Wiederherstellung wirken.~
+@30 = ~Benutze eine Schriftrolle der Wiederherstellung.~
+@31 = ~Lass <PLAYER1> Wiederherstellung wirken.~
+@32 = ~Lass <PLAYER2> Wiederherstellung wirken.~
+@33 = ~Lass <PLAYER3> Wiederherstellung wirken.~
+@34 = ~Lass <PLAYER4> Wiederherstellung wirken.~
+@35 = ~Lass <PLAYER5> Wiederherstellung wirken.~
+@36 = ~Lass <PLAYER6> Wiederherstellung wirken.~
+@40 = ~Lass sie vorerst in Ruhe.~
+@41 = ~Bereite zuerst den Zauber vor.~

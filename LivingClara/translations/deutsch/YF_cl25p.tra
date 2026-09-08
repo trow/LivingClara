@@ -1,0 +1,20 @@
+//Wenn du Clara rauswirfst
+@0 /*Clara*/ = ~Also das war's dann?~
+@1 /*Player*/ = ~Nein, ich möchte, dass du bleibst.~
+@2 /*Player*/ = ~Warte einfach hier. Ich komme zurück.~
+@3 /*Player*/ = ~Geh zurück in meine Taschenebene. Ich finde dich dort später.~
+@4 /*Clara*/ = ~Uggh, na gut. Lass mich einfach in der Hölle zurück. Aber dieser Ort ist schrecklich, also komm besser bald zurück.~
+@5 /*Clara*/ = ~Gut. Ich warte. Aber du solltest besser bald zurückkommen.~
+@6 /*Clara*/ = ~Uggh, na gut. Schick mich einfach zurück in die Hölle, wann immer du mich nicht willst. Aber deine Taschenebene ist super langweilig, also hol mich besser bald!~
+
+//Wenn sie in der Taschenebene auf dich wartet
+@7 /*Clara*/ = ~Hi, <CHARNAME>. Kann ich *bitte* hier raus?~
+@8 /*Player*/ = ~Ja. Dann komm schon.~
+@9 /*Player*/ = ~Entschuldigung, Clara. Ich brauche dich noch nicht.~
+@10 /*Clara*/ = ~Endlich! Auf geht's!~
+@11 /*Clara*/ = ~Uggh, na gut. Ich rede mit Cespanar. Er erzählt mir Geschichten über die Höllenebenen, und die sind wirklich interessant.~
+
+//Nicht in der Taschenebene
+@12 /*Clara*/ = ~Hi, <CHARNAME>. Bist du hier, um mich zurückzuholen?~
+@13 /*Player*/ = ~Tut mir leid, Clara. Warte einfach hier auf mich.~
+@14 /*Clara*/ = ~Klar, <CHARNAME>, es sei denn, ich bekomme ein besseres Angebot.~

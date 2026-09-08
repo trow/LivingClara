@@ -1,0 +1,10 @@
+//Letztes Solaris-Gespräch
+
+@1 /*Clara*/ = ~Wow, <CHARNAME>. Du hast die Chance, ein Gott zu werden und all das hinter dir zu lassen. Wenn du dich für gewaltige Macht entscheidest, vergiss uns kleine Leute nicht, die dir geholfen haben, bis hierher zu kommen.~
+
+//Hexxat-Gespräch
+@2 /*Hexxat*/ = ~Vergib mir, Clara ... Das ist der einzige Weg.~ [OH81268]
+@3 /*Clara*/ = ~Die Schläferin ... sie erwacht! Herrin, ich habe getan, was du befohlen hast – bitte lass mich leben!~ [OH81267]
+@4 /*Clara*/ = ~Nein, du kontrollierst mich nicht mehr! Ich bin nicht deine Sklavin!~
+@5 /*Hexxat*/ = ~Ich brauche keine Sklavin; ich lebe.~
+@6 /*Hexxat*/ = ~Du lebst auch. Lasst uns den <DAYNIGHTALL> genießen.~

@@ -260,6 +260,7 @@ DO ~SetGlobal("YF_ACTestTalk","GLOBAL",6)~
 == YF_CLARJ @156 /*I'm sure that everything will work out as it should, Anomen.*/
 == ANOMENJ @157 /*I hope that you are right, my lady. I have depended on your counsel up until this point, and it has always been good. Still, I am troubled within.*/
 = @158 /*I will be glad to have it all over with.*/
+== YF_CLARJ @1580
 EXIT
 
 //11th Talk, Failed Test

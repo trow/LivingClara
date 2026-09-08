@@ -1,0 +1,59 @@
+//Imoen-Buch-Gespräch
+@1 /*Imoen*/ = ~Na ... was liest du denn da?~
+@2 /*Neera*/ = ~"Das Grimorium der absoluten Vernichtung"! Das würdest du lieben!~
+@3 /*Imoen*/ = ~"...aus dem Gnömischen übersetzt, mit allen Originalillustrationen." Oh, sexy.~
+@4 /*Imoen*/ = ~Kann ich über deine Schulter mitlesen?~
+@5 /*Neera*/ = ~Klar! Ruck mal näher. Du kannst mir helfen, manches davon zu verstehen – ich glaube nicht, dass ich alles richtig kapiere.~
+
+//Nalia-Buch-Gespräch
+@6 /*Nalia*/ = ~Neera, du liest dieses Buch in jeder freien Minute. Was ist das?~
+@7 /*Neera*/ = ~Oh, das? Das ist "Das Grimorium der absoluten Vernichtung"! Das ist der Hammer!~
+@8 /*Neera*/ = ~Allerdings bin ich mir nicht sicher, ob ich alles verstehe, und ich will keinen Fehler machen.~
+@9 /*Neera*/ = ~Willst du es mal lesen?~
+@10 /*Nalia*/ = ~Oh, darf ich? Das wäre wunderbar. Ich erinnere mich an die Zauberbücher in der Burg meines Vaters ... so viele schöne Stunden ...~
+@11 /*Nalia*/ = ~Danke, Neera!~
+
+//Aerie-Buch-Gespräch
+@12 /*Aerie*/ = ~I-ist das ein gnomisches Buch, das du da liest? Es sieht genau aus wie die, mit denen mein Onkel Quayle mich unterrichtet hat.~
+@13 /*Aerie*/ = ~Kannst du auch Gnömisch lesen?~
+@14 /*Neera*/ = ~Ich? Nein, das ist ins Gemeine übersetzt. Hat aber alle Originalbilder. Kennst du das?~
+@15 /*Aerie*/ = ~"Das Grimorium der absoluten Vernichtung." Bist du sicher, dass das sicher ist?~
+@16 /*Neera*/ = ~Natürlich nicht. Es handelt davon, die Kraft des Universums zu bündeln, um Dinge in die Luft zu jagen!~
+@17 /*Neera*/ = ~Willst du es ausleihen, wenn ich es gerade nicht lese?~
+@18 /*Aerie*/ = ~Oh, darf ich? Danke, Neera! Manchmal jage ich auch gerne Dinge in die Luft.~
+
+//CN-Buch-Gespräch
+@19 /*Neera*/ = ~<CHARNAME>, Clara hat mir ein Buch gegeben, von dem ich dachte, dass du es dir vielleicht ansehen möchtest.~
+@20 /*Neera*/ = ~Es heißt "Das Grimorium der absoluten Vernichtung." Du kannst es ausleihen, wenn ich es nicht lese, wenn du möchtest.~
+@21 /*CHARNAME*/ = ~Danke, Neera, ich werde es mir ansehen.~
+@22 /*CHARNAME*/ = ~Nein danke, Neera, ich habe es schon gelesen. Im Original auf Gnömisch!~
+@23 /*CHARNAME*/ = ~Tut mir leid, Neera, ich lese nicht gerne.~
+@24 /*Neera*/ = ~Gern geschehen! Du schuldest mir was.~
+@25 /*Neera*/ = ~Natürlich hast du das. Na gut ... dann eben nicht!~
+@26 /*Neera*/ = ~Hab ich gemerkt. Dein Verlust.~
+
+//Edwin-Buch-Gespräch
+@27 /*Edwin*/ = ~"Das Grimorium der absoluten Vernichtung", AUS dem Gnömischen übersetzt?~
+@28 /*Edwin*/ = ~Was, hat jemand während des Gnömisch-Unterrichts geschlafen?~
+@29 /*Neera*/ = ~Ich hatte nie Gnömisch-Unterricht, also von wegen.~
+@30 /*Neera*/ = ~Warum belästigst du mich überhaupt? Sag bloß, du willst es ausleihen.~
+@31 /*Edwin*/ = ~Dein "Grimorium für Idioten" ausleihen? Nein, ich habe die echte Version bereits gelesen ... natürlich auf Gnömisch.~
+@32 /*Neera*/ = ~Arschloch.~
+
+//Jan-Buch-Gespräch
+@33 /*Jan*/ = ~Ist das "Das Grimorium der absoluten Vernichtung"? Das habe ich noch nie gelesen.~
+@34 /*Neera*/ = ~Willst du es ausleihen?~
+@35 /*Jan*/ = ~Du hast mir eine Version besorgt, die AUS dem Gnömischen übersetzt wurde?~
+@36 /*Jan*/ = ~Dir ist wohl nicht klar, Neera, aber ich kann Gnömisch lesen, also hätte es mehr Sinn ergeben, mir eine Version zu besorgen, die INS Gnömische übersetzt wurde.~
+@37 /*Neera*/ = ~Das weiß ich! Ich habe es nicht für ...~
+@38 /*Jan*/ = ~Ich könnte es wohl selbst ins Gnömische übersetzen. Ich sehe es schon vor mir: "Das Grimorium der absoluten Vernichtung, aus dem Gnömischen übersetzt und mit allen Originalillustrationen, nun von Jan Jansen zurück ins Gnömische übersetzt."~
+@39 /*Jan*/ = ~Das hat alles, was ein Bestseller braucht. Na gut, nicht unter euch Menschen, natürlich, da keiner von euch Gnömisch lesen kann ...~
+@40 /*Neera*/ = ~Ich bin ein Halbelf!~
+@41 /*Jan*/ = ~Ich sehe auch nicht, dass ihr Elfen es wirklich kauft, da ihr alle viel zu hochnäsig seid, um Gnömisch zu lernen.~
+@42 /*Neera*/ = ~Ich bin ein HALBELF! Ein Elternteil war ein Elf und ein Elternteil war ein Mensch!~
+@43 /*Jan*/ = ~Ich habe übrigens auch nie Elbisch gelernt. Eigentlich weiß ich nicht, wie wir dieses Gespräch führen konnten, da ich Gnömisch spreche und du auf Elbisch brabbelst.~
+@44 /*Neera*/ = ~Wir. Sprechen. Beide. Gemein-Sprache!~
+@45 /*Jan*/ = ~Schon wieder, Schätzchen, tust du so, als ob ich dich verstehen könnte.~
+@46 /*Jan*/ = ~Ich werde mir dein Buch aber ausleihen, danke!~
+@47 /*Jan*/ = ~Oh schau, es ist auf Gemein-Sprache! Dir ist vielleicht nicht klar, da ich ein Gnom bin und du kein Wort verstehst, was ich sage, aber ich kann auch Gemein-Sprache lesen.~
+@48 /*Neera*/ = ~Aaaaaah!~

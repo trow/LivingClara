@@ -32,8 +32,8 @@ LANGUAGE ~Russian~ ~russian~
 		 ~LivingClara/translations/russian/setup.tra~
 LANGUAGE ~French~ ~french~
 		 ~LivingClara/translations/french/setup.tra~
-
-
+LANGUAGE ~Deutsch~ ~deutsch~
+		 ~LivingClara/translations/deutsch/setup.tra~
 
 BEGIN @1 /*~Living Clara~*/        //Any text written after Begin will appear as XXX in the Weidu install: Install XXX?
 DESIGNATED 0 LABEL ~LivingClara-main~

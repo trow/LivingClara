@@ -1,0 +1,30 @@
+//Schicksalsgeist-Dialog für die Beschwörung von Clara
+@0 /*Charname*/ = ~Bringt mir Clara, die Schattentänzerin.~
+
+//wenn du sie zuvor gerettet hast
+@1 /*Clara*/ = ~Hey, <CHARNAME>, du hast die edle Caroline Louisa Audrey Rosanna Alexandra ... beschworen?~
+@2 /*Player*/ = ~Schon gut, Clara, das hier ist meine eigene Taschenebene, und alle hier sind Freunde. Ich habe dich gerufen, weil ich möchte, dass du dich meiner Gruppe anschließt.~
+@3 /*Player*/ = ~Schluss jetzt – alles, was du wissen musst, ist, dass du wieder zum Team stoßen musst.~
+@4 /*Player*/ = ~Ich brauche deine Stärke auf meiner Reise, Caroline. Bitte hilf mir.~
+@5 /*Player*/ = ~Entschuldigung, Clara. Ich habe es mir anders überlegt. Warte einfach hier.~
+@6 /*Clara*/ = ~Na gut, <CHARNAME>, da du mich gerufen hast, bleibt mir wohl nichts anderes übrig. Dann lass uns loslegen.~
+@7 /*Clara*/ = ~Direkt und auf den Punkt wie immer, <CHARNAME>. Aber genau deshalb mag ich dich. Auf geht's!~
+@8 /*Clara*/ = ~Oh, <CHARNAME>, ich helfe dir doch gerne. Dann lass uns die Reise fortsetzen.~
+@9 /*Clara*/ = ~Du willst mich einfach hier zurücklassen? Das ist nicht nett.~
+@10 /*Clara*/ = ~Na gut, ich warte. Sieht aus, als hätte ich nicht viel Wahl.~
+
+//wenn du sie zuvor nicht gerettet hast
+@11 /*Clara*/ = ~Was? Wo bin ich? Wer bist du? Du siehst bekannt aus, aber ich kann mich nicht wirklich erinnern … es fühlt sich alles an wie ein böser Traum.~
+@12 /*Player*/ = ~Herzlichen Glückwunsch, du gehörst jetzt zur Gruppe. Ich hoffe, du hast ein paar nützliche Fähigkeiten.~
+@13 /*Player*/ = ~Wir sind kurz gemeinsam gereist, und ich brauche deine Hilfe noch einmal.~
+@14 /*Player*/ = ~Ich weiß nicht, was ich mir dabei gedacht habe. Ich rufe lieber jemand anderen.~
+@15 /*Clara*/ = ~Ich denke schon … ich bin so verwirrt.~
+@17 /*Clara*/ = ~Das war <CHARNAME>, oder? Ich glaube, ich erinnere mich. Vielleicht kannst du mir mehr erzählen.~
+@18 /*Clara*/ = ~Du willst mich einfach hier zurücklassen? Das ist nicht nett.~
+
+//Wenn sie wartet und sich dir zuvor nicht angeschlossen hat
+@20 /*Clara*/ = ~Oh, <CHARNAME>. Du bist zurück. Kann ich jetzt mit dir reisen?~
+@21 /*Player*/ = ~Ja, Clara. Komm mit mir.~
+@22 /*Player*/ = ~Entschuldigung. Ich brauche dich noch nicht.~
+@23 /*Clara*/ = ~Meinst du das ernst? Oh, Gott sei Dank. Lass uns hier verschwinden.~
+@24 /*Clara*/ = ~Im Ernst? Na gut. Dann lass mich hier verhungern.~
