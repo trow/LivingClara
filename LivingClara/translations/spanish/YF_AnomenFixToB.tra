@@ -1,0 +1,35 @@
+// Anomen Romance Fix
+@0 /*Anomen*/ = ~Mi señora, me temo que hemos tenido un malentendido. Deseo que continuemos como antes. ¿Puede perdonarme?~
+@1 /*CHARNAME*/ = ~No, Anomen, solo deseo que sigamos siendo amigos.~
+@2 /*CHARNAME*/ = ~Por supuesto, Anomen. Todo está perdonado.~
+
+//Talk to let you choose Anomen's past in new game
+@3 /*Anomen*/ = ~<CHARNAME>, háblame de nuestro tiempo juntos en Athkatla. ¿Pasé mi prueba? ¿Soy un caballero de la Orden del Corazón Radiante?~
+@4 /*CHARNAME*/ = ~Sí, lo lograste. Eres un caballero. Sin embargo, tu padre te ha desheredado.~
+@5 /*CHARNAME*/ = ~No, fallaste. Fuiste expulsado de la Orden.~
+@6 /*CHARNAME*/ = ~Todavía no has hecho la prueba. Apenas hemos viajado juntos por Amn.~
+@7 /*Anomen*/ = ~Ya veo. ¿Tenía algún vínculo romántico?~
+@8 /*CHARNAME*/ = ~Sí, conmigo.~
+@9 /*CHARNAME*/ = ~Bueno, intentaste cortejar a Clara, pero ella te dejó por tu padre.~
+@10 /*CHARNAME*/ = ~No, no tenías ninguno.~
+@11 /*CHARNAME*/ = ~Nos confesamos nuestro amor. Saerk fue declarado culpable del asesinato de tu hermana, y tu padre fue a enfrentarse a él y también murió. También nos enfrentamos a Saerk, pero decidimos irnos pacíficamente y dejar que la justicia de la ciudad siguiera su curso.~
+@12 /*Anomen*/ = ~Es bastante deprimente, pero al menos cumplí el sueño de mi vida al unirme a la Orden.~
+@13 /*Anomen*/ = ~Sigamos adelante.~
+
+@14 /*Anomen*/ = ~Sí, con Clara.~
+@15 /*Anomen*/ = ~Entonces, ¿qué pasó, mi amor?~
+@16 /*CHARNAME*/ = ~Nos confesamos nuestro amor, pero tu padre intentó desheredarte, así que lo matamos.~
+@1600 /*CHARNAME*/ = ~Nos confesamos nuestro amor, pero luego las autoridades de Athkatla informaron de que Saerk no era responsable de la muerte de tu hermana. Tu padre te desheredó, así que fuiste a enfrentarte a él. Juntos decidimos perdonarle la vida.~
+@1601 /*Anomen*/ = ~El viejo borracho finalmente obtuvo lo que merecía. ¿Y luego qué?~
+@1602 /*CHARNAME*/ = ~Luego culpamos del crimen a unos bandidos, y te convertiste en Lord Delryn. Pagamos a un Mago Encapuchado para investigar el asesinato de Saerk y limpiar tu nombre. Saerk es oficialmente un villano y nosotros somos oficialmente héroes.~
+@1603 /*CHARNAME*/ = ~Así que perdí la Orden, a mi familia y mi hogar. Todo lo que tengo eres tú, mi amor.~
+@17 /*Anomen*/ = ~Eso es excelente. Siempre supe que estábamos hechos el uno para el otro. ¿Algo más?~
+@18 /*CHARNAME*/ = ~También resolvimos por completo los problemas de seguridad derivados de la guerra de gremios. Cuando te reuniste con el Consejo de los Seis varios meses después, te ofrecieron el puesto vacante en el Consejo, a condición de que te convirtieras en uno de los señores más ricos de Amn.~
+@19 /*Anomen*/ = ~He estado muy ocupado. Sigamos, mi amor.~
+
+@20 /*Anomen*/ = ~Entonces, ¿qué pasó?~
+@21 /*CHARNAME*/ = ~Tú y Clara os confesasteis vuestro amor y os casasteis. Tu padre intentó desheredarte, así que lo matamos y culpamos del asesinato a unos bandidos para que tú y Clara os convirtierais en Lord y Lady Delryn. Luego pagamos a un Mago Encapuchado para que investigara el asesinato de Saerk y limpiara tu nombre. Saerk es oficialmente un villano y todos somos oficialmente héroes.~
+@22 /*Anomen*/ = ~He estado muy ocupado. Sigamos.~
+
+//DSA Romance Banter Fix 1
+@23 /*Anomen*/ = ~Tienes razón, <CHARNAME>. Cuando me ayudaste contra mi padre, me enseñaste que el derramamiento de sangre puede ser necesario para un bien mayor. Sin embargo, también debe haber momentos en los que hagamos una pausa en nuestra búsqueda del conflicto y disfrutemos también de nuestras vidas.~

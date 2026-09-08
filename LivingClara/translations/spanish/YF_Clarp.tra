@@ -1,0 +1,110 @@
+//General text if Clara is removed from Party
+@0 /*Clara*/ = ~Entonces supongo que esto es todo.~
+@1 /*CHARNAME*/ = ~No, quiero que te quedes.~
+@2 /*CHARNAME*/ = ~Sí, deberíamos seguir caminos separados.~
+@3 /*Clara*/ = ~De acuerdo, entonces iré al Distrito del Puente. Probablemente me encontrarás en la Posada de las Cinco Jarras.~
+@4 /*CHARNAME*/ = ~No, necesito que te quedes aquí. Volveré pronto.~
+@5 /*CHARNAME*/ = ~De acuerdo, te encontraré allí.~
+@6 /*Clara*/ = ~¿Aquí? Está bien. Pero tienes un día y luego me voy. Estaré más segura en otro lugar.~
+@7 /*Clara*/ = ~¿Quieres que me vaya? De acuerdo, te veré en el cuartel general de los Ladrones de la Sombra.~
+
+//If at war with Shadow Thieves
+@70 /*Clara*/ = ~Por favor, no me abandones. ¡Los Ladrones de la Sombra me matarán!~
+@71 /*Player1*/ = ~Lo siento, ya no te necesito. Adiós.~
+@72 /*Player1*/ = ~Muy bien, deja de lloriquear. Puedes quedarte.~
+@73 /*Clara*/ = ~Por favor, no duraría tres días. No puedo volver a casa, no puedo. Déjame quedarme contigo. No estorbaré. Haré cualquier cosa, lo prometo. Es decir, eres un hombre, puedo demostrar mi valor, y también, puedo lavar tu ropa, cocinar tu comida y limpiar tus armas y armadura.~
+@74 /*Player1*/ = ~Muy bien, acepto.~
+@75 /*Player1*/ = ~Por supuesto, siempre puedes servirme. Hazlo lo suficientemente bien y quizás decida quedarte.~
+@76 /*Player1*/ = ~No, lo siento, adiós.~
+@77 /*Clara*/ = ~¿En serio? Nunca he hecho esto antes. Pero como siempre decía Jenny, no importa cómo se vean, solo muestra entusiasmo, haz lo que pidan e intenta divertirte. De acuerdo, lo haré. Dame una oportunidad. ¡No te arrepentirás!~
+@78 /*Clara*/ = ~Por favor, no duraría tres días. No puedo volver a casa, no puedo. Déjame quedarme contigo. No estorbaré. Haré cualquier cosa, lo prometo. Todavía puedo lavar tu ropa, cocinar tu comida y limpiar tus armas y armadura.~
+@79 /*Clara*/ = ~¡Lo sé! Lo demostraré. Dame una oportunidad y verás que vale la pena quedarme. ¡Déjame demostrarte mi valía!~
+@80 /*Player1*/ = ~Muy bien, acepto. Cuando tengamos la oportunidad, puedes mostrar tus habilidades. Hazlo lo suficientemente bien y quizás decida quedarte.~
+
+// If Clara is talked to while waiting with active timer.
+@8 /*Clara*/ = ~Odio... esperar. ¿Puedo volver ahora?~
+@9 /*CHARNAME*/ = ~No, todavía no. Quédate aquí un poco más.~
+@10 /*CHARNAME*/ = ~Sí. Siento haberte hecho esperar.~
+
+//If Clara is in Five Flagons, the first time.
+@11 /*Clara*/ = ~Buen momento, <CHARNAME>, justo estábamos hablando de ti. Le estaba contando a Lord Sterk cómo me salvaste de Hexxat y Dragomir.~
+@12 /*CHARNAME*/ = ~Cualquiera en mi lugar habría hecho lo mismo.~
+@13 /*CHARNAME*/ = ~Es parte de ser un héroe.~
+@14 /*CHARNAME*/ = ~Y qué desperdicio fue. Ni siquiera tenían oro.~
+@15 /*Sterk*/ = ~Eso fue un buen trabajo, <CHARNAME>. Con héroes como tú, pronto volverá a ser seguro caminar por las calles de noche. Lástima que no pudieras salvar a los padres de Caroline.~
+@16 /*Clara*/ = ~Sí, todavía lloro por las noches a veces al pensar en ellos. Sin embargo, como mi padre siempre me decía, una mujer joven debe ser fuerte. Perseveraré.~
+@17 /*Clara*/ = ~Mi señor, creo que <CHARNAME> desea hablarme, y ya que me salvó la vida, difícilmente puedo negarme.~
+@18 /*Sterk*/ = ~Por supuesto. Hablen en privado ustedes dos. Yo me ocuparé de otras cosas.~
+@19 /*Clara*/ = ~¡Hola, <CHARNAME>! ¿Qué haces aquí?~
+@20 /*CHARNAME*/ = ~Bueno, 'Caroline', solo quería saludar y ver cómo estás.~
+@21 /*CHARNAME*/ = ~Y ahora has vuelto a cambiar tu acento. ¿A qué juego estás jugando? Hexxat y Dragomir no mataron a tus padres, ¿verdad?~
+@22 /*CHARNAME*/ = ~Quiero que vengas conmigo.~
+@23 /*CHARNAME*/ = ~Quiero conocerte mejor. ¿Hay algún lugar privado donde podamos ir?~
+@24 /*Clara*/ = ~¡Estoy bien, <CHARNAME>! Lord Sterk no puede decidir si quiere salvarme o acostarse conmigo, o ambas cosas. Con suerte, podría llevarme a su casa como 'criada' y entonces todo el lugar será mío.~
+@25 /*Clara*/ = ~Por supuesto, no puedo progresar mientras estoy sentada aquí hablando contigo. Así que... ¡adiós! No dudes en volver.~
+@26 /*Clara*/ = ~¿Te gusta el acento? He copiado el tuyo pero lo he vuelto más noble. Soy Caroline Louisa Audrey Rosanna Alexandra Silvershield de Beregost, la pobre huérfana hija de un primo menor de los famosos Silvershield del norte.~
+@27 /*Clara*/ = ~Entramos en Athkatla de noche y Hexxat y Dragomir nos atacaron. Nuestros mercenarios cobardes huyeron y aunque mi padre luchó valientemente con sus dos sirvientes más leales y un guardia de la casa, estaban superados. Los vampiros los mataron a ellos y a mi madre sin piedad. Me habrían matado a mí también si no hubieras intervenido para salvarme. Gracias de nuevo, por cierto.~
+@28 /*Clara*/ = ~¿Solo vienes a saludar o quieres algo?~
+@29 /*CHARNAME*/ = ~Solo vengo a saludar. ¿Cómo estás?~
+@30 /*CHARNAME*/ = ~Pero eso no es lo que realmente pasó.~
+@31 /*Clara*/ = ~¡Claro que sí! Puede que haya cambiado uno o dos detalles, pero solo para contar una mejor historia. No puedes preocuparte demasiado por lo que recuerdas, <CHARNAME>. Todo el mundo sabe que los recuerdos no son fiables.~
+@32 /*Clara*/ = ~Pide a tres personas que reproduzcan fielmente una conversación, y las tres te dirán algo diferente. Si nuestros recuerdos son solo historias que inventamos, ¿por qué no hacerlas mejores?~
+@33 /*Clara*/ = ~Pero estoy divagando. ¿Querías algo?~
+@34 /*CHARNAME*/ = ~No, solo saludo. ¿Cómo estás?~
+@35 /*CHARNAME*/ = ~Sí, quiero que vengas conmigo.~
+@36 /*Clara*/ = ~¿Unirme a ti? ¿Quieres que deje mi vida cómoda y lucrativa para ir a buscar la muerte contigo? ¿Explorar mazmorras viscosas y llenas de trampas, repletas de no-muertos y luchar contra poderosos monstruos con el destino del mundo en juego?~
+@37 /*Clara*/ = ~No, gracias. Me gusta respirar... y vivir... y sobre todo, me gusta no morir.~
+@38 /*CHARNAME*/ = ~¿Hay algo que pueda hacer para que cambies de opinión?~
+@39 /*CHARNAME*/ = ~Oh, bueno, entonces supongo que te veré por ahí.~
+@40 /*Clara*/ = ~No soy una puta, <CHARNAME>. Soy Caroline Louisa Audrey Rosanna Alexandra Silvershield de Beregost. Solo porque haya pasado por momentos difíciles y haya perdido a mis padres no significa que vaya a abandonar mi dignidad.~
+@41 /*Clara*/ = ~Ahora, buenos días. Tengo a un señor esperándome, uno que desea salvarme de mi pobre y oprimida vida.~
+@42 /*Clara*/ = ~Por supuesto. Mi precio es de 1.000 monedas de oro.~
+@43 /*CHARNAME*/ = ~De acuerdo.~
+@44 /*CHARNAME*/ = ~¿Y 500?~
+@45 /*CHARNAME*/ = ~No, no vales eso. Hasta luego.~
+@46 /*CHARNAME*/ = ~Lo siento, no tengo ese dinero.~
+@47 /*Clara*/ = ~¡Hurra! De acuerdo, déjame despedirme de Lord Sterk.~
+@48 /*Clara*/ = ~¿Disculpe, mi señor? <CHARNAME> necesita mi ayuda con algunos asuntos, y difícilmente puedo negarme a quien me salvó. <CHARNAME> desea irse de inmediato, pero no podía hacerlo sin despedirme y agradecerle toda su ayuda. Es todo un caballero.~
+@49 /*Sterk*/ = ~¿Tienes que irte? Bueno, por supuesto, querida, eres bienvenida. Me alegra haber podido ayudar. Vuelve cuando puedas.~
+@50 /*Sterk*/ = ~Cuídala bien, <CHARNAME>, y asegúrate de que esté a salvo.~
+@51 /*Clara*/ = ~Estoy bien. No dudes en volver a saludar en el futuro. Si logras no morir...~
+@52 /*Clara*/ = ~¡Oh, Lord Sterk! <CHARNAME> debe irse, pero me encantaría saber más sobre las diferencias entre los vinos élficos.~
+
+//If you talk later - reuses other lines
+@53 /*Clara*/ = ~Hola de nuevo, <CHARNAME>. ¿Cómo puedo ayudarte? ¿Necesitas algo de mí?~
+
+//If no other conditions apply - reuses earlier lines
+@54 /*Clara*/ = ~Hola, <CHARNAME>, ¿cómo puedo ayudarte? ¿Necesitas algo?~
+@55 /*Clara*/ = ~No te preocupes por mí. Solo estoy holgazaneando y disfrutando de estar viva. Siempre hay algo que hacer... algo que ver... algo que robar. Puedes quedarte un rato, pero realmente debería volver al trabajo.~
+@56 /*Clara*/ = ~¿Unirme a ti? ¿Quieres que deje mi vida cómoda y lucrativa para ir a buscar la muerte contigo? ¿Explorar mazmorras viscosas y llenas de trampas, repletas de no-muertos y luchar contra poderosos monstruos con el destino del mundo en juego? Mi precio es de 1.000 monedas de oro.~
+@57 /*Clara*/ = ~Creo que te equivocas de persona, <CHARNAME>. Buscas a Clara la puta, y ella está muerta. Soy Caroline Louisa Audrey Rosanna Alexandra Silvershield de Beregost, la pobre huérfana hija de un primo menor de los famosos Silvershield del norte. Puede que haya perdido a mis padres por culpa de vampiros, pero no he perdido mi dignidad.~
+@58 /*Clara*/ = ~Fui salvada por el héroe <CHARNAME>, y estoy tan agradecida que le cuento esta historia a todos los que conozco. Ese héroe nunca intentaría aprovecharse de una dama noble en apuros. Ahora, adiós. Como toda dama noble, tengo asuntos importantes que requieren mi atención.~
+@59 /*Clara*/ = ~¡Hurra! De acuerdo, déjame recoger mis cosas.~
+
+//New Kicked out dialogue if Clara marries Anomen
+@60 /*Clara*/ = ~¿De verdad quieres que me vaya?~
+@61 /*Clara*/ = ~Odio dejarte, mi esposo, pero debo hacer lo que <CHARNAME> desea.~
+@62 /*Clara*/ = ~Volveré a nuestra mansión y esperaré tu visita allí. Te prometo que pensaré en ti cada momento que estés ausente.~
+@63 /*Clara*/ = ~Maravilloso. Volveré con mi querido esposo a la Finca Delryn hasta que vuelvas a necesitarme. No te apresures en volver; mi cama allí es mucho más cómoda.~
+@64 /*Clara*/ = ~De acuerdo. Debería ir a revisar mis asuntos de todos modos. Encuéntrame en la Finca Delryn si cambias de opinión.~
+
+//New Clara P dialogue if married Cor & he's dead
+@65 /*Clara*/ = ~Hola, <CHARNAME>, siempre eres bienvenido en la casa de Lady Delryn. ¿Qué puedo hacer por ti?~
+@66 /*CHARNAME*/ = ~Nada, solo pasaba para ver cómo estás.~
+@67 /*CHARNAME*/ = ~Podrías viajar conmigo.~
+@68 /*Clara*/ = ~Bueno, soy la señora de una casa noble empobrecida. Las finanzas están en desorden... Saerk realmente estaba arruinando el negocio de mi difunto esposo en cada paso.~
+@69 /*Clara*/ = ~Debería hacer algo con respecto a ese hombre...~
+@81 /*Clara*/ = ~Bueno, sigo siendo la señora de una casa noble empobrecida. Pero nuestras finanzas están mejorando ahora que Lord Saerk se ha ido.~
+@82 /*Clara*/ = ~¿Viajar contigo? ¿Por qué debería? Mi casa puede estar empobrecida, pero al menos estoy viva y puedo dormir en una cama de verdad. ¿Qué puedes ofrecerme a cambio?~
+@83 /*CHARNAME*/ = ~¿1.000 monedas de oro?~
+@84 /*CHARNAME*/ = ~¿500 monedas de oro?~
+@85 /*CHARNAME*/ = ~Bien, supongo que nada.~
+@86 /*Clara*/ = ~¡Trato hecho! Déjame recoger mis cosas.~
+
+//New Kicked Out Dialogue if Clara courting Anomen, goes to CC
+@87 /*Clara*/ = ~De acuerdo, iré a la Corona de Cobre.~
+@88 /*Clara*/ = ~No esperes demasiado para visitarme, Anomen.~
+@89 /*Anomen*/ = ~Tienes mi palabra. Y ten cuidado, por favor. No me gusta pensar en una dama sola en un lugar así.~
+@90 /*Clara*/ = ~Es amable de tu parte preocuparte, pero puedo cuidarme sola.~
+@91 /*Clara*/ = ~No puedo dejar que mi querido Anomen me olvide ahora.~
+@92 /*Clara*/ = ~Hasta luego, <CHARNAME>.~

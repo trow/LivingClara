@@ -1,0 +1,30 @@
+//Fate Spirit Dialogue for summoning Clara
+@0 /*Charname*/ = ~Przyprowadź Klarę, Tancerkę Cieni.~
+
+//if you rescued her before
+@1 /*Clara*/ = ~Hej, <CHARNAME>, to ty wezwałeś dostojną Karolinę Ludwikę Adelajdę Rozannę Aleksandrę...~
+@2 /*Player*/ = ~Dobra, Klaro, to mój kieszonkowy plan, wszyscy tu są swoi. Wezwałem cię, bo chcę, żebyś dołączyła do mojej drużyny.~
+@3 /*Player*/ = ~Już dobrze, po prostu wiedz, że masz wrócić do zespołu.~
+@4 /*Player*/ = ~Potrzebuję twojej siły w mojej podróży, Karolino. Proszę, pomóż mi.~
+@5 /*Player*/ = ~Przepraszam, Klaro. Zmieniłem zdanie. Poczekaj tutaj.~
+@6 /*Clara*/ = ~No dobrze, <CHARNAME>, skoro mnie wezwałeś, co mi pozostaje? Zaczynajmy.~
+@7 /*Clara*/ = ~Jak zawsze prosto w sedno, <CHARNAME>. Ale właśnie za to cię lubię. Chodźmy!~
+@8 /*Clara*/ = ~Och, <CHARNAME>, chętnie będę twoim wsparciem. Kontynuujmy więc podróż.~
+@9 /*Clara*/ = ~Zostawiasz mnie tutaj? To nie w porządku.~
+@10 /*Clara*/ = ~Dobrze, poczekam. Wygląda na to, że nie mam wielkiego wyboru.~
+
+//if you didn't rescue her before
+@11 /*Clara*/ = ~Co? Gdzie ja jestem? Kim jesteś? Twoja twarz wydaje się znajoma, ale naprawdę nie pamiętam... to wszystko jak koszmar.~
+@12 /*Player*/ = ~Gratulacje, dołączasz do drużyny. Mam nadzieję, że masz jakieś przydatne umiejętności.~
+@13 /*Player*/ = ~Podróżowaliśmy razem przez krótki czas i znowu potrzebuję twojej pomocy.~
+@14 /*Player*/ = ~Nie wiem, co sobie myślałem. Przywołam kogoś innego.~
+@15 /*Clara*/ = ~To znaczy, chyba tak. Jestem zdezorientowana.~
+@17 /*Clara*/ = ~To <CHARNAME>, prawda? Chyba coś sobie przypominam. Może mógłbyś mi powiedzieć więcej.~
+@18 /*Clara*/ = ~Zostawiasz mnie tutaj? To nie w porządku.~
+
+//When she's waiting and hasn't joined you before
+@20 /*Clara*/ = ~O, <CHARNAME>. Wróciłeś. Czy mogę teraz z tobą podróżować?~
+@21 /*Player*/ = ~Tak, Klaro. Chodź ze mną.~
+@22 /*Player*/ = ~Przepraszam. Jeszcze cię nie potrzebuję.~
+@23 /*Clara*/ = ~Mówisz poważnie? O, dzięki bogom. Wynośmy się stąd.~
+@24 /*Clara*/ = ~Żartujesz? No dobra. Zostaw mnie tutaj, żebym głodowała.~

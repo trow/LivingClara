@@ -1,0 +1,24 @@
+@1 /*Hexxat Dead- create bag*/ = ~Porazíš upírku, ale ta se promění v mlhu a rychle zmizí. Zůstal po ní jen starý pytel, který zanechala ve spěchu.~
+@2 /*Hexxat Dead- have bag but not stake*/ = ~Podle stopy na pytli najdeš rakev, kam se upír po porážce ukryl. Máš-li osikový kůl, zkus ho navždy zničit.~
+@3 /*Hexxat dead- have bag and stake*/ = ~Jak kouzlo působí, rozptýlená životní síla se vrací do těla ubohé oběti a její dech se obnovuje.~
+@4 /*Journal*/ = ~Hrobka Dragomira byla past. Ta, kterou jsem znala jako Hexxat, byla loutkou ovládanou upírkou, která se mnou chtěla mluvit. Ale s nestvůrami nemluvím. Zabila jsem upírku a osvobodila duši této dívky. Doufám, že teď bude moci lépe mluvit.~
+
+@11 = ~Zabij ji kůlem do srdce.~
+@12 = ~Zatím to nech být.~
+@13 = ~Nejdřív najdi kůl.~
+@20 = ~Životní síla této ubohé oběti byla zcela vysáta. Nyní, když je vrah zničen, uvolněná energie se rozptýlila. Možná by pomohlo kouzlo Obnovy nebo podobné.~
+@21 = ~Ať <PLAYER1> sešle Menší obnovu.~
+@22 = ~Ať <PLAYER2> sešle Menší obnovu.~
+@23 = ~Ať <PLAYER3> sešle Menší obnovu.~
+@24 = ~Ať <PLAYER4> sešle Menší obnovu.~
+@25 = ~Ať <PLAYER5> sešle Menší obnovu.~
+@26 = ~Ať <PLAYER6> sešle Menší obnovu.~
+@30 = ~Použij svitek Obnovy.~
+@31 = ~Ať <PLAYER1> sešle Obnovu.~
+@32 = ~Ať <PLAYER2> sešle Obnovu.~
+@33 = ~Ať <PLAYER3> sešle Obnovu.~
+@34 = ~Ať <PLAYER4> sešle Obnovu.~
+@35 = ~Ať <PLAYER5> sešle Obnovu.~
+@36 = ~Ať <PLAYER6> sešle Obnovu.~
+@40 = ~Zatím ji nech být.~
+@41 = ~Nejdřív si připrav kouzlo.~

@@ -1,0 +1,917 @@
+//1st Jan Banter - SOA version
+@1 /*Clara*/ = ~¿Jan, puedes ayudarme?~
+@2 /*Jan*/ = ~Claro que sí, querida. ¿Cuál parece ser el problema?~
+@3 /*Clara*/ = ~Bueno, eres tan hábil con tu magia y tus habilidades... y se supone que yo debo actuar como una ladrona, desactivar trampas, abrir cerraduras, y esas cosas...~
+@4 /*Jan*/ = ~¿Y? No es bueno quedarse a mitad de una frase, querida, nunca se sabe lo que puede pasar.~
+@5 /*Jan*/ = ~Mira, el tercer primo del tío de mi tío Dimble solía detenerse así en medio de sus frases todos los días. Un día, todas las medias frases se acumularon y explotaron por sus oídos.~
+@6 /*Clara*/ = ~Intentaré evitar eso. Pero he notado que tienes toda esa ropa especial y esos artilugios para ayudarte, y me preguntaba...~
+@7 /*Jan*/ = ~Ahí vas otra vez; si sigues así, te haré continuar nuestra conversación desde más lejos.~
+@8 /*Clara*/ = ~¡Quiero todas tus cosas! ¿Puedo tenerlas? ¿Por favor?~
+@9 /*Jan*/ = ~No es asunto menor, querida Clara. Verás, cada uno de mis objetos ha sido hecho específicamente para mí, por mí, para ser usado por mí. Si quieres objetos para ti, para ser usados por ti, entonces requerirá trabajo.~
+@10 /*Jan*/ = ~Las montañas deben ser escaladas, las tumbas deben ser exploradas, y los fragmentos perdidos de civilizaciones antiguas deben ser combinados en tejidos impregnados de magia de siete planos astrales.~
+@11 /*Clara*/ = ~Eh... ¿guau? Entonces, ¿qué debo hacer?~
+@12 /*Jan*/ = ~Bueno, para empezar, Clara, aunque eres muy ágil, tu agilidad no es tan ágil como debería ser.~
+@13 /*Clara*/ = ~¡Debo ser más ágil! Puedo hacerlo.~
+@14 /*Clara*/ = ~¿Cómo puedo hacerlo?~
+@15 /*Jan*/ = ~Te ayudaré. La agilidad no se consigue de la noche a la mañana. No puedes esperar simplemente terminar una conversación sobre agilidad y tenerla. La agilidad debe ser practicada.~
+@16 /*Jan*/ = ~Primer paso: alguien debe lanzarte un cuchillo, un dardo o un hacha, mientras intentas esquivar hacia un lado y atraparlo.~
+@17 /*Jan*/ = ~No tengas miedo, muchacha; para eso tenemos clérigos.~
+
+//1st Mazzy Banter
+@18 /*Clara*/ = ~Mazzy, ¿puedes ayudarme con algo?~
+@19 /*Mazzy*/ = ~Claro, Clara, ¿de qué se trata?~
+@20 /*Clara*/ = ~Siempre estamos peleando y es peligroso y ¡no quiero morir!~
+@21 /*Mazzy*/ = ~Un temor válido. Te recomiendo que te mantengas alejada de la refriega y dispares a nuestros enemigos con flechas.~
+@22 /*Clara*/ = ~Pero cuando hago eso, siempre temo alcanzar a la persona equivocada.~
+@23 /*Mazzy*/ = ~Necesitas práctica. Te enseñaré en nuestro tiempo libre.~
+@24 /*Mazzy*/ = ~Para empezar, tiendes a mantener los hombros demasiado tensos...~
+
+//1st Viconia Banter
+@25 /*Clara*/ = ~Viconia, eres tan hermosa...~
+@26 /*Viconia*/ = ~Esa es la primera cosa verdadera que has dicho en días.~
+@27 /*Clara*/ = ~Yo... No entiendo.~
+@28 /*Viconia*/ = ~Eres una mentira. Tus palabras son mentiras. Tus movimientos son mentiras. Incluso tu voz es una mentira.~
+@29 /*Viconia*/ = ~Cuando hablas, no hay centro, ningún punto de referencia. Todo en ti es una ilusión.~
+@30 /*Viconia*/ = ~¿Por qué? No veo el propósito.~
+@31 /*Clara*/ = ~Bueno, siempre me ha gustado actuar... pretender ser algo distinto de lo que era. Quería ser una gran actriz de teatro y viajar por el mundo de escenario en escenario.~
+@32 /*Viconia*/ = ~¿Así que toda tu vida es una mentira creada para convenirte?~
+@33 /*Clara*/ = ~Toda la vida es un escenario, Viconia. Todos somos actores.~
+@34 /*Viconia*/ = ~Muy bien. Volvamos a tu razón para molestarme... me estabas halagando, así que debes querer algo. ¿Qué es?~
+@35 /*Clara*/ = ~Veneno. Enséñame a hacer veneno. Eres una drow y todo el mundo sabe que las drows tienen los mejores venenos.~
+@36 /*Viconia*/ = ~Todo el mundo también sabe que secuestro niños de sus camas y los sacrifico a mis oscuros dioses.~
+@37 /*Viconia*/ = ~La mayoría de las cosas que "todo el mundo sabe" son falsas. El resto es simplemente poco fiable.~
+@38 /*Clara*/ = ~Entonces, ¿me enseñarás a hacer veneno o no?~
+@39 /*Viconia*/ = ~¿Alguna vez me has visto hacer veneno? ¿Cómo sabes siquiera que soy capaz?~
+@40 /*Clara*/ = ~¿Sí o no?~
+@41 /*Viconia*/ = ~Sí, pero me deberás... algo.~
+@42 /*Clara*/ = ~De acuerdo, de acuerdo. Lo que quieras. ¿Qué hacemos?~
+@43 /*Viconia*/ = ~Te daré una lista de ingredientes. Podrás recolectarlos durante nuestros viajes. Cuando los tengas todos, encontraremos un lugar adecuado para crear tu veneno.~
+
+//1st Dorn Banter
+@44 /*Clara*/ = ~Dorn, ¿es esto lo que todos ustedes hacen? ¿Buscar la muerte una y otra vez?~
+@45 /*Dorn*/ = ~Generalmente. También hay mucho caminar. A menudo nos envía una persona para encontrar a otra que nos envía a una tercera. Es increíblemente aburrido.~
+@46 /*Clara*/ = ~No le temo a lo aburrido. Pero el resto... ¿Me protegerás, verdad? Eres tan fuerte y feroz. Podría usar a alguien como tú.~
+@47 /*Dorn*/ = ~Escucha, muchacha. Proteger no es exactamente lo que hago. Solo mantente fuera de mi camino y probablemente no te mataré por accidente.~
+@48 /*Clara*/ = ~¿Por favor? Apuesto a que serías un protector increíble si tan solo tuvieras a alguien que te importara.~
+@49 /*Clara*/ = ~Podría ser esa persona. Realmente no quiero morir.~
+@50 /*Dorn*/ = ~Deja de hablar. No quiero volver a oírte hacer ese numerito.~
+@51 /*Dorn*/ = ~"Soy una mujer indefensa, así que debo encontrar un guerrero fuerte que me proteja." ¡No!~
+@52 /*Dorn*/ = ~No seas inútil y débil. Mi madre lo era, y por eso me tuvo a mí.~
+@53 /*Dorn*/ = ~¿Es eso lo que quieres? ¿Un miserable bebé monstruo mestizo? Vete.~
+@54 /*Clara*/ = ~¡De acuerdo! Pero como mi madre no se acostó con un orco, soy una humana flaca y frágil, y necesito tu ayuda. Para... para volverme más fuerte.~
+@55 /*Dorn*/ = ~Así está mejor. ¿Cómo puedo ayudar?~
+@56 /*Clara*/ = ~¡Veneno! Untas tus armas con veneno. Enséñame cómo.~
+@57 /*Dorn*/ = ~De acuerdo. Yo mismo estoy casi sin existencias, así que reuniremos más ingredientes y luego te mostraré qué hacer.~
+
+//1st Korgan Banter
+@58 /*Clara*/ = ~Korgan, ¿puedes ayudarme con algo, por favor?~
+@59 /*Korgan*/ = ~Mira, muchacha, no creo que ayudar sea exactamente lo que hago.~
+@60 /*Korgan*/ = ~Ahora, si hubieras dicho: "Korgan, ¿puedes ayudarme a matar algo?", entonces tal vez tendríamos una conversación.~
+@61 /*Korgan*/ = ~No puedo ayudar a todas las princesas flacas, demasiado altas y de miembros débiles que necesitan mi ayuda. No me quedaría tiempo para mí.~
+@62 /*Clara*/ = ~¡No soy una princesa!~
+@63 /*Korgan*/ = ~Bueno, hablas como una.~
+@64 /*Korgan*/ = ~"Korgan, ¿puedes ayudarme con algo, por favor?"~
+@65 /*Korgan*/ = ~Una muchacha como tú necesita tres sirvientes solo para limpiarte el trasero.~
+@66 /*Clara*/ = ~Intentémoslo de nuevo.~
+@67 /*Clara*/ = ~Korgan, ayúdame o te encontraré una noche después de que hayas caído en una borrachera y te cortaré la garganta de oreja a oreja y me reiré mientras te desangras.~
+@68 /*Korgan*/ = ~¡Mejor! ¿Qué puedo hacer por ti?~
+@69 /*Clara*/ = ~Necesito ser tan dura como tú. No dejo de preocuparme por morir aquí.~
+@70 /*Korgan*/ = ~Claro que vas a morir. Morir es lo que ustedes hacen.~
+@71 /*Korgan*/ = ~Eres débil, de vida corta y de miembros largos. Mato una docena de tu calaña cada día.~
+@72 /*Korgan*/ = ~No puedes ser tan dura como yo. Soy un enano. Tú no eres un enano. Los enanos matan, los no enanos mueren.~
+@73 /*Clara*/ = ~De acuerdo... pero, ¿qué hace a los enanos tan duros? Tal vez podría imitarte y beneficiarme.~
+@74 /*Korgan*/ = ~¡Los enanos cavan! Si quieres ser dura como un enano, muchacha, ¡tienes que cavar!~
+@75 /*Clara*/ = ~¿Cavar qué? ¿Una mina?~
+@76 /*Korgan*/ = ~¡Tumbas!~
+@77 /*Korgan*/ = ~Quédate conmigo cada vez que ese perezoso de <CHARNAME> descanse, y nos iremos a dar un paseo. Cortaré en pedazos a algunos larguiruchos y tú podrás cavar agujeros para enterrarlos.~
+@78 /*Clara*/ = ~¿Como... los ladrones que nos atacan?~
+@79 /*Korgan*/ = ~¡Cualquiera que se interponga en nuestro camino! O los hombres que parezcan ricos. O los que tengan las piernas arqueadas. O alguien demasiado alto. O que me mire raro.~
+@80 /*Korgan*/ = ~Yo los corto. Tú los entierras. O los apuñalas y los entierras mientras descanso. No puedo hacer todas las muertes todo el tiempo.~
+@81 /*Clara*/ = ~¿Y... y eso me hará más fuerte?~
+@82 /*Korgan*/ = ~Bueno, seguro que no te hará más débil. *ja, ja, ja*~
+@83 /*Korgan*/ = ~Espera y verás. Apuñalas a cien larguiruchos, cava cien tumbas, y llévate todo su oro, y serás tan fuerte como un enano en un santiamén.~
+
+//2nd Jan Banter
+@84 /*Clara*/ = ~Jan, Jan, ¡puedo hacerlo! ¡Mira!~
+@85 /*Clara*/ = ~¡Dispárame uno de tus pernos! ¡Dispara!~
+@86 /*Clara*/ = ~Ahí, solo doy un paso al lado y atrapo. ¡Hazlo otra vez!~
+@87 /*Clara*/ = ~¡Un paso al lado y atrapo! He estado haciendo esto con todo el mundo. Me dieron un par de veces al principio, pero ¡ahora es algo natural!~
+@88 /*Jan*/ = ~¡Excelente, ahora estás lista!~
+@89 /*Clara*/ = ~¡Lo estoy! ¡Estoy lista! ¿Para qué estoy lista?~
+@90 /*Jan*/ = ~Para usar unos Espectroscopios Micro-Macro de la marca Jansen; he adaptado este par especialmente para ti. ¿Sabías que son los Espectroscopios Oficiales de la Hermandad Púrpura?~
+@91 /*Clara*/ = ~¿¡Tú lo hiciste!? ¡Oh, Jan, son maravillosos!~
+@92 /*Clara*/ = ~¿Qué hacen?~
+@93 /*Jan*/ = ~Bueno, para empezar, hacen que las trampas parezcan estar rodeadas por un contorno rojo gigante.~
+@94 /*Jan*/ = ~Te mostraré más sobre la marcha.~
+
+//2nd Mazzy Banter
+@95 /*Clara*/ = ~Mazzy, creo que lo estoy dominando. ¡Mírame darle a ese ratón!~
+@96 /*Clara*/ = ~¡Y ya está! ¡Ratón para almorzar!~
+@97 /*Mazzy*/ = ~La carne abatida con tus propias manos es siempre la más virtuosa. Y sí, estás progresando rápido.~
+
+//2nd Viconia Banter - actually triggered
+@98 /*Clara*/ = ~Bien, entonces mezclo el azul con el verde.~
+@99 /*Viconia*/ = ~Bien. Ahora... viértelo con cuidado en la jarra.~
+@100 /*Clara*/ = ~Vertido. ¿Y ahora? ¿Y por qué estás tan lejos?~
+@101 /*Viconia*/ = ~Tu tarea está hecha. Es una de las primeras pociones que aprendí a preparar. La solución resultante es extremadamente tóxica; enseña respeto y precaución por todo el proceso.~
+@102 /*Viconia*/ = ~Has sido un poco descuidada, y la gota que salpicó la piel de tu cuello es suficiente para matarte.~
+@103 /*Clara*/ = ~¿Qué? ¿Cómo lo detengo? ¡Ayúdame! ¡Por favor!~
+@104 /*Viconia*/ = ~¿Más ayuda? Eres una niña insaciable. Muy bien, dime un secreto, y dime la verdad.~
+@105 /*Clara*/ = ~¿Un secreto? ¿De qué hablas?~
+@106 /*Viconia*/ = ~Un secreto es algo que nadie más sabe. Date prisa ahora; no tienes mucho tiempo.~
+@107 /*Clara*/ = ~Delaté a una chica de mi pueblo natal en la prisión de Baldur's Gate. Ella asumió toda la culpa por mí.~
+@108 /*Viconia*/ = ~Ese tipo de cosas no es raro en las prisiones.~
+@109 /*Clara*/ = ~Pero nadie sabe que yo misma planté las pruebas.~
+@110 /*Viconia*/ = ~¿Cómo?~
+@111 /*Clara*/ = ~Robé sus cosas desde el principio y las escondí entre el botín.~
+@112 /*Clara*/ = ~Te he dicho el secreto. No me dejes morir.~
+@113 /*Viconia*/ = ~¿Qué pasó con esa chica?~
+@114 /*Clara*/ = ~No lo sé.~
+@115 /*Viconia*/ = ~¿No lo sabes?~
+@116 /*Clara*/ = ~Tal vez la colgaron. Tal vez la vendieron a traficantes de esclavos. Realmente no lo sé.~
+@117 /*Clara*/ = ~Ahora, por favor, sálvame...~
+@118 /*Viconia*/ = ~¿Fuiste a buscarla después?~
+@119 /*Clara*/ = ~Nunca volví después de huir de Baldur's Gate.~
+@120 /*Clara*/ = ~Duele tanto... Voy a morir, ¿verdad?~
+@121 /*Viconia*/ = ~Sí, pero no te preocupes. Siempre cumplo mis promesas.~
+@122 /*Viconia*/ = ~<CHARNAME>, parece que nuestra pequeña carterista ha expirado. Deberíamos resucitarla.~
+
+//On Raise
+@123 /*Clara*/ = ~¡Me dejaste morir!~
+@124 /*Viconia*/ = ~Deja de quejarte. Estás viva, ¿no? ¿Aprendiste algo?~
+@125 /*Clara*/ = ~Sí, ¡pero dolió!~
+@126 /*Clara*/ = ~Sin embargo... ahora sé cómo hacer veneno. Un veneno de muerte diferida que mata con una gota en la piel. Oh, gracias, Viconia. Gracias.~
+@127 /*Viconia*/ = ~No me des las gracias todavía. Es casi tan peligroso para el usuario como para el objetivo; no cuentes conmigo para resucitarte sin fin.~
+@128 /*Clara*/ = ~¡Tendré cuidado! ¡Lo haré! ¿A quién debería matar primero?~
+@129 /*Viconia*/ = ~Este mundo está lleno de rivvin inútiles. Estoy segura de que encontrarás a alguien que merezca morir.~
+
+//2nd Dorn Banter
+@130 /*Clara*/ = ~Bien, tenemos el veneno. ¿Y ahora? ¿Cómo untamos nuestras armas sin morir?~
+@131 /*Dorn*/ = ~Con mucho cuidado. Este veneno es extremadamente pegajoso y debe entrar en el torrente sanguíneo de tu adversario, así que colócalo en la parte de tu arma que perforará la piel.~
+@132 /*Dorn*/ = ~Deberías tener una botella de antídoto a mano en caso de que te cortes accidentalmente. Si lo bebes lo suficientemente rápido, sobrevivirás.~
+@133 /*Clara*/ = ~Es bastante simple. ¡Gracias!~
+@134 /*Clara*/ = ~...~
+@135 /*Clara*/ = ~Mmm, ¿puedo hacerte una pregunta? Te sientes atraído por mí, ¿verdad?~
+@136 /*Dorn*/ = ~Mucho.~
+@137 /*Clara*/ = ~Entonces, ¿por qué no seguiste el juego antes? Podrías haberme tenido... varias veces incluso... pero me rechazaste por completo.~
+@138 /*Dorn*/ = ~Cualquier puta de Amn se acostará conmigo por suficientes monedas. ¿Sabes lo que es acostarte con alguien que realmente no te quiere? ¿Que en realidad siente repulsión por ti?~
+@139 /*Dorn*/ = ~Claro que no. ¿Una muchacha tan bonita y joven como tú? Cada hombre con el que te has acostado te ha deseado con cada respiración. Eres el objeto mismo del deseo.~
+@140 /*Clara*/ = ~Oh. Bueno... habría fingido muy bien. No te habría decepcionado.~
+@141 /*Dorn*/ = ~Hmpf. Estoy cansado de mentiras y engaños. Al menos así, ambos sabemos a qué atenernos.~
+@142 /*Clara*/ = ~¿Sabes qué, Dorn? Bajo tu actuación de asesino malvado, en realidad eres un tipo bastante bueno.~
+@143 /*Dorn*/ = ~Hah. He masacrado a cientos. Campesinos. Mujeres. Niños. Te mataría en un instante si me conviene.~
+@144 /*Clara*/ = ~Sí... pero creo que lo sentirías.~
+
+//2nd Korgan Banter
+@145 /*Clara*/ = ~Está funcionando, Korgan, me siento más fuerte.~
+@146 /*Korgan*/ = ~Hah, eres tan débil como antes. El último imbécil casi te estranguló con sus manos desnudas.~
+@147 /*Clara*/ = ~Era el doble de grande que yo y no lo logró. Sus tripas se estaban desparramando. Se habría derrumbado antes de que yo muriera.~
+@148 /*Korgan*/ = ~Bueno, ahora no se puede saber, muchacha, porque tuve que embotar un buen hacha clavándola en su casco.~
+@149 /*Korgan*/ = ~Y desperdiciar un buen casco.~
+@150 /*Korgan*/ = ~Lo que necesitas, muchacha, es una pelea. No apuñalar granjeros y marineros borrachos como hemos estado haciendo. Necesitas ensangrentarte los nudillos y devolver golpe por golpe.~
+@151 /*Clara*/ = ~¿Así que se supone que debo entrar en una taberna y buscar pelea? ¡Soy Caroline Louisa Audrey Rosanna Alexandra Silvershield de Beregost! Tengo una reputación que mantener.~
+@152 /*Korgan*/ = ~Entonces necesitas una taberna donde nadie te conozca...~
+@153 /*Korgan*/ = ~¡Necesitas una taberna enana! Con cerveza enana fuerte, y mujeres enanas fuertes. ¡Una de ellas estará encantada de pelear contigo!~
+@154 /*Clara*/ = ~Ahora estás inventando cosas. No hay tabernas enanas por aquí.~
+@155 /*Korgan*/ = ~Hay tabernas enanas en todas partes. Nos detendremos en la próxima que encontremos. ¡Bebe algo! ¡Encuentra una mujer!~
+
+//3rd Jan Banter
+@156 /*Clara*/ = ~¡Estas gafas son increíbles, Jan! ¡Puedo ver las trampas! ¡Puedo ver a través de las paredes! ¡Puedo ver a través de cortinas, ventanas y ropa!~
+@157 /*Clara*/ = ~A veces esto último me hace ver más de lo que quisiera, ¡pero vale la pena!~
+@158 /*Clara*/ = ~¡Eres el mejor inventor de todos los tiempos! Dame algo más.~
+@159 /*Jan*/ = ~Los inventos no crecen en los árboles, muchacha. Bueno, excepto una vez, mi quinto primo Bimpnottin creó un árbol de inventos. Fue una hazaña increíble. Lástima lo que le pasó.~
+@160 /*Clara*/ = ~¿Qué pasó?~
+@161 /*Jan*/ = ~Inventó un invento para ver a través del tiempo. Vio la creación del mundo. Se volvió loco. Pasa cada tres generaciones más o menos.~
+@162 /*Clara*/ = ~¿Y el árbol?~
+@163 /*Jan*/ = ~Cortado para leña; fue un invierno frío. Ahora, ¿qué puedo hacer por ti?~
+@164 /*Clara*/ = ~¡Más cosas geniales!~
+@165 /*Jan*/ = ~Hah, me gusta tu actitud. Quizás por eso ya te he fabricado unos Guantes Tecnoladrones de la marca Jansen.~
+@166 /*Clara*/ = ~Ooooh... ¡brillan!~
+@167 /*Jan*/ = ~No solo brillan, sino que son útiles. Con estos guantes, podrías robar la ropa directamente de la espalda de un hombre.~
+@168 /*Clara*/ = ~Bueno, normalmente es más fácil dejar que los hombres se quiten la ropa voluntariamente, ¡pero gracias! Estoy segura de que les encontraré utilidad.~
+
+//3rd Dorn Banter - triggered in d script
+@169 /*Dorn*/ = ~La mayoría de la gente me dejaría bañarme en paz.~
+@170 /*Clara*/ = ~¿Cómo sabías que estaba aquí?~
+@171 /*Dorn*/ = ~Tenía un presentimiento. Lo peor que podía pasar es que nadie hubiera respondido. Era una pregunta sin riesgo.~
+@172 /*Dorn*/ = ~¿Qué estás haciendo? Supuse que habías venido a matarme, pero si ese fuera el caso, no estaríamos teniendo esta conversación.~
+@173 /*Clara*/ = ~Te estoy mirando bañarte. Me gusta mirar hombres fuertes desnudos, aunque la mayoría no son tan suspicaces al respecto.~
+@174 /*Dorn*/ = ~Eso es porque o son atractivos o son idiotas. No soy ni lo uno ni lo otro. Déjame en paz.~
+@175 /*Clara*/ = ~Siempre te subestimas, Dorn. Eres más atractivo y más idiota de lo que crees.~
+@176 /*Dorn*/ = ~Hah. Mi pelo... mis dientes... mi olor... No necesito tus mentiras. Vete.~
+@177 /*Clara*/ = ~Entonces no eres humano. ¿Y qué? Si viviera con elfos, sería horrible, pero paso mi tiempo en Athkatla entre putas sifilíticas y campesinas con aspecto de rana, así que estoy bastante bien en comparación.~
+@178 /*Clara*/ = ~Deberías ir a vivir con orcos; apuesto a que todas las hembras orcas babearían por ti.~
+@179 /*Dorn*/ = ~Lo hice. Y lo hicieron. Mis días estaban llenos de combates y tenía una mujer o dos cada noche.~
+@180 /*Dorn*/ = ~Pero las hembras orcas son horribles y no son muy buenas para conversar. Además, tener que pelear contra cada macho orco que encontraba para demostrar mi valía se volvió aburrido rápidamente.~
+@181 /*Clara*/ = ~Así que viniste a vivir con los humanos, donde serías más aceptado. Hah. Eso es simplemente triste.~
+@182 /*Clara*/ = ~Escucha, eres peludo, pero muchos tipos son peludos. Esos dientes probablemente hacen que besar sea difícil, pero los besos están sobrevalorados. Y la mayoría de los tipos que pelean no huelen precisamente a rosas; al menos te bañas más a menudo que los demás.~
+@183 /*Clara*/ = ~Debería volver. Dije que estaba explorando la zona y he estado fuera un buen rato.~
+@184 /*Clara*/ = ~Además, tengo una reputación que mantener... no puedo estar todo el día mirando a hombres desnudos.~
+@185 /*Dorn*/ = ~*sonríe* Vete entonces. Ya casi he terminado aquí de todos modos.~
+@186 /*Clara*/ = ~Ya me fui.~
+@187 /*Clara*/ = ~No me verás, pero te estaré mirando.~
+
+//3rd Korgan Banter
+@188 /*Clara*/ = ~Ooh, me siento fatal. Me duele todo. ¿Qué pasó ayer?~
+@189 /*Korgan*/ = ~¿No recuerdas nada? Hah, debería haber sabido que la cerveza enana sería demasiado fuerte para ti.~
+@190 /*Clara*/ = ~Puedo beber con los mejores, solo dame un minuto para recordar. Me vendaste los ojos y fuimos a una taberna. Era la única que no era enana allí. Todos me odiaban.~
+@191 /*Korgan*/ = ~Claro que sí. Los larguiruchos no son bienvenidos en una taberna enana. ¡Las tabernas enanas son para enanos!~
+@192 /*Clara*/ = ~Me trajiste la bebida más fuerte que he probado y me dijiste que buscara pelea con una mujer en una mesa cercana que parecía particularmente molesta por mi presencia.~
+@193 /*Clara*/ = ~Parecía que podía luchar contra un oso.~
+@194 /*Korgan*/ = ~¡Y lo hizo! Una vez sometió a un oso pardo usando solo una salchicha gigante.~
+@195 /*Korgan*/ = ~Incluso lo convirtieron en canción: "Los Osos No Pueden con la Gran Salchicha de Glelda". Una hermosa balada.~
+@196 /*Clara*/ = ~Me negué, así que me diste otra jarra de ese horrible líquido marrón y luego otra. Después de eso, todo se vuelve un poco borroso...~
+@197 /*Korgan*/ = ~¡Era cerveza! Cerveza de verdad, no la pálida porquería que beben ustedes los larguiruchos. Después de la tercera, tuviste suficiente valor para hablar con Glelda. No oí lo que dijiste, pero ella te noqueó con un puñetazo en el estómago.~
+@198 /*Clara*/ = ~Vale... recuerdo eso. Vomité sobre sus zapatos. Luego intenté darle mi mejor golpe.~
+@199 /*Clara*/ = ~Fue como golpear un bloque de granito. Creo que me rompí la mano.~
+@200 /*Clara*/ = ~Y luego todo lo que recuerdo es pensar: "Me estoy rompiendo las costillas. Me estoy muriendo."~
+@201 /*Korgan*/ = ~¡Te estabas muriendo! Te rompió casi todos los huesos del cuerpo, te reventó los órganos. Escupías sangre e intentabas pelear como la débil muchachita que eres.~
+@202 /*Korgan*/ = ~La multitud animaba a Glelda con cada golpe. Apostaba tan rápido como podía, ya que nadie más quería apostar a que sobrevivirías.~
+@203 /*Korgan*/ = ~Pero se lo demostraste a todos. ¡Tu cuchillo, directo al estómago! ¡Glelda no lo vio venir! Poco deportivo pero efectivo.~
+@204 /*Korgan*/ = ~Aún estabas hecha polvo, apenas podías moverte o respirar, y Glelda se desangraba en el suelo con espuma verde saliendo de su boca. La habías envenenado de mala manera.~
+@205 /*Korgan*/ = ~Por suerte para ambas, había tres clérigos presentes, suficientes para mantenerlas con vida a ambas.~
+@2050 /*Korgan*/ = ~A Glelda la curaron bastante fácilmente, pero a ti te temían. Ninguno de ellos había curado a un larguirucho antes. Temían curarte mal.~
+@206 /*Korgan*/ = ~Les dije que no se preocuparan. ¡Tú querías ser una enana! Así que te curaron a la manera enana. ¡Huesos más gruesos! ¡Músculos más grandes!~
+@207 /*Clara*/ = ~¿Mi cara está bien? El resto de mí parece... ¿Mi pecho es más generoso?~
+@208 /*Korgan*/ = ~Estabas plana como una tabla. ¡Ahora tienes unas tetas de las que un enano estaría orgulloso!~
+@209 /*Korgan*/ = ~Pero no te preocupes, tu cara es tan bonita como antes. Te arreglaron los huesos, te borraron las cicatrices, y luego saltaste a la barra y empezaste a menearlo.~
+@210 /*Clara*/ = ~¿Bailar? Todo lo que recuerdo son costillas rotas y un apagón. Eso es todo.~
+@211 /*Korgan*/ = ~Sí, no querías pagar al sacerdote ni a la taberna, así que en cuanto te recuperaste, te quitaste la túnica y bailaste en la barra. Todo el mundo se volvió loco.~
+@212 /*Korgan*/ = ~Un rico imbécil tiró 50 monedas de oro gritando por más, así que le lanzaste otra prenda.~
+@213 /*Korgan*/ = ~¡Al menos dos docenas de personas metieron monedas en tu corpiño esa noche — te lo llevaste todo!~
+@214 /*Clara*/ = ~¿Así que me dices que me moví un poco, tiré algo de ropa y gané 1200 monedas de oro? Oye... 1200 en una noche es más de lo que ganan las chicas más populares. Pero me duelen las piernas y la espalda; estoy casi segura de que me he hecho un esguince.~
+@215 /*Korgan*/ = ~En realidad fueron 700. La taberna se lleva su parte. Esa es tu parte — la he guardado para ti.~
+@216 /*Korgan*/ = ~El tabernero dice que eres bienvenida en cualquier momento.~
+@217 /*Clara*/ = ~Ugh, no... Me duele la espalda. Tal vez cuando vuelva a estar desesperada por dinero.~
+@218 /*Korgan*/ = ~Cuando quieras, solo búscame.~
+
+//1st HaerDalis Talk
+@257 /*HaerDalis*/ = ~Me resulta muy impresionante, mi querida urraca, cómo pasas de un papel a otro — de bella dama a asesina y todas las criaturas intermedias. Sin la interferencia de Hexxat, habrías sido una maravilla sobre el escenario.~
+@258 /*Clara*/ = ~Gracias por el cumplido, pero me temo que estás equivocado al respecto. ¿Por qué crees que trabajaba para los Ladrones de la Sombra?~
+@259 /*Clara*/ = ~Antes de ser poseída y todo eso, fui rechazada por todos los teatros de Athkatla, algunos varias veces.~
+@260 /*HaerDalis*/ = ~Entonces eran ciegos al talento. O quizás su ceguera era intencionada; en todos mis viajes a través de los planos, rara vez he visto algo tan vil como un actor tratando de aferrarse a ese último destello de gloria moribunda.~
+@261 /*HaerDalis*/ = ~En efecto, una compañía puede ser tan venenosa como un nido de víboras, con colmillos desenvainados y goteando muerte en cada palabra. Muchos actores harían cualquier cosa para mantener a sus rivales fuera del escenario, y debes aprender a bailar ese baile para que tu propia voz sea escuchada.~
+@262 /*HaerDalis*/ = ~Si lo deseas, este gorrión estaría encantado de darte algunos consejos. Solo necesitas un teatro que te dé la bienvenida para que tu estrella pueda brillar en un escenario como estaba claramente destinada a hacer.~
+@263 /*Clara*/ = ~Agradezco la oferta. Pero ya no quiero ser actriz. Ahora tengo aspiraciones más altas.~
+@264 /*HaerDalis*/ = ~Ahh, es una pena. Me contentaré con observar las muchas máscaras que muestras al mundo.~
+
+//1st Edwin Banter - male, no CN romance
+@265 /*Edwin*/ = ~¡Clara! Eres bastante atractiva. Ven a calentar mi cama esta noche.~
+@266 /*Clara*/ = ~No. ¿Por qué haría tal cosa?~
+@267 /*Edwin*/ = ~(¿Me rechaza? ¡Es imposible!)~
+@268 /*Edwin*/ = ~¡Soy Edwin Odesseiron, no lo entiendes? ¡El mismísimo tejido del universo se dobla ante mis caprichos! ¡Puedo invocar genios y criaturas de fuego puro para aniquilar a mis enemigos!~
+@269 /*Clara*/ = ~Está bien. Puede que seas un gran mago, pero ¿eres un rico mercader que vive en el lujo? ¿O quizás un señor noble que mejoraría mi posición? Ni siquiera eres un mercenario competente que pueda salvarme en una pelea.~
+@270 /*Clara*/ = ~¿Qué obtengo de esto aparte de decepción? Eres demasiado arrogante para ser tan bueno en la cama.~
+@271 /*Clara - if Anomen*/ = ~Además, tengo algo bueno con Anomen. Si lo hago bien, obtendré un título por mis problemas y me parece mucho más lindo que tú de todas formas.~
+@272 /*Clara - if married*/ = ~Además, por si no lo has notado, ya estoy casada. ¿Por qué arriesgaría mi posición por una noche tan mediocre contigo?~
+@273 /*Edwin*/ = ~¡Pero... pero... soy Edwin Odesseiron!~
+@274 /*Clara*/ = ~Y Edwin Odesseiron dormirá solo. Estoy segura de que tu ego te mantendrá lo suficientemente caliente toda la noche.~
+@275 /*Edwin*/ = ~(Este insulto es insoportable. Debo encontrar una manera de tenerla.)~
+
+//1st Nalia Banter
+@276 /*Nalia*/ = ~Entonces... Clara. ¿Eres noble? Es solo... no actúas como la mayoría de los nobles que conozco. Y bueno... hay muchos Silvershield y estoy segura de que algunos tenían hijas, pero...~
+@277 /*Clara*/ = ~¿Dudas de MI linaje? Soy la Dama Caroline Louisa Audrey Rosanna Alexandra Silvershield y mi sangre es tan azul como la que corre por tus venas. Tú eres la que se escapa de su castillo para andar con los pobres.~
+@278 /*Clara*/ = ~Quizás debería interrogarte a ti sobre TU herencia.~
+@279 /*Nalia*/ = ~Lo siento. Tienes razón. No debería juzgar. He hablado como mi tía; no para de hablar de lo que es apropiado para una dama de mi rango. Estoy tan cansada de eso.~
+@280 /*Clara*/ = ~Lo entiendo perfectamente. Creí que mi padre se desmayaría cuando le dije que quería ser actriz. La idea de que su querida hija trabajara codo a codo con plebeyos era simplemente impensable.~
+@281 /*Nalia*/ = ~Mi tía Delcia estaría de acuerdo. Pero sé que a mi padre le importaban. Siempre escuchaba a nuestra gente cuando venían con sus problemas, y yo quiero hacer lo mismo. Quiero ayudar a las clases bajas, no solo burlarme de ellas.~
+@282 /*Clara*/ = ~Y estoy segura de que la "gente pequeña" aprecia tu caridad.~
+@283 /*Clara*/ = ~Ahora, tienes que contarme todas tus escapadas nocturnas. Podemos compartir trucos para escabullirnos y chismear sobre los mozos de cuadra más guapos.~
+
+//2nd Nalia Banter
+@284 /*Clara*/ = ~... entonces me giré hacia mi padre y — aún con la colcha Y la mejor diadema de mi madre — le hice una reverencia perfecta, la que había estado practicando durante semanas. Estaba tan confundido que solo me regañó y el paje logró escapar sin ser visto.~
+@285 /*Nalia*/ = ~*risa* Has tenido las mejores aventuras. Ojalá nos hubiéramos conocido cuando era más joven. Los únicos niños con los que mis padres me dejaban jugar eran los Roenall, y son simplemente horribles.~
+@286 /*Clara*/ = ~No se suponía que jugara con el personal. Pero éramos los únicos nobles en millas a la redonda y me aburría mortalmente. A veces viajábamos desde nuestra propiedad hasta Beregost, pero no es exactamente una metrópolis bulliciosa como Baldur's Gate.~
+@287 /*Clara*/ = ~¿Por qué crees que quería ser actriz? Una compañía de teatro viaja por el mundo y conoce gente interesante; las nobles solo se supone que deben ser bonitas y hablar de sí mismas.~
+@288 /*Nalia*/ = ~Sé lo que quieres decir. Nuestro castillo está tan lejos de todo, y cuando podía asistir a un baile, no era muy popular. No vestía las últimas modas y nunca me gustó arreglarme como la mayoría de los nobles. Normalmente pasaba la noche charlando con el personal de servicio en los márgenes o escuchando a los músicos sola.~
+@289 /*Nalia*/ = ~*suspiro* Echo mucho de menos la música. Eso y el baile son las únicas cosas que realmente extraño de la vida que dejamos atrás.~
+@290 /*Clara*/ = ~Entonces, ¿por qué no vamos a bailar?~
+@219 /*Nalia*/ = ~¿Podemos hacer eso? Dudo que alguien esté organizando un baile por aquí.~
+@220 /*Clara*/ = ~No un baile, tonta. He pasado mucho tiempo entre plebeyos desde que dejé Beregost y estoy segura de que puedo encontrar un lugar donde podamos bailar toda la noche. Solo dame un poco de tiempo.~
+@221 /*Clara*/ = ~Vamos, vayamos a nuestra propia aventura. Nos merecemos una noche divertida después de todo esto de sobrevivir.~
+@294 /*Nalia*/ = ~De acuerdo, me apunto. Hagámoslo.~
+@295 /*Nalia*/ = ~Siempre que practiques conmigo; no he bailado en siglos y no quiero hacer el ridículo cuando lleguemos.~
+@296 /*Clara*/ = ~Claro, ¿para qué sirven las amigas? Practicaremos todos los pasos más nuevos y luego saldremos de fiesta.~
+
+//3rd Nalia Banter
+@297 /*Clara*/ = ~¿Estás lista, Nalia?~
+@298 /*Nalia*/ = ~Sí, estoy lista. ¿Cómo me veo? He intentado que mi vestido sea menos llamativo para no destacar demasiado.~
+@299 /*Clara*/ = ~Estás preciosa. Es perfecto. Esos chicos no sabrán lo que les ha llegado cuando crucemos la puerta. Tendremos admiradores peleando por la oportunidad de tocar nuestras manos.~
+@300 /*Nalia*/ = ~Solo te refieres a bailar, ¿verdad?~
+@301 /*Nalia - if romance*/ = ~No me gustaría que <CHARNAME> se hiciera ideas equivocadas.~
+@222 /*Clara*/ = ~No te preocupes. He encontrado un establecimiento más o menos decente y si alguien intenta forzar las cosas, bueno, para eso está una daga. Quédate conmigo y todo irá bien.~
+@303 /*Clara*/ = ~Tomaremos unas copas, bailaremos algunas canciones y volveremos antes de que nuestro intrépido líder sepa siquiera que nos hemos ido.~
+@223 /*Clara*/ = ~... y aquí estamos: el Sótano de Unkar, deleita tus ojos.~
+@305 /*Nalia*/ = ~... Oh, vaya, mira las luces y la música... Hay tanta gente. (¿Se supone que deben bailar tan pegados?)~
+@306 /*Clara*/ = ~Toma, bebe esto. Las moradas te harán bailar toda la noche.~
+@307 /*Clara*/ = ~Ahora, vamos, me encanta esta canción. Oye, chicos, ¿quieren bailar con nosotras?~
+@308 /*Peasant*/ = ~Nos encantaría. Hola, señorita, ¿quiere tomar mi mano?~
+@309 /*Nalia*/ = ~Claro, gracias. Aunque no estoy segura de conocer este baile.~
+@310 /*Peasant*/ = ~No se preocupe. Cuidaré bien de usted.~
+@224 /*Singer*/ = ~"Siento un fuego salvaje dentro de mí,
+                    toma mi mano, nena, y saldremos con estilo,
+                    toma mi mano, tengo toda la noche..."~
+@312 /*Nalia*/ = ~Oh, eso fue divertido. Nunca bailé así en casa.~
+@313 /*Clara*/ = ~Me alegra oírlo... ¿Has perdido a tu compañero?~
+@314 /*Nalia*/ = ~No. Dijo que lo agoté con la última canción. Pero creo que solo lo confundí cuando intenté llevar el ritmo.~
+@315 /*Clara*/ = ~¡Hah! Bueno, hay muchos más para elegir. Prueba con ese marinero de allí; tiene buenas piernas — para bailar, claro.~
+@316 /*Clara*/ = ~Y toma, una verde, solo para dar suerte...~
+@225 /*Singer*/ = ~"Vivir con el dolor,
+                    pienso en ti.
+                    No puedo seguir persiguiendo,
+                    los sueños que dejaste atrás..."~
+@318 /*Nalia*/ = ~... Tenemos que parar. Estoy agotada. ¿La habitación da vueltas o soy yo?~
+@319 /*Clara*/ = ~Me temo que eres tú. Probablemente me odiarás mañana por la mañana. No se suponía que bebieras tantas pócimas.~
+@320 /*Clara*/ = ~Ahora dime, ¿valió la pena?~
+@321 /*Nalia*/ = ~Sí. Gracias. Eres la mejor amiga que he tenido.~
+@322 /*Clara*/ = ~Yo también te quiero, Nalia. Aunque a veces eres un poco ingenua. Vamos, de vuelta a la posada, e intenta caminar recta si puedes.~
+
+//1st Keldorn Banter
+@323 /*Clara*/ = ~Sir Keldorn, me recuerda mucho a mi padre. Era alto y fuerte, querido por la mayoría de los que le conocían, siempre dispuesto a defender lo que era justo.~
+@324 /*Keldorn*/ = ~Me halaga la comparación. ¿Dónde está su padre ahora?~
+@325 /*Clara*/ = ~Muerto. Fue asesinado de la manera más cruel por hombres de mal corazón. Mi padre, mi madre y la mayoría de mis parientes cercanos.~
+@326 /*Keldorn*/ = ~Es una noticia realmente trágica. Espero que nuestras similitudes no le causen dolor.~
+@327 /*Clara*/ = ~No, Sir Keldorn, no se preocupe. Mi padre murió defendiéndome, esa es la razón por la que sigo viva, y por eso su presencia es un consuelo que me recuerda que fui amada. Me siento segura con usted, lo suficientemente segura para pensar en días mejores.~
+@328 /*Keldorn*/ = ~Me hace un gran honor, señora. Aunque no puedo reemplazar a su padre y, en verdad, no me atrevería a intentarlo, juro que la protegeré. Ninguna joven dama de su condición debería estar sola en el mundo.~
+
+//2nd HaerDalis Banter
+@329 /*Clara*/ = ~Haer'Dalis, ¿puedo hacerte una pregunta?~
+@330 /*HaerDalis*/ = ~Claro. ¿Qué palabras de sabiduría buscas en los labios de este gorrión? Solo pregunta y las dirá al viento.~
+@331 /*Clara*/ = ~¿Cómo logran los actores todos esos cambios rápidos durante una actuación? ¿Son muy sigilosos o hay algún truco?~
+@332 /*HaerDalis*/ = ~No es la pregunta que esperaba, mi silenciosa felina. ¿Creí que tu corazón ya no deseaba pisar las tablas?~
+@333 /*Clara*/ = ~Eso no significa que ya no tenga curiosidad. La primera vez que vi una obra, pensé que era magia cuando la vieja fea se convirtió en una princesa ante mis ojos. Pero cuando le pregunté a mi padre, dijo que la actriz simplemente llevaba un segundo disfraz debajo y se quitó el primero demasiado rápido para que lo viéramos.~
+@334 /*Clara*/ = ~¿Tenía razón? Incluso de niña, quería ser actriz y mis padres siempre me animaban cuando montaba una obra. Pero aunque aprendí a esconderme detrás de los decorados y a moverme en silencio, nunca entendí el truco de esos cambios rápidos. Mis atuendos siempre se resistían obstinadamente.~
+@335 /*HaerDalis*/ = ~Este gorrión te confiará un secreto. Puedo cruzarme con los mejores, pero las manos más rápidas de todos los planos aún tropezaban con esos cierres.~
+@336 /*HaerDalis*/ = ~Así que mientras algunos confiaban en la sigilo y otros en la distracción, yo usaba un toque de magia para dar vida a mis personajes.~
+@337 /*Clara*/ = ~¿En serio? ¿No es un poco derrochador?~
+@338 /*HaerDalis*/ = ~No, ¿qué mejor lugar para gastar mi poder que haciendo jadear y exclamar de alegría al público de este gorrión? Creo una puerta...~
+@339 /*HaerDalis*/ = ~Entro en ella...~
+@340 /*HaerDalis*/ = ~... y desaparezco de la vista hasta que reaparezco al otro lado del escenario, transformado.~
+@341 /*Clara*/ = ~¡Eso fue fantástico!~
+@342 /*Clara*/ = ~¿Puedes enseñarme a hacer eso? ¿O tendría que ser maga?~
+@343 /*HaerDalis*/ = ~La mayoría te diría que sí, que tales hechizos solo se conceden a aquellos que sienten la magia cantar en sus venas. Pero este bardo sabe más. He recogido muchos trucos a través de los planos, y para este, un estudiante dispuesto puede aprender los estribillos de la canción.~
+
+//1st Valygar Banter
+@344 /*Clara*/ = ~Valygar, ¿cómo te mueves tan silenciosamente?~
+@345 /*Valygar*/ = ~Es una pregunta extraña viniendo de ti. Yo no soy el ladrón entre nosotros.~
+@346 /*Clara*/ = ~Bueno, sí, soy buena escondiéndome en una ciudad. Hay gente, callejones y cajones detrás de los que deslizarse. Pero ¿cómo te las arreglas para mantenerte en las sombras aquí? Solo hay bichos, espacios abiertos y ramas que crujen bajo tus pies.~
+@347 /*Valygar*/ = ~Aah, entiendo. Estás luchando contra la naturaleza salvaje, Clara, y por eso no puedes caminar tan silenciosamente como en las calles de la ciudad.~
+@348 /*Valygar*/ = ~Debes adaptarte a la naturaleza; no puedes esperar que la tierra cambie por ti. Los magos esperan tales cosas, torciendo árboles y plantas con su magia inmunda, pero incluso entonces la tierra perdura y, una vez vencido el mago, las cosas vuelven a ser como eran.~
+@349 /*Clara*/ = ~Nunca lo había pensado así. ¿Puedes enseñarme? Quiero moverme como tú.~
+@350 /*Valygar*/ = ~Claro. Me encantaría mostrarle a otro cómo honrar adecuadamente la naturaleza salvaje.~
+
+//2nd Valygar Banter
+@351 /*Clara*/ = ~*susurro* Casi llegamos. Un poco más.~
+@352 /*Valygar*/ = ~Puedo oírte, Clara.~
+@353 /*Clara*/ = ~¡Maldición! Casi te tengo esta vez.~
+@354 /*Valygar*/ = ~Efectivamente, es cierto. Aprendes rápido. La tierra ya no marca tu paso como antes. ¿Estás segura de que no quieres ser una exploradora? Casi podrías pasar por una a los ojos de cualquiera.~
+@355 /*Clara*/ = ~No lo creo. Me gusta demasiado la ciudad. Me sentiría demasiado sola aquí.~
+@356 /*Valygar*/ = ~Supongo que puedo entenderlo. Aunque algunos de nosotros estamos destinados a estar solos. Es más seguro así cuando destruyes todo lo que tocas.~
+@357 /*Clara*/ = ~No deberías hablar así, ¿sabes? No creo que estés realmente maldito. El hecho de que tu familia haya tomado malas decisiones no te convierte en un tipo horrible.~
+@358 /*Clara*/ = ~Si lo fueras, no pasarías tanto tiempo enseñándome sobre la naturaleza. Puede que no sea tan buena como tú, pero ya no me siento tan torpe en el campo.~
+@359 /*Valygar*/ = ~Me alegra oírlo. Mi presencia trae peligro a <CHARNAME> y a toda vuestra compañía, y a veces estoy seguro de que debería irme. Pero al menos he sido útil mientras he estado aquí.~
+
+//3rd Valygar Banter
+@360 /*Clara*/ = ~Oye, Valygar, has pasado mucho tiempo huyendo de los Magos Encapuchados. ¿Cómo conseguiste evitar que sus hechizos te encontraran?~
+@361 /*Clara*/ = ~Pensaba que un mago realmente poderoso podía verlo todo a kilómetros a la redonda, y todo el mundo sabe que los Magos Encapuchados son los más fuertes de la zona.~
+@362 /*Valygar*/ = ~Su magia puede ser poderosa, pero no es omnipotente. Tales hechizos son cosas antinaturales y la tierra lucha contra ellos con todas sus fuerzas.~
+@363 /*Valygar*/ = ~Hay formas de ocultarse de la magia de un hechicero. Ciertas hierbas nublarán su visión si las bebes, y ciertas piedras pueden desviar sus hechizos.~
+@364 /*Valygar*/ = ~Estoy seguro de que un hechicero realmente talentoso podría superar estas barreras, pero los Magos Encapuchados son complacientes en su dominio. Nunca imaginarían que algo tan común como una hierba pudiera contrarrestar su poder.~
+@365 /*Valygar*/ = ~Tolgerias probablemente supuso que había encontrado una magia superior, y por eso contrató a <CHARNAME> para encontrar mi escondite. Los usuarios de magia rara vez quieren ensuciarse las manos cuando otro puede hacer el trabajo por ellos.~
+@366 /*Clara*/ = ~Es increíble. ¿De verdad hay hierbas que pueden ocultarte de un hechizo?~
+@367 /*Valygar*/ = ~Claro. Te las mostraré durante el viaje. Nunca es mala idea tener tales cosas a mano.~
+
+//2nd Keldorn Banter
+@368 /*Clara*/ = ~Usted es un gran buscador de la verdad, Sir Keldorn. ¿Todos los paladines comparten su capacidad para ver la verdadera naturaleza de sus enemigos?~
+@369 /*Keldorn*/ = ~La mayoría, sí. Un paladín recibe tales dones de su dios para ayudarle a combatir la injusticia en todas sus formas. El mal verdadero a menudo lleva una máscara más amable, y ver más allá de las apariencias es vital para rastrear a tales criaturas.~
+@370 /*Keldorn*/ = ~Por supuesto, como todas las cosas, no es infalible. Se necesita habilidad y entrenamiento para que un paladín vea la verdad por completo, y hay formas en que el mal puede desviar nuestra visión.~
+@371 /*Clara*/ = ~¿En serio? Pero entonces, ¿cómo podemos confiar en nadie? ¡Eso es terrible!~
+@372 /*Keldorn*/ = ~No hay necesidad de preocuparse por tales cosas, se lo prometo. La capacidad de bloquear mis dones es rara. Hay algunos objetos mágicos diseñados para ese propósito, y he oído rumores de que algunos monjes usan disciplinas mentales para ocultar sus verdaderas intenciones, aunque no los he conocido personalmente.~
+@373 /*Keldorn*/ = ~En mi experiencia, los males más peligrosos son aquellos que realmente creen lo que dicen, porque las mentiras en sus labios serán leídas como honestidad. Sin embargo, incluso en ese caso, sus acciones acabarán hablando y mostrando la verdad.~
+@374 /*Clara*/ = ~Es un alivio. Me alegra saber que puedo confiar en usted para protegernos del mal de todo tipo. (No te rías. Lo crees. Lo crees sinceramente.)~
+
+//2nd Edwin Banter
+@375 /*Clara*/ = ~Edwin, puedes dejar de mirarme; sigo sin estar interesada.~
+@376 /*Edwin*/ = ~Eso es solo porque no comprendes mi verdadera grandeza. (¿Cómo puede ser cierto esto? No puedo concebirlo, ya que ha visto mi poder en combate.)~
+@377 /*Edwin*/ = ~Si dejas de charlar y escuchas, caerás a mis pies de asombro.~
+@378 /*Clara*/ = ~¿Oh, en serio? ¿Te has convertido de repente en el noble más rico de Athkatla?~
+@379 /*Edwin*/ = ~¡No, claro que no! Tú y tu obsesión por la riqueza. Qué plebeyo.~
+@380 /*Clara*/ = ~Tus bonitos destellos no me alimentarán cuando esté muriendo de hambre. Se necesitan buenas monedas sólidas para eso.~
+@381 /*Edwin*/ = ~Eso no es... (uggh) el punto. Y son más que destellos.~
+@382 /*Edwin*/ = ~Toma esto. Te demostraré.~
+@383 /*Clara*/ = ~Es un pendiente, Edwin. Ya he visto uno antes.~
+@384 /*Edwin*/ = ~No como este. Te he observado de cerca en esos combates que nuestro intrépido líder no deja de provocar. Prefieres esconderte en las sombras y apuñalar a tus enemigos por la espalda. (Una estrategia decente si uno no es el gran Edwin Odesseiron.)~
+@385 /*Edwin*/ = ~Este pendiente te asistirá en tus esfuerzos, te protegerá como has exigido que yo haga. Solo tienes que tocarlo y un hechizo te envolverá con ilusiones para escapar de tus enemigos.~
+@386 /*Clara*/ = ~¿En serio? Eso es útil.~
+@387 /*Edwin*/ = ~¿Ves ahora? Edwin Odesseiron es muy superior a cualquier otro pretendiente que puedas tener. ¿Qué es un noble o un mercader comparado con mi puro genio? La próxima vez que nos permitan descansar, te unirás a mí en mi cama.~
+@388 /*Clara*/ = ~No. No lo haré.~
+@389 /*Clara*/ = ~Pero gracias por el pendiente. Al menos ya no tendré que soportar tu mirada fija.~
+@390 /*Edwin*/ = ~¡Maldición! ¡Se ha escapado! (Esto no ha salido como esperaba. Tendré que intentarlo de nuevo.)~
+
+//1st Sarevok Banter
+@226 /*Clara*/ = ~Entonces... Sarevok. He oído que incriminaste a <CHARNAME> por el asesinato de tu padre adoptivo y luego intentaste tomar el control de Baldur's Gate.~
+@227 /*Sarevok*/ = ~Y fui asesinado por ello. Si piensas darme una lección de moral, ahorra tu aliento. No necesito otro llorica que diga que fui un necio.~
+@228 /*Clara*/ = ~¿Estás bromeando? Admiro tu ambición. Casi pusiste toda la Costa de la Espada a tus pies.~
+@229 /*Clara*/ = ~Claro, no terminó muy bien, pero a mí me mató un vampiro. No puedo hablar mucho. Al menos tocaste las estrellas antes de caer. Habrías sido una leyenda si <CHARNAME> no lo hubiera arruinado todo.~
+@230 /*Sarevok*/ = ~Bueno, es un cambio refrescante. La mayoría de los compañeros de mi <PRO_BROTHERSISTER> siguen agarrando sus armas cada vez que paso.~
+@231 /*Clara*/ = ~Sería estúpido por mi parte. Si quisiera matarte, esperaría a que estuvieras distraído y te apuñalaría por la espalda.~
+@232 /*Sarevok*/ = ~¡Hah! Creo que me caes bien, Clara. Siempre es agradable conocer a alguien que no esconde sus sentimientos detrás de las conveniencias sociales.~
+@233 /*Sarevok*/ = ~Quizás viajar con <CHARNAME> no sea tan doloroso después de todo.~
+
+//Edwin Belt Banter
+@234 /*Clara*/ = ~Oye, Edwin, ven a ver esto. He encontrado algo que creo que querrás ver.~
+@235 /*Edwin*/ = ~Sí, claro, porque Edwin Odesseiron no tiene nada mejor que hacer que hablar de lo que vosotros, los simples, encontráis intrigante. ¿Es una bonita piedra? ¿O quizás un arma brillante? Las mentes simples se distraen tan fácilmente.~
+@236 /*Clara*/ = ~Y sin embargo, has venido cuando te he llamado. ¿Te has cansado por fin de tu propia y elevada compañía y has decidido codearte con el resto de nosotros, los plebeyos?~
+@237 /*Edwin*/ = ~Claro que no. ¿Qué conversación chispeante esperas ofrecerme? La única inteligencia en este grupo es la mía. Pero encuentro que vosotros, los imbéciles, sois ligeramente menos irritantes cuando cedo a vuestras charlas.~
+@238 /*Clara*/ = ~Claro, Edwin. Sigue diciéndotelo a ti mismo. Creo que te gusta tenerme cerca. ¿A quién más insultarías y despreciarías?~
+@239 /*Edwin*/ = ~(La mujer dice disparates. Pero sus delirios son divertidos, supongo.) ¿Debería halagarte un poco más? ¿Decirte que tu pequeña y patética teoría es correcta? No. Basta de esto. ¿Qué querías mostrarme?~
+@240 /*Clara*/ = ~Oh, eso. Uno de nuestros enemigos llevaba este cinturón y pensé que quizás querrías tenerlo. Así podrás simplemente cambiarlo de vuelta si otro accidente mágico te convierte en mujer. O cuando quieras; no juzgaré.~
+@241 /*Edwin*/ = ~¿Esperas que me crea eso? Eres una pieza egoísta y no ofreces regalos gratuitamente.~
+@242 /*Edwin - if other belt talk*/ = ~¿También has pagado para que este cinturón sea hechizado contra mí? ¿Va a transformarme en un mediano o en algún grotesco trol de montaña?~
+@243 /*Clara*/ = ~Sin trucos. Esta vez no. Puedes tenerlo gratis, e incluso hice que lo encantaran para que solo funcione para ti. Al fin y al cabo, los amigos ayudan a los amigos con sus problemas. Quizás solo recuerda esto si necesito un hechizo algún día.~
+@244 /*Edwin*/ = ~(Y ahí está el costo que esperaba. ¿Cree que voy a bailar como una marioneta de sus cuerdas?) No somos amigos, Clara. Ni siquiera somos colegas. Estás muy por debajo de mi atención.~
+@245 /*Edwin*/ = ~Tolero tu presencia porque nuestro estúpido líder parece pensar que eres útil y me es ventajoso tener cuerpos vivos que se interpongan ante mis enemigos.~
+@246 /*Clara*/ = ~¿Eso significa que no lo quieres? Estoy segura de que podría encontrar un comprador para este cinturón fácilmente.~
+@247 /*Edwin*/ = ~...~
+@248 /*Edwin*/ = ~Maldita sea, mujer. Dámelo.~
+
+//1st Anomen banter - if married
+@391 /*Anomen*/ = ~Mi amor, ¿puedo hablar contigo en privado?~
+@392 /*Clara*/ = ~Claro. ¿Qué te preocupa? Sabes que siempre estoy aquí para escuchar los problemas que nublan tu mente.~
+@393 /*Anomen*/ = ~Lo sé y te lo agradezco, pero... he estado pensando en el futuro, en lo que haré cuando esta última batalla haya terminado.~
+@394 /*Clara*/ = ~Creo que quieres decir NOSOTROS, querido. Lo que NOSOTROS haremos cuando <CHARNAME> nos haya liberado por fin...~
+@395 /*Clara*/ = ~Eres mi marido, después de todo, y he hecho mis votos con sinceridad. Si podemos enfrentar juntos las profundidades del infierno, entonces podemos enfrentar cualquier conflicto que el futuro nos depare.~
+@396 /*Anomen*/ = ~A veces todavía no puedo creer que estemos casados. No merezco tu amor, pero te agradezco tenerlo.~
+@398 /*Anomen*/ = ~Si algo me ha enseñado <CHARNAME> y viajar con él, es que los mortales son pequeños e insignificantes en las batallas de los dioses. Nuestras vidas son cortas y nuestros sueños frágiles, y el hombre que yo era habría recibido ese conocimiento con desesperación.~
+@399 /*Anomen*/ = ~Sin embargo, tú me has enseñado que un camino diferente no siempre es el equivocado. Una vida no necesita ser grandiosa para tener un propósito, y la más pequeña de las bondades puede significar más cuando alguien necesita una mano que guíe.~
+@400 /*Anomen*/ = ~Cuando todo termine, deseo volver a nuestra casa en Athkatla. Durante años soñé con luchar contra el mal como caballero de la Orden, y sin embargo, en verdad, creo que puedo hacer mucho más para ayudar a mi ciudad como señor.~
+@397 /*Anomen*/ = ~Nunca me importaron mucho los negocios de mi padre, pero parece que tengo cierta habilidad para ello, y hay mucho trabajo por hacer. No se puede cambiar el mundo sin dinero ni poder.~
+@3970 /*Anomen*/ = ~Si ya tenemos la destreza en el combate, también necesitaremos oro e influencia política. Me temo que gran parte de nuestro trabajo será terriblemente aburrido, pero no podré tener éxito sin tu ayuda.~
+@401 /*Clara*/ = ~A veces, mi amor, eres un hombre muy estúpido. Claro que te ayudaré en esta empresa. Somos marido y mujer. Tu nombre es mi nombre, y no podría pedir más.~
+@402 /*Clara*/ = ~Seré tu perfecta señora. Recibiré y cenaré con tus socios comerciales, y te ayudaré a planear tus estrategias. Enfrentaremos a los nobles de Athkatla como hemos enfrentado a todos los enemigos: juntos, y cuando triunfemos, construiremos el mundo que buscas. Un mundo mejor para todos.~
+@403 /*Anomen*/ = ~Eres un milagro, mi señora, y doy gracias a los dioses cada vez que te tengo en mis brazos. Seré el hombre más admirado de Amn contigo a mi lado.~
+@404 /*Clara*/ = ~Y yo seré la mujer más admirada. Cada dama de la ciudad arderá de envidia.~
+@405 /*Clara*/ = ~No te preocupes, mi señor marido. Pase lo que pase, te apoyaré. Haré todo lo necesario para asegurar nuestro éxito.~
+@406 /*Anomen*/ = ~Gracias, mi amor. Quizás algún día me sienta digno del regalo que me has hecho.~
+
+//1st Aerie Banter
+@409 /*Clara*/ = ~Oye, Aerie. ¿Quién es ese Chiktikka Fastpaws que mencionas siempre? ¿Es una especie de dios avariel?~
+@410 /*Aerie*/ = ~Oh, eh, no exactamente. Supongo que es un poco tonto. Pero después de que Quayle me salvara, estaba tan agradecida y empecé a rezar a Baervan Wildwanderer. Es un dios gnomo de los bosques y los animales del bosque.~
+@411 /*Clara*/ = ~¿Puedes hacer eso? Siempre pensé que debía limitarme a las deidades humanas. Si hubiera sabido que podía adorar a quien quisiera, habría repartido mis plegarias. Nunca está de más tener algunos dioses y diosas más de tu lado.~
+@412 /*Clara*/ = ~Pero espera, todavía no has respondido a mi pregunta. ¿Qué tiene que ver ese tipo gnomo con todo esto?~
+@413 /*Aerie*/ = ~Iba a llegar a eso. Baervan Wildwanderer siempre viaja con su compañero, un mapache sensible llamado Chiktikka Fastpaws.~
+@414 /*Clara*/ = ~¿En serio? Eres una poderosa maga y clériga con docenas de hechizos a tu disposición, ¿y el protector que invocas es un animal parlante?~
+@415 /*Clara*/ = ~Sin ofender, Aerie, pero eres un poco rara.~
+
+//1st Rasaad Banter
+@416 /*Clara*/ = ~¿Sabes, Rasaad? Eres realmente muy flexible.~
+@417 /*Rasaad*/ = ~¿Clara? ¿Cuánto tiempo llevas ahí?~
+@418 /*Clara*/ = ~No mucho. Pero no te detengas por mí. Estoy disfrutando mucho de la vista. ¿Siempre entrenas sin túnica?~
+@419 /*Rasaad*/ = ~Generalmente, sí. No tenemos muchas oportunidades de bañarnos durante los viajes, así que prefiero mantener mi ropa lo más limpia posible.~
+@420 /*Clara*/ = ~Mmm, sí, es bastante sensato. Toda esa piel sudorosa... Dime, ¿todos los Monjes del Alma Solar son tan... flexibles? ¿O tienes habilidades especiales?~
+@421 /*Rasaad*/ = ~Supongo que quizás soy más flexible que la mayoría. He sido cuidadoso en mi entrenamiento y me aseguro de estirar siempre que puedo. Si quieres, podría mostrarte algunos ejercicios simples para aumentar tu flexibilidad.~
+@422 /*Clara*/ = ~En realidad, creo que me gustaría eso.~
+@423 /*Clara*/ = ~Deslúmbrame con tu excelencia... y mantén la túnica quitada.~
+
+//1st Minsc Banter
+@424 /*Clara*/ = ~Entonces, Minsc, ese hámster mascota tuyo... ¿tiene mucho valor?~
+@425 /*Minsc*/ = ~¡Boo no es una mascota! ¡Boo es mi amigo! ¡Cualquiera que intente llevarse a mi amigo se enfrentará a Minsc! ¡Se patearán traseros! ¡Se aplastarán cabezas!~
+@426 /*Clara*/ = ~De acueeeerrrdo entonces. Olvida que he dicho nada.~
+@427 /*Minsc*/ = ~No. Minsc no olvida. Boo dice que olvidar es malo cuando se habla con amigos. Así que yo te protejo, tú proteges a Boo, y Boo protege a todos: ¡el poder de la amistad nos guía!~
+@428 /*Minsc*/ = ~¡Juntos somos fuertes! ¡Somos más fuertes juntos!~
+@429 /*Clara*/ = ~¿Y eso es bueno, verdad?~
+@430 /*Minsc*/ = ~¡Claro! ¡Es lo más bueno!~
+@431 /*Minsc*/ = ~*chirrido. chirrido.* Sí. Boo está de acuerdo. Y Boo es el inteligente.~
+@432 /*Clara*/ = ~Sí, creo que lo es.~
+
+//2nd Minsc Banter
+@433 /*Clara*/ = ~*chirrido. chirrido. chirrido.* Vamos, Boo. ¿Quieres un poco de galleta de viaje? ¿O quizás una galleta?~
+@434 /*Minsc*/ = ~¿Qué estás haciendo, Clara?~
+@435 /*Clara*/ = ~Ehhhh, ¿nada? Nada en absoluto. No intentaba robar tu hámster. Por favor, no me mates.~
+@436 /*Minsc*/ = ~Claro que no hay robo. Los amigos no pueden robar. Boo dice que le gustan las saladas. Deberías traer esas la próxima vez.~
+@437 /*Clara*/ = ~¿De verdad puedes entenderlo? He estado intentando durante días, pero todo lo que oigo son chirridos. Pensé que quizás solo necesitaba acercarme y escuchar con atención.~
+@438 /*Minsc*/ = ~¿Quieres escuchar a Boo? Nadie escucha a Boo. La mayoría de la gente se ríe de nosotros a nuestras espaldas. Eso entristecía a Minsc antes, pero es solo envidia. Todo el mundo quiere su propio hámster gigante miniatura.~
+@439 /*Clara*/ = ~Bueno, ese no es mi caso. Hablo en serio. Enséñame a hablar con Boo.~
+@440 /*Minsc*/ = ~¡Sí, enseñar! Primero, debes sentarte. Luego, debes escuchar. Abre tus oídos.~
+@441 /*Minsc*/ = ~Ahora, Boo chirría. Chirría para que ella pueda oír.~
+@442 /*Clara*/ = ~No puedo... sigue sonando igual. Vale, Clara, concéntrate...~
+@443 /*Clara*/ = ~Creo que lo estoy captando. ¿Es eso...?~
+@444 /*Clara*/ = ~*chirrido* Sí, lo he entendido. Puedo oírlo todo...~
+@445 /*Minsc*/ = ~Ahora piensas como Minsc. También hablas con Boo y lo escuchas.~
+@446 /*Clara*/ = ~...Ohhh, me duele la cabeza.~
+@447 /*Minsc*/ = ~Sí. No deberías pensar como Minsc demasiado a menudo. Tu mente no es tan fuerte.~
+
+//3rd Minsc Banter
+@448 /*Clara*/ = ~¡*chirrido, chirrido, chirrido!*~
+@449 /*Minsc*/ = ~¡Exactamente! Boo dice que tu pronunciación está mejorando.~
+@450 /*Minsc*/ = ~¡Has dominado el hablar-hámster: una de las tres habilidades del Heroísmo!~
+@451 /*Clara*/ = ~Mmm, quizás me arrepienta de preguntar esto, pero ¿cuáles son las otras dos?~
+@452 /*Minsc*/ = ~¿Las otras dos qué?~
+@453 /*Clara*/ = ~Las otras dos habilidades del Heroísmo. Dijiste que una era el hablar-hámster...~
+@454 /*Minsc*/ = ~Ahh, la segunda es el no-ser-visto-al-moverse. Ya tienes esa.~
+@455 /*Minsc*/ = ~¡Y la tercera es la berserkerización!~
+@456 /*Clara*/ = ~¿Te refieres a eso en lo que te vuelves loco en combate y todos tenemos que mantenernos alejados para que no nos mates accidentalmente?~
+@457 /*Clara*/ = ~¿Puedes enseñarme?~
+@458 /*Minsc*/ = ~Sí, aunque Boo dice que la locura quizás sea opcional.~
+@459 /*Minsc*/ = ~Primera lección: correremos por todas partes gritando y golpearemos el suelo con nuestras espadas.~
+@460 /*Minsc*/ = ~Mírame primero...~
+
+//4th Minsc Banter
+@461 /*Clara*/ = ~¡¡¡GRRRRAAAAAARGH!!!~
+@462 /*Minsc*/ = ~¡Sí! ¿Ves cómo esa mosca se ha apresurado a alejarse de ti, encogida y batiendo las alas?~
+@463 /*Minsc*/ = ~¡Te has vuelto realmente temible! Boo dice que incluso él tiene la piel de gallina.~
+@464 /*Clara*/ = ~¡Es tan liberador! Ya veo cómo la gente podría perderse en esto. He pasado todos mis combates hasta ahora tratando cuidadosamente de no morir.~
+@465 /*Minsc*/ = ~Eso es una tontería. Boo tiene algo que decir al respecto.~
+@466 /*Minsc*/ = ~*chirrido chirrido chirrido*~
+@467 /*Clara*/ = ~"¿Deberíamos sonreír porque la muerte sonríe?" ¿No es un poco mórbido?~
+@468 /*Minsc*/ = ~Hmm, es una forma de decirlo. Yo lo entendí como: "La muerte nos sonríe a todos, lo único que podemos hacer es devolverle la sonrisa."~
+@469 /*Clara*/ = ~Sigue siendo mórbido... pero creo que lo entiendo. Todos vamos a morir, así que más vale disfrutar de la vida, ¿verdad?~
+@470 /*Minsc*/ = ~¡Entiendes exactamente! Minsc está orgulloso de ti. Te convertiremos en un hámster algún día.~
+
+//3rd HaerDalis Banter
+@471 /*Clara*/ = ~Haer'Dalis, ¿por qué luchas con espadas? Pensaba que la mayoría de los bardos solo tocaban música o lanzaban hechizos a sus enemigos.~
+@472 /*HaerDalis*/ = ~Aahh, pero hay música en el choque del acero. Hay canciones en el estruendo de espadas y hachas, canciones que trascienden todos los lenguajes y planos.~
+@473 /*HaerDalis*/ = ~¿No has oído las armonías del combate? Las notas disonantes que se elevan y los ritmos graves de los moribundos.~
+@474 /*HaerDalis*/ = ~He escrito odas a una sola gota de sangre y a las vidas que mis espadas han robado; he bailado en cien campos de batalla.~
+@475 /*HaerDalis*/ = ~Y, en verdad, cuando nuestros enemigos se preparan para cantar, este gorrión obtiene la ventaja de la sorpresa con un arma en la mano.~
+@476 /*Clara*/ = ~¿Estás seguro de que hemos librado las mismas batallas? Yo solo oigo gritos, y no creo que pueda usar dos espadas como tú.~
+@477 /*Clara*/ = ~¿Cómo haces para no apuñalarte accidentalmente?~
+@478 /*HaerDalis*/ = ~Es un baile, mi urraca, con reglas y patrones, aunque tus compañeros cambien. Solo necesitas aprender los pasos, y la canción te mostrará, el dar y recibir de un vals que termina en sangre.~
+@479 /*HaerDalis*/ = ~Te enseñaré, si quieres. Quizás una espada para empezar, pero cantaremos el acero juntos. Un verdadero bardo toca mejor para un público entendido.~
+
+//2nd Sarevok Banter
+@480 /*Sarevok*/ = ~Clara, admiro tu pragmatismo. Un verdadero guerrero usa todo lo que tiene a mano para vencer a sus enemigos.~
+@481 /*Clara*/ = ~*risa* Gracias, supongo. Puede que seas la primera persona que me llama guerrera.~
+@482 /*Sarevok*/ = ~Entonces los demás eran unos necios. Vieron la bonita máscara y no miraron más allá, pero yo conozco la verdad. He visto la víbora que hay debajo.~
+@483 /*Clara*/ = ~Halagador. ¿Debería preocuparme de que me hayas estado observando?~
+@484 /*Sarevok*/ = ~No. No me interesas de esa manera. He perdido el gusto por las intrigas. Dame una batalla abierta y la emoción de la sangre en mis venas.~
+@485 /*Sarevok*/ = ~Sin embargo, no he perdido mis habilidades, y hay algunas de las que podrías beneficiarte.~
+@486 /*Clara*/ = ~¿Así que vas a compartir tu sabiduría duramente ganada? ¿Te ha sobrevenido una repentina y extraña caridad?~
+@487 /*Sarevok*/ = ~Claro que no. No seas ridícula. Pero somos compañeros por ahora. Solo me beneficio de hacerte más letal.~
+@488 /*Sarevok*/ = ~Tienes cierta habilidad con una hoja, pero no eres más que una torpe necia comparada con tu verdadero potencial.~
+@489 /*Sarevok*/ = ~Te mostraré.~
+
+//2nd Anomen Banter - if married
+@490 /*Anomen*/ = ~Me encuentro preocupado por nuestro futuro una vez más. Un puesto en el Consejo de los Seis es indispensable si quiero marcar alguna diferencia.~
+@491 /*Clara*/ = ~Claro, mi amor, es prácticamente tuyo.~
+@492 /*Anomen*/ = ~No, ese puesto es tan seguro como nuestra fortuna, y el comercio siempre es arriesgado.~
+@493 /*Anomen*/ = ~Recuerdo que mi padre perdió tres barcos en un mes; eso fue lo que lo arruinó.~
+@494 /*Anomen*/ = ~Estaban asegurados, claro, pero Saerk usó su influencia para evitar el pago completo. Fue ese acto el que quebró a mi padre.~
+@495 /*Anomen*/ = ~Siempre le había gustado beber, pero nunca volví a verlo sin una botella después de eso, y cuanto más bebía, más dinero perdía. Echó la culpa de todo a Saerk, incluso cuando la culpa era claramente suya.~
+@496 /*Anomen*/ = ~Me sorprendió lo rápido que recuperó su fortuna tras la muerte de Saerk... No creía que fuera capaz.~
+@497 /*Anomen*/ = ~Supongo que tenemos suerte de que lo hiciera. Con los últimos barcos enviados, tenemos al menos seis meses antes de tener que volver a casa.~
+@498 /*Clara*/ = ~Te preocupas demasiado. Cada barco que regresa pagaría la pérdida total de otros tres. Si solo uno de los barcos de la ruta del sur sobrevive, podría comprarnos una nueva flota.~
+@499 /*Clara*/ = ~Dada la reciente rebelión al otro lado de la frontera, solo la sal debería venderse a cinco veces el precio previsto...~
+@500 /*Clara*/ = ~¿Qué? ¿Por qué me miras así?~
+@501 /*Anomen*/ = ~Eres una maravilla. ¿Conoces los barcos y sus cargamentos?~
+@502 /*Clara*/ = ~Conozco cada barco, su carga, su destino, los precios en cada puerto de escala para cada mercancía transportada, y las debilidades morales de todos nuestros capitanes.~
+@503 /*Clara*/ = ~Difícilmente podría esperar ayudarte a gestionar un imperio comercial sin conocer los detalles. Tanto te importaban cada libro, registro y manifiesto, que los re-leí cuando estabas atendiendo otros asuntos.~
+@504 /*Clara*/ = ~No entendía la mitad de la información al principio, pero algunos de nuestros sirvientes y trabajadores se alegraron de enseñarme cuando les pregunté amablemente.~
+@505 /*Clara*/ = ~En fin, decías que estabas preocupado por nuestra fortuna...~
+@506 /*Anomen*/ = ~No, mi amor. Ya no más. Creo que estaremos bien.~
+
+//2nd Aerie Banter
+@507 /*Clara*/ = ~Oye, Aerie, ese Chiktikka Fastpaws es muy rápido, ¿verdad?~
+@508 /*Aerie*/ = ~Quiero decir, supongo que sí. Por eso siempre lo invoco cuando intento moverme rápido.~
+@509 /*Clara*/ = ~Eso es. Así que si rezo a Chiktikka Fastpaws muy, muy fuerte, tendrá que hacerme más rápida. Así es como funciona.~
+@510 /*Aerie*/ = ~No creo que sea exactamente...~
+@511 /*Clara*/ = ~Sí, lo es. Plegarias por bendiciones. Ese es el trato. Si no, ¿por qué alguien se tomaría la molestia de adorar a un dios?~
+@512 /*Aerie*/ = ~Bueno, algunos de nosotros solo queremos dar las gracias. Y me resulta reconfortante saber que alguien escucha.~
+@513 /*Clara*/ = ~Uh-huh, como sea. Hagámoslo.~
+@514 /*Clara*/ = ~Chiktikka Fastpaws, escucha mis plegarias. Chiktikka Fastpaws, concédeme tu favor. Chiktikka Fastpaws, dame la velocidad de un mapache.~
+@515 /*Clara*/ = ~... Siento algo... Siento su poder... ¿Ese ratón acaba de insultarme? ¡Maldición! ¡Dije velocidad, no hablar! ¡No quiero hablar con los animales!~
+@516 /*Aerie*/ = ~*risita* Has recibido tu bendición, Clara. Deberías estar agradecida.~
+
+//3rd Aerie Banter
+@517 /*Clara*/ = ~Bueno, Chiktikka Fastpaws fue un fracaso. Maldito mapache tiene sentido del humor.~
+@518 /*Clara*/ = ~Oye, Aerie, ¿quién era ese otro dios que mencionaste antes?~
+@519 /*Aerie*/ = ~¿Te refieres a Baervan Wildwanderer?~
+@520 /*Clara*/ = ~Sí, ese. Háblame de él.~
+@521 /*Aerie*/ = ~Bueno, como he dicho, es un dios gnomo de la naturaleza y los bosques. Gracias a él, los gnomos de los bosques pueden hablar con los animales pequeños.~
+@522 /*Aerie*/ = ~*risa* Probablemente por eso Chiktikka Fastpaws te dio ese regalo. ¿Los pájaros siguen impidiéndote dormir bien por la noche?~
+@523 /*Clara*/ = ~¡Sí! Juro que lo hacen a propósito. ¡Solo hablan de comida! Quizás si rezo a Baervan, pueda hacer callar a esos bichos.~
+@524 /*Aerie*/ = ~Te he dicho que no funciona así. No puedes rezar solo cuando quieres cosas.~
+@525 /*Clara*/ = ~Shh, estoy en comunión con tu dios...~
+@526 /*Clara*/ = ~Óyeme, oh Baervan Wildwanderer. Muéstrame la verdad de la naturaleza. Muéstrame cómo silenciar todas esas molestias irritantes en la noche.~
+@527 /*Aerie*/ = ~¡SÍ, HIJA MÍA, TU FAVOR SERÁ CONCEDIDO!~
+@528 /*Clara*/ = ~¿En serio? ¿Puedes darme también visión verdadera?~
+@529 /*Aerie*/ = ~CLARO, ESTARÉ ENCANTADA DE AYUDAR A MI DISCÍPULO MÁS DEVOTO...~
+@530 /*Aerie*/ = ~Oh, no puedo más. No puedo soportarlo. *resoplido* ¡Jajajajajajajajajajajaja!~
+@531 /*Clara*/ = ~¿¡Qué!? ¡Aerie! Eso no ha sido bonito.~
+@532 /*Aerie*/ = ~Lo siento. No he podido resistirme. Pero me compensaré. Toma. No es un favor de Baervan Wildwanderer, pero puedes tener este favor de mi parte.~
+
+//1st Cernd Banter
+@533 /*Clara*/ = ~Así que dejaste a tu esposa por amor a la naturaleza. ¿Te gustan tanto los árboles?~
+@534 /*Cernd*/ = ~No fue así. Tuve una vocación y ella dijo que lo entendía.~
+@535 /*Clara*/ = ~Uh-huh, seguro que sí. Probablemente estaba harta de que te escabulleras para "comulgar" con la naturaleza. ¿No es lo que hacéis los druidas?~
+@536 /*Cernd*/ = ~¡Claro que no! Hablamos con la naturaleza para preservar el equilibrio. Eso es todo.~
+@537 /*Clara*/ = ~¿En serio? ¿Quieres decir que el susurro de las hojas primaverales no te hace estremecer? ¿No te encuentras deseando el tacto áspero de la corteza?~
+@538 /*Cernd*/ = ~¡Basta! No escucharé más tus insultos.~
+@539 /*Clara*/ = ~Hah. Este druida tiene temperamento.~
+
+//2nd Cernd Banter
+@540 /*Clara*/ = ~Cernd, ¿qué tipo de árbol es ese?~
+@541 /*Cernd*/ = ~Oh, es un-~
+@542 /*Clara*/ = ~Cernd, ¿es un gorrión ese de allá?~
+@543 /*Cernd*/ = ~No, es-~
+@544 /*Clara*/ = ~Cernd, ¿vas a transformarte en hombre lobo?~
+@545 /*Cernd*/ = ~Eso no es-~
+@546 /*Clara*/ = ~Cernd, ¿puedo-~
+@547 /*Cernd*/ = ~¡No! ¡Por el amor de la naturaleza, no! Eso es un olmo, ese pájaro es una tórtola, y si no dejas de molestarme, ¡verás mi forma de hombre lobo muy, muy de cerca!~
+@548 /*Clara*/ = ~Ooh, qué miedo. ¿El gran lobo feroz tiene un mal día? Pensé que los druidas se suponía que estaban tranquilos pase lo que pase.~
+@549 /*Cernd*/ = ~Esa es la idea. Pero podrías poner a prueba la paciencia de un santo. Dime, ¿qué se necesita para que te CALLES?~
+@550 /*Clara*/ = ~Mmm, me gusta el dinero. Más oro siempre es bueno.~
+@551 /*Cernd*/ = ~Soy un druida, Clara. Vivo de los dones de la naturaleza, no de un tesoro escondido de monedas.~
+@552 /*Clara*/ = ~*encogimiento de hombros* El poder, entonces. Da igual tu gran filosofía, el dinero y el poder mueven el mundo.~
+@553 /*Cernd*/ = ~La tierra tiembla ante la idea de darte más poder. Pero supongo que podría ayudarte a encontrar trampas y cosas así. Parece un intercambio bastante inofensivo por la oportunidad de caminar en paz.~
+@554 /*Cernd*/ = ~¿Trato hecho?~
+@555 /*Clara*/ = ~Trato hecho. Lánzame tu magia.~
+@556 /*Cernd*/ = ~De acuerdo. Será mejor que te quedes quieta para esto.~
+@557 /*Cernd*/ = ~Tengo un mal presentimiento sobre este trato. Como si el aleteo de una mariposa hubiera provocado un huracán.~
+
+//1st Anomen Banter - if married Cor
+@558 /*Clara*/ = ~Ven aquí, Anomen. Sostén mi bolsa.~
+@559 /*Anomen*/ = ~No soy tu bestia de carga, Clara.~
+@560 /*Clara*/ = ~Es Señora Madre para ti. ¿No es tu deber obedecer a tus padres en todo?~
+@561 /*Anomen*/ = ~¡No eres mi madre!~
+@562 /*Anomen - dead Cor*/ = ~¡No eres más que una viuda negra que atrajo a mi padre hacia la muerte!~
+@563 /*Anomen*/ = ~¡No eres más que una buscadora de oro que atrajo a mi padre a su cama!~
+@564 /*Anomen*/ = ~Ya es bastante malo tener que viajar contigo; no me someteré a todos tus caprichos. Puede que haya perdido mi nombre familiar, pero todavía tengo mi orgullo.~
+@565 /*Clara*/ = ~Oh, es cierto, ya no eres un Delryn.~
+@566 /*Clara*/ = ~Perdóname, Anomen, tienes razón. No soy tu Señora Madre, y tú no eres el hijo de mi marido.~
+@567 /*Clara*/ = ~No eres nadie.~
+
+//1st Imoen Banter - she talks first
+@568 /*Imoen*/ = ~Así que eres una ladrona y una estafadora, ¿eh?~
+@569 /*Clara*/ = ~No soy una ESTAFADORA.~
+@570 /*Imoen*/ = ~Una estafadora, perdón.~
+@571 /*Clara*/ = ~Prefiero considerarme una actriz...~
+@572 /*Imoen*/ = ~¿No lo somos todos? No sé nada de estafas, pero antes de estudiar magia, me convertí en una ladrona bastante buena.~
+@573 /*Clara*/ = ~¿En serio? ¿Podrías darme algún consejo?~
+@574 /*Imoen*/ = ~Claro, si me cuentas una historia.~
+@575 /*Clara*/ = ~¿Tiene que ser verdad? Eso limita mis opciones.~
+@576 /*Imoen*/ = ~¿Quién sabe si las historias son verdad? Solo hazla divertida.~
+@577 /*Clara*/ = ~Está bien.~
+@578 /*Imoen*/ = ~Y así Clara comenzó a contarle a Imoen una historia increíble...~
+@579 /*Clara*/ = ~¿Estás narrando la historia de cómo te cuento una historia?~
+@580 /*Imoen*/ = ~Sí, pero no te distraigas.~
+@581 /*Clara*/ = ~De acuerdo. Haré todo lo posible por impresionarte.~
+
+//2nd Imoen Banter - she talks first
+@582 /*Imoen*/ = ~¿Tienes tiempo para una historia?~
+@583 /*Clara*/ = ~Érase una vez una niña pequeña. Su padre era rico y su madre era bella, y tenía todo lo que podía desear en el mundo.~
+@584 /*Imoen*/ = ~Ya me gusta.~
+@585 /*Clara*/ = ~Sin embargo, un barón malvado que vivía cerca estaba celoso de su padre y lo mandó asesinar. Con el corazón roto y empobrecidas, la niña y su madre sobrevivieron como pudieron con los escasos restos que encontraban.~
+@586 /*Imoen*/ = ~¿Pero todo termina bien, verdad?~
+@587 /*Clara*/ = ~Hambrienta y sin hogar, la madre enfermó y murió, y la niña siguió sola.~
+@588 /*Imoen*/ = ~¿Y ahora mejora?~
+@589 /*Clara*/ = ~Sin tener a dónde ir, la niña encontró trabajo en la finca del barón malvado que había matado a su padre.~
+@590 /*Clara*/ = ~Fregaba sus suelos y lavaba sus cazuelas. Era golpeada regularmente por sus sirvientes más crueles y a veces era víctima de los guardias de la casa.~
+@591 /*Imoen*/ = ~No mejora...~
+@592 /*Clara*/ = ~Pero nunca perdió la esperanza de que algún día su vida mejorara.~
+@593 /*Clara*/ = ~Hábil, encantadora y trabajadora, fue ganando cada vez más responsabilidades y se convirtió en una sirvienta de confianza y respetada.~
+@594 /*Clara*/ = ~Y vivió feliz para siempre.~
+@595 /*Imoen*/ = ~¿Qué? ¡Es una historia horrible! ¿Solo sirvió al barón malvado para siempre?~
+@596 /*Clara*/ = ~Nada dura eternamente, pero ese es el final de esta historia. Ahora, háblame más sobre las trampas.~
+@597 /*Imoen*/ = ~Oh... de acuerdo. Pero después de esto, quiero otra.~
+
+//3rd Imoen Banter - she talks first
+@598 /*Imoen*/ = ~¿Estás lista para otra historia, Clara?~
+@599 /*Clara*/ = ~Sí. Érase una vez una joven que era una sirvienta respetada en la casa de un barón malvado.~
+@600 /*Clara*/ = ~Sin que el barón lo supiera, ella era en realidad la hija de un hombre al que había matado muchos años antes, y cada día tejía en secreto su venganza.~
+@601 /*Imoen*/ = ~¡Dijiste que esa historia había terminado!~
+@602 /*Clara*/ = ~Cada día, mientras trabajaba, la joven buscaba y aprendía habilidades que pudieran ayudarla en el futuro.~
+@603 /*Clara*/ = ~Un día, oyó hablar de una bruja en el bosque que conocía los secretos de las pociones y los tónicos.~
+@604 /*Clara*/ = ~La bruja no era difícil de encontrar, pero se negó a hacer veneno para la chica hasta que ella le prometiera algo a cambio.~
+@605 /*Imoen*/ = ~Eso nunca termina bien.~
+@606 /*Clara*/ = ~La bruja quería su vida y su alma. La joven dijo que no se desprendería de ellas, pero que quizás podría ofrecer las vidas y almas de otros.~
+@607 /*Clara*/ = ~La bruja lo encontró aceptable y, después de algunas horas de tediosa discusión sobre los detalles, se llegó a un acuerdo.~
+@608 /*Clara*/ = ~La chica se fue con un veneno sin sabor ni olor, de acción lenta pero lo suficientemente potente como para que una sola gota en una olla de sopa derribara a una legión de guerreros.~
+@609 /*Clara*/ = ~En el siguiente festín del barón malvado, puso el veneno en todos los platos y bebidas que pudo. El barón y todo su castillo perecieron, y una vez más, se encontró sola.~
+@610 /*Clara*/ = ~Y vivió feliz para siempre.~
+@611 /*Imoen*/ = ~Vaya, tus historias son morbosas.~
+@612 /*Clara*/ = ~Tú eres la que sigue pidiéndolas. Yo, en cambio, quiero saber más sobre cerraduras y cómo abrirlas.~
+
+//4th Imoen Banter - she talks first
+@613 /*Imoen*/ = ~Otra vez, Clara. Cuéntame una historia.~
+@614 /*Clara*/ = ~*suspiro* Érase una vez una joven en un castillo de muertos. Había envenenado a los habitantes durante un festín y murieron esa noche en sus propias camas.~
+@615 /*Clara*/ = ~A la mañana siguiente, fue de habitación en habitación, tomando lo que necesitaba, y cuando ya no hubo nada que ganar quedándose allí, se fue.~
+@616 /*Clara*/ = ~La mujer se cortó el pelo corto y se vistió como un joven. Pasó algún tiempo practicando sus habilidades hasta convertirse en una cazadora aceptable, y cuando necesitaba más comida, volvía al castillo para buscar las provisiones que había escondido en una bodega.~
+@617 /*Clara*/ = ~El castillo estaba cerrado y con llave, excepto por una entrada secreta, y todos los mercaderes que venían a comerciar se iban decepcionados.~
+@618 /*Clara*/ = ~Los lugareños pronto consideraron el lugar embrujado y todos, excepto la joven, lo evitaban.~
+@619 /*Clara*/ = ~Estaba viva, sus enemigos estaban muertos, y ahora que había alcanzado el propósito de su vida, no tenía ni idea de qué hacer a continuación.~
+@620 /*Clara*/ = ~Pero cada día hacía lo necesario para sobrevivir, y en la supervivencia, encontró un propósito. Y vivió feliz para siempre.~
+@621 /*Imoen*/ = ~Sigues diciendo eso, pero no parece muy feliz.~
+@622 /*Clara*/ = ~Debe ser feliz, es el final de la historia. Cuando tu historia termina, vives feliz para siempre.~
+@623 /*Imoen*/ = ~No creo que la vida funcione así.~
+@624 /*Clara*/ = ~¿Sabes lo que me haría feliz? Descubrir cómo hacer una trampa. Algo horriblemente devastador que pueda activarse cuando estamos muy, muy lejos.~
+@625 /*Imoen*/ = ~¡Oh, tengo algunas ideas para eso! Algo así como una combinación de ladrón y magia. ¡Puedes ayudar!~
+
+//2nd Rasaad Banter - he talks first
+@626 /*Rasaad*/ = ~Clara, mi cara está aquí.~
+@627 /*Clara*/ = ~Ups, perdón. Me distraje.~
+@628 /*Rasaad*/ = ~Eso parece ocurrir a menudo. No estoy seguro de que estés hecha para el camino del Alma Solar.~
+@629 /*Clara*/ = ~No sé a qué te refieres. He disfrutado mucho tus patadas altas, tus arqueos y, ooh, las splits. Esas son definitivamente mis favoritas.~
+@630 /*Rasaad*/ = ~Basta. Si no tratas estas disciplinas con el respeto que merecen, entonces es hora de poner fin a tu entrenamiento. Claramente ha sido una pérdida de tiempo.~
+@631 /*Clara*/ = ~Aww, no digas eso. Definitivamente soy más flexible que antes.~
+@632 /*Clara*/ = ~Pero supongo que es verdad, no soy una gran fan del esfuerzo físico. ¿Puedo seguir mirando de vez en cuando?~
+@633 /*Rasaad*/ = ~*suspiro* De acuerdo. Siempre que te guardes tus comentarios.~
+
+//4th Dorn Banter - he talks first
+@634 /*Dorn*/ = ~Kryll...~
+@635 /*Clara*/ = ~Aww, Dorn, si sigues murmurando el nombre de otra mujer, pensaré que no me quieres.~
+@636 /*Dorn*/ = ~No te había visto allí. Parece que todavía no has aprendido a meterte en tus asuntos.~
+@637 /*Clara*/ = ~Estabas perdido en tus pensamientos y dijiste "Kryll". También dices su nombre cuando duermes.~
+@638 /*Clara*/ = ~Entonces, ¿quién es Kryll?~
+@639 /*Dorn*/ = ~Una respuesta por una respuesta. ¿Cómo sabes que digo su nombre mientras duermo?~
+@640 /*Clara*/ = ~Pregunta tonta. Está claro que te he estado observando en secreto.~
+@641 /*Clara*/ = ~Ahora es mi turno, ¿quién es Kryll?~
+@642 /*Dorn*/ = ~Viajamos juntos durante un tiempo. Era una nigromante... y mi amante... hasta que me traicionó y huyó.~
+@643 /*Dorn*/ = ~Con la ayuda de <CHARNAME>, la rastreé y la envié a la tumba. Incluso ahora, su alma se retuerce en el abismo.~
+@644 /*Dorn*/ = ~Ninguna de mis relaciones termina bien.~
+@645 /*Clara -if CN-Dorn Romance*/ = ~Pareces bastante amistoso con <CHARNAME>. ¿Cómo crees que terminará?~
+//@6450 /*Clara -if HD romance*/ = ~Pareces bastante amistoso con Haer'Dalis. ¿Cómo crees que terminará?~
+@646 /*Dorn -if CN romance*/ = ~Con mi muerte o la de <CHARNAME>, como siempre.~
+//@6460 /*Dorn -if HD romance*/ = ~Con mi muerte o la del tiefling, como siempre.~
+@647 /*Clara -if CN-Dorn Romance*/ = ~Pero tú y <CHARNAME> estáis juntos, y parece que va muy bien.~
+//@6470 /*Clara -if HD romance*/ = ~Pero tú y Haer'Dalis estáis juntos, y parece que va muy bien... especialmente en la cama.~
+@648 /*Dorn - if CN romance*/ = ~Las cosas suelen ir bien durante un tiempo. Eso no significa que terminen de otra manera.~
+//@6480 /*Dorn - if HD romance*/ = ~Las cosas suelen ir bien durante un tiempo. Eso no significa que nuestra relación no termine en un baño de sangre... aunque quizás desearía que no fuera así.~
+@649 /*Clara*/ = ~¿Sabes, Dorn? Para ser un psicópata asesino, eres muy melancólico y deprimente.~
+@650 /*Dorn*/ = ~Y para ser una tramposa y mentirosa de dos monedas, eres sorprendentemente entrometida. Ahora, déjame en paz.~
+
+//1st Jaheira Banter- she talks first.
+@651 /*Jaheira*/ = ~Clara, ¿por qué estás aquí? ¿Qué buscas?~
+@652 /*Clara*/ = ~¿En serio? Bueno, quiero seguir viva.~
+@653 /*Jaheira*/ = ~Entonces has elegido mal a tus compañeros. Vivimos en un peligro constante.~
+@654 /*Clara*/ = ~No los elegí, ustedes me devolvieron a la vida después de que Hexxat me matara.~
+@655 /*Clara*/ = ~La muerte está en todas partes, pero nunca había visto a alguien como yo volver antes. Solo las personas lo suficientemente ricas para pagar a un clérigo vuelven. Bueno, ellos y los héroes poderosos como ustedes.~
+@656 /*Jaheira*/ = ~No todos.~
+@657 /*Clara*/ = ~Sí, he oído hablar de tu marido. Entonces, ¿por qué estás aquí?~
+@658 /*Jaheira*/ = ~Khalid y yo éramos amigos de Gorion, y <CHARNAME> es su hijo adoptivo.~
+@659 /*Jaheira*/ = ~Cuando Gorion murió, decidimos velar por él e Imoen mientras nos necesitaran.~
+@660 /*Jaheira*/ = ~No me quedan muchos amigos... esta vida es peligrosa.~
+@661 /*Jaheira*/ = ~Deberías irte y volver con tu familia noble. A menos que solo sean producto de tu imaginación.~
+@662 /*Clara*/ = ~Yo...~
+@663 /*Jaheira*/ = ~No te preocupes, niña. Lo entiendo. Yo también he estado sola.~
+@664 /*Clara*/ = ~Gracias, Jaheira.~
+
+//2nd Jaheira Banter- she talks first.
+@665 /*Jaheira*/ = ~Así que quieres vivir. Quieres seguridad. Y claramente, quieres oro.~
+@666 /*Clara*/ = ~El oro compra seguridad. Compra libertad.~
+@667 /*Jaheira*/ = ~No estoy discutiendo contigo; solo estoy tratando de evaluarte.~
+@668 /*Clara*/ = ~¿Y...?~
+@669 /*Jaheira*/ = ~No eres un peligro para nosotros. Nos sacrificarías para salvar tu pellejo, pero estás demasiado aterrorizada y admirada por él para traicionarnos. Creo que eres, en general, una ventaja.~
+@670 /*Clara*/ = ~¡Awww, gracias! Creo que tú también eres una ventaja.~
+@671 /*Jaheira*/ = ~No tienes brújula moral de ningún tipo, pero tampoco estás llena de amargura y odio.~
+@672 /*Jaheira*/ = ~Quienquiera que te haya hecho daño, ya te has vengado.~
+@673 /*Jaheira*/ = ~¿Valió la pena? ¿Lo harías de nuevo?~
+@674 /*Clara*/ = ~Sí. Absolutamente.~
+@675 /*Jaheira*/ = ~Ahí es donde tu ferocidad se muestra. Encajas bien en este grupo.~
+@676 /*Clara*/ = ~¿Qué te impulsa a ti, Jaheira?~
+@677 /*Jaheira*/ = ~El deber hacia la naturaleza y el equilibrio.~
+@678 /*Jaheira*/ = ~El amor, por aquellos con quienes elijo compartir mi vida.~
+@679 /*Jaheira*/ = ~Y la venganza. Siempre la venganza.~
+
+//3rd Jaheira ToB Banter (ToB only). Jaheira talks first.
+@680 /*Jaheira*/ = ~Irenicus ha muerto. Khalid ha sido vengado.~
+@681 /*Clara*/ = ~Eso debería ser algo bueno, pero no pareces feliz...~
+@682 /*Jaheira*/ = ~Sarevok está vivo. ¿Cómo puede mi venganza ser definitiva cuando los muertos no dejan de volver?~
+@683 /*Jaheira*/ = ~Lo destruí tan a fondo, pero ahora camina entre nosotros como si sus huesos no hubieran sido reducidos a polvo y mezclados con la tierra de tres reinos diferentes.~
+@684 /*Jaheira*/ = ~Ninguna magia de resurrección en la tierra podría haberlo salvado, y sin embargo, aquí está. ¿Qué debo hacer?~
+@685 /*Clara*/ = ~¿Matarlo otra vez?~
+@686 /*Jaheira*/ = ~No... ni siquiera merece la pena.~
+@687 /*Jaheira*/ = ~Simplemente seguiré adelante.~
+
+//1st Neera Banter
+@688 /*Neera*/ = ~Me encanta cómo puedes desaparecer cuando quieres. La mayoría de la gente tiene que usar pociones.~
+@689 /*Clara*/ = ~O hechizos. Podríamos evitar todo conflicto si el resto de vosotros también pudiera esconderse.~
+@690 /*Neera*/ = ~¡Conozco un hechizo para eso! ¡Se llama Invisibilidad, Radio de 10 Pies!~
+@692 /*Neera*/ = ~Pero no encuentro un pergamino.~
+@693 /*Clara*/ = ~Mantendré los ojos abiertos.~
+@694 /*Clara*/ = ~Pasáis tantas horas descansando que tengo mucho tiempo para actividades externas.~
+
+//2nd Neera Banter
+@695 /*Neera*/ = ~Entonces, Clara, ¿a dónde vas *realmente* cada vez que descansamos? ¿Tienes otro grupo con el que te aventuras en tu tiempo libre o algo así?~
+@696 /*Clara*/ = ~Oh, solo un proyecto especial mío. Tengo muchos otros intereses, ¿sabes?...~
+@698 /*Neera*/ = ~No, no lo sé. Por eso pregunto.~
+@699 /*Clara*/ = ~Bien, encontré a este mago, un viejo verde sin amigos. Un mago clásico.~
+@700 /*Clara*/ = ~Umm... excepto los presentes.~
+@701 /*Clara*/ = ~En fin, fingí ser la sirvienta de un mercader que vende componentes de conjuros. El mago quería todo tipo de cosas locas, como el pelaje de un lobo negro albino.~
+@702 /*Neera*/ = ~Umm, ¿cómo se distingue eso del pelaje de un lobo blanco?~
+@703 /*Clara*/ = ~¡No se puede! Eso es lo bueno. También quería otras cosas raras, como labios de dríada, el riñón izquierdo de un hombre asesinado por su hermano, y luego un montón de cosas muy sexuales que no quiero repetir.~
+@704 /*Neera*/ = ~No te culpo... los magos pueden ser realmente espeluznantes.~
+@705 /*Neera*/ = ~Creo que mi cuerpo es un componente de conjuro. Es una de las razones por las que los Magos Rojos me persiguen sin cesar.~
+@706 /*Clara*/ = ~Para hacerla corta, robé tantas de sus cosas como pude.~
+@708 /*Neera*/ = ~¿Cómo escapaste?~
+@709 /*Clara*/ = ~¡Por la puerta principal! Él espera que vuelva pronto con un cargamento de componentes raros de mi amo y mis "servicios" como extra.~
+@710 /*Neera*/ = ~Puaj...~
+@711 /*Clara*/ = ~Sí... intenta no pensar en eso. Lo importante son todas las cosas geniales que conseguí, incluyendo estos pergaminos de Invisibilidad, Radio de 10 Pies. Toma.~
+@712 /*Neera*/ = ~¡Gracias! Si hay algo que pueda hacer por ti a cambio...~
+@713 /*Clara*/ = ~¡Sí! Leer conmigo. Mi lectura no es tan buena como me gustaría, pero tú eres una maga... así que pensé...~
+@714 /*Neera*/ = ~¡Claro! Tengo el libro perfecto; ¡lo leeremos juntas!~
+@715 /*Neera*/ = ~Se llama "Objetos Mágicos y sus Propiedades de Identificación, Volumen I: de la Armadura de Escamas de Oso Hormiguero a los Guantes de Matanza de Goblins."~
+
+//3rd Neera Banter
+@716 /*Clara*/ = ~Bueno, ha sido una lectura instructiva. ¡Gracias, Neera!~
+@717 /*Clara*/ = ~Lástima que el libro termine en la "G". Esperaba descubrir qué era ese yelmo...~
+@718 /*Neera*/ = ~¡Supongo que solo necesitas este! Lo conseguí para ti, especialmente.~
+@719 /*Clara*/ = ~"Objetos Mágicos y sus Propiedades de Identificación, Volumen II: de los Guantes de la Caza de Dioses a los Accesorios de la Hermandad Púrpura."~
+@720 /*Clara*/ = ~¡Yupi! Pero tendrás que ayudarme.~
+@721 /*Neera*/ = ~¡Claro! Podemos leerlo juntas también.~
+
+//4th Neera Banter
+@722 /*Neera*/ = ~Oh, Clara, ¡lo tengo!~
+@723 /*Clara*/ = ~"Objetos Mágicos y sus Propiedades de Identificación, Volumen III: de los Brazales de la Hermandad Púrpura a la Mano Izquierda de Zyztrax."~
+@724 /*Clara*/ = ~Aww, este debe ser el último. Tendremos que leerlo lentamente.~
+@725 /*Clara*/ = ~Oh, ¡también te conseguí algo! ¡Toma!~
+@726 /*Neera*/ = ~¿Es el Cuchillo para Mantequilla de Balduran? ¡Es del primer libro!~
+@727 /*Neera*/ = ~Si recuerdo bien, es completamente inútil...~
+@728 /*Clara*/ = ~Bueno... no INÚTIL... PUEDE untar mantequilla...~
+@729 /*Clara*/ = ~Hah, tu cara en este momento es impagable. Aquí está tu verdadero regalo.~
+@730 /*Neera*/ = ~"El Grimorio de la Aniquilación Absoluta, traducido del gnomo e incluyendo todos los diagramas originales."~
+@731 /*Neera*/ = ~¡Oh, Clara, no tenías que hacerlo!~
+@732 /*Neera*/ = ~Ummm... no habrá algún liche loco o un mago de poder supremo que venga a buscar esto, ¿verdad?~
+@733 /*Clara*/ = ~No, el mago que lo poseía antes ya no puede usarlo. Está todo...~
+@734 /*Neera*/ = ~En realidad, no me lo digas.~
+@735 /*Neera*/ = ~¡Estoy tan emocionada! Siempre quise una copia de este libro, pero sabía que nunca podría permitírmelo.~
+@736 /*Neera*/ = ~¡Muchas gracias!~
+@737 /*Clara*/ = ~¡De nada! Intenté leerlo, pero no podía entender las palabras.~
+@738 /*Neera*/ = ~Bueno, puedes ayudarme a entenderlo. ¡Comencemos ahora mismo!~
+@739 /*Neera*/ = ~"Grimorio de la Aniquilación Absoluta, Introducción del Traductor..."~
+@740 /*Neera*/ = ~... aburrido... saltemos eso.~
+@741 /*Neera*/ = ~"Introducción del Autor..." Saltemos eso también.~
+@742 /*Neera*/ = ~"Advertencias y exenciones de responsabilidad..." Nah, ¿quién necesita eso?~
+@743 /*Neera*/ = ~¡Aquí vamos! "Capítulo 1: De las preparaciones adecuadas para dominar la energía mágica del fin del mundo."~
+@744 /*Neera*/ = ~¡Esto va a ser divertido!~
+
+//1st Wilson Banter
+@745 /*Clara*/ = ~De acuerdo, gran oso, ¿qué tengo que hacer para montarte?~
+@746 /*Wilson*/ = ~¿Rff?~
+@747 /*Clara*/ = ~¡Porque <CHARNAME> se niega total y categóricamente a comprarnos caballos, por eso!~
+@748 /*Wilson*/ = ~Olfateo. Gruñido. Rugido.~
+@749 /*Clara*/ = ~Bueno, claro que *tú* no puedes montar un caballo, ¡pero el resto de nosotros sí podría! Yo debería montar un caballo, un segundo para llevar mis bolsas y un tercero de repuesto.~
+@750 /*Wilson*/ = ~¿Gruñido, rff?~
+@751 /*Clara*/ = ~Sí, los caballos podrían llevar tus bolsas también. Nadie debería tener que cargar con todo.~
+@752 /*Wilson*/ = ~¿Olfateo, rugido?~
+@753 /*Clara*/ = ~Sí, los caballos llevarían cosas.~
+@754 /*Wilson*/ = ~Gruñido. ¡Bufido!~
+@755 /*Clara*/ = ~De acuerdo, de acuerdo, los caballos cuentan como *alguien*, supongo. Todos los caballos llevarían bolsas, excepto los que montamos.~
+@756 /*Wilson*/ = ~¿Olfateo, gruñido. Gemido?~
+@757 /*Clara*/ = ~Sí, podrías comerte a tu caballo, ya que no podrías montarlo.~
+@758 /*Clara*/ = ~Pero todo esto es hipotético, ¡ya que <CHARNAME> se niega a permitir que ninguno de nosotros monte caballos!~
+@759 /*Wilson*/ = ~Olfateo, olfateo... ¿rff?~
+@760 /*Clara*/ = ~*suspiro* Sí, quizás <CHARNAME> te permita comerte un caballo aunque el resto de nosotros no podamos montarlos. Tendrás que preguntarle a él sobre eso.~
+
+//2nd Wilson Banter
+@761 /*Wilson*/ = ~Olfateo olfateo.~
+@762 /*Clara*/ = ~Gracias, Wilson, aunque sigo queriendo montarte.~
+@763 /*Wilson*/ = ~¡Gruñido!~
+@764 /*Clara*/ = ~Sí, sé que sería injusto.~
+@765 /*Wilson*/ = ~¡Rugido!~
+@766 /*Clara*/ = ~Sí, ¡me doy cuenta de que no eres un caballo!~
+@767 /*Clara*/ = ~Pero seríamos tan geniales juntos. Tú destrozando a la gente... yo disparando a otros...~
+@768 /*Wilson*/ = ~Gemido. Lamento...~
+@769 /*Clara*/ = ~¿En serio? Pero eres tan bueno en eso.~
+@770 /*Clara*/ = ~Supongo que es bueno que no te guste hacer daño a la gente.~
+@771 /*Wilson*/ = ~Olfateo... ¡Rugido!~
+@772 /*Clara*/ = ~Bueno, claro que sí. A todo el mundo le gusta matar gente si se les permite comérsela.~
+@773 /*Wilson*/ = ~Gruñido. Gruñido... Olfateo.~
+@774 /*Clara*/ = ~No eres el único. <CHARNAME> tampoco me deja comer a la gente que mato.~
+@775 /*Clara*/ = ~Pero probablemente sabrían fatal. Mejor comemos ciervo.~
+
+//3rd Wilson Banter
+@776 /*Wilson*/ = ~¡Rugido!~
+@777 /*Clara*/ = ~¡Oh, vamos! Tiene que haber algo que pueda darte.~
+@778 /*Clara*/ = ~Estoy tan cansada de caminar...~
+@779 /*Wilson*/ = ~Olfateo, olfateo... olfateo...~
+@780 /*Clara*/ = ~¿Cómo puedes tener todo lo que quieres? Parece una falta de imaginación.~
+@781 /*Wilson*/ = ~Olfateo: gruñido, rugido, rugido... olfateo... ¡Rugido!~
+@782 /*Clara*/ = ~Vaya, es una lista bastante buena... pero yo también tengo todas esas cosas y sigo queriendo más.~
+@783 /*Wilson*/ = ~Olfateo... ¿gemido?~
+@784 /*Clara*/ = ~¡Claro que me haría feliz! ¡Tener más siempre me hace feliz!~
+@785 /*Clara*/ = ~Vale, vale, todavía no me ha hecho feliz, ¡pero es solo porque no tengo suficiente!~
+@786 /*Wilson*/ = ~¿Gruñido?~
+@787 /*Clara*/ = ~¡Sí, mi lógica es perfectamente sensata!~
+@788 /*Wilson*/ = ~¡Rugido!~
+@789 /*Clara*/ = ~¿Y qué sabes tú? ¡Solo eres un oso!~
+
+//Edwina Banter - added because some mods change Edwin back into a woman (same as SOA, just different numbering)
+@790 /*Clara*/ = ~Edwin, tengo un regalo para ti.~
+@791 /*Edwina*/ = ~No te molestes. Estoy segura de que tu "regalo" solo será una decepción. Una criatura tan insípida como tú no tiene nada que ofrecer a alguien como yo. (Excepto quizás tu cuerpo. Maldita sea esta maldita forma.)~
+@792 /*Clara*/ = ~¿En serio? ¿Ni siquiera una forma de resolver tu pequeño problema de género? Tengo un amigo que trata con objetos raros, y cuando les conté tu desgracia, me ofrecieron este cinturón. El Cinturón de Feminidad/Masculinidad, creo que lo llamaban... Y cuando me lo pongo...~
+@793 /*Clara*/ = ~¡Ta-da! Clarence a tu servicio.~
+@794 /*Edwina*/ = ~¿Qué? ¿Lo has encontrado? ¡Dame ese cinturón de inmediato!~
+@795 /*Clara*/ = ~No sé. Quizás debería quedármelo. Este cinturón podría ser divertido de muchas maneras, y has sido terriblemente grosero...~
+@796 /*Edwina*/ = ~¿Crees que vas a chantajearme? ¿A mí? ¿A Edwin Odesseiron? Tu simple cerebro de simio ni siquiera puede empezar a comprender la agonía que podría infligirte.~
+@797 /*Clara*/ = ~Podrías, pero no lo harás. A <CHARNAME> no le gustaría, y no te arriesgarás a perder su protección. Conozco a tu especie, y a pesar de tu orgullo, el instinto de autoconservación siempre será tu prioridad número uno.~
+@798 /*Edwina*/ = ~(Quizás no es tan estúpida como pensaba.) Entonces, ¿cuál es tu precio? Supongo que quieres algo.~
+@799 /*Clara*/ = ~No mucho. Solo pídemelo amablemente. Un "por favor" sería preferible.~
+@800 /*Edwina*/ = ~(Y así la campesina clava el cuchillo un poco más hondo. Tal sadismo sería admirable si estuviera dirigido a otro objetivo. Pero debo conseguir ese cinturón.) Bien. Como tú ordenes.~
+@801 /*Edwina*/ = ~Lamento mi arrebato. ¿Puedo tener ese cinturón ahora, POR FAVOR?~
+@802 /*Clara*/ = ~¡Hah! Podía oírte rechinar los dientes desde aquí. Pero supongo que es suficiente. Toma. Cógelo.~
+@803 /*Edwina*/ = ~¡Sí! ¡Es mío! Recuperaré mi verdadera gloria...~
+@804 /*Edwina*/ = ~(¿Por qué no funciona?) ¿POR QUÉ NO FUNCIONA? ¿Qué engaño es este?~
+@805 /*Clara*/ = ~Bueno... puede que haya pagado a una bruja de pueblo para que encantara el objeto para que solo yo pueda usarlo, pero seguro que un mago tan grande y poderoso como tú puede romper el hechizo, ¿verdad?~
+@806 /*Edwina*/ = ~¡Tú... ¡MALDITA IMBÉCIL TRAIDORA ASQUEROSA...!~
+@807 /*Clara*/ = ~Ha. Valido. Cada. Moneda.~

@@ -1,0 +1,290 @@
+//Set Up TRA file
+@1 /*Begin*/ = ~Klára a Temný Anomen~
+@2 /*Clara Name*/ = ~Klára~
+@3 /*Clara Bio*/ = ~Klára se nerada rozpovídá o své minulosti, ale když se jí zeptáš, prozradí ti pár skutečností. Vyrostla na farmě a před několika lety přišla do Athkatly s nadějí, že najde práci herečky. Její snaha však nebyla úspěšná, a tak se naučila základy krádeží od starého zloděje ze Stínů, aby uživila. I když byla jen průměrnou zlodějkou, vydělávala dost na to, aby pravidelně platila gildě za povolení působit ve městě, dokud neupadla do spárů Hexxat.~
+@4 /*MORALE*/ = ~Potřebuji... pomoc.~ [YF_Cla01] //"I.. need help" - Ariannee,  
+@5 /*LEADER*/ = ~Skvělý nápad.~ [YF_Cla02] // "A fine idea" - Ariannev
+@6 /*TIRED*/ = ~*Zívá*~ [YF_Cla03] //"Yawn" - Arianned
+@7 /*BORED*/ = ~Jak dlouho ještě budu čekat, než uděláme něco zábavného?~ [NYMPH01]  
+@8 /*BATTLE_CRY1*/ = ~Za nimi!~ [YF_Cla04] //"After em" - PoEFFeisty8
+@9 /*BATTLE_CRY2*/ = ~Nebojím se.~ [YF_Cla05] // "I am not afraid" - Arianne8
+@10 /*BATTLE_CRY3*/ = ~Přemohu tě!~ [YF_Cla06] //"I will defeat you" - Ariannea   
+@11 /*BATTLE_CRY4*/ = ~Srazím tě k zemi.~ [YF_Cla07] //"I will strike you down" - Arianne9 
+@12 /*BATTLE_CRY5*/ = ~Ó, dostanu tě!~ [YF_Cla34] //"Oh, I'm gonna get you!" - Sigruna
+@13 /*DAMAGE*/ = ~To bolí! Jak se opovažuješ dotýkat se dámy?~ [HVILLF06]     
+@14 /*DYING*/ = ~Ó, ne. Přichází má smrt.~ [PEASF208]  
+@15 /*HURT*/ = ~Myslím, že... krvácím.~ [YF_Cla08] //"I...... think I'm bleeding" - Arianneeee
+@16 /*AREA_FOREST*/ = ~Nemám ráda les. Je tam tolik brouků.~
+@17 /*AREA_CITY*/ = ~Muži k svádění, lidé k okrádání. Je dobré vrátit se do známého prostředí.~
+@18 /*AREA_DUNGEON*/ = ~Karolína Luisa Adéla Rozana Alexandra Stříbrný štít je na toto místo příliš dobrá.~
+@19 /*AREA_DAY*/ = ~Slunce je příjemné, ale dávám přednost temnotě. Tam opravdu zářím.~
+@20 /*AREA_NIGHT*/ = ~Čas pozorovat, ale zůstat neviditelný.~ [YF_Cla09] //"Time to see and not be seen" - PoEFFeisty5
+@21 /*SELECT_COMMON1*/ = ~Hm?~ [YF_Cla10] //"Yeah?" - PoEFFeistyf 
+@22 /*SELECT_COMMON2*/ = ~Co můžu udělat?~ [YF_Cla11] //"What can I do? - Sigrunx 
+@23 /*SELECT_COMMON3*/ = ~Mmm?~ [YF_Cla12] //"Mmm-hmm?" - PoEFSmoothg
+@24 /*SELECT_COMMON4*/ = ~Ano?~ [YF_Cla13] //"Yes?" - Arianne0, 
+@25 /*SELECT_COMMON5*/ = ~Připraven a čekám.~ [YF_Cla14] //"Ready & waiting" - Arianneg
+@26 /*SELECT_COMMON6*/ = ~Hm?~ [YF_Cla15] //"Hmm?" - PoEFFeistyg
+@27 /*SELECT_ACTION1*/ = ~Jdu.~ [YF_Cla16] //"I go" - Ariannei,
+@28 /*SELECT_ACTION2*/ = ~Ovšem.~ [YF_Cla17] //"Of course" - Sigruns, 
+@29 /*SELECT_ACTION3*/ = ~Hotovo.~ [YF_Cla18] //"It is done" - Ariannek
+@30 /*SELECT_ACTION4*/ = ~Mám to.~ [YF_Cla19] //"I've got this" - PoEFFeistyb
+@31 /*SELECT_ACTION5*/ = ~Už je pryč.~ [YF_Cla20] //"Already gone" - PoEFFeistys
+@32 /*SELECT_ACTION6*/ = ~K vašim službám.~ [YF_Cla21] //"At your command" - Ariannef,   
+@33 /*SELECT_ACTION7*/ = ~Okamžitě.~ [YF_Cla22] //"Immediately" - Ariannej
+@34 /*SELECT_RARE1*/ = ~Opatrně.~ [YF_Cla23] //"Watch it" - PoEFFeistyx  
+@35 /*SELECT_RARE2*/ = ~Udělej to znovu a vezmu ti to.~ [YF_Cla24] //"Do it again and I'm taking it away" - PoEFFeistyy
+@36 /*CRITICAL_HIT*/ = ~Ha, mám ho!~ [YF_Cla25] //"Hah, got him" - PoEFFeistyz
+@37 /*CRITICAL_MISS*/ = ~Jejda.~ [YF_Cla26] //"Oops" - Arianne1
+@38 /*TARGET_IMMUNE*/ = ~Podej mi jiný meč!~ [YF_Cla27] //"Hand me another sword!" - Arianne2
+@39 /*INVENTORY_FULL*/ = ~To není možné.~ [YF_Cla28] //"That's impossible" - Arianne3
+@40 /*HAPPY*/ = ~*Vesele píská*~ [YF_Cla29] //"Happy Whistling" - Sigrund
+@41 /*UNHAPPY_ANNOYED*/ = ~Nechci to dělat.~    
+@42 /*UNHAPPY_SERIOUS*/ = ~Ach. Raději bych zase pracoval pro Stínové zloděje.~   
+@43 /*SET_A_TRAP*/ = ~A takhle se to dělá.~ [YF_Cla30] //"And that's how it's done" - PoEFSmooth7 
+@44 /*HIDDEN_IN_SHADOWS*/ = ~Jako stín.~ [YF_Cla31] //"Like a shadow" - Sigrun5
+@45 /*PICKED_POCKET*/ = ~Teď je to moje.~ [YF_Cla32] //"It's mine now" - PoEFFeisty
+@46 /*REACT_TO_DIE_GENERAL*/ = ~Vstaň, sakra.~ [YF_Cla33] //"Get up, damn you" - PoEFFeistyw  
+
+@47 /*Basic Clara Epilogue*/ = ~Po odchodu od družiny <CHARNAME> se Karolína Luisa Adéla Rozana Alexandra Stříbrný štít z Beregostu vrátila do Athkatly. Jako nejžádanější z nových šlechtických dcer ve městě okouzlila všechny svým půvabem a elegancí. Mnozí bohatí nápadníci se ucházeli o její ruku, ale tato čest připadla nejstaršímu synovi lorda Kettlaara Agryma, který byl mladý, hezký a spravoval několik zlatých dolů svého otce.
+
+Bohužel jejich manželské štěstí netrvalo dlouho. Když se vzdálená rodina Karolíny v Beregostu dozvěděla, že přežila útok, při kterém zahynuli její rodiče, velmi se zaradovala. Pozvali ji k sobě a celá rodina Agrymů trvala na tom, aby s ní cestovali na sever s dary, oblečením, mincemi a šperky. Jejich karavana, i přes silnou ochranu, byla příliš lákavou kořistí a během cesty na ně zaútočili bandité. Všichni členové rodiny byli nalezeni mrtví, kromě Karolíny, která byla pravděpodobně zajata.
+
+Mnoho statečných rytířů vyrazilo na sever, aby porazili bandity a osvobodili vznešenou rukojmí, ale i když byly desítky lupičů poraženy a většina majetku Agrymů získána zpět, lady Karolína Aurélie Lucie Růže Stříbrný štít Agrymová už nikdy nebyla spatřena.~
+
+@78 /*If Clara marries Anomen*/ = ~Po odchodu od <CHARNAME> se Karolína Luisa Adéla Rozana Alexandra Stříbrný štít Delrinová vrátila do sídla Delrinů se svým manželem Anomenem a společně se pustili do obnovy rodinného majetku. Štěstí je provázelo ve všem, protože jejich hlavní konkurenti náhle zmizeli ze scény nebo zemřeli. Během roku splatili dluhy a začali hromadit vlastní malé bohatství. Mnozí předpovídali, že Karolína a její manžel promění statky Delrinů v obchodní říši, která bude konkurovat ostatním v Amnu.
+
+A tak se i stalo. Během následujícího desetiletí se Lord a Lady Delrinovi stali jedněmi z nejbohatších a nejvlivnějších obchodníků v Athkatle. Zatímco její manžel se soustředil na povznesení rodiny na novou úroveň, lady Karolína vládla domovu železnou rukou a podporovala Anomenovy snahy jako jeho přítelkyně a důvěrnice. Stala se dokonalou hostitelkou: půvabnou, zdvořilou a ozdobou každého plesu, a brzy se sídlo Delrinů stalo místem setkávání smetánky a těch, kteří chtěli být viděni.
+
+Ať už se v těchto zdech šeptala jakákoli tajemství, ať už byly uzavřeny jakékoli obchodní dohody, konečný výsledek byl vždy ve prospěch lorda Delrina, jako by to tak mělo být. Lady Delrinová se stala manželkou, jakou by si přál každý pán nebo kupec, a závistivě hleděli na Anomena, když držel Karolínu za ruku.~
+
+@79 /*If Clara married Cor & he and Anomen are dead*/ = ~Po odchodu od <CHARNAME> se Klára vrátila do sídla Delrinů, aby obnovila majetek svého zesnulého manžela. Štěstí ji provázelo na každém kroku, protože všichni její hlavní konkurenti náhle zmizeli nebo zemřeli. Během roku splatila manželovy dluhy a začala hromadit vlastní malé bohatství. Mnozí předpovídali, že promění statky Delrinů v obchodní říši, která bude konkurovat ostatním v Amnu.
+
+To se však nestalo. Přesně tři roky po jejím návratu žena prodala vše, co nemohla unést, a lady Karolína Aurélie Lucie Růže Stříbrný štít Delrinová už nikdy nebyla spatřena.~
+
+@80 /*If Clara marries Cor and he and Anomen are alive*/ = ~Po odchodu od <CHARNAME> se Klára vrátila ke svému manželovi Corovi, aby prožila zbytek dnů ve šťastném manželství. Bohužel to trvalo jen tři měsíce – zemřel pokojně ve spánku a zanechal svou zarmoucenou vdovu, aby se starala o domácnost.
+
+Zatímco Corův syn Anomen byl daleko od domova, Klára obnovila majetek svého muže s půvabem a elegancí. Štěstí ji provázelo na každém kroku, protože všichni její hlavní konkurenti náhle zmizeli nebo zemřeli. Během roku splatila manželovy dluhy a začala hromadit vlastní malé bohatství. Mnozí předpovídali, že promění statky Delrinů v obchodní říši, která bude konkurovat ostatním v Amnu.
+
+To se však nestalo. Přesně tři roky po smrti manžela prodala vše, co nemohla unést, a lady Karolína Aurélie Lucie Růže Stříbrný štít Delrinová už nikdy nebyla spatřena.~
+
+@81 /*If Clara marries Cor and Anomen only is dead*/ = ~Po odchodu od <CHARNAME> se Klára vrátila ke svému manželovi Corovi, aby prožila zbytek dnů ve šťastném manželství. Bohužel to trvalo jen tři měsíce – zemřel pokojně ve spánku a zanechal své zarmoucené vdově vše, co měl.
+
+I přes žal se lady Delrinová ujala manželových obchodů a štěstí ji provázelo na každém kroku. Všichni její hlavní konkurenti náhle zmizeli nebo zemřeli a během roku splatila manželovy dluhy a začala hromadit vlastní bohatství. Mnozí věřili, že je schopna proměnit statky Delrinů v obchodní velmoc, která by v Amnu neměla konkurenci.
+
+Osud však rozhodl jinak. Tři roky po smrti manžela žena prodala vše, co nemohla unést, a lady Karolína Aurélie Lucie Růže Stříbrný štít Delrinová už nikdy nebyla spatřena.~
+
+@82 /*If Clara marries Cor and he's dead but Anomen is alive*/ = ~Po odchodu od <CHARNAME> se Klára vrátila do sídla Delrinů. Zatímco Corův syn Anomen byl daleko od domova, Klára obnovila majetek svého muže s půvabem a elegancí. Štěstí ji provázelo na každém kroku, protože všichni její hlavní konkurenti náhle zmizeli nebo zemřeli. Během roku splatila manželovy dluhy a začala hromadit vlastní bohatství. Mnozí předpovídali, že brzy promění statky Delrinů v obchodní říši, která bude konkurovat ostatním v Amnu.
+
+Osud však rozhodl jinak. Tři roky po jejím návratu žena prodala vše, co nemohla unést, a lady Karolína Aurélie Lucie Růže Stříbrný štít Delrinová už nikdy nebyla spatřena.~
+
+@83 /*New Anomen epilogue if he married Clara*/ = ~Po odchodu od <CHARNAME> se Anomen vrátil do sídla Delrinů se svou ženou lady Karolínou a společně se pustili do obnovy rodinného majetku. Štěstí je provázelo ve všem – brzy lord nejen splatil otcovy dluhy, ale také začal hromadit vlastní majetek. I přes svůj nový status však Anomen zůstal věrný zásadám svého boha. I když byl někdy přísný, jeho soudy byly vždy spravedlivé a ti, kdo pracovali pro jeho rodinu, věděli, že jejich loajalita bude odměněna.
+
+Nakonec byl mladý lord Delrin pozván do Rady šesti, a i když nikdo oficiálně neznal jeho postavení, změny ve vládě Athkatly byly všem zřejmé. Pod Anomenovým vedením začala vláda více pomáhat běžným lidem a účinněji bojovat se zlem ve světě. Nenechával nespravedlnost bez povšimnutí a ti, kdo se mu postavili, často rychle změnili názor nebo zmizeli. To vyvolalo několik vyšetřování, ale manželka lorda Delrina ho vždy podporovala a nikdy nebyly nalezeny důkazy o nekalých praktikách.
+
+Když se mladí lordi nebo závistiví soupeři ptali na tajemství jeho štěstí, Anomen skromně odpovídal: „Měl jsem velké štěstí. Ano, k vybudování dnešní pozice byla potřeba tvrdá práce, ale nedokázal jsem to sám. Vděčím za vše Helmovi a neustálé podpoře mé milované Karolíny. Bez ní by má životní cesta vypadala úplně jinak.“~
+
+//New Items
+//Gender Belt
+@680 /*NAME1*/ = ~Pás~
+@68 /*NAME2*/ = ~Pás změny pohlaví~
+@69 /*DESC*/ = ~Podobně jako vzácný, ale často zmiňovaný Prokletý pás změny pohlaví, magický předmět měnící pohlaví nositele, tato verze není prokletá a byla pravděpodobně vytvořena jen pro zábavu. Magie tohoto pásu působí pouze na půlčíky.
+
+Údaje:
+
+Vybavení:
+– Mění pohlaví nositele
+
+Váha: 2~
+
+//Gender Belt that only works on Clara
+@690 /*DESC*/ = ~Podobně jako vzácný, ale často zmiňovaný Prokletý pás změny pohlaví, tento konkrétní pás byl speciálně očarován tak, aby působil pouze na Kláru, jako žert.
+
+Údaje:
+
+Vybavení:
+– Mění pohlaví nositele
+
+Váha: 2~
+
+//Gender Belt that only Edwin can use
+@681 /*Script*/ = ~Edwin~
+@691 /*DESC*/ = ~Podobně jako vzácný, ale často zmiňovaný Prokletý pás změny pohlaví, tento konkrétní pás byl očarován tak, aby působil pouze na Edwina.
+
+Údaje:
+
+Vybavení:
+– Mění pohlaví nositele
+
+Váha: 2~
+
+//STATISTICS:
+
+//Equipped abilities:
+//– Changes the wearer's gender
+
+//Weight: 2~
+
+//Clara's Goggles
+@70 /*NAME*/ = ~Klářiny spektroskopy od Jana Jansena~
+@71 /*DESC*/ = ~Jansenovy mikro-makro-spektroskopy (Oficiální spektroskopy Fialového bratrstva)
+Další vynález Jana Jansena. Tyto brýle byly vyrobeny speciálně pro Kláru a umožňují jí jednou denně vidět neviditelné. Zvyšují také její schopnost odhalovat a zneškodňovat pasti o 25%. Různé čočky zvyšují její schopnost odhalovat iluze o 20%. Styl je tak zřejmý, že ani nestojí za zmínku.
+
+Údaje:
+
+Vybavení:
+– Hledání pastí: +25%
+– Odhalování iluzí: +20%
+– Imunita vůči oslepení
+
+Schopnosti s nábojem:
+– Jednou denně: vidění neviditelného
+Dosah: okruh 15 stop
+
+Požadavky:
+Obratnost 17
+
+Váha: 0~
+
+//Clara's Poison Arrows
+@72 /*Name*/ = ~Vytvořit otrávené šípy~
+@73 /*DESC*/ = ~Tato schopnost umožňuje Kláře vytvořit 15 otrávených Jedovatých šípů a přidat je do inventáře. Používejte opatrně!~
+
+//Clara's Gloves
+@74 /*NAME*/ = ~Klářiny techno-krádežní rukavice od Jana Jansena~
+@75 /*DESC*/ = ~Klářiny techno-krádežní rukavice od Jana Jansena (TM)
+Tyto zlodějské rukavice dávají Kláře bonusy k otevírání zámků a kapsářství. Může je používat pouze ona, protože Jan je vyrobil speciálně pro svou žačku a naučil ji je ovládat. Klára se v nich zdá snadno splývat se stíny, pravděpodobně proto, že tento pár je mnohem méně křiklavý než Janův originál.
+
+Údaje:
+
+Vybavení:
+– Otevírání zámků: +20%
+– Kapsářství: +20%
+
+Požadavky:
+Obratnost 17
+
+Váha: 0~
+@750 /*Usability Note*/ = ~Klára~
+
+//New Version of Yoshimo's Katana
+@76 /*NAME*/ = ~Jošimova katana +3~
+@77 /*DESC*/ = ~Tato čepel se zdá být silnější od doby, co ji Jošimo daroval Kláře. Možná je to požehnání zesnulého, nebo katana chce co nejdříve obnovit čest svého předchozího majitele.
+
+Ať už je důvod jakýkoli, tato zbraň v Klářiných rukou ožívá a při jejím používání je cítit Jošimova přítomnost. Katana se chvěje, když je poblíž past, a zdá se, že naklání osud ve prospěch své nové majitelky. V boji, když ochutná krev, posiluje nositele a nedovolí Kláře padnout, dokud nebude Jošimova čest obnovena. Pouze s jeho svolením může Klára tuto katanu používat. Nikdo jiný ji nedokáže ani vytáhnout z pochvy.
+
+Údaje:
+
+Vybavení:
+– Hledání pastí: +20%
+– Štěstí
+
+Bojové schopnosti:
+– Každý zásah obnoví nositeli 1 život.
+– Násobitel úderu do zad: +1
+
+THAC0: +3
+Zranění: 1k10+3 (sečné)
+Rychlost: 3
+Kategorie zbraní: katana
+Typ: jednoruční
+
+Požadavky:
+Síla 6
+
+Váha: 5~
+
+@94 = ~Dědictví rodu Delrinů +4~
+@95 = ~Toto je dědictví rodiny Anomenů, původní štít mu daroval jeho otec. Nyní byl překován a vylepšen.
+
+Údaje:
+
+Vybavení:
+Bonus k OČ: +5, +7 proti střelám
+Odolnost proti ohni a chladu: +40%
+Odolnost proti střelám: +50%
+Odolnost proti magii: +10%
+Imunita vůči očarování, zmatení, ovládnutí a znehybnění
+Nelze zjistit přesvědčení nositele
+
+Váha: 7~
+
+//Clara's Wedding Ring
+@96 /*Name*/ = ~Rodinný prsten Delrinů~
+@97 /*DESC*/ = ~Tento skromný prsten, i když materiálně není příliš cenný, je rodinnou památkou Delrinů. Nosila ho kdysi jeho milovaná sestra Moira a nyní ho Anomen daroval Kláře jako symbol jejich lásky. Aby ochránil svou vznešenou nevěstu, nechal prsten očarovat tak, aby ji chránil před nežádoucími pohledy.
+
+Údaje:
+
+Vybavení:
+– Charisma +1
+– Štěstí
+– Nelze zjistit přesvědčení nositele
+– Nositele nelze odhalit
+
+Schopnosti s nábojem:
+– 3krát denně: očarování bytosti (záchranný hod proti kouzlům s postihem -1 platí)
+Dosah: 40 stop
+Trvání: 12 hodin
+Oblast: 1 bytost
+
+Váha: 0~
+
+//@98 /*Darkside Anomen Romance Epilogue - player doesn't choose god*/ = ~Anomen a <CHARNAME> se vrátili do sídla Delrinů a vzali se při slavnostním obřadu. Pár společně pracoval na obnově rodinného majetku a štěstí je provázelo. Brzy lord nejen splatil otcovy dluhy, ale také začal hromadit vlastní majetek. I přes svůj nový status však Anomen zůstal věrný zásadám svého boha. I když byl někdy přísný, jeho soudy byly vždy spravedlivé a ti, kdo sloužili jeho rodině, věděli, že jejich loajalita bude odměněna.
+//
+//Nakonec byl mladý lord Delrin pozván do Rady šesti, a i když nikdo oficiálně neznal jeho postavení, změny ve vládě Athkatly byly všem zřejmé. Pod Anomenovým vedením začala vláda více pomáhat běžným lidem a účinněji bojovat se zlem. Nenechával nespravedlnost bez trestu a ti, kdo mu odporovali, měli sklon k nehodám. Ačkoli tyto shody okolností vyvolaly vyšetřování, jeho žena <CHARNAME> ho vždy podporovala a nebyly nalezeny důkazy o nekalých praktikách.
+//
+//Když se mladí lordi nebo závistiví soupeři ptali na tajemství jeho štěstí, Anomen skromně odpovídal: „Měl jsem velké štěstí. Ano, k vybudování dnešní pozice byla potřeba tvrdá práce, ale nedokázal jsem to sám. Vděčím za vše Helmovi a neustálé podpoře mé milované ženy <CHARNAME>. Bez ní bych nebyl tím, kým jsem dnes.“~
+//
+//
+//@99 /*Darkside Anomen Romance Epilogue - player chose god*/ = ~Když od něho <CHARNAME> odešla, Anomen se vrátil do sídla Delrinů a tvrdě pracoval na obnově rodinného majetku. Štěstí ho provázelo ve všem a brzy lord nejen splatil otcovy dluhy, ale také začal hromadit vlastní majetek. I když byl někdy přísný, jeho soudy byly vždy spravedlivé a ti, kdo sloužili jeho rodině, věděli, že jejich loajalita bude odměněna.
+//
+//Nakonec byl mladý lord Delrin pozván do Rady šesti, a i když nikdo oficiálně neznal jeho postavení, změny ve vládě Athkatly byly všem zřejmé. Pod Anomenovým vedením začala vláda více pomáhat běžným lidem a účinněji bojovat se zlem. Nenechával nespravedlnost bez povšimnutí a ti, kdo mu odporovali, měli sklon změnit názor přes noc nebo prostě zmizet. Ačkoli to vyvolalo podezření a několik vyšetřování, nebyly nalezeny důkazy o pochybení lorda Delrina.
+//
+//Když se mladí lordi nebo závistiví soupeři ptali na tajemství jeho štěstí, Anomen skromně odpovídal: „Měl jsem velké štěstí. Ano, k vybudování dnešní pozice byla potřeba tvrdá práce, ale nedokázal jsem to sám. Vše vděčím své milované bohyni <CHARNAME>. Bez jejího vedení bych nebyl tím, kým jsem dnes.“~
+
+//Clara's Fireball
+@105 /*NAME*/ = ~Nastražit past – ohnivou kouli~
+@106 /*DESC*/ = ~Tato schopnost umožňuje Kláře nastražit past – ohnivou kouli, která zůstane na místě, dokud se někdo nepřiblíží příliš blízko. Ať už přítel nebo nepřítel, ohnivá koule exploduje a způsobí obrovské zranění.~
+
+@108 /*Begin*/ = ~Do NOT allow multiple TOB epiloques: If you install this component, AllThingsMazzy epilogues will override existing game epilogues and most mod epilogues. If you do not install this component, the game will allow multiple NPC epilogues where applicable.~
+
+@110 = ~Nejsem jako oni. Má nevina bude prokázána a dříve nebo později se odtud dostanu.~
+@111 = ~Jsem nevinná. Mluvím pravdu.~
+
+@130 /*Girl Wraith*/ = ~Malá Klára~
+
+//PRINT Notes (for Weidu Setup) - mostly just our flavor commments
+@137 = ~Zjištěn Wilson – přidání do Wilson interdia.2da – nastavení souboru vtipů Wilsona (BWILSON & BWILSO25)~
+@138 = ~Přidání override skriptu Wilsona pro Trůn Bhaala~
+@139 = ~Přidání obsahu Kláry.~
+@140 = ~Přidání nových předmětů a kouzel.~
+@141 = ~Nastavení dialogů a skriptů~
+@142 = ~Záznamy deníku vylepšené edice (EE). Vyžadovány názvy.~
+@143 = ~Přidání crossmodových interakcí se Saradasem...~
+//Crossmod NPC stuff
+@144 = ~Zjištěn mod 'Alora in BG2' – přidání crossmodového Easter eggu~
+@145 = ~Mod 'Alora in BG2' nebyl zjištěn~
+@1440 = ~Zjištěna Alora z 'BG1 NPCs in SoA & ToB' – přidání crossmodového Easter eggu~
+@1450 = ~Alora NPC z 'BG1 NPCs in SoA & ToB' nebyla zjištěna~
+@146 = ~Zjištěna Nephele – přidání crossmodového Easter eggu~
+@147 = ~NPC Nephele nebyla zjištěna~
+@148 = ~Zjištěna Petsy – přidání crossmodového Easter eggu~
+@149 = ~NPC Petsy nebyla zjištěna~
+@150 = ~Zjištěn Saradas – přidání crossmodových vtipů~
+@151 = ~NPC Saradas nebyl zjištěn~
+@52 = ~Zjištěn mod All Thing Mazzy. Kvůli duplicitě funkcí prosím neinstalujte tento mod společně s ním.~
+@53 = ~Tento mod musí být nainstalován před EET_End během instalace EET.~
+@54 = ~Nejprve musíte nainstalovat hlavní komponentu.~
+@152 = ~Kompilace skriptů~
+@153 = ~Rozšíření existujících herních skriptů~
+@154 = ~Úprava skriptů koncovek~
+@155 = ~Resetovací soubory: pro usnadnění kompatibility modů.~
+@156 = ~Zjištěna specifická zlodějská sada – změna Kláry na zvláštního zloděje.~
+@157 = ~Specifická zlodějská sada nebyla zjištěna – Klářina sada zůstane Stínový tanečník.~
+@158 = ~Volitelný alternativní portrét Kláry ve stylu BG2~
+@159 = ~Změnit portrét Kláry?
+
+ 1. Změnit pouze portrét Kláry po záchraně (falešný Hexxat zůstává beze změny)
+ 2. Změnit všechny portréty Kláry (změní se i falešný Hexxat)
+
+ Prosím vyberte 1 nebo 2~

@@ -1,0 +1,588 @@
+//Clara Anomen romance talks~
+@1 /*Anomen*/ = ~Prosím vás, má paní... Nemohu se ubránit údivu, že jste se mě před naším setkáním nezeptala na mé cesty? Už spolu cestujeme nějakou dobu, ale skoro nic o sobě nevíme.~ [ANOMEN67]
+@2 /*Clara*/ = ~To je moje opomenutí, milorde, ujišťuji vás. Mohl byste mi vyprávět o svých činech?~
+@3 /*Anomen*/ = ~Mnoho toho není, i když několik mých dobrodružství bylo opravdu slavných. Cesta k rytířství je dlouhá... proto jsem potřeboval cestovat.~
+@4 /*Anomen*/ = ~Mnoho toho není, i když několik mých dobrodružství bylo opravdu slavných. Strávil jsem mnoho let snahou o rytířský titul... proto jsem potřeboval cestovat.~
+@5 /*Anomen*/ = ~Některé z mých činů však už dorazily k uším bardů. V Amnu jsou bitvy na denním pořádku a Řád v posledních letech několikrát vyslal svá vojska.~
+@6 /*CHARNAME*/ = ~Anomene, vážně jí budeš vyprávět ty samé historky, co mně?~
+@7 /*CHARNAME*/ = ~Mlčet.~
+@8 /*CHARNAME*/ = ~Zatočit očima.~
+@9 /*CHARNAME*/ = ~Těžce si povzdechnout.~
+@9001 /*CHARNAME*/ = ~Absolutně ne. Žádné důvěrnosti. Dívat se vpřed, ruce podél těla. Nechci vidět, abyste na sebe vůbec pohlédli po zbytek našeho dobrodružství.~
+@10 /*Anomen*/ = ~Je mi líto, že mezi námi nic nevyšlo, <CHARNAME>, ale Klára může být vnímavější. Kde jsem skončil... ach ano.~
+@11 /*Anomen*/ = ~Nedávno však... nech mě přemýšlet... když skřeti znovu zaútočili na kopce Ommurl, byl jsem tam.~
+@12 /*Anomen*/ = ~Ve velkém počtu jsou děsivou silou, ale jednotlivě se nevyrovnají zkušenému bojovníkovi. Sám jsem mnohé z nich porazil v souboji a mohu si nárokovat hlavu jednoho z jejich špinavých náčelníků.~
+@13 /*Clara*/ = ~To je velmi působivé. Řád má štěstí, že vás má ve svých řadách.~
+@14 /*Anomen*/ = ~Ano, dokazování mé hodnoty Řádu bylo výzvou. Mým největším přáním je vyrazit do bitvy s erbem Zářícího srdce na přilbě.~
+@15 /*Anomen*/ = ~Ano, dokazování mé hodnoty Řádu bylo výzvou. Ale stálo to za to, abych mohl vyrazit do bitvy s erbem Zářícího srdce na přilbě.~
+@16 /*Clara*/ = ~To je velmi působivé. Jak hloupý byl Řád, že vás vyhodil.~
+@17 /*Anomen*/ = ~Ano, velmi jsem se snažil dokázat svou hodnotu Řádu. Po mnoho let bylo mým největším přáním vyrazit do bitvy s erbem Zářícího srdce na přilbě.~
+@18 /*Anomen*/ = ~Nicméně mluvím o sobě příliš. Mohli byste si myslet, že jsem posedlý pýchou. Nebudu vás vinit, pokud vás mé příběhy nezajímají.~
+@19 /*Anomen*/ = ~Rád bych se dozvěděl více o vašem životě, má paní. Jak se stalo, že vás posedl ten hrozný upír?~
+@20 /*Clara*/ = ~To je smutný příběh, milorde. Jak víte, můj otec pocházel z vedlejší větve rodu Stříbrných štítů. Cestovali jsme na jih s matkou, když na nás zaútočili oglové. Naši lidé statečně bojovali, ale když byla bitva téměř prohraná, otec nám s matkou nařídil uprchnout.~
+@21 /*Clara*/ = ~Utíkali jsme, ale ogr nás dostihl a – stydím se to přiznat – utekla jsem sama, zatímco ostatní byli zabiti. Tak jsem se ocitla v Amnu bez peněz, bez rodiny a bez naděje na návrat domů.~
+@22 /*Clara*/ = ~Mladá šlechtična je lákavá kořist, a tak jsem použila všechny své dovednosti, abych vydávala za selku. Schovávala jsem se, žebrala, kradla jídlo – i když jsem nikdy neztratila důstojnost, ne vždy jsem jednala počestně.~
+@23 /*Anomen*/ = ~Nebuďte na sebe příliš přísná, má paní. Dělala jste, co bylo nutné k přežití.~
+@24 /*Clara*/ = ~Děkuji vám, milorde. Nejsem velká bojovnice jako vy. Jsem jen mladá žena, která se snaží najít svou cestu v tomto velkém, krutém světě. Vždy budu potřebovat vaši ochranu.~
+@25 /*Anomen*/ = ~Možná. I když vím, že sama dokážete působivé věci. Jsem ohromen vašimi schopnostmi v boji. To je u ženy úžasné.~
+@26 /*Anomen*/ = ~Neříkám to jako kritiku. Mám málo zkušeností se ženami a možná mluvím jako spratek. Možná mi někdy povíte více o svých vlastních činech.~
+@27 /*Clara*/ = ~Mých činech?~
+@28 /*Anomen*/ = ~O vašich úspěších! Jste tady; žijete. Ať si o sobě myslíte cokoli, váš příběh je neobyčejný. Každá jiná mladá šlechtična na vašem místě by už dávno zemřela, ale vy jste tady.~
+@29 /*Anomen*/ = ~A jsem za to velmi rád.~
+
+//2nd Talk, multiple variations~
+@30 /*Anomen*/ = ~Co víte o Řádu Zářícího srdce?~ [ANOMEN68]
+@31 /*Clara*/ = ~Velmi málo, milorde.~
+@32 /*Anomen*/ = ~Pak byste o tom měla vědět. Řád je největší silou spravedlnosti ve Faerûnu: armáda rytířů a paladinů připravená bojovat se zlem kdekoli se objeví.~
+@33 /*Anomen*/ = ~Existujeme, abychom sloužili, ale posloucháme pouze hlas srdce a svědomí. Jen málo tvorů dokáže čelit plné síle Řádu.~
+@34 /*Anomen*/ = ~Osobně nechápu, proč Řád nepřevzal kontrolu nad Radou. Mohl by udělat mnohem více, aby z této země učinil spravedlivou a rovnoprávnou.~
+@35 /*Keldorn*/ = ~*povzdech* Znovu, Anomene, řídíš se pýchou, ne rozumem. Řád zůstává neposkvrněný korupcí právě proto, že se neúčastníme politiky, o níž mluvíš.~
+@36 /*Keldorn*/ = ~Kdybychom dovolili, aby se vláda střetávala s našimi spravedlivými srdci, kde bychom skončili? I Rada má na této zemi své místo; to jistě chápeš?~
+@37 /*Anomen*/ = ~Dávno jsou pryč časy, kdy jsem potřeboval radu rytíře Řádu na každý svůj nápad, sire Keldorne. Slyšel jsem mnohokrát opakovaný názor, s nímž nesouhlasím.~
+@38 /*Anomen*/ = ~Obyčejní lidé trpí příliš mnoha nerovnostmi a nespravedlnostmi a Řád by měl udělat více pro zmírnění jejich beznadějného údělu. Co si o tom myslíte, má paní?~
+@39 /*Clara*/ = ~Myslím, že máte pravdu. Řád by mohl udělat víc. Kdybyste jen vy měl moc.~
+@40 /*Anomen*/ = ~Ano, myslím, že to vidíte. Budu si to pamatovat, až projdu zkouškou. Řád se musí stát aktivnější silou změny, nejen bojovat s tím nejzřetelnějším zlem.~
+@41 /*Anomen*/ = ~Ano, myslím, že to vidíte. Budu si to pamatovat. Řád se musí stát aktivnější silou změny, nejen bojovat s tím nejzřetelnějším zlem.~
+@42 /*Keldorn*/ = ~Řád má své místo, Anomene, a vláda není jeho role. Tvá vize je chybná a měl bys dobře zvážit, než uděláš něco unáhleného.~
+@43 /*Anomen*/ = ~Možná, sire Keldorne. Budu přemýšlet o tvých slovech, ale stále věřím, že chybují ti, kdo nehledají nové způsoby boje proti chaosu.~
+
+@44 /*Anomen*/ = ~Mám na mysli všechno utrpení, které snáší obyčejný lid. Hlad, nerovnosti a nespravedlnost... povstání na jihu. Všichni agenti chaosu.~
+@45 /*Anomen*/ = ~Kdyby Řád velel jako síla pravého dobra a počestného bratrstva, takové věci by se jistě nestávaly, že? Nechápu, proč to více lidí nevidí.~
+
+@46 /*Clara*/ = ~Jen to, že byl dost hloupý, aby vás vyhodil, milorde.~
+@47 /*Anomen*/ = ~Ano, ale Řád je stále největší silou spravedlnosti ve Faerûnu: armáda rytířů a paladinů připravená bojovat se zlem kdekoli se objeví.~
+@48 /*Anomen*/ = ~Přesto máte pravdu, Řád je hloupý. Jeho vůdci jsou opatrní lidé, neochotní dělat to, co je nutné, aby udělali svět lepším.~
+@49 /*Anomen*/ = ~Řád potřebuje mladší, odvážnější vedení, které by převzalo kontrolu nad Radou. Mohl by udělat mnohem více, aby z této země učinil spravedlivou a rovnoprávnou.~
+@50 /*Anomen*/ = ~Vůdci to nevidí. Měl jsem v úmyslu to změnit, má paní, až konečně dojdu k moci. Měl jsem v úmyslu učinit Řád děsivou silou pro zlo, ať se objeví kdekoli.~
+@51 /*Anomen*/ = ~A teď...~
+@52 /*Anomen*/ = ~Teď...~
+@53 /*Anomen*/ = ~Omluvte mě, má paní, obávám se, že jsem se stal špatným společníkem. Promluvíme si, až se mi zlepší nálada.~
+
+@54 /*Keldorn*/ = ~*povzdech* Znovu, Anomene, řídíš se pýchou, ne rozumem – a proto už s námi nejsi. Řád zůstává neposkvrněný korupcí právě proto, že se neúčastníme politiky, o níž mluvíš.~
+@55 /*Anomen*/ = ~Ano, myslím, že to vidíte. Ale teď je pozdě. Kdybych jen mohl převzít kontrolu a udělat to, co je správné.~
+
+//3rd Talk~
+@56 /*Clara*/ = ~Milorde, mohl byste mi vyprávět o své rodině?~
+@57 /*Anomen*/ = ~O mé rodině? Myslím, že je to spravedlivé, vzhledem k tomu, že jste mi vyprávěla svůj smutný příběh.~
+@58 /*Anomen*/ = ~Můj otec, sire Cor, se mnou nemá dobré vztahy. Když se neutápěl v alkoholu, vždy vyžadoval, abych udržoval rodinnou čest, nebo mi říkal, jakým k ničemu synem jsem se stal.~
+@59 /*Anomen*/ = ~Vysmíval se mé volbě vstoupit do Řádu. Chtěl, abych převzal jeho obchodní zájmy, ale já na to opravdu nemám vlohy.~
+@60 /*Anomen*/ = ~Přál bych si, aby byl můj otec mým mentorem. Místo toho jsem snášel jeho týrání, dokud jsem nebyl dost starý na to, abych se stal panošem Řádu – a utekl jsem, jakmile jsem mohl.~
+@61 /*Clara*/ = ~To je hrozné. Určitě jste rád, že jste ho opustil.~
+@62 /*Anomen*/ = ~Ano, opravdu. I když si někdy přeji, aby to dopadlo jinak. Vím, že je to hloupé. On se nikdy nezmění.~
+@63 /*Anomen*/ = ~Teprve poté, co jsem pomstil smrt své sestry a byl vyhozen z Řádu, získal jsem si jeho respekt, ale neočekávám, že to vydrží.~
+@64 /*Anomen*/ = ~Já... myslím, že vám to říkám, protože mi připomínáte mou sestru, Moiru. Byla mladá a odhodlaná... Chybí mi... možná jediná z rodiny.~
+@65 /*Anomen*/ = ~Lituji, že jsem ji nechal samotnou se sirem Corem, ale nemohl jsem nic udělat. Ona... Byl jsem si jistý, že ona...~
+@66 /*Anomen*/ = ~Teď je mrtvá. Zklamal jsem ji... naprosto a definitivně.~
+@67 /*Anomen*/ = ~Ne. To nic. Nechci o tom už mluvit, má paní, omluvte mě.~
+
+//4th Talk~
+@68 /*Anomen*/ = ~Já – chtěl bych se omluvit za to, že jsem včera tak náhle ukončil rozhovor. Nechtěl jsem vás urazit.~ [ANOMEN70]
+@69 /*Clara*/ = ~Necítila jsem se uražena, Anomene.~
+@70 /*Anomen*/ = ~Rád to slyším. Já... občas myslím na svou sestru, na to, jak si vede sama na panství s otcem. Z posledního dopisu, který jsem dostal, vypadalo, že je v pořádku.~
+@71 /*Anomen*/ = ~Nicméně myslím, že se jen snažila zmírnit mé výčitky svědomí. Nebylo to pro ni snadné a přál bych si, abych ji mohl vzít a poslat někam, kde by byla šťastná.~
+@72 /*Anomen*/ = ~Rád to slyším. Já... občas myslím na svou sestru, na to, jak si vedla sama na panství s otcem po všechny ty roky. Z posledního dopisu, který jsem dostal před její smrtí, vypadalo, že je v pořádku.~
+@73 /*Anomen*/ = ~Nicméně myslím, že se jen snažila zmírnit mé výčitky svědomí. Nebylo to pro ni snadné a často jsem litoval, že jsem ji nemohl vzít a poslat někam, kde by byla šťastná.~
+@74 /*Anomen*/ = ~Ale teď je na lítost pozdě.~
+@75 /*Clara*/ = ~Čím vám připomínám ji?~
+@76 /*Anomen*/ = ~Ve vašem držení těla vidím jejího ducha, má paní. Moira uměla být tvrdohlavá... i v otcových nejhorších chvílích odmítala opustit jeho bok a zůstávala, aby se o něj starala.~
+@77 /*Anomen*/ = ~Od smrti naší matky si myslím, že si nedokázala představit nic jiného. Doufám, že na ni starý blbec nebyl příliš krutý.~
+@78 /*Anomen*/ = ~Ve vašem držení těla vidím jejího ducha, má paní. Moira uměla být tvrdohlavá... i v otcových nejhorších chvílích odmítala opustit jeho bok a zůstávala, aby se o něj starala.~
+@79 /*Anomen*/ = ~Od smrti naší matky si myslím, že si nedokázala představit nic jiného. Doufám, že na ni starý blbec nebyl příliš krutý před její smrtí.~
+@80 /*Anomen*/ = ~Zakecal jsem se. Měli bychom pokračovat v cestě. Děkuji, že jste mi dovolila o ní mluvit.~
+
+//5th Talk~
+@81 /*Anomen*/ = ~*povzdech* Zmínka o mém otci mi dala mnoho podnětů k zamyšlení. Možná až příliš. Jako by chladný vítr zavál nad mou duší.~ [ANOMEN71]
+@82 /*Clara*/ = ~Proč? Na co myslíte?~
+@83 /*Anomen*/ = ~Mluvím o vzpomínkách, které je lepší odložit, aby nehnisaly v srdci. A přesto to občas nedokážu.~
+@84 /*Anomen*/ = ~Pamatuji si, když jsem poprvé získal titul panoše. Byl to těžký úkol... můj otec odmítl být mým patronem, takže jsem byl na stejné úrovni jako prostý sedlák.~
+@85 /*Anomen*/ = ~Většina rytířů mě nechtěla přijmout, protože jsem neměl peníze na vlastní výstroj. Musel jsem se prokázat před rytířem jménem sire Blettin, který se nade mnou slitoval a přijal mě jako panoše.~
+@86 /*Anomen*/ = ~Byl jsem hrdý a šťastný během obřadu... ale netrvalo to dlouho. Můj otec, sire Cor, se dovlekl do sídla Řádu... byl opilý jako potáplice a zuřivý.~
+@87 /*Anomen*/ = ~Začal křičet na rytíře... obzvláště na sira Ryana Trawla... že jsem mu byl ukraden. Že jsem k ničemu a slabý syn, který do Řádu nepatří.~
+@88 /*Anomen*/ = ~Sir Ryan Trawl mu řekl, že jsem se osvědčil... ale starý blbec neposlouchal. Nakonec ho museli vyvést ze sídla, kopal a křičel.~
+@89 /*Anomen*/ = ~Sire Cor znesvětil jedinou chvíli čisté radosti, kterou jsem v Řádu zažil – jediného úspěchu, jehož jsem dosáhl navzdory jeho odporu. Fuj!~
+@90 /*Clara*/ = ~To je hrozné! Je mi líto, že se to tak stalo.~
+@91 /*Anomen*/ = ~Mně také. Od smrti mé matky byl můj otec silou, se kterou jsem bojoval, abych se prosadil... neviditelnou rakovinou, kterou jsem nemohl porazit.~
+@92 /*Anomen*/ = ~Ach, poslouchejte mě. Jak ubohý rytíř musím být, když před vámi brečím jako dítě kvůli otcově nesouhlasu. Určitě si myslíte, že jsem blázen, má paní.~
+@93 /*Clara*/ = ~Nemluvte nesmysly, Anomene. Překonal jste mnoho překážek a měl byste být hrdý na své úspěchy.~
+@94 /*Anomen*/ = ~Jste ke mně velmi laskavá, má paní. Děkuji.~
+
+//6th Talk~
+@95 /*Anomen*/ = ~Říkal jsem vám, jak jsem se stal knězem?~ [ANOMEN72]
+@96 /*Clara*/ = ~Ne, ale ráda si to poslechnu.~
+@97 /*Anomen*/ = ~Jak jsem řekl, připojil jsem se k Řádu bez otcovy pomoci. Většina mladých pánů přichází s patronem, který platí za jejich zbroj a tak dále.~
+@98 /*Anomen*/ = ~Neměl jsem ani meč a instruktoři rytířů mě nechtěli přijmout bez otcova svolení.~
+@99 /*Anomen*/ = ~Nicméně moje matka byla následovnicí Helma a znala sira Ryana Trawla. Ona... prosila za mě u velitele rytířů, aby mě neodmítal.~
+@100 /*Anomen*/ = ~Sir Ryan Trawl mi dovolil vstoupit do chrámu Helma jako novic. Učil jsem se na kněze a cvičil šerm u strážců chrámu, než jsem konečně mohl být přijat jako panoš.~
+@101 /*Anomen*/ = ~Byla to dlouhá cesta, má paní... ale rád sloužím Helmovi v Řádu. Věřím, že Helm je se mnou spokojen.~
+@102 /*Clara*/ = ~Jsem si jistá, že je, milorde.~
+@103 /*Anomen*/ = ~Ale co z toho. K čemu byla všechna ta práce? Čeho jsem dosáhl? K čemu to je? Jsem nula.~
+@104 /*Anomen*/ = ~Ach! Dost těch řečí... pokračujme v našem pátrání v tichosti.~
+
+//7th Talk~
+@105 /*Anomen*/ = ~Má paní, já... cítím se hrozně kvůli svému včerejšímu výbuchu. Dovolíte mi, abych se omluvil a pokusil se to vysvětlit?~ [ANOMEN73]
+@106 /*Clara*/ = ~Dobře... vyslechnu, co máte na srdci.~
+@107 /*Anomen*/ = ~Jsem vám velmi vděčný, Kláro. Někdy, vidíte... má horlivost pro spravedlnost a statečnost přebere kontrolu. V mém srdci vře hněv, který... nedokážu ovládat.~
+@108 /*Anomen*/ = ~Vidím nespravedlnost všude, má paní, a... a chci s ní bojovat. Ale i když to dělám... stále bojuji... nenávist a hněv jen rostou...~
+@109 /*Anomen*/ = ~Rozzlobil jsem se během našeho předchozího rozhovoru, ale to... to byl hněv na sebe, na mou vlastní neschopnost být tak dobrý a spravedlivý, jak bych chtěl.~
+@110 /*Anomen*/ = ~Omlouvám se, Kláro, opravdu se omlouvám. Nejsem hoden svých slibů.~
+@111 /*Clara*/ = ~Věřím, že každý se někdy cítí jako vy, Anomene... i ti nejušlechtilejší paladinové občas cítí hněv a nenávist.~
+@112 /*Anomen*/ = ~Já... nemyslím, že to je pravda. Paladinové v Řádu mluví jen o naplnění, a já ho nemám. Ale děkuji za vlídná slova, i tak.~
+@113 /*Anomen*/ = ~Znovu jste mi připomněla mou sestru Moiru. Také měla ušlechtilou duši a dobré srdce. Měla byste ji poznat, Kláro... Opravdu si myslím, že byste si padly do oka.~
+@114 /*Anomen*/ = ~Znovu jste mi připomněla mou sestru Moiru. Také měla ušlechtilou duši a dobré srdce. Přál bych si, abyste ji mohla poznat, Kláro... Opravdu si myslím, že byste si padly do oka.~
+@115 /*Clara*/ = ~Musí být milá dívka, Anomene. Myslím, že máte pravdu.~
+
+//8th Talk - if killed Saerk
+@116 /*Anomen*/ = ~Já... udělal jsem něco strašného. Zabít Saerka a jeho... jeho dceru. Nejsem si jistý, zda jsem udělal správnou věc.~ [ANOMEN74]
+@117 /*Anomen*/ = ~Celá tahle záležitost zanechala v mých ústech pachuť popela. Bránil jsem čest rodiny, ale nemohu se zbavit pocitu, že jsem zradil zásady Řádu.~
+@118 /*Anomen*/ = ~Vy... podpořila jste mě v tomto kroku, má paní. Potřebuji, abyste mě ujistila, že nebylo jiné možnosti... prosím.~
+@119 /*Anomen*/ = ~Co si o tom myslíte, má paní? Potřebuji, abyste mě ujistila, že nebylo jiné možnosti... prosím.~
+@120 /*Clara*/ = ~Musel jste bránit čest své rodiny, Anomene; není nic důležitějšího.~
+@121 /*Anomen*/ = ~Ano, myslím, že máte pravdu. Nevím, kolik cti má můj otec, ale mám vůči rodině závazky, které nemohu ignorovat. Musel jsem... to udělat pro Moiru, už jen kdyby pro nic jiného.~
+@122 /*Anomen*/ = ~Bez ohledu na to, co můj otec dělal během svého dlouhého sporu se Saerkem, byl to Saerk, kdo zabil nevinného. To mě donutilo zasáhnout.~
+@123 /*Anomen*/ = ~Ale... přesto, má paní... znepokojuje mě, jak snadno jsem podlehl své obrovské nenávisti. Nelíbí se mi ani, že jsem si to tak užíval. Nicméně děkuji, že jste se mnou o tom mluvila.~
+
+//8th Talk - didn't kill Saerk~
+@124 /*Anomen*/ = ~Můj hněv narostl do té míry, že se třesu čirou zuřivostí! Já – musím s vámi mluvit! Musím najít útěchu!~ [ANOMEN75]
+@125 /*Anomen*/ = ~Můj otec... ten sprostý opilec! Zavrhl mě, když jsem dělal to, co jsem musel! Bez důkazů jsem se nemohl pomstít a on to věděl!~
+@126 /*Anomen*/ = ~A přesto... mé srdce touží po pomstě! Moje sestra byla zavražděna a vrah se beztrestně směje... Jsem tak naplněn nenávistí, že ji sotva ovládám!~
+@127 /*Anomen*/ = ~Prosím, má paní... Udělal jsem správně? Má příkaz cti Řádu skutečně převažovat nad povinností a spravedlností?!~
+@128 /*Clara*/ = ~Nečekej to ode mě, Anomene. Radila jsem ti zabít Saerka a bránit čest rodiny. Saerk měl padnout tvou rukou.~
+@129 /*Clara*/ = ~Čest tvé rodiny by měla převažovat nad vším, Anomene. Saerk by měl padnout tvou rukou.~
+@130 /*Anomen*/ = ~Můj otec mě zavrhl. Moje rodina je teď opravdu zničená a co na to Řád? Nic. Také jsi mě opustila.~
+@131 /*Anomen*/ = ~Musím... to promyslet. To je... cesta cti, měl bych cítit naplnění. Ale... ale... *povzdech* Ne. Nebudu s tebou o tom mluvit. Pokračujme.~
+@132 /*Clara*/ = ~Existuje jiná cesta, milorde. Zabij Saerka hned. Zabij Saerka, pomsti svou sestru a tvůj otec tě přijme zpět.~
+@133 /*Anomen*/ = ~Nemohu! Jsem členem Řádu. Dodržím své sliby; bez ohledu na všechno je dodržím. Prosím, nežádej mě, abych udělal něco jiného, má paní. Řád by mě vyhodil jako vraha.~
+@134 /*Clara*/ = ~Já to zvládnu. Umím být tichá jako smrt, když chci. Vplížím se, otrávím Saerkovo víno a zase vyklouznu. Nikdo nebude vědět o tvém podílu; jen já, ty a tvůj otec. Tvá pověst v Řádu zůstane neposkvrněná.~
+@135 /*Anomen*/ = ~Můžeš... můžu mít všechno... mou čest... mou rodinu... mé rytířství...~
+@136 /*Anomen*/ = ~Ne! Ne, ty svůdkyně. Jsme skončili! Nemáš čest. Jsme skončili.~
+@137 /*Clara*/ = ~Dobře. Bez rodinného jména jsi jen prostý občan. Byla jsem na tebe příliš dobrá.~
+@138 /*Clara*/ = ~A teď, jestli dovolíš, musím navštívit tvého otce. Máme spolu mnoho k projednání.~
+@139 /*Anomen*/ = ~Mého otce? Nerozumím.~
+@140 /*Anomen*/ = ~<CHARNAME>, až budeme mít chvilku, pojďme k domu mého otce. Musím vědět, co chystá!~
+
+//9th Talk - pre test~
+@141 /*Anomen*/ = ~Má paní? Mohl bych si s vámi promluvit?~ [ANOMEN76]
+@142 /*Clara*/ = ~Samozřejmě, Anomene. O čem chcete mluvit?~
+@143 /*Anomen*/ = ~Nedávno hodně přemýšlím o své zkoušce. Rozhodne o celé mé budoucnosti, protože Řád rozhodne, zda mě přijme do svých řad jako rytíře.~
+@144 /*Anomen*/ = ~K tomu jsem celý život směřoval... po letech dokazování sám sobě. Já... nevím, co budu dělat, když zkoušku nesložím...~
+@145 /*Anomen*/ = ~A najednou jsem si jistý, že ji nesložím. Mé srdce mě zradí. Cítím se bez víry, bezcenný... Oni to vycítí.~
+@146 /*Anomen*/ = ~Co si myslíte, má paní? Jsem opravdu tak špatný? Tolik jsem se snažil, ale všechno je marné. Myslíte... i vy si myslíte, že zkoušku nesložím?~
+@147 /*Clara*/ = ~Je to možné... měl byste být na to připraven.~
+@148 /*Anomen*/ = ~Ano, vždy musím být připraven. Na neúspěch. Myslím, že to je můj přirozený osud. Když zkoušku složím, tak snad proto, že Řád je slepý.~
+@149 /*Anomen*/ = ~Ach... zkouška brzy přijde a pochybuji, že mezi tím a teď mohu udělat cokoli, abych napravil své chyby. Co se má stát, stane se.~
+
+//10th Talk, pre-test~
+@150 /*Anomen*/ = ~Moje zkouška se brzy uskuteční, má paní. Jdu do sídla Řádu, abych promluvil se sirem Ryanem Trawlem. Já... mnoho neočekávám od rozsudku, který mě tam čeká.~ [ANOMEN81]
+@151 /*Clara*/ = ~Proč? Nejsou spravedliví?~
+@152 /*Anomen*/ = ~Jsou spravedliví, má paní. Neznepokojuje mě, že by mohli udělat špatné rozhodnutí... Znepokojuje mě, že by mohli udělat správné.~
+@153 /*Anomen*/ = ~Já... přemýšlel jsem o tom, o čem jsme mluvili. Pamatuji si, jak jsem celý život usiloval o vstup do Řádu, a najednou si nejsem jistý, jestli to vůbec chci.~
+@154 /*Anomen*/ = ~Co když mě Řád přijme a já zjistím, že tam pro mě není místo? Nebo co když mě odmítnou... a já zjistím, že pro mě není budoucnost?~
+@155 /*Anomen*/ = ~Část mě už zná odpověď. Jak osvobozující by bylo shodit okovy beznadějné povinnosti, a přesto mě samotná představa naplňuje nevolností.~
+@156 /*Clara*/ = ~Věřím, že všechno dopadne tak, jak má, Anomene.~
+@157 /*Anomen*/ = ~Doufám, že máte pravdu, má paní. Dosud jsem se řídil vašimi radami a vždycky byly dobré. Přesto cítím neklid.~
+@158 /*Anomen*/ = ~Kláro, má paní, až nadejde ten čas, z celého srdce si přeji, abyste byla přítomna při mé rytířské zkoušce. Vaše přítomnost mi dodává sílu čelit jakémukoli výsledku.~
+@1580 /*Clara*/ = ~To je moje ct, milorde.~
+
+//11th Talk, after fails~
+@159 /*Anomen*/ = ~Přemýšlel jsem o siru Ryanu Trawlovi a Řádu a rozhodl jsem se, že jsem rád, že jsem se jich zbavil! Nemůžu uvěřit, že jsem tolik drahocenného času promarnil na tak omezené hlupáky!~ [ANOMEN82]
+@160 /*Anomen*/ = ~Všechna ta práce a trénink, znovu a znovu se dokazovat, abych nakonec zjistil, že život v odříkání a dobrých skutcích není pro mě! Cítím se oklamán, má paní.~
+@161 /*Anomen*/ = ~Ale na druhou stranu cítím, jako by mi spadlo břemeno z ramen. Moje okovy byly odstraněny a konečně mohu zažít věci v životě, které jsem si odpíral!~
+@162 /*Anomen*/ = ~Rozumíš mi, Kláro? Dobré jídlo, víno a ženy! Dobrodružství bez potřeby dokazování! Jsem svobodný! Ha ha!~
+@163 /*Clara*/ = ~Ráda to slyším. Můžete si užít trochu svobody, milorde.~
+@164 /*Anomen*/ = ~Ano, můžu! Tenhle chudák rytíř se příliš dlouho mračil a reptal... upřímně, už toho mám dost. Toužím se smát a dělat, co chci – a při Helmovi, budu to dělat!~
+@165 /*Anomen*/ = ~Podívej se na mě a řekni mi upřímně, má paní: nevypadám tak lépe? Svobodný, připravený poznávat život? S úsměvem na tváři a radostí v srdci?~
+@166 /*Clara*/ = ~Takový bys měl být, Anomene.~
+@167 /*Anomen*/ = ~Dobře řečeno a tento kdysi přísný rytíř je za to vděčný, má paní! Být chválen tak krásnou dámou, jako jste vy, je velká věc.~
+@168 /*Anomen*/ = ~Je mnoho věcí, které bych chtěl vidět a udělat... ale zatím mi stačí společnost tak skvělé dámy, jako jste vy. Pojď, dokončme naše záležitosti co nejdříve. A mám nový plán...~
+
+//12th Talk~
+@169 /*Anomen*/ = ~Má paní, pozoroval jsem vás posledních pár hodin velmi pozorně a došel jsem k jistému závěru... Chcete slyšet, co si myslím?~ [ANOMEN83]
+@170 /*Clara*/ = ~K závěru o mně? K jakému závěru, milorde?~
+@171 /*Anomen*/ = ~Když jsem vás poprvé potkal, má paní, věděl jsem, že je na vás něco, co mě přitahuje. Část vaší duše, nějaký stín za světlem vašeho ducha. Nejsem si jistý.~
+@172 /*Anomen*/ = ~Samozřejmě jsem vám neřekl o svých citech... pro rytíře Řádu by takové vyznání bylo nevhodné. Ale teď už mě taková omezení nesvazují.~
+@173 /*Anomen*/ = ~Nejednou jsem před vámi otevřel své srdce a řídil se vašimi radami. Považoval jsem vás za přítelkyni, ale toužím po něčem víc.~
+@174 /*Anomen*/ = ~Jste krásná žena, Kláro... plná života, po kterém jsem vždy toužil. Chci zažívat nové věci, a teď jsem svobodný... Chci být blíž k vám.~
+@175 /*Anomen*/ = ~Můžete mě odmítnout nebo se mi vysmát, ale tak snadno se nevzdám. Okouzlila jste mě svým půvabem, Kláro, a nemohu vám odolat.~
+@176 /*Anomen*/ = ~Dovolíte tomuto ubohému padlému rytíři, aby položil svou růži k vašim nohám, má paní? Dovolíte polibek na vaše okvětní rty a já poletím do nebe...~
+@177 /*Clara*/ = ~Polibek? Já... myslím, že ano...~
+@178 /*Anomen*/ = ~Pak zavřete oči a já udělám totéž... setkáme se ve tmě, jako dva nevinní. Lehké doteky našich rtů, polibek...~
+@179 /*Anomen*/ = ~...tady je... budu si ho vychutnávat, má drahá, tento nejsladší dar. Znám mnoho krásných básní ze svého učení, ale nikdy jsem neokusil přízeň ženy.~
+@180 /*Anomen*/ = ~Ze všech věcí, které jsem toužil zažít, tohle bylo mým největším přáním. Příslib budoucnosti. Pokračujme, než se na nás ostatní začnou dívat.~
+
+//13th Talk - at rest~
+@181 /*Anomen*/ = ~Až ostatní odejdou na odpočinek, mohu vás přemluvit, abyste se vzdálila od jejich uší? Mé slovo je určeno jen vám.~ [ANOMEN84]
+@182 /*Clara*/ = ~To není pro dámu rozumné, milorde, ale věřím vám. Veďte mě.~
+@183 /*Anomen*/ = ~Pojďme, promluvme si vážně. Já... už jsem vám říkal o svých citech, Kláro. Pokud si myslíte, že si dělám legraci, omlouvám se.~
+@184 /*Anomen*/ = ~Nic by mi neudělalo větší radost než potěšit vás... a strávit s vámi tuto noc. Snil jsem o tomto okamžiku, má paní, a věřím, že nadešel.~
+@185 /*Anomen*/ = ~Zde... právě zde. Dovolte, abych si sundal tuniku, a vy budete moci pohlédnout na mé tělo, ztvárněné léty tréninku... a sama posoudit, zda jsem vás hoden.~
+@186 /*Clara*/ = ~Považujete mě za ženu lehkých mravů, milorde? Dáma se nesdílí s mužem bez slibu manželství.~
+@187 /*Clara*/ = ~Já... obávám se, že takto už nemůžeme mluvit, je to pro mě nevhodné. Věřím, že se zvládnete obléknout beze mě?~
+@188 /*Anomen*/ = ~Jsem blázen. Samozřejmě, má paní, prosím, odpusťte mi.~
+@189 /*Clara*/ = ~Odpouštím ti, milý. Je štěstí, že tě můžu milovat. Ale nemám rodinu, dům ani způsob, jak uživit své skromné bytí. Zbývá mi jen má pověst a tu už nemohu ztratit.~
+
+//14th Talk~
+@190 /*Anomen*/ = ~*povzdech* Zase mezi námi trapné ticho, má lásko. Obávám se, že neumím pobavit a rozveselit vás slovy, jak by se slušelo.~ [ANOM2507]
+@191 /*Clara*/ = ~Ticho mi není trapné, Anomene. Cítím se s tebou dobře.~
+@192 /*Anomen*/ = ~Ach, možná problém je ve mně. Byl jsem vychován v rytířské kultuře – láska je umění, forma a vzor. Poetické vyznání lásky a lichotky jsou očekávaným způsobem, jak rytíř projevuje city.~
+@193 /*Anomen*/ = ~Ale teď vidím prázdnotu a strojenost takových rozhovorů. Nucené flirtování nesluší někomu, jako jsi ty. Nejsi obyčejná dvorní dáma, která tráví čas planými řečmi v bohatých sálech.~
+@194 /*Clara*/ = ~A ty nejsi obyčejný rytíř, milorde. Co chceš říct?~
+@195 /*Anomen*/ = ~Nejsi jako žádná žena, kterou znám, Kláro. Ty milostné fráze nedokážou vyjádřit to, co opravdu cítím. Bez nich... nevím, jak to říct. Jsem jako bojovník bez zbroje a zbraně: zranitelný.~
+@196 /*Clara*/ = ~Nemusíš nic říkat, Anomene. Vím, co cítíš.~
+@197 /*Anomen*/ = ~Tak... dovol mi jen říct, že tě miluji, a nech to být.~
+@198 /*Clara*/ = ~Také tě miluji, Anomene.~
+@199 /*Anomen*/ = ~Nevíš, jakou úlevu mi tvá slova přinášejí, Kláro.~
+
+//15th Talk - at night, causes rest~
+@200 /*Anomen*/ = ~Má lásko, můžu si s tebou promluvit? O samotě. Jde o, hm... věc nejvyšší důležitosti.~
+@201 /*Clara*/ = ~Samozřejmě, milý. Co chceš říct?~
+@202 /*Anomen*/ = ~Má paní, kdybych měl na vybranou, nedělal bych to tady. Počkal bych, podle tradice, a udělal to, jak se patří. Ale obávám se, že pokud to neudělám teď, příležitost může zmizet.~
+@203 /*Anomen*/ = ~Naučila jsi mě, že okázalost a ceremoniály jsou ničím proti našim opravdovým citům. Miluji tě, Kláro. Miluji tě celým srdcem.~
+@204 /*Clara*/ = ~Myslíš... to, co si myslím?~
+@205 /*Anomen*/ = ~Má paní, už jsem tě ujistil o své lásce a věrnosti. Přísahal jsem, že tě budu následovat, ať se stane cokoli. A teď chci, aby celý svět věděl, co k tobě cítím.~
+@206 /*Anomen*/ = ~Zasloužíš si víc, než ti mohu dát, Kláro... ale i kdybych měl všechno bohatství Faerûnu, stále bych tě nebyl hoden. Mohu ti dát jen své srdce a sebe. Kláro... vezmeš si mě?~
+@207 /*Clara*/ = ~Anomene, má lásko... samozřejmě, že si tě vezmu!~
+@208 /*Anomen*/ = ~Kláro! Udělala jsi ze mě nejšťastnějšího muže v celých Královstvích!~
+@209 /*Anomen*/ = ~Chci oslavit naši lásku velkolepým obřadem, svatbou hodnou nejbohatších rodů Athkatly! Všichni naši přátelé se zúčastní a podělí se s námi o radost.~
+@210 /*Clara*/ = ~Ó, Anomene, to je skvělý nápad!~
+@211 /*Anomen*/ = ~Jsme rádi, že souhlasíš, i když to znamená, že si musíme promluvit s mým otcem.~
+@212 /*Anomen*/ = ~Přijmi tento prsten; patřil mé sestře. Nosil jsem ho s sebou na její památku. Má paní, je to skromný dar, ale ať je svědkem naší lásky a symbolem našeho vzájemného závazku.~
+@213 /*Anomen*/ = ~Noste tento prsten blízko srdce, má lásko. Když se nás síly světa pokusí rozdělit, on nás udrží pohromadě. A dovolte mi, abych to zpečetil polibkem, má paní...~
+@214 /*Anomen*/ = ~Tvé rty, jako vždy, jsou sladké jako med a jejich dotyk mě rozechvívá! Bohužel, má paní, musíme pokračovat v cestě, než nás ostatní ztratí.~
+@215 /*Clara*/ = ~Ne, milý, odpočiňme si teď. Měli bychom oslavit naše zasnoubení... a dovol mi pocítit, jak vážně to myslíš.~
+@216 /*Anomen*/ = ~Oslavit? Ó... myslíš...?~
+@217 /*Anomen*/ = ~Minule... myslel jsem, že chceš počkat do svatby...~
+@218 /*Clara*/ = ~Nemohu čekat do svatby. Chci se hned ujistit, že si k sobě sedíme.~
+@219 /*Anomen*/ = ~Jsem rád, že to slyším, má drahá. Nikdy jsem nebyl tak vzrušený. Dovol, abych tě objímal celou noc a ukázal ti, jak něžný může být muž...~
+@220 /*Anomen*/ = ~<CHARNAME>, teď odpočíváme. Jestli nás nepočkáš, dohoníme tě později.~
+
+//16th Talk - post proposal~
+@221 /*Anomen*/ = ~Stále přemýšlím; stále mě trochu mrzí odmítnutí Řádem, ale... v mnoha ohledech jsem se nikdy necítil tak... šťastný. Ha! Není to divné?~ [ANOMEN85]
+@222 /*Clara*/ = ~Já jsem také šťastná, má lásko.~
+@223 /*Anomen*/ = ~Jsem dojat tvou láskou a věř mi, díky ní jsem se stal mnohem lepším.~
+@224 /*Anomen*/ = ~Ale nejde jen o to. Když mě Řád odmítl, myslel jsem, že můj život skončil. Ale svoboda... je tak opojná.~
+@225 /*Anomen*/ = ~Už nemusím dodržovat přísná pravidla. Už se nemusím neustále starat o zachování cti... Můžu dělat, co chci, a žít, jak chci. A mám tebe.~
+@226 /*Anomen*/ = ~Jsem rád, že jsem se řídil tvou radou, že jsi mě na této cestě podpořila, má paní. Nenašel bych klid, kdyby Moirina smrt zůstala nepomstěna.~
+@227 /*Anomen*/ = ~A vím, že jsem neudělal nic špatného. Neurážel jsem boha... On stále přijímá mou víru. Řád mě zavrhl, ale můj bůh ne.~
+@228 /*Anomen*/ = ~Té noci, když jsem usnul, zdál se mi sen – krásný obraz budoucího života, s tebou. Věřím, že to bylo božské znamení; jsme si souzeni.~
+@229 /*Clara*/ = ~Souhlasím, jsme si souzeni. Jinak bych nepřijala tvou nabídku.~
+@230 /*Anomen*/ = ~Jsem rád, že jsi ji přijala, má paní. Velmi, velmi rád. Má budoucnost je jasnější než kdykoli předtím.~
+
+//17th Talk - on rest~
+@231 /*Anomen*/ = ~Teď odpočíváme, že? To je dobře. Pojď, má paní... Rád bych si s tebou promluvil mimo dosah uší ostatních.~ [ANOMEN86]
+@232 /*Anomen*/ = ~Já... musím ti něco říct, Kláro. Nechci, abys myslela, že jsem lehkomyslný nebo neupřímný... to, co řeknu, myslím zcela vážně.~
+@233 /*Anomen*/ = ~Miluji tě. Vím, že je to zásadní vyznání, ale nikdy předtím jsem nic takového necítil. Byla jsi trpělivá a zároveň silná. Nastavila jsi směr mého života a díky tomu jsem se stal lepším.~
+@234 /*Clara*/ = ~Jsi už mým manželem, milý. Nemyslím, že láska, kterou ke mně cítíš, je pro mě překvapením.~
+@235 /*Anomen*/ = ~Přesto... můj život je teď plný chaosu a chci, aby alespoň jedna věc byla stálá. Proto tě prosím. Nečekejme ani chvíli. Vydejme se k mému otci a naplánujme naši svatbu!~
+@236 /*Anomen*/ = ~Chci být s tebou, dokud nás osud nerozdělí, a i tehdy se postavím smrti, abych s tebou mohl být.~
+@237 /*Clara*/ = ~Ó, to je nádherné, má lásko. Nikdy jsem nebyla šťastnější než dnes.~
+
+//Terl Interjections~
+@2380 /*Anomen*/ = ~Poslal tě za mnou jen proto, abys doručila dopis? To musí být špatné zprávy. Dej ho sem.~
+@238 /*Clara*/ = ~Co se děje, má lásko? Něco není v pořádku?~
+@239 /*Clara*/ = ~To je hrozné, po všem, co jsi pro něj udělal. A my jsme mu chtěli oznámit radostnou novinu o naší svatbě!~
+@240 /*Anomen*/ = ~Ne! Naše svatba! Jestli se mě zavře, nebudu mít dům, jméno ani šlechtický titul! Budu nic, a my budeme nic. Nebudu hoden tvé ruky.~
+@241 /*Clara*/ = ~Už máš mou ruku, Anomene, a mé srdce. Musíme najít způsob, jak to napravit.~
+@242 /*Clara*/ = ~Možná tvůj otec jen háže slova do větru? Možná ještě nezačal jednat?~
+@243 /*Anomen*/ = ~Ano, máš pravdu! Ten dopis mohl napsat hned, ale aby mě oficiálně zavrhl, musí osobně učinit veřejné prohlášení, a to zabere spoustu času. Teď na to nemá čas.~
+@244 /*Anomen*/ = ~Technicky vzato, jsem stále jeho syn!~
+@245 /*Clara*/ = ~Možná si s ním můžeme promluvit! Řekni mu o naší svatbě a on ti odpustí!~
+@246 /*Anomen*/ = ~Neznáš ho, má lásko. Když se jednou rozhodne, že jsem hrozbou pro jeho podnikání, nikdy neodpustí. Bude mi vděčný za zabití Saerka, ale stejně se mě zavře. To všechno je moje vina!~
+@247 /*Anomen*/ = ~Já... zabil jsem nevinného člověka a jeho dceru! Ztratil jsem Řád! Nemůžu uvěřit, že jsem to udělal! Kvůli mému otci...~
+@248 /*Anomen*/ = ~...já a můj otec máme nevyřízené účty. Neodpustím mu a nikdy neodpustím. Promiň, Kláro, ale musím se vrátit do domu mého otce...~
+@249 /*Anomen*/ = ~...musím se vrátit a odčinit to, co jsem udělal. Můj otec se mnou bude sdílet odčinění. Sbohem... sbohem...~
+@250 /*Clara*/ = ~Když zabiješ jeho i sebe, co se mnou bude, má lásko? Necháš mi jen prsten tvé sestry a vzpomínky na tvůj slib?~
+@251 /*Clara*/ = ~Měli jsme se vzít! Navždy! Až do smrti bohů a konce světa!~
+@252 /*Anomen*/ = ~Co mám udělat, má lásko? Jak to mohu napravit? Můj otec musí zemřít, a pak se stanu vrahem.~
+@253 /*Clara*/ = ~Co když tvůj otec nezemře tvou rukou? Co když ho pár zlodějů zavraždí kvůli jeho majetku a my jen narazíme na jeho tělo a nahlásíme to úřadům?~
+@254 /*Clara*/ = ~Má v domě služebnictvo?~
+@255 /*Anomen*/ = ~Pokud vím, ten lakomec žádné nemá. Jen našeho vrátného, Jardina.~
+@256 /*Clara*/ = ~Dá se přesvědčit, aby podpořil naši verzi?~
+@257 /*Anomen*/ = ~Jardyn? Je loajální k našemu rodu, ale nesnáší, jak ho otec ničí. Možná ho přesvědčíme, aby se přidal na naši stranu. Promluvíme si s ním, než vejdeme.~
+@258 /*Anomen*/ = ~<CHARNAME>, musím jít do domu svého otce. Prosím, dej mi několik dní na vyřízení této záležitosti, a pak budu rád znovu cestovat s tebou.~
+@259 /*Clara*/ = ~Budu při tobě, ať se stane cokoli, má lásko.~
+
+//Guard Dialogue During Timer~
+@260 /*Guard*/ = ~Vítej, <CHARNAME>. Zatím nemůžeš vejít. Anomen a Klára jsou uvnitř s jeho otcem.~
+@261 /*Guard*/ = ~Vítej, <CHARNAME>. Lord a lady Delrinovi na tebe čekají. Řekli, abych tě k nim hned přivedl, jakmile dorazíš.~
+
+//Guard Dialogue After Everything~
+@2610 /*Guard*/ = ~Vítej, <CHARNAME>. Můžeš vejít.~
+@2611 /*Guard-if Anomen*/ = ~Vítej, lord Delrine. V tvé nepřítomnosti bylo vše v pořádku.~
+@2612 /*Guard-if Clara*/ = ~Vítej, paní. Tvůj dům je připraven.~
+
+//Clara's response to guard dialogue if married to Cor~
+@2613 /*Clara*/ = ~Děkuji, Jardine, jsi dobrý člověk.~
+
+//Interjection into Cor fight scene~
+@262 /*Anomen*/ = ~Byl. Byl jsem hloupý kluk, který myslel jen na sebe. Ale teď mám Kláru, která mi dodává sílu. Máme se vzít. Staneme se lordem a lady Delrinovými.~
+@263 /*Cor*/ = ~A jak to hodláš udělat? Zabít mě? Už jsem se tě zavřel.~
+@264 /*Anomen*/ = ~Ví o tom vůbec někdo? Dal sis tu práci, aby to bylo formální? Sdělil jsi to svým přátelům a kolegům?~
+@265 /*Cor*/ = ~Já... no... víš... poslední dobou jsem velmi zaneprázdněn...~
+@266 /*Anomen*/ = ~Ha, to jsem si myslel.~
+@267 /*Anomen*/ = ~Takto to bylo, otče. Přijel jsem sem se svou ženou, lady Karolinou Ludovikou Aurorou Rozánou Alexandrou Stříbrným štítem z Beregostu, abych ti oznámil radostnou zprávu o našem zasnoubení.~
+@268 /*Anomen*/ = ~Po krátkém rozhovoru s naším vrátným Jardynem jsme vešli dovnitř a našli tě zavražděného, s rozbitým oknem a ukradeným velkým majetkem. Okamžitě jsme zavolali Jardyna, který to potvrdil a běžel to ohlásit úřadům.~
+@269 /*Cor*/ = ~Jardyn mě nikdy nezradí. Uvidíš. Je loajální!~
+@270 /*Anomen*/ = ~Dali jsme mu víc zlata, než vydělal za celý život, když pracoval pro tebe. Potvrdí každý detail našeho příběhu.~
+@271 /*Anomen*/ = ~A teď můžeš zemřít.~
+@272 /*Anomen*/ = ~<CHARNAME>? Co tu děláš?!~
+@273 /*CHARNAME*/ = ~Přišel jsem tě zastavit, Anomene. Nemůžeš zabít svého otce.~
+@274 /*CHARNAME*/ = ~Přišel jsem se podívat, co hodláš udělat.~
+@275 /*CHARNAME*/ = ~Přišel jsem ti pomoci.~
+@276 /*Anomen*/ = ~Proč?! Řekni, proč by neměl zemřít!~
+@277 /*CHARNAME*/ = ~Není odpovědný za to, co se ti stalo, Anomene, a ty to víš.~
+@278 /*CHARNAME*/ = ~To tě posune dál na cestu zla, Anomene... nedělej to.~
+@279 /*CHARNAME*/ = ~Je čas skoncovat s tou nenávistí, Anomene... ty ji musíš zastavit!~
+@280 /*Anomen*/ = ~Viděl jsi. Víš. Hodláš mě zastavit?~
+@281 /*CHARNAME*/ = ~Ano, zastavím. Nemůžeš to udělat.~
+@282 /*CHARNAME*/ = ~Ne, dělej, co chceš.~
+@283 /*CHARNAME*/ = ~Vlastně ti hodlám pomoci.~
+@284 /*Anomen*/ = ~Udělám to sám. Nechci, aby sis špinil ruce... ale nebudu tě zastavovat. Jak jsem řekl... Otče, připrav se!~
+@285 /*Anomen*/ = ~Dobře. Já... nechtěl jsem, abys to viděl, ale to nevadí. Odčiním to, co jsem udělal... a otče, jak jsem řekl... připrav se!~
+@286 /*Anomen*/ = ~Já... nemůžu. Mé srdce je plné hněvu, a tak to vždycky bylo. Nemohu tak žít... a je jen jeden způsob, jak ho utišit, jeden způsob odčinění a jeden způsob, jak zajistit Klářinu budoucnost.~
+@287 /*Anomen*/ = ~Otče, připrav se! Dnes to skončí!~
+@288 /*Anomen*/ = ~Ano. Ano, máš pravdu. Nechci jít touto cestou, bez ohledu na to, co mi otec udělal. Ale... možná nemám na výběr.~
+@289 /*Anomen*/ = ~Ano... máš pravdu. Otec není zodpovědný za všechno, co jsem udělal... já jsem zodpovědný.~
+@290 /*Anomen*/ = ~Zlo v mém srdci. Nenávist a hněv, zvrácené a temné... a já... je nedokážu ovládat. Ale... nemohu tak ani žít...~
+@291 /*Anomen*/ = ~Co mám dělat, <CHARNAME>? Kláro? Jak mám dál žít po všem, co jsem udělal? Jak mám vědět, že mě jednoho dne to zlo nepřemůže?!~
+@292 /*Clara*/ = ~Uděláš, co musíš, má lásko.~
+@293 /*Clara*/ = ~Miluji tě a budu při tobě, ať se stane cokoli.~
+@294 /*Anomen*/ = ~Slyšel jsem tvé argumenty, <CHARNAME>, ale hodlám uskutečnit svůj plán. Hodláš zasáhnout?~
+@295 /*CHARNAME*/ = ~Zastavím tě silou a pak to ohlásím úřadům.~
+@296 /*CHARNAME*/ = ~Nebudu s tebou bojovat, ale ohlásím tvé činy úřadům.~
+@297 /*CHARNAME*/ = ~Dělej, co chceš, Anomene. Nebudu tě zastavovat.~
+@298 /*Anomen*/ = ~Stalo se. Miluji tě, Kláro, a zajistím naši budoucnost.~
+@299 /*Anomen*/ = ~Ne! Nemůžeš to ohlásit, zničíš mě, tím ztratím všechno!~
+@300 /*Cor*/ = ~Ha! S tebou je konec, kluku. A ty... Karolino... Stříbrný štít, nebo jak se jmenuješ?~
+@301 /*Cor*/ = ~Proč plýtvat tak hezkou tváří? Můj syn bude uprchlík; s ním nemáš budoucnost. Žena bez možnosti volby opravdu vypadá zoufale.~
+@302 /*Cor*/ = ~Chceš se stát lady Delrinovou? Jsem šlechtický aristokrat, mé podnikání vzkvétá a potřebuji mladou pěknou ženu, aby mi porodila nové dědice. Vezmi si mě a odpustím ti, žes znala mého hloupého prvorozeného.~
+@303 /*Cor*/ = ~Odpustím i tomu zrádci Jardynovi, když vrátí peníze, kterými jste ho podplatili.~
+@304 /*Anomen*/ = ~Ne, má lásko. Nesouhlas s tím.~
+@305 /*Clara*/ = ~Ó, ne... nemůžu...~
+@306 /*Anomen*/ = ~Drž se od něho dál, drahá, pojď se mnou, odejdeme odtud.~
+@307 /*Clara*/ = ~Slib mi poslední věc.~
+@308 /*Anomen*/ = ~*zaskočen* C-co?~
+@309 /*Clara*/ = ~Prosím, obejmi mě naposledy? Slib.~
+@310 /*Clara*/ = ~*šeptem* Počkej dva týdny, pak se vrať a získej zpátky všechno, co ti patří.~
+@311 /*Clara*/ = ~*hlasitě* Promiň, má lásko, zapomeň na mě.~
+@312 /*Anomen*/ = ~Vyhrál jsi, otče. Teď nemám nic, vzal jsi mi všechno! *s hořkostí* Odejdu a po cestě řeknu Jardynovi o tvé... štědrosti.~
+@313 /*Cor*/ = ~Výborně. Pojď sem, má sladká. Nech mě okusit plody vítězství.~
+@314 /*Clara*/ = ~Nejprve svatba, milorde, jak jsi slíbil.~
+@315 /*Cor*/ = ~Samozřejmě, samozřejmě. Můj syn ti dal prsten? Dobře. Můžeme ho použít; není třeba ti dávat jiný.~
+@316 /*Cor*/ = ~Podepíšu dokumenty a ty je zaneseš na úřad, aby se to všechno formalizovalo. Sám bych to udělal, ale jak jsem řekl... jsem velmi, velmi zaneprázdněn.~
+@317 /*Cor*/ = ~Doufám, že odpustíš tak spěšnou svatbu, drahá. Koneckonců, důležité jsou dokumenty a svatební obřady jsou zatraceně drahé.~
+@318 /*Cor*/ = ~Och, nedívej se na mě tak. Můžeš napsat všem rodům, velkým i malým, a oznámit jim tu radostnou zprávu. Dokonce ti dovolím použít mou pečeť.~
+@319 /*Cor*/ = ~Ale nejprve sňatek. Zde... a zde... to by mělo stačit. Přikládám svou pečeť... a hotovo. Buď hodná holka a dodej ty dokumenty na příslušný úřad, ano?~
+@320 /*Clara*/ = ~Ano, milorde.~
+
+//After Papers Filed~
+@321 /*Clara*/ = ~Hotovo, milorde. Jsme manželé. Jsem nyní lady Delrinová.~
+@322 /*Cor*/ = ~Dobře. Teď se jdi vykoupat a připrav se do ložnice. Je načase mít dědice.~
+@323 /*Cor*/ = ~<CHARNAME>! Stále jsi tady?~
+@324 /*Cor*/ = ~Děkuji ti, žes mě zachránil před mým ničemným synem, ale opravdu bys měl teď odejít.~
+
+//New Cor line~
+@3210 /*Cor*/ = ~Nemáš tu co dělat. Nech mě a mou novou ženu.~
+
+//If Anomen Kills Cor~
+@325 /*Anomen*/ = ~Je konec. Můj otec je mrtev.~ [ANOMEN94]
+@3251 /*Anomen*/ = ~Ach, mé ruce se tak třesou, že sotva něco udržím. Ale v srdci cítím, jako by mi spadlo břemeno.~
+@326 /*Clara*/ = ~Hm, cítím, že se něco změnilo, něco ve tvé auroře je nové... Dokázal jsi to, má lásko, naše budoucnost je v bezpečí. Jsi nyní lord Delrin.~
+@327 /*Anomen*/ = ~Ukliďme to a pak pošleme Jardyna pro stráž.~
+@3271 /*Anomen*/ = ~Má lásko, Kláro, odvezu tě do chrámu a požádám kněze, aby tě vzkřísili.~
+@328 /*Anomen*/ = ~<CHARNAME>, prosím, dej nám několik dní na uspořádání záležitostí, a pak se k vám rádi znovu přidáme, jestli nás ještě budete chtít.~
+@329 /*CHARNAME*/ = ~Samozřejmě, Anomene, oba jste velmi cennými členy družiny.~
+@330 /*CHARNAME*/ = ~Anomene, oba jste nestvůry a nechci s vámi mít nic společného.~
+@331 /*Anomen*/ = ~Udělal jsem, co jsem musel, <CHARNAME>. Pokud změníš názor, víš, kde nás najít.~
+
+//If you show up late~
+@332 /*Anomen*/ = ~Vítej, <CHARNAME>. Rád tě vidím.~
+@333 /*Anomen*/ = ~Obávám se, že během mé nepřítomnosti došlo k tragédii. Klára a já jsme přišli oznámit otci radostnou zprávu o našem zasnoubení, ale našli jsme ho zavražděného. Okno bylo rozbité a mnoho cenností bylo v noci ukradeno.~
+@334 /*Anomen*/ = ~Škoda, že jsme se nestihli usmířit. Ale nestihl mě formálně zavrhnout před naším příchodem, takže jsme nyní lordem a lady Delrinovými. Dej nám několik dní na uspořádání našich nových záležitostí a budeme připraveni s tebou znovu cestovat.~
+
+//If you talk to Anomen/Clara before timer is up~
+@335 /*Clara*/ = ~Vítej, <CHARNAME>. Ráda tě vidím, ale můj drahý manžel a já potřebujeme ještě trochu času, než budeme moci znovu cestovat s tebou.~
+@3351 /*Clara, with Cor*/ = ~Vítej, <CHARNAME>. Ráda tě vidím, ale můj drahý manžel a já potřebujeme ještě trochu času, než budu moci znovu cestovat s tebou.~
+@336 /*Anomen*/ = ~Vítej, <CHARNAME>. Prosím, buď trpělivý; má žena a já budeme brzy připraveni se k vám přidat.~
+
+//If you talk to Clara after she marries Cor but before timer up~
+@337 /*Clara*/ = ~Vítej, <CHARNAME>. Teď s tebou nemohu cestovat, můj nový manžel je velmi žárlivý a nemá rád, když se vzdálím z jeho dohledu.~
+@338 /*Clara*/ = ~Prosím, zastav se kdykoli. Vždycky je příjemné vědět, že mám přátele, pro případ, že bych znovu ztratila všechno.~
+@339 /*Clara*/ = ~*šeptem* Už to nebude dlouho. Uvidíš.~
+
+//First talk after the travel timer is up~
+@340 /*Anomen*/ = ~Vítej, <CHARNAME>. Moje žena a já jsme připraveni vyrazit.~
+@341 /*CHARNAME*/ = ~Skvěle. Jdeme.~
+@342 /*CHARNAME*/ = ~Promiň, potřebuji jen tebe.~
+@343 /*CHARNAME*/ = ~Vlastně jsem přišel jen pro Kláru.~
+@344 /*CHARNAME*/ = ~Nevadí. Zatím vás nepotřebuji.~
+@345 /*Anomen*/ = ~Je to v pořádku, má lásko? Zvládneš to sama?~
+@346 /*Clara*/ = ~Samozřejmě, milorde. Postarám se o naše záležitosti, když tu nebudeš. Prosím, vracej se, jak často to jen půjde.~
+@347 /*Anomen*/ = ~Slibuji, drahá, slibuji. Pojďme, <CHARNAME>, než si to rozmyslím.~
+@348 /*Clara*/ = ~Chceš, abych šla s tebou? Tak brzy po naší svatbě? Je to v pořádku, má lásko?~
+@349 /*Anomen*/ = ~Pokud musíš jít, má paní, pochopím. Budu ti chybět každou vteřinou, ale stále je mnoho práce, abych obnovil čest našeho rodu. Budu tady, abych zajistil naši budoucnost, když tu nebudeš.~
+@350 /*Clara*/ = ~Vím, má lásko. Věřím ti a vrátím se, jakmile to půjde.~
+@351 /*Anomen*/ = ~Vlastně je to úleva, <CHARNAME>. Rád tě vidím, ale je tu mnoho práce.~
+@352 /*Clara*/ = ~Vítej, <CHARNAME>. Můj manžel a já jsme připraveni vyrazit.~
+@353 /*CHARNAME*/ = ~Vlastně jsem přišel jen pro Anomena.~
+@354 /*Clara*/ = ~Ráda to slyším. Užívám si manželství a nechtěla bych tak brzy odcházet.~
+
+//After Clara Widowed~
+@355 /*Anomen*/ = ~Ach, <CHARNAME>, přišel jsi. Mám šťastnou zprávu.~
+@356 /*Anomen*/ = ~Můj otec náhle zemřel, ale na smrtelné posteli mi odpustil a obnovil mě jako svého syna. Jsem opět lord Delrin.~
+@357 /*Anomen*/ = ~To dělá Kláru mou matkou, což je trochu trapné, ale vezmeme se, jakmile skončí její smutek, a pak se opět stane lady Delrinovou. Veřejná svatba samozřejmě musí počkat nejméně rok, ale týden by měl stačit na složení slibů.~
+@358 /*Anomen*/ = ~Navíc nové důkazy naznačují, že Saerk skutečně stál za vraždou mé sestry. To činí mou zabití jeho a jeho rodiny, ne-li legálním a ospravedlnitelným, tak alespoň pochopitelným.~
+@359 /*Anomen*/ = ~Všechno je v pořádku. Nechtěl bys, abych s tebou znovu cestoval? Teď nemohu odejít, ale rád se brzy přidám. Vrať se za týden.~
+@360 /*CHARNAME*/ = ~Ne, stále jsi nestvůra. Nevěřím, že ti tvůj otec opravdu odpustil.~
+@361 /*CHARNAME*/ = ~Vlastně jsem přišel pro tvou... matku.~
+@362 /*Anomen*/ = ~Samozřejmě, že odpustil. Na dokumentech je jeho pečeť a svědčila jeho věrná žena Klára. Ať už těm dokumentům věříš, nebo ne, na tom nezáleží.~
+@363 /*Anomen*/ = ~Jestli mě potřebuješ, jsem tady. Jestli ne, přeji ti hezký den.~
+@364 /*Clara*/ = ~Promiň, <CHARNAME>, ale jsem v hlubokém zármutku a potřebuji útěchu Anomena. Prosím, vrať se za týden.~
+@365 /*Anomen*/ = ~Vítej, <CHARNAME>. Promiň, ale teď nemohu mluvit. Vrať se, až se vezmeme.~
+@366 /*Clara*/ = ~Vítej, <CHARNAME>. Odpusť truchlící vdově, ale teď nemohu mluvit.~
+
+//Default Clara P Dialogue if Clara married Anomen~
+@367 /*Clara*/ = ~<CHARNAME>! Čím ti mohu posloužit?~
+@368 /*CHARNAME*/ = ~Zastavil jsem se jen pozdravit a podívat se, jak se máš.~
+@3680 /*CHARNAME*/ = ~Chci, abys se mnou znovu cestovala.~
+@369 /*CHARNAME*/ = ~Jsi připravena vyrazit?~
+@370 /*CHARNAME*/ = ~Tohle divadlo už trvá dost dlouho. Potřebuji zlodějku.~
+@371 /*CHARNAME*/ = ~Paní Klementina Ludvika... a tak dále... Delrinová si našla čas pro takového prostáčka, jako jsem já? Jaká čest. *zatočí očima*~
+@3710 /*CHARNAME*/ = ~Chci, abys se mnou znovu cestovala.~
+@3711 /*CHARNAME*/ = ~Nevadí. Zatím nic nepotřebuji.~
+@3712 /*Clara*/ = ~Chceš, abych se k tobě přidala? Opustit mé luxusní žití jako lady Delrinové a potulovat se po špinavých kobkách dnem i nocí?~
+@3713 /*Clara*/ = ~*povzdech* Myslím, že ti dlužím. Než odejdeme, musím dát instrukce služebnictvu. Musím se ujistit, že záležitosti mého manžela jsou řádně vyřízeny.~
+@372 /*Clara*/ = ~To je vše? Ó, ulevilo se mi. Myslela jsem, že mě chceš odvést od mého milovaného manžela. Ale jen zdravíš.~
+@373 /*Clara*/ = ~Není to nádherné, má lásko? <CHARNAME> mě nepotřebuje.~
+@374 /*Anomen*/ = ~Opravdu, jsem rád, že tě stále mohu objímat.~
+@375 /*Clara*/ = ~Cítím se mnohem lépe, když jsi přivedl mého milovaného manžela zpět. Vítej, můj drahý Anomene. Jsem ráda, že jsi v pořádku.~
+@376 /*Clara*/ = ~Jak jsem slíbila, starala jsem se o záležitosti, když jsi byl pryč, a naštěstí <CHARNAME> mě nepotřebuje.~
+@377 /*Clara*/ = ~Která žena může být šťastná, když truchlí nad svým milovaným? Teď, když je můj drahý Anomen mrtvý, zůstala jsem jen já, abych se starala o záležitosti a zajistila pokračování jeho odkazu. Promiň, <CHARNAME>. Opravdu teď nemám čas mluvit.~
+@378 /*Clara*/ = ~Samozřejmě, <CHARNAME>. Můj drahý manžel a já rádi splníme své sliby.~
+@379 /*Clara*/ = ~Chceš, abych se k tobě přidala? Nechala mého manžela tady?~
+@380 /*Anomen*/ = ~Pokud musíš jít, má paní, pochopím. Budu ti chybět každou vteřinou, ale stále je mnoho práce na obnovení cti našeho rodu. Budu pokračovat v zajišťování naší budoucnosti, když tu nebudeš.~
+@381 /*Clara*/ = ~Dobře, milý. Vrátím se, jakmile to půjde.~
+@382 /*Clara*/ = ~Která žena by nechtěla cestovat se svým milovaným? Nech mě si sbalit věci.~
+@383 /*Clara*/ = ~Myslím, že je to lepší než zůstat tady sama. Záležitosti mého zesnulého manžela jsou řádně vyřízeny, dohlédla jsem na to, a možná boj po tvém boku pomůže utišit můj zármutek.~
+@384 /*Clara*/ = ~Pak by sis možná měl najmout takovou. Moji zesnulí rodiče byli tak laskaví, že mi najali učitele akrobacie a plížení, ale nejsem obyčejná zlodějka. Jsem lady Delrinová a bylo by dobře, kdybys se v mém domě choval slušně.~
+@385 /*Clara*/ = ~Pokud však chceš, abych ti s manželem dělala společnost, musíme souhlasit. Koneckonců, slib je slib a sliby jsou sliby. Čím bych byla bez poctivosti svých slov?~
+@386 /*Clara*/ = ~Pokud však chceš, abych ti dělala společnost, ráda budu znovu cestovat se svým milovaným.~
+@387 /*Clara*/ = ~Pak by sis možná měl najmout takovou. Moji zesnulí rodiče byli tak laskaví, že mi najali učitele akrobacie a plížení, ale nejsem obyčejná zlodějka. I přes smrt mého manžela jsem stále lady Delrinová a bylo by dobře, kdybys se v mém domě choval slušně.~
+@388 /*Clara*/ = ~Myslím, že je to lepší než zůstat tady sama. Záležitosti mého zesnulého manžela jsou řádně vyřízeny, dohlédla jsem na to, a možná boj po tvém boku pomůže utišit můj zármutek.~
+@389 /*Clara*/ = ~Nemusíš být tak skromný. Koneckonců jsi hrdina! I my, urozeného původu, musíme respektovat ty, kdo riskují své životy, aby zajistili naši bezpečnost.~
+@390 /*Clara*/ = ~Ale pokud jde o to, chceš, abych dodržela svůj slib a znovu tě doprovázela na tvém smělém dobrodružství?~
+@391 /*CHARNAME*/ = ~Ne, jen zdravím.~
+@392 /*CHARNAME*/ = ~Ano, jsi připravena vyrazit?~
+
+//Anomen's new kicked out dialogue~
+@3931 /*CHARNAME*/ = ~Dobře, vyrazíme, Anomene.~
+@3932 /*CHARNAME*/ = ~Ne, teď je lepší se rozejít.~
+@393 /*Anomen*/ = ~Udělám, co řekneš, ale dobře se nám spolupracovalo a rád bych se k vám v budoucnu znovu přidal.~
+@394 /*Anomen*/ = ~Sbohem, má drahá Kláro, brzy se uvidíme.~
+@395 /*Anomen*/ = ~Bylo by však dobré znovu navštívit mou drahou ženu.~
+@396 /*Anomen*/ = ~<CHARNAME>, pokud změníš názor, najdeš mě v mém rodinném sídle.~
+@397 /*CHARNAME*/ = ~Dobře. Sejdeme se tam, pokud budu znovu potřebovat tvé služby.~
+@398 /*CHARNAME*/ = ~Ne, prostě počkej tady.~
+
+//Anomen's New P Dialogue in Manor~
+@399 /*Anomen*/ = ~Vítej, <CHARNAME>. Chceš, abych já a moje žena se k vám přidali?~
+@400 /*CHARNAME*/ = ~Ano. Jdeme.~
+@401 /*Anomen*/ = ~Vítej, <CHARNAME>. Chceš, abych se k vám přidal?~
+@402 /*CHARNAME*/ = ~Promiň, jen jsem se zastavil. Zatím tě nepotřebuji.~
+@403 /*Anomen*/ = ~Samozřejmě, můj příteli. Rád budu znovu cestovat se svou drahou ženou.~
+@404 /*Anomen*/ = ~Je mi líto, <CHARNAME>, ale jsem rád, že mohu znovu vidět svou milovanou. Prosím, nevracej se příliš dlouho.~
+@405 /*Clara*/ = ~Samozřejmě, milý. Strašně mi chybíš.~
+@406 /*Anomen*/ = ~Také mi chybíš, má lásko. Ale když tu nejsi, dělám tady hodně práce pro naši budoucnost.~
+
+//The Cor dialogue~
+//1st Talk after Clara dumps Anomen~
+@407 /*Cor*/ = ~Anomene, nikdy jsi mi neřekl, že znáš tak okouzlující dámu.~
+@408 /*Cor*/ = ~Přišla se mnou hádat, snažila se mě přesvědčit, abych tě přijal zpět, ale udělal jsem jí lepší nabídku.~
+@409 /*Cor*/ = ~Vidíš, když jsem se tě zavřel, nemám syna a chybí mi pěkná mladá žena, aby mi porodila další děti. Teď je ale ten druhý problém vyřešen.~
+@410 /*Anomen*/ = ~Otče, to nemůže být pravda! Kláro, řekni mi, že žertuje.~
+@411 /*Clara*/ = ~Promiň, milorde, mluví pravdu. Jsem nyní Karolina Ludovika Aurora Rozána Alexandra Stříbrný štít Delrinová z Athkatly. Jsme oficiálně manželé.~
+@412 /*Anomen*/ = ~To je nemožné; neměli jste na to čas.~
+@413 /*Cor*/ = ~Na rozdíl od tebe, chlapče, jednám rychle, když je třeba, a nenechávám příležitosti vyklouznout. Podepsala, vzala si mě a sdílela se mnou lože.~
+@414 /*Anomen*/ = ~Pak s vámi oběma nemám nic společného. Kláro, byl jsem zaslepen tvými půvaby, ale začínám pochybovat, že jsi vůbec šlechtična. Možná jsi jen děvka z přístavu. Každé tvé slovo bylo prokletá lež.~
+@415 /*Clara*/ = ~*pláče* Jak můžeš říkat tak hrozné věci?~
+@416 /*Clara*/ = ~Odpusť mu, lorde Delrine. Mluví ze žárlivosti. Po záchraně mého života mě Anomen žádal, abych s ním sdílela lože, ale připomněla jsem mu, že pravá dáma čeká do svatební noci. Řekl mi, že protože můj otec byl jen z vedlejší větve a jsem sirotek, mohu zahřát jeho lože, ale nejsem hodna být jeho ženou.~
+@417 /*Clara*/ = ~Když jsem stále odmítala jeho návrhy, tvůj syn se stal zasmušilým, a teď, když jsi mi dal všechno, co mi on odepřel...~
+@418 /*Cor*/ = ~K ničemu psu. Správně jsem se tě zavřel. Když ty jsi nechtěl, udělal jsem z Kláry počestnou ženu.~
+@419 /*Cor*/ = ~Kdybych jen měl peníze na pořádnou svatební oslavu.~
+@420 /*Clara*/ = ~Neboj se, můj lorde-manžele. Vím, že tyto těžké časy nejsou tvou vinou. Brzy obnovíš své bohatství a pak můžeme navštívit mého bratra a vše řádně zařídit. Prozatím stačí právní dokument a požehnání Helma.~
+@421 /*Anomen*/ = ~Oddal vás kněz Helma?! Boha, který vidí pravdu a odhaluje lži?!~
+@422 /*Cor*/ = ~Samozřejmě, chlapče. Máš s tím problém? Vždycky jsem měl rád Helma. Byl pro tebe dost dobrý; pro mě a tvou novou matku je také dost dobrý.~
+@423 /*Anomen*/ = ~Ta děvka není moje matka! Je to podvodnice!~
+@424 /*Clara*/ = ~Mýlíte se, můj statečný rytíři. Jsem lady Delrinová, šlechtična Athkatly, a tedy podle práva Helma a práva Rady šesti jsem vaší matkou. Vaše víra v to je irelevantní.~
+@425 /*Cor*/ = ~Dobře řečeno. Ale dost, chlapče. Nemáš nic důležitějšího na práci než urážet mou novou nevěstu?~
+@426 /*Clara*/ = ~<CHARNAME>, prosím, dej nám několik dní spolu, a pak dodržím svůj slib a budu s tebou znovu cestovat.~
+
+//New Clara P dialogue if married Cor & not Anomen~
+@427 /*Clara*/ = ~Je žena připravena být vytržena od svého milovaného? Ale povinnost volá a já musím poslouchat. Koneckonců, slib je slib a sliby jsou sliby. Čím bych byla bez poctivosti svých slov?~
+@428 /*Clara*/ = ~Sbohem, můj sladký Core. Využiji každou příležitost, abych tě znovu viděla. Mnoho našich úkolů se odehrává v tomto krásném městě, takže budu moci utéct domů, zatímco družina odpočívá. Proč odpočívat v nějaké blešivé stáji, když se mohu vrátit na naše manželské lože?~
+@429 /*Clara*/ = ~Pokud však chceš, abych ti dělala společnost, musím souhlasit. Koneckonců, slib je slib a sliby jsou sliby. Čím bych byla bez poctivosti svých slov?~
+
+//New Cor Dialogues~
+@430 /*Cor*/ = ~Vrátila ses, má drahá! Ale s tebou <CHARNAME>. Hádám, že jste ještě nedokončili cestu?~
+@431 /*Clara*/ = ~Ještě ne, má lásko, ale vrátím se k tobě, jakmile to půjde.~
+@432 /*Clara*/ = ~Mám také odejít, milý manžele?~
+@433 /*Cor*/ = ~Ó, má lásko, nevšiml jsem si tě. Jsi vždycky tak tichá a ladná. Dokončila jsi svou cestu?~
+@434 /*Clara*/ = ~Týkají se tvá drsná slova i mě, milý? Roztrhalo by mi to srdce, kdybys o mně smýšlel špatně.~
+@435 /*Cor*/ = ~Ne, samozřejmě jsem nemluvil o tobě, omlouvám se. Vím, že jen <CHARNAME> je vinen.~
+
+//Initial Journal Entry After Anomen Leaves~
+@999 = ~Anomen obdržel dopis od svého otce, který ho velmi zarmoutil. Zdá se, že skuteční vrazi jeho sestry Moiry byli nalezeni a jeho otec se ho chce zavrhnout za zabití Saerka, a ne skutečného viníka. Krutý zvrat osudu, vzhledem ke všemu, čím si prošel.
+
+Anomen a Klára se vydali do jeho sídla a požádali mě, abych se k nim za několik dní připojil, až se tato záležitost vyřeší. I když jsem neslyšel celý jejich rozhovor, dvojice je odhodlána obnovit svou čest a obávám se, že Cor může svého syna dohnat k poslednímu kroku. Možná bych měl jít za nimi, abych potvrdil svá podezření a ujistil se, že si Anomen znovu neposkvrní ruce krví. Nebo bych měl nechat toho bezcenného opilce sklízet to, co zasel.~
+
+//Anomen's Return Journal Entry~
+@1000 = ~Zastavil jsem Anomena a Kláru před zabitím jeho otce; ten člověk může být parchant, ale nemohl jsem dovolit chladnokrevnou vraždu. Když stanul před volbou bojovat se mnou, Anomen uprchl a Klára se provdala za Cora. Sňatek se zdá být legální, ale mám pocit, že to není konec. Cor si možná pozval do svého lože černou vdovu a měl bych se za několik týdnů vrátit, abych se přesvědčil, že přežil.~
+
+//TOB
+//Gorion Wraith Scene~
+@436 /*Wraith*/ = ~Jsi silou zla, která se šíří po zemi.~
+@437 /*Anomen*/ = ~Duchu Goriona, jsem lord Anomen Delrin a mluvím jménem svého přítele. Náš vůdce je dobrý člověk a zastánce spravedlnosti!~
+@438 /*Wraith*/ = ~Mluví Anomen, který propadl Zkoušce, Vrah příbuzných a Vrah nevinných...~
+@439 /*Anomen*/ = ~Zabil jsem svého otce... ale nebyl nevinný.~
+@440 /*Wraith*/ = ~Nemluvil jsem o Coru Delrinovi...~
+
+//Imoen Wraith Adjustments~
+@441 /*Wraith*/ = ~Ty a Imoen jste silou zla, která se šíří po zemi.~
+@442 /*Anomen*/ = ~Duchu Goriona, jsem lord Anomen Delrin a mluvím jménem svých přátel. Imoen a <CHARNAME> jsou dobří lidé a zastánci spravedlnosti!~
+
+//Moira Talk Interjection~
+@443 /*Anomen*/ = ~Ne! Ne, ne! Já... nikdy... Při Helmovi, ne! Prosím tě! Zastav to!~ [ANOM2552]
+@444 /*Clara*/ = ~Anomene, všechno je v pořádku... pst...~
+@445 /*Wraith*/ = ~Malá Klára se snaží vystoupit ze stínu... ale stínem jsi ty, Karolino.~
+@446 /*Clara*/ = ~Takže teď mi ukážeš někoho, koho jsem zabila? Udělej to, Gorione, nelituji žádného!~
+@447 /*Wraith*/ = ~Jak si přeješ.~
+
+//Little Clara Talk~
+@448 /*Clara*/ = ~Kdo jsi? Neznám tě...~
+@449 /*Little Clara*/ = ~Byla jednou jedna malá holčička, která byla v bezpečí a milována. Byla šťastná a její dny byly plné smíchu a radosti.~
+@451 /*Clara*/ = ~Ó ne...~
+@452 /*Little Clara*/ = ~Řekni mi, jak to skončí, Kláro... Řekni mi, že budu žít šťastně až do smrti.~
+@453 /*Clara*/ = ~Budeš! To jsem já! Jsem urozená dáma! Mám manžela, který mě miluje! Jsem silná, mocná a bohatá! I ty budeš mít tohle všechno...~
+@454 /*Little Clara*/ = ~Ne... ty to budeš mít, ale já ne. Ta veselá malá holčička, která milovala tento svět... zemřela jsem... protože jsi mě zabila.~
+@455 /*Clara*/ = ~Život byl těžký... musela jsem činit rozhodnutí, abych přežila!~
+@456 /*Little Clara*/ = ~Přežila jsi... ale já ne. Ta veselá malá holčička, která milovala tento svět... zemřela jsem... protože jsi mě zabila.~
+@457 /*Little Clara*/ = ~Teď máš všechno, co jsi vždycky chtěla... ale můžeš si to užívat? Můžeš cítit lásku a radost jako kdysi? Nebo se každý den bojíš, že se tvá pavučina lži zhroutí?~
+@458 /*Clara*/ = ~Ne... odejdi! Byla jsi slabé dítě a já s tebou skončila! *vzlyk*~
+@459 /*Little Clara*/ = ~Obklop se zlatem, služebnictvem a „přáteli“... stejně budeš vždycky sama.~
+
+//Post Wraith Talk~
+@460 /*Anomen*/ = ~Zatracený duch! Jak se opovažuje vyslovit jméno mé sestry! Jak se opovažuje tak... tak... PROKLATÝ DUCHU!~ [ANOM2504]
+@461 /*Clara*/ = ~Má lásko, to stvoření bylo čisté zlo! Všechno, co řeklo, byla lež!~
+@462 /*Anomen*/ = ~Pouhá slova útěchy nevyženou démony mé minulosti, Karolino.~
+@463 /*Anomen*/ = ~Moira je mrtvá a její smrt nebyla nikdy řádně pomstěna. Přinejmenším v tom duch mluvil pravdu. Zklamal jsem svou sestru! Měl jsem se více snažit, abych ji vzal z domu našeho otce!~
+@464 /*Clara*/ = ~Nemůžeš změnit minulost, Anomene. Nemůžeš přivést Moiru zpět.~
+@465 /*Anomen*/ = ~Já... vím, že Moira je pryč. Vím, že s tím nemohu nic udělat. Ale rozežírá to mou duši a trhá srdce. Zklamal jsem ji, Karolino! Co když zklamu tebe?~
+@466 /*Clara*/ = ~Nezklameš mě, Anomene. Dokázal jsi to už mnohokrát.~
+@467 /*Anomen*/ = ~Já... myslím, že máš pravdu, má lásko. Ještě jednou tě musím prosit o odpuštění. Asi... asi jsem se stále nesmířil s osudem Moiry. Vždycky budu ctít památku své sestry, ale musím se naučit dívat se do budoucnosti. Mou budoucnost.~
+@468 /*Clara*/ = ~Naši budoucnost, má lásko. Minulost nezměníš. A tvá budoucnost je se mnou.~
+@469 /*Anomen*/ = ~Děkuji, má paní. Opět jsi mi ukázala nejmoudřejší cestu. Nedovolím, aby má minulost zničila to, co jsme spolu vybudovali. Já... budu v pořádku. Pokračujme v našem úkolu.~
+
+//Anomen and Cor kill each other and Anomen is romancing Clara~
+@470 /*Clara*/ = ~Och, oba jsou mrtví, všechny mé plány vyšly naprázdno. Teď tu pro mě nic není, musím se odtud co nejdřív dostat. <CHARNAME>, jdeš se mnou?~
+@471 /*CHARNAME*/ = ~Ano, pojďme.~
+@472 /*CHARNAME*/ = ~Ne, jdi napřed. Přidám se k tobě později.~
+@473 /*Clara*/ = ~Dobře... tak jdu. Najdeš mě v hostinci „Pět džbánů“ v Mostní čtvrti. No, jdu. *šeptem* Ještě se musím podělit s Jardynem o to, co zbylo.~

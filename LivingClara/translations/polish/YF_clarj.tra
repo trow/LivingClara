@@ -1,0 +1,48 @@
+//Renal Bloodscalp and Clara
+@1 /*Renal*/ = ~Nareszcie jesteś, Klaro. Myślałem, że nie żyjesz, ponieważ ci, którzy odważą się zalegać z płatnościami, zazwyczaj tak kończą.~
+@2 /*Renal*/ = ~Przypuszczam, że masz dobre wytłumaczenie, dlaczego nie mogłaś płacić na czas, tak jak wszyscy inni?~
+@3 /*Clara*/ = ~Właściwie to tak, proszę pana. Widzi pan, zostałałem opętana przez starożytnego wampira imieniem Hexxat, która chciała wykorzystać <CHARNAME> do zabicia Dragomira, starszego wampira, którego nie lubiła. Zabijaliśmy Dragomira, a przynajmniej <CHARNAME> go zabił... Byłam opętana, więc nie mogę powiedzieć, że naprawdę coś zrobiłam... potem Hexxat zabiła mnie, więc <CHARNAME> zabił ją, ale potem <CHARNAME> mnie wskrzesił, więc...~
+@4 /*Renal*/ = ~Przestań. Po prostu zamknij się. Nie obchodzi mnie to. Jesteś z <CHARNAME> i to jedyne wytłumaczenie, którego potrzebuję. Pomóż <PRO_HESHE> w <PRO_HISHER> zadaniu, a wszystko zostanie wybaczone.~
+@5 /*Renal*/ = ~A co do ciebie, <CHARNAME>, dobra robota z tymi wampirami; miło słyszeć o ich wewnętrznych sporach i konfliktach. Nie musisz tu zostać; wracaj do roboty.~
+
+//Clara-Imoen Talk1
+@6 /*Clara*/ = ~Cześć.~
+@7 /*Imoen*/ = ~Och, nie zauważyłam cię. Cześć, jestem Imoen. <CHARNAME> nas sobie nie przedstawił.~
+@8 /*Imoen*/ = ~Musisz być naprawdę dobra w ukrywaniu się. Zazwyczaj widzę wszystkich.~
+@9 /*Clara*/ = ~Mam sposób, by znikać z pamięci, kiedy chcę; nawet ci, którzy mnie szukają, często zapominają, że tu jestem.~
+@10 /*Clara*/ = ~Więc to ty jesteś tą siostrą, którą przybyliśmy tak daleko uratować.~
+@11 /*Clara*/ = ~I udało nam się. Szturmowaliśmy twierdzę i uratowaliśmy dziewicę.~
+@12 /*Clara*/ = ~Wygrałyśmy. Teraz będziemy żyć długo i szczęśliwie. Prawda?~
+@13 /*Imoen*/ = ~Tak! Jak tylko wrócimy do Athkatli.~
+@14 /*Imoen*/ = ~Wyglądasz na trochę przygnębioną. Spróbujmy jeszcze raz.~
+@15 /*Imoen*/ = ~Cześć, jestem Imoen. Moja dusza właśnie została wyrwana z mojego ciała. Jaka jest twoja historia?~
+@16 /*Clara*/ = ~Moja rodzina została zamordowana, wampir zabił mnie, a potem <CHARNAME> mnie uratował, więc teraz podróżuję z <PRO_HESHE> i staram się nie umrzeć w okropny sposób.~
+@17 /*Clara*/ = ~W zasadzie to tyle samo, co zawsze.~
+@18 /*Imoen*/ = ~Tak, to samo, co każdy z nas. Jesteśmy bandą zagubionych i samotnych dusz.~
+@19 /*Imoen*/ = ~No, podnieś głowę. Czeka nas kolejna runda „staraj się nie umrzeć w okropny sposób”.~
+
+//Clara-Viconia Poison Scene
+@20 /*Clara*/ = ~Dom, słodki dom. Zapach tego baru zawsze przywołuje wspomnienia.~
+@21 /*Drunk1*/ = ~Spójrz na tę słodką. Hej, dziewczyno! Chodź no *bek* i daj nam buziaka.~
+@22 /*Drunk2*/ = ~No, Garroll, mój przyjacielu... nie zostawiaj jej sobie, *bek* tylko dla siebie.~
+@23 /*Drunk2*/ = ~Hej, słodka, ja też chcę buziaka!~
+@24 /*Clara*/ = ~Oni?~
+@25 /*Viconia*/ = ~To tylko pijani, prości mężczyźni. Świat nigdy nie będzie żałował kilku mniej pijanych, prostackich mężczyzn.~
+@26 /*Clara*/ = ~W porządku. Patrz, jak pracuję. Nic nie zobaczysz.~
+@27 /*Clara*/ = ~Garroll, tak? Jesteś takim silnym, przystojnym mężczyzną. Oczywiście, że dam ci buziaka. Tutaj. W czubek głowy. Och, dotykając twoich ramion, jesteś taki silny.~
+@28 /*Clara*/ = ~I buziak dla twojego przyjaciela. Och, on też jest silny.~
+@29 /*Clara*/ = ~A teraz wy, chłopcy, usiądźcie tutaj, a ja pójdę pogadać z moją przyjaciółką. Musimy się tam odświeżyć, ale wkrótce wrócimy.~
+@30 /*Viconia*/ = ~Skończyłaś? Już mi się niedobrze robi od słuchania ciebie.~
+@31 /*Clara*/ = ~Więc dokąd teraz?~
+@32 /*Viconia*/ = ~Teraz poczekamy i zobaczymy, jak umierają.~
+@33 /*Clara*/ = ~Co robimy w międzyczasie?~
+@34 /*Clara*/ = ~Wiem! Zagrajmy w grę! Nazywa się Gra w Kłamstwo i...~
+@35 /*Viconia*/ = ~Nie gram w gry.~
+@36 /*Clara*/ = ~Ale to jest fajne. Widzisz, najpierw ty...~
+@37 /*Viconia*/ = ~Cii.~
+@38 /*Clara*/ = ~Nie masz w sobie ani odrobiny zabawy.~
+@39 /*Drunk1*/ = ~*bek* Źle się czuję.~
+@40 /*Drunk2*/ = ~*bek* Garroll, wszystko w porządku? Och...~
+@41 /*Viconia*/ = ~Szybciej, niż się spodziewałam. Użyłaś więcej niż potrzeba, by uśmiercić takich słabeuszy.~
+@42 /*Clara*/ = ~Po prostu kolejnych dwóch pijaków, którzy nie umieją pić. Możemy już iść?~
+@43 /*Viconia*/ = ~Tak. Mój dzień stał się już trochę jaśniejszy.~

@@ -1,0 +1,30 @@
+//Anomen uses third CN line
+
+@0 /*Keldorn*/ = ~Chcete zaútočit na chrám Zářícího srdce, <CHARNAME>? Víš, že to nemohu dopustit.~
+@1 /*CHARNAME*/ = ~Keldorne, příteli, jen se uvolni. Copak nepoznáš vtip?~
+@2 /*CHARNAME*/ = ~Klid, Keldorne. Byl to jen plán, dokonce méně než plán... náznak plánu, možná i méně, vzdálený náčrt nejasné možnosti spiknutí. Takže se to nestane. Přežiju. Budou jiné.~
+@3 /*CHARNAME*/ = ~Nemůžeš to dopustit? A já nenechám, aby ses mi postavil do cesty. Vytas meč!~
+
+//After Anomen fails test
+@4 /*CHARNAME*/ = ~Jednou, Anomene, ale ne teď. Ještě nejsme dost silní na vítězství.~
+@5 /*Anomen*/ = ~*povzdychne* Máš pravdu, jako vždy, <CHARNAME>. Pokračujme. Den účtů s Řádem může počkat.~
+
+//An interjection into the fallen paladin quest.
+@6 /*Anomen*/ = ~Vypadá to, že přísná pravidla Řádu mohou zlomit i jeho nejvěrnější služebníky.~
+
+//After Anomen fails test with Clara
+@8 /*Charname*/ = ~Uklidni se...~
+@9 /*Anomen*/ = ~Nech mě! Sám jsi to viděl! Kryjí ty lumpy, ale nechtějí uznat, že jsem se pomstil za svou sestru! Co je to za spravedlnost? Co je to za řád?~
+@10 /*Clara*/ = ~*přistupuje* Viděla jsem. Viděla jsem bratra, který udělal to, co musel pro sestru. To není zločin, Anomene. To je spravedlnost.~
+@11 /*Anomen*/ = ~Spravedlnost? Ha! Nazvali mě padouchem! Řekli, že nejsem hoden důvěry Řádu! Je jim jedno já, ani Moira!~
+@12 /*Clara*/ = ~Protože jsou slepí. Sedí ve svých věžích, svírají plesnivé stanovy a dávno zapomněli, proč ty stanovy vznikly. Ty si Moiru pamatuješ. Vyrovnal jsi dluh za její krev – to je mnohem reálnější než jejich pečeti a stuhy.~
+@13 /*Anomen*/ = ~*těžce dýchá* Já... jsem jen chtěl, aby našla klid. Ti ostatní si to taky zasloužili... kryli vraha, jsou také vinni!~
+@14 /*Clara*/ = ~Ovšem. Krást zlo je zlo. Prostě jsi vykonal opravdový soud – takový, na který jim chyběla odvaha.~
+@15 /*Anomen*/ = ~Ale... teď nejsem nic. Hanebně vyhnán z Řádu... nejsem nic.~
+@16 /*Clara*/ = ~Ne. Máš sebe. Máš jméno Delrin. Máš meč. *pauza* A máš čas.~
+@17 /*Anomen*/ = ~Čas? Ha! Nehodlám čekat – vtrhnu dovnitř a zabiju ty, co je kryjí!~
+@18 /*Clara*/ = ~Poslouchej. Pokud tam teď vtrhneš, jen jim dokážeš, že měli pravdu – že jsi šílenec, kterého nelze ovládat. Ale pokud se otočíš, přežiješ a vyšplháš výš, než oni kdy mohli... jednoho dne budeš sedět nad nimi a sám ty stanovy sepisovat. Kdo se pak odváží tě vyhodit?~
+@19 /*Anomen*/ = ~*dlouhé ticho* ...Vyšplhat výš.~
+@20 /*Clara*/ = ~Dokud žiješ, všechno je možné. Zemři tady – a opravdu budeš smetí. Odejdi živý – a jednoho dne padnou na kolena a budou tě prosit, abys se vrátil.~
+@21 /*Anomen*/ = ~*hluboký nádech* ...Máš pravdu. Nemůžu tady padnout. Ukážu jim – bez jejich souhlasu je Anomen Delrin pořád Anomenem Delrinem. Jednoho dne... jednoho dne se vrátím a oni se zachvějí při vzpomínce na toto rozhodnutí.~
+@22 /*Clara*/ = ~*usmívá se* To je Anomen, kterého znám. Pojďme. Odejděme z toho zatraceného místa. Všichni se dívají.~

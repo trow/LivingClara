@@ -1,0 +1,272 @@
+//SOA Interjections
+//Anomen/Saerk
+@1 /*Clara*/ = ~Nevidím jinou možnost, milorde. Tento muž zavraždil tvou sestru, a pokud ho necháme být, může zabít další. Musíme ho zastavit – nejen pro tvou rodinu, ale pro všechny budoucí oběti, které můžeme zachránit.~
+
+//Hendak Defenses
+@2 /*Clara*/ = ~Chceš zaútočit na obchodníky s otroky, <CHARNAME>? To zní nebezpečně. Asi zůstanu vzadu.~
+
+//Tassa Talk
+@3 /*Clara*/ = ~A co stará přítelkyně? Potřebuji taky zlato?~
+@4 /*Tassa*/ = ~Kláro! Nebo ti mám říkat lady Stříbrný štít? Dlouho jsem tě neviděla. Vypadá to, že se ti daří docela dobře.~
+@5 /*Clara*/ = ~Ne tak dobře jako tobě, Tasso, ale líp než většině.~
+@6 /*Tassa*/ = ~Děkuji, i když víš, že v naší práci není budoucnost. Když přijde zima, holka musí nasbírat zásoby oříšků, aby přežila.~
+
+//Post Hell Talk~
+@7 /*Clara*/ = ~Kde... kde teď jsme, <CHARNAME>? Cítila jsem, jako bych znovu umřela, roztrhaná na kusy. Ale místo tmy jsem cítila, jak mě tvá duše přivolává.~
+@8 /*Clara*/ = ~Nemohl jsi mě vzít na lepší místo? Tohle místo je tak depresivní. Ale hádám, že jsi nemohl dokončit svůj příběh beze mě.~
+
+//Yoshimo Betrayal Talk - if got 3rd banter~
+@9 /*Yoshimo*/ = ~Počkej – můj meč, kde je můj meč?~
+@10 /*Clara*/ = ~Tady je, Jošimo. Říkala jsem ti, že budu bedlivě sledovat tvé činy.~
+@11 /*Yoshimo*/ = ~Opravdu jsi to udělala. Konečně jsi dokázala, že jsi opravdová zabiják-gejša, která se vklouzla pod obranu tohoto bojovníka, než stačil mrknout.~
+@12 /*Yoshimo*/ = ~Ale možná je to tak lepší. Budu tady bojovat a zemřu – o tom nepochybuji. Proto ti dávám svůj meč. Používej ho s mým požehnáním a nechť čepel mého rodu obnoví mou ztracenou čest.~
+@13 /*Yoshimo*/ = ~Sbohem, má žačko. Občas na mě vzpomeň, teď i v budoucnosti.~
+
+//Waylane Talk~
+@14 /*Waylane*/ = ~Zdravím, paní. Máte zájem o nádherný architektonický zázrak...~
+@15 /*Clara*/ = ~Waylane! Pořád provozuješ ty staré podvody?~
+@16 /*Waylane*/ = ~Och, Kláro, nepoznal jsem tě. Slyšel jsem, že ses stala divnou a děsivou, ale vypadáš dobře. A mluv tišeji, ano? Někdo by mohl slyšet.~
+@17 /*Clara*/ = ~Ha, každý ve slumech tě zná, Waylane. Co tentokrát prodáváš? Sídlo, které nevlastníš? Nějaké skvělé „rodinné památky“ ze sběrny starého železa?~
+@18 /*Waylane*/ = ~Samozřejmě že ne. Prodávám tu skvělou vesmírnou sféru, kterou vidíš. (Spadla přímo na můj stánek. Musel jsem improvizovat.)~
+@19 /*Clara*/ = ~Hm. To je novinka, to uznávám. A kdo ví, možná najdeš nějakého blázna, který to koupí.~
+@20 /*Clara*/ = ~Už musím jít, ale přeji ti hodně štěstí. Myslím, že oba se snažíme vyšplhat v tomto světě.~
+
+//Jermien Talk~
+@21 /*Clara*/ = ~Je to normální pro dobrodruhy? Myslela jsem, že budeme zachraňovat svět pro slávu a bohatství, ne pomáhat každému malému kouzelníkovi, který potřebuje poslíčka.~
+
+//Boy in Umar Hills~
+@22 /*Clara*/ = ~...to jsou jen drby, že jo? Smrt vykrvácením není zážitek, který bych chtěla opakovat.~
+@23 /*Atta*/ = ~Vykrvácením? Co to znamená?~
+@24 /*Clara*/ = ~No... znamená to, že hrozná upírka vyskočí z rakve a zabodne mi tesáky do krku. Roztrhne mi krk, krev a kusy masa jsou všude, dokud neklesnu k jejím nohám do hromady mrtvol.~
+@25 /*Atta*/ = ~To...~
+@26 /*Jaheira*/ = ~Trochu přehnané, nemyslíš? Není třeba dále strašit toho ubohého chlapce.~
+@27 /*Clara*/ = ~Počkej...~
+@28 /*Atta*/ = ~To je ÚŽASNÝ!~
+@29 /*Atta*/ = ~Mami! Mami! Chci být dobrodruh! Chci být vykrvený jako tahle paní!~
+@30 /*Clara*/ = ~Jo. Pořád to mám. Proto je vždycky důležité znát své publikum.~
+
+//Shadow Thief~
+@31 /*Clara*/ = ~Má pravdu, <CHARNAME>. Měl bys být opatrný. Když jsem viděla, co zbylo z posledního chlápka, který se snažil vyhnout placení poplatků, měla jsem týden noční můry.~
+
+//Noblewoman in Sailor's Bounty~
+@32 /*Clara*/ = ~Myslíš, že bychom jí měli říct, že to je nejspíš jen barevné sklo? Pokud je tahle dáma tak důvěřivá, mohli bychom jí také prodat pár prstenů s „diamanty“.~
+
+//Seeing Eye Prophet~
+@33 /*Clara*/ = ~Fuj, každá víra, která tě nutí dělat tohle, není něco, k čemu bych se chtěla připojit.~
+@34 /*Clara*/ = ~I když... božské vidění nebo ne, teď by mohlo být snazší ukrást jí peněženku.~
+@35 /*Clara*/ = ~Přikradu se sem... a přeříznu... a zvednu...~
+
+//Count Claylan Talk~
+@36 /*Clara*/ = ~*odfrkne* Věřím, že může. Vsadím se, že jsou dlouhé a tlusté a potřebují leštit.~
+
+//Bodhi's Initial Offer~
+@37 /*Clara*/ = ~Hej, <CHARNAME>, víš, že Hexxat je úplně upír, že? Cítím z toho vysokého, temného a děsivého chlápka stejné „chci ti roztrhnout hrdlo“. Jen jsem si myslela, že bys to měl vědět.~
+
+//Lord Argrim in Council Building~
+@38 /*Clara*/ = ~To je hrozné, milorde. Je opravdu škoda, jak těžké je v dnešní době sehnat dobré pomocníky.~
+@39 /*Argrim*/ = ~Ano, opravdu. Promiňte, paní, neslyšel jsem vaše jméno.~
+@40 /*Clara*/ = ~Jsem lady Karolína Luisa Adéla Rozana Alexandra Stříbrný štít z Beregostu. Právě jsem dorazila do tohoto krásného města a jsem ráda, že vás poznávám. Pokud potřebujete soucitné ucho, ráda si vyslechnu vaše starosti... samozřejmě s vhodným doprovodem.~
+@41 /*Argrim*/ = ~Ovšem, lady Stříbrný štíta. To je pro mě pocta.~
+
+//Amauna's Ghost~
+@42 /*Clara*/ = ~Pro mě to zní dobře. Můžu se o to postarat, <CHARNAME>? Opravdu, opravdu nechci skončit jako tahle dívka.~
+
+//Trapped Shadow~
+@43 /*Clara*/ = ~Ale no tak! I když pomáháš těmhle věcem, pořád se nás snaží zabít. To prostě není fér.~
+
+//Wallace - Mazzy's Quest~
+@44 /*Clara*/ = ~Nemáš náhodou další takový lektvar? Za vhodných okolností by taková věc mohla být velmi užitečná.~
+@45 /*Wallace*/ = ~Nejsem takový obchodník. I kdybych měl další, teď bych ho neprodal.~
+
+//The Thumb - Jan's Quest~
+@46 /*Clara*/ = ~Vážně? Proč jsou lidé, které hledáme, vždycky na druhém konci města? Nevěděla jsem, že dobrodružství zahrnuje tolik chození sem a tam.~
+
+//Bright Moon Monk, Rasaad's Quest~
+@47 /*Clara*/ = ~Tihle mniši jsou tak domýšliví, ale nevědí nic. Pravda je to, čemu věříš ve chvíli, kdy to říkáš – nic víc.~
+@48 /*Rasaad*/ = ~To je... neobvyklý názor. Někteří by řekli, že jsi lhářka.~
+@49 /*Clara*/ = ~A jiní by řekli, že jsi zrádce. Jsi příliš fixovaný na fakta, Rasaade. Fakta moc neznamenají. Jsi jako ten chlapík, který potká kata a protestuje proti své nevině v naději, že ho to zachrání; ať už jsi vinen, nebo ne, tvůj krk bude přesto přerušen.~
+@50 /*Clara*/ = ~Navíc jsme tady jen proto, že věříš, že tenhle Kaelus je ve skutečnosti Alorgoth, který svedl tvého bratra a způsobil, že jsi na něj zaútočil. Tvrdíš to s přesvědčením, ale nemáš žádné důkazy. Znamená to, že se mýlíš? Nebo je ti to dostatečně pravdivé?~
+@51 /*Rasaad*/ = ~Já – potřebuji se zamyslet. Možná svět není tak černobílý, jak jsem kdysi věřil.~
+@52 /*Rasaad*/ = ~Teď musím najít odpovědi, ať už ta cesta povede kamkoli. Stále chceš podstoupit tuto zkoušku, <CHARNAME>?~
+
+//Renal Guild Gift~
+@53 /*Clara*/ = ~Páni, <CHARNAME>, už jsi šéf gildy. Dokud s tebou zůstanu, už nikdy nebudu muset platit poplatky.~
+
+//Nalia Castle Quest~
+@54 /*Clara*/ = ~Zvláštní věc, které se stydět. Myslela jsem, že všechny nejstarší rody mají něco podobného, a to je přece hrad. Co je to hrad bez kobek na věznění nepřátel?~
+
+//Nalia Funeral Quest~
+@55 /*Clara*/ = ~Znám toho chlápka, <CHARNAME>. Holky se mu vyhýbaly jako moru, ledaže by byly opravdu zoufalé; jeho peníze nestály za tu otravnou povahu.~
+
+//Anomen-Keldorn Fight Post Test Fail~
+@56 /*Clara*/ = ~*potichu povzdychne* Všechno úsilí přišlo vniveč kvůli výbuchu vzteku. Ale myslím, že pokud Anomen vyhraje, možná to ještě dokážu zvrátit.~
+
+@57 /*Clara-if married*/ = ~Můj muži, to nesmíš! Vím, že jsi naštvaný, ale opravdový lord se tak nechová.~
+@58 /*Clara*/ = ~*šeptem* Pokud opravdu chceš, aby zemřel, můžeme to zařídit mnohem diskrétněji.~
+@59 /*Anomen*/ = ~Ale – on – já – ...Máš pravdu, má lásko. Promiň.~
+@60 /*Anomen*/ = ~Omlouvám se, sire Keldorne. Neměl jsem dopustit, aby se můj hněv projevil. Nečekám odpuštění, ale přísahám na svou čest, že už proti tobě nepozvednu meč.~
+@61 /*Keldorn*/ = ~I když chápu tvůj hněv, Anomene, neměl ses tak chovat. Nicméně, když ses poučil z této chyby, nechci s tebou bojovat. Pamatuj však, že budu bedlivě sledovat tvé počínání a nedovolím ti ublížit nevinným.~
+@62 /*Keldorn*/ = ~Měl bys být vděčný své paní, že měla dost síly tě zastavit; mysli na ni, než příště uděláš něco tak hloupého. Nechtěl bych vidět ji ovdovělou kvůli tvé nenávisti.~
+@63 /*Clara*/ = ~Děkuji, sire Keldorne. Jste jako vždy velkorysý. Ještě jednou se omlouvám za chování svého manžela.~
+
+//On next rest~
+@64 /*Clara*/ = ~Milorde, Keldorn je mrtvý. Vypadá to, že ho v noci postihl srdeční selhání.~
+@65 /*Clara*/ = ~Chudák starý válečník. Žil dlouhý a dobrý život. Jeho čas přišel.~
+@66 /*Clara*/ = ~Možná bychom ho měli pohřbít přímo tady.~
+@67 /*CHARNAME*/ = ~Dobrý nápad, Kláro. Udělejme to.~
+@68 /*CHARNAME*/ = ~Nebo... ho můžeme vzkřísit...~
+@69 /*Clara*/ = ~*povzdychne* Nebo ho, jak se zdá, můžeme vzkřísit.~
+@70 /*Clara*/ = ~*potichu* Škoda dobrého jedu.~
+
+//Firkraag Talk~
+@71 /*Clara*/ = ~Samozřejmě, můžeš si dělat, co chceš, a Garren byl docela nudný. Ale pokud se rozhodneš zradit i toho draka, můžeš mě předem varovat? Chtěla bych stát daleko, když tě budou polykat celého.~
+
+//Priest Stronghold Quest~
+@72 /*Clara*/ = ~Proto jsem nikdy nepracovala v Chrámové čtvrti. Ukradni špatnou věc a celá církev se za tebou pustí.~
+
+//Paladin Protection Quest~
+@73 /*Anomen*/ = ~Opravdu musíme chránit toho šlechtického frajírka? Takové rozkazy mě nutí být rád, že jsem nakonec neprošel rytířskou zkouškou.~
+@74 /*Clara*/ = ~Opravdu, milorde. Tvé schopnosti by se daly využít lépe.~
+@75 /*Clara*/ = ~Ten chlap má asi pravdu, <CHARNAME>. Jen opravdový paladin umí znít tak arogantně a zároveň tak samolibě.~
+@76 /*Mazzy*/ = ~Mýlíš se, Kláro. Opravdový paladin by k svým spojencům tak nemluvil. Ten muž je buď podvodník, nebo špatný příklad své víry.~
+
+//Cernd Baby Quest~
+@79 /*Clara*/ = ~Takže... sladké shledání a tak, ale nezmíní se nikdo o tom opravdu děsivém ličovi? Ne? No, jen jsem se ptala.~
+
+//Bertrand Talk~
+@81 /*Bertrand*/ = ~Ach, Karolíno, má lahodná sladká buchtičko. Jsi připravena na další kolo nesrovnatelné vášně a slasti?~
+@82 /*Clara*/ = ~Ticho, Bertrande, ne při práci. Vyklouznu za tebou, slibuji.~
+
+//Interjection into final battle with Jon.~
+@98 /*Clara*/ = ~Už jsi prohrál, kouzelníku. Jsi příliš hloupý, než abys poznal, že můj dýka je už v tvé páteři.~
+
+//Interjection into the dialogue by the Skeleton outside of Bodhi's hideout that comes at night.~
+@99 /*Clara*/ = ~Možná má pravdu, <CHARNAME>. Myslím, že se vytratím...~
+
+//Haerdalis Quest~
+@100 /*Clara*/ = ~Měl jsi najmout mě. Nenechala bych se chytit.~
+
+//Trademeet Peasant~
+@101 /*Clara*/ = ~Och, přestaň fňukat. Kdybys se mohl zachránit sám, nemusel bys nám platit, abychom se o vše postarali. Dostal jsi, za co jsi zaplatil.~
+
+//Bard Stronghold~
+@102 /*Clara*/ = ~To jsem kdysi bývala já, <CHARNAME>. Tak dychtivá po slávě a bohatství, že bych udělala cokoli.~
+@103 /*Clara*/ = ~Možná bych si měla promluvit s tím režisérem. Pokud to hrdinství nevyjde, mohla bych se k jejich divadelní společnosti připojit.~
+@104 /*Clara*/ = ~Ach, být herečkou... mohla bych na jevišti vydělat jmění.~
+@105 /*Clara*/ = ~Takže jsi také dramatik, <CHARNAME>? Nezapomeň na mě, až budeš psát své mistrovské dílo.~
+@106 /*Clara*/ = ~Nečekal jsi, že inscenovat hru bude tak drahé, že, <CHARNAME>? Ale peníze hýbou světem.~
+@107 /*Clara*/ = ~Sakra. Proč neonemocněla nějaká jiná dáma?~
+
+//Bridge District~
+@108 /*Clara*/ = ~Prostí lidé? Podívejte se znovu, má paní. Mýlíte se.~
+@109 /*Lady Diana*/ = ~Lady Delrinová? Omlouvám se... neuvědomila jsem si, že jste to vy. Co děláte mezi těmito... plebejci?~
+@110 /*Clara*/ = ~Pomáhám méně šťastným, samozřejmě. Jaký jiný důvod by mě sem mohl přivést?~
+@111 /*Lady Diana*/ = ~Opravdu. Takové soucítění svědčí o vaší kvalitě. (Severní barbarka. Lord Delrin si měl vzít někoho s amnskou krví.)~
+
+//Abandoned Temple~
+@112 /*Clara*/ = ~Toto dítě... je děsivé, <CHARNAME>. Nelíbí se mi tady.~
+
+//Hidden Refuge~
+@113 /*Clara*/ = ~Vím, že jsi v podstatě svatý patron prohraných věcí, <CHARNAME>, a jsem ráda, že jsi mi pomohl. Ale nemáme nic lepšího na práci než... venčit kočky?~
+@114 /*Barad Ding*/ = ~Kočky se nedají venčit. Copak neposloucháš? Musíš je opatrně nalákat k sobě a dávat pozor na drápy.~
+
+//Half-Orc Mage~
+@115 /*Clara*/ = ~Vidíš, Dome. Proto nemáš žádné přátele. Kdybys to zkusil, možná byste se s tím chlápkem mohli spřátelit.~
+@116 /*Dorn*/ = ~K čemu potřebuji přátele, když tu mám obtížnou zlodějku, která mě otravuje?~
+@117 /*Clara*/ = ~Ha... věděla jsem, že ti v hloubi duše na mě záleží. Velmi hluboko, pod tím vrčením.~
+
+//Asylum Interjections-Dili~
+@118 /*Clara*/ = ~To je užitečný trik. Můžeme si ji vzít s sebou, <CHARNAME>? Vždycky jsem chtěla být mentorkou ubohých ztracených dívek. (Obzvlášť těch, které by mohly být dokonalými zlodějkami.)~
+
+//Asylum - Naljier~
+@119 /*Clara*/ = ~Šílený mág a skrytý poklad? Pojďme na to.~
+
+//Asylum - Dradeel~
+@120 /*Clara - if Cernd*/ = ~Nebuď hloupý, nejsme vlkodlaci. No... kromě našeho druida. Nezavrčel bys na něj?~
+@121 /*Cernd*/ = ~...Ne, Kláro. Nebudu. (Proč zkouší mou trpělivost?)~
+
+//Brynnlaw - Saemon~
+@122 /*Clara*/ = ~No, pokud někdo ví...~
+
+//Sunken City~
+@123 /*Clara*/ = ~(Pokud neprojdeme testem, vím, kterou rybí bytost můžeme cestou zpátky okrást.)~
+
+//Grey Gnome~
+@124 /*Clara*/ = ~„Hledat světlo na konci temného tunelu?“ Nelíbí se mi, jak to zní...~
+
+//Innkeeper - Mage Book~
+@125 /*Clara*/ = ~*šeptem* Mohla bych ti tu knihu ukrást, <CHARNAME>. To by nebylo vůbec těžké.~
+
+//Silver Dragon~
+@126 /*Clara*/ = ~Och... ano, prosím, paní. Vždycky jsem chtěla vidět, jak bych vypadala jako temný elf.~
+
+//Spelljammer Drow~
+@127 /*Clara*/ = ~Plout po Astrálních mořích se skvělým kapitánem u kormidla... to zní jako dobrodružství, ale nemůžu jen tak odejít. (Kdybych byla opravdu temným elfem, možná bych mohla utéct navždy.)~
+
+//Tree Of Life~
+@128 /*Player1*/ = ~Kláro, dívka, kterou jsi zachránil. Nazývala se mnoha věcmi: herečka, šlechtična, zákonodárná občanka, ale ukázalo se, že je prostě rozená přeživší.~
+@129 /*CHARNAME*/ = ~Jsi připravená, Kláro? V tomto boji budu potřebovat všechny své spojence.~
+@130 /*CHARNAME*/ = ~To je ono, Kláro. Pokud se věci nepovedou, tentokrát nemůžeš utéct a schovat se.~
+@131 /*CHARNAME*/ = ~Můžeš odejít, Kláro. Nemusíš se toho účastnit.~
+@132 /*Clara*/ = ~Už nejsem malá holčička, <CHARNAME>. Prošla jsem výzvami, které by srazily i největší rytíře Nejskvělejšího řádu Zářícího srdce.~
+@133 /*Clara*/ = ~Nebojím se... už znám konec tohoto příběhu. Porazíme padoucha a všichni budou žít šťastně až do smrti.~
+
+//Elf General~
+@134 /*Clara*/ = ~Páni, tihle elfové opravdu povyšují nevděk na zcela novou úroveň.~
+
+///TOB Interjections
+
+//Neera - Anomen Banter~
+@77 /*Anomen*/ = ~Mé srdce patří Kláře, elfko. Přestaň s tím směšným předstíráním.~
+@78 /*Clara*/ = ~To je v pořádku, můj drahý. Vím, že jsi to nebyl ty, a neviním tě za Neerinu žárlivost.~
+
+//Peltjie~
+@80 /*Clara*/ = ~Můžu tentokrát vynechat, <CHARNAME>? S upíry nemám štěstí.~
+
+//Saradush Waitress~
+@135 /*Clara*/ = ~Vím, že to obvykle říkám já, ale teď jsme velcí hrdinové, ne? A vypadá to, že po těchto strážných opravdu nikdo nebude smutnit... mohla bych se přikrást a bodnout jednoho, než stačí mrknout.~
+@136 /*Mazzy- if Clara*/ = ~Kláro! Jsme hrdinové, a hrdinové lidi bez důvodu nebodají.~
+@137 /*Mazzy*/ = ~Nicméně jejich chování je nepřípustné a měli bychom pomoci chránit tuto dámu, pokud to bude možné. Možná nám nakonec nějaký strážný dá důvod vytasit zbraň.~
+
+//Saradush Volo~
+@138 /*CHARNAME*/ = ~Pověz mi o Kláře.~
+@139 /*Volo*/ = ~Ach, ano, půvabná lady Karolína Luisa Adéla Rozana Alexandra Stříbrný štít Delrinová. Tragicky osiřela na cestě z Brány Baldura, povstala z popela své minulosti, aby znovu získala své právoplatné místo. Poté, co se provdala za jednoho z velkých lordů Amnu, nikdo nemůže popřít ušlechtilou duši lady Delrinové ani její soucit s méně šťastnými.~
+@140 /*Volo*/ = ~Ach, ano, půvabná lady Karolína Luisa Adéla Rozana Alexandra Stříbrný štít. Tragicky osiřela na cestě z Brány Baldura, povstala z popela své minulosti, aby učinila svět jasnějším. Krásná a plná půvabu – nikdo nemůže popřít ušlechtilou duši Karolíny ani její soucit s méně šťastnými.~
+@141 /*Clara*/ = ~Dobrý pane, přeháníte. Nezasloužím si ta slova, ale ráda je slyším. (Musím zajistit, aby ten chlápek přežil. Holka si nenechá ujít tak dobrou reklamu.)~
+
+//Saradush Hectan~
+@143 /*Clara*/ = ~Proč jsi mu to musel říkat? Měl by být potrestán za to, že je špatný zloděj.~
+
+//Nyalee~
+@144 /*Clara*/ = ~Ale no tak, to není fér! Pokud neuděláme, co říkají, pokusí se nás zabít. Pokud uděláme, co říkají, stejně se nás pokusí zabít. Ten hrdinský byznys je občas vážně nevděčný.~
+
+//Dorn Planetar Talks~
+@145 /*Clara*/ = ~Ne že bych si stěžovala, ale andělé by přece měli poznat, když lžeš, ne?~
+
+//Dennaton Neera Quest~
+@146 /*Clara*/ = ~To zní jako cestování s <CHARNAME>. Lidé by z takového teleportování mohli mít komplexy.~
+
+//Rasaad Quest~
+@147 /*Clara*/ = ~Co chceš udělat? Vím, že jsi silný, ale ani ty nemůžeš udeřit do hory.~
+//@148 /*Clara - if HD*/ = ~No tak, Haer'Dalis, myslela jsem, že se snažíš zlepšit Dornovy metafory.~
+//@149 /*HD-if Dorn*/ = ~Ano, má krásná špačice. Ale nejhrubší ruda musí být vypálena, než se vytvrdí, a tento vrabec občas připouští určité rozptýlení během našich lekcí.~
+
+//Hexxat Quest~
+@150 /*Clara*/ = ~A samozřejmě, zbytek z nás je vtažen dovnitř, jako obvykle. Nikdy se nikdo nezeptá, jestli *Klára* chce riskovat život... (Hexxat mě už jednou zabila, nestačí to?)~
+
+//Sendai Quest - Spectator~
+@151 /*Clara*/ = ~Spřátelíš se s nejpodivnějšími tvory, <CHARNAME>. To opravdu udržuje věci zajímavé.~
+
+//Balthazar Quest~
+@152 /*Clara*/ = ~*povzdychne* Zase.~
+
+//Watcher's Keep (SOA & TOB)
+//Lich Priest~
+@153 /*Clara*/ = ~Páni. Jaký milý staroušek... zombie? Kéž by všichni byli tak v pohodě, co se týče našeho rabování hrobů.~
+
+//Odren~
+@154 /*Mazzy*/ = ~Své činy jste přinesli hanbu sami sobě. Zemřít v obraně ctnosti – to je cesta opravdových hrdinů.~
+@155 /*Clara*/ = ~To je typický kněžský styl, že? Říct někomu *jinému*, že by měli zemřít pro vyšší dobro.~
+
+//Scroll Ghost~
+@156 /*Clara*/ = ~Tahle možnost se mi líbí, <CHARNAME>. Jak často sám bůh říká, že nemusíš bojovat?~

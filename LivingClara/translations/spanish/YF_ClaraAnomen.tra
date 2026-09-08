@@ -1,0 +1,592 @@
+//Clara Anomen romance talks~
+@1 /*Anomen*/ = ~Se lo ruego, mi señora... No puedo evitar sentirme muy sorprendido de que no me haya preguntado sobre mis viajes antes de que nos encontráramos. Hemos viajado juntos un tiempo, y sin embargo apenas nos conocemos el uno al otro.~ [ANOMEN67]
+@2 /*Clara*/ = ~Ha sido un descuido por mi parte, mi señor, se lo aseguro. Cuénteme sus hazañas.~
+@3 /*Anomen*/ = ~Hay poco que decir, aunque mis pocas aventuras han sido ciertamente gloriosas. El camino hacia la caballería es largo, sin embargo... de ahí la necesidad de mis viajes.~
+@4 /*Anomen*/ = ~Hay poco que decir, aunque mis pocas aventuras han sido ciertamente gloriosas. Pasé muchos años persiguiendo la caballería, sin embargo... de ahí la necesidad de mis viajes.~
+@5 /*Anomen*/ = ~Pero algunas de mis hazañas han llegado a oídos de los bardos. La batalla es bastante común en toda Amn, y la Orden ha desplegado su ejército muchas veces en los últimos años.~
+@6 /*CHARNAME*/ = ~Anomen, ¿en serio le estás contando las mismas historias que me contaste a mí?~
+@7 /*CHARNAME*/ = ~No decir nada.~
+@8 /*CHARNAME*/ = ~Poner los ojos en blanco.~
+@9 /*CHARNAME*/ = ~Suspirar pesadamente.~
+@9001 /*CHARNAME*/ = ~Absolutamente no. No habrá confraternización. Ojos al frente, manos quietas. No quiero verlos ni siquiera mirarse el uno al otro durante el resto de nuestras aventuras.~
+@10 /*Anomen*/ = ~Lamento que las cosas no funcionaran entre nosotros, <CHARNAME>, pero Clara podría ser más receptiva. ¿Dónde estaba?... Ah, sí.~
+@11 /*Anomen*/ = ~Sin embargo, hace muy poco... déjeme pensar... Estuve presente cuando los orcos volvieron a bajar a las colinas de Ommlur una vez más.~
+@12 /*Anomen*/ = ~En gran número, son una fuerza temible, pero individualmente no son rival para un guerrero competente. Yo mismo pude abrirme paso entre muchos de ellos solo y reclamar la cabeza de uno de sus sucios jefes.~
+@13 /*Clara*/ = ~Eso es muy impresionante. La Orden tiene suerte de contar con usted.~
+@14 /*Anomen*/ = ~Sí, ha sido una lucha demostrar mi valía a la Orden. No deseo nada más que cargar al combate con la cresta del Corazón Radiante ondeando sobre mi cabeza.~
+@15 /*Anomen*/ = ~Sí, ha sido una lucha demostrar mi valía a la Orden. Pero ha valido la pena el esfuerzo para cargar al combate con la cresta del Corazón Radiante ondeando sobre mi cabeza.~
+@16 /*Clara*/ = ~Eso es muy impresionante. La Orden fue estúpida al despedirlo.~
+@17 /*Anomen*/ = ~Sí, luché tan duro para demostrar mi valía a la Orden. Durante años, no deseé nada más que cargar al combate con la cresta del Corazón Radiante ondeando sobre mi cabeza.~
+@18 /*Anomen*/ = ~Sin embargo, hablo demasiado de mis propias acciones. Podría pensarse que estoy preocupado por el orgullo. No la culparía si no está interesada en relatos de mi destreza.~
+@19 /*Anomen*/ = ~Estoy interesado en saber más sobre su vida, mi señora. ¿Cómo fue poseída por ese terrible vampiro?~
+@20 /*Clara*/ = ~Una historia trágica, mi señor. Como sabe, mi padre era un miembro menor de la familia Silvershield y viajábamos hacia el sur con mi madre cuando fuimos atacados por ogros. Nuestros hombres lucharon valientemente, pero cuando la batalla pareció perdida, mi padre ordenó a mi madre y a mí que huyéramos.~
+@21 /*Clara*/ = ~Corrimos, pero un ogro nos alcanzó y me avergüenza decir que huí mientras los demás eran masacrados. Me encontré en Amn sin dinero, sin familia y con pocas esperanzas de volver a casa.~
+@22 /*Clara*/ = ~Una muchacha noble es un blanco fácil, así que usé todas las habilidades que poseía para disfrazarme de campesina. Me escondí, mendigué, robé comida, y aunque nunca abandoné mi virtud, no siempre actué de manera honorable.~
+@23 /*Anomen*/ = ~No sea tan dura consigo misma, mi señora. Hizo lo que era necesario para sobrevivir.~
+@24 /*Clara*/ = ~Gracias, mi señor. No soy una gran guerrera como usted. Solo soy una joven que intenta encontrar su camino en un mundo vasto y cruel. Siempre necesitaré su protección.~
+@25 /*Anomen*/ = ~Quizás. Aunque sé que usted misma es capaz de hazañas impresionantes. Me ha desconcertado su habilidad en acción. Es maravilloso, para una mujer.~
+@26 /*Anomen*/ = ~No quiero criticar. Tengo poca experiencia con el sexo débil y probablemente hablo como una herramienta roma. Quizás otro día me cuente más sobre sus propias hazañas.~
+@27 /*Clara*/ = ~¿Mis hazañas?~
+@28 /*Anomen*/ = ~¡Sus éxitos! Está aquí; está viva. Sea lo que sea que piense de sí misma, su historia es extraordinaria. Cualquier otra joven noble en su lugar habría perecido, y sin embargo usted está aquí.~
+@29 /*Anomen*/ = ~Y me alegra.~
+
+//2nd Talk, multiple variations~
+@30 /*Anomen*/ = ~¿Qué sabe de mi Orden del Corazón Radiante?~ [ANOMEN68]
+@31 /*Clara*/ = ~Muy poco, mi señor.~
+@32 /*Anomen*/ = ~Entonces debería estar informada, ciertamente. La Orden es la mayor fuerza de virtud en Faerûn: un ejército de caballeros y paladines dispuestos a luchar contra el mal dondequiera que se encuentre.~
+@33 /*Anomen*/ = ~Existimos para servir, pero no seguimos ningún mandato excepto los de nuestro corazón y conciencia. Son pocas las criaturas que pueden resistir el poderío total de los ejércitos de la Orden.~
+@34 /*Anomen*/ = ~Personalmente, no entiendo por qué la Orden no toma el control del consejo. Podría hacer mucho más para convertir esta tierra en un lugar justo y equitativo.~
+@35 /*Keldorn*/ = ~*suspira* Una vez más, Anomen, sigues el orgullo en lugar de tu cabeza. La Orden permanece libre de corrupción porque no participamos en la política que mencionas.~
+@36 /*Keldorn*/ = ~Si permitiéramos que el gobierno entrara en conflicto con nuestros corazones virtuosos, ¿dónde estaríamos? Incluso el consejo tiene su lugar en esta tierra; seguro que lo sabes, ¿verdad?~
+@37 /*Anomen*/ = ~Hace tiempo que superé la época en que necesitaba que un caballero de la Orden respondiera a cada uno de mis pensamientos, Sir Keldorn. He oído a mucha gente expresar la idea que repites y no estoy de acuerdo.~
+@38 /*Anomen*/ = ~Hay demasiada desigualdad e injusticia para el hombre común, y la Orden debería hacer más para aliviar sus existencias desesperadas. ¿Qué opina usted, mi señora?~
+@39 /*Clara*/ = ~Creo que tiene razón. La Orden podría hacer más. Si solo usted estuviera al mando.~
+@40 /*Anomen*/ = ~Sí, creo que usted ve el sentido de esto. Es algo que tendré en cuenta una vez que haya pasado la Prueba. La Orden debe convertirse en una fuerza de cambio más activa, en lugar de simplemente luchar contra los males más evidentes.~
+@41 /*Anomen*/ = ~Sí, creo que usted ve el sentido de esto. Es algo que tendré en cuenta. La Orden debe convertirse en una fuerza de cambio más activa, en lugar de simplemente luchar contra los males más evidentes.~
+@42 /*Keldorn*/ = ~La Orden tiene su lugar, Anomen, y el gobierno no es uno de ellos. Tu visión es errónea, y harías bien en pensar muy cuidadosamente antes de hacer cualquier cosa temeraria.~
+@43 /*Anomen*/ = ~Quizás, Sir Keldorn. Meditaré tus palabras, pero sigo creyendo que el defecto reside en aquellos que no piensan en nuevas formas de combatir el caos.~
+
+@44 /*Anomen*/ = ~Quiero decir, piense en todo el sufrimiento que soporta el ciudadano común. Hambre, desigualdad e injusticia... las rebeliones en el sur. Todos agentes del caos.~
+@45 /*Anomen*/ = ~Seguramente tales cosas no ocurrirían si la Orden comandara como una fuerza de verdadera bondad y hermandad honesta. No entiendo por qué más gente no lo ve.~
+
+@46 /*Clara*/ = ~Solo que fue lo suficientemente estúpida como para despedirlo a usted, mi señor.~
+@47 /*Anomen*/ = ~Es cierto, pero la Orden sigue siendo la mayor fuerza de virtud en Faerûn: un ejército de caballeros y paladines dispuestos a luchar contra el mal dondequiera que se encuentre.~
+@48 /*Anomen*/ = ~Y sin embargo, tiene razón, la Orden es estúpida. Sus líderes son un grupo cauteloso, poco dispuesto a hacer lo necesario para mejorar el mundo.~
+@49 /*Anomen*/ = ~La Orden necesita líderes más jóvenes y audaces que tomen el control del consejo. Podría hacer mucho más para convertir esta tierra en un lugar justo y equitativo.~
+@50 /*Anomen*/ = ~Los líderes no lo ven. Yo iba a cambiar las cosas, mi señora, cuando finalmente llegara al poder. Iba a hacer de la Orden una fuerza temida por el mal en todas partes.~
+@51 /*Anomen*/ = ~Y ahora...~
+@52 /*Anomen*/ = ~Ahora...~
+@53 /*Anomen*/ = ~Perdóneme, mi señora, me temo que me he convertido en un pobre compañero. Hablaremos de nuevo cuando mi ánimo mejore.~
+
+@54 /*Keldorn*/ = ~*suspira* Una vez más, Anomen, sigues el orgullo en lugar de tu cabeza, y por eso ya no estás con nosotros. La Orden permanece libre de corrupción porque no participamos en la política que mencionas.~
+@55 /*Anomen*/ = ~Sí, creo que usted ve el sentido de esto. Pero ya es demasiado tarde para eso. Si solo pudiera tomar el control y arreglar las cosas.~
+
+//3rd Talk~
+@56 /*Clara*/ = ~Mi señor, ¿puedo preguntarle sobre su familia?~
+@57 /*Anomen*/ = ~¿Mi familia? Supongo que es justo, dado que usted me ha contado la triste historia de la suya.~
+@58 /*Anomen*/ = ~Mi padre, Sir Cor, y yo no tenemos una buena relación. Cuando no estaba hundido en la bebida, siempre exigía que defendiera el honor de la familia o me decía en qué hijo tan inútil me había convertido.~
+@59 /*Anomen*/ = ~Despreciaba mi elección de unirme a la Orden. Quería que me hiciera cargo de su negocio comercial, algo para lo que realmente no tenía estómago.~
+@60 /*Anomen*/ = ~Habría dado mucho por que mi padre fuera mi mentor. En cambio, soporté sus abusos hasta que tuve la edad suficiente para ser escudero de la Orden y luego huí tan rápido como pude.~
+@61 /*Clara*/ = ~Eso es horrible. Debe estar contento de estar lejos de él.~
+@62 /*Anomen*/ = ~Sí, lo estoy. Aunque a veces deseo que las cosas hubieran sido diferentes. Es una tontería, lo sé. Ese hombre nunca cambiará.~
+@63 /*Anomen*/ = ~Solo después de vengar el asesinato de mi hermana y ser expulsado de la Orden gané su respeto, pero no espero que dure.~
+@64 /*Anomen*/ = ~Yo... supongo que le digo esto porque usted me recuerda un poco a mi hermana, Moira. Era joven y decidida... La extraño... quizás lo único de mi familia que echo de menos.~
+@65 /*Anomen*/ = ~Lamento haberla dejado a su suerte, sola con Sir Cor, pero había poco que pudiera hacer. Ella... Estoy seguro de que ella...~
+@66 /*Anomen*/ = ~Y ahora ha muerto. Fallecí con ella... completa y totalmente.~
+@67 /*Anomen*/ = ~No. No importa. No deseo hablar más de esto, mi señora, discúlpeme.~
+
+//4th Talk~
+@68 /*Anomen*/ = ~Quiero disculparme por haber terminado tan bruscamente nuestra conversación ayer. No quise ofender.~ [ANOMEN70]
+@69 /*Clara*/ = ~No me ofendí, Anomen.~
+@70 /*Anomen*/ = ~Me alegra oírlo. Yo... a veces pienso en mi hermana, sola en la mansión con mi padre. Por la última carta que recibí, parecía estar aguantando bien.~
+@71 /*Anomen*/ = ~Sin embargo, creo que solo intentaba aliviar mi culpa. No debe haber sido fácil para ella, y desearía poder haberla llevado y enviado a algún lugar donde fuera feliz.~
+@72 /*Anomen*/ = ~Me alegra oírlo. Yo... a veces pienso en mi hermana, sola en la mansión con mi padre todos esos años. En la última carta que recibí antes de su muerte, parecía estar aguantando bien.~
+@73 /*Anomen*/ = ~Sin embargo, creo que solo intentaba aliviar mi culpa. No debe haber sido fácil para ella, y a menudo deseaba poder haberla llevado y enviado a algún lugar donde hubiera sido feliz.~
+@74 /*Anomen*/ = ~Pero ahora es demasiado tarde para arrepentimientos.~
+@75 /*Clara*/ = ~¿Por qué le recuerdo a ella?~
+@76 /*Anomen*/ = ~Hay algo de ella en su actitud, mi señora. Moira puede ser testaruda... se negaba a dejar a nuestro padre incluso en sus peores momentos de embriaguez, quedándose para cuidar de él.~
+@77 /*Anomen*/ = ~Desde la muerte de nuestra madre, creo que no puede imaginar hacer otra cosa. Espero que ese viejo bastardo no la trate con demasiada dureza.~
+@78 /*Anomen*/ = ~Hay algo de ella en su actitud, mi señora. Moira podía ser testaruda... se negaba a dejar a nuestro padre incluso en sus peores momentos de embriaguez, quedándose para cuidar de él.~
+@79 /*Anomen*/ = ~Desde la muerte de nuestra madre, creo que apenas podía imaginar hacer otra cosa. Espero que ese viejo bastardo no la tratara con demasiada dureza antes de su muerte.~
+@80 /*Anomen*/ = ~Estoy divagando. Deberíamos continuar nuestro viaje. Pero gracias por dejarme hablar de ella.~
+
+//5th Talk~
+@81 /*Anomen*/ = ~*suspira* Hablar de mi padre me ha dado mucho tiempo para reflexionar. Quizás demasiado. Es como si un viento maligno hubiera soplado sobre mi alma.~ [ANOMEN71]
+@82 /*Clara*/ = ~¿Por qué? ¿En qué está pensando?~
+@83 /*Anomen*/ = ~Hablo de recuerdos que es mejor dejar de lado, no sea que corrompan mi corazón. Sin embargo, a veces encuentro que no puedo.~
+@84 /*Anomen*/ = ~Recuerdo cuando obtuve el rango de escudero por primera vez. Fue una tarea difícil... mi padre se había negado a ser mi patrocinador, así que no estaba mejor que si hubiera sido un plebeyo.~
+@85 /*Anomen*/ = ~La mayoría de los caballeros no me aceptaban porque no tenía monedas para pagar mi equipo. Tuve que demostrarme ante un caballero llamado Sir Blethyn, que se compadeció de mí y me tomó como escudero.~
+@86 /*Anomen*/ = ~Estaba orgulloso durante la ceremonia, y feliz... pero no iba a durar. Mi padre, Sir Cor, irrumpió en el cuartel general de la Orden... estaba borracho perdido y lleno de ira.~
+@87 /*Anomen*/ = ~Empezó a gritar a los caballeros... a Sir Ryan Trawl, nada menos... que le habían robado a su hijo. Que era un hijo débil e inútil que no debería estar en la Orden.~
+@88 /*Anomen*/ = ~Sir Ryan Trawl le dijo que me había ganado mi lugar... pero el viejo bastardo no quiso escuchar. Finalmente tuvieron que arrastrarlo fuera del cuartel general, pataleando y gritando.~
+@89 /*Anomen*/ = ~Y no faltó más que Sir Cor para empañar el único momento de pura alegría que he conocido en mi tiempo en la Orden, lo único que había logrado a pesar de toda su oposición. ¡Bah!~
+@90 /*Clara*/ = ~¡Eso es horrible! Lamento que haya sucedido así.~
+@91 /*Anomen*/ = ~Yo también. Desde la muerte de mi madre, mi padre ha sido la fuerza contra la que siempre he luchado para demostrarme... un cáncer invisible que no puedo vencer.~
+@92 /*Anomen*/ = ~Ah, pero escúcheme. Qué caballero tan patético debo parecer, gimoteando como un niño ante usted por algo como la desaprobación de mi padre. Debe tomarme por un necio, mi señora.~
+@93 /*Clara*/ = ~No sea ridículo, Anomen. Ha superado muchos obstáculos y debería estar orgulloso de sus logros.~
+@94 /*Anomen*/ = ~Es amable al decir eso, mi señora. Gracias.~
+
+//6th Talk~
+@95 /*Anomen*/ = ~¿Le he contado cómo me convertí en clérigo?~ [ANOMEN72]
+@96 /*Clara*/ = ~No, pero me encantaría escuchar la historia.~
+@97 /*Anomen*/ = ~Como dije antes, me acerqué a la Orden sin el beneficio del patrocinio de mi padre. La mayoría de los jóvenes señores llegan a la Orden con padrinos que pagan su armadura y demás.~
+@98 /*Anomen*/ = ~Ni siquiera poseía una espada, y los instructores de caballeros no me habrían aceptado sin el permiso de mi padre.~
+@99 /*Anomen*/ = ~Mi madre, sin embargo, era una devota de Helm y conocía a Sir Ryan Trawl. Ella... suplicó al comandante de los caballeros en mi nombre, rogándole que no me rechazara.~
+@100 /*Anomen*/ = ~Así que Sir Ryan Trawl me permitió entrar como novicio de Helm. Me entrené como clérigo y aprendí mis habilidades con la espada de los guardianes del templo antes de poder finalmente convertirme en escudero.~
+@101 /*Anomen*/ = ~Ha sido un largo camino para mí, mi señora... pero soy feliz sirviendo en la Orden bajo el nombre de Helm. Y creo que Helm también está satisfecho conmigo.~
+@102 /*Clara*/ = ~Estoy segura de ello, mi señor.~
+@103 /*Anomen*/ = ~Pero ¿y qué? Todo ese trabajo, ¿y para qué? ¿Qué he logrado? ¿De qué ha servido todo? Soy un fracaso.~
+@104 /*Anomen*/ = ~¡Bah! Me canso de toda esta charla... Continuemos nuestra búsqueda en silencio por un momento.~
+
+//7th Talk~
+@105 /*Anomen*/ = ~Mi señora, yo... me siento terriblemente mal por mi arrebato de ira del día anterior. ¿Me... me concedería la oportunidad de disculparme e intentar explicarme?~ [ANOMEN73]
+@106 /*Clara*/ = ~Muy bien... Escucharé lo que tenga que decir.~
+@107 /*Anomen*/ = ~Se lo agradezco mucho, Clara. A veces, verá... mi celo por la justicia y el valor puede volverse demasiado grande. Hay una ira en mi corazón que... parece que no puedo controlar.~
+@108 /*Anomen*/ = ~Veo injusticias por todas partes, mi señora, y... y no deseo nada más que levantarme contra ellas. Pero incluso cuando lo hago... sigo levantándome... el odio y la ira no hacen más que crecer...~
+@109 /*Anomen*/ = ~Cuando hablábamos antes, me enfadé, pero fue... fue más bien ira contra mi propia incapacidad para ser tan bueno y leal como desearía.~
+@110 /*Anomen*/ = ~Lo siento, Clara, de verdad lo siento. Soy indigno de mis votos.~
+@111 /*Clara*/ = ~Creo que todo el mundo siente al menos un poco de lo que usted siente, Anomen... Incluso el más noble de los paladines siente ira y odio a veces.~
+@112 /*Anomen*/ = ~Yo... no creo que sea verdad. Los paladines de la Orden solo hablan de contento y yo no tengo ninguno. Pero le agradezco sus amables palabras, de todos modos.~
+@113 /*Anomen*/ = ~Una vez más, me recuerda a mi hermana, Moira. Ella también tenía un alma decente y un corazón bondadoso. Debería conocerla algún día, Clara... Creo que realmente se gustarían mutuamente.~
+@114 /*Anomen*/ = ~Una vez más, me recuerda a mi hermana, Moira. Ella también tenía un alma decente y un corazón bondadoso. Ojalá pudiera haberla conocido, Clara... Creo que realmente se habrían gustado mutuamente.~
+@115 /*Clara*/ = ~Parece una chica encantadora, Anomen. Creo que tiene razón.~
+
+//8th Talk - if killed Saerk
+@116 /*Anomen*/ = ~He... He hecho algo muy horrible. Matar a Saerk y a su... su hija. No estoy seguro de haber hecho lo correcto.~ [ANOMEN74]
+@117 /*Anomen*/ = ~Todo este asunto me ha dejado un sabor a ceniza en la boca. He defendido el honor de mi familia, pero no puedo evitar sentir que también he traicionado los principios de mi Orden.~
+@118 /*Anomen*/ = ~Usted... usted me sugirió que tomara este camino, mi señora. Necesito su seguridad de que no había otra opción... por favor.~
+@119 /*Anomen*/ = ~¿Qué opina usted, mi señora? Necesito su seguridad de que no había otra opción... por favor.~
+@120 /*Clara*/ = ~Tenía que defender el honor de su familia, Anomen; nada es más importante que eso.~
+@121 /*Anomen*/ = ~Sí, supongo que tiene razón. No sé cuánto honor tiene mi padre, pero tengo un deber con mi familia que no puedo ignorar. Yo... tenía que hacerlo por Moira, si no por otra razón.~
+@122 /*Anomen*/ = ~No importa lo que haya hecho mi padre durante su larga disputa con Saerk, fue Saerk quien asesinó a una inocente. Y eso me obligó a involucrarme.~
+@123 /*Anomen*/ = ~Pero... aun así, mi señora... no me sienta bien haber cedido tan fácilmente a mi gran odio. Ni haberlo disfrutado tanto. Le agradezco que haya hablado conmigo sobre esto, sin embargo.~
+
+//8th Talk - didn't kill Saerk~
+@124 /*Anomen*/ = ~Mi ira se ha acumulado hasta el punto de que tiemblo de rabia pura. ¡Debo hablar con usted! ¡Debo obtener alguna seguridad!~ [ANOMEN75]
+@125 /*Anomen*/ = ~Mi padre... ¡ese grosero bastardo borracho! Me echó de la familia cuando solo hacía lo que debía. ¡No podía vengarme sin pruebas, y él lo sabía!~
+@126 /*Anomen*/ = ~Y sin embargo... ¡mi corazón clama venganza! Que mi hermana sea asesinada y el asesino se burle, impune... ¡Estoy tan lleno de odio que apenas puedo controlarlo!~
+@127 /*Anomen*/ = ~Por favor, mi señora... ¿He actuado bien? ¿Deberían los imperativos del honor realmente prevalecer sobre el deber y la justicia?!~
+@128 /*Clara*/ = ~No cuente conmigo, Anomen. Le aconsejé que matara a Saerk y defendiera el honor de su familia. Saerk debería estar muerto por su mano.~
+@129 /*Clara*/ = ~El honor de su familia debería haberlo prevalecido todo, Anomen. Saerk debería estar muerto por su mano.~
+@130 /*Anomen*/ = ~Y ahora mi padre me ha rechazado. Mi familia está realmente destruida ahora, ¿y qué diría la Orden de esto? Nada. Y usted también me abandona.~
+@131 /*Anomen*/ = ~Yo... Tendré que pensar en esto. Era... el camino del honor, y debería estar contento. Pero... pero... *suspira* No. No hablaré de esto con usted. Sigamos adelante.~
+@132 /*Clara*/ = ~Todavía hay otra manera, mi señor. Mate a Saerk ahora. Mate a Saerk, vengue a su hermana, y su padre lo recuperará.~
+@133 /*Anomen*/ = ~¡No puedo! Soy miembro de la Orden. Mantendré mis votos; los mantendré pase lo que pase. Por favor, no me pida que haga otra cosa, mi señora. La Orden me expulsaría como a un asesino.~
+@134 /*Clara*/ = ~Podría hacerlo yo. Soy tan silenciosa como la muerte cuando quiero. Podría colarme, envenenar el vino de Saerk, y salir de nuevo. Nadie sabría que usted estuvo involucrado; nadie más que yo, usted y su padre. Su reputación en la Orden permanecería intacta.~
+@135 /*Anomen*/ = ~Usted podría... Podría tenerlo todo... mi honor... mi familia... mi caballería...~
+@136 /*Anomen*/ = ~¡No! No, seductora. ¡Hemos terminado! No tiene honor. Hemos terminado.~
+@137 /*Clara*/ = ~Bien. Sin su apellido, no es más que un plebeyo. Soy demasiado buena para usted.~
+@138 /*Clara*/ = ~Ahora, si me disculpa, debo ir a ver a su padre. Tenemos mucho que discutir.~
+@139 /*Anomen*/ = ~¿Mi padre? No entiendo.~
+@140 /*Anomen*/ = ~<CHARNAME>, cuando tengamos un momento, vayamos a casa de mi padre. ¡Debo saber qué está tramando!~
+
+//9th Talk - pre test~
+@141 /*Anomen*/ = ~¿Mi señora? ¿Puedo hablar con usted un momento?~ [ANOMEN76]
+@142 /*Clara*/ = ~Por supuesto, Anomen. ¿De qué le gustaría hablar?~
+@143 /*Anomen*/ = ~He estado reflexionando sobre mi Prueba recientemente. Dictará todo mi futuro, ya que la Orden decidirá si se me permite o no unirme a sus filas como caballero.~
+@144 /*Anomen*/ = ~Es todo por lo que he luchado... después de años de demostrarme. Yo... no sé qué haría si fracasara en la Prueba...~
+@145 /*Anomen*/ = ~Y sin embargo, de repente estoy completamente seguro de que voy a fracasar. Es mi corazón el que me traicionará. Me siento sin fe y sin valor en mi alma... y ellos lo sabrán.~
+@146 /*Anomen*/ = ~¿Qué opina usted, mi señora? ¿Soy realmente tan terrible? Lo he intentado tan duro, y sin embargo todo parece ser en vano. ¿Cree... cree que también fracasaré en la Prueba?~
+@147 /*Clara*/ = ~Podría... y debería estar preparado para esa eventualidad.~
+@148 /*Anomen*/ = ~Sí, siempre debo estar preparado. Para el fracaso. Supongo que es lo que me resulta más natural. Si paso la Prueba, quizás sea porque la Orden está ciega.~
+@149 /*Anomen*/ = ~Aaahh... la Prueba vendrá por mí bastante pronto, supongo. Y dudo que haya mucho más que pueda hacer entre ahora y entonces para enmendar mis fracasos. Lo que tenga que pasar, pasará.~
+
+//10th Talk, pre-test~
+@150 /*Anomen*/ = ~Mi Prueba llegará muy pronto, mi señora. Tendré que ir al cuartel general de la Orden y hablar con Ryan Trawl. Yo... no espero con ansias el juicio que recibiré allí.~ [ANOMEN81]
+@151 /*Clara*/ = ~¿Por qué no? ¿No son justos?~
+@152 /*Anomen*/ = ~Son justos, mi señora. No me perturba la posibilidad de que tomen la decisión equivocada... Me perturba la posibilidad de que tomen la correcta.~
+@153 /*Anomen*/ = ~He... estado reflexionando sobre lo que hemos hablado. He trabajado para unirme a la Orden desde que tengo memoria, y de repente no estoy seguro de siquiera quererlo.~
+@154 /*Anomen*/ = ~¿Y si soy aceptado en la Orden y no encuentro mi lugar en ella? ¿O si soy rechazado... y descubro que el futuro no tiene lugar para mí?~
+@155 /*Anomen*/ = ~Una parte de mí ya está segura de la respuesta. Sería tan gratificante deshacerse de las cadenas del deber sin esperanza, y sin embargo el mero pensamiento me enferma.~
+@156 /*Clara*/ = ~Estoy segura de que todo saldrá como debe ser, Anomen.~
+@157 /*Anomen*/ = ~Espero que tenga razón, mi señora. He dependido de sus consejos hasta ahora, y siempre han sido buenos. Sin embargo, estoy preocupado en mi interior.~
+@158 /*Anomen*/ = ~Clara, mi señora, cuando llegue ese día, deseo de todo corazón que asista a mi ceremonia de caballería. Su sola presencia me dará el valor para afrontar cualquier resultado.~
+@1580 /*Clara*/ = ~Con gusto, mi señor.~
+
+//11th Talk, after fails~
+@159 /*Anomen*/ = ~He estado pensando en Sir Cadril y en la Orden, y ¡he decidido que estoy bien libre de ellos! ¡No puedo creer que haya desperdiciado tanto de mi vida con necios tan ignorantes!~ [ANOMEN82]
+@160 /*Anomen*/ = ~Todo el trabajo y el entrenamiento, demostrándome una y otra vez, para descubrir que una vida de negación y buenas obras no era para mí. ¡Me siento engañado, mi señora!~
+@161 /*Anomen*/ = ~Pero, por otro lado, también siento como si mi carga se hubiera ido. Mis cadenas han sido levantadas, y por fin puedo experimentar las cosas de la vida que siempre me he negado.~
+@162 /*Anomen*/ = ~¿Me entiende, Clara? ¡Buena comida, vino y mujeres! ¡Aventurarme sin necesidad de demostrarme! ¡Soy libre! ¡Ja ja!~
+@163 /*Clara*/ = ~Me alegra oír eso. Le vendría bien un poco de libertad, mi señor.~
+@164 /*Anomen*/ = ~¡Sí, ciertamente! Demasiado tiempo este pobre caballero ha fruncido el ceño y gruñido... Ya he tenido suficiente, para ser honesto. ¡Tengo ganas de reír y hacer lo que me plazca y, por Helm, lo haré!~
+@165 /*Anomen*/ = ~Míreme, entonces, y dígame sinceramente, mi señora: ¿No estoy mejor así? ¿Libre y listo para experimentar la vida? ¿Con una sonrisa fácil y una risa en mi corazón?~
+@166 /*Clara*/ = ~Eso es lo que estaba destinado a ser, Anomen.~
+@167 /*Anomen*/ = ~Bien dicho y muy apreciado por este antiguamente hosco caballero, mi señora. Es una gran cosa ser elogiado por una bella dama, especialmente una con su gracia.~
+@168 /*Anomen*/ = ~Hay muchas cosas que me gustaría ver y hacer... pero por ahora, me bastará con disfrutar de la compañía de una mujer tan grandiosa como usted. Vamos, terminemos nuestras misiones lo antes posible. ¡Tengo un nuevo plan...~
+
+//12th Talk~
+@169 /*Anomen*/ = ~Mi señora, la he estado observando muy de cerca durante estas últimas horas, y he llegado a una conclusión sobre usted... ¿Le gustaría escuchar mis pensamientos?~ [ANOMEN83]
+@170 /*Clara*/ = ~¿Una conclusión sobre mí? ¿Qué tipo de conclusión, mi señor?~
+@171 /*Anomen*/ = ~Cuando la conocí por primera vez, mi señora, supe que había algo en usted que me atraía. Cierta medida de su corazón, un indicio de oscuridad detrás de la luz de su alma. No estoy seguro.~
+@172 /*Anomen*/ = ~Por supuesto, me abstuve de decirle lo que sentía... no es apropiado para un caballero de la Orden ser tan directo. Pero ya no estoy bajo tales restricciones ahora.~
+@173 /*Anomen*/ = ~Me he abierto a usted más de una vez, y he seguido sus consejos. La he reclamado como amiga, y sin embargo he anhelado algo más que eso.~
+@174 /*Anomen*/ = ~Es una mujer hermosa, Clara... llena de una vida que siempre he deseado. Deseo experimentar cosas nuevas, ahora que soy libre... y deseo estar más cerca de usted.~
+@175 /*Anomen*/ = ~Recháceme o búrlese de mí, no caeré tan fácilmente. Ha capturado mi corazón con su espíritu cautivador, Clara, y no hay nada que pueda hacer para resistirle.~
+@176 /*Anomen*/ = ~¿Permitirá que este pobre caballero caído deposite su rosa a sus pies, mi señora? Permítame un beso en sus labios de pétalo, y estaré en camino al paraíso...~
+@177 /*Clara*/ = ~¿Un beso? Yo... supongo que sí...~
+@178 /*Anomen*/ = ~Entonces cierre los ojos, y yo haré lo mismo... nos encontraremos por un instante como dos inocentes reunidos en la oscuridad. Un simple roce de nuestros labios, un beso...~
+@179 /*Anomen*/ = ~...y ahí está... Atesoraré esto, mi querida, este dulce favor suyo. Conozco muchos versos hermosos de mis enseñanzas, pero nunca conocí el favor de una mujer.~
+@180 /*Anomen*/ = ~De todas las cosas que podría desear experimentar, esta es la que más ansío. Una promesa para lo que está por venir. Sigamos ahora, antes de que los demás empiecen a mirarnos.~
+
+//13th Talk - at rest~
+@181 /*Anomen*/ = ~Mientras los demás se retiran a sus sacos de dormir, ¿puedo persuadirla para que venga conmigo a algún lugar lejos de sus oídos? Mis palabras son solo para usted.~ [ANOMEN84]
+@182 /*Clara*/ = ~Es imprudente para una dama hacer eso, mi señor, pero confío en usted. Muéstreme el camino.~
+@183 /*Anomen*/ = ~Venga, entonces, y hablemos seriamente. Yo... le hablé antes de mis sentimientos hacia usted, Clara. Si creyó que bromeaba, entonces me disculpo.~
+@184 /*Anomen*/ = ~Nada me haría más feliz que complacerla... y acostarme con usted esta noche. He soñado con esto, mi señora, y creo que ha llegado el momento.~
+@185 /*Anomen*/ = ~Aquí... en este lugar. Permítame quitarme la túnica, y podrá contemplar mi cuerpo, forjado por años de esfuerzo... y podrá decidir por sí misma si soy digno de usted.~
+@186 /*Clara*/ = ~¿Me toma por una mujer de virtud ligera, mi señor? Una dama no se acuesta con un hombre, no sin una promesa de matrimonio.~
+@187 /*Clara*/ = ~Yo... me temo que es impropio para mí quedarme aquí teniendo esta conversación por más tiempo. Supongo que es capaz de vestirse sin mi presencia, ¿verdad?~
+@188 /*Anomen*/ = ~Soy un necio. Por supuesto, mi señora, perdóneme.~
+@189 /*Clara*/ = ~Está perdonado, mi amor. Es digno de mí, pero no tengo familia, ni casa, ni forma de mantenerme. Solo me queda mi reputación y no puedo perderla también.~
+
+//14th Talk~
+@190 /*Anomen*/ = ~*suspira* Otro silencio incómodo entre nosotros, mi amor. Me temo que no tengo las palabras para entretenerla y divertirla como un cortesano apropiado debería.~ [ANOM2507]
+@191 /*Clara*/ = ~El silencio no me resultaba incómodo, Anomen. Me siento a gusto con usted.~
+@192 /*Anomen*/ = ~Ah, quizás el problema es mío. Fui criado en una cultura de caballería—el romance era un arte, un oficio de formas y patrones específicos. Las declaraciones poéticas de adoración y halago eran los medios esperados para que un caballero mostrara su amor.~
+@193 /*Anomen*/ = ~Pero ahora veo lo hueca y rígida que puede ser esa conversación. Los coqueteos forzados no parecen adecuados para alguien como usted. No es una simple dama de compañía, chismeando y perdiendo el tiempo en las cortes de los ricos.~
+@194 /*Clara*/ = ~Y usted no es un simple caballero, mi señor. ¿Qué quiere decir?~
+@195 /*Anomen*/ = ~Es diferente a cualquier mujer que haya conocido, Clara. Con usted, esos lugares comunes del amor no pueden expresar realmente mis sentimientos. Y sin ellos... no sé qué decir. Soy como un guerrero sin armadura ni armas: vulnerable e indefenso.~
+@196 /*Clara*/ = ~No tiene que decir nada, Anomen. Sé lo que siente.~
+@197 /*Anomen*/ = ~Entonces... entonces déjeme solo decir que la quiero, y dejémoslo así.~
+@198 /*Clara*/ = ~Y yo lo quiero a usted, Anomen.~
+@199 /*Anomen*/ = ~No tiene idea de lo aliviado que estoy al oír esas palabras, Clara.~
+
+//15th Talk - at night, causes rest~
+@200 /*Anomen*/ = ~Mi amor, ¿puedo hablar con usted? En privado. Es un asunto de, eh... de la más alta importancia.~
+@201 /*Clara*/ = ~Por supuesto, mi amor. ¿Qué desea?~
+@202 /*Anomen*/ = ~Mi señora, si tuviera elección, no haría esto aquí. Esperaría, y lo haría correctamente, como dicta la tradición. Pero temo que si no actúo, la oportunidad podría perderse.~
+@203 /*Anomen*/ = ~Usted me ha enseñado que el boato y la ceremonia son insignificantes frente a la honesta simplicidad de nuestros sentimientos mutuos. Así que yo... la quiero, Clara. La quiero profundamente.~
+@204 /*Clara*/ = ~¿Está... está diciendo lo que creo que está diciendo?~
+@205 /*Anomen*/ = ~He comprometido mi amor y mi lealtad hacia usted, mi señora. He jurado estar a su lado, pase lo que pase. Y ahora deseo que el mundo entero sepa lo que siento por usted.~
+@206 /*Anomen*/ = ~Usted merece más de lo que puedo ofrecer, Clara... pero incluso si tuviera las riquezas de todo Faerûn para ofrecerle, seguiría sin ser digno. Todo lo que puedo darle es mi corazón y mi mano. Clara... ¿quiere casarse conmigo?~
+@207 /*Clara*/ = ~¡Anomen, mi amor, claro que me casaré con usted!~
+@208 /*Anomen*/ = ~¡Clara! ¡Usted... ha hecho de mí el hombre más feliz de los Reinos!~
+@209 /*Anomen*/ = ~Quiero tener una gran ceremonia para celebrar nuestro amor, ¡una boda que rivalice con la de la más rica casa noble de Athkatla! Todos nuestros amigos asistirán y se unirán a nosotros en esta alegre ocasión.~
+@210 /*Clara*/ = ~¡Oh, Anomen, qué idea tan gloriosa!~
+@211 /*Anomen*/ = ~Me alegra que esté de acuerdo, aunque eso significa que tendremos que hablar con mi padre.~
+@212 /*Anomen*/ = ~Tome este anillo; era de mi hermana. Lo guardo cerca para recordármela. No es gran cosa, mi señora, pero que sirva como señal de nuestro amor y un símbolo de nuestro compromiso mutuo.~
+@213 /*Anomen*/ = ~Mantenga el anillo cerca de su corazón, mi amor. Nos unirá cuando las fuerzas del mundo intenten separarnos. Un beso para sellar el trato, mi señora...~
+@214 /*Anomen*/ = ~Sus labios siempre saben a dulce néctar, y mi piel se estremece al contacto. ¡Ay, mi señora, debemos reanudar la marcha no sea que los demás nos dejen atrás!~
+@215 /*Clara*/ = ~No, mi amor, descanse ahora. Debemos celebrar... y déjeme ver lo serio que es.~
+@216 /*Anomen*/ = ~¿Celebrar? Oh... ¿quiere decir...?~
+@217 /*Anomen*/ = ~La última vez... pensé que deseaba esperar hasta después de la boda...~
+@218 /*Clara*/ = ~No puedo esperar más hasta la boda. Quiero confirmar ahora que estamos hechos el uno para el otro.~
+@219 /*Anomen*/ = ~Me alegra oírlo, mi amor. Nunca un momento ha sido más esperado. Déjeme entonces abrazarla fuerte toda la noche, mientras le muestro lo tierno que puede ser un hombre...~
+@220 /*Anomen*/ = ~<CHARNAME>, ahora descansamos. Si no espera, la alcanzaremos.~
+
+//16th Talk - post proposal~
+@221 /*Anomen*/ = ~He estado reflexionando; todavía estoy un poco resentido por haber sido rechazado por la Orden, pero... en muchos sentidos, nunca me he sentido tan... feliz. ¡Ja! ¿No es extraño?~ [ANOMEN85]
+@222 /*Clara*/ = ~Yo también soy feliz, mi amor.~
+@223 /*Anomen*/ = ~Me ha conmovido su amor, y créame, soy mucho mejor por ello.~
+@224 /*Anomen*/ = ~Pero no es solo eso. Cuando fui rechazado por la Orden, pensé que mi vida había terminado. Pero la libertad... es tan embriagadora.~
+@225 /*Anomen*/ = ~Ya no necesito adherirme a códigos rígidos. Ni preocupación constante por defender el honor... Puedo hacer lo que me plazca y vivir la vida como deseo. Y la tengo a usted.~
+@226 /*Anomen*/ = ~Me alegra haber seguido sus consejos, que usted haya elegido apoyarme en este camino, mi señora. No habría encontrado paz si la muerte de Moira hubiera quedado impune.~
+@227 /*Anomen*/ = ~Y sé que no he hecho nada malo. No he ofendido al dios... Él sigue aceptando mi fe. La Orden me rechazó, pero mi dios no lo hizo.~
+@228 /*Anomen*/ = ~Esa noche, después de quedarme dormido, soñé con una maravillosa visión de mi vida futura, una vida con usted en ella. Creo que fue una señal divina; estamos destinados a estar juntos, usted y yo.~
+@229 /*Clara*/ = ~Estoy de acuerdo, estamos destinados a estar juntos. Si no, no habría aceptado su propuesta.~
+@230 /*Anomen*/ = ~Y me alegra que lo haya hecho, mi señora. Mucho, mucho. Mi futuro es más brillante que nunca.~
+
+//17th Talk - on rest~
+@231 /*Anomen*/ = ~Ahora debemos descansar, ¿verdad? Bueno, está bien. Venga, mi señora... Deseo hablar con usted un momento lejos de los oídos de los demás.~ [ANOMEN86]
+@232 /*Anomen*/ = ~Yo... tengo algo que debo decirle, Clara. No quiero que piense que soy frívolo o que carezco de sinceridad... Lo digo con toda seriedad, lo que voy a decir.~
+@233 /*Anomen*/ = ~La quiero. Una declaración profunda, lo sé, pero nunca he sentido nada igual. Ha sido paciente y sin embargo fuerte. Ha marcado el rumbo reciente de mi vida, y soy mejor por ello.~
+@234 /*Clara*/ = ~Ya se ha casado conmigo y se ha acostado conmigo, mi amor. No creo que sea una sorpresa que me quiera.~
+@235 /*Anomen*/ = ~Aun así... mi vida está llena de caos ahora, y deseo que haya una cosa que sea permanente. Así que pido esto. No esperemos ni un minuto más. ¡Vayamos a hablar con mi padre y hagamos planes para nuestra boda de inmediato!~
+@236 /*Anomen*/ = ~Deseo estar con usted hasta que el destino nos separe, y aun así, desafiaré a la muerte misma para estar con usted.~
+@237 /*Clara*/ = ~Oh, eso es maravilloso, mi amor. No podría ser más feliz que en este día.~
+
+//Terl Interjections~
+@2380 /*Anomen*/ = ~¿Él le ha hecho buscarme solo para entregar una carta? Entonces deben ser malas noticias. Démela.~
+@238 /*Clara*/ = ~¿Qué ocurre, mi amor? ¿Qué sucede?~
+@239 /*Clara*/ = ~Es terrible después de todo lo que ha hecho por él. ¡Y estábamos a punto de darle la alegre noticia de nuestra boda!~
+@240 /*Anomen*/ = ~¡No! ¡Nuestra boda! ¡La ceremonia! Si me deshereda, no tengo casa, ni nombre, ni título nobiliario. No soy nada y no tendremos nada. No seré digno de su mano.~
+@241 /*Clara*/ = ~Ya tiene mi mano, Anomen, y mi corazón. Debemos pensar en cómo arreglar esto.~
+@242 /*Clara*/ = ~¿Quizás su padre solo está hablando por hablar? ¿Quizás no ha tomado ninguna medida?~
+@243 /*Anomen*/ = ~¡Sí, tiene razón! Podría escribir esa carta privada fácilmente, pero para desheredarme formalmente, debe hacer una declaración pública en persona, y todo el proceso llevaría un tiempo considerable. Ahora mismo apenas tiene tiempo para eso.~
+@244 /*Anomen*/ = ~¡Técnicamente sigo siendo su hijo!~
+@245 /*Clara*/ = ~¡Quizás podamos hablar con él! ¡Decirle que vamos a casarnos y que nos perdonará!~
+@246 /*Anomen*/ = ~No lo conoce, mi amor. Ha decidido que soy un riesgo para su negocio y nunca perdonará. Me agradecerá haber matado a Saerk y haberle traído fortuna, pero aun así me desheredará. ¡Y todo es culpa mía!~
+@247 /*Anomen*/ = ~He... He asesinado a un hombre inocente y a su hija. ¡He perdido la Orden! No... ¡No puedo creer que haya hecho todo esto! Por mi padre...~
+@248 /*Anomen*/ = ~...mi padre y yo tenemos un ajuste de cuentas que no se detendrá. A él no lo perdono, y nunca lo haré. Lo siento, Clara, pero debo volver a la casa de mi padre...~
+@249 /*Anomen*/ = ~...Debo ir a expiar lo que he hecho. Y mi padre expiará conmigo. Adiós... cuídese...~
+@250 /*Clara*/ = ~Si lo mata y muere también, ¿dónde me deja a mí, mi amor? ¿Me dejaría con nada más que el anillo de su hermana y el recuerdo de su promesa?~
+@251 /*Clara*/ = ~¡Estamos destinados a casarnos! ¡Para siempre! ¡Hasta que los dioses mueran y el mundo termine!~
+@252 /*Anomen*/ = ~¿Qué quiere que haga, mi amor? ¿Cómo puedo arreglar esto? Mi padre debe morir, y entonces seré un asesino.~
+@253 /*Clara*/ = ~¿Y si su padre no muriera por su mano? ¿Y si un par de ladrones lo asesinaran por sus pertenencias y nosotros simplemente encontráramos su cadáver y lo denunciáramos a las autoridades?~
+@254 /*Clara*/ = ~¿Tiene sirvientes en casa?~
+@255 /*Anomen*/ = ~No que yo sepa, el miserable tacaño. Solo está nuestro portero, Jardine.~
+@256 /*Clara*/ = ~¿Podría ser persuadido para corroborar nuestra historia?~
+@257 /*Anomen*/ = ~¿Jardine? Es leal a nuestra casa, pero ha odiado ver a mi padre destruirla. Quizás podamos ganarlo para nuestro lado. Hablaremos con él antes de entrar.~
+@258 /*Anomen*/ = ~<CHARNAME>, debo ir a casa de mi padre. Dame unos días para resolver esto y estaré encantado de viajar de nuevo contigo.~
+@259 /*Clara*/ = ~Y yo estaré a tu lado, mi amor, pase lo que pase.~
+
+//Guard Dialogue During Timer~
+@260 /*Guard*/ = ~Saludos, <CHARNAME>. No entraría ahí ahora mismo. Anomen y Clara están dentro con su padre.~
+
+//Guard Dialogue After Timer~
+@261 /*Guard*/ = ~Saludos, <CHARNAME>. Lord y Lady Delryn le esperan. Dijeron que le hiciera pasar en cuanto llegara.~
+
+//Guard Dialogue After Everything~
+@2610 /*Guard*/ = ~Saludos, <CHARNAME>. Puede pasar.~
+@2611 /*Guard-if Anomen*/ = ~Saludos, Lord Delryn. Todo ha ido bien en su ausencia.~
+@2612 /*Guard-if Clara*/ = ~Saludos, mi señora. Su casa está lista para usted.~
+
+//Clara's response to guard dialogue if married to Cor~
+@2613 /*Clara*/ = ~Gracias, Jardine, es usted un buen hombre.~
+
+//Interjection into Cor fight scene~
+@262 /*Anomen*/ = ~Lo era. Era un muchacho estúpido que solo pensaba en sí mismo. Pero ahora tengo a Clara que me da fuerza. Vamos a casarnos. Seremos Lord y Lady Delryn.~
+@263 /*Cor*/ = ~¿Y cómo piensas hacer eso? ¿Asesinándome? Ya te he desheredado.~
+@264 /*Anomen*/ = ~¿Alguien lo sabe? ¿Te has tomado la molestia de hacer el pequeño recorrido necesario para hacerlo oficial? ¿Has informado a tus amigos y asociados?~
+@265 /*Cor*/ = ~Yo... Bueno... Ya ves, he estado ocupado...~
+@266 /*Anomen*/ = ~Hah, eso pensaba.~
+@267 /*Anomen*/ = ~Esto es lo que ha pasado, padre. He venido aquí con mi esposa, Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield de Beregost para anunciar la feliz noticia de nuestro compromiso.~
+@268 /*Anomen*/ = ~Tras una breve conversación con nuestro portero, Jardine, entramos y te encontramos asesinado, la ventana rota, y una gran cantidad de tus objetos de valor robados. Llamamos inmediatamente a Jardine, quien confirmó la situación y se apresuró a avisar a las autoridades.~
+@269 /*Cor*/ = ~¡Jardine nunca me traicionará! ¡Ya verás! ¡Es leal!~
+@270 /*Anomen*/ = ~Ya le hemos dado más oro del que ha visto en toda una vida trabajando para ti. Corroborará nuestra historia en cada detalle.~
+@271 /*Anomen*/ = ~Y ahora, muere.~
+@272 /*Anomen*/ = ~<CHARNAME>? ¿¡Qué haces aquí?!~
+@273 /*CHARNAME*/ = ~He venido a detenerte, Anomen. No puedes matar a tu padre.~
+@274 /*CHARNAME*/ = ~He venido a ver qué pensabas hacer.~
+@275 /*CHARNAME*/ = ~He venido a ayudarte.~
+@276 /*Anomen*/ = ~¡¿Por qué no?! ¡Dime por qué no debería morir!~
+@277 /*CHARNAME*/ = ~Él no es responsable de lo que te ha pasado, Anomen, y lo sabes.~
+@278 /*CHARNAME*/ = ~Esto te llevará más por el camino del mal, Anomen... no lo hagas.~
+@279 /*CHARNAME*/ = ~Es hora de que este odio termine, Anomen... ¡y tú debes ser quien lo detenga!~
+@280 /*Anomen*/ = ~Has visto, entonces. Y lo sabes. ¿Piensas detenerme?~
+@281 /*CHARNAME*/ = ~Sí, lo haré. No debes hacer esto.~
+@282 /*CHARNAME*/ = ~No, haz lo que quieras.~
+@283 /*CHARNAME*/ = ~De hecho, pienso ayudarte.~
+@284 /*Anomen*/ = ~Pienso hacerlo yo mismo. No quiero que te ensucies las manos... pero no te detendré. Como dije antes... ¡Padre, prepárate!~
+@285 /*Anomen*/ = ~Muy bien, entonces. Yo... no deseaba que vieras esto, pero no importa. Estoy expiando lo que hice... y Padre, como dije antes... ¡prepárate!~
+@286 /*Anomen*/ = ~No... No puedo. Mi corazón está lleno de ira, y siempre lo ha estado. No puedo vivir con eso... y solo hay una forma de calmarla, una forma de expiar, y una forma de asegurar el futuro de Clara.~
+@287 /*Anomen*/ = ~¡Padre, prepárate! ¡Esto termina hoy!~
+@288 /*Anomen*/ = ~Sí. Sí, tienes razón. No deseo tomar este camino, no importa lo que mi padre me haya hecho. Pero... quizás no tenga elección.~
+@289 /*Anomen*/ = ~Sí... sí, tienes razón. Padre no es el único responsable de lo que he hecho... siempre he sido yo.~
+@290 /*Anomen*/ = ~Hay un mal en mi corazón. Odio e ira, retorcidos y oscuros... y yo... no puedo controlarlos. Pero... tampoco puedo vivir con ellos...~
+@291 /*Anomen*/ = ~¿Qué puedo hacer, <CHARNAME>? ¿Clara? ¿Cómo se supone que debo seguir adelante con lo que he hecho? ¿Cómo sé que este mal no me sobrepasará algún día?!~
+@292 /*Clara*/ = ~Harás lo que tengas que hacer, mi amor.~
+@293 /*Clara*/ = ~Te quiero y estaré a tu lado, pase lo que pase.~
+@294 /*Anomen*/ = ~He oído tus argumentos, <CHARNAME>, pero pienso seguir adelante con mis planes. ¿Estás decidido a involucrarte?~
+@295 /*CHARNAME*/ = ~Te detendré por la fuerza y denunciaré esto a las autoridades.~
+@296 /*CHARNAME*/ = ~No lucharé contra ti, pero denunciaré tus acciones a las autoridades.~
+@297 /*CHARNAME*/ = ~Haz lo que quieras, Anomen. No te detendré.~
+@298 /*Anomen*/ = ~Entonces lo hecho, hecho está. Te quiero, Clara, y aseguraré nuestro futuro.~
+@299 /*Anomen*/ = ~¡No! ¡No puedes denunciarlo! ¡Me arruinarás! ¡Eso me costará todo!~
+@300 /*Cor*/ = ~¡Ja! Has terminado, muchacho. ...¿Y tú? Caroline... algo Silvershield, ¿verdad?~
+@301 /*Cor*/ = ~¿Por qué malgastar una cara tan bonita? Mi hijo será un fugitivo; no hay futuro para ti con él. Una mujer sin opciones, pareces desesperada.~
+@302 /*Cor*/ = ~¿Quieres ser Lady Delryn? Soy un noble de linaje importante, mi negocio prospera, y necesito una joven bonita que me dé nuevos herederos. Cásate conmigo, y perdonaré tu anterior asociación con mi torpe hijo mayor.~
+@303 /*Cor*/ = ~Incluso perdonaré a ese traidor portero, Jardine, siempre que devuelva el dinero con el que lo sobornaste.~
+@304 /*Anomen*/ = ~No lo hagas, mi amor. No aceptes eso.~
+@305 /*Clara*/ = ~Oh, no... No podría...~
+@306 /*Anomen*/ = ~Aléjate de él, querida. Ven conmigo, dejaremos este lugar muy atrás.~
+@307 /*Clara*/ = ~Prométeme una última cosa.~
+@308 /*Anomen*/ = ~*Tartamudeando* ¿Qu-qué?~
+@309 /*Clara*/ = ~Por favor, ¿me das un último abrazo? Prométeme que lo harás.~
+@310 /*Clara*/ = ~*susurra* Espérame dos semanas, luego vuelve y recupera todo lo que es tuyo.~
+@311 /*Clara*/ = ~*En voz alta* Lo siento, mi amor. Por favor, olvídame.~
+@312 /*Anomen*/ = ~Has ganado, padre. Ahora no tengo nada; ¡me lo has quitado todo! *Amargamente* Me iré, y si veo a Jardine al salir, le informaré de tu... generosidad.~
+@313 /*Cor*/ = ~Excelente. Ven aquí, dulzura. Déjame disfrutar de los frutos de mi victoria.~
+@314 /*Clara*/ = ~Primero, la boda, mi señor, como prometió.~
+@315 /*Cor*/ = ~Claro, claro. Mi hijo te dio un anillo, ¿verdad? Bien. Podemos usar ese; no hay razón para darte otro.~
+@316 /*Cor*/ = ~Firmaré los papeles para que los lleves a la oficina gubernamental y hagas esto oficial. Lo haría yo mismo, pero como dije antes... soy un hombre muy, muy ocupado.~
+@317 /*Cor*/ = ~Espero que me perdones la ausencia de ceremonia, querida. Después de todo, son los papeles los que importan, y las bodas son muy caras.~
+@318 /*Cor*/ = ~Oh, no me mires así. Puedes escribir a todas las casas grandes y pequeñas para informarles de la buena nueva. Incluso te dejaré usar mi sello.~
+@319 /*Cor*/ = ~Pero primero, la boda. Aquí... y aquí... debería ser suficiente. Pongo mi sello... y listo. Sé una buena chica y encárgate de que esto se presente ante las autoridades correspondientes, ¿quieres?~
+@320 /*Clara*/ = ~Sí, mi señor.~
+
+//After Papers Filed~
+@321 /*Clara*/ = ~Está hecho, mi señor. Estamos casados. Soy Lady Delryn.~
+@322 /*Cor*/ = ~Bien. Ahora quítate la ropa y ve a nuestra cama. Tenemos hijos que hacer.~
+@323 /*Cor*/ = ~<CHARNAME>! ¿Todavía estás aquí?~
+@324 /*Cor*/ = ~Te agradezco que me hayas salvado de mi hijo desleal, pero ya es hora de que te vayas.~
+
+//New Cor line~
+@3210 /*Cor*/ = ~Ya no tienes nada que hacer aquí. Deja a mi nueva esposa y a mí en paz.~
+
+//If Anomen Kills Cor~
+@325 /*Anomen*/ = ~Está hecho. Mi padre ha muerto.~ [ANOMEN94]
+@3251 /*Anomen*/ = ~Ah, mis manos tiemblan tanto que apenas puedo sostener nada. Y sin embargo, en mi corazón, es como si una gran carga se hubiera levantado.~
+@326 /*Clara*/ = ~Mmm... Parece que algo ha cambiado, y tu aura se siente incluso palpablemente diferente... Lo has hecho, mi amor, nuestro futuro está asegurado. Eres Lord Delryn.~
+@327 /*Anomen*/ = ~Limpiemos esto y luego enviemos a Jardine a llamar a la guardia.~
+@3271 /*Anomen*/ = ~Mi amor, Clara, te llevaré al templo de inmediato y pediré a los sacerdotes que te devuelvan a la vida.~
+@328 /*Anomen*/ = ~<CHARNAME>, danos unos días más para poner nuestros asuntos en orden, y estaremos encantados de unirnos a ti de nuevo, si nos aceptas.~
+@329 /*CHARNAME*/ = ~Por supuesto, Anomen, ambos sois miembros valiosos de este grupo.~
+@330 /*CHARNAME*/ = ~Anomen, ambos sois monstruos y no quiero tener nada más que ver con vosotros.~
+@331 /*Anomen*/ = ~Hice lo que tenía que hacer, <CHARNAME>. Si cambias de opinión, ya sabes dónde encontrarnos.~
+
+//If you show up late~
+@332 /*Anomen*/ = ~Saludos, <CHARNAME>. Me alegra verte.~
+@333 /*Anomen*/ = ~Me temo que ocurrió una tragedia durante mi ausencia. Clara y yo vinimos a anunciar la feliz noticia de nuestro compromiso a mi padre, pero en su lugar lo encontramos asesinado. La ventana estaba rota y una gran cantidad de sus objetos de valor fueron robados en la noche.~
+@334 /*Anomen*/ = ~Es una lástima que no pudiéramos reconciliarnos. Pero no me había desheredado oficialmente antes de mi llegada, así que ahora somos Lord y Lady Delryn. Danos unos días para poner nuestros nuevos asuntos en orden y estaremos listos para viajar contigo de nuevo.~
+
+//If you talk to Anomen/Clara before timer is up~
+@335 /*Clara*/ = ~Hola, <CHARNAME>. Me alegra verte, pero mi querido esposo y yo necesitamos un poco más de tiempo antes de poder viajar contigo de nuevo.~
+@3351 /*Clara, with Cor*/ = ~Hola, <CHARNAME>. Me alegra verte, pero mi querido esposo y yo necesitamos un poco más de tiempo antes de que pueda viajar contigo de nuevo.~
+@336 /*Anomen*/ = ~Saludos, <CHARNAME>. Por favor, sé paciente; mi nueva esposa y yo estaremos listos para unirnos a ti pronto.~
+
+//If you talk to Clara after she marries Cor but before timer up~
+@337 /*Clara*/ = ~Saludos, <CHARNAME>. No puedo viajar contigo ahora, mi nuevo Señor Esposo es muy posesivo y no le gusta que me aleje de su vista.~
+@338 /*Clara*/ = ~No dudes en pasar en cualquier momento. Siempre es bueno saber que tengo amigos si la mala suerte me deja de nuevo sin nada.~
+@339 /*Clara*/ = ~*susurra* No faltará mucho. Espera y verás.~
+
+//First talk after the travel timer is up~
+@340 /*Anomen*/ = ~Saludos, <CHARNAME>. Mi esposa y yo estamos listos para partir.~
+@341 /*CHARNAME*/ = ~Genial. Vámonos.~
+@342 /*CHARNAME*/ = ~Lo siento, solo quiero a ti.~
+@343 /*CHARNAME*/ = ~Eh, en realidad, solo estoy aquí por Clara.~
+@344 /*CHARNAME*/ = ~Olvídalo. No necesito a ninguno de vosotros por ahora.~
+@345 /*Anomen*/ = ~¿Te parece bien, mi amor? ¿Puedes arreglártelas sola?~
+@346 /*Clara*/ = ~Por supuesto, mi señor. Me ocuparé de nuestros asuntos durante tu ausencia. Vuelve a verme tan a menudo como puedas.~
+@347 /*Anomen*/ = ~Lo haré, querida, te lo prometo. Vámonos ahora, <CHARNAME>, antes de que cambie de opinión.~
+@348 /*Clara*/ = ~¿Quieres que me una a ti? ¿Tan pronto después de nuestra boda? ¿Te parece bien, mi amor?~
+@349 /*Anomen*/ = ~Si debes irte, mi señora, lo entenderé. Te echaré de menos cada segundo, pero aún queda mucho por hacer para restaurar el honor de mi familia. Aseguraré nuestro futuro aquí durante tu ausencia.~
+@350 /*Clara*/ = ~Lo sé, mi amor. Confío en ti y volveré a visitarte pronto.~
+@351 /*Anomen*/ = ~En realidad, es un alivio, <CHARNAME>. Me alegra verte, pero aún queda mucho por hacer.~
+@352 /*Clara*/ = ~Hola, <CHARNAME>. Mi esposo y yo estamos listos para partir.~
+@353 /*CHARNAME*/ = ~En realidad, solo estoy aquí por Anomen.~
+@354 /*Clara*/ = ~Me alegra oírlo. Disfruto mucho del matrimonio y odiaría irme tan pronto.~
+
+//After Clara Widowed~
+@355 /*Anomen*/ = ~Ahh, <CHARNAME>, has vuelto. Tengo una noticia de lo más afortunada.~
+@356 /*Anomen*/ = ~Mi padre falleció repentinamente, pero en su lecho de muerte me perdonó y me restituyó como su hijo. Soy Lord Delryn de nuevo.~
+@357 /*Anomen*/ = ~Esto convierte a Clara en mi Señora Madre, lo cual es un poco incómodo, pero nos casaremos en cuanto termine su período de luto y entonces será Lady Delryn como antes. La boda pública tendrá que esperar al menos un año, por supuesto, pero una semana debería ser suficiente para que pronunciemos nuestros votos.~
+@358 /*Anomen*/ = ~Además, han surgido nuevas pruebas de que Saerk estaba realmente detrás del asesinato de mi hermana. Esto hace que mi asesinato de él y su familia, si no legal y justificado, al menos sea comprensible socialmente.~
+@359 /*Anomen*/ = ~Todo va bien. Supongo que no te gustaría que viajara contigo de nuevo, ¿verdad? No puedo irme de inmediato, pero estaré encantado de unirme a ti pronto. Vuelve en una semana.~
+@360 /*CHARNAME*/ = ~No, sigues siendo un monstruo. Y no creo que tu padre te haya perdonado realmente.~
+@361 /*CHARNAME*/ = ~En realidad, solo estoy aquí para tu... eh... Señora Madre.~
+@362 /*Anomen*/ = ~Por supuesto que lo hizo. Los papeles llevaban su sello y fueron atestiguados por su leal esposa, Clara. Que creas que son auténticos o no es irrelevante.~
+@363 /*Anomen*/ = ~Estoy aquí si me necesitas. Si no, te deseo un buen día.~
+@364 /*Clara*/ = ~Lo siento, <CHARNAME>, pero estoy de luto profundo y necesito a Anomen para consolar mi dolor. Vuelve en una semana.~
+@365 /*Anomen*/ = ~Saludos, <CHARNAME>. Lo siento, pero no puedo hablar contigo ahora. Vuelve cuando nos hayamos casado.~
+@366 /*Clara*/ = ~Hola, <CHARNAME>. Por favor, perdona a una viuda en duelo, pero no puedo hablar ahora.~
+
+//Default Clara P Dialogue if Clara married Anomen~
+@367 /*Clara*/ = ~<CHARNAME>! ¿Cómo puedo ayudarte?~
+@368 /*CHARNAME*/ = ~Solo paso a saludar y ver cómo estás.~
+@3680 /*CHARNAME*/ = ~Quiero que vuelvas a viajar conmigo.~
+@369 /*CHARNAME*/ = ~¿Estás lista para viajar?~
+@370 /*CHARNAME*/ = ~Esta mascarada ya ha durado bastante. Necesito un ladrón de nuevo.~
+@371 /*CHARNAME*/ = ~¿Lady Clementine Louisa Cosita Delryn tiene tiempo para un plebeyo como yo? Me siento tan bendecido. *Pone los ojos en blanco*~
+@3710 /*CHARNAME*/ = ~Quiero que vuelvas a viajar conmigo.~
+@3711 /*CHARNAME*/ = ~Olvídalo. No necesito nada.~
+@3712 /*Clara*/ = ~¿Quieres que me una a ti? ¿Dejar mi vida lujosa de Lady Delryn para revolcarme en mazmorras sucias día y noche?~
+@3713 /*Clara*/ = ~*suspira* Supongo que te lo debo. Déjame dar instrucciones a los sirvientes antes de irme. Debo asegurarme de que los asuntos de mi esposo estén bien gestionados.~
+@372 /*Clara*/ = ~¿Eso es todo? Oh, qué alivio. Por un momento pensé que querías alejarme de mi amado Señor Esposo. Pero solo dices "hola".~
+@373 /*Clara*/ = ~¿No es maravilloso, mi amor? <CHARNAME> no me necesita, después de todo.~
+@374 /*Anomen*/ = ~En efecto, me alegra saber que todavía puedo abrazarte.~
+@375 /*Clara*/ = ~Me siento mejor ahora que has traído a mi amado esposo a visitarme. Hola, mi querido Anomen. Me alegra verte con buena salud.~
+@376 /*Clara*/ = ~Te prometo que me he ocupado de los asuntos durante tu ausencia, y afortunadamente parece que <CHARNAME> no me necesita.~
+@377 /*Clara*/ = ~¿Cómo puede una mujer ser feliz mientras llora a su amado? Ahora que mi querido Anomen ha muerto, solo quedo yo para ocuparme de los asuntos y asegurar que su legado perdure. Lo siento, <CHARNAME>. Realmente no tengo tiempo para hablar ahora.~
+@378 /*Clara*/ = ~Por supuesto, <CHARNAME>. Mi querido esposo y yo estaremos encantados de cumplir nuestro voto.~
+@379 /*Clara*/ = ~¿Quieres que me una a ti? ¿Y que deje a mi esposo aquí?~
+@380 /*Anomen*/ = ~Si debes irte, mi señora, lo entenderé. Te echaré de menos cada segundo, pero aún queda mucho por hacer para restaurar el honor de mi familia. Seguiré asegurando nuestro futuro aquí durante tu ausencia.~
+@381 /*Clara*/ = ~De acuerdo, cariño. Volveré tan pronto como pueda.~
+@382 /*Clara*/ = ~¿Qué mujer no desearía viajar con el hombre que ama? Déjame recoger mis cosas.~
+@383 /*Clara*/ = ~Supongo que sería mejor que quedarme aquí sola. Los asuntos de mi difunto esposo están en buenas manos, me he asegurado de ello, y quizás luchar a tu lado de nuevo ayude a aliviar mi dolor.~
+@384 /*Clara*/ = ~Entonces quizás deberías alquilar uno. Mi difunto padre y madre tuvieron la amabilidad de contratarme profesores de acrobacia y sigilo, pero no soy una ladrona común. Soy Lady Delryn y más te vale ser civilizado en mi casa.~
+@385 /*Clara*/ = ~Sin embargo, si deseas que mi esposo y yo te acompañemos, entonces debemos aceptar. Después de todo, una promesa es una promesa y un voto es un voto. Sin la integridad de mi palabra, ¿qué soy?~
+@386 /*Clara*/ = ~Sin embargo, si deseas que te acompañe, estaré encantada de viajar de nuevo con mi amado.~
+@387 /*Clara*/ = ~Entonces quizás deberías alquilar uno. Mi difunto padre y madre tuvieron la amabilidad de contratarme profesores de acrobacia y sigilo, pero no soy una ladrona común. A pesar de la muerte de mi esposo, sigo siendo Lady Delryn y más te vale ser civilizado en mi casa.~
+@388 /*Clara*/ = ~Sin embargo, si deseas que te acompañe, supongo que sería mejor que quedarme aquí sola. Los asuntos de mi difunto esposo están en buenas manos, me he asegurado de ello, y luchar a tu lado puede ayudar a aliviar mi dolor.~
+@389 /*Clara*/ = ~No necesitas ser tan modesto. ¡Eres, después de todo, un héroe! Incluso nosotros, los de cuna más elevada, debemos respetar a quienes arriesgan sus vidas para protegernos.~
+@390 /*Clara*/ = ~Pero volviendo al asunto, ¿deseas que cumpla mi voto y te acompañe de nuevo en tu audaz búsqueda?~
+@391 /*CHARNAME*/ = ~No, solo saludo.~
+@392 /*CHARNAME*/ = ~Sí, ¿estás lista para partir?~
+
+//Anomen's new kicked out dialogue~
+@3931 /*CHARNAME*/ = ~Sí, vamos, Anomen.~
+@3932 /*CHARNAME*/ = ~No, será mejor separarnos por ahora.~
+@393 /*Anomen*/ = ~Me iré como ordenes, pero hemos hecho un buen equipo juntos y me gustaría unirme a ti en el futuro.~
+@394 /*Anomen*/ = ~Adiós, mi querida Clara, te veré pronto.~
+@395 /*Anomen*/ = ~Sin embargo, será bueno volver a ver a mi querida esposa.~
+@396 /*Anomen*/ = ~<CHARNAME>, me encontrarás en la finca de mi familia cuando cambies de opinión.~
+@397 /*CHARNAME*/ = ~De acuerdo. Te veremos allí si necesitamos tus servicios de nuevo.~
+@398 /*CHARNAME*/ = ~No, espera aquí.~
+
+//Anomen's New P Dialogue in Manor~
+@399 /*Anomen*/ = ~Saludos, <CHARNAME>. ¿Deseas que mi esposa y yo nos unamos a ti?~
+@400 /*CHARNAME*/ = ~Sí. Vámonos.~
+@401 /*Anomen*/ = ~Saludos, <CHARNAME>. ¿Deseas que me una a ti?~
+@402 /*CHARNAME*/ = ~Lo siento, solo pasaba. No te necesito ahora.~
+@403 /*Anomen*/ = ~Por supuesto, mi amigo. Estaré encantado de viajar con mi querida esposa de nuevo.~
+@404 /*Anomen*/ = ~Lamento oír eso, <CHARNAME>, pero agradezco la oportunidad de volver a ver a mi amada. Por favor, no estés ausente demasiado tiempo.~
+@405 /*Clara*/ = ~Por supuesto que no, cariño. Te echo muchísimo de menos.~
+@406 /*Anomen*/ = ~Tú también me faltas, mi amor. Pero estoy haciendo mucho para asegurar nuestro futuro aquí durante tu ausencia.~
+
+
+//The Cor dialogue
+//1st Talk after Clara dumps Anomen~
+@407 /*Cor*/ = ~Anomen, nunca me dijiste que conocías a una dama tan cautivadora.~
+@408 /*Cor*/ = ~Vino a discutir conmigo, tratando de convencerme de que te recuperara, pero le hice una oferta mejor.~
+@409 /*Cor*/ = ~Verás, después de echarte, no tenía hijo y me faltaba una joven bonita para darme más hijos. Ahora, sin embargo, ese segundo problema está resuelto.~
+@410 /*Anomen*/ = ~¡Padre, no puedes hablar en serio! Clara, dime que está bromeando.~
+@411 /*Clara*/ = ~Lo siento, mi señor, está diciendo la verdad. Ahora soy Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn de Athkatla. Es completamente oficial.~
+@412 /*Anomen*/ = ~Es imposible; no tuvisteis tiempo.~
+@413 /*Cor*/ = ~A diferencia de ti, muchacho, actúo cuando es necesario y no dejo que las oportunidades se me escapen. Está firmado, casado y compartido.~
+@414 /*Anomen*/ = ~Entonces he terminado con vosotros dos. Clara, estaba cegado por tus encantos, pero empiezo a dudar de que siquiera seas noble. Probablemente no eres más que una puta de los muelles con ínfulas. Cada palabra que dices es una maldita mentira.~
+@415 /*Clara*/ = ~*llora* ¿Cómo puedes decir algo tan horrible?~
+@416 /*Clara*/ = ~Perdónalo, Lord Delryn. Habla por celos. Después de salvarme la vida, Anomen deseaba que compartiera su lecho, pero le recordé que una verdadera dama se guarda para su noche de bodas. Me dijo que puesto que mi padre era solo un señor menor y yo estaba sola y huérfana, era lo suficientemente buena para calentar su cama pero no para ser su esposa.~
+@417 /*Clara*/ = ~Cuando seguí rechazando sus avances, su hijo se volvió huraño y ahora que usted me ha dado todo lo que él no quiso dar...~
+@418 /*Cor*/ = ~Perro inútil. Hice bien en desheredarte. He hecho una mujer honrada de Clara, ya que tú no querías.~
+@419 /*Cor*/ = ~Ojalá tuviera el dinero para una verdadera celebración de bodas.~
+@420 /*Clara*/ = ~No se preocupe, mi Señor Esposo. Sé que estos tiempos difíciles no son culpa suya. Pronto recuperará su fortuna y entonces podremos visitar a mi hermano y arreglarlo todo adecuadamente. Por ahora, es suficiente con tener el documento legal y la bendición de Helm.~
+@421 /*Anomen*/ = ~¡¿Os casó un sacerdote de Helm?! ¡¿Un dios que ve la verdad y detecta mentiras?!~
+@422 /*Cor*/ = ~Por supuesto, muchacho. ¿Tienes algún problema con eso? Siempre me ha gustado Helm. Fue suficientemente bueno para ti; ciertamente es suficientemente bueno para mí y para tu nueva Señora Madre.~
+@423 /*Anomen*/ = ~¡Esa zorra no es mi Señora Madre! ¡Es una farsante!~
+@424 /*Clara*/ = ~Se equivoca, mi valiente caballero. Soy Lady Delryn, soy miembro de la nobleza de Athkatla, y por lo tanto soy su Señora Madre según las leyes de Helm y del Consejo de los Seis. Lo que usted crea no tiene importancia.~
+@425 /*Cor*/ = ~Bien dicho. Pero basta ya, muchacho. ¿No tienes cosas más importantes que hacer que lanzar insultos a mi nueva esposa?~
+@426 /*Clara*/ = ~<CHARNAME>, danos unos días juntos y entonces cumpliré mi promesa de viajar contigo de nuevo.~
+
+//New Clara P dialogue if married Cor & not Anomen~
+@427 /*Clara*/ = ~¿Está alguna mujer lista para ser arrancada del hombre que ama? Pero el deber llama y debo obedecer. Después de todo, una promesa es una promesa y un voto es un voto. Sin la integridad de mi palabra, ¿qué soy?~
+@428 /*Clara*/ = ~Adiós, mi dulce Cor. Aprovecharé cada oportunidad para verte de nuevo. Muchas de nuestras misiones tienen lugar en esta hermosa ciudad, así que debería poder escabullirme a casa mientras mi grupo duerme. ¿Por qué querría descansar en un establo infestado de pulgas cuando podría volver a nuestro lecho conyugal?~
+@429 /*Clara*/ = ~Sin embargo, si deseas que te acompañe, entonces debo aceptar. Después de todo, una promesa es una promesa y un voto es un voto. Sin la integridad de mi palabra, ¿qué soy?~
+
+//New Cor Dialogues~
+@430 /*Cor*/ = ~¡Has vuelto, querida! Pero en presencia de <CHARNAME>. Supongo que aún no has terminado tus viajes.~
+@431 /*Clara*/ = ~No, mi amor, pero volveré a ti en cuanto pueda.~
+@432 /*Clara*/ = ~¿Debo irme también, querido esposo?~
+@433 /*Cor*/ = ~Oh, mi amor, no te había visto ahí. Eres tan silenciosa y grácil como siempre. ¿Has terminado tus viajes?~
+@434 /*Clara*/ = ~¿Estoy incluida en tus duras palabras, querido? Me rompería el corazón si tuvieras una mala opinión de mí.~
+@435 /*Cor*/ = ~No, claro que no te hablo a ti, lo siento. Sé que <CHARNAME> es el único culpable.~
+
+//Initial Journal Entry After Anomen Leaves~
+@999 = ~Anomen ha recibido una carta de su padre que le ha perturbado enormemente. Parece que los verdaderos asesinos de su hermana Moira han sido descubiertos, y su padre lo ha desheredado por haber matado a Saerk en su lugar. Un cruel giro del destino, dado todo lo que ha pagado.
+
+Anomen y Clara han partido hacia su finca, pidiéndome que me una a ellos en unos días, una vez que este asunto esté resuelto. Aunque no pude oír toda su conversación, la pareja está decidida a recuperar su honor y temo que Cor haya empujado finalmente a su hijo demasiado lejos. Quizás debería seguirles para confirmar mis sospechas y asegurarme de que Anomen no se manche las manos de nuevo. O quizás debería dejar que ese borracho inútil coseche lo que ha sembrado.~
+
+//Anomen's Return Journal Entry~
+@1000 = ~Evité que Anomen y Clara mataran a su padre; el hombre puede ser un bastardo, pero no podía permitir que fuera asesinado a sangre fría. Enfrentado a tener que luchar contra mí también, Anomen huyó y Clara se casó con Cor en su lugar. El matrimonio parece legal, pero tengo el presentimiento de que esto no ha terminado. Cor puede haber invitado a una viuda negra a su lecho, y debería volver en unas semanas para asegurarme de que ha sobrevivido.~
+
+
+//TOB
+//Gorion Wraith Scene~
+@436 /*Wraith*/ = ~Eres una fuerza de villanía que arrasa la tierra.~
+@437 /*Anomen*/ = ~Espíritu de Gorion, soy Lord Anomen Delryn, y hablo en nombre de <CHARNAME>. Nuestro líder es una buena persona y un agente de la virtud.~
+@438 /*Wraith*/ = ~Dicho por Anomen-el-de-la-Prueba-Fallida, Matador-de-Sangre y Asesino-de-Inocentes...~
+@439 /*Anomen*/ = ~Maté a mi padre, es cierto... pero él no era inocente.~
+@440 /*Wraith*/ = ~No era de Cor Delryn de quien hablaba...~
+
+//Imoen Wraith Adjustments~
+@441 /*Wraith*/ = ~Tú e Imoen sois fuerzas de villanía que arrasáis la tierra.~
+@442 /*Anomen*/ = ~Espíritu de Gorion, soy Lord Anomen Delryn, y hablo en nombre de mis amigos. Imoen y <CHARNAME> son buenas personas y agentes de la virtud.~
+
+//Moira Talk Interjection~
+@443 /*Anomen*/ = ~¡No! ¡No, no! Yo... Nunca... ¡Por Helm, no! ¡Te lo ruego! ¡Haz que esto pare!~ [ANOM2552]
+@444 /*Clara*/ = ~Anomen, está bien... shh...~
+@445 /*Wraith*/ = ~Y así la pequeña Clara intenta salir de la sombra... pero la sombra es lo que eres, Caroline.~
+@446 /*Clara*/ = ~¿Así que ahora me muestras a alguien a quien he matado? ¡Hazlo, Gorion, no me arrepiento de ni uno solo!~
+@447 /*Wraith*/ = ~Como ordenes.~
+
+//Little Clara Talk~
+@448 /*Clara*/ = ~¿Quién eres? No te conozco...~
+@449 /*Little Clara*/ = ~Érase una vez una niña pequeña que estaba segura y era amada. Era feliz y sus días estaban llenos de risas y alegría.~
+@451 /*Clara*/ = ~Oh, no...~
+@452 /*Little Clara*/ = ~Dime cómo termina, Clara... Dime que viviré feliz para siempre.~
+@453 /*Clara*/ = ~¡Sí, lo haces! ¡Yo lo soy! ¡Soy una noble dama! ¡Tengo un esposo que me ama! ¡Soy fuerte, poderosa y rica! Tú tendrás todas esas cosas también...~
+@454 /*Little Clara*/ = ~No... tú las tendrás, pero yo no. Me borraste... borraste a mis padres... ya no estamos en tu corazón... ni en tu pasado. Nos reemplazaste por otros nuevos que creaste. Nuevos a los que amas más de lo que nunca nos amaste a nosotros.~
+@455 /*Clara*/ = ~La vida era dura... ¡Hice lo que tuve que hacer para sobrevivir!~
+@456 /*Little Clara*/ = ~Y sobreviviste... pero yo no. Esa niña feliz que amaba el mundo... Estoy muerta... porque tú me mataste.~
+@457 /*Little Clara*/ = ~Y ahora tienes todo lo que siempre quisiste... pero ¿puedes disfrutarlo? ¿Puedes sentir el mismo amor y alegría que antes? ¿O pasas tus días temiendo que tu telaraña de mentiras se derrumbe?~
+@458 /*Clara*/ = ~No... ¡vete! ¡Eras una niña débil y ya he terminado contigo! *sollozos*~
+@459 /*Little Clara*/ = ~Rodéate de todo el oro, sirvientes y "amigos" que puedas... porque siempre estarás sola.~
+
+//Post Wraith Talk~
+@460 /*Anomen*/ = ~¡Espíritu maldito! ¡Cómo se atreve a mencionar el nombre virtuoso de mi hermana! ¡Cómo se atreve a acusarme de tal... tal... QUE ESE ESPECTRO SEA MALDITO!~ [ANOM2504]
+@461 /*Clara*/ = ~Mi amor, esa criatura era un ser de pura maldad. ¡Todo lo que dijo era mentira!~
+@462 /*Anomen*/ = ~Se necesitan más que palabras de consuelo para ahuyentar estos demonios de mi pasado, Caroline.~
+@463 /*Anomen*/ = ~Moira está muerta, y su muerte nunca fue vengada adecuadamente. En eso, al menos, el espíritu dijo la verdad. ¡Fallecí con mi hermana! ¡Debería haberlo intentado más para sacarla de la casa de nuestro padre!~
+@464 /*Clara*/ = ~No puedes cambiar el pasado, Anomen. No puedes traer a Moira de vuelta.~
+@465 /*Anomen*/ = ~Yo... Sé que Moira se ha ido. Sé que no puedo hacer nada al respecto. Pero corroe mi alma y desgarra mi corazón. ¡La fallé a ella, Caroline! ¿Y si te fallara a ti?~
+@466 /*Clara*/ = ~No me fallarás, Anomen. Te has demostrado a ti mismo una y otra vez.~
+@467 /*Anomen*/ = ~Yo... Supongo que tienes razón, mi amor. Una vez más, debo pedirte perdón. Supongo... Supongo que todavía no he hecho las paces con el destino de Moira. Siempre honraré la memoria de mi hermana, pero debo aprender a mirar hacia el futuro. Mi futuro.~
+@468 /*Clara*/ = ~Nuestro futuro, mi amor. El pasado no se puede cambiar. Y tu futuro está conmigo.~
+@469 /*Anomen*/ = ~Gracias, mi señora. Una vez más, me has mostrado el camino más sabio. No dejaré que mi pasado destruya lo que hemos construido juntos. Yo... Estaré bien. Continuemos con la tarea que tenemos entre manos.~
+
+//Anomen & Cor both dead, Anomen in romance with Clara
+@470 /*Clara*/ = ~Oh, ambos han muerto. Todos mis esfuerzos han sido en vano. Ya no hay nada para mí aquí, tengo que salir de este lugar cuanto antes. <CHARNAME>, ¿vienes conmigo?~
+@471 /*CHARNAME*/ = ~Sí, vamos.~
+@472 /*CHARNAME*/ = ~No, vete tú primero. Te alcanzaré más tarde.~
+@473 /*Clara*/ = ~De acuerdo... Me voy, entonces. Puedes encontrarme en la Posada de las Cinco Jarras en el Puente. Hasta luego. *susurra* Tengo que repartir lo que queda con Jardine...~

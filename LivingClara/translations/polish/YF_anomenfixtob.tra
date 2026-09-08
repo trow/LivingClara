@@ -1,0 +1,35 @@
+// Anomen Romance Fix
+@0 /*Anomen*/ = ~Szanowna pani, obawiam się, że mogło między nami dojść do nieporozumienia. Mam nadzieję, że możemy wrócić do tego, co było wcześniej. Czy możesz mi wybaczyć?~
+@1 /*CHARNAME*/ = ~Nie, Anomenie, chcę tylko, żebyśmy byli przyjaciółmi.~
+@2 /*CHARNAME*/ = ~Oczywiście, Anomenie. Wszystko już za nami.~
+
+//Talk to let you choose Anomen's past in new game
+@3 /*Anomen*/ = ~<CHARNAME>, proszę, opowiedz mi o naszym czasie w Athkatli. Czy przeszedłem próbę? Czy jestem rycerzem Zakonu Lśniącego Serca?~
+@4 /*CHARNAME*/ = ~Tak, zrobiłeś to. Jesteś rycerzem. Choć twój ojciec się ciebie wyrzekł.~
+@5 /*CHARNAME*/ = ~Nie, nie zrobiłeś tego. Zostałeś wydalony z Zakonu.~
+@6 /*CHARNAME*/ = ~Nie przystąpiłeś jeszcze do próby. Nasza podróż po Amn dopiero się zaczęła.~
+@7 /*Anomen*/ = ~Rozumiem. A czy byłem w związku romantycznym?~
+@8 /*CHARNAME*/ = ~Tak, ze mną.~
+@9 /*CHARNAME*/ = ~Cóż, starałeś się zdobyć Klarę, ale ona zostawiła cię dla twojego ojca.~
+@10 /*CHARNAME*/ = ~Nie, nie byłeś.~
+@11 /*CHARNAME*/ = ~Wyznawaliśmy sobie miłość. Saerk został uznany za winnego zabójstwa twojej siostry, a twój ojciec skonfrontował się z nim i również został zabity. My również stanęliśmy przed Saerkiem, ale postanowiliśmy odejść w pokoju, pozwalając miejskiej sprawiedliwości wymierzyć karę.~
+@12 /*Anomen*/ = ~To smutne, ale przynajmniej spełniłem marzenie mojego życia – dołączyłem do Zakonu.~
+@13 /*Anomen*/ = ~Ruszajmy dalej.~
+
+@14 /*Anomen*/ = ~Tak, z Klarą.~
+@15 /*Anomen*/ = ~Więc co stało się później, moja miłości?~
+@16 /*CHARNAME*/ = ~Wyznawaliśmy sobie miłość, ale twój ojciec próbował się ciebie wyrzec, więc go zabiliśmy.~
+@1600 /*CHARNAME*/ = ~Wyznawaliśmy sobie miłość, ale później władze Athkatli poinformowały, że Saerk nie był winny śmierci twojej siostry. Twój ojciec się ciebie wyrzekł, więc poszedłeś z nim skonfrontować. Razem postanowiliśmy darować mu życie.~
+@1601 /*Anomen*/ = ~Stary pijak wreszcie dostał to, na co zasłużył. Co było dalej?~
+@1602 /*CHARNAME*/ = ~Następnie wrobiliśmy w to bandytów i zostałeś lordem Delrinem. Zapłaciliśmy Umaszczonemu Czarodziejowi, by zbadał zabójstwo Saerka i oczyścił twoje imię. Saerk oficjalnie stał się złoczyńcą, a my oficjalnie staliśmy się bohaterami.~
+@1603 /*CHARNAME*/ = ~Więc straciłem Zakon, rodzinę i dom. Jedyne, co mi zostało, to ty, moja miłości.~
+@17 /*Anomen*/ = ~To wspaniale. Zawsze wiedziałem, że jesteśmy sobie przeznaczeni. Coś jeszcze?~
+@18 /*CHARNAME*/ = ~Rozwiązaliśmy również problemy z porządkiem publicznym spowodowane wojną gildii. Gdy kilka miesięcy później spotkasz się z Radą Sześciu, zaoferują ci wolne miejsce w Radzie, pod warunkiem że staniesz się jednym z najbogatszych lordów Amn.~
+@19 /*Anomen*/ = ~Czyli czeka mnie dużo pracy. Ruszajmy dalej, moja miłości.~
+
+@20 /*Anomen*/ = ~Co stało się potem?~
+@21 /*CHARNAME*/ = ~Ty i Klara wyznaliście sobie miłość i pobraliście się. Twój ojciec próbował się ciebie wyrzec, więc zabiliśmy go i wrobiliśmy w to złodziei, abyście ty i Klara mogli zostać lordem i lady Delrin. Następnie zapłaciliśmy Umaszczonemu Czarodziejowi, by zbadał zabójstwo Saerka i oczyścił twoje imię. Saerk oficjalnie stał się złoczyńcą, a my wszyscy oficjalnie zostaliśmy bohaterami.~
+@22 /*Anomen*/ = ~Więc czeka mnie mnóstwo pracy. Ruszajmy dalej.~
+
+//DSA Romance Banter Fix 1
+@23 /*Anomen*/ = ~Masz rację, <CHARNAME>. Gdy stawiałem czoła mojemu ojcu, nauczyłaś mnie, że czasami przelew krwi jest konieczny dla większego dobra. Jednak muszą też nadejść chwile, gdy powinniśmy wstrzymać się od szukania walki i cieszyć się życiem.~

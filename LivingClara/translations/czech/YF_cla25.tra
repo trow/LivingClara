@@ -1,0 +1,30 @@
+//Fate Spirit Dialogue for summoning Clara
+@0 /*Charname*/ = ~Přiveď Kláru, Tanečnici Stínů.~
+
+//if you rescued her before
+@1 /*Clara*/ = ~Hej, <CHARNAME>, to ty jsi povolal vznešenou Karolínu Luisu Adélu Rozanu Alexandru...~
+@2 /*Player*/ = ~Dobrá, Kláro, tohle je můj kapesní plán, všichni tady jsou kamarádi. Povolal jsem tě, protože chci, abys se přidala k mému týmu.~
+@3 /*Player*/ = ~Už dobře, prostě věz, že se máš vrátit do služby.~
+@4 /*Player*/ = ~Potřebuji tvou sílu na své cestě, Karolíno. Prosím, pomoz mi.~
+@5 /*Player*/ = ~Promiň, Kláro. Rozmyslel jsem si to. Počkej tady.~
+@6 /*Clara*/ = ~Dobře, <CHARNAME>, když už jsi mě povolal, co mi zbývá? Začněme.~
+@7 /*Clara*/ = ~Přímo k věci, jako vždy, <CHARNAME>. Ale právě proto tě mám ráda. Pojďme!~
+@8 /*Clara*/ = ~Ach, <CHARNAME>, velmi ráda ti budu nápomocná. Pak pokračujme v cestě.~
+@9 /*Clara*/ = ~Necháš mě tady? To není fér.~
+@10 /*Clara*/ = ~Dobře, počkám. Vypadá to, že moc na výběr nemám.~
+
+//if you didn't rescue her before
+@11 /*Clara*/ = ~Co? Kde to jsem? Kdo jsi? Tvá tvář je povědomá, ale opravdu si nepamatuji... všechno jako noční můra.~
+@12 /*Player*/ = ~Gratuluji, přidáváš se k týmu. Doufám, že máš nějaké užitečné dovednosti.~
+@13 /*Player*/ = ~Společně jsme krátce cestovali a znovu potřebuji tvou pomoc.~
+@14 /*Player*/ = ~Nevím, co jsem si myslel. Povolám někoho jiného.~
+@15 /*Clara*/ = ~To znamená, že asi ano. Jsem zmatená.~
+@17 /*Clara*/ = ~To je <CHARNAME>, že? Zdá se, že si vzpomínám. Možná bys mi mohl říct víc.~
+@18 /*Clara*/ = ~Necháš mě tady? To není fér.~
+
+//When she's waiting and hasn't joined you before
+@20 /*Clara*/ = ~Ach, <CHARNAME>. Vrátil ses. Můžu teď s tebou cestovat?~
+@21 /*Player*/ = ~Ano, Kláro. Pojď se mnou.~
+@22 /*Player*/ = ~Promiň. Zatím tě nepotřebuji.~
+@23 /*Clara*/ = ~Myslíš to vážně? Ach, díky bohům. Vypadneme odtud.~
+@24 /*Clara*/ = ~Děláš si srandu? No dobře. Nech mě tady hladovět.~

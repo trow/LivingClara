@@ -1,0 +1,110 @@
+//General text if Clara is removed from Party
+@0 /*Clara*/ = ~Takže to by bylo všechno?~
+@1 /*CHARNAME*/ = ~Ne, chci, abys zůstala.~
+@2 /*CHARNAME*/ = ~Ano, naše cesty by se měly rozejít.~
+@3 /*Clara*/ = ~Dobře, pak půjdu do Mostní čtvrti. Můžeš mě najít v hospodě Pět džbánů.~
+@4 /*CHARNAME*/ = ~Ne, potřebuji, abys počkala tady. Brzy se vrátím.~
+@5 /*CHARNAME*/ = ~Dobře, najdu tě tam.~
+@6 /*Clara*/ = ~Tady? Dobře. Ale máš jen jeden den, pak odejdu. Jinde budu v bezpečí.~
+@7 /*Clara*/ = ~Chceš, abych šla? Dobře, sejdeme se v Gildě zlodějů.~
+
+//If at war with Shadow Thieves
+@70 /*Clara*/ = ~Prosím, nevyhazuj mě! Stínoví zloději mě zabijí!~
+@71 /*Player1*/ = ~Promiň, už tě nepotřebuji. Sbohem.~
+@72 /*Player1*/ = ~Dobře, nefňukej. Můžeš zůstat.~
+@73 /*Clara*/ = ~Prosím, nevydržím tři dny! Nemůžu se vrátit domů, nemůžu! Nech mě zůstat. Nebudu překážet. Udělám cokoli, slibuji. Tím myslím, že jsi muž, můžu ti dokázat svou hodnotu, a navíc můžu prát, vařit, čistit tvou zbraň a zbroj!~
+@74 /*Player1*/ = ~Dobře, přijímám.~
+@75 /*Player1*/ = ~Samozřejmě, můžeš mi sloužit. Dělej to dostatečně dobře, a možná se rozhodnu si tě nechat.~
+@76 /*Player1*/ = ~Ne, promiň, sbohem.~
+@77 /*Clara*/ = ~Opravdu? Nikdy předtím jsem to nedělala. Ale jak Jenny vždycky říkala, nezáleží na tom, jak vypadají, prostě buď nadšená, dělej, co chtějí, a snaž se užít si to. Dobře, udělám to. Dej mi šanci. Nebudeš litovat!~
+@78 /*Clara*/ = ~Prosím, nevydržím tři dny! Nemůžu se vrátit domů, nemůžu. Nech mě zůstat. Nebudu překážet. Udělám cokoli, slibuji. Pořád můžu prát, vařit, čistit tvou zbraň a zbroj!~
+@79 /*Clara*/ = ~Vím! Dokážu to. Dej mi šanci a uvidíš, že stojí za to mě nechat. Dovol mi ti to dokázat!~
+@80 /*Player1*/ = ~Dobře, přijímám. Až se naskytne příležitost, můžeš ukázat, co umíš. Dělej to dostatečně dobře, a možná se rozhodnu si tě nechat.~
+
+// If Clara is talked to while waiting with active timer.
+@8 /*Clara*/ = ~Já... nenávidím... čekání. Můžu se už vrátit?~
+@9 /*CHARNAME*/ = ~Ne, ještě ne. Zůstaň tu ještě chvíli.~
+@10 /*CHARNAME*/ = ~Ano. Promiň, že jsem tě nechal čekat.~
+
+//If Clara is in Five Flagons, the first time.
+@11 /*Clara*/ = ~V pravý čas, <CHARNAME>, právě jsme o tobě mluvili. Vyprávěla jsem lordu Sterkovi, jak jsi mě zachránil před Hexxat a Dragomirem.~
+@12 /*CHARNAME*/ = ~Každý na mém místě by udělal totéž.~
+@13 /*CHARNAME*/ = ~To je součástí hrdinství.~
+@14 /*CHARNAME*/ = ~A to byla ztráta času. Ani neměli peníze.~
+@15 /*Sterk*/ = ~Dobrá práce, <CHARNAME>. S hrdiny jako jsi ty, bude brzy zase bezpečné chodit v noci po ulicích. Škoda, že se ti nepodařilo zachránit Karolininy rodiče.~
+@16 /*Clara*/ = ~Ano, někdy v noci nad nimi ještě pláču. Jak však říkal můj otec, mladé ženy musí být silné. Vydržím.~
+@17 /*Clara*/ = ~Milorde, myslím, že <CHARNAME> se mnou chce mluvit, a protože mi zachránil život, nemohu odmítnout.~
+@18 /*Sterk*/ = ~Samozřejmě. Promluvte si spolu. Já se mezitím postarám o jiné věci.~
+@19 /*Clara*/ = ~Ahoj, <CHARNAME>! Co tady děláš?~
+@20 /*CHARNAME*/ = ~No, „Karolíno“, chtěl jsem se jen pozdravit a podívat se, jak se máš.~
+@21 /*CHARNAME*/ = ~Zase jsi změnila přízvuk. Jakou hru hraješ? Hexxat a Dragomir nezabili tvé rodiče, že ne?~
+@22 /*CHARNAME*/ = ~Chci, abys šla se mnou.~
+@23 /*CHARNAME*/ = ~Chci tě lépe poznat. Je tady nějaké místo, kde bychom mohli být o samotě?~
+@24 /*Clara*/ = ~Mám se dobře, <CHARNAME>! Lord Sterk se nemůže rozhodnout, jestli mě chce zachránit, nebo se mnou spát, nebo obojí. Při troše štěstí by mě mohl vzít k sobě jako „služku“ a celé místo bude moje!~
+@25 /*Clara*/ = ~Samozřejmě, zatímco s tebou mluvím, nemůžu nic zařídit. Takže... sbohem! Můžeš přijít zase někdy jindy.~
+@26 /*Clara*/ = ~Líbí se ti ten přízvuk? Okopírovala jsem tvůj, ale dala jsem mu ušlechtilejší zvuk. Jsem Karolína Luisa Adéla Rozana Alexandra Stříbrný štít z Beregostu, chudá osiřelá dcera sestřenice slavné rodiny Stříbrného štítu ze severu.~
+@27 /*Clara*/ = ~Vjeli jsme do Athkatly v noci a Hexxat s Dragomirem na nás zaútočili. Naši zbabělí žoldnéři utekli, a ačkoli můj otec statečně bojoval se dvěma nejvěrnějšími sluhy a jedním domácím vojákem, neměli šanci. Upíři je nemilosrdně zabili i s mou matkou. Kdybys nezasáhl a nezachránil mě, zabili by i mě. Ještě jednou děkuji.~
+@28 /*Clara*/ = ~Přišel ses jen pozdravit, nebo něco chceš?~
+@29 /*CHARNAME*/ = ~Přišel jsem se jen pozdravit. Jak se máš?~
+@30 /*CHARNAME*/ = ~Ale to se nestalo doopravdy.~
+@31 /*Clara*/ = ~Samozřejmě, že stalo! Možná jsem změnila jeden či dva detaily, ale jen proto, abych vyprávěla lepší příběh. Nemůžeš si příliš dělat starosti s tím, co si pamatuješ, <CHARNAME>. Jak známo, paměť je nespolehlivá.~
+@32 /*Clara*/ = ~Požádej tři lidi, aby upřímně zopakovali nějaký rozhovor, a všichni tři ti řeknou něco jiného. Pokud jsou naše vzpomínky jen příběhy, které si vymýšlíme, proč je neudělat lepšími?~
+@33 /*Clara*/ = ~Ale já se rozkecala. Co chceš?~
+@34 /*CHARNAME*/ = ~Ne, přišel jsem se jen pozdravit. Jak se máš?~
+@35 /*CHARNAME*/ = ~Ano, chci, abys šla se mnou.~
+@36 /*Clara*/ = ~Připojit se k tobě? Chceš, abych opustila svůj pohodlný a výnosný život a šla s tebou hledat smrt? Prozkoumávat slizem a pastmi zamořené kobky plné nemrtvých a mocných monster, když osudy světa visí na vlásku?~
+@37 /*Clara*/ = ~Ne, děkuji. Ráda dýchám... a žiju... a hlavně ráda neumírám.~
+@38 /*CHARNAME*/ = ~Je něco, co bych mohl udělat, abych tě přesvědčil změnit názor?~
+@39 /*CHARNAME*/ = ~Ach, tak se asi někdy uvidíme.~
+@40 /*Clara*/ = ~Nejsem prostitutka, <CHARNAME>. Jsem Karolína Luisa Adéla Rozana Alexandra Stříbrný štít z Beregostu. To, že mě potkaly těžkosti a ztratila jsem rodiče, neznamená, že se vzdám své důstojnosti.~
+@41 /*Clara*/ = ~A teď, dobrý den. Čeká na mě lord, který mě touží zachránit z mého ubohého a ponižujícího života.~
+@42 /*Clara*/ = ~Samozřejmě. Moje cena je 1000 zlatých.~
+@43 /*CHARNAME*/ = ~Dobře.~
+@44 /*CHARNAME*/ = ~A 500?~
+@45 /*CHARNAME*/ = ~Ne, tolik nestojíš. Sbohem.~
+@46 /*CHARNAME*/ = ~Promiň, takové peníze nemám.~
+@47 /*Clara*/ = ~Ano! Dobře, nech mě se rozloučit s lordem Sterkem.~
+@48 /*Clara*/ = ~Promiňte, milorde? <CHARNAME> potřebuje mou pomoc v jisté záležitosti a já nemohu odmítnout tomu, kdo mě zachránil. <CHARNAME> chce odejít okamžitě, ale nemohla bych se s vámi rozloučit a poděkovat za vaši pomoc. Jste opravdový džentlmen.~
+@49 /*Sterk*/ = ~Musíš jít? Samozřejmě, má drahá, velmi rádi. Jsem rád, že jsem mohl pomoci. Přijď zase, až budeš moci.~
+@50 /*Sterk*/ = ~Postarej se o ni, <CHARNAME>, a zajisti její bezpečí.~
+@51 /*Clara*/ = ~Dobře. Můžeš se zastavit později pozdravit. Pokud se ti podaří neumřít...~
+@52 /*Clara*/ = ~Ach, lorde Sterku! <CHARNAME> musí jít, ale ráda bych se dozvěděla více o rozdílech v elfích vínech.~
+
+//If you talk later - reuses other lines
+@53 /*Clara*/ = ~Ahoj znovu, <CHARNAME>. Můžu ti s něčím pomoci? Potřebuješ ode mě něco?~
+
+//If no other conditions apply - reuses earlier lines
+@54 /*Clara*/ = ~Ahoj, <CHARNAME>, můžu ti pomoci? Potřebuješ něco?~
+@55 /*Clara*/ = ~Neboj se o mě. Jen se toulám a užívám si, že žiju. Vždycky je co dělat... co vidět... koho okrást. Můžeš se tu poflakovat, ale opravdu bych se měla vrátit k práci.~
+@56 /*Clara*/ = ~Připojit se k tobě? Chceš, abych opustila svůj pohodlný a výnosný život a šla s tebou hledat smrt? Prozkoumávat slizem a pastmi zamořené kobky plné nemrtvých, bojovat s mocnými monstry, když osudy světa visí na vlásku? Moje cena je 1000 zlatých.~
+@57 /*Clara*/ = ~Myslím, že hledáš špatnou osobu, <CHARNAME>. Hledáš Kláru, která byla prostitutkou, ale ta je mrtvá. Jsem Karolína Luisa Adéla Rozana Alexandra Stříbrný štít z Beregostu, chudá osiřelá dcera sestřenice slavné rodiny Stříbrného štítu ze severu. Možná jsem ztratila rodiče kvůli upírům, ale neztratila jsem svou důstojnost.~
+@58 /*Clara*/ = ~Byla jsem zachráněna hrdinou <CHARNAME> a jsem za to tak vděčná, že vyprávím tento příběh každému, koho potkám. Ten hrdina by se nikdy nepokusil využít šlechtickou dámu v tísni. Nyní sbohem. Jako každá šlechtická dáma mám důležité záležitosti, které vyžadují mou pozornost.~
+@59 /*Clara*/ = ~Ano! Dobře, nech mě si sbalit věci.~
+
+//New Kicked out dialogue if Clara marries Anomen
+@60 /*Clara*/ = ~Opravdu chceš, abych odešla?~
+@61 /*Clara*/ = ~Nechci tě opustit, můj muži, ale musím jednat podle vůle <CHARNAME>.~
+@62 /*Clara*/ = ~Vrátím se do našeho sídla a budu tam čekat na tvou návštěvu. Slibuji, že na tebe budu myslet každou chvíli tvé nepřítomnosti.~
+@63 /*Clara*/ = ~Skvěle. Vrátím se do sídla Delrinů k mému drahému manželovi, dokud mě znovu nebudeš potřebovat. Nespěchej s návratem; moje postel tam je mnohem pohodlnější.~
+@64 /*Clara*/ = ~Dobře. Tak jako tak bych se měla podívat na své obchody. Pokud změníš názor, najdeš mě v sídle Delrinů.~
+
+//New Clara P dialogue if married Cor & he's dead
+@65 /*Clara*/ = ~Ahoj, <CHARNAME>, dům lady Delrinové je pro tebe vždy otevřen. Co pro tebe mohu udělat?~
+@66 /*CHARNAME*/ = ~Nic, jen jsem se zastavil, abych se podíval, jak se máš.~
+@67 /*CHARNAME*/ = ~Můžeš cestovat se mnou.~
+@68 /*Clara*/ = ~No, jsem paní tohoto zchudlého šlechtického rodu. Finance jsou v troskách... Saerk opravdu ničil obchody mého zesnulého manžela na každém kroku.~
+@69 /*Clara*/ = ~Měla bych s tím mužem opravdu něco udělat...~
+@81 /*Clara*/ = ~No, jsem stále paní tohoto zchudlého šlechtického rodu. Ale od doby, co lord Saerk odešel, se naše finance zlepšily.~
+@82 /*Clara*/ = ~Cestovat s tebou? Proč bych to měla dělat? Můj dům může být chudý, ale alespoň žiju a můžu spát na opravdové posteli. Co mi můžeš nabídnout výměnou?~
+@83 /*CHARNAME*/ = ~Co třeba 1000 zlatých?~
+@84 /*CHARNAME*/ = ~Co třeba 500 zlatých?~
+@85 /*CHARNAME*/ = ~No, asi nic.~
+@86 /*Clara*/ = ~Platí! Nech mě si sbalit věci.~
+
+//New Kicked Out Dialogue if Clara courting Anomen, goes to CC
+@87 /*Clara*/ = ~Dobře, půjdu do Měděné koruny.~
+@88 /*Clara*/ = ~Neotálej příliš dlouho s návštěvou, Anomene.~
+@89 /*Anomen*/ = ~Dávám ti své slovo. Prosím, buď opatrná. Nelíbí se mi představa dámy samotné na takovém místě.~
+@90 /*Clara*/ = ~Je milé, že se bojíš, ale umím se o sebe postarat.~
+@91 /*Clara*/ = ~Nemůžu dovolit, aby na mě můj drahý Anomen zapomněl.~
+@92 /*Clara*/ = ~Na viděnou, <CHARNAME>.~

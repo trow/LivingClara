@@ -1,0 +1,9 @@
+//Final Solaris Conversation
+@1 /*Clara*/ = ~Wow, <CHARNAME>, masz szansę stać się bogiem i zostawić to wszystko za sobą. Kiedy wybierzesz potężną moc, nie zapominaj o nas, małych śmiertelnikach, którzy pomogli ci to osiągnąć.~
+
+//Hexxat Talk
+@2 /*Hexxat*/ = ~Wybacz mi, Klaro... To jedyna droga.~ [OH81268]
+@3 /*Clara*/ = ~Śpiąca... obudziła się! Pani, zrobiłam wszystko, co kazałaś – proszę, pozwól mi żyć!~ [OH81267]
+@4 /*Clara*/ = ~Nie, już mnie nie kontrolujesz! Nie jestem twoją niewolnicą!~
+@5 /*Hexxat*/ = ~Nie potrzebuję niewolników; żyję.~
+@6 /*Hexxat*/ = ~Ty też żyjesz. Cieszmy się tym dniem.~

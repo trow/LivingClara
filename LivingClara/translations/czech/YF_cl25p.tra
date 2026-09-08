@@ -1,0 +1,20 @@
+//If you kick out Clara
+@0 /*Clara*/ = ~Takže tak to má být?~
+@1 /*Player*/ = ~Ne, chci, abys zůstala.~
+@2 /*Player*/ = ~Počkej tady. Vrátím se pro tebe.~
+@3 /*Player*/ = ~Vrať se do mého kapesního plánu. Najdu tě tam později.~
+@4 /*Clara*/ = ~No, skvěle. Nechat mě v pekle. Tohle místo je příšerné, takže se radši vrať brzo.~
+@5 /*Clara*/ = ~Dobře. Počkám. Ale radši se vrať brzo.~
+@6 /*Clara*/ = ~No, skvěle. Poslat mě zpátky do pekla, když už nejsem potřeba. Tvůj kapesní plán je strašně nudný, takže se radši vrať brzo!~
+
+//If she's waiting for you in PP
+@7 /*Clara*/ = ~Ahoj, <CHARNAME>. Můžu *prosím* odsud odejít?~
+@8 /*Player*/ = ~Ano. Pojď.~
+@9 /*Player*/ = ~Promiň, Kláro. Zatím tě nepotřebuji.~
+@10 /*Clara*/ = ~Konečně! Pojďme!~
+@11 /*Clara*/ = ~No, skvěle. Půjdu si popovídat s Cespenarem. Vypráví mi nějaké příběhy o Pekelných plánech – docela ujdou.~
+
+//Not in PP
+@12 /*Clara*/ = ~Ahoj, <CHARNAME>. Přišel sis pro mě?~
+@13 /*Player*/ = ~Promiň, Kláro. Musíš počkat.~
+@14 /*Clara*/ = ~Dobře, <CHARNAME>, počkám tady. (Dokud se neobjeví lepší nabídka.)~

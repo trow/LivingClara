@@ -1,0 +1,24 @@
+@1 /*Hexxat Dead- create bag*/ = ~Derrotas al vampiro, pero se convierte en niebla y desaparece rápidamente. En el lugar donde estaba solo queda una bolsa vieja que no tuvo tiempo de llevarse.~
+@2 /*Hexxat Dead- have bag but not stake*/ = ~Siguiendo el rastro de olor de la bolsa, descubres que el vampiro se ha refugiado en este ataúd tras su derrota. Si tuvieras una estaca de madera, podrías intentar destruirlo definitivamente.~
+@3 /*Hexxat dead- have bag and stake*/ = ~A medida que el hechizo surte efecto, la fuerza vital disipada es canalizada hacia el cuerpo de la pobre víctima, y su respiración regresa.~
+@4 /*Journal*/ = ~La tumba de Dragomir era una trampa. Aquella a quien conocía como Hexxat era un sirviente bajo el control de un vampiro, que deseaba hablar conmigo. Pero yo no negocio con monstruos. Maté al vampiro y liberé el alma de esa chica. Esperemos que ahora esté más dispuesta a hablar.~
+
+@11 = ~Clavar la estaca de madera en su inmundo corazón.~
+@12 = ~Por ahora, no tocarlo.~
+@13 = ~Ir a buscar una estaca primero.~
+@20 = ~La fuerza vital de esta pobre víctima ha sido completamente drenada. Ahora que el culpable ha sido destruido, la vitalidad robada se ha disipado. Quizás un hechizo de Restauración o una magia similar podría ayudar.~
+@21 = ~Pedir a <PLAYER1> que lance Restauración menor.~
+@22 = ~Pedir a <PLAYER2> que lance Restauración menor.~
+@23 = ~Pedir a <PLAYER3> que lance Restauración menor.~
+@24 = ~Pedir a <PLAYER4> que lance Restauración menor.~
+@25 = ~Pedir a <PLAYER5> que lance Restauración menor.~
+@26 = ~Pedir a <PLAYER6> que lance Restauración menor.~
+@30 = ~Usar un pergamino de Restauración.~
+@31 = ~Pedir a <PLAYER1> que lance Restauración.~
+@32 = ~Pedir a <PLAYER2> que lance Restauración.~
+@33 = ~Pedir a <PLAYER3> que lance Restauración.~
+@34 = ~Pedir a <PLAYER4> que lance Restauración.~
+@35 = ~Pedir a <PLAYER5> que lance Restauración.~
+@36 = ~Pedir a <PLAYER6> que lance Restauración.~
+@40 = ~Por ahora, dejarla como está.~
+@41 = ~Ir a preparar el hechizo primero.~

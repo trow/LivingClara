@@ -1,0 +1,59 @@
+//Imoen Book Banter
+@1 /*Imoen*/ = ~Oye... ¿qué libro es ese que estás leyendo?~
+@2 /*Neera*/ = ~¡"El Grimorio de la Aniquilación Absoluta"! ¡Te encantará!~
+@3 /*Imoen*/ = ~"...traducido del gnomo e incluyendo todos los diagramas originales." Ooh, qué emocionante.~
+@4 /*Imoen*/ = ~¿Puedo mirar por encima de tu hombro?~
+@5 /*Neera*/ = ~¡Claro! Acércate. Así me ayudas a entender algunos pasajes, que no lo estoy captando todo.~
+
+//Nalia Book Banter
+@6 /*Nalia*/ = ~Neera, no dejas de leer ese libro en cada momento libre. ¿Qué es?~
+@7 /*Neera*/ = ~¿Esto? Es "El Grimorio de la Aniquilación Absoluta". ¡Es genial!~
+@8 /*Neera*/ = ~Pero no estoy segura de entenderlo todo y no quiero equivocarme.~
+@9 /*Neera*/ = ~¿Quieres echarle un vistazo un rato?~
+@10 /*Nalia*/ = ~¿En serio puedo? Sería maravilloso. Recuerdo los libros de conjuros en la biblioteca de mi padre... tantas horas felices...~
+@11 /*Nalia*/ = ~¡Gracias, Neera!~
+
+//Aerie Book Banter
+@12 /*Aerie*/ = ~¿E-es un libro en gnomo? Se parece a los que usaba mi tío Quayle para enseñarme.~
+@13 /*Aerie*/ = ~¿Tú también lees gnomo?~
+@14 /*Neera*/ = ~¿Yo? No, está traducido al común. Pero tiene todas las ilustraciones originales. ¿Ya has leído este?~
+@15 /*Aerie*/ = ~"El Grimorio de la Aniquilación Absoluta". ¿Estás segura de que es seguro?~
+@16 /*Neera*/ = ~¡Claro que no! ¡Trata sobre aprovechar el poder del universo para hacer estallar cosas!~
+@17 /*Neera*/ = ~¿Quieres pedírmelo prestado cuando no lo esté leyendo?~
+@18 /*Aerie*/ = ~¿En serio puedo? ¡Gracias, Neera! A veces... a mí también me gusta hacer explotar cosas.~
+
+//CN Book Banter
+@19 /*Neera*/ = ~<CHARNAME>, Clara me ha dado un libro que creo que te interesaría.~
+@20 /*Neera*/ = ~Se llama "El Grimorio de la Aniquilación Absoluta". Si quieres, puedes pedírmelo prestado cuando no lo esté leyendo.~
+@21 /*CHARNAME*/ = ~Gracias, Neera, le echaré un vistazo.~
+@22 /*CHARNAME*/ = ~No, gracias, Neera, ya lo he leído. ¡En la versión original en gnomo!~
+@23 /*CHARNAME*/ = ~Lo siento, Neera, no me gusta leer.~
+@24 /*Neera*/ = ~¡De nada! Me debes un favor.~
+@25 /*Neera*/ = ~Claro que sí... Bueno, ¡está bien!~
+@26 /*Neera*/ = ~Ya me lo imaginaba. Allá tú.~
+
+//Edwin Book Banter
+@27 /*Edwin*/ = ~"El Grimorio de la Aniquilación Absoluta", ¿traducido del gnomo?~
+@28 /*Edwin*/ = ~¿Qué, alguien se quedó dormido en sus clases de gnomo?~
+@29 /*Neera*/ = ~¡Nunca aprendí gnomo, y qué!~
+@30 /*Neera*/ = ~¿Por qué me fastidias, por cierto? No me digas que quieres pedírmelo prestado.~
+@31 /*Edwin*/ = ~¿Pedir prestado tu "Grimorio para Tontos"? No, ya he leído la versión auténtica... en gnomo, por supuesto.~
+@32 /*Neera*/ = ~¡Eres un...!~
+
+//Jan Book Banter
+@33 /*Jan*/ = ~Vaya, ¿es "El Grimorio de la Aniquilación Absoluta"? Nunca lo he leído.~
+@34 /*Neera*/ = ~¿Quieres pedírmelo prestado?~
+@35 /*Jan*/ = ~¿Tienes una versión traducida del gnomo?~
+@36 /*Jan*/ = ~Claramente no te has dado cuenta, querida Neera, pero yo leo gnomo, así que habría tenido más sentido que me consiguieras una versión traducida al gnomo.~
+@37 /*Neera*/ = ~¡Lo sé! No lo cogí para...~
+@38 /*Jan*/ = ~Supongo que podría retraducirlo yo mismo al gnomo. Ya lo veo: "El Grimorio de la Aniquilación Absoluta, traducido del gnomo e incluyendo todos los diagramas originales, ahora retraducido al gnomo por Jan Jansen."~
+@39 /*Jan*/ = ~Tiene todos los ingredientes para ser un éxito de ventas. Bueno, entre vosotros los humanos no, claro, ya que ninguno de vosotros lee gnomo...~
+@40 /*Neera*/ = ~¡Soy una semielfa!~
+@41 /*Jan*/ = ~Tampoco os veo a vosotros, los elfos, comprándolo, siendo tan snobs como sois para aprender gnomo.~
+@42 /*Neera*/ = ~¡SOY UNA SEMIELFA! ¡Solo uno de mis padres era elfo!~
+@43 /*Jan*/ = ~Aunque tampoco he aprendido élfico. De hecho, no sé cómo hemos podido mantener esta conversación, ya que yo hablo gnomo y tú parloteas en élfico.~
+@44 /*Neera*/ = ~¡TO-DOS. HA-BLA-MOS. EN. CO-MÚN!~
+@45 /*Jan*/ = ~Otra vez con eso, querida, como si pudiera entenderte.~
+@46 /*Jan*/ = ~Pero te tomaré prestado el libro, ¡gracias!~
+@47 /*Jan*/ = ~Oh, mira, ¡está en común! Quizás no lo sepas, ya que soy un gnomo y no entiendes ni una palabra de lo que digo, pero yo también sé leer en común.~
+@48 /*Neera*/ = ~¡Aaaaaaagh!~

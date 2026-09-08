@@ -1,0 +1,912 @@
+//1st Jan Banter - SOA version
+@1 /*Clara*/ = ~Jene, můžeš mi pomoci?~
+@2 /*Jan*/ = ~Samozřejmě, má drahá. V čem je problém?~
+@3 /*Clara*/ = ~Ach, ty jsi tak úžasný s magií a svými dovednostmi... a já mám hrát zlodějku, zneškodňovat pasti, otevírat zámky a tak dále...~
+@4 /*Jan*/ = ~A? Není dobré nechat větu viset ve vzduchu, drahoušku, nikdy nevíš, co se může stát.~
+@5 /*Jan*/ = ~Jej, strejda mého bratrance z třetího kolene, Dimbel, míval ve zvyku říkat takové půlvěty. Nakonec se všechny ty půlvěty nashromáždily a vybuchly mu z uší.~
+@6 /*Clara*/ = ~Pokusím se tomu vyhnout. Ale všimla jsem si, že máš takové speciální oblečení a vychytávky, které ti pomáhají, a říkala jsem si...~
+@7 /*Jan*/ = ~Už zase; pokud budeš pokračovat, budu žádat, abys náš rozhovor vedla z větší dálky.~
+@8 /*Clara*/ = ~Chci takové věci jako ty! Můžeš mi je dát? Prosím?~
+@9 /*Jan*/ = ~To není maličkost, drahá Kláro. Vidíš, každý z mých předmětů je vyroben speciálně pro mě, pro moje použití. Pokud chceš vyrobit předměty pro sebe, které budeš používat ty, bude to chtít trochu práce.~
+@10 /*Jan*/ = ~Musí se zdolat hory, prozkoumat hrobky, ztracené úlomky starověkých civilizací musí být spojeny do tkaniny prosycené magií sedmi astrálních rovin.~
+@11 /*Clara*/ = ~Hm... páni? Tak co mám dělat?~
+@12 /*Jan*/ = ~No, zaprvé, Kláro, i když jsi velmi obratná, tvá obratnost není tak obratná, jak by měla být.~
+@13 /*Clara*/ = ~Musím být obratnější! To zvládnu.~
+@14 /*Clara*/ = ~Jak to mám udělat?~
+@15 /*Jan*/ = ~Pomohu ti. Obratnost nepřichází přes noc. Nemůžeš čekat, že se jen tak pobavíš o obratnosti a budeš ji mít. Obratnosti se dosahuje praxí.~
+@16 /*Jan*/ = ~Krok první: někdo do tebe musí hodit nůž, šipku nebo sekeru a ty se pokusíš uhnout stranou a chytit ji.~
+@17 /*Jan*/ = ~Neboj se, holčičko; na to máme kněze.~
+
+//1st Mazzy Banter
+@18 /*Clara*/ = ~Mazzy, můžeš mi s něčím pomoci?~
+@19 /*Mazzy*/ = ~Samozřejmě, Kláro, o co jde?~
+@20 /*Clara*/ = ~Pořád bojujeme, je to nebezpečné a já nechci umřít!~
+@21 /*Mazzy*/ = ~To je oprávněný strach. Doporučuji ti držet se dál od boje zblízka a střílet na nepřátele šípy.~
+@22 /*Clara*/ = ~Ale když to dělám, vždycky se bojím, že zasáhnu špatného.~
+@23 /*Mazzy*/ = ~Potřebuješ trénink. Naučím tě ve volném čase.~
+@24 /*Mazzy*/ = ~Nejprve máš tendenci příliš napínat ramena...~
+
+//1st Viconia Banter
+@25 /*Clara*/ = ~Viconie, jsi tak krásná...~
+@26 /*Viconia*/ = ~To je první pravda, kterou jsi řekla za několik dní.~
+@27 /*Clara*/ = ~Já... nerozumím.~
+@28 /*Viconia*/ = ~Jsi lež. Tvá slova jsou lež. Tvé pohyby jsou lež. Dokonce i tvůj hlas je lež.~
+@29 /*Viconia*/ = ~Když mluvíš, není v tom žádný střed, žádný bod, kterého bych se mohla chytit. Všechno na tobě je iluze.~
+@30 /*Viconia*/ = ~Proč? Nevidím v tom žádný účel.~
+@31 /*Clara*/ = ~No, vždycky jsem ráda hrála... předstírala, že jsem někdo jiný. Chtěla bych být velkou divadelní herečkou a cestovat po světě od jeviště k jevišti.~
+@32 /*Viconia*/ = ~Takže tvůj život je lež vytvořená pro tvé potěšení?~
+@33 /*Clara*/ = ~Život je divadlo, Viconie. Všichni jsme herci.~
+@34 /*Viconia*/ = ~Dobře. Vraťme se k důvodu, proč jsi mě obtěžovala... Lichotíš mi, takže něco potřebuješ. Co to je?~
+@35 /*Clara*/ = ~Jed. Nauč mě vyrábět jedy. Jsi drowka a všichni vědí, že drowové mají nejlepší jedy.~
+@36 /*Viconia*/ = ~Všichni také vědí, že unáším děti z postelí a obětuji je svým temným bohům.~
+@37 /*Viconia*/ = ~Většina věcí, které jsou „všeobecně známé“, jsou nesmysly. Zbytek je nespolehlivý.~
+@38 /*Clara*/ = ~Takže mě naučíš vyrábět jedy?~
+@39 /*Viconia*/ = ~Viděla jsi mě někdy vyrábět jed? Jak víš, že to opravdu umím?~
+@40 /*Clara*/ = ~Ano nebo ne?~
+@41 /*Viconia*/ = ~Ano, ale musíš mi slíbit... něco.~
+@42 /*Clara*/ = ~Dobře, dobře. Cokoli chceš. Jak začneme?~
+@43 /*Viconia*/ = ~Dám ti seznam ingrediencí. Můžeš je sbírat během cesty. Až je všechny nasbíráš, najdeme vhodné místo na výrobu tvého jedu.~
+
+//1st Dorn Banter
+@44 /*Clara*/ = ~Dorne, děláte to všichni takhle? Hledáte smrt znovu a znovu?~
+@45 /*Dorn*/ = ~Obvykle ano. A taky hodně chození. Často nás pošle jedna osoba, abychom našli druhou, která nás pošle ke třetí. Je to překvapivě nudné.~
+@46 /*Clara*/ = ~Nebojím se nudných věcí. Ale toho ostatního... Budeš mě chránit, že? Jsi tak silný a divoký. Hodil by se mi někdo jako ty.~
+@47 /*Dorn*/ = ~Poslyš, holčičko. Ochrana není to, co dělám. Jen mi nechoď z cesty a nejspíš tě náhodou nezabiju.~
+@48 /*Clara*/ = ~Prosím? Vsadím se, že bys byl skvělý ochránce, kdybys měl někoho, na kom ti záleží.~
+@49 /*Clara*/ = ~Můžu být tím někým. Opravdu nechci umřít.~
+@50 /*Dorn*/ = ~Přestaň mluvit. Už od tebe nechci slyšet tu otravnou řeč.~
+@51 /*Dorn*/ = ~„Jsem bezmocná žena, takže si musím najít silného bojovníka, aby mě chránil.“ Ne!~
+@52 /*Dorn*/ = ~Nebuď taková k ničemu a slabá. Moje matka taková byla, a proto mě měla.~
+@53 /*Dorn*/ = ~To chceš? Nějaké ubohé monstrum – polovičního bastarda? Jdi pryč.~
+@54 /*Clara*/ = ~Dobře! Ale protože moje matka nespala s orky, jsem hubená, křehká lidská bytost a potřebuji tvou pomoc. Abych zesílila.~
+@55 /*Dorn*/ = ~Správně. Jak můžu pomoci?~
+@56 /*Clara*/ = ~Jed! Natíráš zbraň jedem. Nauč mě jak.~
+@57 /*Dorn*/ = ~Dobře. Sám už ho skoro nemám, takže nasbíráme víc ingrediencí a pak ti ukážu, jak na to.~
+
+//1st Korgan Banter
+@58 /*Clara*/ = ~Korgane, mohl bys mi s něčím pomoci?~
+@59 /*Korgan*/ = ~Teď, holka, nemyslím si, že pomáhat lidem je to, co dělám.~
+@60 /*Korgan*/ = ~Kdybys řekla: „Korgane, pomůžeš mi někoho zabít?“ možná bychom si popovídali.~
+@61 /*Korgan*/ = ~Nemůžu pomáhat každé hubené, dlouhonohé, bezmocné princezně. Pak bych neměl čas na svoje věci.~
+@62 /*Clara*/ = ~Nejsem princezna!~
+@63 /*Korgan*/ = ~No, mluvíš jako princezna.~
+@64 /*Korgan*/ = ~„Korgane, mohl bys mi prosím s něčím pomoci?“~
+@65 /*Korgan*/ = ~Holka jako ty potřebuje tři sluhy, aby ti utřeli zadek.~
+@66 /*Clara*/ = ~Zkusme to znovu.~
+@67 /*Clara*/ = ~Korgane, pomoz mi, nebo tě jednou v noci, když budeš opilý, najdu a podříznu ti hrdlo od ucha k uchu a budu se smát, až se vykrvácíš.~
+@68 /*Korgan*/ = ~Mnohem lepší! Co pro tebe můžu udělat?~
+@69 /*Clara*/ = ~Potřebuji být stejně silná jako ty. Bojím se, že tady umřu.~
+@70 /*Korgan*/ = ~Jasně, že umřeš. Vy všichni umíráte.~
+@71 /*Korgan*/ = ~Jsi křehká, krátkověká, dlouhonohá bytost. Zabíjím tucet takových denně.~
+@72 /*Korgan*/ = ~Nemůžeš být tak silná jako já. Jsem trpaslík. Ty nejsi trpaslík. Trpaslíci zabíjejí, netrpaslíci umírají.~
+@73 /*Clara*/ = ~Dobře... ale co dělá trpaslíky tak odolnými? Možná bych tě mohla napodobovat a těžit z toho.~
+@74 /*Korgan*/ = ~Trpaslíci kopou! Holko, jestli chceš být silná jako trpaslík, musíš se naučit kopat!~
+@75 /*Clara*/ = ~Kopat co? Doly?~
+@76 /*Korgan*/ = ~Hroby!~
+@77 /*Korgan*/ = ~Drž se mě, kdykoli ten lenoch <CHARNAME> odpočívá, půjdeme se projít. Najdu dlouhé větve a ty vykopeš díry, abys je zapíchla do země.~
+@78 /*Clara*/ = ~Jako... lupiče, co na nás útočí?~
+@79 /*Korgan*/ = ~Každého, kdo nám stojí v cestě! Nebo bohatě vyhlížející. Nebo křivonohé. Nebo příliš vysoké. Nebo na mě divně koukající.~
+@80 /*Korgan*/ = ~Já je sekám. Ty je zahrabáváš. Nebo je bodáš nožem, když odpočívám, a pak zahrabáváš. Nemůžu zabíjet pořád.~
+@81 /*Clara*/ = ~A... to mě posílí?~
+@82 /*Korgan*/ = ~No, určitě tě to neoslabí. *ha ha*~
+@83 /*Korgan*/ = ~Počkej a uvidíš. Ubodej sto dlouhonohých, vykopej sto hrobů a odnes všechny jejich peníze, a budeš silná jako trpaslík raz dva.~
+
+//2nd Jan Banter
+@84 /*Clara*/ = ~Jene, Jene, už to umím! Podívej!~
+@85 /*Clara*/ = ~Vystřel do mě jeden ze svých šípů! Střílej!~
+@86 /*Clara*/ = ~Vidíš, jen udělám krok stranou a chytím. Ještě jednou!~
+@87 /*Clara*/ = ~Krok stranou a chytit! Dělala jsem to se všemi. Nejprv mě trefili šestkrát, ale teď je to moje druhá přirozenost!~
+@88 /*Jan*/ = ~Skvěle, teď jsi připravená!~
+@89 /*Clara*/ = ~Ano! Jsem připravená! K čemu jsem připravená?~
+@90 /*Jan*/ = ~Na nošení páru Jansenských Mikro-Makro-Spektroskopů; upravil jsem je speciálně pro tebe. Víš, že jsou to oficiální spektroskopy Fialového bratrstva?~
+@91 /*Clara*/ = ~Udělal jsi je?! Ach, Jene, jsou úžasné!~
+@92 /*Clara*/ = ~Co dělají?~
+@93 /*Jan*/ = ~Zaprvé, díky nim vypadají pasti, jako by byly obklopené obrovským červeným obrysem.~
+@94 /*Jan*/ = ~Cestou ti ukážeme víc funkcí.~
+
+//2nd Mazzy Banter
+@95 /*Clara*/ = ~Mazzy, myslím, že to už umím. Sleduj, jak trefím tu myš!~
+@96 /*Clara*/ = ~Mám ji! Myší maso k obědu!~
+@97 /*Mazzy*/ = ~Maso získané vlastníma rukama je vždycky nejlepší. A ano, učíš se rychle.~
+
+//2nd Viconia Banter - actually triggered
+@98 /*Clara*/ = ~Dobře, smíchala jsem modrou se zelenou.~
+@99 /*Viconia*/ = ~Dobře. Teď... opatrně slij směs do láhve.~
+@100 /*Clara*/ = ~Slito. Co teď? Proč stojíš tak daleko?~
+@101 /*Viconia*/ = ~Tvůj úkol je hotov. Tohle je jeden z prvních jedů, které jsem se naučila. Výsledný roztok je vysoce jedovatý; učí respektu a opatrnosti během celého procesu.~
+@102 /*Viconia*/ = ~Byla jsi trochu nedbalá a kapka, která stříkla na kůži tvého krku, stačí k zabití.~
+@103 /*Clara*/ = ~Co? Jak to zneutralizovat? Pomoz mi! Prosím!~
+@104 /*Viconia*/ = ~Zase pomoc? Jsi nenasytné dítě. Dobře, prozraď mi nějaké tajemství, ale musíš mluvit pravdu.~
+@105 /*Clara*/ = ~Tajemství? O čem mluvíš?~
+@106 /*Viconia*/ = ~Tajemství je to, co nikdo neví. Pospěš si, nemáš mnoho času.~
+@107 /*Clara*/ = ~Zradila jsem dívku ze svého městečka ve vězení v Balduru. Vzala na sebe veškerou vinu.~
+@108 /*Viconia*/ = ~To není ve vězení nic neobvyklého.~
+@109 /*Clara*/ = ~Ale nikdo neví, že jsem důkazy podstrčila já.~
+@110 /*Viconia*/ = ~Jak jsi to udělala?~
+@111 /*Clara*/ = ~Už od začátku jsem jí ukradla věci a schovala je mezi lup.~
+@112 /*Clara*/ = ~Řekla jsem ti tajemství. Nenech mě zemřít.~
+@113 /*Viconia*/ = ~Co se stalo s tou dívkou?~
+@114 /*Clara*/ = ~Nevím.~
+@115 /*Viconia*/ = ~Nevíš?~
+@116 /*Clara*/ = ~Možná ji oběsili? Možná prodali obchodníkům s otroky? Opravdu nevím.~
+@117 /*Clara*/ = ~Teď mě prosím zachraň...~
+@118 /*Viconia*/ = ~Hledala jsi ji potom?~
+@119 /*Clara*/ = ~Po útěku z Balduru jsem se nikdy nevrátila.~
+@120 /*Clara*/ = ~Tak to bolí... Umírám, že?~
+@121 /*Viconia*/ = ~Ano, ale neboj se. Vždycky dodržím sliby.~
+@122 /*Viconia*/ = ~<CHARNAME>, vypadá to, že naše malá kapsářka vydechla naposledy. Musíme ji vzkřísit.~
+
+//On Raise
+@123 /*Clara*/ = ~Nechala jsi mě zemřít!~
+@124 /*Viconia*/ = ~Přestaň naříkat. Žiješ, ne? Naučila ses něco?~
+@125 /*Clara*/ = ~Ano, ale bolelo to!~
+@126 /*Clara*/ = ~Nicméně... teď vím, jak vyrobit jed. Jed se zpožděným účinkem, zabíjející po kontaktu s kůží. Ach, děkuji ti, Viconie. Děkuji.~
+@127 /*Viconia*/ = ~Neděkuj mi. Je téměř stejně nebezpečný pro uživatele jako pro cíl. Nepočítej s tím, že tě budu křísit donekonečna.~
+@128 /*Clara*/ = ~Budu opatrná! Budu! Koho mám zabít jako prvního?~
+@129 /*Viconia*/ = ~Tento svět je plný zbytečných rivvin (lidí). Jsem si jistá, že najdeš někoho, kdo si smrt zaslouží.~
+
+//2nd Dorn Banter
+@130 /*Clara*/ = ~Dobře, máme ten jed. Co teď? Jak jím potřít zbraň, aniž bychom zemřeli?~
+@131 /*Dorn*/ = ~Velmi opatrně. Ten jed je velmi lepkavý a musí se dostat do krve nepřítele, takže ho nanášej na část zbraně, která řeže kůži.~
+@132 /*Dorn*/ = ~Měla bys mít vždy po ruce láhev protijedu, pro případ, že by ses náhodou pořezala. Když ho vypiješ dostatečně rychle, přežiješ.~
+@133 /*Clara*/ = ~To je docela jednoduché. Díky!~
+@134 /*Clara*/ = ~...~
+@135 /*Clara*/ = ~Hm, můžu se tě zeptat? Připadám ti přitažlivá, že?~
+@136 /*Dorn*/ = ~Velmi.~
+@137 /*Clara*/ = ~Tak proč jsi to dřív nehrál? Mohl jsi mě mít... dokonce i víckrát... ale přímo jsi mě odmítl.~
+@138 /*Dorn*/ = ~Každá děvka v Amnu si se mnou lehne, když jí zaplatím dost. Víš, jaké je to spát s někým, kdo to nechce? S někým, kdo k tobě cítí odpor?~
+@139 /*Dorn*/ = ~Samozřejmě ne. Taková hezká mladá holka jako ty? Každý muž, s nímž jsi spala, po tobě toužil každým nádechem. Jsi ztělesněním touhy.~
+@140 /*Clara*/ = ~Ach. No... předstírala bych velmi dobře. Nebyl bys zklamaný.~
+@141 /*Dorn*/ = ~Ha. Mám dost lží a podvodů. Aspoň takhle oba víme, na čem jsme.~
+@142 /*Clara*/ = ~Víš co, Dorne? Pod maskou zlého zabijáka jsi docela milý chlap.~
+@143 /*Dorn*/ = ~Ha ha. Povraždil jsem stovky. Sedláky. Ženy. Děti. Kdyby bylo třeba, bez váhání bych zabil i tebe.~
+@144 /*Clara*/ = ~Ano... ale myslím, že by ti to bylo líto.~
+
+//2nd Korgan Banter
+@145 /*Clara*/ = ~Funguje to, Korgane, opravdu se cítím silnější.~
+@146 /*Korgan*/ = ~Ha, jsi slabší než dřív. Poslední idiot tě málem udusil holýma rukama.~
+@147 /*Clara*/ = ~Byl dvakrát tak velký a nedokázal to. Vnitřnosti mu visely. Zhroutil by se dřív, než bych zemřela já.~
+@148 /*Korgan*/ = ~No, to už se nedozvíme, holko, protože jsem mu prosekán sekeru skrz helmu až po rukojeť.~
+@149 /*Korgan*/ = ~Škoda dobré helmy.~
+@150 /*Korgan*/ = ~Co potřebuješ, holka, je pořádná rvačka. Ne to, co děláme s opilými sedláky a námořníky. Potřebuješ, aby ti krvácely klouby a aby ses stejnou měrou rozdávala.~
+@151 /*Clara*/ = ~Takže mám prostě vejít do hospody a začít rvačku? Já jsem Karolina Ludovika Audra Rozána Alexandra Stříbrný štít z Beregostu! Mám pověst, víš?~
+@152 /*Korgan*/ = ~Takže potřebuješ hospodu, kde tě nikdo nezná...~
+@153 /*Korgan*/ = ~Potřebuješ trpasličí hospodu! Se silným trpasličím pivem a silnými trpasličími ženami! Jedna z nich si s tebou ráda zapaří.~
+@154 /*Clara*/ = ~Teď si vymýšlíš. Tady žádné trpasličí hospody nejsou.~
+@155 /*Korgan*/ = ~Všude jsou trpasličí hospody. Zastavíme se v té nejbližší. Napít! Najít ženskou!~
+
+//3rd Jan Banter
+@156 /*Clara*/ = ~Ty brýle jsou úžasné, Jene! Vidím pasti! Vidím skrz zdi! Vidím skrz závěsy, okna a oblečení!~
+@157 /*Clara*/ = ~Někdy to poslední způsobí, že vidím věci, které nechci, ale stojí to za to!~
+@158 /*Clara*/ = ~Jsi nejlepší vynálezce všech dob! Dej mi něco dalšího.~
+@159 /*Jan*/ = ~Vynálezy nerostou na stromech, holčičko. Teda, kromě jednou, když můj bratranec z pátého kolene Bimpnotten vypěstoval strom vynálezů. To byl úžasný čin. Škoda, co se mu pak stalo.~
+@160 /*Clara*/ = ~Co se stalo?~
+@161 /*Jan*/ = ~Vynalezl přístroj, který viděl časem. Uviděl stvoření světa. Zbláznil se. Stává se to zhruba každou třetí generaci.~
+@162 /*Clara*/ = ~A ten strom?~
+@163 /*Jan*/ = ~Pokáceli ho na topení; byla krutá zima. Tak co pro tebe můžu udělat?~
+@164 /*Clara*/ = ~Další skvělé věci!~
+@165 /*Jan*/ = ~Ha, líbí se mi tvoje nadšení. Možná proto jsem pro tebe už připravil tyhle Jansenské Technicko-Zlodějské Rukavice.~
+@166 /*Clara*/ = ~Ááá... třpytivé!~
+@167 /*Jan*/ = ~Nejen třpytivé, ale i užitečné. S těmito rukavicemi můžeš ukrást oblečení přímo ze zad muže.~
+@168 /*Clara*/ = ~Hm, obvykle je snazší nechat muže, aby si je sundali dobrovolně, ale díky! Jsem si jistá, že najdu využití.~
+
+//3rd Dorn Banter - triggered in d script
+@169 /*Dorn*/ = ~Většina lidí by mě nechala v klidu se vykoupat.~
+@170 /*Clara*/ = ~Jak jsi věděl, že tu jsem?~
+@171 /*Dorn*/ = ~Měl jsem tušení. V nejhorším případě by nikdo neodpověděl. Je to otázka, na kterou se nedá prohrát.~
+@172 /*Dorn*/ = ~Co tady děláš? Myslel jsem, že jsi mě přišla zabít, ale kdyby to tak bylo, nevedli bychom tento rozhovor.~
+@173 /*Clara*/ = ~Dívám se, jak se myješ. Ráda se dívám na silné nahé muže, ačkoli většina z nich není tak podezíravá.~
+@174 /*Dorn*/ = ~To proto, že jsou buď přitažliví, nebo blázni. Já nejsem ani jedno. Nech mě být.~
+@175 /*Clara*/ = ~Vždycky se podceňuješ, Dorne. Jsi přitažlivější a hloupější, než si myslíš.~
+@176 /*Dorn*/ = ~Ha. Moje vlasy... moje zuby... můj zápach... Nepotřebuji tvé lži. Odejdi.~
+@177 /*Clara*/ = ~Takže nejsi člověk. No a co? Kdybych žila s elfy, byla bych ohavná, ale většinu času trávím v Athkatle mezi smradlavými děvkami a žabovitými selkami, takže ve srovnání s nimi vypadám docela dobře.~
+@178 /*Clara*/ = ~Měl bys žít s orky; vsadím se, že všechny orčí ženy by po tobě slintaly.~
+@179 /*Dorn*/ = ~Žil. A slintaly. Moje dny byly plné boje a každou noc jsem měl jednu nebo dvě ženy.~
+@180 /*Dorn*/ = ~Orčí ženy jsou opravdu ošklivé a moc nemluví. Navíc bojovat s každým orčím mužem, kterého potkám, abych se prosadil, rychle omrzí.~
+@181 /*Clara*/ = ~Takže jsi odešel žít mezi lidi, kde jsi lépe přijímán? Ha. To je jen smutné.~
+@182 /*Clara*/ = ~Podívej, jsi chlupatý, ale mnoho chlapů je chlupatých. Ty zuby možná ztěžují líbání, ale líbání je přeceňované. A většina bojovníků rozhodně nevoní po růžích; přinejmenším se myješ častěji než ostatní.~
+@183 /*Clara*/ = ~Opravdu už musím jít. Řekla jsem, že zjišťuji situaci, a už tu nejsem dlouho.~
+@184 /*Clara*/ = ~Kromě toho mám pověst na udržení... nemůžu celý den čumět na nahé chlapy.~
+@185 /*Dorn*/ = ~Úsměv. Tak jdi. Stejně už jsem skoro hotov.~
+@186 /*Clara*/ = ~Už jsem odešla.~
+@187 /*Clara*/ = ~Nevidíš mě, ale budu tě pozorovat.~
+
+//3rd Korgan Banter
+@188 /*Clara*/ = ~Ach, cítím se hrozně. Všechno mě bolí. Co bylo včera?~
+@189 /*Korgan*/ = ~Nic si nepamatuješ? Ha, měl jsem vědět, že trpasličí pivo je pro tebe příliš silné.~
+@190 /*Clara*/ = ~Dokázala jsem pít s těmi nejlepšími, dej mi chvíli, abych si vzpomněla. Zavázal jsi mi oči a šli jsme do hospody. Byla jsem tam jediná netrpaslice. Všichni mě nenáviděli.~
+@191 /*Korgan*/ = ~Samozřejmě. Dlouhonozí nejsou v trpasličích hospodách vítáni. Trpasličí hospody jsou pro trpaslíky!~
+@192 /*Clara*/ = ~Dal jsi mi nejtvrdší nápoj, jaký jsem kdy ochutnala, a řekl jsi mi, ať si začnu s ženou u vedlejšího stolu, která vypadala obzvlášť nepřátelsky.~
+@193 /*Clara*/ = ~Vypadala, jako by si mohla poradit s medvědem.~
+@194 /*Korgan*/ = ~A taky si poradila! Jednou porazila grizzlyho obrovskou klobásou.~
+@195 /*Korgan*/ = ~Dokonce o tom složili píseň: „S klobásou Gredy si medvěd neporadí.“ Krásná balada.~
+@196 /*Clara*/ = ~Odmítla jsem, tak jsi mi dal další džbán té hrozné hnědé tekutiny, a pak další. Pak se všechno trochu rozmazalo...~
+@197 /*Korgan*/ = ~Bylo to pivo! Pravé pivo, ne ta slabá voda, co pijete vy, dlouhonozí. Po třetím džbánu jsi měla dost odvahy promluvit s Gredou. Neslyšel jsem, cos řekla, ale ona tě srazila úderem do břicha.~
+@198 /*Clara*/ = ~Dobře... to si pamatuju. Zvracela jsem jí na boty. Pak jsem se jí pokusila zasadit nejsilnější úder.~
+@199 /*Clara*/ = ~Bylo to jako udeřit do žuly. Myslela jsem, že mám zlomenou ruku.~
+@200 /*Clara*/ = ~Pak si pamatuju jen myšlenku: „Žebra se mi lámou. Umírám.“~
+@201 /*Korgan*/ = ~A umírala jsi! Zlámala ti skoro všechny kosti, rozbila ti vnitřnosti. Plivala jsi krev a snažila se vzdorovat jako slabá holčička.~
+@202 /*Korgan*/ = ~Dav jásal Gredě při každé ráně. Sázel jsem, jak jsem jen mohl, protože nikdo nevsázel na to, že přežiješ.~
+@203 /*Korgan*/ = ~Ale ty jsi jim všem ukázala. Nožem přímo do břicha! Greda to vůbec nečekala! Nesportovní, ale účinné.~
+@204 /*Korgan*/ = ~Pořád jsi byla v troskách, sotva ses hýbala a dýchala, a Greda krvácela na podlaze se zelenou pěnou u pusy. Dala jsi jí pěkný jed.~
+@205 /*Korgan*/ = ~Na vaše štěstí byli v hospodě tři kněží, takže jste obě přežily.~
+@2050 /*Korgan*/ = ~Gredu vyléčili snadno, ale s tebou měli problém. Nikdy předtím neléčili dlouhonohé. Báli se, že tě špatně spraví.~
+@206 /*Korgan*/ = ~Řekl jsem jim, ať se nebojí, že jsi vždycky chtěla být trpaslicí! A vyléčili tě jako trpaslici. Tlustší kosti! Víc svalů!~
+@207 /*Clara*/ = ~Vypadá moje tvář dobře? A zbytek těla... mám plnější ňadra?~
+@208 /*Korgan*/ = ~Měla jsi neskutečně ploché kozy. Teď máš kozy, na které by mohl být trpaslík pyšný!~
+@209 /*Korgan*/ = ~Ale neboj, tvář je stejně hezká jako předtím. Kosti se ti srostly, jizvy zmizely a pak jsi vyskočila na pult a začala se vrtět.~
+@210 /*Clara*/ = ~Tančila jsem? Pamatuju si jen zlomená žebra a mdloby. To je všechno.~
+@211 /*Korgan*/ = ~Jo, nechtěla jsi platit knězi ani hospodskému, takže jak ses vzpamatovala, svlékla jsi se a vyskočila na pult a začala se kroutit. Všichni se zbláznili.~
+@212 /*Korgan*/ = ~Nějakej bohatej idiot hodil 50 zlatých a křičel „ještě!“ a ty jsi po něm hodila další hadr.~
+@213 /*Korgan*/ = ~Tu noc ti nejmíň dvacet lidí strkalo prachy do podprsenky – vydělala jsi majlant!~
+@214 /*Clara*/ = ~Takže říkáš, že jsem trochu zatančila, shodila pár hadrů a vydělala 1200 zlatých? Heh... 1200 za noc je víc, než vydělávají nejoblíbenější děvky. Ale... nohy mě bolí, záda mě bolí – asi jsem si něco natáhla.~
+@215 /*Korgan*/ = ~Vlastně 700. Hospoda si bere svůj podíl. Tohle je tvá část; nechal jsem ti ji.~
+@216 /*Korgan*/ = ~Hospodský řekl, že se můžeš vrátit kdykoli.~
+@217 /*Clara*/ = ~Ach, ne... záda mě zabíjejí. Možná až budu zase zoufale potřebovat peníze.~
+@218 /*Korgan*/ = ~Až budeš chtít, najdi si mě.~
+
+//1st HaerDalis Talk
+@257 /*HaerDalis*/ = ~Považuji to za velmi působivé, má drahá vrabčice, jak přecházíš od jedné role ke druhé – od krásné dámy k vražedkyni a všemu mezi tím. Nebýt zásahu Hexat, byla bys zázrakem na jevišti.~
+@258 /*Clara*/ = ~Děkuji za kompliment, ale obávám se, že se mýlíš. Proč si myslíš, že jsem pracovala pro Stínové zloděje?~
+@259 /*Clara*/ = ~Než jsem byla posedlá, a tak dále, odmítli mě všechny athkatlské divadla, a to nejednou.~
+@260 /*HaerDalis*/ = ~Takže jsou slepí k talentu. Nebo je jejich slepota úmyslná. Při svých cestách Plány jsem málokdy viděl něco tak zlomyslného, jako herce snažící se uchopit poslední záblesk umírající slávy.~
+@261 /*HaerDalis*/ = ~Vskutku, herecká společnost může být stejně jedovatá jako hnízdo zmijí, s každým slovem chrlíc jed. Mnozí herci udělají cokoli, aby dostali své rivaly z jeviště, a ty se musíš naučit tančit tento tanec, aby tvůj hlas byl slyšet.~
+@262 /*HaerDalis*/ = ~Pokud budeš chtít, tento vrabec ti rád dá pár rad. Potřebuješ jen divadlo, které řekne „vítej“, a pak tvá hvězda zazáří na jevišti, jak jí bylo zjevně souzeno.~
+@263 /*Clara*/ = ~Oceňuji tu nabídku. Ale už nechci být herečkou. Moje cíle jsou teď vyšší.~
+@264 /*HaerDalis*/ = ~Ach, to je škoda. Budu se muset spokojit s pozorováním mnoha masek, které ukazuješ světu.~
+
+//1st Edwin Banter - male, no CN romance
+@265 /*Edwin*/ = ~Kláro! Jsi okouzlující. Zahřej mé lože této noci.~
+@266 /*Clara*/ = ~Ne. Proč bych to měla dělat?~
+@267 /*Edwin*/ = ~(Odmítá mě? To není možné!)~
+@268 /*Edwin*/ = ~Já jsem Edwin Odesseiron, nechápeš? Samotná tkáň vesmíru se ohýbá podle mého rozmaru! Mohu přivolat džiny a bytosti čistého ohně, aby zničily mé nepřátele!~
+@269 /*Clara*/ = ~To je hezké. Možná jsi skvělý čaroděj, ale jsi bohatý kupec žijící v přepychu? Nebo urozený pán, který by povýšil mé postavení? Nejsi ani zkušený žoldnéř, který by mě ochránil v boji.~
+@270 /*Clara*/ = ~Co bych z toho měla, kromě zklamání? Jsi příliš arogantní, abys byl dobrý v posteli.~
+@271 /*Clara - if Anomen*/ = ~Navíc mi to s Anomenem jde dobře. Pokud to dobře zahraji, mohu získat titul za své úsilí, a navíc si myslím, že je mnohem milější než ty.~
+@272 /*Clara - if married*/ = ~Navíc, nevšiml sis, že jsem vdaná. Proč bych riskovala své postavení kvůli jedné noci s tebou?~
+@273 /*Edwin*/ = ~Ale... ale... Já jsem Edwin Odesseiron!~
+@274 /*Clara*/ = ~A Edwin Odesseiron bude spát sám. Jsem si jistá, že tvé ego ti bude dostatečně hřát celou noc.~
+@275 /*Edwin*/ = ~(Tato urážka je nesnesitelná. Musím najít způsob, jak ji získat.)~
+
+//1st Nalia Banter
+@276 /*Nalia*/ = ~Takže... Kláro. Jsi opravdu šlechtična? Jen... nechováš se jako většina šlechty, kterou znám... a... je mnoho rodů Stříbrných štítů, jsem si jistá, že někteří mají dcery, ale...~
+@277 /*Clara*/ = ~Pochybuješ o mém původu? Já jsem lady Karolina Ludovika Audra Rozána Alexandra Stříbrný štít a moje krev je stejně modrá jako ta, která proudí v tvých žilách. A ty jsi ta, která se tajně vkrádá z hradu, aby se stýkala s chudinou.~
+@278 /*Clara*/ = ~Možná bych se já měla ptát na tvůj původ?~
+@279 /*Nalia*/ = ~Promiň. Máš pravdu. Neměla bych soudit. Zněla jsem jako moje teta; pořád žvaní o tom, co je správné pro dámu mého postavení... Už toho mám dost.~
+@280 /*Clara*/ = ~Dokonale ti rozumím. Když jsem řekla otci, že chci být herečkou, myslela jsem, že omdlí. Samotná myšlenka, že jeho milovaná dcera bude pracovat po boku prostých lidí, byla pro něj nepředstavitelná.~
+@281 /*Nalia*/ = ~Moje teta Dehlia by s ním souhlasila. Ale vím, že otci záleželo. Vždycky naslouchal našim lidem, když přicházeli s problémy, a já chci dělat totéž. Chci pomáhat nižším vrstvám, ne se jim jen vysmívat.~
+@282 /*Clara*/ = ~Jsem si jistá, že „obyčejní lidé“ ocení tvou dobročinnost.~
+@283 /*Clara*/ = ~A teď mi musíš vyprávět o svých nočních dobrodružstvích. Můžeme si vyměňovat tipy na plížení a pomlouvat ty nejroztomilejší stájníky.~
+
+//2nd Nalia Banter
+@284 /*Clara*/ = ~...tak jsem se otočila k otci – stále zahalená v prostěradle a s nejlepší matčinou čelenkou na hlavě – a udělala jsem mu dokonalou poklonu, kterou jsem cvičila celé týdny. Byl tak zmatený, že mě jen vyházel, zatímco páže vyklouzlo zcela nepozorováno.~
+@285 /*Nalia*/ = ~*smích* Tvá dobrodružství jsou úžasná. Přála bych si, abychom se poznaly dřív. Moji rodiče mi dovolili hrát si jen s dětmi Roenallů, a ty jsou hrozné.~
+@286 /*Clara*/ = ~Já také jsem si neměla hrát se služebnictvem. Ale byli jsme jediní šlechtici na mnoho mil kolem a umírala jsem nudou. Někdy jsme vyrazili z panství do Beregostu, ale to není tak rušné město jako Baldur.~
+@287 /*Clara*/ = ~Proč myslíš, že jsem chtěla být herečkou? Kočovná divadelní společnost cestuje po světě a potkává zajímavé lidi; šlechtické dámy se mají jen hezky dívat a mluvit o sobě.~
+@288 /*Nalia*/ = ~Vím, co myslíš. Náš hrad je daleko od všeho, a když jsem se mohla zúčastnit plesů, nebyla jsem vítána. Nenosila jsem nejnovější módu a nestrojila se jako většina šlechtičen. Obvykle jsem strávila celý večer rozhovory s číšníkem stranou nebo posloucháním hudby o samotě.~
+@289 /*Nalia*/ = ~*povzdech* Stýská se mi po hudbě. Hudba a tanec jsou jediné věci z života, který jsme opustily, po kterých opravdu toužím.~
+@290 /*Clara*/ = ~Tak proč si nevyjdeme zatančit?~
+@219 /*Nalia*/ = ~Můžeme to udělat? Pochybuji, že tady někdo pořádá plesy.~
+@220 /*Clara*/ = ~Ne ples, hloupá. Od doby, co jsem opustila Beregost, trávila jsem hodně času mezi obyčejnými lidmi a jsem si jistá, že najdu místo, kde můžeme tancovat celou noc. Dej mi jen trochu času.~
+@221 /*Clara*/ = ~Pojď, vydejme se na vlastní dobrodružství. Po tom všem si zasloužíme zábavnou noc.~
+@294 /*Nalia*/ = ~Dobře, jsem v tom. Pojďme na to.~
+@295 /*Nalia*/ = ~Pokud se mnou budeš trénovat; už dlouho jsem netancovala a nechci se ztrapnit, až tam dorazíme.~
+@296 /*Clara*/ = ~Samozřejmě, na to jsou přítelkyně. Procvičíme všechny nové kroky a pak vyrazíme do města.~
+
+//3rd Nalia Banter
+@297 /*Clara*/ = ~Připravena, Nalio?~
+@298 /*Nalia*/ = ~Ano, připravena. Jak vypadám? Snažila jsem se obléknout méně okázale, abych příliš nevyčnívala.~
+@299 /*Clara*/ = ~Vypadáš nádherně. Dokonale. Když vejdeme dveřmi, kluci nebudou vědět, co je zasáhlo. Budeme mít davy obdivovatelů, kteří se budou prát o dotek našich rukou.~
+@300 /*Nalia*/ = ~Myslíš tanec, že?~
+@301 /*Nalia - if romance*/ = ~Nechci, aby mě <CHARNAME> špatně pochopil.~
+@222 /*Clara*/ = ~Neboj se. Našla jsem nám docela slušné místo, a pokud se tě někdo pokusí obtěžovat, na to máme dýku. Drž se mě a budeš v pohodě.~
+@303 /*Clara*/ = ~Dáme si drink, zatančíme si na pár písniček a vrátíme se, než si náš nebojácný vůdce vůbec všimne, že jsme pryč.~
+@223 /*Clara*/ = ~... a jsme tady: Podzemí Unkara, nech své oči to nasát.~
+@305 /*Nalia*/ = ~... ach, podívej se na ta světla a hudbu... Tolik lidí. (Mají tančit tak blízko u sebe?)~
+@306 /*Clara*/ = ~Na, vypij to. Fialový nápoj tě rozhýbe na celou noc.~
+@307 /*Clara*/ = ~Pojď, miluju tuhle píseň. Hej, pánové, nechcete si s námi zatančit?~
+@308 /*Peasant*/ = ~Bylo by nám ctí. Slečno, podáte mi ruku?~
+@309 /*Nalia*/ = ~Samozřejmě, děkuji. I když nejsem si jistá, že znám ten tanec.~
+@310 /*Peasant*/ = ~Neboj se. Postarám se o tebe.~
+@224 /*Singer*/ = ~„Cítím v sobě divoký oheň, / Zlato, chytni mou ruku, utečeme do noci, / Zlato, pojď se mnou, tancujme až do svítání...”~
+@312 /*Nalia*/ = ~Ach, to byla zábava. Doma jsem takhle nikdy netancovala.~
+@313 /*Clara*/ = ~Ráda to slyším... Ztratila jsi partnera?~
+@314 /*Nalia*/ = ~Ne. Řekl, že ho poslední tanec vyčerpal. Ale asi jsem ho zmátla, když jsem se snažila vést.~
+@315 /*Clara*/ = ~Ha! No, je z čeho vybírat. Zkus toho námořníka – má dobré nohy, samozřejmě pro tanec.~
+@316 /*Clara*/ = ~Na, ten zelený je pro štěstí...~
+@225 /*Singer*/ = ~„Bolest srdce, ať se snažím, / Nezmizí, raději odejdi. / Už nemám sílu honit se / Za snem, co zůstal pozadu...”~
+@318 /*Nalia*/ = ~... Musíme přestat. Jsem vyčerpaná. Točí se místnost, nebo já?~
+@319 /*Clara*/ = ~Obávám se, že ty. Ráno mě můžeš nenávidět. Neměla jsi tolik vypít té lektvaru.~
+@320 /*Clara*/ = ~Tak mi teď řekni, stálo to za to?~
+@321 /*Nalia*/ = ~Stálo. Děkuji. Jsi moje nejlepší kamarádka.~
+@322 /*Clara*/ = ~Ty se mi taky líbíš, Nalio. I když jsi občas trochu naivní. Pojď, vraťme se do hospody a snaž se jít rovně, jestli to zvládneš.~
+
+//1st Keldorn Banter
+@323 /*Clara*/ = ~Sire Keldorne, připomínáš mi mého otce. Byl vysoký, silný, milovaný většinou a vždy připraven postavit se za správnou věc.~
+@324 /*Keldorn*/ = ~Jsem poctěn. Kde je teď tvůj otec?~
+@325 /*Clara*/ = ~Je mrtvý. Byl krutě zavražděn zločinci. Můj otec, matka a většina nejbližší rodiny.~
+@326 /*Keldorn*/ = ~To je opravdu tragická zpráva. Doufám, že ti moje podoba nezpůsobuje bolest.~
+@327 /*Clara*/ = ~Ne, sire Keldorne, neboj se. Můj otec zemřel, aby mě ochránil, proto jsem stále naživu, a proto je tvá přítomnost útěchou, která mi připomíná, že jsem byla milována. Cítím se u tebe bezpečně – dost bezpečně na to, abych vzpomínala na lepší časy.~
+@328 /*Keldorn*/ = ~Prokazuješ mi velkou čest, paní. Ačkoli nemohu nahradit tvého otce a ani bych se o to nepokoušel, přísahám, že tě budu chránit. Mladá dáma tvého původu by neměla být na tomto světě sama.~
+
+//2nd HaerDalis Banter
+@329 /*Clara*/ = ~Haer’Dalis, můžu se tě na něco zeptat?~
+@330 /*HaerDalis*/ = ~Samozřejmě. Jaká slova moudrosti očekáváš od tohoto vrabce? Zeptej se a on je poví větru.~
+@331 /*Clara*/ = ~Jak se herci vyrovnávají s rychlými změnami kostýmů během představení? Spoléhají na zručnost, nebo je na to nějaký trik?~
+@332 /*HaerDalis*/ = ~To není otázka, kterou jsem čekal, má bystrá ptáčko. Myslel jsem, že tvé srdce už netouží po jevišti?~
+@333 /*Clara*/ = ~To neznamená, že to není zajímavé. Když jsem poprvé viděla divadlo, připadalo mi to jako kouzlo – stará žena se mi před očima proměnila v princeznu. Ale když jsem se zeptala otce, řekl, že herečka měla pod sebou druhý kostým a ten první sundala tak rychle, že jsme to neviděli.~
+@334 /*Clara*/ = ~Měl pravdu? Když jsem byla malá, také jsem chtěla být herečkou a rodiče mi vždy dovolili hrát divadlo. Ale i když jsem se naučila schovávat se za kulisami a pohybovat se tiše, nikdy jsem nezvládla rychlé převleky. Moje kostýmy na mě vždy tvrdohlavě držely.~
+@335 /*HaerDalis*/ = ~Tento vrabec ti prozradí tajemství. Umím se utkat s nejlepšími šermíři, ale i ty nejrychlejší ruce klopýtnou o ty přezky.~
+@336 /*HaerDalis*/ = ~Někteří spoléhají na zručnost, jiní na odvádění pozornosti, já používám trochu magie, abych oživil své postavy.~
+@337 /*Clara*/ = ~Opravdu? Není to plýtvání?~
+@338 /*HaerDalis*/ = ~Ne, je snad lepší místo k použití mé moci než ohromit publikum? Vytvořím dveře...~
+@339 /*HaerDalis*/ = ~Vejdu do nich...~
+@340 /*HaerDalis*/ = ~... a zmizím z dohledu, dokud se neobjevím na jevišti v novém hávu.~
+@341 /*Clara*/ = ~To je úžasné!~
+@342 /*Clara*/ = ~Můžeš mě to naučit? Nebo k tomu musím umět kouzla?~
+@343 /*HaerDalis*/ = ~Většina ti řekne, že ano, že taková kouzla jsou jen pro ty, kdo slyší magii ve svých žilách. Ale tento bard ví lépe. Nasbíral jsem mnoho triků na Plánech; pro tuto se může ochotný žák naučit refrén písně.~
+
+//1st Valygar Banter
+@344 /*Clara*/ = ~Valygare, jak se ti daří pohybovat se tak tiše?~
+@345 /*Valygar*/ = ~Podivná otázka od tebe. Z nás dvou jsi to ty, kdo je zloděj.~
+@346 /*Clara*/ = ~No, ano, jsem dobrá ve skrývání ve městě. Jsou tam davy, uličky a bedny, za které se schovat. Ale jak se ti daří skrývat ve stínech tady? Jsou tu brouci, otevřené prostory a větve, které křupou pod nohama.~
+@347 /*Valygar*/ = ~A, rozumím. Bojuješ proti divočině, Kláro, proto nemůžeš chodit tak tiše jako po městských ulicích.~
+@348 /*Valygar*/ = ~Musíš se přizpůsobit přírodě; nemůžeš očekávat, že se země změní kvůli tobě. Mágové očekávají takové věci, zkreslují stromy a rostliny svou zlou magií, ale i tehdy je země odolná a když je mága poražen, vše se vrátí do normálu.~
+@349 /*Clara*/ = ~Nikdy jsem o tom tak nepřemýšlela. Můžeš mě to naučit? Chci se pohybovat jako ty.~
+@350 /*Valygar*/ = ~Samozřejmě. Rád ukážu někomu, jak správně respektovat divočinu.~
+
+//2nd Valygar Banter
+@351 /*Clara*/ = ~*šeptem* Už skoro. Ještě trochu.~
+@352 /*Valygar*/ = ~Slyším tě, Kláro.~
+@353 /*Clara*/ = ~Sakra! Tohle se mi málem povedlo.~
+@354 /*Valygar*/ = ~Opravdu se ti to povedlo. Rychle se učíš. Země už tolik neprozrazuje tvé kroky. Jsi si jistá, že nechceš být stopařkou? Pro neškolené oko už jí téměř jsi.~
+@355 /*Clara*/ = ~Nemyslím si. Moc miluju města. Byla bych tu příliš osamělá.~
+@356 /*Valygar*/ = ~Myslím, že to chápu. I když někteří z nás jsou odsouzeni k samotě. Je to bezpečnější, když ničíš vše, čeho se dotkneš.~
+@357 /*Clara*/ = ~Neměl bys to říkat. Nemyslím si, že jsi opravdu prokletý. To, že tvá rodina udělala špatná rozhodnutí, neznamená, že jsi špatný člověk.~
+@358 /*Clara*/ = ~Kdybys byl, netrávil bys tolik času učením mě o přírodě. Možná nejsem tak dobrá jako ty, ale už se v divočině necítím tak nešikovně.~
+@359 /*Valygar*/ = ~Rád to slyším. Má přítomnost přináší nebezpečí <CHARNAME> a celé tvé skupině, někdy si myslím, že bych měl odejít. Ale přinejmenším jsem tady užitečný.~
+
+//3rd Valygar Banter
+@360 /*Clara*/ = ~Hej, Valygare, strávil jsi hodně času útěkem před Čaroději v rouších. Jak jsi dokázal zabránit jejich kouzlům, aby tě našly?~
+@361 /*Clara*/ = ~Myslela jsem, že opravdu mocný mág vidí všechno na míle daleko, a všichni vědí, že Čarodějové v rouších jsou tady nejmocnější.~
+@362 /*Valygar*/ = ~Jejich magie může být mocná, ale není všemocná. Taková kouzla jsou nepřirozená a země jim vždy odolává.~
+@363 /*Valygar*/ = ~Existují způsoby, jak se před magií skrýt. Některé byliny, pokud se vypijí, mohou zamžít jejich zrak, a některé kameny mohou zkřivit jejich kouzla.~
+@364 /*Valygar*/ = ~Jsem si jistý, že opravdu nadaný čaroděj by tyto překážky překonal, ale Čarodějové v rouších jsou příliš sebevědomí. Nikdy by je nenapadlo, že něco tak obyčejného jako byliny se může postavit jejich moci.~
+@365 /*Valygar*/ = ~Tolgerias pravděpodobně myslel, že jsem našel nějakou mocnější magii, proto najal <CHARNAME>, aby vystopoval mé útočiště. Uživatelé magie si zřídka chtějí ušpinit ruce, když to za ně může udělat někdo jiný.~
+@366 /*Clara*/ = ~To je úžasné. Opravdu existují byliny, které skryjí před kouzly?~
+@367 /*Valygar*/ = ~Samozřejmě. Ukážu ti je během cesty. Nikdy není na škodu mít něco takového po ruce.~
+
+//2nd Keldorn Banter
+@368 /*Clara*/ = ~Jsi velký hledač pravdy, sire Keldorne. Mají všichni paladini tvou schopnost vidět pravou podstatu nepřátel?~
+@369 /*Keldorn*/ = ~Většina ano. Paladinové dostávají tento dar od svých bohů, aby jim pomohli bojovat s nespravedlností v každé podobě. Pravé zlo se často skrývá za maskou ctnosti a nahlédnutí pod povrch je klíčové při lovu takových bytostí.~
+@370 /*Keldorn*/ = ~Samozřejmě, nic není neomylné. Paladin potřebuje zručnost a zkušenosti, aby viděl pravdu, a zlo má způsoby, jak odvrátit náš zrak.~
+@371 /*Clara*/ = ~Opravdu? Ale pak jak můžeme komukoli věřit? To je hrozné!~
+@372 /*Keldorn*/ = ~Nemusíš se tím znepokojovat, ujišťuji tě. Schopnost zablokovat můj dar je vzácná. Existují magické předměty vytvořené k tomuto účelu a také jsem slyšel o mniších používajících mentální disciplínu k ukrytí svých záměrů, i když jsem se s nimi sám nesetkal.~
+@373 /*Keldorn*/ = ~Podle mé zkušenosti jsou nejnebezpečnější zločinci ti, kteří opravdu věří tomu, co říkají, proto jejich lži ujdou za pravdu. Nicméně i tehdy jejich činy nakonec pravdu prozradí.~
+@374 /*Clara*/ = ~To je úleva. Jsem ráda, že ti mohu důvěřovat, že nás ochráníš před vším zlem. (Neusmívej se. Věříš tomu. Opravdu tomu věříš.)~
+
+//2nd Edwin Banter
+@375 /*Clara*/ = ~Edwine, přestaň čumět. Stále nemám zájem.~
+@376 /*Edwin*/ = ~To jen proto, že nerozumíš mé opravdové velikosti. (Jak je to možné, nechápu, vždyť viděla mou sílu v boji.)~
+@377 /*Edwin*/ = ~Kdybys přestala žvatlat a poslouchala, padla bys k mým nohám v úctě.~
+@378 /*Clara*/ = ~Opravdu? Nejsi náhodou nejbohatším šlechticem v Athkatle?~
+@379 /*Edwin*/ = ~Ne, samozřejmě! Ty a tvoje posedlost bohatstvím. To je tak plebejské.~
+@380 /*Clara*/ = ~Tvé třpytivé cetky mě nenakrmí, až budu hladová. K tomu potřebuji tvrdé mince.~
+@381 /*Edwin*/ = ~To... (ech) o to nejde. A nejsou to jen cetky.~
+@382 /*Edwin*/ = ~Na, vezmi si to. Ukážu ti to.~
+@383 /*Clara*/ = ~To je náušnice, Edwine. Už jsem je viděla.~
+@384 /*Edwin*/ = ~Ne takovou. Pozoroval jsem tě v těch bojích, které náš nebojácný vůdce neustále vyvolává. Raději se schováváš ve stínech a bodáš nepřátele do zad. (To je dobrá strategie, pokud nejsi velký Edwin Odesseiron.)~
+@385 /*Edwin*/ = ~Tato náušnice ti pomůže v tvém úsilí a ochrání tě, jak jsi vždy žádala. Stačí se jí dotknout a kouzlo tě zahalí iluzemi, které ti pomohou uniknout nepřátelům.~
+@386 /*Clara*/ = ~Opravdu? To se hodí.~
+@387 /*Edwin*/ = ~Nyní vidíš? Edwin Odesseiron daleko převyšuje ostatní tvé nápadníky. Co je šlechtic nebo kupec ve srovnání s mým čirým leskem? Až příště odpočíváme, připojíš se ke mně v mém loži.~
+@388 /*Clara*/ = ~Ne. Nepřipojím se.~
+@389 /*Clara*/ = ~Ale díky za náušnici. Alespoň už nebudu muset snášet tvé zírání.~
+@390 /*Edwin*/ = ~Sakra! Zmizela! (To nedopadlo tak, jak jsem čekal. Musím to zkusit znovu.)~
+
+//1st Sarevok Banter 
+@226 /*Clara*/ = ~Takže... Sarevoku. Slyšela jsem, že jsi nastrčil <CHARNAME> jako vraha svého adoptivního otce a pak ses pokusil ovládnout Baldur.~
+@227 /*Sarevok*/ = ~A byl jsem za to zabit. Pokud mi hodláš kázat o dobru a zlu, šetři dech. Nepotřebuji dalšího ufňukaného zbabělce, který mi řekne, že jsem blázen.~
+@228 /*Clara*/ = ~Děláš si srandu? Obdivuji tvé ambice. Téměř celé Pobřeží mečů se ti klanělo u nohou.~
+@229 /*Clara*/ = ~Samozřejmě, neskončilo to nejlépe, ale já jsem byla taky zabita upírkou. Vlastně nemám co říct. Alespoň jsi se dotkl hvězd, než jsi padl. Byl bys legendou, kdyby <CHARNAME> všechno nezkazil.~
+@230 /*Sarevok*/ = ~No, to je příjemná změna. Většina společníků mého bratra stále sahá po zbrani, když jdu kolem.~
+@231 /*Clara*/ = ~To by ze mě bylo hloupé. Kdybych tě chtěla zabít, počkala bych, až budeš rozptýlený, a bodla bych tě zezadu.~
+@232 /*Sarevok*/ = ~Ha! Myslím, že tě mám rád, Kláro. Je příjemné potkat někoho, kdo neskrývá své city za konvencemi.~
+@233 /*Sarevok*/ = ~Možná cestování s <CHARNAME> nebude tak bolestivé.~
+
+//Edwin Belt Banter
+@234 /*Clara*/ = ~Hej, Edwine, pojď se podívat. Našla jsem něco, co by tě mohlo zajímat.~
+@235 /*Edwin*/ = ~Ano, jasně, Edwin Odesseiron nemá nic lepšího na práci než probírat věci, které vás, hlupáky, baví. Je to hezký kámen? Nebo snad třpytivá zbraň? Primitivní mysli se snadno nechají rozptýlit.~
+@236 /*Clara*/ = ~A přesto jsi přišel, když jsem zavolala. Už tě omrzela vlastní vznešená společnost a rozhodl ses klesnout k nám?~
+@237 /*Edwin*/ = ~Samozřejmě že ne. Jaký oslnivý rozhovor bys mi mohla nabídnout? Jediná rozumná mysl v této skupině je moje. Ale zjistil jsem, že když pobaveně poslouchám vaše tlachání, jste o něco méně otravní.~
+@238 /*Clara*/ = ~Jasně, Edwine. Dál si nalhávej. Myslím, že nás máš rád. Koho jiného bys urážel a komu by ses vysmíval?~
+@239 /*Edwin*/ = ~(Ta žena blábolí. Ale její bludy jsou zábavné, hádám.) Mám ti ještě poblahopřát? Říct, že tvoje ubohá teorie je správná? Ne. Dost. Co jsi mi chtěla ukázat?~
+@240 /*Clara*/ = ~Tohle. Jeden z našich nepřátel měl tento pás, napadlo mě, že by se ti mohl hodit. Kdyby tě další magická nehoda proměnila v ženu, mohl by ses vrátit. Nebo kdykoli budeš chtít; nebudu soudit.~
+@241 /*Edwin*/ = ~Očekáváš, že tomu uvěřím? Jsi sobecká špinavá holka a nedáváš dárky zadarmo.~
+@242 /*Edwin - if other belt talk*/ = ~Zaplatila jsi také, aby byl tento pás očarován proti mně? Tajně mě promění v půlčíka nebo nějakého odporného horského trolla?~
+@243 /*Clara*/ = ~Žádný trik. Tentokrát ne. Můžeš ho mít zadarmo, dokonce jsem ho nechala očarovat, aby fungoval jen pro tebe. Přátelé přece pomáhají přátelům řešit problémy. Vzpomeň si na to, až budu jednoho dne potřebovat kouzlo.~
+@244 /*Edwin*/ = ~(To je cena, kterou jsem očekával. Myslí si, že budu tančit, jak ona píská?) Nejsme přátelé, Kláro. Nejsme ani známí. Jsi mimo dosah mé pozornosti.~
+@245 /*Edwin*/ = ~Toleruji tvou přítomnost, protože náš hloupý vůdce tě považuje za užitečnou a mně se hodí mít mezi sebou a nepřáteli živá těla.~
+@246 /*Clara*/ = ~To znamená, že o něj nestojíš? Určitě pro něj snadno najdu kupce.~
+@247 /*Edwin*/ = ~...~
+@248 /*Edwin*/ = ~Proboha, ženo. Dej mi ho.~
+
+//1st Anomen banter - if married
+@391 /*Anomen*/ = ~Má lásko, můžu si s tebou promluvit o samotě?~
+@392 /*Clara*/ = ~Samozřejmě. Co tě trápí? Víš, že jsem tu vždycky, abych si vyslechla tvé starosti.~
+@393 /*Anomen*/ = ~Vím a jsem ti vděčný, ale... přemýšlel jsem o budoucnosti, o tom, co budu dělat, až tato bitva skončí.~
+@394 /*Clara*/ = ~Myslím, že myslíš NÁS, můj milý. Co MY budeme dělat, až nás <CHARNAME> konečně propustí...~
+@395 /*Clara*/ = ~Vždyť jsi můj manžel a já složila svou přísahu upřímně. Když jsme spolu přežili hlubiny pekel, zvládneme všechny konflikty, které přinese budoucnost.~
+@396 /*Anomen*/ = ~Někdy stále nemohu uvěřit, že jsme manželé. Nezasloužím si tvou lásku, ale jsem vděčný, že ji mám.~
+@398 /*Anomen*/ = ~Pokud mě cesta s <CHARNAME> něco naučila, pak to, že smrtelníci jsou malí a bezvýznamní v bojích bohů. Náš život je krátký, sny křehké, a ten, kým jsem býval, by se s tím vyrovnával zoufale.~
+@399 /*Anomen*/ = ~Ty jsi mě však naučila, že jiná cesta nemusí být špatná. Život nemusí být velký, aby měl smysl, a nejmenší dobrý skutek znamená nejvíce, když někdo potřebuje pomocnou ruku.~
+@400 /*Anomen*/ = ~Až tohle všechno skončí, chci se vrátit do našeho domu v Athkatle. Dlouhá léta jsem snil o boji se zlem jako rytíř Řádu, ale ve skutečnosti mohu svému městu lépe posloužit jako lord.~
+@397 /*Anomen*/ = ~Nikdy jsem příliš nedbal na otcovy obchody, ale zdá se, že na to mám talent a práce je mnoho. Svět nelze změnit bez peněz a moci.~
+@3970 /*Anomen*/ = ~I když už máme bojové dovednosti, budeme potřebovat i zlato a politický vliv. Obávám se, že většina naší práce bude hrozně nudná, ale bez tvé pomoci to nezvládnu.~
+@401 /*Clara*/ = ~Někdy, můj milý, jsi hrozně hloupý. Samozřejmě, že ti v tom pomohu. Jsme manželé. Tvé jméno je mé jméno, nemohu si přát víc.~
+@402 /*Clara*/ = ~Budu tvou dokonalou paní. Budu pořádat hostiny a obědy pro tvé obchodní partnery a pomáhat ti plánovat strategii. Společně se postavíme athkatlské šlechtě, tak jako jsme čelili všem nepřátelům – společně, a až zvítězíme, vybudujeme svět, o kterém sníš. Lepší svět pro všechny.~
+@403 /*Anomen*/ = ~Jsi... jsi zázrak, má paní, a děkuji bohům pokaždé, když tě držím v náručí. S tebou po mém boku budu nejobdivovanějším mužem v Amnu.~
+@404 /*Clara*/ = ~A já budu nejobdivovanější ženou. Každá dáma ve městě bude zelená závistí.~
+@405 /*Clara*/ = ~Neboj se, můj lorde-manžele. Budu tě podporovat, ať se stane cokoli. Udělám vše pro to, abychom uspěli.~
+@406 /*Anomen*/ = ~Děkuji ti, má lásko. Možná jednoho dne budu cítit, že si zasloužím dar, který jsi mi dala.~
+
+//1st Aerie Banter
+@409 /*Clara*/ = ~Hej, Aerie. Kdo je ten Chiktikka Rychlé Tlapky, kterého pořád zmiňuješ? Je to nějaký bůh avarielů?~
+@410 /*Aerie*/ = ~Och, ne tak docela. Myslím, že je to trochu hloupé. Ale poté, co mě Quayle zachránil, byla jsem velmi vděčná a začala jsem se modlit k Baervanu Divokému poutníkovi, trpasličímu bohu lesů a lesních zvířat.~
+@411 /*Clara*/ = ~To jsi mohla? Vždycky jsem si myslela, že musím uctívat jen lidské bohy. Kdybych věděla, že můžu uctívat kohokoli, modlila bych se na všechny strany. Nikdy neuškodí mít na své straně pár bohů navíc.~
+@412 /*Clara*/ = ~Ale počkej, ještě jsi neodpověděla na mou otázku. Co s tím má ten trpaslík společného?~
+@413 /*Aerie*/ = ~Už k tomu přicházím. Baervan Divoký poutník vždy cestuje se svým společníkem, inteligentním mývalem jménem Chiktikka Rychlé Tlapky.~
+@414 /*Clara*/ = ~Vážně? Jsi mocná mágyně a kněžka s desítkami kouzel na dosah ruky a ochránce, kterého vzýváš, je nějaké mluvící zvíře?~
+@415 /*Clara*/ = ~Bez urážky, Aerie, ale jsi opravdu zvláštní.~
+
+//1st Rasaad Banter
+@416 /*Clara*/ = ~Víš, Rasaade, jsi opravdu velmi ohebný.~
+@417 /*Rasaad*/ = ~Kláro? Jak dlouho tam stojíš?~
+@418 /*Clara*/ = ~Nijak zvlášť dlouho. Ale nepřerušuj se. Užívám si ten výhled. Cvičíš vždycky bez tuniky?~
+@419 /*Rasaad*/ = ~Obvykle ano. Během cest nemáme často příležitost se umýt, takže se snažím udržet oblečení čisté.~
+@420 /*Clara*/ = ~Hm, ano, to je rozumné. Ty zpocené kůže... Pověz mi, jsou všichni mniši Sluneční duše tak... ohební? Nebo máš speciální dovednosti?~
+@421 /*Rasaad*/ = ~Myslím, že jsem ohebnější než většina. Byl jsem ve výcviku opatrný a snažil jsem se co nejvíce protahovat. Jestli chceš, mohl bych tě naučit pár jednoduchých cviků na zvýšení ohebnosti.~
+@422 /*Clara*/ = ~Myslím, že by se mi to líbilo.~
+@423 /*Clara*/ = ~Oslň mě svou dokonalostí... a tuniku si nech dole.~
+
+//1st Minsc Banter
+@424 /*Clara*/ = ~Takže, Minsku, tvůj křeček – je cenný?~
+@425 /*Minsc*/ = ~Boo není mazlíček. Boo je můj přítel! Kdokoli se ho pokusí ukrást, bude čelit Minskovi! Budou kopance! Budou rozbité hlavy!~
+@426 /*Clara*/ = ~Dobře, dobře, zapomeň, co jsem řekla.~
+@427 /*Minsc*/ = ~Ne. Minsk nezapomíná. Boo říká, že zapomínat na to, co říkají přátelé, je špatné. Takže já chráním tebe, ty chráníš Boo, Boo chrání všechny – síla přátelství nás pohání!~
+@428 /*Minsc*/ = ~Společně jsme silní. Spojeni jsme ještě silnější!~
+@429 /*Clara*/ = ~To je dobře, že?~
+@430 /*Minsc*/ = ~Samozřejmě! To je nejlepší!~
+@431 /*Minsc*/ = ~*Píp. Píp.* Ano. Boo souhlasí. A Boo je ten chytrý.~
+@432 /*Clara*/ = ~Ano, myslím, že je.~
+
+//2nd Minsc Banter
+@433 /*Clara*/ = ~*Píp. Píp. Píp.* Pojď, Boo. Chceš oříšek? Nebo sušenku?~
+@434 /*Minsc*/ = ~Co to děláš, Kláro?~
+@435 /*Clara*/ = ~Umm, nic? Vůbec nic. Nesnažím se ukrást tvého křečka. Prosím, nezabíjej mě.~
+@436 /*Minsc*/ = ~Žádná krádež. Přátelé nekradou. Boo říká, že má rád slané. Příště přines ty.~
+@437 /*Clara*/ = ~Opravdu ho rozumíš? Zkoušela jsem to už pár dní, ale slyším jen pípání. Myslela jsem, že se možná musím přiblížit a pozorněji poslouchat.~
+@438 /*Minsc*/ = ~Chceš slyšet Boo? Nikdo neslyší Boo. Většina se nám jen směje za zády. Kdysi to Minskovi bylo smutno, ale je to jen závist. Každý chce mít svého miniaturního obřího křečka.~
+@439 /*Clara*/ = ~No, já ne. Myslím to vážně. Nauč mě mluvit s Boo.~
+@440 /*Minsc*/ = ~Ano, učit! Nejprve si musíš sednout. Pak musíš poslouchat. Otevřít uši.~
+@441 /*Minsc*/ = ~Teď, Boo, pišti. Pišti tak, aby slyšela.~
+@442 /*Clara*/ = ~Já nemůžu... Pořád to zní stejně. Dobře, Kláro, soustřeď se...~
+@443 /*Clara*/ = ~Já – myslím, že to chytám. Je to...?~
+@444 /*Clara*/ = ~*Píp* Ano, rozumím. Slyším všechno...~
+@445 /*Minsc*/ = ~Teď myslíš jako Minsk. Mluvíš a slyšíš s Boo.~
+@446 /*Clara*/ = ~... Ach, bolí mě hlava.~
+@447 /*Minsc*/ = ~Ano. Neměla bys myslet jako Minsk příliš často. Tvůj rozum není tak silný.~
+
+//3rd Minsc Banter
+@448 /*Clara*/ = ~*Píp, píp, píp!*~
+@449 /*Minsc*/ = ~Přesně tak! Boo říká, že tvá výslovnost se zlepšuje.~
+@450 /*Minsc*/ = ~Ovládla jsi křeččí jazyk: jednu ze tří hrdinských dovedností!~
+@451 /*Clara*/ = ~Hm, možná budu litovat, že jsem se zeptala, ale jaké jsou další dvě?~
+@452 /*Minsc*/ = ~Jaké další dvě?~
+@453 /*Clara*/ = ~Další dvě hrdinské dovednosti. Řekl jsi, že jedna je křeččí jazyk...~
+@454 /*Minsc*/ = ~A, druhá je pohybovat se neviditelně. To už umíš.~
+@455 /*Minsc*/ = ~A třetí je berserk!~
+@456 /*Clara*/ = ~Myslíš to, když v boji zešílíš a všichni se musíme držet dál, abys nás náhodou nezabil?~
+@457 /*Clara*/ = ~Můžeš mě to naučit?~
+@458 /*Minsc*/ = ~Ano, i když Boo říká, že šílenství může být volitelné.~
+@459 /*Minsc*/ = ~První lekce – budeme běhat a křičet a bušit meči do země.~
+@460 /*Minsc*/ = ~Nejprve se podívej, jak to dělám já...~
+
+//4th Minsc Banter
+@461 /*Clara*/ = ~ÁÁÁÁÁRG!~
+@462 /*Minsc*/ = ~Ano! Viděla jsi, jak ta moucha odletěla od tebe, chvějíc se a mávajíc křídly strachy?~
+@463 /*Minsc*/ = ~Stala ses opravdu děsivou! Boo říká, že dokonce i on má husí kůži.~
+@464 /*Clara*/ = ~To je osvěžující! Chápu, jak se v tom člověk může ztratit. Doposud všechny mé boje spočívaly v opatrném vyhýbání se smrti.~
+@465 /*Minsc*/ = ~To bylo hloupé. Boo má co říct.~
+@466 /*Minsc*/ = ~*Píp píp píp*~
+@467 /*Clara*/ = ~„Smrt se na nás usmívá, takže se musíme usmát na ni“? Není to trochu morbidní?~
+@468 /*Minsc*/ = ~Hmm, to je jeden výklad. Já to chápu jako: „Smrt se usmívá na nás všechny, a jediné, co můžeme udělat, je usmát se zpátky.“~
+@469 /*Clara*/ = ~Pořád morbidní... ale myslím, že to chápu. Všichni zemřeme, takže si užíváme života, dokud můžeme, že?~
+@470 /*Minsc*/ = ~Rozumíš dokonale! Minsk je na tebe hrdý. Dřív nebo později z tebe uděláme křečka.~
+
+//3rd HaerDalis Banter
+@471 /*Clara*/ = ~Haer’Dalis, proč bojuješ meči? Myslela jsem, že většina bardů jen hraje hudbu nebo používá kouzla na nepřátele.~
+@472 /*HaerDalis*/ = ~Ach, ale ve zvonění oceli je hudba. V souboji mečů a seker jsou písně, které překračují jazyky a Plány.~
+@473 /*HaerDalis*/ = ~Copak jsi neslyšela harmonii bitvy? Tóny disonance a hluboké basy umírajících.~
+@474 /*HaerDalis*/ = ~Psal jsem ódy na každou kapku krve, na životy vzaté mými ostřími; tančil jsem na stovkách bojišť.~
+@475 /*HaerDalis*/ = ~A upřímně, když se naši nepřátelé chystají zpívat, tento vrabec získává překvapivou výhodu se zbraní v ruce.~
+@476 /*Clara*/ = ~Jsi si jistý, že bojujeme ve stejných bitvách? Já většinou slyším jen křik a nemyslím si, že bych kdy dokázala používat dva meče jako ty.~
+@477 /*Clara*/ = ~Jak se ti daří se náhodou neporanit?~
+@478 /*HaerDalis*/ = ~Je to tanec, má vrabčice, má pravidla a vzory, i když se partneři mění. Stačí se naučit kroky a píseň ti ukáže valčík dávání a přijímání, který končí krví.~
+@479 /*HaerDalis*/ = ~Naučím tě, jestli budeš chtít. Možná začneme jedním mečem, ale společně zazpíváme píseň oceli. Pravý bard hraje nejlépe pro vnímavé publikum.~
+
+//2nd Sarevok Banter
+@480 /*Sarevok*/ = ~Kláro, obdivuji tvůj pragmatismus. Pravý bojovník využívá všeho k porážce nepřátel.~
+@481 /*Clara*/ = ~*smích* Díky, myslím. Jsi první, kdo mě nazval bojovnicí.~
+@482 /*Sarevok*/ = ~Pak jsou ostatní blázni. Vidí hezkou masku a nedívají se hlouběji, ale já znám pravdu. Vidím pod ní zmiji.~
+@483 /*Clara*/ = ~Lichotíš. Mám se bát, že mě pozoruješ?~
+@484 /*Sarevok*/ = ~Ne. Nezajímáš mě tím způsobem. Ztratil jsem chuť na intriky. Dej mi otevřený boj, kde mi krev proudí žilami.~
+@485 /*Sarevok*/ = ~Nicméně neztratil jsem své dovednosti a některé se ti mohou hodit.~
+@486 /*Clara*/ = ~Takže se se mnou jen tak podělíš o svou těžce získanou moudrost? Zvládl tě nějaký podivný impuls dobročinnosti?~
+@487 /*Sarevok*/ = ~Samozřejmě že ne. Nebuď směšná. Teď jsme společníci. Tím, že tě učiním smrtelnější, jen na tom vydělám.~
+@488 /*Sarevok*/ = ~Máš určitou zručnost s mečem, ale ve srovnání s tvým skutečným potenciálem jsi neohrabaný hlupák.~
+@489 /*Sarevok*/ = ~Ukážu ti.~
+
+//2nd Anomen Banter - if married
+@490 /*Anomen*/ = ~Znovu se obávám o naši budoucnost. Musím mít místo v Radě šesti, pokud chci něco změnit.~
+@491 /*Clara*/ = ~Samozřejmě, má lásko, to místo je prakticky tvé.~
+@492 /*Anomen*/ = ~Ne, to místo je stejně stabilní jako naše bohatství a obchod je vždy riskantní.~
+@493 /*Anomen*/ = ~Pamatuji si, jak můj otec ztratil tři lodě za jeden měsíc; to ho zruinovalo.~
+@494 /*Anomen*/ = ~Samozřejmě byly pojištěny, ale Saerk využil svého vlivu, aby zabránil plným výplatám. To bylo to, co mého otce položilo.~
+@495 /*Anomen*/ = ~Vždy měl rád alkohol, ale od té doby jsem ho neviděl bez láhve, a čím víc pil, tím víc peněz ztrácel. Obviňoval Saerka ze všeho, i když to byla jeho vlastní vina.~
+@496 /*Anomen*/ = ~Byl jsem překvapen, jak rychle obnovil své jmění po Saerkově smrti... nevěřil jsem, že je toho schopen.~
+@497 /*Anomen*/ = ~Myslím, že máme štěstí, že se mu to podařilo. S posledními loděmi, které odpluly, máme nejméně půl roku, než se budeme muset vrátit domů.~
+@498 /*Clara*/ = ~Moc si děláš starosti. Každá loď, která se vrátí, pokryje ztrátu tří dalších. I když jedna loď z jižní trasy přežije, může nám koupit novou flotilu.~
+@499 /*Clara*/ = ~Vzhledem k nedávným nepokojům na hranicích se samotná sůl může prodat za pětkrát více, než jsme čekali...~
+@500 /*Clara*/ = ~Co? Proč se na mě tak díváš?~
+@501 /*Anomen*/ = ~Jsi zázrak. Znáš se na lodě a jejich náklady?~
+@502 /*Clara*/ = ~Znám každou loď, její náklad, cíl, ceny v každém přístavu a morální slabiny všech našich kapitánů.~
+@503 /*Clara*/ = ~Sotva bych ti mohla pomoci řídit obchodní impérium, kdybych neznala podrobnosti. Tak moc jsi dbal na každý deník, účetní knihu a seznam, že jsem je všechny přečetla, když jsi se zabýval jinými věcmi.~
+@504 /*Clara*/ = ~Nejprv jsem polovině nerozuměla, ale někteří z našich sluhů a dělníků mi rádi vše vysvětlili, když jsem se jich zdvořile zeptala.~
+@505 /*Clara*/ = ~Každopádně jsi říkal, že se obáváš o naše jmění...~
+@506 /*Anomen*/ = ~Ne, má lásko. Už ne. Myslím, že to bude v pořádku.~
+
+//2nd Aerie Banter
+@507 /*Clara*/ = ~Hej, Aerie, ten Chiktikka Rychlé Tlapky je velmi rychlý, že?~
+@508 /*Aerie*/ = ~Ano... tedy, myslím, že ano. Proto ho vždycky vzývám, když se chci rychle pohybovat.~
+@509 /*Clara*/ = ~Přesně. Takže když se budu modlit velmi, velmi usilovně k Chiktikovi Rychlé Tlapky, musí mě udělat rychlejší. Tak to funguje.~
+@510 /*Aerie*/ = ~Nemyslím si, že přesně tak...~
+@511 /*Clara*/ = ~Ano, přesně tak. Modlitba za požehnání. Taková dohoda. Jinak proč by lidé uctívali bohy?~
+@512 /*Aerie*/ = ~No, někteří z nás jen chtějí poděkovat. Je uklidňující vědět, že nás někdo slyší.~
+@513 /*Clara*/ = ~Jo, to je jedno. Pojďme na to.~
+@514 /*Clara*/ = ~Chiktiko Rychlé Tlapky, vyslyš mou modlitbu. Chiktiko Rychlé Tlapky, dej mi své požehnání. Chiktiko Rychlé Tlapky, dej mi rychlost mývala.~
+@515 /*Clara*/ = ~... Cítím něco... Cítím jeho sílu... Ta myš mě právě urazila? Sakra! Řekla jsem rychlost, ne mluvení. Nechci mluvit se zvířaty!~
+@516 /*Aerie*/ = ~*chichot* Dostala jsi požehnání, Kláro. Měla bys být vděčná.~
+
+//3rd Aerie Banter
+@517 /*Clara*/ = ~No, s Chiktikou Rychlé Tlapky to bylo moc. Ten zatracený mýval má jen smysl pro humor.~
+@518 /*Clara*/ = ~Hej, Aerie, kdo byl ten druhý bůh, kterého jsi zmiňovala?~
+@519 /*Aerie*/ = ~Myslíš Baervana Divokého poutníka?~
+@520 /*Clara*/ = ~Ano, jeho. Pověz mi o něm.~
+@521 /*Aerie*/ = ~No, jak jsem říkala, je to trpasličí bůh přírody a lesů. Díky němu mohou lesní trpaslíci mluvit s malými zvířaty.~
+@522 /*Aerie*/ = ~*chichot* Možná proto ti Chiktikka Rychlé Tlapky dal tento dar. Ptáci ti pořád nedají v noci spát?~
+@523 /*Clara*/ = ~Ano! Přísahám, že to dělají schválně. Mluví jen o jídle! Možná když se pomodlím k Baervanovi, dokážu je umlčet.~
+@524 /*Aerie*/ = ~Říkala jsem ti, že to tak nefunguje. Nemůžeš se modlit, jen když něco chceš.~
+@525 /*Clara*/ = ~Pst, komunikuji s tvým bohem...~
+@526 /*Clara*/ = ~Slyš mě, ó Baervane Divoký poutníku. Ukaž mi pravou podstatu přírody. Ukaž mi, jak umlčet ty obtížné noční škůdce.~
+@527 /*Aerie*/ = ~ANO, MÉ DÍTĚ. DOSTANEŠ POŽEHNÁNÍ!~
+@528 /*Clara*/ = ~Opravdu? Můžeš mi dát také pravé vidění?~
+@529 /*Aerie*/ = ~SAMOZŘEJMĚ, RÁDA POMOHU SVÉ NEJZBOŽNĚJŠÍ STOUPENCE...~
+@530 /*Aerie*/ = ~Ach, já... nemůžu. Já... to nevydržím. *kýchání* Ha ha ha ha ha ha!~
+@531 /*Clara*/ = ~Co?! Aerie! To nebylo fér.~
+@532 /*Aerie*/ = ~Promiň. Nemohla jsem si pomoct. Ale... vynahradím ti to. Na. Tohle není požehnání Baervana Divokého poutníka, ale můžeš to přijmout ode mě.~
+
+//1st Cernd Banter
+@533 /*Clara*/ = ~Takže jsi opustil ženu kvůli lásce k přírodě? Máš tak rád stromy?~
+@534 /*Cernd*/ = ~Nebylo to tak. Byl jsem povolán a ona řekla, že to chápe.~
+@535 /*Clara*/ = ~Hm, jsem si jistá, že chápala. Už jí asi bylo dost tvých tajných výletů, abys „komunikoval s přírodou“. Nedělají to tak druidi?~
+@536 /*Cernd*/ = ~Samozřejmě že ne! Mluvíme s přírodou, abychom střežili rovnováhu. To je vše.~
+@537 /*Clara*/ = ~Opravdu? Nevyvolává ve tobě šumění jarního listí zimomřivost? Neprahnou po hrubém doteku kůry?~
+@538 /*Cernd*/ = ~Dost! Nebudu dál poslouchat tvoje urážky.~
+@539 /*Clara*/ = ~Ha. Ten druid má povahu.~
+
+//2nd Cernd Banter
+@540 /*Clara*/ = ~Cernde, co je to za strom?~
+@541 /*Cernd*/ = ~Ach, to je –~
+@542 /*Clara*/ = ~Cernde, je tam vrabec?~
+@543 /*Cernd*/ = ~Ne, to je –~
+@544 /*Clara*/ = ~Cernde, proměníš se ve vlka?~
+@545 /*Cernd*/ = ~To není –~
+@546 /*Clara*/ = ~Cernde, můžu –~
+@547 /*Cernd*/ = ~Ne! Proboha, ne! To je jilm, ten pták je hrdlička, a jestli mě nepřestaneš otravovat, uvidíš moji vlčí podobu zblízka!~
+@548 /*Clara*/ = ~Ach, děsivé. Velký zlý vlk má špatný den? Myslela jsem, že druidi mají zůstat klidní za každé situace.~
+@549 /*Cernd*/ = ~To je cíl. Ale ty bys dokázala vytočit i světce. Řekni mi, co by tě umlčelo?~
+@550 /*Clara*/ = ~Hm, mám ráda peníze. Více zlata je vždy dobré.~
+@551 /*Cernd*/ = ~Já jsem druid, Kláro. Žiji z darů přírody, ne z tajné skrýše mincí.~
+@552 /*Clara*/ = ~*pokrčí rameny* Tak moc. Ať už je tvá velká filozofie jakákoli, peníze a moc hýbou tímto světem.~
+@553 /*Cernd*/ = ~Země se třese při pomyšlení, že by ti dala víc moci. Ale hádám, že bych ti mohl pomoci s hledáním pastí a podobně. To se zdá jako docela neškodná výměna za možnost klidné chůze.~
+@554 /*Cernd*/ = ~Platí?~
+@555 /*Clara*/ = ~Ano. Souhlas. Sešli na mě svou magii.~
+@556 /*Cernd*/ = ~Dobře. Raději u toho stůj klidně.~
+@557 /*Cernd*/ = ~Mám z této dohody špatný pocit. Jako by mávnutí křídel motýla vyvolalo hurikán.~
+
+//1st Anomen Banter - if married Cor
+@558 /*Clara*/ = ~Pojď sem, Anomene. Pones moji tašku.~
+@559 /*Anomen*/ = ~Nejsem tvůj nosič, Kláro.~
+@560 /*Clara*/ = ~Mluví na tebe paní matka. Není vaší povinností ctít rodiče?~
+@561 /*Anomen*/ = ~Nejsi moje matka!~
+@562 /*Anomen - dead Cor*/ = ~Jsi černá vdova, která svedla mého otce, aby ho zabila!~
+@563 /*Anomen*/ = ~Jsi zlatokopka, která svedla mého otce a vlezla mu do postele!~
+@564 /*Anomen*/ = ~Už tak je dost špatné, že s tebou musím cestovat; nebudu se podřizovat tvým rozmarům. Možná jsem ztratil rodinné jméno, ale pořád mám hrdost.~
+@565 /*Clara*/ = ~Ach, to je pravda, už nejsi Delryn.~
+@566 /*Clara*/ = ~Odpusť mi, Anomene, máš pravdu. Nejsem tvá paní matka a ty nejsi syn mého manžela.~
+@567 /*Clara*/ = ~Nejsi nic.~
+
+//1st Imoen Banter - she talks first
+@568 /*Imoen*/ = ~Takže jsi zlodějka a podvodnice, co?~
+@569 /*Clara*/ = ~Nejsem podvodnice.~
+@570 /*Imoen*/ = ~Promiň, podvodnice.~
+@571 /*Clara*/ = ~Raději se považuji za herečku...~
+@572 /*Imoen*/ = ~Copak nejsme všichni? Já podvodům nerozumím, ale než jsem se začala učit magii, byla jsem docela dobrá zlodějka.~
+@573 /*Clara*/ = ~Opravdu? Mohla bys mi dát nějaké rady?~
+@574 /*Imoen*/ = ~Jasně, když mi vyprávíš příběh.~
+@575 /*Clara*/ = ~Musí být pravdivý? To omezuje mé možnosti.~
+@576 /*Imoen*/ = ~Kdo ví, které příběhy jsou pravdivé? Hlavně ať je zajímavý.~
+@577 /*Clara*/ = ~Dobře.~
+@578 /*Imoen*/ = ~A tak Klára začala Imoen vyprávět úžasný příběh...~
+@579 /*Clara*/ = ~Ty mi právě vyprávíš příběh o tom, jak já vyprávím tobě příběh?~
+@580 /*Imoen*/ = ~Ano, ale nenech se tím rozptylovat.~
+@581 /*Clara*/ = ~Dobře. Pokusím se tě ohromit.~
+
+//2nd Imoen Banter - she talks first
+@582 /*Imoen*/ = ~Máš čas na příběh?~
+@583 /*Clara*/ = ~Byla jednou jedna malá holčička. Její otec byl bohatý, matka krásná a měla na světě vše, co si přála.~
+@584 /*Imoen*/ = ~Už se mi líbí.~
+@585 /*Clara*/ = ~Avšak nedaleko žil zlý baron, který záviděl jejímu otci a zabil ho. Zlomená a zchudlá, holčička s matkou se živily mizernými zbytky, které našly.~
+@586 /*Imoen*/ = ~Ale nakonec to dobře dopadne, že?~
+@587 /*Clara*/ = ~Hladová a bez domova, matka onemocněla a zemřela, a holčička zůstala sama.~
+@588 /*Imoen*/ = ~A teď to bude lepší?~
+@589 /*Clara*/ = ~Dívka neměla kam jít, takže našla práci na panství zlého barona, který zabil jejího otce.~
+@590 /*Clara*/ = ~Drhla mu podlahy a hrnce. Byla pravidelně bita jeho zlými sluhy a občas zneužívána strážemi.~
+@591 /*Imoen*/ = ~Nezlepšuje se to...~
+@592 /*Clara*/ = ~Ale nikdy neztratila naději, že se její život jednoho dne zlepší.~
+@593 /*Clara*/ = ~Zručná, okouzlující a pracovitá, postupně získávala víc a víc povinností, až se stala důvěryhodnou a respektovanou služebnou.~
+@594 /*Clara*/ = ~A žila šťastně až do smrti.~
+@595 /*Imoen*/ = ~Co? To je hrozný příběh! Navždy sloužila zlému baronovi?~
+@596 /*Clara*/ = ~Nic netrvá věčně, ale to je konec příběhu. Teď mě nauč víc o pastích.~
+@597 /*Imoen*/ = ~Ach... dobře. Ale potom chci další.~
+
+//3rd Imoen Banter - she talks first
+@598 /*Imoen*/ = ~Připravena na další příběh, Kláro?~
+@599 /*Clara*/ = ~Ano. Byla jedna mladá žena, důvěryhodná služebná na panství zlého barona.~
+@600 /*Clara*/ = ~Baron nevěděl, že je ve skutečnosti dcerou muže, kterého před lety zabil, a každý den tajně kovala pomstu.~
+@601 /*Imoen*/ = ~Říkala jsi, že ten příběh skončil!~
+@602 /*Clara*/ = ~Každý den, při práci, mladá žena hledala a učila se dovednosti, které by jí mohly pomoci v budoucnu.~
+@603 /*Clara*/ = ~Jednoho dne se doslechla o čarodějnici v lese, která zná tajemství lektvarů a jedů.~
+@604 /*Clara*/ = ~Čarodějnice nebyla těžké najít, ale odmítla pro dívku vyrobit jed, dokud jí dívka neslíbila něco na oplátku.~
+@605 /*Imoen*/ = ~To nikdy nedopadne dobře.~
+@606 /*Clara*/ = ~Čarodějnice chtěla její život a duši. Mladá dáma řekla, že je nedá, ale možná by mohla nabídnout životy a duše jiných.~
+@607 /*Clara*/ = ~Čarodějnice to uznala za přijatelné a po několika hodinách nudných hádek o detailech byla dohoda uzavřena.~
+@608 /*Clara*/ = ~Dívka odešla s jedem bez chuti a zápachu, pomalu působícím, ale dost silným na to, aby kapka v hrnci polévky skosila celý legion válečníků.~
+@609 /*Clara*/ = ~Při další hostině zlého barona přidala jed do všech jídel a nápojů, kam mohla. Baron a celý jeho hrad zahynuli a ona opět zůstala sama.~
+@610 /*Clara*/ = ~A žila šťastně až do smrti.~
+@611 /*Imoen*/ = ~Páni, tvé příběhy jsou temné.~
+@612 /*Clara*/ = ~Ty o ně žádáš. Já bych se zase ráda naučila něco o zámcích a jejich otvírání.~
+
+//4th Imoen Banter - she talks first
+@613 /*Imoen*/ = ~Ještě jednou, Kláro. Vyprávěj mi příběh.~
+@614 /*Clara*/ = ~*povzdech* Byla jednou jedna mladá žena, která zůstala v mrtvém hradě. Otrávila všechny obyvatele během hostiny a oni té noci zemřeli ve svých postelích.~
+@615 /*Clara*/ = ~Následující ráno chodila z místnosti do místnosti a brala si, co potřebovala, a když už nebylo co vzít, odešla.~
+@616 /*Clara*/ = ~Žena si ostříhala vlasy a převlékla se za chlapce. Trénovala, až se stala obstojnou lovkyní, a když potřebovala víc jídla, vrátila se na hrad pro zásoby ukryté ve sklepě.~
+@617 /*Clara*/ = ~Brána hradu byla zavřená a zamčená, kromě tajného vchodu, takže všichni obchodníci odcházeli s prázdnou.~
+@618 /*Clara*/ = ~Místní brzy usoudili, že na hradě straší, a všichni se mu vyhýbali, kromě mladé ženy.~
+@619 /*Clara*/ = ~Byla naživu, její nepřátelé mrtví, a teď, když dosáhla svého cíle, neměla ponětí, co dál.~
+@620 /*Clara*/ = ~Ale každý den dělala to, co bylo nutné k přežití, a v přežití našla smysl. A žila šťastně až do smrti.~
+@621 /*Imoen*/ = ~Pořád to říkáš, ale ona nezní šťastně.~
+@622 /*Clara*/ = ~Musí být šťastná, protože to je konec příběhu. Když tvůj příběh skončí, žiješ šťastně až do smrti.~
+@623 /*Imoen*/ = ~Nemyslím si, že tak život funguje.~
+@624 /*Clara*/ = ~Víš, co by mě udělalo šťastnou? Přijít na to, jak vyrobit past tak hroznou, aby fungovala, když jsme daleko.~
+@625 /*Imoen*/ = ~Mám pár nápadů! Něco jako kombinace zlodějství a magie. Můžeš pomoct!~
+
+//2nd Rasaad Banter - he talks first
+@626 /*Rasaad*/ = ~Kláro, jsem tady.~
+@627 /*Clara*/ = ~Jejda, promiň. Rozptýlila jsem se.~
+@628 /*Rasaad*/ = ~To se stává příliš často. Nejsem si jistý, zda se vůbec hodíš na cestu Slunce.~
+@629 /*Clara*/ = ~Nevím, o čem mluvíš. Opravdu se mi líbí tvé vysoké kopy a tvé záklony a rozštěpy. To je rozhodně moje nejoblíbenější.~
+@630 /*Rasaad*/ = ~Dost. Pokud nebereš tato cvičení s patřičnou úctou, je čas ukončit tvůj trénink. Zjevně to byla zbytečná námaha.~
+@631 /*Clara*/ = ~Ach, neříkej to. Určitě jsem ohebnější než dřív.~
+@632 /*Clara*/ = ~Ale asi máš pravdu, nejsem velký fanoušek fyzické aktivity. Můžu se aspoň občas dívat?~
+@633 /*Rasaad*/ = ~*povzdech* Dobře. Jen o tom nemluv.~
+
+//4th Dorn Banter - he talks first
+@634 /*Dorn*/ = ~Krill...~
+@635 /*Clara*/ = ~Jej, Dorne, jestli budeš mumlat jméno jiné ženy, budu si myslet, že mě nemiluješ.~
+@636 /*Dorn*/ = ~Neviděl jsem, že tam stojíš. Zřejmě ses ještě nenaučila neplést se do cizích věcí.~
+@637 /*Clara*/ = ~Byl jsi zamyšlený a pronesl jsi „Krill“. Říkáš to i ve spánku.~
+@638 /*Clara*/ = ~Tak kdo je Krill?~
+@639 /*Dorn*/ = ~Odpověď za odpověď. Jak víš, že to říkám ve spánku?~
+@640 /*Clara*/ = ~Hloupá otázka. Samozřejmě, že jsem tě tajně pozorovala.~
+@641 /*Clara*/ = ~Teď jsem na řadě já, kdo je Krill?~
+@642 /*Dorn*/ = ~Společně jsme cestovali. Byla nekromantka... a má milenka... dokud mě nezradila a neutekla.~
+@643 /*Dorn*/ = ~S pomocí <CHARNAME> jsem ji vystopoval a uložil do hrobu. Její duše se stále svíjí v Propasti.~
+@644 /*Dorn*/ = ~Žádný z mých vztahů nedopadne dobře.~
+@645 /*Clara -if CN-Dorn Romance*/ = ~Zdá se, že si s <CHARNAME> rozumíte. Jak myslíš, že to skončí?~
+//@6450 /*Clara -if HD romance*/ = ~Zdá se, že si s Haer’Dalisem rozumíte. Jak myslíš, že to skončí?~
+@646 /*Dorn -if CN romance*/ = ~Mou smrtí nebo jeho, jako vždy.~
+//@6460 /*Dorn -if HD romance*/ = ~Mou smrtí nebo smrtí toho tieflinga, jako vždy.~
+@647 /*Clara -if CN-Dorn romance*/ = ~Ale jsi s <CHARNAME> a zdá se, že to jde dobře.~
+//@6470 /*Clara -if HD romance*/ = ~Ale jsi s Haer’Dalisem a zdá se, že to jde dobře... obzvlášť v ložnici.~
+@648 /*Dorn - if CN romance*/ = ~Někdy to jde dobře. Ale to neznamená, že to skončí jinak.~
+//@6480 /*Dorn - if HD romance*/ = ~Někdy to jde dobře. Ale to neznamená, že náš vztah neskončí krví... i když bych si možná přál opak.~
+@649 /*Clara*/ = ~Víš co, Dorne? Jako vražedný psychopat jsi překvapivě sentimentální a skleslý.~
+@650 /*Dorn*/ = ~A jako dvoumincová podvodnice a švindléřka jsi překvapivě všetečná. Teď mě nech být.~
+
+//1st Jaheira Banter- she talks first.
+@651 /*Jaheira*/ = ~Kláro, proč jsi tady? Co sleduješ?~
+@652 /*Clara*/ = ~Vážně? No, chci přežít.~
+@653 /*Jaheira*/ = ~Pak sis vybrala špatnou společnost. Naše životy jsou plné nebezpečí.~
+@654 /*Clara*/ = ~Ne vybrala, ty jsi mě vzkřísila, když mě Hexat zabila.~
+@655 /*Clara*/ = ~Smrt je všude, ale nikdy jsem neviděla, aby někoho jako mě vzkřísili. Jen ti, kdo mají dost zlata na zaplacení kněží, mohou vstát z mrtvých. No a tací hrdinové jako ty.~
+@656 /*Jaheira*/ = ~Ne všichni z nás.~
+@657 /*Clara*/ = ~Ano, slyšela jsem o tvém muži. Tak proč jsi tady?~
+@658 /*Jaheira*/ = ~Khalid a já jsme byli přátelé Goriona a <CHARNAME> je jeho adoptivní syn.~
+@659 /*Jaheira*/ = ~Když Gorion zemřel, rozhodli jsme se, že se o něj a Imoen postaráme, dokud nás budou potřebovat.~
+@660 /*Jaheira*/ = ~Moc přátel mi nezůstalo... je to nebezpečný život.~
+@661 /*Jaheira*/ = ~Měla bys odejít, vrátit se ke své šlechtické rodině. Teda pokud nejsou jen výplodem tvé fantazie.~
+@662 /*Clara*/ = ~Já...~
+@663 /*Jaheira*/ = ~Neboj se, dítě. Chápu. Také jsem byla kdysi sama.~
+@664 /*Clara*/ = ~Děkuji, Jaheiro.~
+
+//2nd Jaheira Banter- she talks first.
+@665 /*Jaheira*/ = ~Takže chceš přežít. Chceš bezpečí. A samozřejmě chceš peníze.~
+@666 /*Clara*/ = ~Peníze dávají bezpečí. Dávají svobodu.~
+@667 /*Jaheira*/ = ~Nehádám se s tebou; snažím se tě posoudit.~
+@668 /*Clara*/ = ~A...?~
+@669 /*Jaheira*/ = ~Pro nás nejsi nebezpečná. Obětovala bys nás, abys zachránila vlastní kůži, ale <CHARNAME> se bojíš a příliš se před ním třeseš, než abys nás zradila. Myslím, že jsi celkově užitečná.~
+@670 /*Clara*/ = ~Ach, díky! Také si myslím, že jsi užitečná.~
+@671 /*Jaheira*/ = ~Nemáš žádný morální kompas, ale nemáš ani hořkost ani nenávist.~
+@672 /*Jaheira*/ = ~Kdokoli ti ublížil, pomstila ses.~
+@673 /*Jaheira*/ = ~Stálo to za to? Udělala bys to znovu?~
+@674 /*Clara*/ = ~Ano. Rozhodně.~
+@675 /*Jaheira*/ = ~Zde se projevuje tvá dravost. Skvěle se hodíš k této skupině.~
+@676 /*Clara*/ = ~A co pohání tebe, Jaheiro?~
+@677 /*Jaheira*/ = ~Povinnost vůči přírodě a rovnováze.~
+@678 /*Jaheira*/ = ~Láska k těm, s nimiž jsem se rozhodla sdílet život.~
+@679 /*Jaheira*/ = ~A pomsta. Vždycky pomsta.~
+
+//3rd Jaheira ToB Banter (ToB only). Jaheira talks first.
+@680 /*Jaheira*/ = ~Irenicus je mrtev. Khalid pomstěn.~
+@681 /*Clara*/ = ~To by měla být dobrá zpráva, ale nevypadáš šťastně...~
+@682 /*Jaheira*/ = ~Sarevok žije. Jak může být má pomsta konečná, když se mrtví vracejí?~
+@683 /*Jaheira*/ = ~Zničila jsem ho dokonale, a teď kráčí mezi námi, jako by jeho kosti nebyly rozdrceny na prach a smíchány s hlínou tří království.~
+@684 /*Jaheira*/ = ~Žádná magie na zemi ho nemohla zachránit, a přesto je tady. Co mám dělat?~
+@685 /*Clara*/ = ~Zabít ho znovu?~
+@686 /*Jaheira*/ = ~Ne... ani si to nezaslouží.~
+@687 /*Jaheira*/ = ~Prostě půjdu dál.~
+
+//1st Neera Banter
+@688 /*Neera*/ = ~Líbí se mi, že umíš zmizet, když chceš. Většina lidí musí používat lektvary.~
+@689 /*Clara*/ = ~Nebo kouzla. Kdyby se i ostatní mohli skrýt, mohli bychom se vyhnout bojům.~
+@690 /*Neera*/ = ~Znám na to kouzlo! Jmenuje se Neviditelnost v okruhu 10 stop!~
+@692 /*Neera*/ = ~Jen nemůžu najít svitek.~
+@693 /*Clara*/ = ~Budu hledat.~
+@694 /*Clara*/ = ~Když odpočíváte tak dlouho, mám spoustu času na vyřizování svých věcí.~
+
+//2nd Neera Banter
+@695 /*Neera*/ = ~Kláro, kam chodíš, když odpočíváme? Máš další skupinu, se kterou se dobrodružství ve volném čase?~
+@696 /*Clara*/ = ~Ach, to je moje speciální činnost. Mám spoustu jiných zájmů, víš...~
+@698 /*Neera*/ = ~Ne, nevím. Proto se ptám.~
+@699 /*Clara*/ = ~Dobře, našla jsem mága, starého chlípného dědka bez přátel. Typický čaroděj.~
+@700 /*Clara*/ = ~No... kromě naší současné společnosti.~
+@701 /*Clara*/ = ~Každopádně, předstírala jsem, že jsem služka obchodníka se surovinami pro kouzla. Mág chtěl všemožné šílenosti, jako srst albínského černého vlka.~
+@702 /*Neera*/ = ~Hm, jak to rozeznáš od obyčejné bílé vlčí srsti?~
+@703 /*Clara*/ = ~Nerozeznáš! V tom je krása. Chtěl také další podivnosti, jako rty dryády, levou ledvinu člověka zabitého jeho bratrem, a pak ještě hodně pornografické věci, které nechci opakovat.~
+@704 /*Neera*/ = ~Nedivím se ti... čarodějové mohou být opravdu nechutní.~
+@705 /*Neera*/ = ~Myslím, že i mé tělo je surovina pro kouzla. Proto mě Rudí čarodějové pořád pronásledují.~
+@706 /*Clara*/ = ~Zkrátka, ukradla jsem mu, co jsem mohla.~
+@708 /*Neera*/ = ~Jak se ti podařilo utéct?~
+@709 /*Clara*/ = ~Hlavními dveřmi! Pořád doufá, že se brzy vrátím se vzácnými surovinami a mými „službami“ jako bonus.~
+@710 /*Neera*/ = ~Fuj...~
+@711 /*Clara*/ = ~Jo... na to nemysli. Důležité je, že jsem získala spoustu skvělých věcí, včetně těchto svitků Neviditelnosti. Na.~
+@712 /*Neera*/ = ~Díky! Kdybych ti mohla nějak oplatit...~
+@713 /*Clara*/ = ~Ano! Čti se mnou. Nečtu tak dobře, ale ty jsi mágyně... tak jsem si říkala...~
+@714 /*Neera*/ = ~Jasně! Mám tu správnou knihu; pojďme si číst spolu!~
+@715 /*Neera*/ = ~Jmenuje se „Magické předměty a jejich vlastnosti. Díl I: Od Kladiva Ashideena po Rukavice Boje“~
+
+//3rd Neera Banter
+@716 /*Clara*/ = ~No, to bylo poučné čtení. Díky, Neero!~
+@717 /*Clara*/ = ~Škoda, že kniha končí na „G“. Chtěla jsem vidět, co je to za helmu...~
+@718 /*Neera*/ = ~Myslím, že potřebuješ tohle! Našla jsem to speciálně pro tebe.~
+@719 /*Clara*/ = ~„Magické předměty a jejich vlastnosti. Díl II: Od Pláště vysoké ochrany po Meč rovnováhy“~
+@720 /*Clara*/ = ~Ano! Ale musíš mi pomoct.~
+@721 /*Neera*/ = ~Samozřejmě! Přečteme to spolu.~
+
+//4th Neera Banter
+@722 /*Neera*/ = ~Ach, Kláro, našla jsem!~
+@723 /*Clara*/ = ~„Magické předměty a jejich vlastnosti. Díl III: Od Nárameníku Fialového bratrstva po Žezlo kleteb“~
+@724 /*Clara*/ = ~Ach, to musí být poslední. Přečteme ho pomalu.~
+@725 /*Clara*/ = ~Ach, mám pro tebe taky něco! Na!~
+@726 /*Neera*/ = ~Je to baldurský máslový nůž? To je z prvního dílu!~
+@727 /*Neera*/ = ~Pamatuji si, že je úplně k ničemu...~
+@728 /*Clara*/ = ~No... ne úplně... dá se s ním mazat máslo...~
+@729 /*Clara*/ = ~Ha, výraz v tvé tváři je k nezaplacení. Tohle je tvůj opravdový dárek.~
+@730 /*Neera*/ = ~„Grimoár Absolutní Anihilace, přeložený z trpasličího jazyka včetně všech originálních schémat“.~
+@731 /*Neera*/ = ~Ach, Kláro, nemusela jsi!~
+@732 /*Neera*/ = ~Hmm... nehoní se za ním nějaký šílený lič nebo supermág, že?~
+@733 /*Clara*/ = ~Ne, předchozí majitel ho už nemůže používat. Už není...~
+@734 /*Neera*/ = ~Dobře, neříkej mi to.~
+@735 /*Neera*/ = ~Jsem tak nadšená! Vždycky jsem chtěla kopii, ale věděla jsem, že si ji nikdy nebudu moci dovolit.~
+@736 /*Neera*/ = ~Mockrát děkuji!~
+@737 /*Clara*/ = ~Není zač! Zkoušela jsem to číst, ale těm slovům nerozumím.~
+@738 /*Neera*/ = ~No, můžeme to zkoumat spolu. Začněme hned teď!~
+@739 /*Neera*/ = ~„Grimoár Absolutní Anihilace. Předmluva překladatele...“~
+@740 /*Neera*/ = ~... nuda... přeskočme to.~
+@741 /*Neera*/ = ~„Předmluva autora...“ – přeskočme taky.~
+@742 /*Neera*/ = ~„Varování a vyloučení odpovědnosti...“ – kdo by to četl?~
+@743 /*Neera*/ = ~Začínáme! „Kapitola 1: O správných přípravách k ovládnutí magické energie zničení“.~
+@744 /*Neera*/ = ~To bude zábava!~
+
+//1st Wilson Banter
+@745 /*Clara*/ = ~Dobře, medvěde, co musím udělat, abych tě osedlala?~
+@746 /*Wilson*/ = ~Huh?~
+@747 /*Clara*/ = ~Protože <CHARNAME> kategoricky a neochvějně odmítá koupit nám koně, proto!~
+@748 /*Wilson*/ = ~*čmuch* Vrr. Hrrr.~
+@749 /*Clara*/ = ~Samozřejmě, *ty* nemůžeš jezdit, ale my ostatní můžeme! Já pojedu na jednom, druhý ponese moje tašky a třetí bude rezervní.~
+@750 /*Wilson*/ = ~Vrr, huh?~
+@751 /*Clara*/ = ~Ano, koně mohou nést i tvé tašky. Nikdo by neměl tahat všechno.~
+@752 /*Wilson*/ = ~*čmuch* Hrrr?~
+@753 /*Clara*/ = ~Ano, koně budou nosit.~
+@754 /*Wilson*/ = ~Vrr. *funí*~
+@755 /*Clara*/ = ~Dobře, budiž, koně jsou taky „někdo“. Všichni koně nesou náklady, kromě těch, na kterých jedeme.~
+@756 /*Wilson*/ = ~*čmuch* Vrr. *kňučí*~
+@757 /*Clara*/ = ~Ano, můžeš sníst svého koně, protože na něm nemůžeš jet.~
+@758 /*Clara*/ = ~Ale to je jen teorie, protože <CHARNAME> nám nedovolí jezdit na koních!~
+@759 /*Wilson*/ = ~*čmuch*... huh?~
+@760 /*Clara*/ = ~*povzdech* Ano, možná ti <CHARNAME> dovolí sníst koně, i když my ostatní na nich jet nemůžeme. Zeptej se ho.~
+
+//2nd Wilson Banter
+@761 /*Wilson*/ = ~*čichá*~
+@762 /*Clara*/ = ~Díky, Wilsone, ale pořád tě chci osedlat.~
+@763 /*Wilson*/ = ~Vrr!~
+@764 /*Clara*/ = ~Ano, vím, že by to bylo nespravedlivé.~
+@765 /*Wilson*/ = ~Hrrr!~
+@766 /*Clara*/ = ~Ano, vím, že nejsi kůň!~
+@767 /*Clara*/ = ~Ale byla by z nás skvělá parta! Ty trháš... já střílím...~
+@768 /*Wilson*/ = ~*sténá* *kňučí*...~
+@769 /*Clara*/ = ~Opravdu? Ale jsi v tom tak dobrý.~
+@770 /*Clara*/ = ~Asi dobře, že neraníš lidi.~
+@771 /*Wilson*/ = ~*čmuch*... Hrrr!~
+@772 /*Clara*/ = ~Samozřejmě. Každý rád zabíjí, když je mu to dovoleno.~
+@773 /*Wilson*/ = ~Vrr. Vrr... *čmuch*~
+@774 /*Clara*/ = ~Nejen ty. <CHARNAME> mi taky nedovolí jíst ty, které zabiju.~
+@775 /*Clara*/ = ~Asi by byli nechutní. Raději se držme jeleniny.~
+
+//3rd Wilson Banter
+@776 /*Wilson*/ = ~Hrrr!~
+@777 /*Clara*/ = ~Ale no tak! Musí být něco, co ti můžu dát.~
+@778 /*Clara*/ = ~Už mě nebaví chodit...~
+@779 /*Wilson*/ = ~*čichá*... *čmuch*...~
+@780 /*Clara*/ = ~Jak můžeš mít vše, co chceš? To je jako nedostatek představivosti.~
+@781 /*Wilson*/ = ~*čmuch* Vrr, hrrr, hrrr... *čichá*... Hrrr!~
+@782 /*Clara*/ = ~Páni, to je pěkný seznam... ale já to všechno taky mám a pořád chci víc.~
+@783 /*Wilson*/ = ~*čichá*... *kňučí*~
+@784 /*Clara*/ = ~Samozřejmě, že by mě to udělalo šťastnou! Mít víc mě vždycky udělá šťastnou!~
+@785 /*Clara*/ = ~Dobře, ještě ne, ale jen proto, že toho nemám dost!~
+@786 /*Wilson*/ = ~Vrr?~
+@787 /*Clara*/ = ~Ano, moje logika je naprosto správná!~
+@788 /*Wilson*/ = ~Hrrr!~
+@789 /*Clara*/ = ~Co ty víš? Jsi jen medvěd!~
+
+//Edwina Banter - added because some mods change Edwin back into a woman (same as SOA, just different numbering)
+@790 /*Clara*/ = ~Edwine, mám pro tebe dárek.~
+@791 /*Edwina*/ = ~Nezlob mě. Jsem si jistý, že tvůj „dárek“ bude jen zklamáním. Taková nudná bytost jako ty nemá co nabídnout někomu, jako jsem já. (Kromě možná tvého těla. Už mě to prokletí.)~
+@792 /*Clara*/ = ~Opravdu? I způsob, jak vyřešit tvůj malý genderový problém? Mám přátele, kteří obchodují se vzácnými předměty, a když jsem jim vyprávěla o tvém neštěstí, dali mi tento pás. Myslím, že ho nazývají Pás změny pohlaví... Když jsem si ho nasadila...~
+@793 /*Clara*/ = ~Tadá! Clarence k vašim službám.~
+@794 /*Edwina*/ = ~Co? Našla jsi ho? Dej mi ten pás okamžitě!~
+@795 /*Clara*/ = ~Nevím. Možná bych si ho měla nechat. Ten pás by mohl být zábavný a ty jsi byl hrubý...~
+@796 /*Edwina*/ = ~Myslíš, že mě můžeš vydírat? Mě? Edwina Odesseirona? Tvůj primitivní opičí mozek si ani nedokáže představit utrpení, které ti mohu způsobit.~
+@797 /*Clara*/ = ~Mohl bys, ale neuděláš to. <CHARNAME> by se to nelíbilo a ty neriskuješ ztrátu jeho ochrany. Znám tvůj typ; přes všechnu tvou hrdost je sebezáchova vždy na prvním místě.~
+@798 /*Edwina*/ = ~(Možná není tak hloupá, jak jsem si myslel.) Tak jaká je tvá cena? Hádám, že něco chceš.~
+@799 /*Clara*/ = ~Nic. Jen mě požádej slušně. Nejlépe s „prosím“.~
+@800 /*Edwina*/ = ~(Tato venkovanka mě nutí sahat hlouběji. Ten sadismus by byl obdivuhodný, kdyby byl namířen na jiný cíl. Ale musím získat ten pás.) Dobře. Jak si přeješ.~
+@801 /*Edwina*/ = ~Omlouvám se za svou unáhlenost. Mohla bys mi prosím dát ten pás teď?~
+@802 /*Clara*/ = ~Ha! Slyším, jak skřípeš zuby. Ale myslím, že to stačí. Na. Vezmi si ho.~
+@803 /*Edwina*/ = ~Ano! Je můj! Získám zpět svou pravou slávu...~
+@804 /*Edwina*/ = ~(Proč to nefunguje?) PROČ TO NEFUNGUJE? Co je to za trik?~
+@805 /*Clara*/ = ~No... možná jsem zaplatila čarodějnici, aby na předmět seslala kouzlo, že ho můžu používat jen já, ale jsem si jistá, že tak velký a mocný mág jako ty to kouzlo snadno zlomí, že?~
+@806 /*Edwina*/ = ~Ty... TY! TY ŠPINAVÁ ZRÁDNÁ HLOUPÁ IDIOTKO...~
+@807 /*Clara*/ = ~Stálo za každou minci.~

@@ -25,15 +25,28 @@ END
 
 LANGUAGE ~Simplified Chinese~ ~schinese~
 		 ~LivingClara/translations/schinese/setup.tra~
-		 ~LivingClara/translations/schinese/prompts.tra~		 
+		 ~LivingClara/translations/schinese/prompts.tra~
+		 
 LANGUAGE ~English~ ~english~
 		 ~LivingClara/translations/english/setup.tra~
+		 
 LANGUAGE ~Russian~ ~russian~
 		 ~LivingClara/translations/russian/setup.tra~
+		 
 LANGUAGE ~French~ ~french~
 		 ~LivingClara/translations/french/setup.tra~
+		 
 LANGUAGE ~Deutsch~ ~deutsch~
 		 ~LivingClara/translations/deutsch/setup.tra~
+		 
+LANGUAGE ~Polish~ ~polish~
+		 ~LivingClara/translations/polish/setup.tra~
+		 
+LANGUAGE ~Spanish~ ~spanish~
+		 ~LivingClara/translations/spanish/setup.tra~
+		 
+LANGUAGE ~Czech~ ~czech~
+		 ~LivingClara/translations/czech/setup.tra~
 
 BEGIN @1 /*~Living Clara~*/        //Any text written after Begin will appear as XXX in the Weidu install: Install XXX?
 DESIGNATED 0 LABEL ~LivingClara-main~

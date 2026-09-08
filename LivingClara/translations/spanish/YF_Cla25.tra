@@ -1,0 +1,30 @@
+//Fate Spirit Dialogue for summoning Clara
+@0 /*Charname*/ = ~Tráeme a Clara, la danzante de las sombras.~
+
+//if you rescued her before
+@1 /*Clara*/ = ~Oye, <CHARNAME>, ¿has sido tú quien ha invocado a la noble Caroline Louisa Audrey Rosanna Alexandra...?~
+@2 /*Player*/ = ~Vale, Clara, este es mi plano de bolsillo, y todos aquí somos amigos. Te he llamado porque quiero que te unas a mi grupo.~
+@3 /*Player*/ = ~Basta ya — todo lo que necesitas saber es que tienes que reincorporarte al equipo.~
+@4 /*Player*/ = ~Necesito tu fuerza para mi viaje, Caroline. Ayúdame, por favor.~
+@5 /*Player*/ = ~Lo siento, Clara. He cambiado de opinión. Espera aquí por ahora.~
+@6 /*Clara*/ = ~De acuerdo, <CHARNAME>, ya que me has llamado, ¿qué más puedo hacer? Vamos.~
+@7 /*Clara*/ = ~Directa y concisa como siempre, <CHARNAME>. Pero por eso me gustas. ¡Vamos!~
+@8 /*Clara*/ = ~Oh, <CHARNAME>, me alegra poder serte útil. Sigamos nuestro camino.~
+@9 /*Clara*/ = ~¿Me vas a dejar aquí? Eso no es muy amable.~
+@10 /*Clara*/ = ~De acuerdo, esperaré. No parece que tenga muchas opciones.~
+
+//if you didn't rescue her before
+@11 /*Clara*/ = ~¿Qué? ¿Dónde estoy? ¿Quién eres? Me resultas familiar pero no recuerdo bien... todo esto parece una pesadilla.~
+@12 /*Player*/ = ~Enhorabuena, estás en el grupo. Espero que tengas habilidades útiles.~
+@13 /*Player*/ = ~Viajamos juntos brevemente y necesito tu ayuda de nuevo.~
+@14 /*Player*/ = ~No sé en qué estaba pensando. Invocaré a otra persona.~
+@15 /*Clara*/ = ~Quiero decir, supongo que sí. Estoy tan confundida.~
+@17 /*Clara*/ = ~Era <CHARNAME>, ¿verdad? Creo que lo recuerdo. Quizás puedas contarme más.~
+@18 /*Clara*/ = ~¿Me vas a dejar aquí? Eso no es muy amable.~
+
+//When she's waiting and hasn't joined you before
+@20 /*Clara*/ = ~Oh, <CHARNAME>. Has vuelto. ¿Puedo viajar contigo ahora?~
+@21 /*Player*/ = ~Sí, Clara. Ven conmigo.~
+@22 /*Player*/ = ~Lo siento. Todavía no te necesito.~
+@23 /*Clara*/ = ~¿Lo dices en serio? Oh, menos mal. Salgamos de aquí.~
+@24 /*Clara*/ = ~¿En serio? De acuerdo, entonces. Déjame aquí, muriéndome de hambre.~

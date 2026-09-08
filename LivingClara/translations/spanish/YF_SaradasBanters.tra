@@ -1,0 +1,25 @@
+//1er Dialogue Clara-Saradas
+@1 /*Clara*/ = ~Oye, Saradas, ¿puedo hacerte una pregunta?~
+@2 /*Saradas*/ = ~Claro. Las mentes curiosas merecen ser recompensadas, y los jóvenes no pueden crecer sin escuchar la sabiduría de sus mayores. ¿Qué deseas saber?~
+@3 /*Clara*/ = ~Bueno, supongo que no esperabas que <CHARNAME> te invocara... ¿Alguien te va a echar de menos? ¿Tienes una familia que espera tu regreso?~
+@4 /*Saradas*/ = ~Ah, me temo que no. Pasé muchos años persiguiendo conocimientos y artefactos mágicos, y aunque no me arrepiento de mis decisiones, nunca he tenido una familia ni un lugar al que pueda llamar hogar.~
+@5 /*Saradas*/ = ~Ciertamente, los rumores de magias olvidadas han guiado a menudo mis pasos, y aunque el templo probablemente ha notado mi ausencia, no es la primera vez que desaparezco de repente.~
+@6 /*Clara*/ = ~Oh, menos mal. Me alivia oír eso.~
+@7 /*Saradas*/ = ~¿Te alivia?~
+@8 /*Clara*/ = ~Sí, quiero decir, eres REALMENTE muy viejo. Me preocupaba que <CHARNAME> hubiera secuestrado al bisabuelo de alguien y que vinieran a buscarte.~
+@9 /*Clara*/ = ~Pero como no tienes familia, significa que podemos quedarnos con tus cosas si mueres mientras duermes. ¡Qué práctico! ¡Gracias!~
+@10 /*Saradas*/ = ~Esa reflexión es... interesante.~
+
+//2ème Dialogue
+@11 /*Saradas*/ = ~Observas con cierta insistencia, Clara. ¿Algo va mal?~
+@12 /*Clara*/ = ~No, solo compruebo que sigues vivo.~
+@13 /*Saradas*/ = ~Lo estoy, en efecto. Siento decepcionarte.~
+@14 /*Clara*/ = ~No estoy decepcionada, ¡estoy impresionada! Nunca había visto a nadie tan viejo como tú, y quiero conocer tu secreto. ¿Cómo has logrado seguir vivo durante siglos?~
+@15 /*Saradas*/ = ~¿Siglos? ¿Qué edad crees que tengo?~
+@16 /*Clara*/ = ~No sé. ¿Doscientos años? Pareces de doscientos. Pero peleas como un joven.~
+@17 /*Saradas*/ = ~Eres una niña extraña, Clara, con una visión de la vida igualmente extraña. Nunca sé si debo sentirme halagado o insultado cuando hablas.~
+@18 /*Saradas*/ = ~Sin embargo, si realmente deseas conocer los secretos de la longevidad, estaría encantado de instruirte si puedo.~
+@19 /*Clara*/ = ~¿En serio? ¡Fantástico! Enséñame a vivir eternamente... siempre que sea fácil y no tenga que cambiar absolutamente nada de mi vida.~
+@20 /*Saradas*/ = ~Ya veo...~
+@21 /*Saradas*/ = ~En ese caso, me temo que es cosa de magia, pequeña, y simplemente no tienes las habilidades necesarias.~
+@22 /*Clara*/ = ~Ooh. Qué lástima. Gracias de todos modos por intentarlo.~

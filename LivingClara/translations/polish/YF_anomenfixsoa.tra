@@ -1,0 +1,4 @@
+// Anomen Romance Fix
+@0 /*Anomen*/ = ~Szanowna pani, obawiam się, że między nami mogło dojść do nieporozumienia. Chciałbym, żeby wszystko było jak dawniej. Czy mogłabyś mi wybaczyć?~
+@1 /*CHARNAME*/ = ~Nie, Anomenie, chcę tylko, żebyśmy byli przyjaciółmi.~
+@2 /*CHARNAME*/ = ~Oczywiście, Anomenie. Wszystko jest już za nami.~

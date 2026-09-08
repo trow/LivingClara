@@ -1,0 +1,4 @@
+// Anomen Romance Fix
+@0 /*Anomen*/ = ~Vážená paní, obávám se, že mezi námi mohlo dojít k nedorozumění. Chtěl bych, aby bylo vše jako dřív. Mohla byste mi odpustit?~
+@1 /*CHARNAME*/ = ~Ne, Anomene, chci jen, abychom byli přátelé.~
+@2 /*CHARNAME*/ = ~Samozřejmě, Anomene. Všechno je minulostí.~

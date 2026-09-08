@@ -1,0 +1,24 @@
+@1 /*Hexxat Dead- create bag*/ = ~Pokonujesz wampirzycę, ale zamienia się w mgłę i szybko znika. Po niej pozostał tylko stary worek, który zostawiła w pośpiechu.~
+@2 /*Hexxat Dead- have bag but not stake*/ = ~Po zapachu worka odnajdujesz trumnę, do której wampir ukrył się po porażce. Jeśli masz kołek osikowy, spróbuj go zniszczyć na zawsze.~
+@3 /*Hexxat dead- have bag and stake*/ = ~Gdy zaklęcie działa, rozproszona siła życiowa wraca do ciała biednej ofiary, a jej oddech powraca.~
+@4 /*Journal*/ = ~Grobowiec Dragomira był pułapką. Osoba, którą znałam jako Hexxat, była marionetką sterowaną przez wampirzycę, która chciała ze mną porozmawiać. Ale nie rozmawiam z potworami. Zabiłam wampirzycę i uwolniłam duszę tej dziewczyny. Mam nadzieję, że teraz będzie mogła lepiej porozmawiać.~
+
+@11 = ~Wbij jej kołek w serce.~
+@12 = ~Na razie zostaw to.~
+@13 = ~Najpierw znajdź kołek.~
+@20 = ~Życiodajne siły tej biednej ofiary zostały całkowicie wyssane. Teraz, gdy zabójca został zniszczony, uwolniona energia może zostać przywrócona. Być może zaklęcie Przywrócenia lub podobne może pomóc.~
+@21 = ~Niech <PLAYER1> rzuci Mniejsze Przywrócenie.~
+@22 = ~Niech <PLAYER2> rzuci Mniejsze Przywrócenie.~
+@23 = ~Niech <PLAYER3> rzuci Mniejsze Przywrócenie.~
+@24 = ~Niech <PLAYER4> rzuci Mniejsze Przywrócenie.~
+@25 = ~Niech <PLAYER5> rzuci Mniejsze Przywrócenie.~
+@26 = ~Niech <PLAYER6> rzuci Mniejsze Przywrócenie.~
+@30 = ~Użyj zwoju Przywrócenia.~
+@31 = ~Niech <PLAYER1> rzuci Przywrócenie.~
+@32 = ~Niech <PLAYER2> rzuci Przywrócenie.~
+@33 = ~Niech <PLAYER3> rzuci Przywrócenie.~
+@34 = ~Niech <PLAYER4> rzuci Przywrócenie.~
+@35 = ~Niech <PLAYER5> rzuci Przywrócenie.~
+@36 = ~Niech <PLAYER6> rzuci Przywrócenie.~
+@40 = ~Na razie zostaw ją w spokoju.~
+@41 = ~Najpierw przygotuj zaklęcie.~

@@ -1,0 +1,59 @@
+//Imoen Book Banter
+@1 /*Imoen*/ = ~Hej... co tam czytasz?~
+@2 /*Neera*/ = ~„Grimuar Absolutnej Zagłady”! Pokochałbyś to!~
+@3 /*Imoen*/ = ~„...przetłumaczony z gnomiego, z oryginalnymi ilustracjami”. Ooo, seksownie.~
+@4 /*Imoen*/ = ~Mogę też zajrzeć?~
+@5 /*Neera*/ = ~Jasne! Przysuń się. Możesz mi pomóc z niektórymi fragmentami, bo sama nie wszystko rozumiem.~
+
+//Nalia Book Banter
+@6 /*Nalia*/ = ~Neero, zawsze gdy masz wolną chwilę, czytasz tę książkę. Co to za dzieło?~
+@7 /*Neera*/ = ~Ta? „Grimuar Absolutnej Zagłady”! Mega odlot!~
+@8 /*Neera*/ = ~Choć nie wszystko rozumiem i boję się, że coś spartaczę...~
+@9 /*Neera*/ = ~Może poczytasz ty?~
+@10 /*Nalia*/ = ~Naprawdę można? Cudownie. Przypominam sobie księgi zaklęć z zamku mojego ojca... tyle wspaniałych chwil z nimi spędziłam...~
+@11 /*Nalia*/ = ~Dziękuję, Neero!~
+
+//Aerie Book Banter
+@12 /*Aerie*/ = ~Czy... czy to książka w gnomim? Wygląda jak te, z których uczył mnie wujek Quayle.~
+@13 /*Aerie*/ = ~Ty też umiesz czytać po gnomiemu?~
+@14 /*Neera*/ = ~Ja? Nie, to tłumaczenie na wspólny. Ale ilustracje są oryginalne. Czytałaś to?~
+@15 /*Aerie*/ = ~„Grimuar Absolutnej Zagłady”. Czy to na pewno bezpieczne?~
+@16 /*Neera*/ = ~Oczywiście, że nie! Chodzi o użycie mocy wszechświata, żeby wysadzić wszystko w powietrze!~
+@17 /*Neera*/ = ~Chcesz pożyczyć, kiedy nie będę czytać?~
+@18 /*Aerie*/ = ~Naprawdę? Dziękuję, Neero! Właściwie... czasem też lubię coś wysadzić.~
+
+//CN Book Banter
+@19 /*Neera*/ = ~<CHARNAME>, Clara dała mi książkę, o której myślałam, że możesz być zainteresowany.~
+@20 /*Neera*/ = ~Nazywa się „Grimuar Absolutnej Zagłady”. Jeśli chcesz, możesz pożyczyć, kiedy nie będę czytać.~
+@21 /*CHARNAME*/ = ~Dzięki, Neero, zerknę.~
+@22 /*CHARNAME*/ = ~Nie trzeba, czytałem oryginał w gnomim!~
+@23 /*CHARNAME*/ = ~Przepraszam, Neero, nie przepadam za czytaniem.~
+@24 /*Neera*/ = ~Proszę bardzo! Jesteś mi dłużny.~
+@25 /*Neera*/ = ~Wiedziałam... No, trudno!~
+@26 /*Neera*/ = ~Zauważyłam. Twoja strata.~
+
+//Edwin Book Banter
+@27 /*Edwin*/ = ~„Grimuar Absolutnej Zagłady”, przetłumaczony z gnomiego?~
+@28 /*Edwin*/ = ~Co, ktoś zasypiał na lekcjach gnomiego?~
+@29 /*Neera*/ = ~Nigdy się nie uczyłam gnomiego, i co z tego!~
+@30 /*Neera*/ = ~I w ogóle, po co się czepiasz? Nie mów, że chcesz pożyczyć.~
+@31 /*Edwin*/ = ~Pożyczyć twoją „wersję dla idiotów”? Czytałem oryginał... oczywiście w gnomim.~
+@32 /*Neera*/ = ~Gnój!~
+
+//Jan Book Banter
+@33 /*Jan*/ = ~Oho, „Grimuar Absolutnej Zagłady”? Tego nie czytałem.~
+@34 /*Neera*/ = ~Chcesz pożyczyć?~
+@35 /*Jan*/ = ~Masz wersję przetłumaczoną z gnomiego?~
+@36 /*Jan*/ = ~Najwyraźniej nie kumasz, słoneczko, ale ja umiem czytać po gnomiemu, więc wypadałoby dać mi wersję przetłumaczoną z powrotem na gnomii.~
+@37 /*Neera*/ = ~Wiem! Nie specjalnie...~
+@38 /*Jan*/ = ~Mógłbym sam przetłumaczyć to na gnomii. Wyobraź sobie: „Grimuar Absolutnej Zagłady, przetłumaczony z gnomiego z pełnokolorowymi ilustracjami, obecnie w tłumaczeniu na gnomii autorstwa Jana Jansena”.~
+@39 /*Jan*/ = ~Absolutny bestseller! No, dla ludzi nie, bo nikt z was nie zna gnomiego...~
+@40 /*Neera*/ = ~Jestem półelfką!~
+@41 /*Jan*/ = ~Elfy też raczej nie kupią, bo są zbyt wyniosłe, żeby uczyć się gnomiego.~
+@42 /*Neera*/ = ~Jestem! PÓŁ! ELFKĄ! Tylko jedno z rodziców było elfem!~
+@43 /*Jan*/ = ~Choć ja też nie znam elfiego. W sumie to nie wiem, jak w ogóle rozmawiamy, skoro ja mówię po gnomiemu, a ty paplasz po elfiemu.~
+@44 /*Neera*/ = ~ROZMAWIAMY! WE! WSPÓLNYM!~
+@45 /*Jan*/ = ~No i znowu, kochanie, udajesz, że nie rozumiem.~
+@46 /*Jan*/ = ~Zabieram książkę, dzięki!~
+@47 /*Jan*/ = ~O, patrz, jest po wspólnemu! Co prawda pewnie nie rozumiesz, bo jestem gnomem i nie kumasz ani słowa z tego, co mówię, ale ja też umiem czytać po wspólnemu.~
+@48 /*Neera*/ = ~AAAAA!~

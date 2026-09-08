@@ -1,0 +1,30 @@
+//Anomen uses third CN line
+
+@0 /*Keldorn*/ = ~Zamierzacie zaatakować świątynię Lśniącego Serca, <CHARNAME>? Wiesz, że nie mogę na to pozwolić.~
+@1 /*CHARNAME*/ = ~Keldornie, mój przyjacielu, po prostu się zrelaksuj. Nie poznajesz żartu?~
+@2 /*CHARNAME*/ = ~Spokojnie, Keldornie. To był tylko plan, nawet mniej... zarys planu, jeśli nie mniej, odległy szkic niejasnej możliwości spisku. Więc to się nie spełni. Przeżyję. Będą inne.~
+@3 /*CHARNAME*/ = ~Nie możesz na to pozwolić? A ja nie pozwolę ci stanąć mi na drodze. Dobądź miecza!~
+
+//After Anomen fails test
+@4 /*CHARNAME*/ = ~Kiedyś, Anomenie, ale nie teraz. Nie jesteśmy jeszcze wystarczająco silni, by odnieść zwycięstwo.~
+@5 /*Anomen*/ = ~*wzdycha* Masz rację, jak zawsze, <CHARNAME>. Ruszajmy dalej. Dzień zemsty na Zakonie może poczekać.~
+
+//An interjection into the fallen paladin quest.
+@6 /*Anomen*/ = ~Wygląda na to, że surowe zasady Zakonu mogą złamać nawet jego najbardziej lojalnych sług.~
+
+//After Anomen fails test with Clara
+@8 /*Charname*/ = ~Uspokój się...~
+@9 /*Anomen*/ = ~Zostaw mnie! Sam to widziałeś! Osłaniają tych łotrów, ale nie chcą uznać, że wymierzyłem sprawiedliwość za moją siostrę! Co to za sprawiedliwość? Co to za porządek?~
+@10 /*Clara*/ = ~*podchodzi* Widziałam. Widziałam brata, który zrobił to, co musiał zrobić dla siostry. To nie zbrodnia, Anomenie. To sprawiedliwość.~
+@11 /*Anomen*/ = ~Sprawiedliwość? Ha! Nazwali mnie łotrem! Powiedzieli, że nie jestem godzien zaufania Zakonu! Nie obchodzi ich ja, ani Moira!~
+@12 /*Clara*/ = ~Bo są ślepi. Siedzą w swoich wieżach, trzymając spleśniałe statuty, dawno zapomnieli, po co te statuty powstały. Ty pamiętasz Moirę. Wyrównałeś rachunek za jej krew – to o wiele bardziej realne niż ich pieczęcie i wstęgi.~
+@13 /*Anomen*/ = ~*ciężko oddycha* Ja... po prostu chciałem, żeby zaznała spokoju. Ci też na to zasłużyli... ukrywali zabójcę, oni też są winni!~
+@14 /*Clara*/ = ~Oczywiście. Ukrywanie zła jest złem. Po prostu dokonałeś prawdziwego sądu – takiego, na który im zabrakło odwagi.~
+@15 /*Anomen*/ = ~Ale... teraz jestem nikim. Haniebnie usunięty z Zakonu... jestem nikim.~
+@16 /*Clara*/ = ~Nie. Masz siebie. Masz nazwisko Delrin. Masz miecz. *pauza* I masz czas.~
+@17 /*Anomen*/ = ~Czas? Ha! Nie mam zamiaru czekać – wpadnę i wykończę tych, którzy ich osłaniali!~
+@18 /*Clara*/ = ~Słuchaj. Jeśli teraz tam wpadniesz, tylko udowodnisz im rację – że jesteś szaleńcem, którego nie da się kontrolować. Ale jeśli odwrócisz się, przeżyjesz i wspinasz wyżej, niż oni kiedykolwiek mogli... pewnego dnia będziesz siedział nad nimi i sam spisywał te statuty. Wtedy kto odważy się cię wyrzucić?~
+@19 /*Anomen*/ = ~*długa cisza* ...Wspiąć się wyżej.~
+@20 /*Clara*/ = ~Póki żyjesz, wszystko jest możliwe. Umrzyj tu, a naprawdę będziesz śmieciem. Odejdź żywy – a pewnego dnia uklękną i będą błagać cię o powrót.~
+@21 /*Anomen*/ = ~*głęboki wdech* ...Masz rację. Nie mogę tu upaść. Pokażę im – bez ich zgody Anomen Delrin nadal jest Anomenem Delrinem. Pewnego dnia... pewnego dnia wrócę i zadrżą na wspomnienie tej decyzji.~
+@22 /*Clara*/ = ~*uśmiecha się* To jest Anomen, którego znam. Chodźmy. Opuśćmy to przeklęte miejsce. Wszyscy patrzą.~

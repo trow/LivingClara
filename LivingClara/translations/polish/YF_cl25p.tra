@@ -1,0 +1,20 @@
+//If you kick out Clara
+@0 /*Clara*/ = ~Więc tak to ma być?~
+@1 /*Player*/ = ~Nie, chcę, żebyś została.~
+@2 /*Player*/ = ~Poczekaj tutaj. Wrócę po ciebie.~
+@3 /*Player*/ = ~Wróć do mojego planu kieszonkowego. Znajdę cię tam później.~
+@4 /*Clara*/ = ~Świetnie. Zostawić mnie w piekle. To miejsce jest okropne, więc lepiej wracaj szybko.~
+@5 /*Clara*/ = ~Dobrze. Poczekam. Ale lepiej wracaj szybko.~
+@6 /*Clara*/ = ~Świetnie. Wysłać mnie z powrotem do piekła, kiedy nie jestem potrzebna. Twój plan kieszonkowy jest strasznie nudny, więc lepiej wracaj szybko!~
+
+//If she's waiting for you in PP
+@7 /*Clara*/ = ~Cześć, <CHARNAME>. Czy mogę *proszę* stąd wyjść?~
+@8 /*Player*/ = ~Tak. Chodź.~
+@9 /*Player*/ = ~Przepraszam, Klaro. Jeszcze cię nie potrzebuję.~
+@10 /*Clara*/ = ~Nareszcie! Chodźmy!~
+@11 /*Clara*/ = ~Świetnie. Pójdę porozmawiać z Cespenarem. Opowiadał mi jakieś historie o Planach Piekielnych – są całkiem niezłe.~
+
+//Not in PP
+@12 /*Clara*/ = ~Cześć, <CHARNAME>. Przyszedłeś po mnie?~
+@13 /*Player*/ = ~Przepraszam, Klaro. Musisz poczekać.~
+@14 /*Clara*/ = ~W porządku, <CHARNAME>, poczekam tutaj. (Dopóki nie pojawi się lepsza oferta.)~

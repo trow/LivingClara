@@ -1,0 +1,10 @@
+//Final Solaris Conversation
+
+@1 /*Clara*/ = ~Vaya, <CHARNAME>. Tienes la oportunidad de convertirte en un dios y dejar todo esto atrás. Cuando hayas adquirido ese poder temible, no te olvides de nosotros, los simples mortales que te ayudamos a llegar hasta aquí.~
+
+//Hexxat Talk
+@2 /*Hexxat*/ = ~Perdóname, Clara... Es la única manera.~ [OH81268]
+@3 /*Clara*/ = ~La Dormiente... ¡se despierta! Señora, he hecho lo que ordenó—¡déjeme vivir!~ [OH81267]
+@4 /*Clara*/ = ~¡No, ya no me controlas más! ¡No soy tu esclava!~
+@5 /*Hexxat*/ = ~No necesito una esclava; estoy viva.~
+@6 /*Hexxat*/ = ~Tú también estás viva. Disfrutemos del <DAYNIGHTALL>.~

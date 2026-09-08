@@ -1,0 +1,59 @@
+//Imoen Book Banter
+@1 /*Imoen*/ = ~Hej... co to čteš?~
+@2 /*Neera*/ = ~„Grimoár Absolutní Zkázy”! To by se ti líbilo!~
+@3 /*Imoen*/ = ~„...přeloženo z gnómského jazyka s původními ilustracemi”. No páni, to je žhavé.~
+@4 /*Imoen*/ = ~Můžu taky nahlédnout?~
+@5 /*Neera*/ = ~Jasně! Přiď blíž. Můžeš mi pomoct s některými pasážemi, sama to nechápu všechno.~
+
+//Nalia Book Banter
+@6 /*Nalia*/ = ~Neero, když máš chvilku, pořád čteš tu knihu. Co to je?~
+@7 /*Neera*/ = ~Tohle? „Grimoár Absolutní Zkázy“! Je to bomba!~
+@8 /*Neera*/ = ~I když dost věcí nechápu a bojím se, že to pokazím...~
+@9 /*Neera*/ = ~Nechceš si to prolistovat ty?~
+@10 /*Nalia*/ = ~Opravdu můžu? To je úžasné. Vzpomínám si na knihy kouzel z otcova hradu... tolik krásných chvil jsem s nimi strávila...~
+@11 /*Nalia*/ = ~Děkuji, Neero!~
+
+//Aerie Book Banter
+@12 /*Aerie*/ = ~Je... je ta kniha v gnómském jazyce? Vypadá jako ty, ze kterých mě učil strýc Quayle.~
+@13 /*Aerie*/ = ~Ty taky umíš číst gnómsky?~
+@14 /*Neera*/ = ~Já? Ne, je to překlad do obecné řeči. Ale ilustrace jsou originální. Četla jsi to?~
+@15 /*Aerie*/ = ~„Grimoár Absolutní Zkázy“. Je to vůbec bezpečné?~
+@16 /*Neera*/ = ~Samozřejmě že ne! Je o tom, jak využít sílu vesmíru k tomu, aby všechno vybouchlo!~
+@17 /*Neera*/ = ~Chceš si to půjčit, až to dočtu?~
+@18 /*Aerie*/ = ~Opravdu? Děkuji, Neero! Vlastně... někdy taky ráda něco vyhodím do povětří.~
+
+//CN Book Banter
+@19 /*Neera*/ = ~<CHARNAME>, Klára mi dala knihu, o které jsem si myslela, že by tě mohla zajímat.~
+@20 /*Neera*/ = ~Jmenuje se „Grimoár Absolutní Zkázy“. Když chceš, můžeš si ji půjčit, až to dočtu.~
+@21 /*CHARNAME*/ = ~Díky, Neero, podívám se na to.~
+@22 /*CHARNAME*/ = ~Díky, nechci, četl jsem originál v gnómském jazyce!~
+@23 /*CHARNAME*/ = ~Promiň, Neero, nejsem čtenářský typ.~
+@24 /*Neera*/ = ~Není zač! Dlužíš mi laskavost.~
+@25 /*Neera*/ = ~Věděla jsem... No, tak dobrá!~
+@26 /*Neera*/ = ~Všimla jsem si. Tvá ztráta.~
+
+//Edwin Book Banter
+@27 /*Edwin*/ = ~„Grimoár Absolutní Zkázy“, přeložený z gnómského jazyka?~
+@28 /*Edwin*/ = ~Co, někdo chrápal na hodinách gnómského jazyka?~
+@29 /*Neera*/ = ~Nikdy jsem se gnómsky neučila, a co!~
+@30 /*Neera*/ = ~A vůbec, proč se mě dotazuješ? Neříkej, že si chceš půjčit.~
+@31 /*Edwin*/ = ~Půjčit si tvou „verzi pro idioty“? Četl jsem originál... samozřejmě v gnómském jazyce.~
+@32 /*Neera*/ = ~Troube!~
+
+//Jan Book Banter
+@33 /*Jan*/ = ~Hle, „Grimoár Absolutní Zkázy“? To jsem nečetl.~
+@34 /*Neera*/ = ~Chceš si půjčit?~
+@35 /*Jan*/ = ~Máš verzi přeloženou z gnómského jazyka?~
+@36 /*Jan*/ = ~To zjevně nechápeš, zlatíčko, ale já umím gnómsky, takže by bylo rozumnější dát mi verzi přeloženou zpátky do gnómského jazyka.~
+@37 /*Neera*/ = ~To vím! Nescháněla jsem to schválně...~
+@38 /*Jan*/ = ~Mohl bych si to přeložit do gnómského jazyka sám. Představ si: „Grimoár Absolutní Zkázy, přeložený z gnómského jazyka s plnobarevnými ilustracemi, nyní v překladu do gnómského jazyka od Jana Jansena“.~
+@39 /*Jan*/ = ~Absolutní bestseller! Teda pro lidi ne, protože žádný z vás neumí gnómsky...~
+@40 /*Neera*/ = ~Jsem půlelf!~
+@41 /*Jan*/ = ~Elfové to stejnak koupit nebudou, jsou příliš povýšení na to, učit se gnómsky.~
+@42 /*Neera*/ = ~Jsem! PŮL! ELF! Jen jeden z rodičů byl elf!~
+@43 /*Jan*/ = ~I když já taky neumím elfsky. Vlastně ani nevím, jak se bavíme, když já mluvím gnómsky a ty žvaníš elfsky.~
+@44 /*Neera*/ = ~MLUVÍME! OBECNOU! ŘEČÍ!~
+@45 /*Jan*/ = ~No a zase, zlatíčko, děláš, jako bych nerozuměl.~
+@46 /*Jan*/ = ~Beru si knížku, díky!~
+@47 /*Jan*/ = ~A hele, je v obecné řeči! I když to asi nepochopíš, protože jsem gnóm a nerozumíš ani slovo z toho, co říkám, ale já taky umím číst obecnou řeč.~
+@48 /*Neera*/ = ~AAAAA!~

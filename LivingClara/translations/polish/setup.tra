@@ -1,0 +1,277 @@
+//Set Up TRA file
+@1 /*Begin*/ = ~Klara i Mroczny Anomen~
+@2 /*Clara Name*/ = ~Klara~
+@3 /*Clara Bio*/ = ~Klara niechętnie opowiada o swojej przeszłości, ale jeśli ją zapytasz, zdradzi ci kilka faktów. Dorastała na farmie i kilka lat temu przybyła do Athkatli, mając nadzieję znaleźć pracę jako aktorka. Jednak jej starania nie przyniosły skutku, więc nauczyła się podstaw kradzieży od starego złodzieja z Cienia, aby jakoś przeżyć. Choć była tylko przeciętną złodziejką, zarabiała wystarczająco, by regularnie płacić gildii za pozwolenie na działanie w mieście, dopóki nie wpadła w szpony Hexxat.~
+@4 /*MORALE*/ = ~Potrzebuję... pomocy.~ [YF_Cla01] //"I.. need help" - Ariannee,  
+@5 /*LEADER*/ = ~Świetny pomysł.~ [YF_Cla02] // "A fine idea" - Ariannev
+@6 /*TIRED*/ = ~*Ziewa*~ [YF_Cla03] //"Yawn" - Arianned
+@7 /*BORED*/ = ~Ile jeszcze mam czekać, aż zrobimy coś ciekawego?~ [NYMPH01]  
+@8 /*BATTLE_CRY1*/ = ~Za nimi!~ [YF_Cla04] //"After em" - PoEFFeisty8
+@9 /*BATTLE_CRY2*/ = ~Nie boję się.~ [YF_Cla05] // "I am not afraid" - Arianne8
+@10 /*BATTLE_CRY3*/ = ~Pokonam cię!~ [YF_Cla06] //"I will defeat you" - Ariannea   
+@11 /*BATTLE_CRY4*/ = ~Powalę cię.~ [YF_Cla07] //"I will strike you down" - Arianne9 
+@12 /*BATTLE_CRY5*/ = ~Och, dorwę cię!~ [YF_Cla34] //"Oh, I'm gonna get you!" - Sigruna
+@13 /*DAMAGE*/ = ~To boli! Jak śmiesz dotykać damy?~ [HVILLF06]     
+@14 /*DYING*/ = ~O, nie. Nadchodzi moja śmierć.~ [PEASF208]  
+@15 /*HURT*/ = ~Chyba... krwawię.~ [YF_Cla08] //"I...... think I'm bleeding" - Arianneeee
+@16 /*AREA_FOREST*/ = ~Nie lubię lasu. Jest tam tyle robaków.~
+@17 /*AREA_CITY*/ = ~Mężczyźni do uwodzenia, ludzie do okradania. Dobrze wrócić w znajome środowisko.~
+@18 /*AREA_DUNGEON*/ = ~Karolina Ludwika Adelajda Rozanna Aleksandra Srebrna Tarcza jest zbyt dobra na to miejsce.~
+@19 /*AREA_DAY*/ = ~Słońce jest przyjemne, ale wolę ciemność. Tam naprawdę błyszczę.~
+@20 /*AREA_NIGHT*/ = ~Czas patrzeć, pozostając niewidzialnym.~ [YF_Cla09] //"Time to see and not be seen" - PoEFFeisty5
+@21 /*SELECT_COMMON1*/ = ~Hę?~ [YF_Cla10] //"Yeah?" - PoEFFeistyf 
+@22 /*SELECT_COMMON2*/ = ~Co mogę zrobić?~ [YF_Cla11] //"What can I do? - Sigrunx 
+@23 /*SELECT_COMMON3*/ = ~Mmm?~ [YF_Cla12] //"Mmm-hmm?" - PoEFSmoothg
+@24 /*SELECT_COMMON4*/ = ~Tak?~ [YF_Cla13] //"Yes?" - Arianne0, 
+@25 /*SELECT_COMMON5*/ = ~Gotowy i czekam.~ [YF_Cla14] //"Ready & waiting" - Arianneg
+@26 /*SELECT_COMMON6*/ = ~Hm?~ [YF_Cla15] //"Hmm?" - PoEFFeistyg
+@27 /*SELECT_ACTION1*/ = ~Idę.~ [YF_Cla16] //"I go" - Ariannei,
+@28 /*SELECT_ACTION2*/ = ~Oczywiście.~ [YF_Cla17] //"Of course" - Sigruns, 
+@29 /*SELECT_ACTION3*/ = ~Zrobione.~ [YF_Cla18] //"It is done" - Ariannek
+@30 /*SELECT_ACTION4*/ = ~Mam to.~ [YF_Cla19] //"I've got this" - PoEFFeistyb
+@31 /*SELECT_ACTION5*/ = ~Już nie ma.~ [YF_Cla20] //"Already gone" - PoEFFeistys
+@32 /*SELECT_ACTION6*/ = ~Do twojej dyspozycji.~ [YF_Cla21] //"At your command" - Ariannef,   
+@33 /*SELECT_ACTION7*/ = ~Natychmiast.~ [YF_Cla22] //"Immediately" - Ariannej
+@34 /*SELECT_RARE1*/ = ~Uważaj.~ [YF_Cla23] //"Watch it" - PoEFFeistyx  
+@35 /*SELECT_RARE2*/ = ~Zrób to jeszcze raz, a zabiorę ci to.~ [YF_Cla24] //"Do it again and I'm taking it away" - PoEFFeistyy
+@36 /*CRITICAL_HIT*/ = ~Ha, mam go!~ [YF_Cla25] //"Hah, got him" - PoEFFeistyz
+@37 /*CRITICAL_MISS*/ = ~Ups.~ [YF_Cla26] //"Oops" - Arianne1
+@38 /*TARGET_IMMUNE*/ = ~Podaj mi inny miecz!~ [YF_Cla27] //"Hand me another sword!" - Arianne2
+@39 /*INVENTORY_FULL*/ = ~To niemożliwe.~ [YF_Cla28] //"That's impossible" - Arianne3
+@40 /*HAPPY*/ = ~*Wesoło gwizdże*~ [YF_Cla29] //"Happy Whistling" - Sigrund
+@41 /*UNHAPPY_ANNOYED*/ = ~Nie chcę tego robić.~    
+@42 /*UNHAPPY_SERIOUS*/ = ~Ech. Wolałbym znowu pracować dla Cienistych Złodziei.~   
+@43 /*SET_A_TRAP*/ = ~Właśnie tak to się robi.~ [YF_Cla30] //"And that's how it's done" - PoEFSmooth7 
+@44 /*HIDDEN_IN_SHADOWS*/ = ~Jak cień.~ [YF_Cla31] //"Like a shadow" - Sigrun5
+@45 /*PICKED_POCKET*/ = ~Teraz to moje.~ [YF_Cla32] //"It's mine now" - PoEFFeisty
+@46 /*REACT_TO_DIE_GENERAL*/ = ~Wstań, do cholery.~ [YF_Cla33] //"Get up, damn you" - PoEFFeistyw  
+
+@47 /*Basic Clara Epilogue*/ = ~Po odejściu od drużyny <CHARNAME>, Karolina Ludwika Adelajda Rozanna Aleksandra Srebrna Tarcza z Beregostu powróciła do Athkatli. Jako najbardziej pożądana spośród nowych szlacheckich panien w mieście, oczarowała wszystkich swoim wdziękiem i elegancją. Wielu bogatych zalotników starało się o jej rękę, ale zaszczyt ten przypadł najstarszemu synowi lorda Kettlaara Agryma, który był młody, przystojny i zarządzał kilkoma kopalniami złota swojego ojca.
+
+Niestety, ich małżeńskie szczęście nie trwało długo. Gdy dalsza rodzina Karoliny w Beregoście dowiedziała się, że przeżyła atak, w którym zginęli jej rodzice, bardzo się uradowała. Zaprosili ją do siebie, a cała rodzina Agrymów nalegała, aby udać się na północ z nią, obładowani darami, ubraniami, monetami i biżuterią. Ich karawana, mimo silnej ochrony, była zbyt kuszącym łupem i w trakcie podróży napadli na nią bandyci. Wszyscy członkowie rodziny zostali znalezieni martwi, z wyjątkiem Karoliny, którą prawdopodobnie wzięto do niewoli.
+
+Wielu dzielnych rycerzy wyruszyło na północ, by pokonać bandytów i uwolnić szlachetną zakładniczkę, ale choć dziesiątki rabusiów poległy, a większość majątku Agrymów odzyskano, lady Karoliny Aurelii Lucji Róży Srebrnej Tarczy Agrym już nikt nigdy nie widział.~
+
+@78 /*If Clara marries Anomen*/ = ~Po odejściu od <CHARNAME>, Karolina Ludwika Adelajda Rozanna Aleksandra Srebrna Tarcza Delrin wróciła do posiadłości Delrinów wraz z mężem Anomenem i razem podjęli się odbudowy rodzinnego majątku. Szczęście zdawało się im sprzyjać we wszystkim, ponieważ ich główni konkurenci nagle znikali ze sceny lub umierali. W ciągu roku spłacili długi i zaczęli gromadzić własny niewielki majątek. Wielu przepowiadało, że Karolina i jej mąż przekształcą dobra Delrinów w imperium handlowe dorównujące innym w Amn.
+
+I tak się stało. W ciągu następnej dekady Lord i Lady Delrin stali się jednymi z najbogatszych i najbardziej wpływowych kupców w Athkatli. Podczas gdy jej mąż skupiał się na wyniesieniu rodziny na nowe wyżyny, lady Karolina rządziła domem żelazną ręką, wspierając wysiłki Anomena jako jego przyjaciółka i powiernica. Stała się idealną gospodynią: pełną gracji, uprzejmą i ozdobą każdego balu, a wkrótce dwór Delrinów stał się miejscem spotkań elity i tych, którzy chcieli być widziani.
+
+Jakiekolwiek tajemnice krążyły w tych murach, jakie układy handlowe zawierano, ostateczny wynik zawsze był na korzyść lorda Delrina, jakby to było naturalne. Lady Delrin stała się żoną, jakiej pragnąłby każdy pan lub kupiec, i patrzyli z zazdrością na Anomena, gdy trzymał Karolinę za rękę.~
+
+@79 /*If Clara married Cor & he and Anomen are dead*/ = ~Po odejściu od <CHARNAME>, Klara wróciła do posiadłości Delrinów, aby odbudować majątek swojego zmarłego męża. Szczęście zdawało się jej sprzyjać na każdym kroku, ponieważ wszyscy jej główni konkurenci nagle znikali lub umierali. W ciągu roku spłaciła długi męża i zaczęła gromadzić własny niewielki majątek. Wielu przepowiadało, że przekształci dobra Delrinów w imperium handlowe dorównujące innym w Amn.
+
+Jednak tak się nie stało. Dokładnie trzy lata po jej powrocie kobieta sprzedała wszystko, czego nie mogła zabrać, i lady Karoliny Aurelii Lucji Róży Srebrnej Tarczy Delrin już nikt nigdy nie widział.~
+
+@80 /*If Clara marries Cor and he and Anomen are alive*/ = ~Po odejściu od <CHARNAME>, Klara wróciła do swojego męża Cora, aby przeżyć resztę dni w szczęśliwym małżeństwie. Niestety, trwało to zaledwie trzy miesiące – zmarł spokojnie we śnie, pozostawiając swoją zrozpaczoną wdowę, by zajęła się domem.
+
+Gdy syn Cora, Anomen, przebywał z dala od domu, Klara odbudowała majątek męża z wdziękiem i elegancją. Szczęście zdawało się jej sprzyjać na każdym kroku, ponieważ wszyscy jej główni konkurenci nagle znikali lub umierali. W ciągu roku spłaciła długi męża i zaczęła gromadzić własny niewielki majątek. Wielu przepowiadało, że przekształci dobra Delrinów w imperium handlowe dorównujące innym w Amn.
+
+Jednak tak się nie stało. Dokładnie trzy lata po śmierci męża sprzedała wszystko, czego nie mogła zabrać, i lady Karoliny Aurelii Lucji Róży Srebrnej Tarczy Delrin już nikt nigdy nie widział.~
+
+@81 /*If Clara marries Cor and Anomen only is dead*/ = ~Po odejściu od <CHARNAME>, Klara wróciła do swojego męża Cora, aby przeżyć resztę dni w szczęśliwym małżeństwie. Niestety, trwało to zaledwie trzy miesiące – zmarł spokojnie we śnie, pozostawiając swojej zrozpaczonej wdowie wszystko, co posiadał.
+
+Mimo żalu, lady Delrin przejęła interesy męża, a szczęście zdawało się jej sprzyjać na każdym kroku. Wszyscy jej główni konkurenci nagle znikali lub umierali, a w ciągu roku spłaciła długi męża i zaczęła gromadzić własny majątek. Wielu wierzyło, że jest w stanie przekształcić dobra Delrinów w potęgę handlową nie mającą sobie równych w Amn.
+
+Jednak los zadecydował inaczej. Trzy lata po śmierci męża kobieta sprzedała wszystko, czego nie mogła zabrać, i lady Karoliny Aurelii Lucji Róży Srebrnej Tarczy Delrin już nikt nigdy nie widział.~
+
+@82 /*If Clara marries Cor and he's dead but Anomen is alive*/ = ~Po odejściu od <CHARNAME>, Klara wróciła do posiadłości Delrinów. Gdy syn Cora, Anomen, przebywał z dala od domu, Klara odbudowała majątek męża z wdziękiem i elegancją. Szczęście zdawało się jej sprzyjać na każdym kroku, ponieważ wszyscy jej główni konkurenci nagle znikali lub umierali. W ciągu roku spłaciła długi męża i zaczęła gromadzić własny majątek. Wielu przepowiadało, że wkrótce przekształci dobra Delrinów w imperium handlowe dorównujące innym w Amn.
+
+Jednak los zadecydował inaczej. Trzy lata po jej powrocie kobieta sprzedała wszystko, czego nie mogła zabrać, i lady Karoliny Aurelii Lucji Róży Srebrnej Tarczy Delrin już nikt nigdy nie widział.~
+
+@83 /*New Anomen epilogue if he married Clara*/ = ~Po odejściu od <CHARNAME>, Anomen wrócił do posiadłości Delrinów wraz z żoną, lady Karoliną, i razem podjęli się odbudowy rodzinnego majątku. Szczęście sprzyjało im we wszystkim – wkrótce lord nie tylko spłacił długi ojca, ale też zaczął gromadzić własny majątek. Jednak mimo nowego statusu Anomen pozostał wierny zasadom swojego boga. Choć bywał surowy, jego osądy były zawsze sprawiedliwe, a ci, którzy pracowali dla jego rodziny, wiedzieli, że ich lojalność zostanie wynagrodzona.
+
+W końcu młody lord Delrin został zaproszony do Rady Sześciu, a choć nikt oficjalnie nie znał jego stanowiska, zmiany w rządach Athkatli były widoczne dla wszystkich. Pod przewodnictwem Anomena rząd zaczął więcej pomagać zwykłym ludziom i skuteczniej zwalczać zło na świecie. Nie tolerował niesprawiedliwości, a ci, którzy mu się sprzeciwiali, szybko zmieniali zdanie lub znikał. To wywołało kilka śledztw, ale żona lorda Delrina zawsze go wspierała i nigdy nie znaleziono dowodów na nieuczciwość.
+
+Rzeczywiście, gdy młodzi lordowie lub zazdrośni rywale pytali go o sekret jego szczęścia, Anomen skromnie odpowiadał: „Miałem wiele szczęścia. Tak, ciężka praca była potrzebna, aby zbudować dzisiejszą pozycję, ale nie dokonałem tego sam. Zawdzięczam wszystko Helmowi i nieustannemu wsparciu mojej ukochanej Karoliny. Bez niej moja droga życiowa wyglądałaby zupełnie inaczej.”~
+
+//New Items
+//Gender Belt
+@680 /*NAME1*/ = ~Pas~
+@68 /*NAME2*/ = ~Pas zmiany płci~
+@69 /*DESC*/ = ~Podobny do rzadkiego, ale często opisywanego Przeklętego Pasa Zmiany Płci, magicznego przedmiotu zmieniającego płeć noszącego, ta wersja nie jest przeklęta i została prawdopodobnie stworzona wyłącznie dla zabawy. Magia tego pasa działa tylko na niziołków.
+
+Dane:
+
+Umiejętności po założeniu:
+– Zmienia płeć noszącego
+
+Waga: 2~
+
+//Gender Belt that only works on Clara
+@690 /*DESC*/ = ~Podobny do rzadkiego, ale często opisywanego Przeklętego Pasa Zmiany Płci, ten konkretny pas został specjalnie zaczarowany, aby działał tylko na Klarę, jako żart.
+
+Dane:
+
+Umiejętności po założeniu:
+– Zmienia płeć noszącego
+
+Waga: 2~
+
+//Gender Belt that only Edwin can use
+@681 /*Script*/ = ~Edwin~
+@691 /*DESC*/ = ~Podobny do rzadkiego, ale często opisywanego Przeklętego Pasa Zmiany Płci, ten konkretny pas został zaczarowany tak, aby działał tylko na Edwina.
+
+Dane:
+
+Umiejętności po założeniu:
+– Zmienia płeć noszącego
+
+Waga: 2~
+
+//STATISTICS:
+
+//Equipped abilities:
+//– Changes the wearer's gender
+
+//Weight: 2~
+
+//Clara's Goggles
+@70 /*NAME*/ = ~Spektroskopy Klary od Jana Jansena~
+@71 /*DESC*/ = ~Mikro-makro-spektroskopy Jansena (Oficjalne spektroskopy Fioletowego Bractwa)
+Kolejny wynalazek Jana Jansena. Te gogle zostały wykonane specjalnie dla Klary i pozwalają jej raz dziennie widzieć niewidzialne. Zwiększają też jej zdolność wykrywania i rozbrajania pułapek o 25%. Różne soczewki zwiększają jej umiejętność wykrywania iluzji o 20%. Styl jest tak oczywisty, że nie ma co o nim wspominać.
+
+Dane:
+
+Umiejętności po założeniu:
+– Wykrywanie pułapek: +25%
+– Wykrywanie iluzji: +20%
+– Odporność na oślepienie
+
+Umiejętności z ładunkiem:
+– Raz dziennie: widzenie niewidzialnego
+Zasięg: promień 15 stóp
+
+Wymagania:
+Zręczność 17
+
+Waga: 0~
+
+//Clara's Poison Arrows
+@72 /*Name*/ = ~Wytwórz zatrute strzały~
+@73 /*DESC*/ = ~Ta umiejętność pozwala Klarze wytworzyć 15 zatrutych Strzał Zjadliwych i dodać je do ekwipunku. Używaj ostrożnie!~
+
+//Clara's Gloves
+@74 /*NAME*/ = ~Techno-rękawice kradzieżowe Klary od Jana Jansena~
+@75 /*DESC*/ = ~Techno-rękawice kradzieżowe Klary od Jana Jansena (TM)
+Te złodziejskie rękawice dają Klarze premie do otwierania zamków i kradzieży kieszonkowej. Tylko ona może ich używać, ponieważ Jan stworzył je specjalnie dla swojej uczennicy i nauczył ją obsługi. Klara zdaje się wtapiać w cienie bez wysiłku, prawdopodobnie dlatego, że ta para jest znacznie mniej krzykliwa niż oryginał Jana.
+
+Dane:
+
+Umiejętności po założeniu:
+– Otwieranie zamków: +20%
+– Kradzież kieszonkowa: +20%
+
+Wymagania:
+Zręczność 17
+
+Waga: 0~
+@750 /*Usability Note*/ = ~Klara~
+
+//New Version of Yoshimo's Katana
+@76 /*NAME*/ = ~Katana Yoshimo +3~
+@77 /*DESC*/ = ~To ostrze zdaje się stać silniejsze od czasu, gdy Yoshimo podarował je Klarze. Może to błogosławieństwo zmarłego, a może katana chce jak najszybciej przywrócić honor swojego poprzedniego właściciela.
+
+Niezależnie od przyczyny, broń ta ożywa w dłoniach Klary, a podczas jej używania można wyczuć obecność Yoshimo. Katana drży, gdy w pobliżu znajduje się pułapka, i zdaje się sprzyjać nowej właścicielce. W walce, gdy smakuje krew, wzmacnia posiadaczkę, nie pozwalając jej upaść, dopóki honor Yoshimo nie zostanie przywrócony. Tylko za jego zgodą Klara może władać tą kataną. Nikt inny nie jest w stanie nawet wyciągnąć jej z pochwy.
+
+Dane:
+
+Umiejętności po założeniu:
+– Wykrywanie pułapek: +20%
+– Szczęście
+
+Umiejętności bojowe:
+– Każde trafienie przywraca posiadaczowi 1 punkt życia.
+– Mnożnik ciosu w plecy: +1
+
+THAC0: +3
+Obrażenia: 1k10+3 (cięte)
+Szybkość: 3
+Kategoria biegłości: katana
+Typ: jednoręczna
+
+Wymagania:
+Siła 6
+
+Waga: 5~
+
+@94 = ~Dziedzictwo rodu Delrinów +4~
+@95 = ~To dziedzictwo rodziny Anomena, oryginalna tarcza podarowana mu przez ojca. Teraz została przekuta i ulepszona.
+
+Dane:
+
+Umiejętności po założeniu:
+Premia do KP: +5, +7 przeciwko pociskom
+Odporność na ogień i zimno: +40%
+Odporność na pociski: +50%
+Odporność na magię: +10%
+Odporność na oczarowanie, zamęt, podporządkowanie i unieruchomienie
+Nie można określić charakteru noszącego
+
+Waga: 7~
+
+//Clara's Wedding Ring
+@96 /*Name*/ = ~Pierścień rodowy Delrinów~
+@97 /*DESC*/ = ~Ten skromny pierścień, choć niezbyt cenny materialnie, jest rodzinną pamiątką Delrinów. Nosiła go niegdyś jego ukochana siostra Moira, a teraz Anomen podarował go Klarze jako symbol ich miłości. Aby chronić swoją szlachetną narzeczoną, kazał zaczarować pierścień, by chronił ją przed niepożądanymi spojrzeniami.
+
+Dane:
+
+Umiejętności po założeniu:
+– Charyzma +1
+– Szczęście
+– Nie można określić charakteru noszącego
+– Noszący nie może być wykryty
+
+Umiejętności z ładunkiem:
+– 3 razy dziennie: oczarowanie istoty (rzut obronny przeciwko czarom z modyfikatorem -1 neguje)
+Zasięg: 40 stóp
+Czas trwania: 12 godzin
+Obszar: 1 istota
+
+Waga: 0~
+
+//Clara's Fireball
+@105 /*NAME*/ = ~Ustaw pułapkę – kula ognia~
+@106 /*DESC*/ = ~Ta umiejętność pozwala Klarze ustawić pułapkę – kulę ognia, która pozostaje w miejscu, dopóki ktoś nie podejdzie zbyt blisko. Niezależnie od tego, czy to przyjaciel, czy wróg, kula ognia eksploduje, zadając ogromne obrażenia.~
+
+@108 /*Begin*/ = ~Do NOT allow multiple TOB epiloques: If you install this component, AllThingsMazzy epilogues will override existing game epilogues and most mod epilogues. If you do not install this component, the game will allow multiple NPC epilogues where applicable.~
+
+@110 = ~Nie jestem taka jak oni. Moja niewinność zostanie udowodniona i prędzej czy później stąd wyjdę.~
+@111 = ~Jestem niewinna. Mówię prawdę.~
+
+@130 /*Girl Wraith*/ = ~Mała Klara~
+
+//PRINT Notes (for Weidu Setup) - mostly just our flavor commments
+@137 = ~Wykryto Wilsona – dodawanie do Wilson interdia.2da – ustawianie pliku żartów Wilsona (BWILSON & BWILSO25)~
+@138 = ~Dodawanie skryptu nadrzędnego Wilsona dla Tronu Bhaala~
+@139 = ~Dodawanie zawartości Klary.~
+@140 = ~Dodawanie nowych przedmiotów i zaklęć.~
+@141 = ~Ustawianie dialogów i skryptów~
+@142 = ~Wpisy dziennika wersji ulepszonej (EE). Wymagane tytuły.~
+@143 = ~Dodawanie crossmodowych interakcji z Saradasem...~
+//Crossmod NPC stuff
+@144 = ~Wykryto mod 'Alora in BG2' – dodawanie crossmodowego Easter egga~
+@145 = ~Nie wykryto modu 'Alora in BG2'~
+@1440 = ~Wykryto Alorę z 'BG1 NPCs in SoA & ToB' – dodawanie crossmodowego Easter egga~
+@1450 = ~Nie wykryto Alory NPC z 'BG1 NPCs in SoA & ToB'~
+@146 = ~Wykryto Nephele – dodawanie crossmodowego Easter egga~
+@147 = ~Nie wykryto NPC Nephele~
+@148 = ~Wykryto Petsy – dodawanie crossmodowego Easter egga~
+@149 = ~Nie wykryto NPC Petsy~
+@150 = ~Wykryto Saradasa – dodawanie crossmodowych żartów~
+@151 = ~Nie wykryto NPC Saradasa~
+@52 = ~Wykryto mod All Thing Mazzy. Ze względu na powielanie funkcji, proszę nie instalować tego moda razem z nim.~
+@53 = ~Ten mod musi być zainstalowany przed EET_End w procesie instalacji EET.~
+@54 = ~Musisz zainstalować główny komponent najpierw.~
+@152 = ~Kompilacja skryptów~
+@153 = ~Rozszerzanie istniejących skryptów gry~
+@154 = ~Modyfikacja skryptów zakończenia~
+@155 = ~Pliki resetowania: aby pomóc w kompatybilności modów.~
+@156 = ~Wykryto specyficzny zestaw złodziejski – zmiana Klary w specjalnego złodzieja.~
+@157 = ~Nie wykryto specyficznego zestawu złodziejskiego – zestaw Klary pozostanie Tancerzem Cieni.~
+@158 = ~Opcjonalny alternatywny portret Klary w stylu BG2~
+@159 = ~Zmienić portret Klary?
+
+ 1. Zmień tylko portret Klary po uratowaniu (fałszywy Hexxat pozostaje bez zmian)
+ 2. Zmień wszystkie portrety Klary (fałszywy Hexxat również zostaje zmieniony)
+
+ Proszę wybrać 1 lub 2~

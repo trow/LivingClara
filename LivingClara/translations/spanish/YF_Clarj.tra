@@ -1,0 +1,48 @@
+//Renal Bloodscalp and Clara
+@1 /*Renal*/ = ~Por fin llegas, Clara. Pensaba que estabas muerta, porque los que se atreven a no pagar suelen estarlo.~
+@2 /*Renal*/ = ~Supongo que tienes una explicación descabellada para justificar por qué no has podido pagar tu parte a tiempo como los demás.~
+@3 /*Clara*/ = ~En realidad, señor, sí. Verá, estaba poseída por una vampira antigua llamada Hexxat que me usaba para reclutar a <CHARNAME> para que matara a Dragomir, un vampiro aún más antiguo que no le gustaba. Matamos a Dragomir, o al menos <CHARNAME> lo hizo... Yo estaba poseída, así que no puedo decir que hiciera nada realmente... y entonces Hexxat me mató, así que <CHARNAME> la mató a ella, pero luego <CHARNAME> me resucitó, así que...~
+@4 /*Renal*/ = ~Para. Para todo. No me importa. Estás con <CHARNAME> y esa es la única explicación que necesito. Ve a ayudar<PRO_HESHE> en sus misiones y todo será perdonado.~
+@5 /*Renal*/ = ~En cuanto a ti, <CHARNAME>, buen trabajo destruyendo a esos vampiros; me alegra oír hablar de disensiones y luchas internas entre sus filas. No hace falta que te quedes aquí; vuelve al trabajo y sigue así.~
+
+//Clara-Imoen Talk1
+@6 /*Clara*/ = ~Hola.~
+@7 /*Imoen*/ = ~Oh, no te había visto allí. Hola, soy Imoen. <CHARNAME> no nos ha presentado.~
+@8 /*Imoen*/ = ~Debes ser muy buena escondiéndote. Normalmente veo a todo el mundo.~
+@9 /*Clara*/ = ~Tengo un don para desaparecer de las memorias cuando quiero; incluso la gente que me busca suele olvidar que estoy allí.~
+@10 /*Clara*/ = ~Así que tú eres la hermana que vinimos a rescatar desde tan lejos.~
+@11 /*Clara*/ = ~Y lo hicimos. Asaltamos la fortaleza y rescatamos a la doncella.~
+@12 /*Clara*/ = ~Ganamos. Ahora viviremos felices para siempre. ¿Verdad?~
+@13 /*Imoen*/ = ~¡Sí! En cuanto volvamos a Athkatla.~
+@14 /*Imoen*/ = ~Pareces un poco deprimida. Intentémoslo de nuevo.~
+@15 /*Imoen*/ = ~Hola, soy Imoen. Acabo de que me arranquen el alma del cuerpo. ¿Cuál es tu historia?~
+@16 /*Clara*/ = ~Mi familia fue asesinada, un vampiro me mató, y luego <CHARNAME> me salvó, así que ahora le sigo a todas partes e intento no morir de forma horrible.~
+@17 /*Clara*/ = ~Bastante normal por lo que he visto.~
+@18 /*Imoen*/ = ~Sí, esa es más o menos la historia de todos. Somos un grupo de perdidos y solitarios.~
+@19 /*Imoen*/ = ~Vamos, ánimo. Tenemos otra ronda de "intentar-no-morir-horriblemente" por delante.~
+
+//Clara-Viconia Poison Scene
+@20 /*Clara*/ = ~Hogar, dulce hogar. El olor de este bar siempre me trae recuerdos.~
+@21 /*Drunk1*/ = ~Mira esa cosita. ¡Eh, chica! Ven aquí, *eructo*, y dame un beso.~
+@22 /*Drunk2*/ = ~Ahora, Garoll, mi *hipo* amigo... no te la guardes toda para ti.~
+@23 /*Drunk2*/ = ~¡Eh, bombón, yo también necesito un beso!~
+@24 /*Clara*/ = ~¿Ellos?~
+@25 /*Viconia*/ = ~Solo son machos borrachos y groseros. El mundo nunca echará de menos, ni mucho menos, a unos cuantos machos borrachos y groseros.~
+@26 /*Clara*/ = ~Muy bien, entonces. Mira cómo lo hago. No verás nada.~
+@27 /*Clara*/ = ~Garoll, ¿verdad? Eres un hombre tan fuerte y guapo. Claro que te daré un beso. Ahí. Uno para la coronilla. Ohh, toca tu brazo, qué fuerte eres.~
+@28 /*Clara*/ = ~Y otro para tu amigo. Oooh, también es fuerte.~
+@29 /*Clara*/ = ~Ahora vosotros dos, chicos, quedaos sentados aquí mientras voy a hablar con mi amiga allí. Tenemos que arreglarnos, pero volveremos a veros pronto.~
+@30 /*Viconia*/ = ~¿Has terminado? Solo de oírte hablar, me dan ganas de vomitar.~
+@31 /*Clara*/ = ~Entonces, ¿a dónde vamos?~
+@32 /*Viconia*/ = ~Ahora esperamos y los vemos morir.~
+@33 /*Clara*/ = ~Entonces, ¿qué hacemos mientras esperamos?~
+@34 /*Clara*/ = ~¡Ya sé! ¡Juguemos a un juego! Se llama el juego de la mentira y...~
+@35 /*Viconia*/ = ~No juego a juegos.~
+@36 /*Clara*/ = ~¡Pero es divertido! Mira, primero tú...~
+@37 /*Viconia*/ = ~Shh.~
+@38 /*Clara*/ = ~No eres nada divertida.~
+@39 /*Drunk1*/ = ~*hipo* No me encuentro bien.~
+@40 /*Drunk2*/ = ~*eructo* Garoll, ¿estás bien? Ohhh...~
+@41 /*Viconia*/ = ~Fue más rápido de lo que esperaba. Usaste más veneno del necesario para eliminar a seres tan débiles.~
+@42 /*Clara*/ = ~Solo dos borrachos más que no toleran el alcohol. ¿Ya podemos irnos?~
+@43 /*Viconia*/ = ~Sí. Mi día ya se ha vuelto un poco más brillante.~

@@ -1,0 +1,20 @@
+//Si tu renvoies Clara
+@0 /*Clara*/ = ~Entonces supongo que esto es todo.~
+@1 /*Player*/ = ~No, quiero que te quedes.~
+@2 /*Player*/ = ~Espera aquí. Volveré a buscarte.~
+@3 /*Player*/ = ~Vuelve a mi plano de bolsillo. Te encontraré allí más tarde.~
+@4 /*Clara*/ = ~Ugh, de acuerdo. Solo déjame aquí en el infierno. Pero este lugar es horrible, así que más te vale volver rápido.~
+@5 /*Clara*/ = ~Bien. Esperaré. Pero más te vale volver pronto.~
+@6 /*Clara*/ = ~Ugh, de acuerdo. Tan pronto como no me quieras, mándame de vuelta al infierno por portal. Pero tu plano de bolsillo es súper aburrido, ¡así que más te vale venir a buscarme rápido!~
+
+//Si ella te espera en el Plano de Bolsillo
+@7 /*Clara*/ = ~Hola, <CHARNAME>. ¿Puedo *por favor* salir de aquí?~
+@8 /*Player*/ = ~Sí. Entonces ven.~
+@9 /*Player*/ = ~Lo siento, Clara. Todavía no te necesito.~
+@10 /*Clara*/ = ~¡Bien, por fin! ¡Vámonos!~
+@11 /*Clara*/ = ~Ugh, de acuerdo. Iré a hablar con Cespenar. Me ha estado contando historias sobre los Planos Infernales y son realmente interesantes.~
+
+//No en el Plano de Bolsillo
+@12 /*Clara*/ = ~Hola, <CHARNAME>. ¿Has venido a buscarme?~
+@13 /*Player*/ = ~Lo siento, Clara. Solo sigue esperándome aquí.~
+@14 /*Clara*/ = ~Claro, <CHARNAME>, a menos que reciba una mejor oferta.~

@@ -1,0 +1,4 @@
+// Anomen Romance Fix
+@0 /*Anomen*/ = ~Mi señora, me temo que ha habido un malentendido entre nosotros. Deseo que podamos continuar como antes. ¿Puede perdonarme?~
+@1 /*CHARNAME*/ = ~No, Anomen, preferiría que siguiéramos siendo amigos.~
+@2 /*CHARNAME*/ = ~Por supuesto, Anomen. Todo está olvidado.~

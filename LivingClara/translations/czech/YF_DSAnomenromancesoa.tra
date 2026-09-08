@@ -1,0 +1,239 @@
+//Darkside Anomen Romance Talks
+//First Clara Talk
+@1 /*Anomen*/ = ~Má lásko, věřím, že jsem dospěl k jistému zjevení.~
+@2 /*Clara*/ = ~Pověz mi, milorde. Ráda tě vyslechnu.~
+@3 /*Anomen*/ = ~Zabití mého otce bylo nezákonné; hrozilo mi vyhnanství z řádu, k němuž jsem tak toužil připojit, ale učinilo svět lepším.~
+@4 /*Anomen*/ = ~Zabití Saerka také bylo dobré, protože byl stejně zlý jako můj otec. I dcera Saerka, i když je v zásadě považována za nevinnou, byla pravděpodobně stejně zlá jako zbytek její rodiny.~
+@5 /*Anomen*/ = ~Dodržování zákona není vždy dobré. Porušování zákona není vždy zlé. Ve skutečnosti, abychom konali velké dobro, abychom skutečně změnili svět, musíme spáchat mnoho činů, které jsou v rozporu se zákonem.~
+@6 /*Anomen*/ = ~Ti v řádu to mohou nazývat zlými činy, ale jsou to jen zbabělci, kteří ospravedlňují svůj vlastní strach a nerozhodnost. Drobné zlo může v konečném důsledku sloužit většímu dobru. Smrt několika pečlivě vybraných může zachránit životy mnoha!~
+@7 /*Clara*/ = ~Ó, milovaný, jsem na tebe tak hrdá. Měl bys vládnout tomuto městu, jsi zajisté moudřejší než ten nejvzdělanější paladin!~
+@8 /*Anomen*/ = ~Ano. Nyní to chápu.~
+@9 /*Anomen*/ = ~Chci udělat tento svět lepším, a až budu moci, udělám ho lepším! Životy bezvýznamných malých lidí v Amnu budou lepší než kdykoli v historii!~
+@10 /*Anomen*/ = ~Ale k tomu potřebuji peníze, moc a vliv mezi velkými rody Athkatly.~
+@11 /*Anomen*/ = ~Má nejdražší lady Karolíno, pomůžeš mi?~
+@12 /*Clara*/ = ~Samozřejmě, milovaný. Čímkoli budeš chtít.~
+
+//2nd Clara Talk
+@13 /*Anomen*/ = ~Jsem lord Delrin, ale mé jméno je poskvrněno. Vražda Saerka a jeho rodiny mě stále trápí. V srdci vím, že spáchal mnoho zlých činů; kdybych to jen mohl dokázat!~
+@14 /*Clara*/ = ~Možná kdyby stráž znovu prohledala jeho sídlo, podařilo by se najít takové důkazy?~
+@15 /*Anomen*/ = ~Ano, věřím, že je to možné! Pojďme do Rady šesti a promluvme si s příslušnými úřady.~
+@16 /*Anomen*/ = ~Ne s Bylannou, nemyslím si, že by to byla ta pravá osoba, která by viděla pravdu. Možná ne hlavní inspektor Brega... ach, ten mág, Corneil, jeho magie může najít důkazy, které ostatní nedokážou odhalit.~
+@17 /*Anomen*/ = ~<CHARNAME>, až se naskytne příležitost, pojďme do Rady šesti promluvit s Corneilem. Mám k němu jistou záležitost.~
+
+//Clearing Name
+@18 /*Anomen*/ = ~Můj lordi Corneile, musím vás požádat o chvilku času.~
+@19 /*Corneil*/ = ~Lorde Delrine, ovšem! Dovolte mi vyjádřit soustrast nad úmrtím vašeho otce. Těšíte se dobré pověsti a slyšel jsem, že jmění Delrinů se již značně zlepšilo.~
+@20 /*Corneil - CN Line*/ = ~Vy musíte být lady <CHARNAME>. Chápu, proč je lord vámi okouzlen. Stanete se skvělou lady Delrin, až pomine příslušná doba smutku po jeho otci.~
+@200 /*Corneil - Clara line*/ = ~Vy musíte být lady Delrin. Mé zprávy nečiní spravedlnost vaší kráse. Tento mladý lord má štěstí, že jste po jeho boku.~
+@201 /*Clara*/ = ~Děkuji vám, milorde. Vaše slova jsou velmi laskavá.~
+@21 /*Corneil*/ = ~Není třeba ceremonií. Říkejte mi prostě Corneil. V čem vám mohu pomoci?~
+@22 /*Anomen*/ = ~Děkuji, Corneile. Možná jste slyšel o mém konfliktu s rodem Faradů. Byli to zlí lidé nízkého původu, ale velkých ambicí, kteří znepříjemňovali život mému otci a mnoha dalším.~
+@23 /*Anomen*/ = ~Avšak kvůli strachu, penězům a obezřetnosti v obchodech zlo Faradů zůstalo skryto a inspektoři nikdy nenašli důkazy jejich provinění.~
+@24 /*Anomen*/ = ~Doufám, že pomocí vaší mocné magie se vám podaří najít to, co inspektoři nemohli.~
+@25 /*Corneil*/ = ~To je smutný příběh, Anomene. Rád bych vám okamžitě pomohl. Ve skutečnosti bych to udělal zdarma, protože věřím, že jste dobrý člověk.~
+@26 /*Corneil*/ = ~Jediný problém je, že přísady pro tak mocná pátrací kouzla jsou velmi drahé a můj vlastní skromný plat je nestačí pokrýt.~
+@27 /*Anomen*/ = ~Nežádal bych vás o to. Zaplacení je to nejmenší, co mohu udělat. Kolik zlatých je potřeba?~
+@28 /*Corneil*/ = ~20 000 zlatých by mělo stačit, milorde.~
+@29 /*Anomen*/ = ~Bohužel obvykle nosím při sobě jen 10 000 zlatých...~
+@30 /*Anomen*/ = ~<CHARNAME>, mohu si půjčit zbytek z prostředků družiny?~
+@31 /*CHARNAME*/ = ~Ne teď, Anomene. Ty peníze potřebujeme.~
+@32 /*CHARNAME*/ = ~Samozřejmě, Anomene. Vím, že vrátíš, až budeš moci.~
+@33 /*CHARNAME*/ = ~Samozřejmě, Anomene. Věřím, že vrátíš, až budeš moci.~
+@34 /*CHARNAME*/ = ~Promiň, Anomene. Takové prostředky teď nemáme.~
+@35 /*Corneil*/ = ~Škoda, ale není kam spěchat. Vraťte se, prosím, až budete mít potřebné prostředky.~
+@36 /*Corneil*/ = ~Výborně. Vraťte se za dva dny – měl bych mít výsledky svého vyšetřování.~
+@37 /*CHARNAME*/ = ~Máme prostředky na vyšetření činů rodu Faradů pro lorda Anomena Delrina.~
+
+//Post Investigation Talk
+@38 /*Corneil*/ = ~Lorde Delrine, hledal jsem vás! Mám dobré zprávy.~
+@39 /*Anomen*/ = ~Co odhalilo vaše vyšetřování?~
+@40 /*Corneil*/ = ~Ano, odhalil jsem následující, co bude veřejně oznámeno jako oficiální vládní nařízení:~
+@41 /*Corneil*/ = ~Saerk Farad byl nemanželským synem prostitutky a námořníka, který získal jmění svedením dcery důvěřivého kupce.~
+@42 /*Corneil*/ = ~Saerk Farad se aktivně zabýval obchodem s otroky, zvláště si oblíbil ženy z dobrého původu, jejichž rodiny upadly do bídy.~
+@43 /*Corneil*/ = ~Aby odstranil konkurenta, Saerk Farad zaplatil několika nespokojeným bývalým zaměstnancům lorda Cora Delrina, aby vloupali do sídla Delrinů a zavraždili lorda Cora. Nebyl doma, a tak zabili dceru lorda Delrina z obavy, že by je prozradila.~
+@44 /*Corneil*/ = ~Syn lorda Delrina, Anomen, se postavil před Saerka, aby ho obvinil z této vraždy. Saerk však nařídil své stráži zaútočit na Anomena, aby ukončili rod Delrinů. Právě v této potyčce Saerk konečně dostal zasloužený trest.~
+@45 /*Corneil - if CN*/ = ~Syn lorda Delrina, Anomen, a jeho přítelkyně, lady <CHARNAME>, se postavili před Saerka, aby ho obvinili z této vraždy. Saerk však nařídil své stráži zaútočit na ně, aby ukončili rod Delrinů. Právě v této potyčce Saerk konečně dostal zasloužený trest.~
+@46 /*Corneil*/ = ~Saerk Farad podplácel městské úředníky, aby rozmnožil své jmění. Po Saerkově smrti tito úředníci zorganizovali vraždu lorda Cora Delrina, aby se ochránili před odhalením. Tito úředníci byli již zatčeni.~
+@47 /*Corneil*/ = ~Lord Anomen Delrin je zproštěn veškerého podezření z vraždy Saerka Farada a jeho rodiny a měl by být ctěn za svou odvahu a ctnost.~
+@48 /*Corneil - if CN*/ = ~Lord Anomen Delrin a lady <CHARNAME> jsou zproštěni veškerého podezření z vraždy Saerka Farada a jeho rodiny a měli by být ctěni za svou odvahu a ctnost.~
+@49 /*Corneil*/ = ~Domnívám se, že tyto výsledky jsou uspokojivé?~
+@50 /*Anomen*/ = ~To je víc, než jsem mohl doufat! Děkuji vám.~
+
+//3rd Clara Talk
+@51 /*Clara*/ = ~Milovaný, tvé jméno bylo očištěno. Jsi ctěn, tvůj obchod vzkvétá a tvůj rod je šlechtou považován za rostoucí sílu v Athkatle. Co budeme dělat dál?~
+@52 /*Anomen*/ = ~Děkujme bohům za naše štěstí! Prozatím jsem spokojen. Rod Delrinů je jedním z nejvýznamnějších kupeckých rodů v Amnu.~
+@53 /*Clara*/ = ~Rada šesti se skládá z hlav největších kupeckých rodů Amnu, ale nikdo neví, kdo to je...~
+@54 /*Anomen*/ = ~Ha, každý ví, kdo to je, má drahá. To je nejhůře střežené tajemství Athkatly.~
+@55 /*Anomen*/ = ~Bohužel, nelze se připojit k Radě bez volného místa a v současnosti je všech šest míst obsazeno.~
+@56 /*Anomen*/ = ~Mearkh je Erlranter Alibakkar. Kolují zvěsti, že je na tažení proti povstání v Riatavinu.~
+@57 /*Anomen*/ = ~Tessarch je Faan Colviv. Málokdy bývá ve městě, vždy je za mořem při hledání obchodních dohod.~
+@58 /*Anomen*/ = ~Namarch je Quar Jysstev. Pravděpodobně ho zastihneme v jeho sídle.~
+@59 /*Anomen*/ = ~Iltharch je Rinnom Dannihyr, ale nikdo ho nikdy neviděl. Je jediným členem Rady, jehož totožnost je skutečným tajemstvím – kolují zvěsti, že ovládá Stínové zloděje.~
+@60 /*Anomen*/ = ~Alespoň ovládal, dokud jsme nevyčistili město od této pohromy.~
+@61 /*Anomen*/ = ~Pomarch je Tyrda K'Helvor. Je jen žena, takže ji nikdo nebere vážně. Bez urážky, samozřejmě.~
+@62 /*Anomen*/ = ~A konečně Dahunarch je Pellus Tanislov. Často se prochází po vládní čtvrti – vždy ke mně byl vlídný.~
+@63 /*Clara*/ = ~Pokud by se některému z členů Rady přihodila nešťastná a tragická nehoda, možná by se uvolnilo místo?~
+@64 /*Anomen*/ = ~Možná, ale i kdyby bylo místo volné, nelze se do Rady přihlásit. Musí tě oslovit člen Rady.~
+@65 /*Anomen*/ = ~Nicméně neočekávané zvraty mohou vždy přijít. Možná je místo již volné.~
+@66 /*Anomen*/ = ~Možná bychom mohli zosnovat pád Iltharcha, Rinnoma Dannihyra. Nikdo neví, kdo je, ale jeho moc pramení z kontroly nad Stínovými zloději.~
+@67 /*Anomen*/ = ~Vymýtit Zloděje z tohoto města by bylo bezpříkladným dobrým skutkem a mohlo by také sloužit našim zájmům.~
+@68 /*Anomen*/ = ~Ale vyhoď to všechno z hlavy, drahá Karolíno. Tento den je příliš krásný a ty jsi příliš krásná, než abys se trápila takovými politickými záležitostmi.~
+
+//Terl Letter
+@69 /*Anomen*/ = ~Terle! Při bozích, ne! Musíš se objevovat s hroznými zprávami, jen co okusím trochu klidu?~
+@70 /*Terl*/ = ~Promiňte, milorde, jsem jen posel.~
+@71 /*Anomen*/ = ~A to skvělý posel, který mě vždy najde, ať už cestuji jakkoli daleko. Dobře, a od koho tentokrát přinášíš zprávu?~
+@72 /*Terl*/ = ~Od lorda Quara Jyssteva.~
+@73 /*Anomen*/ = ~Opravdu? Dej sem.~
+@74 /*Anomen*/ = ~Ano... rozumím...~
+@75 /*Anomen*/ = ~<CHARNAME>, lord Quar Jysstev nás chce vidět – tedy vlastně mě. Navrhuji, abychom ho navštívili při první příležitosti. Měl by být ve svém sídle ve vládní čtvrti.~
+
+//Jysstev Talk
+@76 /*Anomen*/ = ~Promiňte, lorde Jyssteve, chtěl jste mě vidět?~
+@77 /*Jysstev*/ = ~Ó, lorde Delrine! Promiňte, hned jsem vás nepoznal.~
+@78 /*Jysstev*/ = ~Podívejte se na sebe! Pravý bojovník, širokých ramen a křepký – jste chloubou rodu Delrinů!~
+@79 /*Jysstev*/ = ~Vlastně právě jako představitele vašeho rodu jsem vás dnes pozval. Získal jste si jméno jako zkušený bojovník, čestný a rozumný kupec. Jste přesně ten, koho hledáme.~
+@80 /*Anomen*/ = ~Hledáte? K čemu?~
+@81 /*Jysstev*/ = ~Ovšem, předbíhám. Posaďte se! Odpočívejte! Občerstvěte se!~
+@82 /*Jysstev - if Clara*/ = ~A vaši společníci také. Vy musíte být nová lady Delrin. Slyšel jsem o vás mnoho a, přiznávám, nejsem zklamán. Není divu, že jste si získala srdce našeho mladého lorda.~
+@83 /*Jysstev - if CN*/ = ~A vaši společníci také. Vy musíte být lady <CHARNAME>. Slyšel jsem mnoho o vašich činech. Taková síla se skrývá za grácií a krásou! Není divu, že jste si získala srdce našeho mladého lorda.~
+@84 /*Jysstev*/ = ~Jsem si jist, že znáte Radu šesti?~
+@85 /*Jysstev if CN or Clara*/ = ~Jsem si jist, že oba znáte Radu šesti?~
+@86 /*Anomen*/ = ~Samozřejmě, milorde. Šest vládců vybíraných z nejvýznamnějších kupeckých rodů Amnu. Jejich totožnost je tajná.~
+@87 /*Jysstev*/ = ~Ha, ne tak tajná, jak by si přáli, ale ano, máte pravdu. A navíc, je jich teď jen pět.~
+@88 /*Anomen*/ = ~Pět, milorde?~
+@89 /*Jysstev*/ = ~Ano, Iltharch, Rinnom Dannihyr, toužil po větší moci, než mu náležela, používal Stínové zloděje jako svou soukromou armádu a snažil se zastrašováním a vraždami vydláždit cestu k větší moci.~
+@90 /*Jysstev*/ = ~Jak víte, později vyvolali válku gild s jiným vycházejícím svazem.~
+@91 /*Anomen*/ = ~A Iltharch? Nikdo ho neviděl, milorde.~
+@92 /*Jysstev*/ = ~Podle mých informátorů padl v té válce. Používal jiné jméno, aby ochránil svou totožnost.~
+@93 /*Anomen*/ = ~Ach! To... to je třeba strávit.~
+@94 /*Jysstev*/ = ~Ovšem, ovšem, a chci vás odměnit za vaše činy. Po jeho smrti a pádu rodu Faradů jsou mé dny jasnější než kdykoli předtím.~
+@95 /*Jysstev*/ = ~Jaký lepší způsob, jak vás odměnit, než nabídnout vám místo u našeho stolu?~
+@96 /*Anomen*/ = ~Místo v Radě šesti? Milorde, tento post je příliš těžký! Obávám se, že mu sotva stačím.~
+@97 /*Jysstev*/ = ~Ne, ne, ne, lorde Delrine. Slyšel jsem ty řeči o vaší nekompetentnosti. Ale nebudu naslouchat těmto námitkám. Potřebuji jen dalšího spojence na své straně během budoucích sporů v Radě. Chápete, vždy se najde jeden či dva, kteří vám nepřestávají odporovat.~
+@98 /*Jysstev*/ = ~Ovšem, s předložením návrhu bude třeba počkat do příštího zasedání Rady, což může trvat několik měsíců... kdo ví, jak dlouho nám ti bezcenní rolníci v Riatavinu budou vzdorovat. Do té doby nechť jsou vaše lodě naloženy zlatem – udržování místa v Radě je nákladné, rozumíte?~
+@99 /*Anomen*/ = ~Ano, ano, dokonale rozumím. Neprodleně vydám rozkaz, aby byl poplatek za udržování doručen do vašeho sídla. Děkuji vám, milorde. To je pro mne čest, milorde.~
+@100 /*Jysstev*/ = ~Hehe, rád, že chápete. Nebudu vás déle zdržovat. Zjevně jste zaneprázdněn... neváhejte se vydat kamkoli a odstranit několik dalších mých odpůrců.~
+@101 /*Anomen*/ = ~Milorde, poslední otázka, pokud dovolíte. Jaký je názor Rady na Řád Zářícího srdce?~
+@102 /*Jysstev*/ = ~Řád působí nezávisle na Radě. Volně překračují hranice, neplatí daně a nepodléhají žádné autoritě kromě své vlastní. Mají dokonce vlastní zdroje příjmů!~
+@103 /*Jysstev*/ = ~Mnozí by si přáli, aby ti domýšliví bojovníci upadli v nemilost. Sedláci je milují, ale sedláci mají krátkou paměť. Uvěří jakékoli fámy, kterou jim povíme.~
+@104 /*Jysstev*/ = ~Neočekávám však, že by padli brzy. Řád je nejmocnější bojovou silou v Athkatle, která zahanbuje i naše vlastní stráže.~
+@105 /*Jysstev*/ = ~Nicméně je třeba pamatovat, že paladinové vedou nebezpečný život a krev se snadno smývá z mramorových podlah. Ale nechme to být.~
+@106 /*Anomen*/ = ~Ovšem, milorde. S bohem, milorde.~
+
+//4th Clara Talk
+@107 /*Clara*/ = ~Rada šesti, milorde!~
+@108 /*Anomen*/ = ~Ano, vím, ještě ke mně plně nedolehlo, co se stalo. Ale připojím se k Radě na nejnižší úrovni a může to trvat roky, než získám jakoukoli skutečnou moc.~
+@109 /*Clara*/ = ~Možná nebudou muset. V Radě je plno starců, slabých a podléhajících malým pokušením. Možná některý z nich spáchá hloupost.~
+@110 /*Anomen*/ = ~Možná. Ale nyní hledejme čest a slávu. A také bohatství! Budeme potřebovat obrovské peníze, pokud hodlám provést skutečnou změnu.~
+
+// CN Alternate Options after Cor's death
+@111 /*CHARNAME*/ = ~Sbohem, má lásko, a hodně štěstí.~
+@112 /*CHARNAME*/ = ~Udělali jsme to MY, Anomene. Zabíjeli jsme ho spolu, ty a já. Pokud odejdeš, co bude se mnou?~
+@113 /*CHARNAME*/ = ~Nejsem připraven tě ztratit. Musí existovat jiná cesta.~
+@114 /*Anomen*/ = ~Proto jsem chtěl jednat sám! Och... teď je všechno ztraceno. Jsme vrazi, otec mě vydědil...~
+@115 /*CHARNAME*/ = ~Vydědil? Oznámil to tvůj otec oficiálně?~
+@116 /*CHARNAME*/ = ~Nebyli tam žádní svědci. Kdo viděl, že jsme ho zabili?~
+@117 /*Anomen*/ = ~Pokud existuje jiná cesta, já ji nevidím. Jsme vrazi, otec mě vydědil...~
+@118 /*CHARNAME*/ = ~Obávám se, že máš pravdu. Sbohem, má lásko, a hodně štěstí.~
+@119 /*Anomen*/ = ~Možná ne! Měli bychom se zeptat vrátného, Jardina. On předává všechny zprávy do úřadů.~
+@120 /*Anomen*/ = ~Náš vrátný, Jardine, mě pustil dovnitř. On bude znát pravdu.~
+@121 /*CHARNAME*/ = ~Promluvme si s Jardinem.~
+
+// Guard Line
+@122 /*Jardine*/ = ~Vítej, <CHARNAME>. Lord Delrin a jeho syn jsou uvnitř, obávám se, že dojde k neštěstí.~
+@123 /*CHARNAME*/ = ~Děkuji, jdu tam okamžitě.~
+@124 /*CHARNAME*/ = ~Proč jsi nezabránil Anomenovi ve vstupu? Což ho otec nevydědil?~
+@125 /*Jardine*/ = ~Nedostal jsem rozkaz nepouštět Anomena, a jsem za to bohům vděčný.~
+@126 /*Jardine*/ = ~Anomen nevypadal jako někdo, koho by bylo možné zastavit, a stejně bych ho nedokázal zadržet. Byla doba, kdy jsem mohl, ale ta už dávno minula.~
+@127 /*Jardine*/ = ~Jste Anomenovi přátelé, takže vstupte. A prosím, pospěšte si.~
+
+// Post-death Guard Talk
+@128 /*Guard*/ = ~Lorde Delrine. S lítostí jsem přijal zprávu o smrti vašeho otce. Veškeré naděje vaší rodiny a rodu Delrinů nyní spočívají na vás, milorde.~
+@129 /*Anomen*/ = ~Jsem lord Delrin? Vy... jste musel slyšet, že mě otec vydědil...~
+@130 /*Guard*/ = ~Neslyšel jsem nic takového, milorde. A nedostal jsem rozkaz, abych takovou zprávu předával úřadům. Jste lord Delrin.~
+@131 /*Guard*/ = ~Viděl jste, jak byl váš zesnulý otec zavražděn, milorde? Byli to bandité? Museli vejít, když vás otec poslal pro další víno.~
+@132 /*Anomen*/ = ~Ano... bandité. Předáš tuto zprávu úřadům?~
+@133 /*Guard*/ = ~Ovšem, milorde. Vaše slovo je pro mě rozkaz.~
+@134 /*Anomen*/ = ~Vždy jsi byl loajální sluha, Jardine. Nejloajálnější. Vím, že ti můj otec nikdy neplatil, co sis zasloužil. Okamžitě to napravím.~
+@135 /*Guard*/ = ~Je mi ctí vám sloužit, milorde.~
+@136 /*Guard*/ = ~Dovolil bych si doporučit, abyste se umyl, milorde? Vypadáte, jako byste svedl krvavou bitvu. Určitě jste musel bojovat s bandity.~
+@137 /*Guard*/ = ~Myslím také, že v domě by měly chybět některé cennosti, milorde.~
+@138 /*Anomen*/ = ~Cennosti?~
+@139 /*Guard*/ = ~Bandité, kteří zabili vašeho otce, jistě přišli pro cennosti, milorde. Měly by chybět.~
+@140 /*Anomen*/ = ~Správně... <CHARNAME>, pojďme dovnitř, postarejme se o vše, a pak si odpočineme. Můj dům je samozřejmě tvůj.~
+
+//New Normal Guard Dialogue
+@141 /*Guard*/ = ~Milorde, milady, má úcta.~
+@142 /*Guard*/ = ~Má úcta, lady <CHARNAME>.~
+
+//New Anomen Kicked Out Dialogue
+@143 /*CHARNAME*/ = ~Dobře, pojďme, Anomene.~
+@144 /*CHARNAME*/ = ~Ne, teď bude lépe se rozejít.~
+@145 /*Anomen*/ = ~Jsi si jistá, má lásko? Nechci se s tebou rozcházet.~
+@146 /*Anomen*/ = ~Ale možná máš pravdu; mám mnoho práce, abych udržel obchodní říši své rodiny. Pokud mě budeš potřebovat, najdeš mě v našem domě.~
+@1460 /*CHARNAME*/ = ~Dobře, sejdeme se tam.~
+@1461 /*CHARNAME*/ = ~Ne, prostě tady počkej na můj návrat.~
+
+//CN Changes to 1st Post Cor Talk
+@147 /*CHARNAME*/ = ~Mluv.~
+@148 /*CHARNAME*/ = ~Co je, má lásko?~
+@149 /*CHARNAME*/ = ~Ano?~
+@150 /*CHARNAME*/ = ~Jsem na tebe tak hrdá. Jsi zajisté moudřejší než ten nejvzdělanější paladin.~
+@151 /*CHARNAME*/ = ~Věřila jsem tomu už dávno. Jsem ráda, že souhlasíš.~
+@152 /*CHARNAME*/ = ~Ovšem. Proto bychom měli vládnout tomuto městu. Nebudeme se bát udělat to, co je nutné.~
+@153 /*Anomen*/ = ~Ano. Chápu, že máš pravdu.~
+@154 /*Anomen*/ = ~Ano, má lásko. Jen my můžeme spatřit pravdu.~
+@155 /*Anomen*/ = ~Má lásko, pomůžeš mi?~
+@156 /*CHARNAME*/ = ~Ovšem. Čímkoli budeš chtít.~
+@157 /*CHARNAME*/ = ~Zašla jsem už příliš daleko, než abych se stáhla.~
+@158 /*CHARNAME*/ = ~Ovšem, zní to jako zábava.~
+
+//CN Changes to 2nd Cor Talk
+@159 /*CHARNAME*/ = ~Možná bychom mohli znovu promluvit s Bylannou.~
+@160 /*CHARNAME*/ = ~Máš pravdu. Musíme něco udělat.~
+@161 /*Anomen*/ = ~Ano, mám nápad. Pojďme do Rady šesti promluvit s příslušnými úřady.~
+
+//CN Changes to Talk 3
+@162 /*Anomen*/ = ~Děkujme bohům za naše štěstí! Rod Delrinů se brzy stane jedním z nejvýznamnějších kupeckých rodů Amnu.~
+@163 /*Anomen*/ = ~Má lásko, co víš o Radě šesti?~
+@164 /*CHARNAME*/ = ~Vím jen tolik, že její členové jsou tajní.~
+@165 /*CHARNAME*/ = ~Nanejvýš loutky. Je zřejmé, že to jsou Umaskovaní čarodějové, kdo skutečně vládnou. Nechápu, proč Rada skrývá svou totožnost.~
+@166 /*CHARNAME*/ = ~Nic, a tak to mám ráda. Mám důležitější starosti než nějaká tajná rada starců.~
+@167 /*Anomen*/ = ~Pomarch je Tyrda K'Helvor. Je jen žena, takže ji nikdo nebere vážně. Bez urážky, má drahá.~
+@168 /*Anomen*/ = ~Doufám, že jednoho dne budu moci stát po jejich boku...~
+@169 /*Anomen*/ = ~Ha, sním. I kdyby bylo místo volné, nelze se do Rady přihlásit. Musí tě oslovit člen Rady.~
+@170 /*Anomen*/ = ~Ale vyhoď to všechno z hlavy, má lásko. Tento den je příliš krásný a ty jsi příliš krásná, než abys se trápila takovou politikou.~
+
+//CN Changes to Talk 4
+@171 /*Anomen*/ = ~Rada šesti, <CHARNAME>! Tato realita ke mně ještě plně nedolehla.~
+@172 /*CHARNAME*/ = ~Je to velká čest, ale musíš na to tvrdě pracovat.~
+@173 /*CHARNAME*/ = ~Máš štěstí, že tě zvažují.~
+@174 /*CHARNAME*/ = ~To je první krok, ale čeká nás dlouhá cesta.~
+@175 /*CHARNAME*/ = ~Ujišťuji tě, to není sen. Brzy bude Rada naše.~
+@176 /*CHARNAME*/ = ~Nejprve Rada, poté Athkatla, a pak celý Amn u našich nohou.~
+@177 /*Anomen*/ = ~Máš samozřejmě pravdu. Připojím se k Radě na nejnižší úrovni a může to trvat roky, než získám skutečnou moc.~
+@178 /*Anomen*/ = ~Musíme být trpěliví. Připojím se k Radě na nejnižší úrovni a může to trvat roky, než získám skutečnou moc.~
+@179 /*CHARNAME*/ = ~Není kam spěchat. Do té doby budeme upevňovat naši pozici jiným způsobem.~
+@180 /*CHARNAME*/ = ~Připojíme se, má lásko. Budu tě doprovázet na každém kroku.~
+@181 /*Anomen*/ = ~Možná. Nyní hledejme čest a slávu. A také bohatství! Budeme potřebovat obrovské peníze, pokud hodlám provést skutečnou změnu.~
+@182 /*Anomen*/ = ~Ovšem, má lásko. Nyní hledejme čest a slávu. A také bohatství! Budeme potřebovat obrovské peníze, pokud hodlám provést skutečnou změnu.~
+@183 /*Anomen*/ = ~A bez tebe bych to nedokázal. Hledejme čest a slávu společně. A také bohatství! Budeme potřebovat obrovské peníze, pokud hodlám provést skutečnou změnu.~
+
+//Clearing Name Journal's
+@1000 /*Title*/ = ~Očištění Anomenova jména~
+
+@1001 /*First Entry*/ = ~Očištění Anomenova jména: Návštěva u mága
+
+Anomen chce, abychom šli do Rady šesti v Athkatle a promluvili s mágem Corneilem, aby očistil Anomenovo jméno od podezření. Doufá, že se mágovi podaří pomocí magie najít důkazy Saerkových provinění, a tím ospravedlnit jeho zabití.~
+
+@1002 /*Second Entry*/ = ~Očištění Anomenova jména: Platba mágovi
+
+Anomen zaplatil mágovi Corneilovi 20 000 zlatých, aby znovu prošetřil Saerkovy obchody. Tvrdí, že jde pouze o náklady na přísady do kouzel, ale v nejlepším případě je to jen technická záležitost. Celá věc zavání úplatkem.~
+
+@1003 /*Third Entry*/ = ~Očištění Anomenova jména: Záležitost vyřešena
+
+Corneil dokončil své vyšetřování a oficiálně očistil Anomena od veškerých obvinění v souvislosti se smrtí Saerka Farada. Mág oficiálně prohlásil, že Saerk se zabýval obchodem s otroky a byl vinen vraždou Anomenovy sestry Moiry. Nemohu říci, zda je to pravda, ale alespoň stín podezření přestal tížit Anomena.~
+
+//Jysstev Letter
+@1004 /*Council Letter*/ = ~Anomen chce, abychom navštívili lorda Quara Jyssteva, který ho pozval na rozhovor. Lorda lze nalézt v jeho sídle ve vládní čtvrti.~

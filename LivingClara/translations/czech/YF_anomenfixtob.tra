@@ -1,0 +1,35 @@
+// Anomen Romance Fix
+@0 /*Anomen*/ = ~Vážená paní, obávám se, že mezi námi mohlo dojít k nedorozumění. Doufám, že se můžeme vrátit k tomu, co bylo dříve. Dokážeš mi odpustit?~
+@1 /*CHARNAME*/ = ~Ne, Anomene, chci, abychom byli jen přátelé.~
+@2 /*CHARNAME*/ = ~Samozřejmě, Anomene. Všechno je minulostí.~
+
+//Talk to let you choose Anomen's past in new game
+@3 /*Anomen*/ = ~<CHARNAME>, prosím, pověz mi o našem čase v Athkatle. Prošel jsem zkouškou? Jsem rytířem Řádu Zářícího srdce?~
+@4 /*CHARNAME*/ = ~Ano, udělal jsi to. Jsi rytíř. I když se tě otec zřekl.~
+@5 /*CHARNAME*/ = ~Ne, neudělal jsi to. Byl jsi z Řádu vyloučen.~
+@6 /*CHARNAME*/ = ~Ještě jsi neabsolvoval zkoušku. Naše cesta po Amnu teprve začíná.~
+@7 /*Anomen*/ = ~Chápu. A byl jsem v romantickém vztahu?~
+@8 /*CHARNAME*/ = ~Ano, se mnou.~
+@9 /*CHARNAME*/ = ~Inu, snažil jsi se získat Kláru, ale ona tě opustila kvůli tvému otci.~
+@10 /*CHARNAME*/ = ~Ne, nebyl jsi.~
+@11 /*CHARNAME*/ = ~Vyznávali jsme si lásku. Saerk byl uznán vinným z vraždy tvé sestry a tvůj otec se s ním střetl a byl také zabit. My jsme se také postavili Saerkovi, ale rozhodli jsme se pokojně odejít a nechat městskou spravedlnost, aby ho potrestala.~
+@12 /*Anomen*/ = ~To je smutné, ale přinejmenším jsem splnil svůj celoživotní sen a vstoupil do Řádu.~
+@13 /*Anomen*/ = ~Pokračujme v cestě.~
+
+@14 /*Anomen*/ = ~Ano, s Klárou.~
+@15 /*Anomen*/ = ~Tak co se stalo potom, má lásko?~
+@16 /*CHARNAME*/ = ~Vyznávali jsme si lásku, ale tvůj otec se tě pokusil vydědit, tak jsme ho zabili.~
+@1600 /*CHARNAME*/ = ~Vyznávali jsme si lásku, ale později úřady Athkatly oznámily, že Saerk nebyl vinen smrtí tvé sestry. Tvůj otec se tě zřekl, a tak jsi šel s ním konfrontovat. Společně jsme se rozhodli darovat mu život.~
+@1601 /*Anomen*/ = ~Starý opilec konečně dostal, co si zasloužil. Co bylo dál?~
+@1602 /*CHARNAME*/ = ~Pak jsme z toho obvinili lupiče a ty ses stal lordem Delrinem. Zaplatili jsme Maskovanému čaroději, aby vyšetřil Saerkovu vraždu a očistil tvé jméno. Saerk se oficiálně stal padouchem a my oficiálně hrdiny.~
+@1603 /*CHARNAME*/ = ~Takže jsem ztratil Řád, rodinu i domov. Jediné, co mi zbylo, jsi ty, má lásko.~
+@17 /*Anomen*/ = ~To je skvělé. Vždycky jsem věděl, že jsme si souzeni. Ještě něco?~
+@18 /*CHARNAME*/ = ~Také jsme vyřešili problémy s veřejným pořádkem způsobené válkou gild. Až se za několik měsíců setkáš s Radou šesti, nabídnou ti volné místo v Radě, pod podmínkou, že se staneš jedním z nejbohatších lordů Amnu.~
+@19 /*Anomen*/ = ~Takže mě čeká hodně práce. Pokračujme v cestě, má lásko.~
+
+@20 /*Anomen*/ = ~Co se stalo potom?~
+@21 /*CHARNAME*/ = ~Ty a Klára jste si vyznali lásku a vzali se. Tvůj otec se tě pokusil vydědit, tak jsme ho zabili a z toho obvinili lupiče, abyste ty a Klára mohli být lordem a lady Delrinovými. Pak jsme zaplatili Maskovanému čaroději, aby vyšetřil Saerkovu vraždu a očistil tvé jméno. Saerk se oficiálně stal padouchem a my všichni oficiálně hrdiny.~
+@22 /*Anomen*/ = ~Takže mě čeká spousta práce. Pokračujme v cestě.~
+
+//DSA Romance Banter Fix 1
+@23 /*Anomen*/ = ~Máš pravdu, <CHARNAME>. Když jsem čelil svému otci, naučila jsi mě, že někdy je prolití krve nezbytné pro vyšší dobro. Nicméně musí také nastat chvíle, kdy bychom měli přestat hledat konflikty a užívat si života.~

@@ -1,0 +1,9 @@
+//Final Solaris Conversation
+@1 /*Clara*/ = ~Wow, <CHARNAME>, máš šanci stát se bohem a nechat to všechno za sebou. Až si vybereš ohromnou moc, nezapomeň na nás, malé smrtelníky, kteří ti pomohli se sem dostat.~
+
+//Hexxat Talk
+@2 /*Hexxat*/ = ~Odpusť mi, Kláro... To je jediná cesta.~ [OH81268]
+@3 /*Clara*/ = ~Spící... probudila se! Paní, udělala jsem vše, co jsi přikázala – prosím, nech mě žít!~ [OH81267]
+@4 /*Clara*/ = ~Ne, už mě neovládáš! Nejsem tvá otrokyně!~
+@5 /*Hexxat*/ = ~Nepotřebuji otroky; žiju.~
+@6 /*Hexxat*/ = ~Ty taky žiješ. Užívejme si dnešní den.~

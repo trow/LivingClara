@@ -1,0 +1,48 @@
+//Renal Bloodscalp and Clara
+@1 /*Renal*/ = ~Konečně jsi tady, Kláro. Myslel jsem, že jsi mrtvá, protože ti, kdo se odváží zanedbat platby, obvykle skončí mrtví.~
+@2 /*Renal*/ = ~Předpokládám, že máš dobré vysvětlení, proč jsi nemohla platit včas, jako všichni ostatní?~
+@3 /*Clara*/ = ~Vlastně ano, pane. Vidíte, byla jsem posedlá starobylou upírkou jménem Hexxat, která chtěla využít <CHARNAME> k zabití Dragomira, staršího upíra, kterého neměla ráda. Zabili jsme Dragomira, respektive <CHARNAME> ho zabil... Byla jsem posedlá, takže nemohu říct, že jsem opravdu něco udělala... potom mě Hexxat zabila, takže <CHARNAME> zabil ji, ale pak mě <CHARNAME> vzkřísil, takže...~
+@4 /*Renal*/ = ~Přestaň. Prostě mlč. Nezajímá mě to. Jsi s <CHARNAME> a to je jediné vysvětlení, které potřebuji. Pomoz <PRO_HESHE> v <PRO_HISHER> úkolu a všechno bude odpuštěno.~
+@5 /*Renal*/ = ~A co se tebe týče, <CHARNAME>, dobrá práce s těmi upíry; rád slyším o jejich vnitřních sporech a konfliktech. Nemusíš tu zůstávat; vrať se do práce.~
+
+//Clara-Imoen Talk1
+@6 /*Clara*/ = ~Ahoj.~
+@7 /*Imoen*/ = ~Ach, nevšimla jsem si tě. Ahoj, jsem Imoen. <CHARNAME> nás nepředstavil.~
+@8 /*Imoen*/ = ~Musíš být opravdu dobrá ve skrývání. Obvykle vidím všechny.~
+@9 /*Clara*/ = ~Mám způsob, jak zmizet z paměti, když chci; dokonce i ti, co mě hledají, často zapomenou, že jsem tady.~
+@10 /*Clara*/ = ~Takže ty jsi ta sestra, kvůli které jsme cestovali tak daleko.~
+@11 /*Clara*/ = ~A podařilo se nám. Dobyli jsme pevnost a zachránili dívku.~
+@12 /*Clara*/ = ~Vyhráli jsme. Teď budeme žít šťastně až do smrti. Že jo?~
+@13 /*Imoen*/ = ~Jo! Jakmile se vrátíme do Athkatly.~
+@14 /*Imoen*/ = ~Vypadáš trochu sklesle. Zkusme to znovu.~
+@15 /*Imoen*/ = ~Ahoj, jsem Imoen. Moje duše byla právě vytržena z mého těla. Jaký je tvůj příběh?~
+@16 /*Clara*/ = ~Moje rodina byla zavražděna, upír mě zabil a pak mě <CHARNAME> zachránil, takže teď cestuji s <PRO_HESHE> a snažím se neumřít příšernou smrtí.~
+@17 /*Clara*/ = ~V podstatě to samé, co vždycky.~
+@18 /*Imoen*/ = ~Jo, to je to samé jako každý z nás. Jsme parta ztracených a osamělých duší.~
+@19 /*Imoen*/ = ~No tak, vzchop se. Čeká nás další kolo „snaž se neumřít příšernou smrtí“.~
+
+//Clara-Viconia Poison Scene
+@20 /*Clara*/ = ~Domove, sladký domove. Vůně této hospody mě vždycky táhne zpátky.~
+@21 /*Drunk1*/ = ~Podívej na tu sladkou. Hej, holka! Pojď sem *říh* a dej nám pusu.~
+@22 /*Drunk2*/ = ~Teď, Garrolle, příteli... nenechávej si *říh* ji jen pro sebe.~
+@23 /*Drunk2*/ = ~Hej, sladká, já taky chci pusu!~
+@24 /*Clara*/ = ~Oni?~
+@25 /*Viconia*/ = ~To jsou jen opilí hrubí muži. Svět nikdy nebude litovat o pár opilých hrubých mužů méně.~
+@26 /*Clara*/ = ~Tak dobře. Sleduj, jak pracuji. Nic neuvidíš.~
+@27 /*Clara*/ = ~Garroll, že? Jsi tak silný, hezký muž. Samozřejmě, že ti dám pusu. Tady. Na temeno hlavy. Ach, dotýkám se tvých paží, jsi tak silný.~
+@28 /*Clara*/ = ~A pusu pro tvého přítele. Ach, on je taky silný.~
+@29 /*Clara*/ = ~A teď vy, hoši, si tu sedněte, zatímco já půjdu pokecat s mou kamarádkou. Musíme se tam osvěžit, ale brzy se vrátíme.~
+@30 /*Viconia*/ = ~Skončila? Už se mi dělá špatně z toho, co slyším.~
+@31 /*Clara*/ = ~Tak kam teď?~
+@32 /*Viconia*/ = ~Teď budeme čekat a pozorovat, jak umírají.~
+@33 /*Clara*/ = ~Co budeme dělat, než to přijde?~
+@34 /*Clara*/ = ~Vím! Pojďme si hrát hru! Jmenuje se Hra na lež a...~
+@35 /*Viconia*/ = ~Nehraju hry.~
+@36 /*Clara*/ = ~Ale je to zábava. Vidíš, nejdřív ty...~
+@37 /*Viconia*/ = ~Pšš.~
+@38 /*Clara*/ = ~Vůbec se neumíš bavit.~
+@39 /*Drunk1*/ = ~*říh* Není mi dobře.~
+@40 /*Drunk2*/ = ~*říh* Garrolle, jsi v pořádku? Ach...~
+@41 /*Viconia*/ = ~Rychleji, než jsem čekala. Použila jsi víc, než je třeba na takové slabochy.~
+@42 /*Clara*/ = ~Jen další dva opilci, kteří neumějí pít. Můžeme už jít?~
+@43 /*Viconia*/ = ~Ano. Můj den se už trochu rozjasnil.~

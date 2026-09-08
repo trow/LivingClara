@@ -1,0 +1,662 @@
+//First Clara nudge if you haven't talked to Rose yet
+@1 /*Clara*/ = ~Hej, <CHARNAME>, slyšela jsem, že jedna moje stará přítelkyně tam možná pracuje. Mohli bychom se tam po cestě stavit a podívat se na ni?~
+@2 /*CHARNAME*/ = ~Na to nemáme čas.~
+@3 /*CHARNAME*/ = ~Jistě.~
+@4 /*Clara*/ = ~No dobře. (Možná se stejně tiše vytratím a podívám se na ni.)~
+@5 /*Clara*/ = ~Díky! Jsi úžasný.~ ~Díky! Jsi úžasná.~
+
+//Rose-Clara Talk
+@83 /*Rose*/ = ~Ach, drahá, nepohybuji se v tom, co hledáš. Ale mohu ti ukázat správný směr.~
+@84 /*Clara*/ = ~Róžo? To jsi ty! Co tady děláš?~
+@85 /*Rose*/ = ~Kláro! Neviděly jsme se věky! Všichni si mysleli, že jsi mrtvá.~
+@86 /*Clara*/ = ~A taky jsem byla. <CHARNAME> mě zachránil a vzkřísil.~ ~A taky jsem byla. <CHARNAME> mě zachránila a vzkřísila.~
+@87 /*Rose*/ = ~No, nemůžu ti to mít za zlé, hledáš si lepší místo. Tady budoucnost není.~
+@88 /*Clara*/ = ~Co se týče... proč ty...~
+@89 /*Rose*/ = ~Proč jsem uvízla na tomhle nebezpečném, chudém pustém místě, kam posílají prostitutky umírat?~
+@90 /*Rose*/ = ~Pamatuj si na Malého Toma? Ten, co občas dělal pro Mae'Vara. Ukousla jsem mu ucho.~
+@91 /*Clara*/ = ~Dobře ti tak! Doufám, že mu ho kněží šikovně přišili.~
+@92 /*Rose*/ = ~Neměli co šít! Rozžvýkala jsem ho a spolkla!~
+@93 /*Rose*/ = ~A tak jsem tady, ale není to tak zlé. Jsem tu královna! Zabrala jsem si nejlepší místo mezi tím sídlem a divadlem. Je to nejbezpečnější místo v čtvrti.~
+@94 /*Rose*/ = ~Vydělávám víc než všechny ostatní holky dohromady a pořád jsem vytížená, vytížená.~
+@95 /*Rose*/ = ~A je tu spousta boháčů, kteří mi pořád něco kupují a platí za dobré pokoje; nikdy jsem se neměla tak dobře!~
+@96 /*Clara*/ = ~Jen buď opatrná, ano?~
+@97 /*Rose*/ = ~Ty taky! Nedělej si starosti s Róžou. Skoro každý strážce, voják, kapsář a lupič byl u mě hostem. Když křičím, vždycky někdo přiběhne a zachrání mě.~
+
+//Terl Talk once Aran dead
+@6 /*Clara*/ = ~Někdo jde. Moment... Terle, to jsi ty?~
+@7 /*Terl*/ = ~Ahoj, Kláro. Rád tě znovu vidím.~
+@12 /*Terl - no Anomen*/ = ~Mám pro tebe dopis.~
+@8 /*Anomen - if there*/ = ~No, jaká zpráva? Dej ho sem.~
+@9 /*Terl if Anomen*/ = ~Odpusťte, pane. Tento dopis je pro Kláru.~
+@13 /*Clara*/ = ~Opravdu? Pro mě?~
+@10 /*Anomen - if there*/ = ~Hm. Jasně. Věděl jsem.~
+@11 /*Anomen - if there & married*/ = ~Měl byste jí říkat lady Delryn, posle.~
+@14 /*Clara - if Anomen there & married*/ = ~To je v pořádku, miláčku. Jsem si jistá, že neměl špatné úmysly. Smím se na ten dopis podívat?~
+@15 /*Clara*/ = ~Ach, je to od Róži. Pamatuješ, <CHARNAME>, v Mostní čtvrti? Chce se mnou mluvit.~
+@16 /*Clara*/ = ~Až tam znovu pojedeme, musíme ji navštívit. Prosím! Zdá se, že jí na tom záleží.~
+@17 /*Anomen - if there & married*/ = ~Neměla by ses bavit s takovými jako je ona, Karolíno. Teď, když jsi lady Delryn, je to velmi nevhodné.~
+@18 /*Clara - if Anomen there & married*/ = ~Nebojte se, pane. Nehodlám ji zvát domů na čaj. Avšak pravá šlechtična musí být k nižším stavům štědrá. *šeptem* Dej jim trochu laskavosti a budou nás zbožňovat.~
+@19 /*Clara*/ = ~Díky, Terle. Řekni Róži, že přijdu, jakmile to půjde.~
+@20 /*Terl*/ = ~Jistě. Rád.~
+
+//Rose Library Request
+@21 /*Rose*/ = ~Kláro! Ahoj! Terl mi řekl, že tě našel. Jsem tak ráda, že jsi přišla.~
+@22 /*Clara*/ = ~Jistě. Vím, že máme velmi důležitý úkol a tak, ale <CHARNAME> se vždy rád udělá další zastávku. Co pro tebe můžeme udělat?~ ~Jistě. Vím, že máme velmi důležitý úkol a tak, ale <CHARNAME> se vždy ráda udělá další zastávku. Co pro tebe můžeme udělat?~
+@23 /*Rose*/ = ~No, začala jsem přemýšlet o budoucnosti. O své budoucnosti.~
+@24 /*Rose*/ = ~Chci teď být slušným člověkem, víš. Obzvlášť s Terlem.~
+@25 /*Clara*/ = ~Máš s muži štěstí. Většina chlapů se na takové jako ty a já ani nepodívá dvakrát.~
+@26 /*Rose - if Clara married*/ = ~A tvůj manžel? Slyšela jsem, že jsi teď šlechtična.~
+@27 /*Clara - if married*/ = ~Ó ano, jsem lady Delryn a je to skvělé. Ale víš, jsem taková jen proto, že můj milý manžel nezná pravdu.~
+@28 /*Clara - if Anomen around*/ = ~Musela jsem ho poslat na ten stánek s šperky, abychom si mohly promluvit.~
+@29 /*Clara*/ = ~Terl je jiný. Ví to a přesto tě miluje.~
+@30 /*Rose*/ = ~Máš pravdu. Dokonce mi požádal o ruku. Dokážeš si to představit?~
+@31 /*Rose*/ = ~Chystáme se založit rodinu, a pokud ano, budu potřebovat nové povolání. Něco, na co budou mé děti pyšné.~
+@32 /*Clara*/ = ~Takže... co po nás chceš? Nechceš se stát dobrodružkou, že? Víš, <CHARNAME> je vůbec dost přísný, pokud jde o počet členů <PRO_HISHER> družiny.~ ~Takže... co po nás chceš? Nechceš se stát dobrodružkou, že? Víš, <CHARNAME> je vůbec dost přísná, pokud jde o počet členů <PRO_HISHER> družiny.~
+@33 /*Rose*/ = ~*smích* Samozřejmě že ne, nemluv hlouposti. Chci si s Terlem postavit domov, ne utíkat před každým nebezpečím.~
+@34 /*Rose*/ = ~Ale protože stejně čelíte nebezpečím, doufala jsem, že mi uděláte laskavost. Víš, chci založit knihovnu, místo, kde si může každý přijít číst, aniž by byl šlechticem nebo jedním z těch vymóděných mágů.~
+@35 /*Rose*/ = ~Možná budu moci i vyučovat. Měla jsem štěstí a znám základy, ale mnozí neumí ani podepsat své jméno.~
+@36 /*Rose - if harlots quest*/ = ~Slyšela jsem, že kněží Oghmy vyučují v přístavu, ale jistě nemají dost míst a já chci, aby ty dívky měly i jiné možnosti.~
+@37 /*Rose*/ = ~Jenže, víš, knihovna potřebuje knihy a myslela jsem si, že vy spíše narazíte na vzácné svazky. Mohla bych za každou trochu platit; mám naspořeno.~
+@38 /*Clara*/ = ~Zní to skvěle. Tedy, knihovnám nerozumím, ale vždy jsem byla dobrá v hledání věcí. Ani nemusíš platit; ať je to laskavost pro kamarádku.~
+@39 /*Rose*/ = ~Jsi si jistá? Dívka si přeci jen musí vydělávat na živobytí.~
+@40 /*Clara*/ = ~Nedělej si se mnou starosti. V poslední době se mi daří docela dobře.~
+@41 /*Clara*/ = ~*šeptem* Upřímně, <CHARNAME> zajímají jen magické předměty. Nadělala jsem si jmění prodejem všeho, co <PRO_HESHE> zahodí.~
+@42 /*Rose*/ = ~Ty si vždycky poradíš. V tom případě souhlasím. Jen mi přines jakékoli knihy, které najdeš, a já otevřu knihovnu.~
+@43 /*Rose*/ = ~Vlastně, když tak o tom přemýšlím, vezmu i jiné papíry a dokumenty. Vím, že místní učenci platí za přístup k unikátním kouskům, a to mi pomůže otevřít dveře ostatním.~
+@44 /*Clara*/ = ~Jsi poklad, Róžo. Jsem si jistá, že <CHARNAME> nebude namítat, když ti dá pár náhodných poznámek, které jsme po cestě sebrali. Upřímně, nevím, proč je schovává.~
+@45 /*Rose*/ = ~Díky, Kláro. Jsi pravý přítel.~ ~Díky, Kláro. Jsi pravá přítelkyně.~
+@46 /*Rose*/ = ~Ty taky, <CHARNAME>. Kdykoli jsi vítán.~ ~Ty taky, <CHARNAME>. Kdykoli jsi vítána.~
+
+//Endless Book Talk
+@47 /*CHARNAME*/ = ~Přinesl jsem ti něco do tvé knihovny.~ ~Přinesla jsem ti něco do tvé knihovny.~
+@48 /*CHARNAME*/ = ~Ne, ale přinesl jsem ti něco do tvé knihovny.~ ~Ne, ale přinesla jsem ti něco do tvé knihovny.~
+
+@49 /*Rose*/ = ~Výborně. Ukaž, co máš.~
+@50 /*Rose*/ = ~Jakási magická kniha? Díky, <CHARNAME>, bude to skvělé doplnění mé knihovny.~
+@51 /*Rose*/ = ~Kniha kouzel mága? Asi raději nechci vědět, kde jsi ji vzal, že?~ ~Kniha kouzel mága? Asi raději nechci vědět, kde jsi ji vzala, že?~
+@52 /*Rose*/ = ~Další román? Výborně.~
+@53 /*Rose*/ = ~No, tahle nevypadá tak zajímavě jako ostatní, ale myslím, že v každé dobré knihovně by romány být měly.~
+@54 /*Rose*/ = ~Další Historie Calimshanu? Díky. Mít další výtisk nikdy neškodí.~
+@55 /*Rose*/ = ~Historie Calimshanu... To potěší učence.~
+@56 /*Rose*/ = ~Další Historie Cormyru? No, ten druhý už je opotřebovaný.~
+@57 /*Rose*/ = ~Historie Cormyru. Přidám do sbírky.~
+@58 /*Rose*/ = ~Historie Dambrathu... vypadá, že se jí podpíraly dveře. Kde jsi ji vzal?~ ~Historie Dambrathu... vypadá, že se jí podpíraly dveře. Kde jsi ji vzala?~
+@59 /*Rose*/ = ~Historie Dambrathu? Touto knihou by se dalo zabít, <CHARNAME>. Je opravdu těžká.~
+@60 /*Rose*/ = ~Našel jsi další Historii Durparu a Zlatého Varu? Výborně, vždy jsem chtěla vlastní výtisk.~
+@61 /*Rose*/ = ~Historie Durparu a Zlatého Varu... Pořádný kus. Doufám, že je zajímavá.~
+@62 /*Rose*/ = ~Ach, další tenká... Historie Estagundu, to je dobrá kniha pro začínající čtenáře.~
+@63 /*Rose*/ = ~Historie Estagundu. Docela tenká, ale i tak díky.~
+@64 /*Rose*/ = ~Další Historie Gontegala... Tahle kniha byla překvapivě zajímavá, i když možná jen proto, že ji Terl četl nahlas.~
+@65 /*Rose*/ = ~Ach, Historie Gontegala, ztraceného krále. Zajímavě to zní. Možná požádám Terla, aby mi ji přečetl.~
+@66 /*Rose*/ = ~Historie Halruuy... Potřebovala jsem další výtisk. Učenci se o ni perou.~
+@67 /*Rose*/ = ~Někdo se mě na Historii Halruuy ptal před pár dny. To je skvělé, <CHARNAME>.~
+
+@68 /*Rose*/ = ~Historie Luirenu, země halflingů...~
+@69 /*Rose*/ = ~Ach, další Historie Luirenu, země halflingů...~
+@70 /*Mazzy*/ = ~Napsali ji, bez pochyby, vysocí. Takové historie bývají plné lží a omylů.~
+@71 /*Rose - if Mazzy*/ = ~Pak bys mi o ní možná měla napsat recenzi. Slyšela jsem, že ty nejlepší knihovny mívají takové věci.~
+@72 /*Mazzy*/ = ~Možná.~
+@73 /*Rose*/ = ~Výborně. To musí být velmi zajímavé.~
+@74 /*Rose*/ = ~Dobře. Prozatím ji položím k ostatním.~
+
+@75 /*Rose*/ = ~Další Historie Sembie... Ta se bude hodit.~
+@76 /*Rose*/ = ~Historie Sembie... Ta je dobrá.~
+@77 /*Rose*/ = ~Další Historie Údolí stínů? Položím ji k ostatním.~
+@78 /*Rose*/ = ~Historie Údolí stínů I... Zajímalo by mě, kolik jich vlastně je.~
+@79 /*Rose*/ = ~Historie Údolí stínů II... Dobře, že mám další.~
+@80 /*Rose*/ = ~Historie Údolí stínů II... Díky, to rozšíří mou sbírku.~
+@100 /*Rose*/ = ~Další Historie Údolí stínů III. Vezmu ji, ale už mi dochází místo.~
+@101 /*Rose*/ = ~Historie Údolí stínů III. Položím ji k ostatním.~
+@102 /*Rose*/ = ~Další Historie Údolí stínů IV... Vezmu ji. Tyhle tenké knížky jsou pro mé hodiny ideální.~
+@103 /*Rose*/ = ~Historie Údolí stínů IV. Není zrovna tlustá, že? Myslím, že autoři klidně mohli obsah scelit do méně svazků.~
+@104 /*Rose*/ = ~Historie Údolí stínů... znovu pátý? No, pojistit se neškodí.~
+@105 /*Rose*/ = ~Historie Údolí stínů... pátý? To začíná být směšné.~
+@106 /*Rose*/ = ~Další Historie Údolí stínů VI? Terl tě prokleje, až o ty knihy zakopne.~
+@107 /*Rose*/ = ~Historie Údolí stínů VI – smrt Jordehana z rukou Khelbena... No, spoiler už v názvu, že? Ale přesto díky.~
+@108 /*Rose*/ = ~Historie Údolí stínů VII... Díky. První výtisk byl poučný.~
+@109 /*Rose*/ = ~Historie Údolí stínů VII. Přísahám, tyhle knihy sotva zaslouží být nazývány knihami. I když věřím, že většina knihkupců si za ně stejně naúčtuje plnou cenu.~
+@110 /*Rose*/ = ~Další Historie Údolí stínů VIII? Pořád nudná, ale vezmu ji.~
+@111 /*Rose*/ = ~Historie Údolí stínů VIII? To místo nemůže být *tak* zajímavé.~
+@112 /*Rose*/ = ~Našel jsi znovu Historii Údolí stínů IX? Výborně, tahle kniha je překvapivě oblíbená.~ ~Našla jsi znovu Historii Údolí stínů IX? Výborně, tahle kniha je překvapivě oblíbená.~
+@113 /*Rose*/ = ~Historie Údolí stínů IX? Vážně, kolik jich je?~
+@114 /*Rose*/ = ~Ach, dobře, Historie Údolí stínů X... Už se mi několik lidí ptalo na Elminstera.~
+@115 /*Rose*/ = ~Historie Údolí stínů X... No, aspoň že v tomhle díle je Elminster. Snad bude oblíbenější.~
+@116 /*Rose*/ = ~Další Historie Údolí stínů XI... Pořád nemůžu uvěřit, kolik má tahle série dílů.~
+@117 /*Rose*/ = ~Historie Údolí stínů XI. Měla bych brzy kompletní sérii.~
+@118 /*Rose*/ = ~Historie Údolí stínů XII... Výborně. Tenhle díl mám ráda.~
+@119 /*Rose*/ = ~Historie Údolí stínů XII... Tenhle vypadá jako milostný příběh; jaké to roztomilé.~
+@120 /*Rose*/ = ~Další Historie Údolí stínů, třináctý díl... Je to tentokrát štěstí, nebo neštěstí?~
+@121 /*Rose*/ = ~Historie Údolí stínů XIII... No, tohle už musí být poslední díl.~
+@122 /*Rose*/ = ~Vezmu další Historii Tethyru. Vzhledem k našim současným vztahům je velmi žádaná.~
+@123 /*Rose*/ = ~Historie Tethyru. Dobře to mít. Je důležité znát své sousedy.~
+@124 /*Rose*/ = ~Historie Zvonu hlubin... Není tak hluboká, jak vypadá, ale vezmu další výtisk.~
+@125 /*Rose*/ = ~Historie Zvonu hlubin... Zní to záhadně.~
+@126 /*Rose*/ = ~Další Historie Vyvolených Mystry... No, Kouzelníci v róbách si pro ni ještě nepřišli, ale raději budu mít náhradní výtisk.~
+@127 /*Rose*/ = ~Historie Vyvolených Mystry... Hmm, historie magie... Kouzelníci v róbách by si ji měli oblíbit.~
+@128 /*Rose*/ = ~Výborně, dlouho jsem chtěla další Historii údolí a Elfího dvora. Tenhle spisovatel zná všechny nejlepší drby.~
+@129 /*Rose*/ = ~Historie údolí a Elfího dvora. Možná suché čtení, ale i tak ji na polici postavím.~
+@130 /*Rose*/ = ~Historie Tří mrtvých bohů... Spíš báje než historie, ale druhý výtisk se hodí.~
+@131 /*Rose*/ = ~Historie Tří mrtvých bohů – klouby, lebkové kuželky a prázdný trůn. Tahle kniha by mohla být skvělá.~
+@132 /*Rose*/ = ~Historie Dračího pobřeží... Některé dívky v přístavu ji mají rády. Říkají, že jim dává inspiraci...~
+@133 /*Rose*/ = ~Historie Dračího pobřeží... Pašeráci, piráti a nájemní zabijáci. Zní to patřičně; budou tu jako doma.~
+
+@134 /*Rose*/ = ~Historie drowů I... Chtěla jsem si ji přečíst.~
+@135 /*Rose*/ = ~Další Historie drowů... Po téhle knize se mi zdály zlé sny.~
+@136 /*Viconia*/ = ~Raději mluv rovnou s opravdovou drowkou. Jsem si jistá, že tahle kniha je plná lží.~
+@137 /*Rose*/ = ~Och, chtěla bys? Jsi docela... strašidelná. Neodvážila jsem se.~
+@138 /*Viconia*/ = ~Tak nejsi hloupá. Možná jsi hodna mých znalostí. Vypadá to, že jsi přeživší a máš své záležitosti dobře pod kontrolou.~
+@139 /*Rose*/ = ~Někdy má vědění svou cenu.~
+@140 /*Rose*/ = ~Těším se.~
+
+@141 /*Rose*/ = ~Historie drowů II. Výborně.~
+@142 /*Rose*/ = ~Další? Výborně. Historie drowů II je neobyčejně oblíbená.~
+@143 /*Viconia*/ = ~Povrchoví lidé napsali dva svazky těchto hovadin? Vůbec mě to nepřekvapuje.~
+@144 /*Rose*/ = ~Aspoň se mi daří.~
+@145 /*Rose*/ = ~Přidám ji do knihovny.~
+
+@146 /*Rose*/ = ~Další výtisk Historie mince Osudu? Aspoň ne další <CHARNAME>. Jsem ti velmi vděčná za pomoc, ale nejsem si jistá, jestli by náš svět unesl dalšího takového, jako jsi ty.~ ~Další výtisk Historie mince Osudu? Aspoň ne další <CHARNAME>. Jsem ti velmi vděčná za pomoc, ale nejsem si jistá, jestli by náš svět unesl další takovou, jako jsi ty.~
+@147 /*Rose*/ = ~Historie mince Osudu... Hmm, <CHARNAME>, musel jsi být nešťastné dítě, když jsi svět tak změnil.~ ~Historie mince Osudu... Hmm, <CHARNAME>, musela jsi být nešťastné dítě, když jsi svět tak změnila.~
+
+@148 /*Rose*/ = ~Hmm, další Historie posledního pochodu obrů... Hodí se.~
+@149 /*Rose*/ = ~Historie posledního pochodu obrů... Zajímavé. Jsem si jistá, že se z ní mnoho naučím.~
+@150 /*Rose*/ = ~Tohle vždy doporučuji. Historie Měsíčního moře ve mě probouzí touhu cestovat. Možná se jednou s Terlem vydám na malý výlet.~
+@151 /*Rose*/ = ~Historie Měsíčního moře. Vždy jsem tam chtěla jet.~
+@152 /*Rose*/ = ~Ach, další Historie Severu I. Stále ne o zahradničení, ale historikům se zdá líbit.~
+@153 /*Rose*/ = ~Historie Severu I – první rozkvět... Zní to jako příručka o zahradničení.~
+@154 /*Rose*/ = ~Máš další Historii Severu II? Skvělé. Všechny knihy o Netherilu jsou často vyhledávané.~
+@155 /*Rose*/ = ~Historie Severu II. Ach, tahle je o Netherilu. Slyšela jsem, jak se o té říši zmiňovali někteří z mých návštěvníků.~
+@156 /*Rose*/ = ~Historie Severu III... Tahle kniha je tak nudná, jak si lze představit. Ale mám jednoho starého učence, který o ni neustále žádá.~
+@157 /*Rose*/ = ~Historie Severu III – nedávný Sever. Ha! Někdo se při vymýšlení názvů musel hodně nudit.~
+@158 /*Rose*/ = ~Další Historie Severu... Ten čtvrtý díl je tragedie.~
+@159 /*Rose*/ = ~Historie Severu IV – odchod elfů ze Severu... Možná vysvětlí, co se stalo s říší Netherilu.~
+@160 /*Rose*/ = ~Historie Severu V... Vezmu i tuhle.~
+@161 /*Rose*/ = ~Historie Severu V – rozmnožování lidí. Zní to dost nudně, ale co se dá dělat?~
+@162 /*Rose*/ = ~*povzdech* Znovu Historie Severu – vzestup lidí? Doufala jsem v něco zajímavějšího.~
+@163 /*Rose*/ = ~Historie Severu VI – vzestup lidí... Tahle dívka už to všechno ví.~
+@164 /*Rose*/ = ~Historie Severu VII – 1368, rok Praporců... Překvapivě dobrá kniha.~
+@165 /*Rose*/ = ~Historie Severu VII – 1368, rok Praporců... Kniha o jednom roce? Tipuji, že se toho ten rok hodně událo.~
+@166 /*Rose*/ = ~Další Historie Severu – 1369... No, autoři se nemýlili. To byl zajímavý rok.~
+@167 /*Rose*/ = ~Historie Severu VIII – 1369, rok Rukavice... Vypadá to na dobrou knihu.~
+@168 /*Rose*/ = ~Znovu Historie Severu IX... Aspoň nezabere moc místa na polici.~
+@169 /*Rose*/ = ~Historie Severu IX... Jsi si jistý, že tohle je kniha, <CHARNAME>? Má jedinou stránku.~ ~Historie Severu IX... Jsi si jistá, že tohle je kniha, <CHARNAME>? Má jedinou stránku.~
+@170 /*Rose*/ = ~Vezmu tohle... Historie Severu X – 1370, rok Půllitru... Není o takovém pití, jak by člověk čekal.~
+@171 /*Rose*/ = ~Historie Severu X – 1370, rok Půllitru... Teď to je rok, který se mi líbí.~
+@172 /*Rose*/ = ~Ach, to je milé. Vezmu další Historii Rudých havranů... Možná jsou to jen žoldáci, ale některé z těch příběhů opravdu zahřejí u srdce.~
+@173 /*Rose*/ = ~Historie Rudých havranů... Žoldáci. Nic zvláštního.~
+@174 /*Rose*/ = ~Další Historie Sester Světla a Temnoty... Ano, prosím. Před mými dveřmi o ni křičí na sebe kněží. Nemohla jsem si přát lepší reklamu.~
+@175 /*Rose*/ = ~Věřím, že se kněžím bude líbit: Historie Sester Světla a Temnoty.~
+@176 /*Rose*/ = ~Našel jsi další Historii řeky Jednorožce... Vezmu ji, jen aby se takové znalosti nedostaly do špatných rukou.~ ~Našla jsi další Historii řeky Jednorožce... Vezmu ji, jen aby se takové znalosti nedostaly do špatných rukou.~
+@177 /*Rose*/ = ~Historie řeky Jednorožce... Zajímalo by mě, kde to je. Zní to krásně.~
+@178 /*Rose*/ = ~Hmm, další Historie Údolí bohů. Hodí se.~
+@179 /*Rose*/ = ~Kdo píše takové kraviny? Historie Údolí bohů... Kdybyste se mě zeptali, je to asi kniha o marném hledání.~
+@180 /*Rose*/ = ~...Myslím, že se hodí, i když Historie Vastu nebyla nijak zajímavá. Kdo by věděl, že o trávě lze napsat tolik slov?~
+@181 /*Rose*/ = ~Historie Vastu... Tobě se určitě bude líbit, <CHARNAME>. Zní to docela epicky.~
+@182 /*Rose*/ = ~Ano, tahle se hodí. Je tu několik lidí ze Západních marků, kteří rádi čtou o svém domově.~
+@183 /*Rose*/ = ~Tady je dobrá kniha z domova: Historie Západních marků. Solidní selský lid.~
+@184 /*Rose*/ = ~Ach, Historie Zhentarimu. Tu potřebuju. Můj minulý výtisk se ztratil.~
+@185 /*Rose*/ = ~Historie Zhentarimu... Budu ráda, když mi na polici vydrží.~
+@186 /*Rose*/ = ~Kde jsi našel další výtisk Historie Ulgarthu? Učenci byli opravdu ohromeni, že ji mám.~ ~Kde jsi našla další výtisk Historie Ulgarthu? Učenci byli opravdu ohromeni, že ji mám.~
+@187 /*Rose*/ = ~Historie Ulgarthu... Tolik míst, o kterých nevím...~
+@188 /*Rose*/ = ~Ach, bohové, další Historie Amn. Někdo popsal můj výtisk. Musím ale uznat, že ty veršovánky byly vtipné.~
+@189 /*Rose*/ = ~No, každá sebeúctyhodná amnijská knihovna by měla mít tuto Historii Amn.~
+@190 /*Rose*/ = ~Znovu Historie Waterdeepu? Asi začnu další sbírku.~
+@191 /*Rose*/ = ~Historie Waterdeepu I... To bude skvělý cestovní průvodce.~
+@192 /*Rose*/ = ~Ach, další Historie Waterdeepu II. Upřímně, pořád nevím, co je to průkopník.~
+@193 /*Rose*/ = ~Historie Waterdeepu II – nultá éra, tržiště a průkopníci... Co jsou, sakra, průkopníci?~
+@194 /*Rose*/ = ~Dobře, tahle je dobrá. Další výtisk Historie Waterdeepu III. Váleční náčelníci jsou velmi žádaní.~
+@195 /*Rose*/ = ~Historie Waterdeepu III – vzestup Válečných náčelníků... Co je zase nového?~
+@196 /*Rose*/ = ~Ach, další Historie Waterdeepu V... Kdo nemá rád dobrý příběh o gildiovské válce, která se zvrtla? Vlastně je to trochu moc blízko domovu. Není divu, že to nikdo nečte.~
+@197 /*Rose*/ = ~Historie Waterdeepu IV – krvavá vláda cechovních pánů... Kdo by řekl, že stavitelé lodí a brusiči drahokamů umí být tak krutí? Jejich cechy znějí velmi podobně těm našim.~
+@198 /*Rose*/ = ~Hmm, hodí se. Série o Waterdeepu je vlastně docela okouzlující.~
+@199 /*Rose*/ = ~Nová kniha na mé polici: Historie Waterdeepu V – začátek vlády Pánů.~
+@200 /*Rose*/ = ~Další Historie Waterdeepu VI – návrat Pánů... Nevypadá to, že by se někam vzdálili.~
+@201 /*Rose*/ = ~Historie Waterdeepu VI – návrat Pánů... Škoda, že se vůbec vrátili.~
+
+@202 /*Rose*/ = ~Historie netheritských svitků... Ach, tohle nedokážu přečíst... Ale jsem si jistá, že někdo dokáže.~
+@203 /*Rose*/ = ~Další Historie netheritských svitků? Divím se, že jsi ji našel.~ ~Další Historie netheritských svitků? Divím se, že jsi ji našla.~
+@204 /*Edwin*/ = ~Tahle kniha není pro takové jako jsi ty. Okamžitě mi ji vrať.~
+@205 /*Rose*/ = ~No, pardón. Jak hrubé.~
+@206 /*Rose*/ = ~Jsem vděčná, <CHARNAME>.~
+
+@207 /*Rose*/ = ~Kniha kletby Yago... Hmm, myslím, že ji postavím do zadní řady.~
+@208 /*Rose*/ = ~Tohle není kniha, <CHARNAME>. Je to děsivá báseň na krví zmočeném pergamenu.~
+@209 /*Rose*/ = ~„Zde leží můj syn, mladý Farnebol"... Vykopal jsi to z hrobu?~ ~„Zde leží můj syn, mladý Farnebol"... Vykopala jsi to z hrobu?~
+@210 /*Rose*/ = ~To jsou bláboly šílence... Básníci si to zamilují.~
+@211 /*Rose*/ = ~Opravdu mě zajímá, kde jsi to našel, <CHARNAME>. Mrazí mě.~ ~Opravdu mě zajímá, kde jsi to našla, <CHARNAME>. Mrazí mě.~
+@212 /*Rose*/ = ~Někdo plánuje vraždu, nebo na ni vzpomíná? Nejsem si jistá, že to chci číst.~
+@213 /*Rose*/ = ~Ten, kdo to psal, potřeboval pomoc, <CHARNAME>. Doufám, že jsi ho zbavil utrpení.~ ~Ten, kdo to psal, potřeboval pomoc, <CHARNAME>. Doufám, že jsi ho zbavila utrpení.~
+@214 /*Rose*/ = ~„Ochutnej můj strach"... Může se to vůbec počítat za knihu, když se pořád opakuje jedna věta?~
+@215 /*Rose*/ = ~„Poznej mé šílenství"... Myslím, že raději ne.~
+@216 /*Rose*/ = ~„Postav se mým démonům"... Kde tohle bereš?~
+@217 /*Rose*/ = ~„Nehledej dědice"... To si nechám pro kněze.~
+@218 /*Rose*/ = ~„Nehledej východ"... Jsem moc ráda, že jsi to neposlechl.~ ~„Nehledej východ"... Jsem moc ráda, že jsi to neposlechla.~
+@219 /*Rose*/ = ~„Nepochybej o útočišti"... To je nepříjemné.~
+@220 /*Rose*/ = ~„Necítit teplo"... Tady to není těžké. Aspoň do doby, než jsem potkala Terla.~
+@221 /*Rose*/ = ~„Tanči s mrtvými"... Chodil jsi na návštěvy za nekromanty? Nechci, aby se za mnou hnali rozzlobení mágové.~ ~„Tanči s mrtvými"... Chodila jsi na návštěvy za nekromanty? Nechci, aby se za mnou hnali rozzlobení mágové.~
+@222 /*Rose*/ = ~„Poznej mou ztrátu"... Doufám, že necháváš dary, pokud opravdu rabuješ hroby.~
+@223 /*Rose*/ = ~„Zde padl Kel, Zabiják legií". Zní to dost děsivě.~
+@224 /*Rose*/ = ~Balduranův deník... Jsi si jistý, <CHARNAME>? S takovým pokladem se moje knihovna stane nejpopulárnější v Amn...~ ~Balduranův deník... Jsi si jistá, <CHARNAME>? S takovým pokladem se moje knihovna stane nejpopulárnější v Amn...~
+@225 /*Rose*/ = ~Recepty a poznámky Dradila z Tethyru, "Sladké koláčky potěší každého"... Zní to okouzlující. Asi si je nechám.~
+@226 /*Rose*/ = ~Kniha Kazy... Tahle kniha musí být k nezaplacení. Stránky jsou tak staré... Slibuji, že se jí dostane čestného místa.~
+@227 /*Rose*/ = ~Příručka o výrobě golemů... Nějaký mág ji ukradne, pamatuj si má slova. Ale aspoň ji na chvíli budu mít.~
+@228 /*Rose*/ = ~Tomy Amanuatora... Zajímavé. Jaká dívka nemá ráda trochu kacířství?~
+@229 /*Rose*/ = ~Milý soukromý deník. Jen doufám, že Merella nebude proti.~
+@230 /*Rose*/ = ~Kuchařka orků? No, myslím, že někteří si ji přečtou ze zvědavosti.~
+@231 /*Rose*/ = ~Vampiricus Omnibus: kompletní vydání... To se nám tu rozhodně hodí.~
+@232 /*Rose*/ = ~Tahle kniha je potřísněná krví, <CHARNAME>. Vím, že jsem říkala, že chci pro knihovnu zajímavé svazky, ale... Co kdybychom ji prostě zakopali někde vzadu?~
+@233 /*Rose*/ = ~„O pozowi sluhy Věrného"... Vypadá nebezpečně. Pokud se ukáže být ošemetná, vrátím ji do chrámu Oghmy.~
+
+@234 /*Rose*/ = ~Ach, deník. Předej tomu Lellinovi mé poděkování.~
+@235 /*Mazzy*/ = ~To není možné. Zemřel už před nějakou dobou.~
+@236 /*Rose*/ = ~Ach, je mi líto. Chceš si ten deník vzít zpět?~
+@237 /*Mazzy*/ = ~Ne. Postav ho na polici, ať ho lidé pamatují jako hrdinu. Jsem si jistá, že by to tak chtěl.~
+@238 /*Rose*/ = ~Udělám to. Díky.~
+
+@239 /*Rose*/ = ~Kniha krále Stróma III... Ta patří do muzea. Ale udělám, co bude v mých silách.~
+@2400 /*Rose*/ = ~Ach, skvělé, další Elminsterův bestiář. Děti milují prohlížení obrázků.~
+@240 /*Rose*/ = ~Elminsterova ekologie: Dodatek IIIa... Ach, bestiář. Bude oblíbený mezi dobrodruhy. Hádám, že jsi ho pečlivě přečetl?~ ~Elminsterova ekologie: Dodatek IIIa... Ach, bestiář. Bude oblíbený mezi dobrodruhy. Hádám, že jsi ho pečlivě přečetla?~
+@241 /*Rose*/ = ~Ručně psaná poznámka... Vážně sbíráš všechno, že?~
+@242 /*Rose*/ = ~Šílené čmáranice, skvělé. Bardové by to měli rádi.~
+@243 /*Rose*/ = ~Zajímalo by mě, kdo je ten Lum. Tahle poznámka... naprosto jedinečná.~
+@244 /*Rose*/ = ~Tvůj spisovatel zřejmě nemá rád magii. Okradl jsi Mágy v róbách?~ ~Tvůj spisovatel zřejmě nemá rád magii. Okradla jsi Mágy v róbách?~
+@245 /*Rose*/ = ~L. Šílený... Zní to správně.~
+@246 /*Rose*/ = ~„Krásní lidé jsou malí, červení a zelení". To je ovšem názor.~
+@247 /*Rose*/ = ~Myslím, že tyhle nesmyslné bláboly někoho rozesmějí.~
+@248 /*Rose*/ = ~Lum Šílený... No, to samozřejmě vysvětluje obsah té poznámky.~
+@249 /*Rose*/ = ~To spíš vypadá na odpad. Ale i to dobrá knihovna potřebuje.~
+@250 /*Rose*/ = ~...Výkupné, vážně, <CHARNAME>? Doufám, že jsi tu chudou dívku zachránil.~ ~...Výkupné, vážně, <CHARNAME>? Doufám, že jsi tu chudou dívku zachránila.~
+@251 /*Rose*/ = ~Vypadá to dost soukromě, ale přidám to do sbírky.~
+@252 /*Rose*/ = ~Žádost o pomoc... Doufám, že byli bohatí nebo vlivní. Jinak by ten nejsvětější, nabubřelý řád paladinů ten dopis asi hodil do bahna.~
+@253 /*Rose*/ = ~Výzva k souboji? Jak vzrušující.~
+@254 /*Rose*/ = ~Pozvánka na inauguraci, škoda, že datum už je pryč. Ženu jako já samozřejmě na takovou párty nikdy nepustí, ale holka může snít.~
+@255 /*Rose*/ = ~Pokud se toho opravdu chceš vzdát, vezmu to. Ale myslím, že tahle slova byla Jahira určena tobě.~
+@256 /*Rose*/ = ~Ach, skvělé, zase jsi mi přinesl Deník projektu „Čarodějka z Umar"... Nemůžu ho nechat pořád na polici.~ ~Ach, skvělé, zase jsi mi přinesla Deník projektu „Čarodějka z Umar"... Nemůžu ho nechat pořád na polici.~
+@257 /*Rose*/ = ~Deník projektu „Čarodějka z Umar"... Ach, to se mi klepe zimou. Skvělé.~
+@258 /*Rose*/ = ~Kniha Chaosu... Jsi si jistý, že ta kniha nevybuchne nebo tak něco, že?~ ~Kniha Chaosu... Jsi si jistá, že ta kniha nevybuchne nebo tak něco, že?~
+@259 /*Rose*/ = ~Daňové záznamy, samozřejmě. Jsem si jistá, že se nakonec někomu hodí.~
+@260 /*Rose*/ = ~Vypadá to, žes měl plné ruce práce, <CHARNAME>. Jsi si jistý, že chceš tenhle vzkaz zaznamenat?~ ~Vypadá to, žes měla plné ruce práce, <CHARNAME>. Jsi si jistá, že chceš tenhle vzkaz zaznamenat?~
+@261 /*Rose*/ = ~Tombeltenský deník... škoda, že je roztrhaný.~
+@262 /*Rose*/ = ~Tombeltenský deník... To přiláká lovce pokladů.~
+@263 /*Rose*/ = ~Nějak cítím, že lord Tombelten se nikdy nevrátil domů.~
+
+@264 /*Rose*/ = ~Ten Lavok zní jako šílenec a nebezpečný člověk, <CHARNAME>. Musíš být velmi silný, abys takového porazil.~ ~Ten Lavok zní jako šílenec a nebezpečný člověk, <CHARNAME>. Musíš být velmi silná, abys takového porazila.~
+@265 /*Valygar*/ = ~Opravdu, to byla docela divoká bitva. Můj předek se před lety dostal do spárů magie. Nech si tu knihu jako varování pro ty, kdo by chtěli totéž.~
+@266 /*Rose*/ = ~Možná mají Mágové v róbách občas pravdu.~
+
+@267 /*Rose*/ = ~Ha! Poslední arogantní rozkazy umírajícího cechu. Tuhle poznámku dám na čestné místo.~
+@268 /*Rose*/ = ~Hrozby upírů... část moderní historie. Jednou to bude cenné.~
+@269 /*Rose*/ = ~„Ranní rituál"... střípek historie.~
+@270 /*Rose*/ = ~„Polední rituál"... Jaké to smutné. Kdyby žili nějací věřící, myslím, že bys to neměl.~ ~„Polední rituál"... Jaké to smutné. Kdyby žili nějací věřící, myslím, že bys to neměla.~
+@271 /*Rose*/ = ~„Večerní rituál"... Měla bych se bát urážet nějakého zapomenutého boha?~
+@272 /*Rose*/ = ~Dopis z Innesvalu... To je ale roztomilé.~
+@273 /*Rose*/ = ~„Soubor zlomyslných kouzel Liva"... Zní to zábavně. I když možná budu muset uplatit pár Mágů v róbách, aby mi ji nechali na polici.~
+@340 /*Rose*/ = ~Našel jsi JEŠTĚ JEDEN První deník Jona Irenicusa? Kdo by dvakrát opisoval svůj vlastní deník?~
+@274 /*Rose*/ = ~První deník Jona Irenicusa... Zní jako nabubřelý typ.~
+@275 /*Rose*/ = ~Druhý deník Jona Irenicusa. Tenhle pán si opravdu rád psal o sobě. Taky zní jako blázen.~
+@276 /*Rose*/ = ~Třetí deník Jona Irenicusa... Hmm, nuda... drowové a tak. Ale na polici ji dám.~
+@277 /*Rose*/ = ~Kniha elementálních rituálů... Doufám, že tahle nic v okolí nezapálí.~
+@278 /*Rose*/ = ~Poznámka dozorce? Nebyl jsi náhodou v poslední době ve vězení?~ ~Poznámka dozorce? Nebyla jsi náhodou v poslední době ve vězení?~
+@279 /*Rose*/ = ~Zápisky písaře sahuaginů... vypadá to na vzácnost; měla by být velmi žádaná. (Ani nevím, co sahuaginové jsou.)~
+
+@280 /*Rose*/ = ~Tahle poznámka je docela znepokojivá, <CHARNAME>. Měl by ses držet stranou tohoto Ployera. Myslím, že o něm jedna z děvčat v přístavu mluvila.~
+@281 /*Jaheira*/ = ~Nedělej si s námi starosti. S baronem Ployerem jsme si velmi efektivně poradili.~
+@282 /*Rose*/ = ~Ráda to slyším.~
+@283 /*Rose*/ = ~Zní jako hodně nepříjemný typ.~
+
+@284 /*Rose*/ = ~Tizzakovy zápisky... Ty informace jsou důležité, jak jsi zabil Mistra stínů, že? Hned bych tu knihu políbila.~ ~Tizzakovy zápisky... Ty informace jsou důležité, jak jsi zabila Mistra stínů, že? Hned bych tu knihu políbila.~
+@285 /*Rose*/ = ~Jsi si jistý, že poznámka od Demina není potřeba? Zní to důležitě. Ale tahle dívka není tak hloupá, aby koukala darovanému koni do zubů.~ ~Jsi si jistá, že poznámka od Demina není potřeba? Zní to důležitě. Ale tahle dívka není tak hloupá, aby koukala darovanému koni do zubů.~
+@286 /*Rose*/ = ~Deník Geldorfa Plecháče... Jaká utrápená duše...~
+@287 /*Rose*/ = ~Deník Cinseka... Magie, lovci a panny, jak vzrušující!~
+@288 /*Rose*/ = ~Deník Bannora... Ach, ty experimenty zní hrozně. Budu ji půjčovat opatrně.~
+@289 /*Rose*/ = ~Deník Denatona... *smích* Jeden z těch uměleckých typů.~
+@290 /*Rose*/ = ~Deník Denatona... Jaký zvláštní svazek...~
+@291 /*Rose*/ = ~Deník Denatona... Zní to jako ambiciózní člověk, zajímalo by mě, jak ty sny dopadly.~
+@292 /*Rose*/ = ~Deník Saemona Havarliana... Co? Je *prázdný*! Děláš si ze mě legraci.~
+@293 /*Rose*/ = ~„Neprokázaný prorok"... Kniha do oddělení bajek.~
+@294 /*Rose*/ = ~„O podobnosti a zdravém rozumu"... Šílenství? Ano. Mágův styl? Ano. Měla by být velmi oblíbená.~
+@295 /*Rose*/ = ~Dokážeš to přečíst, <CHARNAME>? Protože já rozhodně ne. Ale jsem si jistá, že se najde učenec, který výzvu ocení.~
+@296 /*Rose*/ = ~Ach, jak krásné... ilustrovaný rukopis.~
+@297 /*Rose*/ = ~Neshodil jsi tu knihu do kaluže, <CHARNAME>? Měl by sis připadat provinile. Ale myslím, že obsah by se mohl hodit.~ ~Neshodila jsi tu knihu do kaluže, <CHARNAME>? Měla by sis připadat provinile. Ale myslím, že obsah by se mohl hodit.~
+@298 /*Rose*/ = ~Čitelné střípky a vybledlé dopisy... No, možná by se to dalo zrestaurovat.~
+@299 /*Rose*/ = ~Zajímavé. Nikdy jsem neslyšela, aby kniha tak praskala.~
+@300 /*Rose*/ = ~Jaká nádherná historie. Myslím, že rozluštění mě bude bavit.~
+@301 /*Rose*/ = ~Hmm, nějaký rodokmen. No, někomu se to bude líbit.~
+@302 /*Rose*/ = ~Sbírka básní, skvělé, bardové by za ni měli být ochotni zaplatit majlant.~
+@303 /*Rose*/ = ~„Cesty Umolexa Dalekozrakého"... Ach, malování vajíček. Tuhle si zapamatuju.~
+@304 /*Rose*/ = ~Jaká krutá smlouva. Ale udavači jsou potrestáni. Zaslouží si to.~
+
+@305 /*Rose*/ = ~Hmm, dopis od vůdce Řádu osmi holí. Nikdy jsem o nich neslyšela.~
+@306 /*Neera*/ = ~Vlastně jsi o nic moc nepřišla.~
+@307 /*Rose*/ = ~Ale i nudné dopisy mohou někomu jednou pomoci.~
+
+@308 /*Rose*/ = ~Jaké ošklivé. Doufám, že jsi si s tou Lanneth poradil.~ ~Jaké ošklivé. Doufám, že jsi si s tou Lanneth poradila.~
+@309 /*Rose*/ = ~Deník Fadell Železooké... Zní jako zajímavá osoba.~
+@310 /*Rose*/ = ~Hmm, deník Vicross... Byli docela milí, že si napsali jména na první stránku.~
+
+@311 /*Rose*/ = ~Deník Alorgota... To je ale nabubřelý prázdný hlavoun...~
+@312 /*Rasaad*/ = ~Vaše slova mi zahřála srdce, paní. Už dlouho jsem se tak nezasmál.~
+@313 /*Rose*/ = ~Možná se o něm některé děti rády pokreslí.~
+
+@314 /*Rose*/ = ~Deník Podkama z klanu Hlubokého kamene... Co jsou to za tragické smrti?~
+@315 /*Rose*/ = ~Opravdu takový maličký kousek papíru? No, pokud je zdarma, tak proč ne.~
+@316 /*Rose*/ = ~Zmiňuje se tu o skrytém chrámu... to je velmi zajímavé...~
+@317 /*Rose*/ = ~Ach, stará mapa. Dobrodruhům se bude líbit.~
+@318 /*Rose*/ = ~„Hrdlořezové: Džentlmanská příručka loupeží"... To miluju!~
+@319 /*Rose*/ = ~Tenhle potrhaný pergamen vypadá velmi starobyle... Může mít cenu.~
+@320 /*Rose*/ = ~Nějaký rituální text...~
+@321 /*Rose*/ = ~Jaká krásná kaligrafie. Někdo si s tím dal hodně práce.~
+@322 /*Rose*/ = ~Historie Vězně... Možná by se o ni zajímali příslušníci Helmova řádu.~
+@323 /*Rose*/ = ~Písaři tuto poznámku ocení. Vypadá docela profesionálně.~
+@324 /*Rose*/ = ~Vzal jsi dopisy nějakého chudého staříka? A ještě k tomu promrzlého staříka...~ ~Vzala jsi dopisy nějakého chudého staříka? A ještě k tomu promrzlého staříka...~
+@325 /*Rose*/ = ~V tom deníku jsou básně... jaké milé...~
+@326 /*Rose*/ = ~Tak co tu máme... soukromý deník sira Kalsorina z Wistanu...~
+@327 /*Rose*/ = ~...O čem to mluví? O nějakém soupeření mágů?~
+@328 /*Rose*/ = ~...Spálené střípky, vážně? To sotva vypadá jako papír.~
+@329 /*Rose*/ = ~Fuj, tahle poznámka je mokrá.~
+@330 /*Rose*/ = ~Je ten dopis z ledu? Mágy nechám, aby se o jeho prozkoumání poprali.~
+@331 /*Rose*/ = ~Hmm, škoda, že nemáš zbytek toho deníku.~
+@332 /*Rose*/ = ~Jaký zvláštní deník... Doufám, že byl ten Karston vděčný, pokud jsi ho osvobodil.~ ~Jaký zvláštní deník... Doufám, že byl ten Karston vděčný, pokud jsi ho osvobodila.~
+@333 /*Rose*/ = ~Šlechta vždycky ráda použije deset slov, když stačí jedno. Lord Giran Firkraag mi zní docela arogantně.~
+@334 /*Rose*/ = ~Vypadá to, že ten zloděj skončil nešťastně. Pravděpodobně zaslouženě.~
+@335 /*Rose*/ = ~Ten rukopis je skoro k pohledu bolestivý, <CHARNAME>; kde jsi to sebral?~ ~Ten rukopis je skoro k pohledu bolestivý, <CHARNAME>; kde jsi to sebrala?~
+
+@336 /*Rose*/ = ~Poznámka od Mazzy Fentanové... Zařadím do katalogu.~
+@337 /*Mazzy*/ = ~Nemůžu uvěřit, že jsi ji uchoval, <CHARNAME>.~ ~Nemůžu uvěřit, že jsi ji uchovala, <CHARNAME>.~
+@338 /*Rose*/ = ~Stručné, ale výstižné. To oceňuju.~
+
+@341 /*Rose*/ = ~Další zvláštní poznámka? Několik učenců se kvůli té minulé pralo, takže tahle by měla hodně pomoct.~
+@342 /*Rose*/ = ~...Čím to je napsané? Je to nepříjemné, ale jsem si jistá, že některé lidi výzva potěší.~
+@343 /*Rose*/ = ~Kde to bereš? Ale možná další výtisk těchto nesmyslů pomůže mým zákazníkům rozluštit kód.~
+@344 /*Rose*/ = ~Je to nějaká šifra? Podle mě jsou to nesmysly, ale někoho to zajímat může.~
+@345 /*Rose*/ = ~Hmm, recept? No, název není moc šťastný, ale ty „Opičí koule" vlastně zní docela chutně.~
+@346 /*Rose*/ = ~„Polévka amnijských draků"... Ach, to jsem vařila. Terl ji miluje.~
+@347 /*Rose*/ = ~Někdo měl rád sladké. Myslím, že ten recept bude dost oblíbený.~
+@348 /*Rose*/ = ~Ach, to vezmu. Vždycky potřebuju víc receptů.~
+@349 /*Rose*/ = ~„Rubínová utrpení"... Zvláštní název na dezert, ale recept vypadá dobře.~
+@350 /*Rose*/ = ~Nějaká runa? Doufám, že není nebezpečná...~
+@351 /*Rose*/ = ~Ach, je to dopis pro toho strašlivého vraha? Jaké děsivé. Ale lidé takové věci opravdu mají rádi.~
+@469 /*Rose*/ = ~Zajímavé... Vypadá to, že jsi znovu narazil na nebezpečnou situaci. Pokud poznámku už nepotřebuješ, ráda ji vezmu.~ ~Zajímavé... Vypadá to, že jsi znovu narazila na nebezpečnou situaci. Pokud poznámku už nepotřebuješ, ráda ji vezmu.~
+@470 /*Rose*/ = ~Opravdu jsi nosil tajné rozkazy Mistra stínů jen zmačkané v batohu?~ ~Opravdu jsi nosila tajné rozkazy Mistra stínů jen zmačkané v batohu?~
+
+@352 /*Rose*/ = ~Jaký zvláštní dopis... Proč by chtěl někdo opustit město kvůli nějaké mýtině?~
+@353 /*Cernd*/ = ~Existuje mnoho důvodů, proč se vydat za voláním přírody. Město, jako je tohle, duši udusí.~
+@354 /*Rose*/ = ~Možná se ženou za snem. To dokážu pochopit.~
+
+@355 /*Rose*/ = ~Pracuješ teď v nevěstinci, <CHARNAME>? Měl by sis vyčítat, pokud jsi těm děvčatům nepomohl k svobodě.~ ~Pracuješ teď v nevěstinci, <CHARNAME>? Měla by sis vyčítat, pokud jsi těm děvčatům nepomohla k svobodě.~
+@356 /*Rose*/ = ~Nějaké pracovní oznámení... Myslím, že bych to mohla vylepit pro toho pána „Bílou ruku", kdokoliv to je.~
+@357 /*Aran*/ = ~To bych velmi ocenil. Žoldnéři vždy potřebují dobrou pověst.~
+@358 /*Rose*/ = ~Možná moji zákazníci brzy budou potřebovat překladatele.~
+
+@359 /*Rose*/ = ~Jsi teď špión, <CHARNAME>? Myslím, že nejbezpečnější bude tu poznámku zničit.~
+@360 /*Rose*/ = ~Ach, někdo je v nouzi. Doufám, že jsi pomohl ženě toho Gisty.~ ~Ach, někdo je v nouzi. Doufám, že jsi pomohla ženě toho Gisty.~
+@361 /*Rose*/ = ~Seznam lektvarů... Hmm, napadá mě několik alchymistů, kterým by to mohlo být k užitku.~
+
+@362 /*Rose*/ = ~Někdo píše román? A navíc neřestný román... Zajímalo by mě, jestli by mi o něj nechtěli dát.~
+@363 /*Aran*/ = ~Stále jednáme o podmínkách, milostivá, ale pokud byste se stala fanynkou, rád bych vám věnoval výtisk z prvního dotisku.~
+@364 /*Rose*/ = ~Děkuji. To by mé knihovně velmi pomohlo.~
+@365 /*Rose*/ = ~Ráda bych si ho přečetla, slyšela jsem, že rané verze mohou být velmi cenné.~
+
+@366 /*Rose*/ = ~Jak se to vyslovuje? Eili-strae... Eili-stro... No, každopádně, diskuse o jiných bozích jsou vždy oblíbené.~
+@367 /*Rose*/ = ~Historie Eilistrae, Tmavé Panny... Zní to záhadně.~
+@368 /*Rose*/ = ~Láska, tragedie, zrada a prosba o odpuštění... Pokud se toho opravdu chceš vzdát, vím, že tenhle dopis pohne srdci mých zákazníků.~
+@369 /*Rose*/ = ~Výkupné tisíc zlaťáků? Opravdu trávíš čas ve vyšších kruzích. Vypadá to, že i šlechta potřebuje hrdiny.~
+@370 /*Rose*/ = ~V jakém to je jazyce? Nedokážu to přečíst. Ale možná nějaký učenec ano.~
+
+@466 /*Rose*/ = ~Jaký smutný deník. Žena i Mágové v róbách ho chtěli zabít, ten chudák neměl šanci.~
+@467 /*Rose*/ = ~A ještě k tomu smlouva... Jsi si jistý, že si to můžu nechat? Pokud vše dobře dopadne, určitě tě pozveme na naši kolaudaci!~ ~A ještě k tomu smlouva... Jsi si jistá, že si to můžu nechat? Pokud vše dobře dopadne, určitě tě pozveme na naši kolaudaci!~
+@468 /*Rose*/ = ~Hmm, vypadá to jako špatně napsaná kniha kouzel, ale jsem si jistá, že si ji nějaký učeň vezme.~
+
+@339 /*Rose*/ = ~Děkuji, <CHARNAME>. Pokud najdeš něco dalšího, víš, kde mě hledat.~
+
+
+//Second Book Quest
+//Terl Talk
+@371 /*Terl*/ = ~Kláro a <CHARNAME>! Rád vás vidím. Róža s vámi potřebuje naléhavě mluvit.~
+@372 /*Clara*/ = ~Co se stalo? Je v nebezpečí?~
+@373 /*Terl*/ = ~Ne, nic takového. Jen mě požádala, abych vám to řekl, pokud vás najdu.~
+@374 /*Terl*/ = ~Musel jsem odejít ve spěchu, takže neznám všechny podrobnosti, ale s její novou knihovnou je něco v nepořádku. Od otevření je tak nadšená, a já nechci, aby se to změnilo. Tak ji prosím navštivte, až budete moci.~
+@375 /*Terl*/ = ~I když jí nebudete moci pomoct, teď by se jí hodil přítel. Musím doručit ještě několik dopisů, než se vrátím domů, a když nejsem přítomný, dělám si starosti.~
+@376 /*Clara*/ = ~Jistě. Navštívíme Róžu co nejdříve.~
+@377 /*Terl*/ = ~Díky, Kláro. Jsem si jistý, že se brzy uvidíme.~
+
+//Rose Conversation
+@378 /*Rose*/ = ~Kláro! Přišla jsi!~
+@379 /*Clara*/ = ~Co se stalo? Terl říkal, že s námi chceš znovu mluvit.~
+@380 /*Rose*/ = ~Jde o moji knihovnu. Od začátku šlo všechno skvěle. Mám otevřeno jen pár hodin denně, ale zájem je velký.~
+@381 /*Rose*/ = ~Někteří dokonce mluví o tom, že by začali vyučovat, a pár bohatších učenců zaplatilo za možnost odnášet si knihy domů ke studiu.~
+@382 /*Rose*/ = ~Samozřejmě nikomu nepůjčuju ty nejvzácnější knihy... musí je číst tady, kde je vidím. Ale nepřišlo mi, že by půjčování ostatních knih mohlo ublížit, a potřebuju extra prostředky, abych omezila počet vlastních zákazníků. Knihovnu nemůžu udržet otevřenou, když budu pořád pryč.~
+@383 /*Rose*/ = ~Ale teď mi jeden z návštěvníků nevrátil knihu a to nemůžu tolerovat! Co kdyby to dělali všichni? Všechno by bylo zničeno!~
+@384 /*Clara*/ = ~Neboj se, Róžo. Jsem si jistá, že to dokážeme napravit.~
+@385 /*Clara*/ = ~Tak kdo je ten knižní zloděj? Řekni nám všechno, co víš, pomůže nám ho vystopovat.~
+@386 /*Rose*/ = ~Místní chlapík. Jmenuje se Gereth. Nevím, kde bydlí, ale najdete ho v Tržišti dobrodruhů.~
+@387 /*Rose*/ = ~Šla bych za ním sama, ale holky jako já na Waukeenině promenádě moc vítané nejsou.~
+@388 /*Clara*/ = ~No, <CHARNAME> jde, kam chce, a nikdo <PRO_HESHE> v tom nezabrání.~
+@389 /*Clara*/ = ~A jak s tím Gerethem naložíme? Chceš jen vrátit knihu, nebo něco trvalejšího?~
+@390 /*Rose*/ = ~Stačí, když se kniha vrátí. Kdybych potřebovala nájemného vraha, požádala bych místní stráže. Ale nenechám nikoho myslet si, že může krást Róžu.~
+@391 /*Rose*/ = ~Tak co, <CHARNAME>, pomůžeš mi znovu? Od bývalých zákazníků jsem dostala několik zajímavých knih a ráda ti jednu dám jako odměnu.~
+@392 /*CHARNAME*/ = ~Promiň, nemám na to čas.~
+@393 /*CHARNAME*/ = ~Jistě. Zní to dost jednoduše.~
+@394 /*CHARNAME*/ = ~Kterou knihu Gereth vzal?~
+@395 /*CHARNAME*/ = ~Vlastně, jak vůbec nosíš všechny ty knihy?~
+
+@396 /*Clara*/ = ~Ach, tak se na to, <CHARNAME>... To by nebyla vůbec ta nejdivnější věc, kterou jsme udělali. Ale jak chceš, buď nudný. Možná toho chlapa vystopuju sama.~ ~Ach, tak se na to, <CHARNAME>... To by nebyla vůbec ta nejdivnější věc, kterou jsme udělali. Ale jak chceš, buď nudná. Možná toho chlapa vystopuju sama.~
+@397 /*Rose*/ = ~To nevadí, Kláro. Chápu, že <CHARNAME> má asi jiné povinnosti, a jsem si jistá, že nakonec najdu jiný způsob, jak knihu získat zpět.~
+@398 /*Rose*/ = ~Přiznávám, jsem trochu zklamaná, ale stejně vezmu všechny ostatní knihy, které najdete. Pokud se to stane znovu, určitě budu potřebovat víc výtisků všeho.~
+@399 /*Rose*/ = ~Děkuji, <CHARNAME>. To je od tebe moc milé.~
+@400 /*Rose*/ = ~Jakmile najdeš Geretha a vezmeš mi knihu zpět, dostaneš odměnu.~
+
+@401 /*Rose*/ = ~Ach, jistě. Gereth si vypůjčil knihu o výrobě golemů, kterou jsi mi nedávno daroval. Vypadal velmi vzrušeně, když ji uviděl.~ ~Ach, jistě. Gereth si vypůjčil knihu o výrobě golemů, kterou jsi mi nedávno darovala. Vypadal velmi vzrušeně, když ji uviděl.~
+@402 /*Rose*/ = ~Tak mi pomůžeš ji získat zpět?~
+
+@403 /*Rose*/ = ~Ach, to je jednoduché. Jeden z mých bývalých zákazníků byl excentrický mág posedlý magickými předměty. Už je po něm, popíchl Mágy v róbách, ale před smrtí mi daroval tenhle zakletý pytel.~
+@404 /*Rose*/ = ~Vejdou se do něj jen knihy, ale hodně... Ještě se mi nepodařilo ho naplnit. Kdykoli mi přineseš novou knihu, nechám ji v něm, dokud se nevrátím domů.~
+@405 /*Rose*/ = ~Moje skutečná knihovna je zatím jen jedna velká místnost, ale Terl mi postavil spoustu polic. Hlavně proto, aby už o mé knihy nezakopával.~
+@406 /*Rose*/ = ~Takže, <CHARNAME>, pomůžeš mi ji získat zpět?~
+
+//Adventurer's Mart Talks
+//Ribald
+@407 /*CHARNAME*/ = ~Hledám člověka jménem Gereth. Slyšel jsem, že tu občas bývá.~ ~Hledám člověka jménem Gereth. Slyšela jsem, že tu občas bývá.~
+@408 /*Ribald*/ = ~Ach, jistě. Je u vchodu, pokud s ním chceš mluvit.~
+@409 /*Ribald*/ = ~Víš, tenhle chlap byl jeden z mých nejhorších zákazníků, pořád stál v rohu a chtěl, abych mu sháněl všemožné vzácné a k ničemu věci. Nikdy si nedokázal prostě koupit zboží z regálu.~
+@410 /*Ribald*/ = ~Ale v poslední době utrácí. Dokonce koupil několik drahých ingrediencí pro kouzla, jako ty, co se používají k očarování golemů, pokud si starý Ribald dobře pamatuje.~
+
+//Gereth
+@411 /*Gereth*/ = ~Kdo jsi? Co chceš?~
+@412 /*CHARNAME*/ = ~Máš něco, co patří Róži.~
+@413 /*CHARNAME*/ = ~Potřebuju tu knihu, Gerethu.~
+@414 /*CHARNAME*/ = ~Kniha o výrobě golemů. Dej mi ji, nebo zemřeš.~
+@415 /*CHARNAME*/ = ~Jsem tady, abych ti vysvětlil rozdíl mezi knihovnou a knihkupectvím. Klíčové slovo: „vypůjčit".~
+@416 /*Gereth*/ = ~Ne! Ta kniha a všechna její tajemství jsou má! Nikdy ji nevrátím! Nikdy! Obzvlášť ne teď, když jsem tak blízko tajemství!~
+@417 /*Gereth*/ = ~Nikdy mi nevezmeš má krásná díla!~
+
+//Post Flight
+@418 /*CHARNAME*/ = ~Nevíš, kam by mohl Gereth odjet?~
+@419 /*Ribald*/ = ~Nevím, ale můj vrátný může vědět víc. Pokud Geretha najdeš, řekni mu, že mi pořád dluží deset zlaťáků za poslední zboží.~
+@420 /*Door Guard*/ = ~Ten hubený mág? Nikdy jsme nebyli přátelé, ale slyšel jsem ho nedávno mumlat něco o „ostrých zubech".~
+@421 /*Door Guard*/ = ~Stráž u brány sleduje cestující. Zkus se jich zeptat, občane, a nech mě pracovat.~ ~Stráž u brány sleduje cestující. Zkus se jich zeptat, občanko, a nech mě pracovat.~
+
+//City Gates Guard
+@422 /*CHARNAME*/ = ~Nezahlédl jsi tudy náhodou nedávno mága? Jmenuje se Gereth?~
+@439 /*CHARNAME*/ = ~Tady jsou peníze. A teď mi pověz o Gerethovi.~
+@440 /*CHARNAME*/ = ~Kam šel Gereth znovu?~
+@423 /*Gate Guard*/ = ~Možná. Kolik mi za to nabídneš?~
+@424 /*CHARNAME*/ = ~Třeba 50 zlaťáků?~
+@425 /*CHARNAME*/ = ~Třeba ti nedám do obličeje.~
+@426 /*CHARNAME*/ = ~Prosím, pane, jde o život a smrt!~
+@427 /*Gate Guard*/ = ~Snažíš se podplatit poctivého athkatelského strážce?~
+@428 /*Gate Guard*/ = ~Snažíš se vyhrožovat poctivému athkatelskému strážci?~
+@429 /*Gate Guard*/ = ~Snažíš se oklamat poctivého athkatelského strážce?~
+@430 /*Gate Guard*/ = ~Dobře. Rád s tebou obchoduju.~
+@431 /*Gate Guard*/ = ~Dobře. Dobře. Nechci problémy.~
+@432 /*Gate Guard*/ = ~*povzdech* No dobře, když ti na tom tolik záleží.~
+@433 /*Gate Guard*/ = ~500 zlaťáků, jinak nic.~
+@434 /*CHARNAME*/ = ~Dobře.~
+@435 /*CHARNAME*/ = ~Tolik peněz nemám.~
+@436 /*CHARNAME*/ = ~Tolik platit nebudu.~
+@437 /*Gate Guard*/ = ~Znám toho, koho hledáš. Chodí sem a tam často, na to jsem si ho všiml. Nevím přesně, kam šel, ale nedávno zmiňoval Průsmyk Malých zubů. Asi bych začal hledáním tam.~
+@438 /*Gate Guard*/ = ~Pak nic neřeknu. Vrať se, až budeš mít mince.~
+@441 /*Gate Guard*/ = ~Říkal jsem ti, že si nejsem jistý. Ale řekl bych, abys zkontroloval Průsmyk Malých zubů.~
+
+//Small Teeth Pass
+@442 /*Gereth*/ = ~Ty znovu? Proč mi překážíš v výzkumu?~
+@443 /*CHARNAME*/ = ~Dlužíš Róži knihu, Gerethu. Přišel jsem si pro ni.~ ~Dlužíš Róži knihu, Gerethu. Přišla jsem si pro ni.~
+@444 /*CHARNAME*/ = ~Bez důvodu. Jen jsem usoudil, že bych se měl projít po tomhle krásném horském průsmyku. Třeba se podívat, jestli tu někdo nenechal drahou knihu o golemech.~ ~Bez důvodu. Jen jsem usoudila, že bych se měla projít po tomhle krásném horském průsmyku. Třeba se podívat, jestli tu někdo nenechal drahou knihu o golemech.~
+@445 /*CHARNAME*/ = ~Jsem tady, abych se ujistil, že chápeš koncept knihovny. Knihy si vypůjčuješ, ne si je necháváš.~
+@446 /*Gereth*/ = ~Ne! Ta kniha je moje! Moje!~
+@447 /*Gereth*/ = ~Nikdo mi nevezme tu moc! Nikdo! V ohni se zrodí má armáda!~
+@448 /*Gereth*/ = ~Zabijte je! Zabijte je všechny!~
+
+//Gereth When Near Death
+@449 /*Gereth*/ = ~Počkat! Počkat! Prosím, nezabíjej mě! Omlouvám se za všechno.~
+@450 /*Gereth*/ = ~Knihu si můžeš vzít zpět. Tady!~
+@452 /*Gereth*/ = ~Bez tvého zásahu bych mohl vybudovat armádu a konečně donutit své kolegy, aby mě uznali. Ale teď je všechno zničeno.~
+@451 /*Gereth-if golem*/ = ~Jsem si jistý, že si s mými výtvory poradíš bez mé pomoci.~
+@453 /*Gereth*/ = ~*povzdech* Zpátky do Tržiště dobrodruhů, jak vidím. Dej knihu Róži a řekni jí, že ji už nebudu obtěžovat.~
+
+//Final Rose Talk
+@454 /*CHARNAME*/ = ~Mám knihu o výrobě golemů.~
+@455 /*Rose*/ = ~Ach, děkuji, <CHARNAME>! Doufám, že ten hloupý mág ti nedělal moc velké potíže. Ale po tomhle si nikdo nedovolí zmeškat termín vrácení mé knihy.~
+@456 /*Rose*/ = ~Ještě jednou děkuji za veškerou pomoc. Zasloužíš si odměnu a nechci slyšet námitky.~
+@457 /*Rose*/ = ~Vlastně mám několik magických knih, které by tě mohly zajímat. Jeden z mých bývalých stálých zákazníků nedávno daroval celou svou sbírku mé knihovně. Řekl mi, že to bude dobrá lekce pro jeho ničemné děti.~
+@458 /*Rose*/ = ~Tak kterou z nich chceš jako odměnu?~
+@459 /*CHARNAME*/ = ~Příručka zdravého životního stylu (+1 odolnost).~
+@460 /*CHARNAME*/ = ~Příručka prospěšných cvičení (+1 síla).~
+@461 /*CHARNAME*/ = ~Příručka rychlého jednání (+1 obratnost).~
+@462 /*CHARNAME*/ = ~Kniha jasné mysli (+1 inteligence).~
+@463 /*CHARNAME*/ = ~Série o vedení a vlivu (+1 charisma).~
+@464 /*CHARNAME*/ = ~Kniha pochopení (+1 moudrost).~
+@465 /*Rose*/ = ~Tady máš. Ještě jednou děkuji za pomoc a pokud najdeš další knihy, víš, kde mě najít.~
+
+
+//Journal Entries
+@999 /*Initial Clara Nudge*/ = ~Laskavost pro Kláru
+
+Klára chce, abychom se zastavili v Mostní čtvrti, aby mohla navštívit přítelkyni.~
+
+@1000 /*Initial Rose Request*/ = ~Žádost od Róži
+
+Klára obdržela dopis od Róži z Mostní čtvrti. Až tam znovu pojedeme, měli bychom si s Róžou promluvit a zjistit, co chce. Může to být příležitost k výdělku.~
+
+@1001 /*Rose's Library*/ = ~Róžina knihovna
+
+Róža požádala Kláru, aby jí nosila knihy a dokumenty, aby mohla otevřít knihovnu. Podivný koníček pro couru, ale tyto materiály stejně nikoho nezajímají. Aspoň je Róža od nás vezme.~
+
+@1002 /*Note about Tanner Letter - the text in quotes is from the game itself*/ = ~Dopis od Řežka Koželuha
+
+Odevzdal jsem Róži dopis koželuha do její nové knihovny. Byla to pochmurná připomínka těch vražd a byl jsem rád, že jsem se jí zbavil. Ale pro jistotu, kdybych někdy potřeboval vystopovat Řežkovy pány, opsal jsem sem část informací z dopisu:
+
+„Najdi mě v Umarových kopcích a dej mi vědět koupí knihy Historie Zhentarimu. To bude ujednané znamení, protože neznám tvé jméno. Bezpečnost je prvořadá, a proto budeš muset vyslovit mé tajné jméno, utvořené ze jména tvého bezprostředního pána podle níže uvedeného pravidla. Tak se ochráníme před náhodnými.
+
+Naše jména mají stejnou délku a podobné části.
+První písmeno mého jména je stejné jako první písmeno jeho příjmení.
+Druhé písmeno mého jména je v abecedě o 5 kroků dříve než druhé písmeno jeho jména.
+Třetí písmeno mého jména je v abecedě o 3 kroky později než poslední písmeno jeho jména.
+Čtvrté písmeno mého jména je v abecedě o 4 kroky později než poslední písmeno jeho příjmení.
+Zakončení mého jména je stejné jako zakončení jeho jména.
+
+První písmeno mého příjmení je v abecedě o krok dříve než třetí písmeno jeho jména.
+Druhé písmeno mého příjmení v abecedě bezprostředně následuje předposlední písmeno jeho příjmení.
+Předposlední písmeno mého příjmení je v abecedě o 3 kroky později než třetí písmeno mého jména.
+Poslední písmeno mého příjmení je stejné jako čtvrté písmeno jeho jména.”
+
+Očividně to je nějaká hádanka. Ještě jsem ji nevyřešil. Ale domnívám se, že bezprostředním pánem zmíněným v dopise byl mág Vellin Dann. Bojoval jsem s ním, když koželuh utekl.~ ~Dopis od Řežka Koželuha
+
+Odevzdala jsem Róži dopis koželuha do její nové knihovny. Byla to pochmurná připomínka těch vražd a byla jsem ráda, že jsem se jí zbavila. Ale pro jistotu, kdybych někdy potřebovala vystopovat Řežkovy pány, opsala jsem sem část informací z dopisu:
+
+„Najdi mě v Umarových kopcích a dej mi vědět koupí knihy Historie Zhentarimu. To bude ujednané znamení, protože neznám tvé jméno. Bezpečnost je prvořadá, a proto budeš muset vyslovit mé tajné jméno, utvořené ze jména tvého bezprostředního pána podle níže uvedeného pravidla. Tak se ochráníme před náhodnými.
+
+Naše jména mají stejnou délku a podobné části.
+První písmeno mého jména je stejné jako první písmeno jeho příjmení.
+Druhé písmeno mého jména je v abecedě o 5 kroků dříve než druhé písmeno jeho jména.
+Třetí písmeno mého jména je v abecedě o 3 kroky později než poslední písmeno jeho jména.
+Čtvrté písmeno mého jména je v abecedě o 4 kroky později než poslední písmeno jeho příjmení.
+Zakončení mého jména je stejné jako zakončení jeho jména.
+
+První písmeno mého příjmení je v abecedě o krok dříve než třetí písmeno jeho jména.
+Druhé písmeno mého příjmení v abecedě bezprostředně následuje předposlední písmeno jeho příjmení.
+Předposlední písmeno mého příjmení je v abecedě o 3 kroky později než třetí písmeno mého jména.
+Poslední písmeno mého příjmení je stejné jako čtvrté písmeno jeho jména.”
+
+Očividně to je nějaká hádanka. Ještě jsem ji nevyřešila. Ale domnívám se, že bezprostředním pánem zmíněným v dopise byl mág Vellin Dann. Bojovala jsem s ním, když koželuh utekl.~
+
+@1003 /*Note about potion list*/ = ~Seznam lektvarů Jadadara
+
+Róža byla ráda, že tenhle papír ode mě vezme, ale myslím, že je lepší si poznámku zapsat, kdybych někdy v budoucnu potřeboval extra zlato. Jadadar souhlasil, že zaplatí za každý lektvar ze seznamu, který mu přinesu.
+
+Lektvar neviditelnosti
+Olej rychlosti
+Lektvar odolnosti proti chladu
+Výbušný lektvar
+Lektvar nezranitelnosti
+Lektvar odolnosti proti elektřině
+Lektvar magické blokády
+Lektvar odrážejících očí
+Lektvar síly
+Lektvar vhledu
+Lektvar svobody
+Lektvar kamenné formy~
+
+@1004  /*Directions out of Maze*/ = ~Yakmanův deník
+
+Ačkoliv má Róža samotnou knihu, tato část blábolů šíleného elfa se zdá být docela relevantní:
+
+„Stojím v místnosti, která ukazuje cestu,
+a já se odsud musím dostat.
+Běžím vstříc vycházejícímu slunci
+a nacházím kamenný sloup těsně vedle.”
+
+„Odtud pokračuji dál, jako na začátku,
+a mluvím s démonem.
+Ten mi velí vydat se opět na jih,
+běžet a nebýt slabý.”
+
+„Na jih, dokud nenajdu obelisk
+s runami na každé straně.
+Zapadající slunce mě táhne
+do svého ohnivě rudého náručí.”
+
+„Odtud běžím na nejchladnější sever
+a lehám si pod strom.
+Ale sever mě stále volá,
+protože na severu jsem svoboden.”~
+
+@1005 /*Quest Title*/ = ~Zpožděná kniha~
+@1006 /*Start 2nd Quest*/ = ~Rozhovor s Róžou
+
+Terl byl znovu tady. Opravdu nevím, jak ten člověk pořád dokáže nás najít. Možná byl v minulém životě slídič. Ale Terl nám s Klárou oznámil, že Róža s námi chce mluvit o své knihovně. Zdá se, že něco není v pořádku.~
+
+@1007 /*Refused Quest*/ = ~Nejsem knihovník
+
+Odmítl jsem pomoct Róže získat zpět zpožděnou knihu z knihovny. Mám lepší věci na práci než řešit takové drobnosti. Copak si lidé neuvědomují, že jsem teď hrdina? Aspoň Róža to vzala s pochopením a stále jí mohu nadávat přebytečné knihy.~ ~Nejsem knihovnice
+
+Odmítla jsem pomoct Róže získat zpět zpožděnou knihu z knihovny. Mám lepší věci na práci než řešit takové drobnosti. Copak si lidé neuvědomují, že jsem teď hrdinka? Aspoň Róža to vzala s pochopením a stále jí mohu nadávat přebytečné knihy.~
+
+@1008 /*Accepted Quest*/ = ~Pokuta k úhradě
+
+Souhlasil jsem vystopovat ztracenou knihu pro Róžu. Učenec-mág známý jako Gereth odmítá vrátit knihu, kterou si vypůjčil z její knihovny. Chce, abych se ujistil, že si to mág nenechá líbit, a myslí, že bych ho mohl najít v Tržišti dobrodruhů na Waukeenině promenádě.~ ~Pokuta k úhradě
+
+Souhlasila jsem vystopovat ztracenou knihu pro Róžu. Učenec-mág známý jako Gereth odmítá vrátit knihu, kterou si vypůjčil z její knihovny. Chce, abych se ujistila, že si to mág nenechá líbit, a myslí, že bych ho mohla najít v Tržišti dobrodruhů na Waukeenině promenádě.~
+
+@1009 /*Post Gereth*/ = ~Knihy zloděj!
+
+Našel jsem Geretha v Tržišti dobrodruhů, ale odmítl mi vydat knihovní knihu a teleportoval se pryč, než jsem stihl trvat na svém. Pokud chci Róži knihu vrátit, musím zjistit, kam odjel. Doufám, že někdo v Tržišti bude vědět, kde začít, protože Gereth byl zřejmě velmi stálým zákazníkem.~ ~Knihy zloděj!
+
+Našla jsem Geretha v Tržišti dobrodruhů, ale odmítl mi vydat knihovní knihu a teleportoval se pryč, než jsem stihla trvat na svém. Pokud chci Róži knihu vrátit, musím zjistit, kam odjel. Doufám, že někdo v Tržišti bude vědět, kde začít, protože Gereth byl zřejmě velmi stálým zákazníkem.~
+
+@1010 /*Post City Guard*/ = ~Na stopě
+
+Promluvil jsem s hlídačem u městské brány a po jistém přesvědčování mi řekl, že Gereth pravidelně opouští město. Hlídač si není jistý, ale myslí, že by se mohl vydat na Průsmyk Malých zubů.~ ~Na stopě
+
+Promluvila jsem s hlídačem u městské brány a po jistém přesvědčování mi řekl, že Gereth pravidelně opouští město. Hlídač si není jistý, ale myslí, že by se mohl vydat na Průsmyk Malých zubů.~
+
+@1011 /*Post Gereth*/ = ~Kniha v rukou
+
+Vystopoval jsem Geretha do Průsmyku Malých zubů a zjistil jsem, že mág staví golemy pro nějaký neznámý účel. Po bitvě s jeho výtvory se mi podařilo získat Róžinu knihu zpět, než Gereth utekl zpět do Athkatly. Měl bych knihu vrátit Róži a převzít odměnu. Doufám, že ocení, čím jsem si pro její knihovnu prošel.~ ~Kniha v rukou
+
+Vystopovala jsem Geretha do Průsmyku Malých zubů a zjistila jsem, že mág staví golemy pro nějaký neznámý účel. Po bitvě s jeho výtvory se mi podařilo získat Róžinu knihu zpět, než Gereth utekl zpět do Athkatly. Měla bych knihu vrátit Róži a převzít odměnu. Doufám, že ocení, čím jsem si pro její knihovnu prošla.~
+
+@1012 /*Finished 2nd Quest*/ = ~Zpátky na polici
+
+Vrátil jsem knihu o výrobě golemů Róži a dostal její poděkování i slíbenou odměnu. Měl jsem tušit, že půjde o knihu, ale i tak je to cenná cena. Doufám, že ostatní návštěvníci pochopí varování a nebudu už honit žádné další nedbalé vypůjčitele.~ ~Zpátky na polici
+
+Vrátila jsem knihu o výrobě golemů Róži a dostala její poděkování i slíbenou odměnu. Měla jsem tušit, že půjde o knihu, ale i tak je to cenná cena. Doufám, že ostatní návštěvníci pochopí varování a nebudu už honit žádné další nedbalé vypůjčitele.~

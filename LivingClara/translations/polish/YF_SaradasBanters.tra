@@ -1,0 +1,25 @@
+//1st Clara-Saradas Banter
+@1 /*Clara*/ = ~Hej, Saradasie, mogę ci zadać pytanie?~
+@2 /*Saradas*/ = ~Oczywiście. Ciekawe umysły zasługują na nagrodę, a młodzi nie mogą się niczego nauczyć, jeśli starsi nie podzielą się swoją mądrością. Co chcesz wiedzieć?~
+@3 /*Clara*/ = ~Cóż, jestem pewna, że nie spodziewałeś się, że <CHARNAME> cię przywoła... Czy ktoś będzie za tobą tęsknić? Masz rodzinę, która czeka na twój powrót?~
+@4 /*Saradas*/ = ~Ach, obawiam się, że nie. Spędziłem wiele lat na poszukiwaniu wiedzy i artefaktów, i choć nie żałuję swojego wyboru, nigdy nie miałem rodziny ani miejsca, które mógłbym nazwać swoim.~
+@5 /*Saradas*/ = ~W rzeczywistości pogłoski o zaginionej magii często kierowały moje kroki, a choć świątynia mogła zauważyć moją nieobecność, nie jest to pierwszy raz, gdy nagle znikam.~
+@6 /*Clara*/ = ~Och, to dobrze. Cieszę się, że to słyszę.~
+@7 /*Saradas*/ = ~Cieszysz się?~
+@8 /*Clara*/ = ~Tak, to znaczy, jesteś TAKI stary. Martwiłam się, że <CHARNAME> porwał czyjegoś pradziadka i będą cię szukać.~
+@9 /*Clara*/ = ~Ale skoro nie masz rodziny, to jeśli zdarzy ci się umrzeć we śnie, twoje rzeczy zostaną dla nas. Będą bardzo przydatne! Dzięki!~
+@10 /*Saradas*/ = ~To była... interesująca myśl.~
+
+//2nd Banter
+@11 /*Saradas*/ = ~Tak się we mnie wpatrujesz, Klaro. Czy czegoś potrzebujesz?~
+@12 /*Clara*/ = ~Nic, tylko chciałam się upewnić, że jeszcze żyjesz.~
+@13 /*Saradas*/ = ~Rzeczywiście, żyję. Przepraszam, że cię rozczarowałem.~
+@14 /*Clara*/ = ~Nie jestem rozczarowana, jestem pod wrażeniem. Nigdy nie widziałam nikogo starszego od ciebie i chcę poznać twój sekret. Jak udało ci się przeżyć przez te stulecia?~
+@15 /*Saradas*/ = ~Stulecia?... I ile według ciebie mam lat?~
+@16 /*Clara*/ = ~Nie wiem. Dwieście? Wyglądasz na dwieście. Ale walczysz jak młodzieniec.~
+@17 /*Saradas*/ = ~Jesteś dziwnym dzieckiem, Klaro, z dziwnym spojrzeniem na życie. Nie wiem, czy mam być pochlebiony, czy obrażony, kiedy tak mówisz.~
+@18 /*Saradas*/ = ~Jeśli jednak naprawdę chcesz poznać sekrety długowieczności, chętnie podzielę się nimi z tobą, jeśli tylko będę mógł.~
+@19 /*Clara*/ = ~Naprawdę? Świetnie! Naucz mnie, jak żyć wiecznie... No, ale tylko jeśli to będzie łatwe i nie będę musiała niczego zmieniać.~
+@20 /*Saradas*/ = ~Rozumiem...~
+@21 /*Saradas*/ = ~W takim razie obawiam się, że ta magia, dziecko, niestety nie leży w twoich możliwościach.~
+@22 /*Clara*/ = ~Och. Szkoda. Ale i tak dziękuję za próbę.~

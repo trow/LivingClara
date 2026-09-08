@@ -1,0 +1,25 @@
+//1st Clara-Saradas Banter
+@1 /*Clara*/ = ~Hej, Saradasi, můžu se tě na něco zeptat?~
+@2 /*Saradas*/ = ~Samozřejmě. Zvídavé mysli si zaslouží odměnu a mladí se nemohou ničemu naučit, pokud se starší nepodělí o svou moudrost. Co chceš vědět?~
+@3 /*Clara*/ = ~No, jsem si jistá, že jsi nečekal, že tě <CHARNAME> přivolá... Bude ti někdo chybět? Máš rodinu, která čeká na tvůj návrat?~
+@4 /*Saradas*/ = ~Ach, obávám se, že ne. Strávil jsem mnoho let hledáním znalostí a artefaktů, a i když svého rozhodnutí nelituji, nikdy jsem neměl rodinu ani místo, které bych mohl nazývat svým.~
+@5 /*Saradas*/ = ~Ve skutečnosti zvěsti o ztracené magii často vedly mé kroky, a ačkoli si chrámu mohli všimnout mé nepřítomnosti, není to poprvé, co náhle odcházím.~
+@6 /*Clara*/ = ~Ach, to je dobře. Ráda to slyším.~
+@7 /*Saradas*/ = ~Ráda?~
+@8 /*Clara*/ = ~Jo, to znamená, že jsi TAK starý. Bála jsem se, že <CHARNAME> unesl něčího pradědečka a budou tě hledat.~
+@9 /*Clara*/ = ~Ale když nemáš rodinu, tak když náhodou umřeš ve spánku, tvoje věci připadnou nám. Budou se hodit! Díky!~
+@10 /*Saradas*/ = ~To byla... zajímavá myšlenka.~
+
+//2nd Banter
+@11 /*Saradas*/ = ~Tak se na mě díváš, Kláro. Něco potřebuješ?~
+@12 /*Clara*/ = ~Nic, jen jsem se chtěla ujistit, že jsi pořád naživu.~
+@13 /*Saradas*/ = ~Skutečně, žiju. Promiň, že tě zklamávám.~
+@14 /*Clara*/ = ~Nezklamáváš, jsem ohromená. Nikdy jsem neviděla nikoho staršího než ty a chci znát tvůj tajemství. Jak se ti podařilo přežít po ta staletí?~
+@15 /*Saradas*/ = ~Staletí?... A kolik mi podle tebe je?~
+@16 /*Clara*/ = ~Nevím. Dvě stě? Vypadáš na dvě stě. Ale bojuješ jako mladík.~
+@17 /*Saradas*/ = ~Jsi podivné dítě, Kláro, s podivným pohledem na život. Nevím, jestli mám být polichocen, nebo uražen, když tak mluvíš.~
+@18 /*Saradas*/ = ~Jestli však opravdu chceš znát tajemství dlouhověkosti, rád se s tebou podělím, pokud budu moci.~
+@19 /*Clara*/ = ~Opravdu? Skvělé! Nauč mě, jak žít věčně... No, ale jen pokud to bude snadné a nebudu muset nic měnit.~
+@20 /*Saradas*/ = ~Chápu...~
+@21 /*Saradas*/ = ~V tom případě se obávám, že tahle magie, dítě, bohužel nespadá do tvých možností.~
+@22 /*Clara*/ = ~Ach. Škoda. Ale i tak díky za snahu.~

@@ -1,0 +1,110 @@
+//General text if Clara is removed from Party
+@0 /*Clara*/ = ~Więc to by było na tyle?~
+@1 /*CHARNAME*/ = ~Nie, chcę, żebyś została.~
+@2 /*CHARNAME*/ = ~Tak, nasze drogi powinny się rozejść.~
+@3 /*Clara*/ = ~Dobrze, pójdę wtedy do Dzielnicy Mostowej. Możesz mnie znaleźć w tawernie Pięć Dzbanów.~
+@4 /*CHARNAME*/ = ~Nie, potrzebuję, żebyś zaczekała tutaj. Wkrótce wrócę.~
+@5 /*CHARNAME*/ = ~Dobrze, odnajdę cię tam.~
+@6 /*Clara*/ = ~Tutaj? No dobra. Ale masz tylko jeden dzień, potem odchodzę. Będzie mi bezpieczniej gdzie indziej.~
+@7 /*Clara*/ = ~Chcesz, żebym poszła? Dobrze, spotkam się z tobą w Gildii Złodziei.~
+
+//If at war with Shadow Thieves
+@70 /*Clara*/ = ~Proszę, nie wyrzucaj mnie! Cieniści Złodzieje mnie zabiją!~
+@71 /*Player1*/ = ~Przepraszam, już cię nie potrzebuję. Żegnaj.~
+@72 /*Player1*/ = ~Dobrze, nie marudź. Możesz zostać.~
+@73 /*Clara*/ = ~Proszę, nie wytrzymam trzech dni! Nie mogę wrócić do domu, nie mogę! Pozwól mi zostać. Nie będę przeszkadzać. Zrobię wszystko, obiecuję. To znaczy, jesteś mężczyzną, mogę ci udowodnić swoją wartość, a poza tym mogę też prać, gotować, czyścić twoją broń i zbroję!~
+@74 /*Player1*/ = ~Dobrze, przyjmuję.~
+@75 /*Player1*/ = ~Oczywiście, możesz mi służyć. Rób to wystarczająco dobrze, a mogę zdecydować, by cię zatrzymać.~
+@76 /*Player1*/ = ~Nie, przykro mi, żegnaj.~
+@77 /*Clara*/ = ~Naprawdę? Nigdy wcześniej tego nie robiłam. Ale jak zawsze mawiała Jenny, nie ważne jak wyglądają, po prostu bądź entuzjastyczna, rób wszystko, o co proszą, i staraj się czerpać przyjemność. Dobrze, zrobię to. Daj mi szansę. Nie pożałujesz!~
+@78 /*Clara*/ = ~Proszę, nie wytrzymam trzech dni! Nie mogę wrócić do domu, nie mogę. Pozwól mi zostać. Nie będę przeszkadzać. Zrobię wszystko, obiecuję. Nadal mogę prać, gotować, czyścić twoją broń i zbroję!~
+@79 /*Clara*/ = ~Wiem! Udowodnię to. Daj mi szansę, a zobaczysz, że warto mnie zatrzymać. Pozwól mi ci udowodnić!~
+@80 /*Player1*/ = ~Dobrze, przyjmuję. Gdy nadarzy się okazja, możesz pokazać, co potrafisz. Rób to wystarczająco dobrze, a mogę zdecydować, by cię zatrzymać.~
+
+// If Clara is talked to while waiting with active timer.
+@8 /*Clara*/ = ~Ja... nienawidzę... czekania. Czy mogę już wrócić?~
+@9 /*CHARNAME*/ = ~Nie, jeszcze nie. Zostań tu jeszcze chwilę.~
+@10 /*CHARNAME*/ = ~Tak. Przepraszam, że kazałem ci czekać.~
+
+//If Clara is in Five Flagons, the first time.
+@11 /*Clara*/ = ~W samą porę, <CHARNAME>, właśnie o tobie rozmawialiśmy. Opowiadałam lordowi Sterkowi, jak uratowałeś mnie przed Hexxat i Dragomirem.~
+@12 /*CHARNAME*/ = ~Każdy na moim miejscu zrobiłby to samo.~
+@13 /*CHARNAME*/ = ~To część bycia bohaterem.~
+@14 /*CHARNAME*/ = ~I to było marnowanie czasu. Nie mieli nawet pieniędzy.~
+@15 /*Sterk*/ = ~Dobra robota, <CHARNAME>. Dzięki takim bohaterom jak ty, wkrótce znowu będzie bezpiecznie chodzić nocą po ulicach. Szkoda, że nie udało ci się uratować rodziców Karoliny.~
+@16 /*Clara*/ = ~Tak, czasami w nocy jeszcze płaczę, myśląc o nich. Jednak, jak mawiał mój ojciec, młode kobiety muszą być silne. Wytrwam.~
+@17 /*Clara*/ = ~Milordzie, sądzę, że <CHARNAME> chce ze mną porozmawiać, a ponieważ uratował mi życie, nie mogę odmówić.~
+@18 /*Sterk*/ = ~Oczywiście. Porozmawiajcie na osobności. Zajmę się innymi sprawami.~
+@19 /*Clara*/ = ~Cześć, <CHARNAME>! Co tu robisz?~
+@20 /*CHARNAME*/ = ~Cóż, „Karolino”, chciałem tylko się przywitać i zobaczyć, jak sobie radzisz.~
+@21 /*CHARNAME*/ = ~Znowu zmieniłaś akcent. W jaką grę grasz? Hexxat i Dragomir nie zabili twoich rodziców, prawda?~
+@22 /*CHARNAME*/ = ~Chcę, żebyś poszła ze mną.~
+@23 /*CHARNAME*/ = ~Chcę cię lepiej poznać. Czy jest jakieś miejsce, gdzie moglibyśmy porozmawiać na osobności?~
+@24 /*Clara*/ = ~Dobrze się miewam, <CHARNAME>! Lord Sterk nie może się zdecydować, czy chce mnie uratować, czy przespać się ze mną, czy jedno i drugie. Przy odrobinie szczęścia mógłby zabrać mnie do siebie jako „służącą”, a całe miejsce będzie moje!~
+@25 /*Clara*/ = ~Oczywiście, nie mogę nic osiągnąć, rozmawiając z tobą. Więc... do widzenia! Możesz przyjść kiedy indziej.~
+@26 /*Clara*/ = ~Podoba ci się ten akcent? Skopiowałam twój, ale nadałam mu bardziej szlacheckie brzmienie. Jestem Karolina Ludwika Adelajda Rozanna Aleksandra Srebrna Tarcza z Beregostu, biedna osierocona córka kuzynki słynnej rodziny Srebrnej Tarczy z północy.~
+@27 /*Clara*/ = ~Wjechaliśmy do Athkatli nocą, a Hexxat i Dragomir zaatakowali nas. Nasi tchórzliwi najemnicy uciekli, a choć mój ojciec dzielnie walczył wraz z dwoma najwierniejszymi sługami i jednym żołnierzem domowym, byli bez szans. Wampiry bezlitośnie zabili ich i moją matkę. Gdybyś nie interweniował i nie uratował mnie, oni też by mnie zabili. Jeszcze raz dziękuję.~
+@28 /*Clara*/ = ~Przyszedłeś tylko się przywitać, czy czegoś chcesz?~
+@29 /*CHARNAME*/ = ~Przyszedłem tylko się przywitać. Jak się masz?~
+@30 /*CHARNAME*/ = ~Ale to nie było to, co naprawdę się wydarzyło.~
+@31 /*Clara*/ = ~Oczywiście, że było! Mogłam zmienić jeden czy dwa szczegóły, ale tylko po to, by opowiedzieć lepszą historię. Nie możesz zbytnio przejmować się tym, co pamiętasz, <CHARNAME>. Jak wiadomo, pamięć jest zawodna.~
+@32 /*Clara*/ = ~Poproś trzy osoby, by uczciwie powtórzyły jakąś rozmowę, a wszystkie trzy powiedzą ci co innego. Jeśli nasze wspomnienia to tylko historie, które wymyślamy, dlaczego nie uczynić ich lepszymi?~
+@33 /*Clara*/ = ~Ale ja się rozgadałam. Czego chcesz?~
+@34 /*CHARNAME*/ = ~Nie, przyszedłem tylko się przywitać. Jak się masz?~
+@35 /*CHARNAME*/ = ~Tak, chcę, żebyś poszła ze mną.~
+@36 /*Clara*/ = ~Dołączyć do ciebie? Chcesz, żebym porzuciła moje wygodne i dochodowe życie i poszła z tobą szukać śmierci? Zwiedzać pełne śluzu i pułapek lochy, w których roją się nieumarli i potężne potwory, a losy świata wiszą na włosku?~
+@37 /*Clara*/ = ~Nie, dziękuję. Lubię oddychać... i żyć... a przede wszystkim lubię nie umierać.~
+@38 /*CHARNAME*/ = ~Czy jest coś, co mógłbym zrobić, by przekonać cię do zmiany zdania?~
+@39 /*CHARNAME*/ = ~Och, w takim razie chyba zobaczymy się kiedyś w okolicy.~
+@40 /*Clara*/ = ~Nie jestem prostytutką, <CHARNAME>. Jestem Karoliną Ludwiką Adelajdą Rozanną Aleksandrą Srebrną Tarczą z Beregostu. To, że spotkały mnie trudności i straciłam rodziców, nie znaczy, że porzucę swoją godność.~
+@41 /*Clara*/ = ~A teraz, dzień dobry. Czeka na mnie lord, który pragnie wybawić mnie z ubogiego i upokarzającego życia.~
+@42 /*Clara*/ = ~Oczywiście. Moja cena to 1000 sztuk złota.~
+@43 /*CHARNAME*/ = ~Dobrze.~
+@44 /*CHARNAME*/ = ~A 500?~
+@45 /*CHARNAME*/ = ~Nie, nie jesteś tyle warta. Do widzenia.~
+@46 /*CHARNAME*/ = ~Przepraszam, nie mam takich pieniędzy.~
+@47 /*Clara*/ = ~Tak! Dobrze, pozwól mi się pożegnać z lordem Sterkiem.~
+@48 /*Clara*/ = ~Przepraszam, milordzie? <CHARNAME> potrzebuje mojej pomocy w pewnej sprawie, a ja nie mogę odmówić temu, kto mnie uratował. <CHARNAME> chce wyjść natychmiast, ale nie mogę się pożegnać i podziękować ci za całą pomoc. Jesteś prawdziwym dżentelmenem.~
+@49 /*Sterk*/ = ~Musisz iść? Oczywiście, moja droga, bardzo proszę. Cieszę się, że mogłem pomóc. Przyjdź ponownie, kiedy będziesz mogła.~
+@50 /*Sterk*/ = ~Zaopiekuj się nią, <CHARNAME>, zapewnij jej bezpieczeństwo.~
+@51 /*Clara*/ = ~Dobrze. Możesz wpaść później się przywitać. Jeśli uda ci się nie umrzeć...~
+@52 /*Clara*/ = ~Och, lordzie Sterk! <CHARNAME> musi iść, ale chciałabym usłyszeć więcej o różnicach w elfich winach.~
+
+//If you talk later - reuses other lines
+@53 /*Clara*/ = ~Witaj ponownie, <CHARNAME>. W czym mogę ci pomóc? Potrzebujesz czegoś ode mnie?~
+
+//If no other conditions apply - reuses earlier lines
+@54 /*Clara*/ = ~Cześć, <CHARNAME>, w czym mogę pomóc? Potrzebujesz czegoś?~
+@55 /*Clara*/ = ~Nie martw się o mnie. Po prostu się włóczę i cieszę się, że żyję. Zawsze jest coś do zrobienia... coś do zobaczenia... kogoś do okradzenia. Możesz się tu kręcić, ale naprawdę powinnam wrócić do pracy.~
+@56 /*Clara*/ = ~Dołączyć do ciebie? Chcesz, żebym porzuciła moje wygodne i dochodowe życie i poszła z tobą szukać śmierci? Zwiedzać pełne śluzu i pułapek lochy, w których roją się nieumarli, walczyć z potężnymi potworami, a losy świata wiszą na włosku? Moja cena to 1000 sztuk złota.~
+@57 /*Clara*/ = ~Myślę, że szukasz niewłaściwej osoby, <CHARNAME>. Szukasz Klary, która była prostytutką, ale ona nie żyje. Jestem Karoliną Ludwiką Adelajdą Rozanną Aleksandrą Srebrną Tarczą z Beregostu, biedną osieroconą córką kuzynki słynnej rodziny Srebrnej Tarczy z północy. Może straciłam rodziców przez wampiry, ale nie straciłam godności.~
+@58 /*Clara*/ = ~Zostałam uratowana przez bohatera <CHARNAME> i jestem za to tak wdzięczna, że opowiadam tę historię każdemu, kogo spotykam. Ten bohater nigdy nie próbowałby wykorzystać szlachetnej damy w trudnej sytuacji. A teraz do widzenia. Jak każda szlachetna dama, mam ważne sprawy wymagające mojej uwagi.~
+@59 /*Clara*/ = ~Tak! Dobrze, pozwól mi spakować rzeczy.~
+
+//New Kicked out dialogue if Clara marries Anomen
+@60 /*Clara*/ = ~Naprawdę chcesz, żebym odeszła?~
+@61 /*Clara*/ = ~Nie chcę cię opuszczać, mój mężu, ale muszę postąpić zgodnie z wolą <CHARNAME>.~
+@62 /*Clara*/ = ~Wrócę do naszej posiadłości i będę tam czekać na twoją wizytę. Obiecuję, że będę myśleć o tobie w każdej chwili twojej nieobecności.~
+@63 /*Clara*/ = ~Wspaniale. Wrócę do posiadłości Delrinów, do mojego drogiego męża, dopóki znów mnie nie potrzebujesz. Nie spiesz się z powrotem; moje łóżko tam jest znacznie wygodniejsze.~
+@64 /*Clara*/ = ~Dobrze. I tak powinnam sprawdzić moje interesy. Jeśli zmienisz zdanie, znajdziesz mnie w posiadłości Delrinów.~
+
+//New Clara P dialogue if married Cor & he's dead
+@65 /*Clara*/ = ~Witaj, <CHARNAME>, dom lady Delrin zawsze jest dla ciebie otwarty. Co mogę dla ciebie zrobić?~
+@66 /*CHARNAME*/ = ~Nic, wpadłem tylko zobaczyć, jak się masz.~
+@67 /*CHARNAME*/ = ~Możesz podróżować ze mną.~
+@68 /*Clara*/ = ~Cóż, jestem panią tego podupadłego szlacheckiego rodu. Finanse są w ruinie... Saerk naprawdę niszczył interesy mojego zmarłego męża na każdym kroku.~
+@69 /*Clara*/ = ~Powinnam naprawdę coś zrobić z tym człowiekiem...~
+@81 /*Clara*/ = ~Cóż, nadal jestem panią tego podupadłego szlacheckiego rodu. Ale od kiedy lord Saerk odszedł, nasze finanse się poprawiły.~
+@82 /*Clara*/ = ~Podróżować z tobą? Dlaczego miałabym to robić? Mój dom może być ubogi, ale przynajmniej żyję i mogę spać na prawdziwym łóżku. Co możesz mi zaoferować w zamian?~
+@83 /*CHARNAME*/ = ~Co powiesz na 1000 sztuk złota?~
+@84 /*CHARNAME*/ = ~Co powiesz na 500 sztuk złota?~
+@85 /*CHARNAME*/ = ~Cóż, chyba nic.~
+@86 /*Clara*/ = ~Umowa stoi! Pozwól mi spakować rzeczy.~
+
+//New Kicked Out Dialogue if Clara courting Anomen, goes to CC
+@87 /*Clara*/ = ~Dobrze, pójdę do Miedzianej Korony.~
+@88 /*Clara*/ = ~Nie czekaj zbyt długo z odwiedzinami, Anomenie.~
+@89 /*Anomen*/ = ~Daję ci słowo. Proszę, bądź ostrożna. Nie podoba mi się myśl o damie samej w takim miejscu.~
+@90 /*Clara*/ = ~Miło, że się martwisz, ale potrafię o siebie zadbać.~
+@91 /*Clara*/ = ~Nie mogę pozwolić, by mój drogi Anomen zapomniał o mnie tak szybko.~
+@92 /*Clara*/ = ~Do zobaczenia, <CHARNAME>.~
