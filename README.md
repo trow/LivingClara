@@ -1,5 +1,7 @@
-![Language](https://img.shields.io/static/v1?label=language&message=Chinese%20%7C%20English%20%7C%20Russian%20%7C%20French&color=limegreen )
+![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20Chinese%20%7C%20Czech%20%7C%20French%20%7C%20German%20%7C%20Polish%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
+
 ![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2EE%20%7C%20EET&color=dodgerblue )
+[![Downloads](https://img.shields.io/github/downloads/trow/LivingClara/total?color=41788a)](https://github.com/trow/LivingClara/releases)
 
 # Living Clara
 **Clara NPC and Dark Side Anomen Expansion**
