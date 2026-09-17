@@ -154,9 +154,10 @@
 @133 /*Anomen*/ = ~Ich kann nicht! Ich bin ein Mitglied des Ordens. Ich werde meine Gelübde halten; ich werde sie halten, was auch geschieht. Bittet mich nicht, etwas anderes zu tun, meine Dame. Der Orden würde mich als Mörder verstoßen.~
 @134 /*Clara*/ = ~Ich könnte es tun. Ich bin so still wie der Tod, wenn ich es sein will. Ich könnte einschleichen, Saerks Wein vergiften und wieder hinausschleichen. Niemand würde erfahren, dass Ihr daran beteiligt wart; niemand außer mir, Euch und Eurem Vater. Euer Ruf beim Orden würde makellos bleiben.~
 @135 /*Anomen*/ = ~Ihr könntet ... ich könnte alles haben ... meine Ehre ... meine Familie ... mein Rittertum ...~
-@136 /*Anomen*/ = ~Nein! Nein, du Verführerin. Wir sind durch! Du bist ohne Ehre. Wir sind durch.~
-@137 /*Clara*/ = ~Gut. Ohne Euren Familiennamen seid Ihr nicht mehr als ein Bürgerlicher. Ich bin zu gut für Euch.~
-@138 /*Clara*/ = ~Nun, wenn Ihr mich entschuldigen würdet, ich muss zu Eurem Vater. Wir haben viel zu besprechen.~
+@136 /*Anomen*/ = ~Nein! Nein, du Verführerin. Wir sind durch! Du hast keine Ehre. Wir sind durch.~
+@137 /*Clara*/ = ~Gut. Ohne deinen Familiennamen bist du nicht mehr als ein Bürgerlicher. Du hast Recht. Du bist erledigt! Wir sind erledigt!~
+@138 /*Clara*/ = ~Nun, wenn du mich entschuldigst, muss ich zu deinem Vater gehen. Wir haben viel zu besprechen.~
+@1380 /*Clara*/ = ~Denk daran, <CHARNAME> ist derjenige, der mich beschützt, nicht du, du arroganter Grünschnabel.~
 @139 /*Anomen*/ = ~Mein Vater? Ich verstehe nicht.~
 @140 /*Anomen*/ = ~<CHARNAME>, wenn wir einen Moment haben, lasst uns zum Haus meines Vaters gehen. Ich muss wissen, was sie im Schilde führt!~
 

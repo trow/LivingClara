@@ -298,6 +298,8 @@ THAC0: +3
 @1450 = ~'BG1 NPCs in SoA & ToB' Alora NPC not detected~
 @146 = ~Nephele detected - adding crossmod Easter egg~
 @147 = ~Nephele NPC not detected~
+@1460 = ~Anomen's extended plot of Hidden Adventure MOD detected~
+@1470 = ~Anomen's extended plot of Hidden Adventure MOD not detected~
 @148 = ~Petsy detected - adding crossmod Easter egg~
 @149 = ~Petsy NPC not detected~
 @150 = ~Saradas detected - adding crossmod banters~

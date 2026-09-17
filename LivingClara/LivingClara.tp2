@@ -2,7 +2,7 @@ BACKUP ~LivingClara/backup~
 
 AUTHOR ~MephistoSatanDevil~
 
-VERSION ~Version 1.4.8~
+VERSION ~Version 1.5.0~
 
 README ~LivingClara/translations/%LANGUAGE%/readme.txt~ ~LivingClara/readme.md~
 
@@ -555,7 +555,15 @@ COMPILE EVALUATE_BUFFER ~LivingClara/dialogues/bYF_cl25.d~
 	~LivingClara/dialogues/YF_hexxattalk.d~
 	~LivingClara/dialogues/YF_NeeraBook.d~
 	~LivingClara/dialogues/YF_ohhfakthieves.d~
-	
+
+// ========== Living Clara NPC -Anomen's extended plot of Hidden Adventure Cross MOD==========
+ACTION_IF MOD_IS_INSTALLED ~hiddenadventure.tp2~ 1 BEGIN
+  PRINT @1460 /*Anomen's extended plot of Hidden Adventure mod detected*/
+  COMPILE EVALUATE_BUFFER ~LivingClara/dialogues/YF_claraanomen8talkhiddenadventure.d~ USING ~LivingClara/translations/%LANGUAGE%/YF_ClaraAnomen.tra~
+END ELSE BEGIN
+  PRINT @1470 /*Anomen's extended plot of Hidden Adventure mod not detected*/
+  COMPILE EVALUATE_BUFFER ~LivingClara/dialogues/YF_claraanomen8talknohiddenadventure.d~ USING ~LivingClara/translations/%LANGUAGE%/YF_ClaraAnomen.tra~ 
+END
 //Dialogue Files- always installed (this code means whole folder compiled. You can also compile each dialogue file individually if you list the names)
 // ----- 编译模组主线共用的 SOA 对话文件 -----
 // 编译 /soa 目录下的所有对话文件。

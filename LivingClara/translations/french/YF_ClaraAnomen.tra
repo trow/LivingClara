@@ -154,9 +154,10 @@
 @133 /*Anomen*/ = ~Je ne peux pas ! Je suis membre de l'Ordre. Je respecterai mes vœux ; je les respecterai quoi qu'il arrive. S'il vous plaît, ne me demandez pas de faire autrement, ma dame. L'Ordre me chasserait comme un meurtrier.~
 @134 /*Clara*/ = ~Je pourrais le faire. Je suis aussi silencieuse que la mort quand je le souhaite. Je pourrais me faufiler, empoisonner le vin de Saerk, et ressortir. Personne ne saurait que vous y avez participé ; personne à part moi, vous et votre père. Votre réputation à l'Ordre resterait intacte.~
 @135 /*Anomen*/ = ~Vous pourriez... Je pourrais avoir tout... mon honneur... ma famille... ma chevalerie...~
-@136 /*Anomen*/ = ~Non ! Non, vous tentatrice. C'est fini entre nous ! Vous êtes sans honneur. C'est fini.~
-@137 /*Clara*/ = ~Bien. Sans votre nom de famille, vous n'êtes rien de plus qu'un roturier. Je suis trop bien pour vous.~
-@138 /*Clara*/ = ~Maintenant, si vous voulez bien m'excuser, je dois aller voir votre père. Nous avons beaucoup à discuter.~
+@136 /*Anomen*/ = ~Non ! Non, tentatrice. C'est fini entre nous ! Tu n'as aucun honneur. C'est fini.~
+@137 /*Clara*/ = ~Bien. Sans ton nom de famille, tu n'es rien de plus qu'un roturier. Tu as raison. Tu es fini ! Nous sommes finis !~
+@138 /*Clara*/ = ~Maintenant, si tu veux bien m'excuser, je dois aller voir ton père. Nous avons beaucoup à discuter.~
+@1380 /*Clara*/ = ~Rappelle-toi, c'est <CHARNAME> qui me protège, pas toi, espèce de blanc-bec arrogant.~
 @139 /*Anomen*/ = ~Mon père ? Je ne comprends pas.~
 @140 /*Anomen*/ = ~<CHARNAME>, quand nous aurons un moment, allons chez mon père. Je dois savoir ce qu'elle manigance !~
 

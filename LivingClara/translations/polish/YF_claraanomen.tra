@@ -155,8 +155,9 @@
 @134 /*Clara*/ = ~Ja mogę to zrobić. Potrafię być cicha jak śmierć, gdy chcę. Mogę się zakraść, otruć wino Saerka i wyjść niezauważona. Nikt nie będzie wiedział o twoim udziale; nikt poza mną, tobą i twoim ojcem. Twoja reputacja w Zakonie pozostanie nieskalana.~
 @135 /*Anomen*/ = ~Możesz... mogę mieć wszystko... mój honor... moją rodzinę... moje rycerstwo...~
 @136 /*Anomen*/ = ~Nie! Nie, ty kusicielko. Koniec między nami! Nie masz honoru. Koniec między nami.~
-@137 /*Clara*/ = ~Dobrze. Bez twojego nazwiska jesteś tylko prostakiem. Byłam dla ciebie zbyt dobra.~
-@138 /*Clara*/ = ~A teraz, jeśli pozwolisz, muszę odwiedzić twojego ojca. Mamy wiele do omówienia.~
+@137 /*Clara*/ = ~Dobrze. Bez twojego nazwiska rodowego jesteś tylko plebejuszem. Masz rację. Jesteś skończony! Koniec z nami!~
+@138 /*Clara*/ = ~A teraz, jeśli nie masz nic przeciwko, muszę iść zobaczyć twojego ojca. Mamy wiele do omówienia.~
+@1380 /*Clara*/ = ~Pamiętaj, to <CHARNAME> mnie chroni, nie ty, ty arogancki żółtodziobie.~
 @139 /*Anomen*/ = ~Mojego ojca? Nie rozumiem.~
 @140 /*Anomen*/ = ~<CHARNAME>, gdy tylko znajdziemy chwilę, udajmy się do domu mojego ojca. Muszę wiedzieć, co ona knuje!~
 

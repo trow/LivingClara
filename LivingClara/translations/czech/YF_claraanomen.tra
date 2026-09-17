@@ -154,9 +154,10 @@
 @133 /*Anomen*/ = ~Nemohu! Jsem členem Řádu. Dodržím své sliby; bez ohledu na všechno je dodržím. Prosím, nežádej mě, abych udělal něco jiného, má paní. Řád by mě vyhodil jako vraha.~
 @134 /*Clara*/ = ~Já to zvládnu. Umím být tichá jako smrt, když chci. Vplížím se, otrávím Saerkovo víno a zase vyklouznu. Nikdo nebude vědět o tvém podílu; jen já, ty a tvůj otec. Tvá pověst v Řádu zůstane neposkvrněná.~
 @135 /*Anomen*/ = ~Můžeš... můžu mít všechno... mou čest... mou rodinu... mé rytířství...~
-@136 /*Anomen*/ = ~Ne! Ne, ty svůdkyně. Jsme skončili! Nemáš čest. Jsme skončili.~
-@137 /*Clara*/ = ~Dobře. Bez rodinného jména jsi jen prostý občan. Byla jsem na tebe příliš dobrá.~
-@138 /*Clara*/ = ~A teď, jestli dovolíš, musím navštívit tvého otce. Máme spolu mnoho k projednání.~
+@136 /*Anomen*/ = ~Ne! Ne, ty svůdkyně. Jsme skončili! Nemáš žádnou čest. Jsme skončili.~
+@137 /*Clara*/ = ~Dobře. Bez tvého rodinného jména nejsi nic víc než pouhý plebejec. Máš pravdu. Je s tebou konec! Jsme skončili!~
+@138 /*Clara*/ = ~A teď, jestli mi dovolíš, musím navštívit tvého otce. Máme spolu mnoho k projednání.~
+@1380 /*Clara*/ = ~Pamatuj, mým ochráncem je <CHARNAME>, ne ty, ty arogantní zelenáči.~
 @139 /*Anomen*/ = ~Mého otce? Nerozumím.~
 @140 /*Anomen*/ = ~<CHARNAME>, až budeme mít chvilku, pojďme k domu mého otce. Musím vědět, co chystá!~
 

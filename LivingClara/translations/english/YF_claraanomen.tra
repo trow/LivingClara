@@ -155,8 +155,9 @@
 @134 /*Clara*/ = ~I could do it. I am as silent as death when I wish to be. I could slip in, poison Saerk's wine, and slip out again. No one would know you had a hand in it; no one except for me, you, and your father. Your reputation at the Order would remain unblemished.~
 @135 /*Anomen*/ = ~You could... I could have everything... my honor... my family... my knighthood...~
 @136 /*Anomen*/ = ~No! No, you temptress. We are through! You are without honor. We are through.~
-@137 /*Clara*/ = ~Good. Without your family name, you are no more than a commoner. I am too good for you.~
+@137 /*Clara*/ = ~Good. Without your family name, you are no more than a commoner. You are right. You are finished! We are finished!~
 @138 /*Clara*/ = ~Now if you will excuse me, I must be off to see your father. We have much to discuss.~
+@1380 /*Clara*/ = ~Remember, it is <CHARNAME> who shelters me, not you, you arrogant whelp.~
 @139 /*Anomen*/ = ~My father? I do not understand.~
 @140 /*Anomen*/ = ~<CHARNAME>, when we have a moment let us go to my father's house. I must know what she is up to!~
 

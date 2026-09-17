@@ -154,9 +154,10 @@
 @133 /*Anomen*/ = ~¡No puedo! Soy miembro de la Orden. Mantendré mis votos; los mantendré pase lo que pase. Por favor, no me pida que haga otra cosa, mi señora. La Orden me expulsaría como a un asesino.~
 @134 /*Clara*/ = ~Podría hacerlo yo. Soy tan silenciosa como la muerte cuando quiero. Podría colarme, envenenar el vino de Saerk, y salir de nuevo. Nadie sabría que usted estuvo involucrado; nadie más que yo, usted y su padre. Su reputación en la Orden permanecería intacta.~
 @135 /*Anomen*/ = ~Usted podría... Podría tenerlo todo... mi honor... mi familia... mi caballería...~
-@136 /*Anomen*/ = ~¡No! No, seductora. ¡Hemos terminado! No tiene honor. Hemos terminado.~
-@137 /*Clara*/ = ~Bien. Sin su apellido, no es más que un plebeyo. Soy demasiado buena para usted.~
-@138 /*Clara*/ = ~Ahora, si me disculpa, debo ir a ver a su padre. Tenemos mucho que discutir.~
+@136 /*Anomen*/ = ~¡No! ¡No, seductora! ¡Hemos terminado! No tienes honor. ¡Hemos terminado!~
+@137 /*Clara*/ = ~Bien. Sin tu apellido, no eres más que un plebeyo. Tienes razón. ¡Estás acabado! ¡Hemos terminado!~
+@138 /*Clara*/ = ~Ahora, si me disculpas, debo ir a ver a tu padre. Tenemos mucho que discutir.~
+@1380 /*Clara*/ = ~Recuerda, es <CHARNAME> quien me protege, no tú, arrogante mequetrefe.~
 @139 /*Anomen*/ = ~¿Mi padre? No entiendo.~
 @140 /*Anomen*/ = ~<CHARNAME>, cuando tengamos un momento, vayamos a casa de mi padre. ¡Debo saber qué está tramando!~
 
