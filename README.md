@@ -62,12 +62,12 @@ To prevent the Cloak of Dragomir and Dragomir's Respite from going to waste afte
 
 **Installation Order:**
 - Install after [Saradas Magic for BG2](https://github.com/Spellhold-Studios/Saradas-Magic-BG2) for proper Crossmod interjections
+- Install after Anomen's extended plot component of [Hidden Adventures](https://github.com/Gitjas/hiddenadventure)  to avoid plot logic errors
 - To keep Clara's kit as Shadowdancer, install this mod prior to the three kit mods mentioned below.
   - Installing this mod after the Trickster kit from [The Artisan's Kitpack](https://github.com/TheArtisanBG/The-Artisan-s-Kitpack/) will change Clara's kit to Trickster.
   - Installing this mod after the Seducer Kit from semiticgoddess's [Expanded Classes and Kits](https://forums.beamdog.com/discussion/77859/), and without the Trickster kit installed, will change Clara's kit to Seducer.
   - Installing this mod after the Charming Rogue from Jarno Mikkola's [Mega Mod Kits](https://www.shsforums.net/files/file/905-megamodkits/), and without the Trickster kit or the Seducer Kit installed, will change Clara's kit to Charming Rogue.
 - On EET installations: install before EET_End
-- Recommended to use with [Banter Accelerator](https://github.com/Argent77/A7-BanterAccelerator) for optimal interjection frequency
 
 **Known Issue:**
 - In the scene where Clara assists Anomen in patricide, if Clara is chunked death, she will not be resurrected correctly. If you encounter this issue, please reload a previous save and replay this scene.
