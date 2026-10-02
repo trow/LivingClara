@@ -32,7 +32,7 @@
 
 //2nd Talk, multiple variations
 @30 /*Anomen*/ = ~How much do you know of my Order of the Most Radiant Heart?~ [ANOMEN68]
-@31 /*Clara*/ = ~Very little, my lord.~
+@31 /*Clara*/ = ~Not much, my lord.~
 @32 /*Anomen*/ = ~Then you should be made aware of it, certainly. The Order is the greatest force for righteousness in Faerûn: an army of knights and paladins ready to combat evil wherever it is found.~
 @33 /*Anomen*/ = ~We exist to serve, but we follow no commands except those of our heart and conscience. 'Tis a rare creature that can stand up to the full array of the Order's armies.~
 @34 /*Anomen*/ = ~Personally, I do not understand why the Order does not take control of the council. It could do far more to turn this into a fair and equitable land.~
@@ -40,23 +40,23 @@
 @36 /*Keldorn*/ = ~If we allowed governance to conflict with our righteous hearts, then where would we be? Even the council has its place in this land; surely you know that?~
 @37 /*Anomen*/ = ~I have long since passed the time when I needed a knight of the Order to answer my every thought, Sir Keldorn. I have heard many express the idea you repeat and I disagree.~
 @38 /*Anomen*/ = ~There is far too much inequity and injustice for the common man and the Order should do more to ease their hopeless existences. What do you think, my lady?~
-@39 /*Clara*/ = ~I think you're right. The Order could do more. If only you were in charge.~
-@40 /*Anomen*/ = ~Aye, you see the right of it, I think. It is something I shall keep in mind once I pass the Test. The Order must become a more active force for change rather than simply combating the most obvious evils.~
+@39 /*Clara*/ = ~I understand what you mean, my lord. Every word you say reminds me of what I have seen in the streets of Amn—starving children, commoners beaten to death by nobles on a whim, and knights who could have stopped it all but chose to "stay out of politics." You say the Order should do more. But forgive my bluntness, my lord... they should not merely do more. They *must* do more. I know little of the Order, but I know one thing: when good men choose to stand aside, evil men will rule the world in their place. You ask what I think? I am wondering... why a man who truly cares for the common folk, like you, should be bound by hidebound old rules? If the rules themselves protect injustice, what is the difference between those who obey them and accomplices?~
+@40 /*Anomen*/ = ~Yes... yes, you are right. The rules themselves protect injustice. I never thought of it that way... The Order always says "stay out of politics," yet politics harms innocents every day. The Order must become a more active force for change, not merely fight the surface evils.~
 @41 /*Anomen*/ = ~Aye, you see the right of it, I think. It is something I shall keep in mind. The Order must become a more active force for change rather than simply combating the most obvious evils.~
 @42 /*Keldorn*/ = ~The Order has its place, Anomen, and government is not it. Your vision is flawed, and you would do well to think most carefully before you do anything rash.~
-@43 /*Anomen*/ = ~Perhaps, Sir Keldorn. I shall ponder your words, but I still believe the flaw exists in those who do not think of new ways to combat chaos.~
+@43 /*Anomen*/ = ~Yes, Sir Keldorn. I am pondering your words. But I think Clara has a point—when good men stand aside, evil men rule the world. You say the Order has its place. But who decides that place? Is it decided by those who want the Order to never get in the way?~
 
-@44 /*Anomen*/ = ~I mean, think of all the suffering your average commoner endures. The hunger, the inequity and injustice... the rebellions in the south. All agents of chaos.~
-@45 /*Anomen*/ = ~Surely such things would not occur with the Order in command as a force of true goodness and honest brotherhood? I cannot understand why more people do not see it.~
+@44 /*Anomen*/ = ~I mean, think of all the suffering common folk endure. Hunger and hardship, inequity and injustice... the rebellions in the south. All agents of chaos.~
+@45 /*Anomen*/ = ~If the Order commanded as a force of true goodness and honest brotherhood, such things would not happen at all. Perhaps... perhaps the question is not whether the Order should take power. The question is that they are too weak to take it. If the Order truly wishes to end injustice, what it needs is not more discussion, but firmer will.~
 
-@46 /*Clara*/ = ~Only that it was foolish enough to cast you out, my lord.~
-@47 /*Anomen*/ = ~This is true, but the Order is still the greatest force for righteousness in Faerûn: an army of knights and paladins ready to combat evil wherever it is found.~
-@48 /*Anomen*/ = ~And yet, you are right, the Order is foolish. Its leaders are a cautious lot, unwilling to do what is needed to make the world a better place.~
-@49 /*Anomen*/ = ~The Order needs younger, bolder leadership who would take control of the council. It could do far more to turn this into a fair and equitable land.~
-@50 /*Anomen*/ = ~The leaders do not see it. I was going to change things, my lady, when I eventually rose to power. I was going to make the Order a force to be feared by evil everywhere.~
+@46 /*Clara*/ = ~Only that it foolishly cast you out, my lord.~
+@47 /*Anomen*/ = ~Indeed... but the Order is still the greatest force for righteousness in Faerûn: an army of knights and paladins ready to combat evil wherever it is found. Only... what kind of army is it if it is allowed to strike back only when the enemy attacks first?~
+@48 /*Anomen*/ = ~And yet, you are right, the Order is foolish. Its leaders are a cautious lot, unwilling to do what is needed to make the world a better place. They speak of "staying out of politics," they speak of "order." But whose order are they preserving? The order of nobles raising their cups at banquets. The order of councilors who watch commoners starve and do nothing. That is not justice. That is cowardice in fine robes, sitting in high seats and putting on airs.~
+@49 /*Anomen*/ = ~The Order needs younger, bolder leadership. Not leadership that "asks the council for approval," but leadership that *commands the council to obey*. If justice cannot be achieved through persuasion, then it must be achieved through force. This is not tyranny—it is tipping the scales back to the middle. Do you understand, my lady? I am not pursuing power. I am pursuing a justice that cannot be achieved without power.~
+@50 /*Anomen*/ = ~The leaders do not see it. They never will. But I do. I could have changed things, my lady, if I had been able to lead. I would have made the Order a mighty force everywhere. Not a force that "asks permission," but a force that *needs no permission*. Evil does not wait for council debate. It does not follow procedure. It knows only violence, respects only strength. So justice must do the same. Not because we want to—but because *we have no other choice*.~
 @51 /*Anomen*/ = ~And now...~
-@52 /*Anomen*/ = ~Now...~
-@53 /*Anomen*/ = ~Forgive me, my lady, I fear I have become a poor companion. We will talk again when my mood has lifted.~
+@52 /*Anomen*/ = ~Now... I cannot even enter the Order. What I just said... does it not sound like the ravings of a failure? I do not even know whether I am pursuing justice, or pursuing proof of myself.~
+@53 /*Anomen*/ = ~Forgive me, my lady, I fear I have become poor company. What I just said... do not take it to heart. A man who cannot even prove himself has no right to speak of changing the world. We will talk again when my mood has lifted.~
 
 @54 /*Keldorn*/ = ~*sigh* Once again, Anomen, you follow pride rather than your head, which is why you are no longer with us. The Order remains free of corruption because we don't take part in the politics you mention.~
 @55 /*Anomen*/ = ~Aye, you see the right of it, I think. But it is too late for that. If only I could seize control and make it right.~

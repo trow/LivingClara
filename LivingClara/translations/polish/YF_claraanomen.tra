@@ -32,7 +32,7 @@
 
 //2nd Talk, multiple variations~
 @30 /*Anomen*/ = ~Co pani wie o Zakonie Lśniącego Serca?~ [ANOMEN68]
-@31 /*Clara*/ = ~Bardzo niewiele, milordzie.~
+@31 /*Clara*/ = ~Niezbyt wiele, milordzie.~
 @32 /*Anomen*/ = ~W takim razie powinna pani wiedzieć. Zakon to największa siła sprawiedliwości w Faerûnie: armia rycerzy i paladynów gotowych walczyć ze złem gdziekolwiek się pojawi.~
 @33 /*Anomen*/ = ~Istniejemy, by służyć, ale słuchamy tylko głosu serca i sumienia. Niewiele jest stworzeń, które mogłyby stawić czoła całej sile Zakonu.~
 @34 /*Anomen*/ = ~Osobiście nie rozumiem, dlaczego Zakon nie przejął kontroli nad Radą. Mógłby zrobić o wiele więcej, aby uczynić tę ziemię sprawiedliwą i równą.~
@@ -40,23 +40,23 @@
 @36 /*Keldorn*/ = ~Gdybyśmy pozwolili, by władza kolidowała z naszymi sprawiedliwymi sercami, gdzie byśmy się znaleźli? Nawet Rada ma swoje miejsce na tej ziemi; z pewnością to rozumiesz?~
 @37 /*Anomen*/ = ~Minęły czasy, gdy potrzebowałem rady rycerza Zakonu w każdej sprawie, sir Keldornie. Słyszałem wiele razy ten powtarzany pogląd i nie zgadzam się z nim.~
 @38 /*Anomen*/ = ~Zwykli ludzie cierpią z powodu zbyt wielu nierówności i niesprawiedliwości, a Zakon powinien zrobić więcej, by ulżyć ich beznadziejnemu losowi. Co pani o tym sądzi, moja pani?~
-@39 /*Clara*/ = ~Myślę, że ma pan rację. Zakon mógłby zrobić więcej. Gdyby tylko pan miał władzę.~
-@40 /*Anomen*/ = ~Tak, myślę, że pani to widzi. Będę o tym pamiętać, gdy przejdę próbę. Zakon musi stać się bardziej aktywną siłą zmian, a nie tylko walczyć z najbardziej oczywistym złem.~
+@39 /*Clara*/ = ~Rozumiem, co pan ma na myśli, milordzie. Każde pańskie słowo przypomina mi to, co widziałam na ulicach Amn—głodujące dzieci, zwykłych ludzi zabijanych przez szlachtę dla kaprysu i rycerzy, którzy mogli temu wszystkiemu zapobiec, ale wybrali „nieangażowanie się w politykę”. Mówi pan, że Zakon powinien robić więcej. Ale wybaczy pan szczerość, milordzie... oni nie powinni tylko robić więcej. Oni *muszą* robić więcej. Niewiele wiem o Zakonie, ale wiem jedno: kiedy dobrzy ludzie decydują się stać z boku, źli ludzie rządzą światem w ich miejsce. Pyta pan, co myślę? Zastanawiam się... dlaczego człowiek, który naprawdę troszczy się o zwykłych ludzi, taki jak pan, miałby być związany zacofanymi starymi zasadami? Jeśli same zasady chronią niesprawiedliwość, jaka jest różnica między tymi, którzy ich przestrzegają, a współwinowajcami?~
+@40 /*Anomen*/ = ~Tak... tak, ma pani rację. Same zasady chronią niesprawiedliwość. Nigdy tak nie myślałem... Zakon zawsze mówi „nie angażujcie się w politykę”, a polityka każdego dnia krzywdzi niewinnych. Zakon musi stać się bardziej aktywną siłą zmian, a nie tylko walczyć z powierzchownym złem.~
 @41 /*Anomen*/ = ~Tak, myślę, że pani to widzi. Będę o tym pamiętać. Zakon musi stać się bardziej aktywną siłą zmian, a nie tylko walczyć z najbardziej oczywistym złem.~
 @42 /*Keldorn*/ = ~Zakon ma swoje miejsce, Anomenie, a rządzenie nim nie jest jego rolą. Twoja wizja jest błędna i dobrze by było, gdybyś się dobrze zastanowił, zanim podejmiesz jakieś pochopne działania.~
-@43 /*Anomen*/ = ~Być może, sir Keldornie. Przemyslę twoje słowa, ale nadal wierzę, że błądzą ci, którzy nie szukają nowych sposobów walki z chaosem.~
+@43 /*Anomen*/ = ~Tak, sir Keldornie. Rozważam twoje słowa. Ale myślę, że Clara ma rację—kiedy dobrzy ludzie stoją z boku, źli rządzą światem. Mówisz, że Zakon ma swoje miejsce. Ale kto ustala to miejsce? Czy ustalają je ci, którzy chcą, aby Zakon nigdy nie stanął im na drodze?~
 
-@44 /*Anomen*/ = ~Mam na myśli wszystkie cierpienia, jakie znosi przeciętny mieszczanin. Głód, nierówności i niesprawiedliwość... bunty na południu. Wszyscy agenci chaosu.~
-@45 /*Anomen*/ = ~Gdyby Zakon dowodził jako siła prawdziwego dobra i uczciwego braterstwa, takie rzeczy z pewnością by się nie działy, prawda? Nie rozumiem, dlaczego więcej ludzi tego nie dostrzega.~
+@44 /*Anomen*/ = ~Mam na myśli wszystkie cierpienia, jakie znoszą zwykli ludzie. Głód i trudy, nierówności i niesprawiedliwość... bunty na południu. Wszyscy agenci chaosu.~
+@45 /*Anomen*/ = ~Gdyby Zakon dowodził jako siła prawdziwego dobra i uczciwego braterstwa, takie rzeczy w ogóle by się nie działy. Może... może pytanie nie brzmi, czy Zakon powinien przejąć władzę. Pytanie brzmi, że jest zbyt słaby, by ją przejąć. Jeśli Zakon naprawdę chce zakończyć niesprawiedliwość, nie potrzebuje więcej dyskusji, ale silniejszej woli.~
 
-@46 /*Clara*/ = ~Tylko tyle, że był na tyle głupi, by pana wyrzucić, milordzie.~
-@47 /*Anomen*/ = ~Rzeczywiście, ale Zakon nadal jest największą siłą sprawiedliwości w Faerûnie: armią rycerzy i paladynów gotowych walczyć ze złem gdziekolwiek się pojawi.~
-@48 /*Anomen*/ = ~Jednak ma pani rację, Zakon jest głupi. Jego przywódcy to ostrożni ludzie, niechętni do robienia tego, co konieczne, by uczynić świat lepszym.~
-@49 /*Anomen*/ = ~Zakon potrzebuje młodszego, odważniejszego przywództwa, które przejęłoby kontrolę nad Radą. Mógłby zrobić o wiele więcej, aby uczynić tę ziemię sprawiedliwą i równą.~
-@50 /*Anomen*/ = ~Przywódcy tego nie widzą. Zamierzałem to zmienić, moja pani, gdy w końcu dojdę do władzy. Zamierzałem uczynić Zakon przerażającą siłą dla zła, gdziekolwiek by się nie pojawiło.~
+@46 /*Clara*/ = ~Tylko tyle, że głupio pana wyrzucił, milordzie.~
+@47 /*Anomen*/ = ~Rzeczywiście... ale Zakon nadal jest największą siłą sprawiedliwości w Faerûnie: armią rycerzy i paladynów gotowych walczyć ze złem gdziekolwiek się pojawi. Tylko... cóż to za armia, jeśli wolno jej uderzyć dopiero wtedy, gdy wróg zaatakuje pierwszy?~
+@48 /*Anomen*/ = ~Jednak ma pani rację, Zakon jest głupi. Jego przywódcy to ostrożni ludzie, niechętni robieniu tego, co konieczne, by uczynić świat lepszym. Mówią „nie angażujcie się w politykę”, mówią „porządek”. Ale czyj porządek chronią? Porządek szlachty wznoszącej kielichy na bankietach. Porządek radnych, którzy patrzą, jak zwykli ludzie głodują, i nic nie robią. To nie sprawiedliwość. To tchórzostwo w pięknych szatach, siedzące na wysokich miejscach i odgrywające teatr.~
+@49 /*Anomen*/ = ~Zakon potrzebuje młodszego, odważniejszego przywództwa. Nie takiego, które „prosi Radę o zgodę”, ale takiego, które *rozkazuje Radzie być posłusznej*. Jeśli sprawiedliwości nie można osiągnąć przez perswazję, trzeba ją osiągnąć siłą. To nie tyrania—to przywrócenie szali do środka. Rozumie pani? Nie dążę do władzy. Dążę do sprawiedliwości, której bez władzy nie da się osiągnąć.~
+@50 /*Anomen*/ = ~Przywódcy tego nie widzą. Nigdy nie zobaczą. Ale ja tak. Mogłem zmienić bieg rzeczy, moja pani, gdybym mógł przewodzić. Uczyniłbym Zakon potężną siłą wszędzie. Nie siłą, która „prosi o pozwolenie”, ale siłą, która *nie potrzebuje pozwolenia*. Zło nie czeka na debaty w Radzie. Nie przestrzega procedur. Zna tylko przemoc, szanuje tylko siłę. Więc sprawiedliwość musi zrobić to samo. Nie dlatego, że chcemy—ale dlatego, że *nie mamy innego wyjścia*.~
 @51 /*Anomen*/ = ~A teraz...~
-@52 /*Anomen*/ = ~Teraz...~
-@53 /*Anomen*/ = ~Wybaczy mi pani, moja pani, obawiam się, że stałem się kiepskim towarzyszem. Porozmawiamy, gdy moje humory się poprawią.~
+@52 /*Anomen*/ = ~Teraz... nie mogę nawet wstąpić do Zakonu. To, co właśnie powiedziałem... czy nie brzmi jak majaczenie nieudacznika? Sam nie wiem, czy dążę do sprawiedliwości, czy do udowodnienia siebie.~
+@53 /*Anomen*/ = ~Wybaczy mi pani, moja pani, obawiam się, że stałem się kiepskim towarzyszem. To, co właśnie powiedziałem... nie bierz tego do serca. Człowiek, który nie potrafi udowodnić sam siebie, nie ma prawa mówić o zmienianiu świata. Porozmawiamy, gdy poprawi mi się nastrój.~
 
 @54 /*Keldorn*/ = ~*westchnienie* Znowu, Anomenie, kierujesz się pychą, a nie rozumem – i dlatego już z nami nie jesteś. Zakon pozostaje nieskażony korupcją właśnie dlatego, że nie angażujemy się w politykę, o której mówisz.~
 @55 /*Anomen*/ = ~Tak, myślę, że pani to widzi. Ale jest już za późno. Gdybym tylko mógł przejąć kontrolę i zrobić to, co należy.~

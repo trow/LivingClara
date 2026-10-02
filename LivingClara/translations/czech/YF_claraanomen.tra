@@ -32,7 +32,7 @@
 
 //2nd Talk, multiple variations~
 @30 /*Anomen*/ = ~Co víte o Řádu Zářícího srdce?~ [ANOMEN68]
-@31 /*Clara*/ = ~Velmi málo, milorde.~
+@31 /*Clara*/ = ~Nevím toho mnoho, milorde.~
 @32 /*Anomen*/ = ~Pak byste o tom měla vědět. Řád je největší silou spravedlnosti ve Faerûnu: armáda rytířů a paladinů připravená bojovat se zlem kdekoli se objeví.~
 @33 /*Anomen*/ = ~Existujeme, abychom sloužili, ale posloucháme pouze hlas srdce a svědomí. Jen málo tvorů dokáže čelit plné síle Řádu.~
 @34 /*Anomen*/ = ~Osobně nechápu, proč Řád nepřevzal kontrolu nad Radou. Mohl by udělat mnohem více, aby z této země učinil spravedlivou a rovnoprávnou.~
@@ -40,23 +40,23 @@
 @36 /*Keldorn*/ = ~Kdybychom dovolili, aby se vláda střetávala s našimi spravedlivými srdci, kde bychom skončili? I Rada má na této zemi své místo; to jistě chápeš?~
 @37 /*Anomen*/ = ~Dávno jsou pryč časy, kdy jsem potřeboval radu rytíře Řádu na každý svůj nápad, sire Keldorne. Slyšel jsem mnohokrát opakovaný názor, s nímž nesouhlasím.~
 @38 /*Anomen*/ = ~Obyčejní lidé trpí příliš mnoha nerovnostmi a nespravedlnostmi a Řád by měl udělat více pro zmírnění jejich beznadějného údělu. Co si o tom myslíte, má paní?~
-@39 /*Clara*/ = ~Myslím, že máte pravdu. Řád by mohl udělat víc. Kdybyste jen vy měl moc.~
-@40 /*Anomen*/ = ~Ano, myslím, že to vidíte. Budu si to pamatovat, až projdu zkouškou. Řád se musí stát aktivnější silou změny, nejen bojovat s tím nejzřetelnějším zlem.~
+@39 /*Clara*/ = ~Chápu, co tím myslíte, milorde. Každé vaše slovo mi připomíná, co jsem viděla v ulicích Amnu—hladovějící děti, prosté lidi, které šlechtici nechali z rozmaru ubít, a rytíře, kteří tomu mohli zabránit, ale rozhodli se „neúčastnit se politiky“. Říkáte, že Řád by měl dělat víc. Ale odpuste mi, milorde... oni by neměli jen dělat víc. Oni *musí* dělat víc. O Řádu toho moc nevím, ale vím jednu věc: když se dobří lidé rozhodnou stát stranou, zlí lidé budou vládnout světu místo nich. Ptáte se, co si myslím? Přemýšlím... proč by člověk, jako jste vy, kterému skutečně záleží na prostých lidech, měl být svázán zpátečnickými starými pravidly? Pokud pravidla sama chrání nespravedlnost, jaký je rozdíl mezi těmi, kdo je poslouchají, a spoluviníky?~
+@40 /*Anomen*/ = ~Ano... ano, máte pravdu. Pravidla sama chrání nespravedlnost. Nikdy jsem o tom tak nepřemýšlel... Řád vždy říká „neúčastnit se politiky“, ale politika každý den ubližuje nevinným. Řád se musí stát aktivnější silou změny, ne jen bojovat s povrchním zlem.~
 @41 /*Anomen*/ = ~Ano, myslím, že to vidíte. Budu si to pamatovat. Řád se musí stát aktivnější silou změny, nejen bojovat s tím nejzřetelnějším zlem.~
 @42 /*Keldorn*/ = ~Řád má své místo, Anomene, a vláda není jeho role. Tvá vize je chybná a měl bys dobře zvážit, než uděláš něco unáhleného.~
-@43 /*Anomen*/ = ~Možná, sire Keldorne. Budu přemýšlet o tvých slovech, ale stále věřím, že chybují ti, kdo nehledají nové způsoby boje proti chaosu.~
+@43 /*Anomen*/ = ~Ano, sire Keldorne. Přemýšlím o tvých slovech. Ale myslím, že Clara má pravdu—když dobří lidé stojí stranou, zlí lidé vládnou světu. Říkáš, že Řád má své místo. Ale kdo určuje to místo? Určují ho ti, kdo chtějí, aby Řád nikdy nepřekážel?~
 
-@44 /*Anomen*/ = ~Mám na mysli všechno utrpení, které snáší obyčejný lid. Hlad, nerovnosti a nespravedlnost... povstání na jihu. Všichni agenti chaosu.~
-@45 /*Anomen*/ = ~Kdyby Řád velel jako síla pravého dobra a počestného bratrstva, takové věci by se jistě nestávaly, že? Nechápu, proč to více lidí nevidí.~
+@44 /*Anomen*/ = ~Mám na mysli všechno utrpení, které snáší prostí lidé. Hlad a útrapy, nerovnosti a nespravedlnost... povstání na jihu. Všichni agenti chaosu.~
+@45 /*Anomen*/ = ~Kdyby Řád velel jako síla pravého dobra a počestného bratrstva, takové věci by se vůbec nestávaly. Možná... možná otázka není, zda má Řád převzít moc. Otázka je, že je příliš slabý na to, aby ji převzal. Pokud Řád skutečně chce ukončit nespravedlnost, nepotřebuje více diskusí, ale pevnější vůli.~
 
-@46 /*Clara*/ = ~Jen to, že byl dost hloupý, aby vás vyhodil, milorde.~
-@47 /*Anomen*/ = ~Ano, ale Řád je stále největší silou spravedlnosti ve Faerûnu: armáda rytířů a paladinů připravená bojovat se zlem kdekoli se objeví.~
-@48 /*Anomen*/ = ~Přesto máte pravdu, Řád je hloupý. Jeho vůdci jsou opatrní lidé, neochotní dělat to, co je nutné, aby udělali svět lepším.~
-@49 /*Anomen*/ = ~Řád potřebuje mladší, odvážnější vedení, které by převzalo kontrolu nad Radou. Mohl by udělat mnohem více, aby z této země učinil spravedlivou a rovnoprávnou.~
-@50 /*Anomen*/ = ~Vůdci to nevidí. Měl jsem v úmyslu to změnit, má paní, až konečně dojdu k moci. Měl jsem v úmyslu učinit Řád děsivou silou pro zlo, ať se objeví kdekoli.~
+@46 /*Clara*/ = ~Jen to, že vás hloupě vyhnal, milorde.~
+@47 /*Anomen*/ = ~Jistě... ale Řád je stále největší silou spravedlnosti ve Faerûnu: armáda rytířů a paladinů připravená bojovat se zlem kdekoli se objeví. Jen... co je to za armádu, když smí udeřit jen tehdy, když nepřítel zaútočí první?~
+@48 /*Anomen*/ = ~Přesto máte pravdu, Řád je hloupý. Jeho vůdci jsou opatrní lidé, neochotní dělat to, co je nutné, aby udělali svět lepším. Mluví o „neúčasti v politice“, mluví o „řádu“. Ale čí řád vlastně chrání? Řád šlechticů, kteří zvedají číše na hostinách. Řád radních, kteří se dívají, jak prostí lidé hladoví, a nic nedělají. To není spravedlnost. To je zbabělost v ušlechtilém rouchu, sedící na vysokých křeslech a hrající divadlo.~
+@49 /*Anomen*/ = ~Řád potřebuje mladší, odvážnější vedení. Ne takové, které „žádá Radu o schválení“, ale takové, které *přikazuje Radě poslechnout*. Pokud spravedlnosti nelze dosáhnout přesvědčováním, musí jí být dosaženo silou. To není tyranie—to je vrácení vah zpět do středu. Chápete, má paní? Neusiluji o moc. Usiluji o spravedlnost, které bez moci nelze dosáhnout.~
+@50 /*Anomen*/ = ~Vůdci to nevidí. Nikdy neuvidí. Ale já ano. Mohl jsem věci změnit, má paní, kdybych mohl vést. Udělal bych z Řádu mocnou sílu všude. Ne sílu, která „žádá o svolení“, ale sílu, která *svolení nepotřebuje*. Zlo nečeká na debaty v Radě. Neřídí se procedurami. Zná jen násilí, respektuje jen sílu. Takže spravedlnost musí udělat totéž. Ne proto, že chceme—ale protože *nemáme jinou možnost*.~
 @51 /*Anomen*/ = ~A teď...~
-@52 /*Anomen*/ = ~Teď...~
-@53 /*Anomen*/ = ~Omluvte mě, má paní, obávám se, že jsem se stal špatným společníkem. Promluvíme si, až se mi zlepší nálada.~
+@52 /*Anomen*/ = ~Teď... nemohu ani vstoupit do Řádu. To, co jsem právě řekl... nezní to jako blouznění ztroskotance? Ani nevím, zda usiluji o spravedlnost, nebo o to dokázat sám sebe.~
+@53 /*Anomen*/ = ~Omluvte mě, má paní, obávám se, že jsem se stal špatným společníkem. To, co jsem právě řekl... neberte si to k srdci. Člověk, který nedokáže prokázat sám sebe, nemá právo mluvit o změně světa. Promluvíme si, až se mi zlepší nálada.~
 
 @54 /*Keldorn*/ = ~*povzdech* Znovu, Anomene, řídíš se pýchou, ne rozumem – a proto už s námi nejsi. Řád zůstává neposkvrněný korupcí právě proto, že se neúčastníme politiky, o níž mluvíš.~
 @55 /*Anomen*/ = ~Ano, myslím, že to vidíte. Ale teď je pozdě. Kdybych jen mohl převzít kontrolu a udělat to, co je správné.~

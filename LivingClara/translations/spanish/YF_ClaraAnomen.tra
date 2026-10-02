@@ -32,7 +32,7 @@
 
 //2nd Talk, multiple variations~
 @30 /*Anomen*/ = ~¿Qué sabe de mi Orden del Corazón Radiante?~ [ANOMEN68]
-@31 /*Clara*/ = ~Muy poco, mi señor.~
+@31 /*Clara*/ = ~No mucho, mi señor.~
 @32 /*Anomen*/ = ~Entonces debería estar informada, ciertamente. La Orden es la mayor fuerza de virtud en Faerûn: un ejército de caballeros y paladines dispuestos a luchar contra el mal dondequiera que se encuentre.~
 @33 /*Anomen*/ = ~Existimos para servir, pero no seguimos ningún mandato excepto los de nuestro corazón y conciencia. Son pocas las criaturas que pueden resistir el poderío total de los ejércitos de la Orden.~
 @34 /*Anomen*/ = ~Personalmente, no entiendo por qué la Orden no toma el control del consejo. Podría hacer mucho más para convertir esta tierra en un lugar justo y equitativo.~
@@ -40,23 +40,23 @@
 @36 /*Keldorn*/ = ~Si permitiéramos que el gobierno entrara en conflicto con nuestros corazones virtuosos, ¿dónde estaríamos? Incluso el consejo tiene su lugar en esta tierra; seguro que lo sabes, ¿verdad?~
 @37 /*Anomen*/ = ~Hace tiempo que superé la época en que necesitaba que un caballero de la Orden respondiera a cada uno de mis pensamientos, Sir Keldorn. He oído a mucha gente expresar la idea que repites y no estoy de acuerdo.~
 @38 /*Anomen*/ = ~Hay demasiada desigualdad e injusticia para el hombre común, y la Orden debería hacer más para aliviar sus existencias desesperadas. ¿Qué opina usted, mi señora?~
-@39 /*Clara*/ = ~Creo que tiene razón. La Orden podría hacer más. Si solo usted estuviera al mando.~
-@40 /*Anomen*/ = ~Sí, creo que usted ve el sentido de esto. Es algo que tendré en cuenta una vez que haya pasado la Prueba. La Orden debe convertirse en una fuerza de cambio más activa, en lugar de simplemente luchar contra los males más evidentes.~
+@39 /*Clara*/ = ~Entiendo lo que quiere decir, mi señor. Cada palabra suya me recuerda lo que he visto en las calles de Amn—niños hambrientos, plebeyos golpeados hasta la muerte por nobles a su antojo, y caballeros que podrían haber detenido todo eso pero eligieron «no meterse en política». Usted dice que la Orden debería hacer más. Pero perdone mi franqueza, mi señor... no deberían limitarse a hacer más. *Deben* hacer más. Sé poco de la Orden, pero sé una cosa: cuando los buenos eligen quedarse al margen, los malvados gobiernan el mundo en su lugar. ¿Me pregunta qué pienso? Me pregunto... por qué un hombre que realmente se preocupa por el pueblo llano, como usted, debería estar atado por viejas reglas rígidas. Si las reglas mismas protegen la injusticia, ¿qué diferencia hay entre quienes las obedecen y los cómplices?~
+@40 /*Anomen*/ = ~Sí... sí, tiene razón. Las reglas mismas protegen la injusticia. Nunca lo había pensado así... La Orden siempre dice «no se meta en política», pero la política daña a inocentes cada día. La Orden debe convertirse en una fuerza de cambio más activa, no solo luchar contra los males superficiales.~
 @41 /*Anomen*/ = ~Sí, creo que usted ve el sentido de esto. Es algo que tendré en cuenta. La Orden debe convertirse en una fuerza de cambio más activa, en lugar de simplemente luchar contra los males más evidentes.~
 @42 /*Keldorn*/ = ~La Orden tiene su lugar, Anomen, y el gobierno no es uno de ellos. Tu visión es errónea, y harías bien en pensar muy cuidadosamente antes de hacer cualquier cosa temeraria.~
-@43 /*Anomen*/ = ~Quizás, Sir Keldorn. Meditaré tus palabras, pero sigo creyendo que el defecto reside en aquellos que no piensan en nuevas formas de combatir el caos.~
+@43 /*Anomen*/ = ~Sí, Sir Keldorn. Estoy meditando sus palabras. Pero creo que Clara tiene razón—cuando los buenos se quedan al margen, los malvados gobiernan el mundo. Usted dice que la Orden tiene su lugar. Pero ¿quién decide ese lugar? ¿Lo deciden quienes quieren que la Orden nunca se interponga en su camino?~
 
-@44 /*Anomen*/ = ~Quiero decir, piense en todo el sufrimiento que soporta el ciudadano común. Hambre, desigualdad e injusticia... las rebeliones en el sur. Todos agentes del caos.~
-@45 /*Anomen*/ = ~Seguramente tales cosas no ocurrirían si la Orden comandara como una fuerza de verdadera bondad y hermandad honesta. No entiendo por qué más gente no lo ve.~
+@44 /*Anomen*/ = ~Quiero decir, piense en todo el sufrimiento que soporta el pueblo llano. Hambre y penalidades, desigualdad e injusticia... las rebeliones en el sur. Todos agentes del caos.~
+@45 /*Anomen*/ = ~Si la Orden mandara como una fuerza de verdadera bondad y hermandad honesta, tales cosas no ocurrirían en absoluto. Quizá... quizá la cuestión no sea si la Orden debería tomar el poder. La cuestión es que son demasiado débiles para tomarlo. Si la Orden de verdad quiere acabar con la injusticia, no necesita más discusión, sino una voluntad más firme.~
 
-@46 /*Clara*/ = ~Solo que fue lo suficientemente estúpida como para despedirlo a usted, mi señor.~
-@47 /*Anomen*/ = ~Es cierto, pero la Orden sigue siendo la mayor fuerza de virtud en Faerûn: un ejército de caballeros y paladines dispuestos a luchar contra el mal dondequiera que se encuentre.~
-@48 /*Anomen*/ = ~Y sin embargo, tiene razón, la Orden es estúpida. Sus líderes son un grupo cauteloso, poco dispuesto a hacer lo necesario para mejorar el mundo.~
-@49 /*Anomen*/ = ~La Orden necesita líderes más jóvenes y audaces que tomen el control del consejo. Podría hacer mucho más para convertir esta tierra en un lugar justo y equitativo.~
-@50 /*Anomen*/ = ~Los líderes no lo ven. Yo iba a cambiar las cosas, mi señora, cuando finalmente llegara al poder. Iba a hacer de la Orden una fuerza temida por el mal en todas partes.~
+@46 /*Clara*/ = ~Solo que estúpidamente lo expulsó, mi señor.~
+@47 /*Anomen*/ = ~Cierto... pero la Orden sigue siendo la mayor fuerza de virtud en Faerûn: un ejército de caballeros y paladines dispuestos a luchar contra el mal dondequiera que se encuentre. Solo... ¿qué clase de ejército es si solo se le permite devolver el golpe cuando el enemigo ataca primero?~
+@48 /*Anomen*/ = ~Y sin embargo, tiene razón, la Orden es estúpida. Sus líderes son un grupo cauteloso, poco dispuesto a hacer lo necesario para mejorar el mundo. Hablan de «no meterse en política», hablan de «orden». Pero ¿de quién es el orden que preservan? El orden de los nobles que alzan sus copas en los banquetes. El orden de los consejeros que ven morir de hambre al pueblo y no hacen nada. Eso no es justicia. Es cobardía con ropajes finos, sentada en altos sitiales y fingiendo importancia.~
+@49 /*Anomen*/ = ~La Orden necesita un liderazgo más joven y audaz. No uno que «pida aprobación al consejo», sino uno que *ordene al consejo obedecer*. Si la justicia no puede lograrse mediante la persuasión, debe lograrse mediante la fuerza. Esto no es tiranía—es inclinar la balanza de nuevo al centro. ¿Lo entiende, mi señora? No busco el poder. Busco una justicia que no puede lograrse sin poder.~
+@50 /*Anomen*/ = ~Los líderes no lo ven. Nunca lo verán. Pero yo sí. Yo podría haber cambiado las cosas, mi señora, si hubiera podido liderar. Habría hecho de la Orden una fuerza poderosa en todas partes. No una fuerza que «pide permiso», sino una fuerza que *no necesita permiso*. El mal no espera los debates del consejo. No sigue procedimientos. Solo conoce la violencia, solo respeta la fuerza. Así que la justicia debe hacer lo mismo. No porque queramos—sino porque *no tenemos otra opción*.~
 @51 /*Anomen*/ = ~Y ahora...~
-@52 /*Anomen*/ = ~Ahora...~
-@53 /*Anomen*/ = ~Perdóneme, mi señora, me temo que me he convertido en un pobre compañero. Hablaremos de nuevo cuando mi ánimo mejore.~
+@52 /*Anomen*/ = ~Ahora... ni siquiera puedo entrar en la Orden. Lo que acabo de decir... ¿no suena como las divagaciones de un fracasado? Ni siquiera sé si busco la justicia o busco demostrarme a mí mismo.~
+@53 /*Anomen*/ = ~Perdóneme, mi señora, temo que me he convertido en un pobre compañero. Lo que acabo de decir... no lo tome a pecho. Un hombre que no puede demostrarse a sí mismo no tiene derecho a hablar de cambiar el mundo. Hablaremos de nuevo cuando mi ánimo mejore.~
 
 @54 /*Keldorn*/ = ~*suspira* Una vez más, Anomen, sigues el orgullo en lugar de tu cabeza, y por eso ya no estás con nosotros. La Orden permanece libre de corrupción porque no participamos en la política que mencionas.~
 @55 /*Anomen*/ = ~Sí, creo que usted ve el sentido de esto. Pero ya es demasiado tarde para eso. Si solo pudiera tomar el control y arreglar las cosas.~
