@@ -1006,7 +1006,7 @@ END
 CHAIN GERETH GerethFlee
 @416 /*No! That book and all its secrets are mine! I'll never give it back! Never! Not when I'm so close!*/
 = @417 /*You'll never take away my beautiful creations!*/
-DO ~SetGlobal("YF_RoseLibrary","GLOBAL",6) ReallyForceSpell(Myself,DRYAD_TELEPORT) Wait(1) ChangeAIScript("YF_GERETH",OVERRIDE) DestroySelf() AddJournalEntry(@1009,QUEST)~
+DO ~SetGlobal("YF_RoseLibrary","GLOBAL",6) ReallyForceSpell(Myself,DRYAD_TELEPORT) Wait(1) ChangeAIScript("YF_GERET",OVERRIDE) AddJournalEntry(@1009,QUEST) DestroySelf()~
 EXIT
 
 //Second Ribald

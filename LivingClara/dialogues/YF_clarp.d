@@ -27,7 +27,7 @@ APPEND YF_clarp IF ~Global("KickedOut","LOCALS",0) !Global("YF_LordAndLadyDelryn
 	IF ~~ THEN YF_CP4
 	SAY @7 /*You want me to go? Okay, I'll meet you at the Shadow Thief headquarters.*/
 		++ @4 /*No, I need you to stay right here. I'll be back soon.*/ GOTO YF_CP3
-		++ @5 /*Okay, I'll find you there.*/DO ~SetGlobal("KickedOut","LOCALS",1) ChangeAIScript("",DEFAULT) EscapeAreaMove("AR0306",578,328,S) SetGlobal("YF_ClaraWaiting","GLOBAL",0)~ EXIT
+		++ @5 /*Okay, I'll find you there.*/DO ~SetGlobal("KickedOut","LOCALS",1) ChangeAIScript("",DEFAULT) SetGlobal("YF_ClaraWaiting","GLOBAL",0) EscapeAreaMove("AR0306",578,328,S)~ EXIT
 	END
 	
 	IF ~~ THEN YF_CP5
