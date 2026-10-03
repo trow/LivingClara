@@ -50,8 +50,8 @@ THEN
 	RESPONSE #100
 	ReallyForceSpell(Myself,DRYAD_TELEPORT)
 	Wait(1)
-	DestroySelf()
 	SetGlobal("YF_RoseLibrary","GLOBAL",14)
+	DestroySelf()
 END
 
 //MoveBetweenAreasEffect("AR0702","SPDIMNDR",[972.643],SE) - alternate effect. Used other option to avoid him being retriggered as enemy

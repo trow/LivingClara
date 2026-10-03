@@ -591,7 +591,7 @@ COMPILE ~LivingClara/scripts/YF_cla25.baf~
 // 编译 Clara 在 TOB 阶段的对话脚本 (YF_cl25d.baf -> YF_cl25d.bcs)。
 COMPILE ~LivingClara/scripts/YF_cl25d.baf~
 // 编译 Gereth 相关的脚本（用于 Clara 的第二个任务）。
-COMPILE ~LivingClara/scripts/YF_Gereth.baf~ EVALUATE_BUFFER  //2nd Clara Quest
+COMPILE ~LivingClara/scripts/YF_Geret.baf~ EVALUATE_BUFFER  //2nd Clara Quest
 
 // ----- 扩展现有游戏脚本以整合 Clara 的剧情 -----
 // 将 Clara 的获取脚本 (YF_gettingclara.baf) 添加到游戏主脚本 baldur.bcs 的顶部 (EXTEND_TOP)。
