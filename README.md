@@ -57,8 +57,9 @@ To prevent the Cloak of Dragomir and Dragomir's Respite from going to waste afte
 
 **Compatibility Notes:**
 - Compatible with most mods
-- **Do NOT install alongside the Mazzy MegaMod** (the original mod from which the Clara content was derived, as it contains duplicate material)
-- **Do NOT install the "Nothing kills romances" component** from the Romance Cheats section of The Tweaks Anthology mod (as it will prevent Anomen and Clara from developing a romance)
+- **Do NOT install alongside the Mazzy MegaMod** (the original mod from which the Clara content was derived, as it contains duplicate material).
+- **Do NOT install the "Nothing kills romances" component** from the Romance Cheats section of The Tweaks Anthology mod (as it will prevent Anomen and Clara from developing a romance).
+- **Do NOT install the "Disable Hexxat" component** from the A7-NoEENPCs MOD (this component blocks the appearance of the fake Hexxat, thereby making it impossible to accept the shared recruitment quest for Clara and Hexxat).
 
 **Installation Order:**
 - Install after [Saradas Magic for BG2](https://github.com/Spellhold-Studios/Saradas-Magic-BG2) for proper Crossmod interjections
