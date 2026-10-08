@@ -66,8 +66,9 @@ To prevent the Cloak of Dragomir and Dragomir's Respite from going to waste afte
 - Install after Anomen's extended plot component of [Hidden Adventures](https://github.com/Gitjas/hiddenadventure)  to avoid plot logic errors
 - To keep Clara's kit as Shadowdancer, install this mod prior to the three kit mods mentioned below.
   - Installing this mod after the Trickster kit from [The Artisan's Kitpack](https://github.com/TheArtisanBG/The-Artisan-s-Kitpack/) will change Clara's kit to Trickster.
-  - Installing this mod after the Seducer Kit from semiticgoddess's [Expanded Classes and Kits](https://forums.beamdog.com/discussion/77859/), and without the Trickster kit installed, will change Clara's kit to Seducer.
-  - Installing this mod after the Charming Rogue from Jarno Mikkola's [Mega Mod Kits](https://www.shsforums.net/files/file/905-megamodkits/), and without the Trickster kit or the Seducer Kit installed, will change Clara's kit to Charming Rogue.
+  - Installing this mod after the qin06dz Kit from qinsisuo06's [qin06dz Kits](https://tieba.baidu.com/p/9409160849), and without the Trickster kit installed, will change Clara's kit to qin06dz.
+  - Installing this mod after the Seducer Kit from semiticgoddess's [Expanded Classes and Kits](https://forums.beamdog.com/discussion/77859/), and without the Trickster kit or the qin06dz Kit installed, will change Clara's kit to Seducer.
+  - Installing this mod after the Charming Rogue from Jarno Mikkola's [Mega Mod Kits](https://www.shsforums.net/files/file/905-megamodkits/), and without the Trickster kit or the Seducer Kit or the qin06dz Kit installed, will change Clara's kit to Charming Rogue.
 - On EET installations: install before EET_End
 
 **Known Issue:**

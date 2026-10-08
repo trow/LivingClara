@@ -2,7 +2,7 @@ BACKUP ~LivingClara/backup~
 
 AUTHOR ~MephistoSatanDevil~
 
-VERSION ~Version 1.5.2~
+VERSION ~Version 1.5.3~
 
 README ~LivingClara/translations/%LANGUAGE%/readme.txt~ ~LivingClara/readme.md~
 
@@ -805,6 +805,23 @@ ACTION_IF MOD_IS_INSTALLED ~ExpandedClasses.tp2~ 8 BEGIN
   BUT_ONLY
 END ELSE BEGIN
   PRINT @157 /*Trickster mod not detected - Clara will not be a Trickster.*/
+END
+
+// ========== Living Clara NPC -qin06dz宗派兼容 ==========
+// 检查 qin06dz宗派 mod 是否已安装
+ACTION_IF MOD_IS_INSTALLED ~Setup-qin06dz~ 0 BEGIN
+  PRINT @156
+  // SOA阶段的Clara
+  COPY_EXISTING ~YF_clara.cre~ ~override~
+    WRITE_SHORT 0x246 (IDS_OF_SYMBOL (~kit~ ~qin06dz~))
+  BUT_ONLY
+  
+  // TOB阶段的Clara
+  COPY_EXISTING ~YF_cla25.cre~ ~override~
+    WRITE_SHORT 0x246 (IDS_OF_SYMBOL (~kit~ ~qin06dz~))
+  BUT_ONLY
+END ELSE BEGIN
+  PRINT @157 /*qin06dz mod not detected - Clara will not be a qin06dz.*/
 END
 
 // ========== Living Clara NPC -Artisan's Kitpack Trickster 宗派兼容 ==========
