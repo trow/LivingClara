@@ -2,7 +2,7 @@ BACKUP ~LivingClara/backup~
 
 AUTHOR ~MephistoSatanDevil~
 
-VERSION ~Version 1.5.3~
+VERSION ~Version 1.5.4~
 
 README ~LivingClara/translations/%LANGUAGE%/readme.txt~ ~LivingClara/readme.md~
 
@@ -809,7 +809,7 @@ END
 
 // ========== Living Clara NPC -qin06dz宗派兼容 ==========
 // 检查 qin06dz宗派 mod 是否已安装
-ACTION_IF MOD_IS_INSTALLED ~Setup-qin06dz~ 0 BEGIN
+ACTION_IF MOD_IS_INSTALLED ~Setup-qin06dz.tp2~ 0 BEGIN
   PRINT @156
   // SOA阶段的Clara
   COPY_EXISTING ~YF_clara.cre~ ~override~
