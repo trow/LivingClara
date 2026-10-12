@@ -64,11 +64,12 @@ THEN
 	CreateVisualEffectObject("SHAIR","Anomen")
 	Wait(1)
     ActionOverride("Anomen",AddKit(Blackguard))
-    ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
-    ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
-	AddXPObject("Anomen",64000) 
+	ActionOverride("Anomen",ReallyForceSpellRES("YF_AFall","Anomen"))  // 阿诺门
+    //ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
+    //ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
 	SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",1)
 	ChangeClass("Anomen",PALADIN)  // 阿诺门
+	AddXPObject("Anomen",64000) 
 	SmallWait(5)
 	ActionOverride("Anomen",StartDialog("ANOMENP",Player1))
 	Continue()
@@ -89,12 +90,13 @@ THEN
 	CreateVisualEffectObject("SHAIR","Anomen")
 	Wait(1)
     ActionOverride("Anomen",AddKit(Blackguard))
-    ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
-    ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
-	AddXPObject("Anomen",64000) 
+	ActionOverride("Anomen",ReallyForceSpellRES("YF_AFall","Anomen"))  // 阿诺门
+    //ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
+    //ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
     ActionOverride("Anomen",DropItem("NPSHLD",[-1.-1]))  // 德尔林家传护盾
 	SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",1)
 	ChangeClass("Anomen",PALADIN)  // 阿诺门
+	AddXPObject("Anomen",64000) 
 	SmallWait(5)
 	ActionOverride("Anomen",StartDialog("ANOMENP",Player1))
 	Continue()
@@ -111,13 +113,14 @@ THEN
     RESPONSE #100
 		Wait(1)
         ActionOverride("Anomen",AddKit(Blackguard))
-        ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
-        ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
-		AddXPObject("Anomen",64000) 
+		ActionOverride("Anomen",ReallyForceSpellRES("YF_AFall","Anomen"))  // 阿诺门
+    //ChangeAlignment("Anomen",LAWFUL_EVIL)  // 阿诺门
+    //ReallyForceSpell("Anomen",GAIN_ONE_CHA_PERMANENT)  // 阿诺门
         SetGlobal("YF_AnomenIsAntipaladin","GLOBAL",1)
         ActionOverride("Anomen",DropItem("NPSHLD",[-1.-1]))  // 德尔林家传护盾
         ActionOverride("Anomen",PickUpItem("NPSHLD"))  // 德尔林家传护盾
         ChangeClass("Anomen",PALADIN)  // 阿诺门
+		AddXPObject("Anomen",64000) 		
 		SmallWait(5)
 		Continue()
 END

@@ -2,7 +2,7 @@ BACKUP ~LivingClara/backup~
 
 AUTHOR ~MephistoSatanDevil~
 
-VERSION ~Version 1.5.4~
+VERSION ~Version 1.5.5~
 
 README ~LivingClara/translations/%LANGUAGE%/readme.txt~ ~LivingClara/readme.md~
 
@@ -485,6 +485,7 @@ COPY ~LivingClara/spells/YF_SSP.SPL~ ~override~
 COPY ~LivingClara/spells/YF_STRAP.SPL~ ~override~
 COPY ~LivingClara/spells/YF_TIRED.SPL~ ~override~
 COPY ~LivingClara/spells/YF_TRAP.SPL~ ~override~
+COPY ~LivingClara/spells/YF_AFall.SPL~ ~override~
 
 // --- 法术: Create Poison Arrows (YF_PoisA.spl) ---
 // 复制 Clara 的新法术文件。
