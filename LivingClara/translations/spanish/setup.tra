@@ -134,9 +134,6 @@ Capacidades de carga:
 – Detección de invisibilidad una vez al día
   Área de efecto: radio de 4.5 m
 
-Requiere:
- 17 Destreza
-
 Peso: 0~
 
 //Clara's Poison Arrows
@@ -153,9 +150,7 @@ ESTADÍSTICAS:
 Capacidades equipadas:
 – Apertura de cerraduras: +20%
 – Carterismo: +20%
-
-Requiere:
- 17 Destreza
+– Esconderse en las sombras: +10%
 
 Peso: 0~
 @750 /*Usability Note*/ = ~Clara~

@@ -146,9 +146,6 @@ Ladefähigkeiten:
 – Einmal täglich Unsichtbarkeit entdecken
   Wirkungsbereich: 15-Fuß-Radius
 
-Voraussetzungen:
- 17 Geschicklichkeit
-
 Gewicht: 0~
 
 //Clara's Poison Arrows
@@ -166,9 +163,7 @@ STATISTIK:
 Ausgerüstete Fähigkeiten:
 – Schlösser öffnen: +20%
 – Taschendiebstahl: +20%
-
-Voraussetzungen:
- 17 Geschicklichkeit
+– Verstecken im Schatten: +10%
 
 Gewicht: 0~
 @750 /*Usability Note*/ = ~Clara~

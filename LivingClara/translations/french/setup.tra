@@ -158,9 +158,6 @@ Capacités de charge :
 – Détection de l'invisibilité une fois par jour
   Zone d'effet : rayon de 4.5 m
 
-Nécessite :
- 17 Dextérité
-
 Poids : 0~
 
 //Clara's Poison Arrows
@@ -177,9 +174,7 @@ STATISTIQUES :
 Capacités équipées :
 – Crochetage : +20%
 – Vol à la tire : +20%
-
-Nécessite :
- 17 Dextérité
+– Se cacher dans les ombres : +10%
 
 Poids : 0~
 @750 /*Usability Note*/ = ~Clara~

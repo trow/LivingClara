@@ -141,9 +141,6 @@ Schopnosti s nábojem:
 – Jednou denně: vidění neviditelného
 Dosah: okruh 15 stop
 
-Požadavky:
-Obratnost 17
-
 Váha: 0~
 
 //Clara's Poison Arrows
@@ -160,9 +157,7 @@ Tyto zlodějské rukavice dávají Kláře bonusy k otevírání zámků a kaps�
 Vybavení:
 – Otevírání zámků: +20%
 – Kapsářství: +20%
-
-Požadavky:
-Obratnost 17
+– Skrývání ve stínech: +10%
 
 Váha: 0~
 @750 /*Usability Note*/ = ~Klára~

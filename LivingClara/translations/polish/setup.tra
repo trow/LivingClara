@@ -141,9 +141,6 @@ Umiejętności z ładunkiem:
 – Raz dziennie: widzenie niewidzialnego
 Zasięg: promień 15 stóp
 
-Wymagania:
-Zręczność 17
-
 Waga: 0~
 
 //Clara's Poison Arrows
@@ -160,9 +157,7 @@ Dane:
 Umiejętności po założeniu:
 – Otwieranie zamków: +20%
 – Kradzież kieszonkowa: +20%
-
-Wymagania:
-Zręczność 17
+– Ukrywanie w cieniu: +10%
 
 Waga: 0~
 @750 /*Usability Note*/ = ~Klara~

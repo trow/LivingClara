@@ -173,9 +173,6 @@ Charge abilities:
 – Detect Invisibility once per day
   Area of Effect: 15-ft. radius
 
-Requires:
- 17 Dexterity
-
 Weight: 0~
 
 //Clara's Poison Arrows
@@ -193,9 +190,7 @@ STATISTICS:
 Equipped abilities:
 – Open Locks: +20%
 – Pick Pockets: +20%
-
-Requires:
- 17 Dexterity
+– Hide in Shadows: +10%
 
 Weight: 0~
 @750 /*Usability Note*/ = ~Clara~
