@@ -290,17 +290,17 @@
 @244 /*Anomen*/ = ~I am still technically his son!~
 @245 /*Clara*/ = ~Maybe we can talk to him! Tell him that we are to be married and he will forgive you!~
 @246 /*Anomen*/ = ~You do not know him, my love. He has decided I am a risk to his business and that he will never forgive. He will thank me for killing Saerk and bringing him fortune but disown me anyway. And it is all my fault!~
-@247 /*Anomen*/ = ~I... I have murdered an innocent man and his daughter! I lost the Order! I... I cannot believe I have done all of this! For my father...~
+@247 /*Anomen*/ = ~I... I have murdered an innocent man and his daughter! I was cast out of the Order! I... I cannot believe I have done all of this! For my father...~
 @248 /*Anomen*/ = ~...my father and I have a reckoning that will not be stopped. Him I do not forgive, nor will I ever. I am sorry, Clara, but I must go back to my father's house...~
 @249 /*Anomen*/ = ~...I must go and atone for what I have done. And my father will atone with me. Fare... fare you well...~
 @250 /*Clara*/ = ~If you kill him and die as well, where does that leave me, my love? Would you abandon me with nothing but your sister's ring and a memory of your promise?~
 @251 /*Clara*/ = ~We are meant to be married! Forever! Until the gods die and the world ends!~
-@252 /*Anomen*/ = ~What would you have me do, my love? How can I fix this? My father must die, and so I will be a murderer.~
-@253 /*Clara*/ = ~What if your father didn't die at your hand? What if a pair of thieves murdered him for his belongings and we merely stumbled upon his body and reported it to the authorities?~
-@254 /*Clara*/ = ~Does he have any servants at home?~
-@255 /*Anomen*/ = ~Not that I am aware of, the cheap bastard. There's just our door guard, Jardine.~
-@256 /*Clara*/ = ~Could he be persuaded to corroborate our story?~
-@257 /*Anomen*/ = ~Jardine? He is loyal to our house, but he has hated watching my father destroy it. Perhaps we could bring him to our side. We will talk to him before we enter.~
+@252 /*Anomen*/ = ~What would you have me do, my love? How can I fix this? I killed for him, I was cast out of the Order for him... and now he means to cast me out like refuse. I... I have only... only to kill him to make it right, even if that makes me...~
+@253 /*Clara*/ = ~You mean "a murderer," don't you, my dear? *pause* No. You are not. A murderer takes innocent lives for selfish desires. You... you are cutting out gangrene. When a body has gangrene, it must be cut away. Your father... he is the gangrene on the Delryn family. You only want to save this house, to save our future.~
+@254 /*Clara*/ = ~But we cannot let the Order see your blade stained with his blood. *softly* Think first... in that house, besides your father, who else is there? Whose hand can help you cut away the gangrene?~
+@255 /*Anomen*/ = ~As far as I know, in that house, besides the old bastard, there is only one guard, Jardine.~
+@256 /*Clara*/ = ~Can he be persuaded to support us? ...Anomen. We only need him to stand on the side of our justice, so that the "truth" is recorded.~
+@257 /*Anomen*/ = ~Jardine? He is loyal to our family, but he has hated watching my father destroy it. Perhaps... perhaps we can make him understand that this is not betrayal. We are only cutting the gangrene from the body of House Delryn... and only after it is cut away can what remains live.~
 @258 /*Anomen*/ = ~<CHARNAME>, I must go to my father's house. Please give me several days to take care of this and then I will be happy to travel with you again.~
 @259 /*Clara*/ = ~And I will be by your side, my love, no matter what occurs.~
 

@@ -288,17 +288,17 @@
 @244 /*Anomen*/ = ~¡Técnicamente sigo siendo su hijo!~
 @245 /*Clara*/ = ~¡Quizás podamos hablar con él! ¡Decirle que vamos a casarnos y que nos perdonará!~
 @246 /*Anomen*/ = ~No lo conoce, mi amor. Ha decidido que soy un riesgo para su negocio y nunca perdonará. Me agradecerá haber matado a Saerk y haberle traído fortuna, pero aun así me desheredará. ¡Y todo es culpa mía!~
-@247 /*Anomen*/ = ~He... He asesinado a un hombre inocente y a su hija. ¡He perdido la Orden! No... ¡No puedo creer que haya hecho todo esto! Por mi padre...~
+@247 /*Anomen*/ = ~He... He asesinado a un hombre inocente y a su hija. ¡He sido expulsado de la Orden! No... ¡No puedo creer que haya hecho todo esto! Por mi padre...~
 @248 /*Anomen*/ = ~...mi padre y yo tenemos un ajuste de cuentas que no se detendrá. A él no lo perdono, y nunca lo haré. Lo siento, Clara, pero debo volver a la casa de mi padre...~
 @249 /*Anomen*/ = ~...Debo ir a expiar lo que he hecho. Y mi padre expiará conmigo. Adiós... cuídese...~
 @250 /*Clara*/ = ~Si lo mata y muere también, ¿dónde me deja a mí, mi amor? ¿Me dejaría con nada más que el anillo de su hermana y el recuerdo de su promesa?~
 @251 /*Clara*/ = ~¡Estamos destinados a casarnos! ¡Para siempre! ¡Hasta que los dioses mueran y el mundo termine!~
-@252 /*Anomen*/ = ~¿Qué quiere que haga, mi amor? ¿Cómo puedo arreglar esto? Mi padre debe morir, y entonces seré un asesino.~
-@253 /*Clara*/ = ~¿Y si su padre no muriera por su mano? ¿Y si un par de ladrones lo asesinaran por sus pertenencias y nosotros simplemente encontráramos su cadáver y lo denunciáramos a las autoridades?~
-@254 /*Clara*/ = ~¿Tiene sirvientes en casa?~
-@255 /*Anomen*/ = ~No que yo sepa, el miserable tacaño. Solo está nuestro portero, Jardine.~
-@256 /*Clara*/ = ~¿Podría ser persuadido para corroborar nuestra historia?~
-@257 /*Anomen*/ = ~¿Jardine? Es leal a nuestra casa, pero ha odiado ver a mi padre destruirla. Quizás podamos ganarlo para nuestro lado. Hablaremos con él antes de entrar.~
+@252 /*Anomen*/ = ~¿Qué quiere que haga, mi amor? ¿Cómo puedo arreglar esto? Maté por él, fui expulsado de la Orden por él... y ahora quiere echarme como basura. Yo... solo... solo tengo que matarlo para arreglarlo, aunque eso me convierta en...~
+@253 /*Clara*/ = ~Quiere decir «un asesino», ¿verdad, querido? *pausa* No. No lo es. Un asesino quita vidas inocentes por deseos egoístas. Usted... usted solo está cortando la gangrena. Cuando un cuerpo tiene gangrena, hay que cortarla. Su padre... él es la gangrena en la familia Delryn. Usted solo quiere salvar esta casa, salvar nuestro futuro.~
+@254 /*Clara*/ = ~Pero no podemos dejar que la Orden vea su hoja manchada con su sangre. *en voz baja* Primero piense... en esa casa, además de su padre, ¿quién más hay? ¿Qué mano puede ayudarle a cortar la gangrena?~
+@255 /*Anomen*/ = ~Por lo que sé, en esa casa, además del viejo bastardo, solo hay un guardia, Jardine.~
+@256 /*Clara*/ = ~¿Se le puede persuadir para que nos apoye? ...Anomen. Solo necesitamos que se ponga del lado de nuestra justicia, para que la «verdad» quede registrada.~
+@257 /*Anomen*/ = ~¿Jardine? Es leal a nuestra familia, pero ha odiado ver a mi padre destruirla. Quizás... quizás podamos hacerle entender que esto no es traición. Solo estamos cortando la gangrena del cuerpo de la Casa Delryn... y solo después de cortarla podrá vivir lo que queda.~
 @258 /*Anomen*/ = ~<CHARNAME>, debo ir a casa de mi padre. Dame unos días para resolver esto y estaré encantado de viajar de nuevo contigo.~
 @259 /*Clara*/ = ~Y yo estaré a tu lado, mi amor, pase lo que pase.~
 

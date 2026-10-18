@@ -288,17 +288,17 @@
 @244 /*Anomen*/ = ~Technicky vzato, jsem stále jeho syn!~
 @245 /*Clara*/ = ~Možná si s ním můžeme promluvit! Řekni mu o naší svatbě a on ti odpustí!~
 @246 /*Anomen*/ = ~Neznáš ho, má lásko. Když se jednou rozhodne, že jsem hrozbou pro jeho podnikání, nikdy neodpustí. Bude mi vděčný za zabití Saerka, ale stejně se mě zavře. To všechno je moje vina!~
-@247 /*Anomen*/ = ~Já... zabil jsem nevinného člověka a jeho dceru! Ztratil jsem Řád! Nemůžu uvěřit, že jsem to udělal! Kvůli mému otci...~
+@247 /*Anomen*/ = ~Já... zabil jsem nevinného člověka a jeho dceru! Byl jsem vyhozen z Řádu! Nemůžu uvěřit, že jsem to všechno udělal! Kvůli mému otci...~
 @248 /*Anomen*/ = ~...já a můj otec máme nevyřízené účty. Neodpustím mu a nikdy neodpustím. Promiň, Kláro, ale musím se vrátit do domu mého otce...~
 @249 /*Anomen*/ = ~...musím se vrátit a odčinit to, co jsem udělal. Můj otec se mnou bude sdílet odčinění. Sbohem... sbohem...~
 @250 /*Clara*/ = ~Když zabiješ jeho i sebe, co se mnou bude, má lásko? Necháš mi jen prsten tvé sestry a vzpomínky na tvůj slib?~
 @251 /*Clara*/ = ~Měli jsme se vzít! Navždy! Až do smrti bohů a konce světa!~
-@252 /*Anomen*/ = ~Co mám udělat, má lásko? Jak to mohu napravit? Můj otec musí zemřít, a pak se stanu vrahem.~
-@253 /*Clara*/ = ~Co když tvůj otec nezemře tvou rukou? Co když ho pár zlodějů zavraždí kvůli jeho majetku a my jen narazíme na jeho tělo a nahlásíme to úřadům?~
-@254 /*Clara*/ = ~Má v domě služebnictvo?~
-@255 /*Anomen*/ = ~Pokud vím, ten lakomec žádné nemá. Jen našeho vrátného, Jardina.~
-@256 /*Clara*/ = ~Dá se přesvědčit, aby podpořil naši verzi?~
-@257 /*Anomen*/ = ~Jardyn? Je loajální k našemu rodu, ale nesnáší, jak ho otec ničí. Možná ho přesvědčíme, aby se přidal na naši stranu. Promluvíme si s ním, než vejdeme.~
+@252 /*Anomen*/ = ~Co mám udělat, má lásko? Jak to mohu napravit? Zabil jsem pro něj, byl jsem kvůli němu vyhozen z Řádu... a teď mě chce vyhodit jako odpad. Já... já ho musím... musím zabít, abych to napravil, i kdyby mě to udělalo...~
+@253 /*Clara*/ = ~Myslíš „vrahem“, že ano, drahý? *pauza* Ne. Ty nejsi. Vrah bere nevinné životy pro svou sobeckou touhu. Ty... ty jen řežeš gangrénu. Když má tělo gangrénu, musí se odříznout. Tvůj otec... on je gangréna na rodině Delrynů. Ty jen chceš zachránit tento dům, zachránit naši budoucnost.~
+@254 /*Clara*/ = ~Ale nemůžeme dopustit, aby Řád viděl tvůj meč potřísněný jeho krví. *tiše* Nejprve přemýšlej... v tom domě, kromě tvého otce, kdo ještě je? Čí ruka ti může pomoci odříznout gangrénu?~
+@255 /*Anomen*/ = ~Pokud vím, v tom domě kromě toho starého bastarda je jen jeden strážný, Jardine.~
+@256 /*Clara*/ = ~Dá se přesvědčit, aby nás podpořil? ...Anomene. Potřebujeme jen, aby se postavil na stranu naší spravedlnosti, aby byla zaznamenána „pravda“.~
+@257 /*Anomen*/ = ~Jardine? Je loajální k našemu rodu, ale nesnášel, jak ho můj otec ničí. Možná... možná mu můžeme vysvětlit, že to není zrada. Jen odřezáváme gangrénu z těla rodu Delrynů... a teprve až bude odříznuta, zbytek může žít.~
 @258 /*Anomen*/ = ~<CHARNAME>, musím jít do domu svého otce. Prosím, dej mi několik dní na vyřízení této záležitosti, a pak budu rád znovu cestovat s tebou.~
 @259 /*Clara*/ = ~Budu při tobě, ať se stane cokoli, má lásko.~
 

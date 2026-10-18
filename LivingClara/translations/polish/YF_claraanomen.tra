@@ -288,17 +288,17 @@
 @244 /*Anomen*/ = ~Technicznie rzecz biorąc, nadal jestem jego synem!~
 @245 /*Clara*/ = ~Może możemy z nim porozmawiać! Powiemy mu o naszym ślubie, a on ci wybaczy!~
 @246 /*Anomen*/ = ~Nie znasz go, moja miłości. Gdy już uzna, że jestem zagrożeniem dla jego interesów, nigdy nie wybaczy. Będzie mi wdzięczny za zabicie Saerka, ale wciąż się mnie wyprze. To wszystko moja wina!~
-@247 /*Anomen*/ = ~Ja... zabiłem niewinnego człowieka i jego córkę! Straciłem Zakon! Nie mogę uwierzyć, że to zrobiłem! Dla mojego ojca...~
+@247 /*Anomen*/ = ~Ja... zabiłem niewinnego człowieka i jego córkę! Zostałem wyrzucony z Zakonu! Nie mogę uwierzyć, że to wszystko zrobiłem! Dla mojego ojca...~
 @248 /*Anomen*/ = ~...ja i mój ojciec mamy nierozstrzygnięty rachunek. Nie wybaczę mu i nigdy nie wybaczę. Przepraszam, Klaro, ale muszę wrócić do domu mojego ojca...~
 @249 /*Anomen*/ = ~...muszę wrócić i odpokutować za to, co zrobiłem. Mój ojciec będzie mi towarzyszył w pokucie. Żegnaj... żegnaj...~
 @250 /*Clara*/ = ~Jeśli zabijesz jego i siebie, co się ze mną stanie, moja miłości? Zostawisz mnie tylko z pierścieniem twojej siostry i wspomnieniami obietnicy?~
 @251 /*Clara*/ = ~Mieliśmy się pobrać! Na zawsze! Aż do śmierci bogów i końca świata!~
-@252 /*Anomen*/ = ~Co mam zrobić, moja miłości? Jak mogę to naprawić? Mój ojciec musi umrzeć, a wtedy stanę się mordercą.~
-@253 /*Clara*/ = ~A jeśli twój ojciec nie umrze z twojej ręki? Jeśli para złodziei zamorduje go dla jego majątku, a my po prostu natkniemy się na jego ciało i zgłosimy to władzom?~
-@254 /*Clara*/ = ~Czy ma w domu służbę?~
-@255 /*Anomen*/ = ~Z tego, co wiem, ten skąpiec nie ma. Tylko nasz odźwierny, Jardyn.~
-@256 /*Clara*/ = ~Czy można go przekonać, by poparł naszą historię?~
-@257 /*Anomen*/ = ~Jardyn? Jest lojalny wobec naszego rodu, ale nie znosi patrzeć, jak ojciec go niszczy. Może uda się go przekonać, by stanął po naszej stronie. Porozmawiamy z nim, zanim wejdziemy.~
+@252 /*Anomen*/ = ~Co mam zrobić, moja miłości? Jak mogę to naprawić? Zabiłem dla niego, zostałem za niego wyrzucony z Zakonu... a teraz chce mnie wyrzucić jak śmiecia. Ja... ja muszę go... muszę go zabić, by to naprawić, nawet jeśli to uczyni mnie...~
+@253 /*Clara*/ = ~Chcesz powiedzieć „mordercą”, prawda, kochanie? *pauza* Nie. Nie jesteś nim. Morderca odbiera niewinne życie dla własnych egoistycznych pragnień. Ty... ty tylko wycinasz gangrenę. Kiedy ciało ma gangrenę, trzeba ją odciąć. Twój ojciec... on jest gangreną na rodzie Delrynów. Chcesz tylko ocalić ten dom, ocalić naszą przyszłość.~
+@254 /*Clara*/ = ~Ale nie możemy pozwolić Zakonowi zobaczyć twojego ostrza splamionego jego krwią. *cicho* Najpierw pomyśl... w tym domu, oprócz twojego ojca, kto jeszcze jest? Czyja ręka może ci pomóc odciąć gangrenę?~
+@255 /*Anomen*/ = ~Z tego, co wiem, w tym domu oprócz tego starego drania jest tylko jeden strażnik, Jardine.~
+@256 /*Clara*/ = ~Czy można go przekonać, by nas poparł? ...Anomenie. Potrzebujemy tylko, by stanął po stronie naszej sprawiedliwości, aby „prawda” została zapisana.~
+@257 /*Anomen*/ = ~Jardine? Jest lojalny wobec naszego rodu, ale nienawidził patrzeć, jak mój ojciec go niszczy. Może... może możemy mu uświadomić, że to nie zdrada. My tylko wycinamy gangrenę z ciała rodu Delrynów... a dopiero gdy zostanie wycięta, reszta będzie mogła żyć.~
 @258 /*Anomen*/ = ~<CHARNAME>, muszę udać się do domu mojego ojca. Proszę, daj mi kilka dni na załatwienie tego, a potem chętnie znów z tobą podróżuję.~
 @259 /*Clara*/ = ~Będę przy tobie bez względu na wszystko, moja miłości.~
 

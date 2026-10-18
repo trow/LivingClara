@@ -290,17 +290,17 @@
 @244 /*Anomen*/ = ~Je suis techniquement toujours son fils !~
 @245 /*Clara*/ = ~Peut-être pouvons-nous lui parler ! Lui dire que nous allons nous marier et il vous pardonnera !~
 @246 /*Anomen*/ = ~Vous ne le connaissez pas, mon amour. Il a décidé que j'étais un risque pour son entreprise et qu'il ne pardonnera jamais. Il me remerciera pour avoir tué Saerk et lui avoir apporté la fortune mais me reniera quand même. Et tout est de ma faute !~
-@247 /*Anomen*/ = ~J'ai... J'ai assassiné un homme innocent et sa fille ! J'ai perdu l'Ordre ! Je... Je ne peux pas croire que j'ai fait tout cela ! Pour mon père...~
+@247 /*Anomen*/ = ~J'ai... J'ai assassiné un homme innocent et sa fille ! J'ai été chassé de l'Ordre ! Je... Je ne peux pas croire que j'ai fait tout cela ! Pour mon père...~
 @248 /*Anomen*/ = ~...mon père et moi avons une confrontation qui ne sera pas arrêtée. Lui, je ne pardonne pas, et je ne pardonnerai jamais. Je suis désolé, Clara, mais je dois retourner chez mon père...~
 @249 /*Anomen*/ = ~...Je dois y aller et expier ce que j'ai fait. Et mon père expiera avec moi. Adieu... portez-vous bien...~
 @250 /*Clara*/ = ~Si vous le tuez et mourez aussi, où cela me laisse-t-il, mon amour ? M'abandonneriez-vous avec rien d'autre que la bague de votre sœur et un souvenir de votre promesse ?~
 @251 /*Clara*/ = ~Nous sommes destinés à être mariés ! Pour toujours ! Jusqu'à ce que les dieux meurent et que le monde se termine !~
-@252 /*Anomen*/ = ~Que voudriez-vous que je fasse, mon amour ? Comment puis-je arranger cela ? Mon père doit mourir, et ainsi je serai un meurtrier.~
-@253 /*Clara*/ = ~Et si votre père ne mourait pas de votre main ? Et si une paire de voleurs l'assassinaient pour ses biens et que nous tombions simplement sur son corps et le rapportions aux autorités ?~
-@254 /*Clara*/ = ~A-t-il des domestiques à la maison ?~
-@255 /*Anomen*/ = ~Pas que je sache, le salaud radin. Il n'y a que notre garde de porte, Jardine.~
-@256 /*Clara*/ = ~Pourrait-il être persuadé de corroborer notre histoire ?~
-@257 /*Anomen*/ = ~Jardine ? Il est loyal envers notre maison, mais il a détesté voir mon père la détruire. Peut-être pourrions-nous l'amener de notre côté. Nous lui parlerons avant d'entrer.~
+@252 /*Anomen*/ = ~Que voudriez-vous que je fasse, mon amour ? Comment puis-je arranger cela ? J'ai tué pour lui, j'ai été chassé de l'Ordre pour lui... et maintenant il veut me jeter dehors comme un déchet. Je... je n'ai plus qu'à... qu'à le tuer pour réparer, même si cela fait de moi un...~
+@253 /*Clara*/ = ~Vous voulez dire « un meurtrier », n'est-ce pas, mon cher ? *pause* Non. Vous ne l'êtes pas. Un meurtrier ôte la vie d'innocents pour ses désirs égoïstes. Vous... vous ne faites que retrancher la gangrène. Quand un corps a la gangrène, il faut la couper. Votre père... il est la gangrène sur la maison Delryn. Vous voulez seulement sauver cette maison, sauver notre avenir.~
+@254 /*Clara*/ = ~Mais nous ne pouvons pas laisser l'Ordre voir votre lame souillée de son sang. *doucement* Réfléchissez d'abord... dans cette maison, à part votre père, qui y a-t-il ? Quelle main peut vous aider à retrancher la gangrène ?~
+@255 /*Anomen*/ = ~Pour autant que je sache, dans cette maison, à part ce vieux bâtard, il n'y a qu'un garde, Jardine.~
+@256 /*Clara*/ = ~Peut-on le persuader de nous soutenir ? ...Anomen. Nous avons seulement besoin qu'il se tienne du côté de notre justice, pour que la « vérité » soit consignée.~
+@257 /*Anomen*/ = ~Jardine ? Il est loyal envers notre maison, mais il a détesté voir mon père la détruire. Peut-être... peut-être pouvons-nous lui faire comprendre que ce n'est pas une trahison. Nous ne faisons que retrancher la gangrène du corps de la maison Delryn... et ce n'est qu'une fois retranchée que ce qui reste pourra vivre.~
 @258 /*Anomen*/ = ~<CHARNAME>, je dois aller chez mon père. Donnez-moi plusieurs jours pour régler cela et je serai heureux de voyager à nouveau avec vous.~
 @259 /*Clara*/ = ~Et je serai à vos côtés, mon amour, quoi qu'il arrive.~
 

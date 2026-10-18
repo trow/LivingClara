@@ -288,17 +288,17 @@
 @244 /*Anomen*/ = ~Ich bin technisch gesehen immer noch sein Sohn!~
 @245 /*Clara*/ = ~Vielleicht können wir mit ihm reden! Ihm sagen, dass wir heiraten werden, und er wird dir vergeben!~
 @246 /*Anomen*/ = ~Du kennst ihn nicht, meine Liebe. Er hat entschieden, dass ich ein Risiko für sein Geschäft bin, und er wird niemals vergeben. Er wird mir danken, dass ich Saerk getötet und ihm Reichtum gebracht habe, aber mich trotzdem enterben. Und das ist alles meine Schuld!~
-@247 /*Anomen*/ = ~Ich ... ich habe einen unschuldigen Mann und seine Tochter ermordet! Ich habe den Orden verloren! Ich ... ich kann nicht glauben, dass ich all das getan habe! Für meinen Vater ...~
+@247 /*Anomen*/ = ~Ich ... ich habe einen unschuldigen Mann und seine Tochter ermordet! Ich wurde aus dem Orden verstoßen! Ich ... ich kann nicht glauben, dass ich all das getan habe! Für meinen Vater ...~
 @248 /*Anomen*/ = ~... mein Vater und ich haben eine Abrechnung, die nicht aufzuhalten ist. Ihm vergebe ich nicht und werde es nie tun. Es tut mir leid, Clara, aber ich muss zurück zum Haus meines Vaters ...~
 @249 /*Anomen*/ = ~... ich muss gehen und dafür büßen, was ich getan habe. Und mein Vater wird mit mir büßen. Leb ... lebe wohl ...~
 @250 /*Clara*/ = ~Wenn du ihn tötest und selbst stirbst, was bleibt dann von mir, meine Liebe? Willst du mich mit nichts als dem Ring deiner Schwester und der Erinnerung an dein Versprechen zurücklassen?~
 @251 /*Clara*/ = ~Wir sind dazu bestimmt zu heiraten! Für immer! Bis die Götter sterben und die Welt untergeht!~
-@252 /*Anomen*/ = ~Was soll ich deiner Meinung nach tun, meine Liebe? Wie kann ich das beheben? Mein Vater muss sterben, und so werde ich ein Mörder sein.~
-@253 /*Clara*/ = ~Was wäre, wenn dein Vater nicht durch deine Hand stürbe? Was wäre, wenn ein Paar Diebe ihn wegen seines Besitzes ermordete und wir nur zufällig über seine Leiche stolperten und es den Behörden meldeten?~
-@254 /*Clara*/ = ~Hat er irgendwelche Diener zu Hause?~
-@255 /*Anomen*/ = ~Nicht, dass ich wüsste, der geizige Bastard. Da ist nur unser Torwächter, Jardine.~
-@256 /*Clara*/ = ~Könnte man ihn überreden, unsere Geschichte zu bestätigen?~
-@257 /*Anomen*/ = ~Jardine? Er ist unserem Haus treu, aber er hat es gehasst, mit anzusehen, wie mein Vater es zerstört. Vielleicht könnten wir ihn auf unsere Seite bringen. Wir werden vor unserem Eintritt mit ihm sprechen.~
+@252 /*Anomen*/ = ~Was soll ich deiner Meinung nach tun, meine Liebe? Wie kann ich das beheben? Ich habe für ihn getötet, ich wurde für ihn aus dem Orden verstoßen ... und jetzt will er mich wie Abfall hinauswerfen. Ich ... ich muss ihn nur ... nur töten, um es wiedergutzumachen, auch wenn mich das zu einem ...~
+@253 /*Clara*/ = ~Du meinst „Mörder“, nicht wahr, mein Lieber? *Pause* Nein. Das bist du nicht. Ein Mörder nimmt unschuldigen Menschen das Leben aus egoistischen Wünschen. Du ... du schneidest nur Wundbrand heraus. Wenn ein Körper Wundbrand hat, muss er abgeschnitten werden. Dein Vater ... er ist der Wundbrand am Hause Delryn. Du willst nur dieses Haus retten, unsere Zukunft retten.~
+@254 /*Clara*/ = ~Aber wir dürfen nicht zulassen, dass der Orden deine Klinge mit seinem Blut befleckt sieht. *leise* Denk zuerst nach ... in diesem Haus, außer deinem Vater, wer ist noch da? Wessen Hand kann dir helfen, den Wundbrand herauszuschneiden?~
+@255 /*Anomen*/ = ~Soweit ich weiß, gibt es in diesem Haus außer dem alten Bastard nur einen Wächter, Jardine.~
+@256 /*Clara*/ = ~Kann man ihn überreden, uns zu unterstützen? ... Anomen. Wir brauchen nur, dass er auf der Seite unserer Gerechtigkeit steht, damit die „Wahrheit“ festgehalten wird.~
+@257 /*Anomen*/ = ~Jardine? Er ist unserem Haus treu, aber er hat es gehasst, mit anzusehen, wie mein Vater es zerstört. Vielleicht ... vielleicht können wir ihm begreiflich machen, dass das kein Verrat ist. Wir schneiden nur den Wundbrand aus dem Körper des Hauses Delryn ... und erst wenn er herausgeschnitten ist, kann der Rest leben.~
 @258 /*Anomen*/ = ~<CHARNAME>, ich muss zum Haus meines Vaters. Bitte gib mir ein paar Tage, um das zu regeln, dann werde ich gerne wieder mit dir reisen.~
 @259 /*Clara*/ = ~Und ich werde an deiner Seite sein, meine Liebe, was auch immer geschieht.~
 
