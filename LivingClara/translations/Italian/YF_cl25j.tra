@@ -1,0 +1,10 @@
+//Conversazione finale con Solaris
+
+@1 /*Clara*/ = ~Wow, <CHARNAME>. Hai la possibilità di diventare un dio e lasciarti tutto alle spalle. Quando sceglierai il potere supremo, non dimenticarti di noi piccola gente che ti ha aiutato ad arrivare fin qui.~
+
+//Conversazione con Hexxat
+@2 /*Hexxat*/ = ~Perdonami, Clara... Questa è l'unica via.~ [OH81268]
+@3 /*Clara*/ = ~La Dormiente... si sveglia! Padrona, ho fatto come mi hai comandato—ti prego, lasciami vivere!~ [OH81267]
+@4 /*Clara*/ = ~No, non mi controlli più! Non sono la tua schiava!~
+@5 /*Hexxat*/ = ~Non ho bisogno di una schiava; sono viva.~
+@6 /*Hexxat*/ = ~Anche tu sei viva. Godiamoci il <DAYNIGHTALL>.~

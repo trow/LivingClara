@@ -1,0 +1,4 @@
+//Correzione del romanticismo di Anomen
+@0 /*Anomen*/ = ~Mia signora, temo che tra noi ci possa essere stato un malinteso. Desidero continuare come prima. Potete perdonarmi?~
+@1 /*CHARNAME*/ = ~No, Anomen, voglio solo che siamo amici.~
+@2 /*CHARNAME*/ = ~Certo, Anomen. Tutto è perdonato.~

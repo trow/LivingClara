@@ -1,0 +1,93 @@
+//Conversazioni Mazzy-Clara
+//1ª Conversazione
+@1 /*Mazzy*/ = ~Clara, per favore non fraintendermi, ma a volte non credo che tu creda nella necessità dell'azione virtuosa.~
+@2 /*Mazzy*/ = ~Forse ti comporti bene solo per compiacerci?~
+@3 /*Clara*/ = ~Cosa? No, siete tutti eroi e anch'io voglio essere un'eroina!~
+@4 /*Clara*/ = ~Andiamo di luogo in luogo aiutando le persone e loro ci amano per questo! Facciamo anche un sacco di soldi!~
+@5 /*Clara*/ = ~Chi non lo vorrebbe?~
+@6 /*Mazzy*/ = ~È una bella vita, lo ammetto, ma a volte si deve compiere l'azione giusta anche se compierla non ti rende amato e non dà alcuna ricompensa.~
+@7 /*Clara*/ = ~Capito! Ma come faccio a sapere qual è l'azione giusta?~
+@8 /*Mazzy*/ = ~L'azione giusta è quella che avvantaggia il maggior numero di persone e causa il minor dolore.~
+@9 /*Mazzy*/ = ~Lascia che questo ti guidi e sarai un'eroina virtuosa come qualsiasi altra.~
+
+//2ª Conversazione
+@10 /*Clara*/ = ~Allora Mazzy, hai detto che l'azione giusta è quella che avvantaggia il maggior numero di persone, vero?~
+@11 /*Mazzy*/ = ~Sì, è corretto.~
+@12 /*Clara*/ = ~Quindi se un gruppo di persone vuole togliere tutto a una sola persona, sarebbe virtuoso perché sono di più?~
+@13 /*Mazzy*/ = ~No, non è virtuoso prendere ciò che appartiene agli altri.~
+@14 /*Clara*/ = ~Ma noi prendiamo continuamente le cose degli altri; li uccidiamo prima.~
+@15 /*Mazzy*/ = ~Abbiamo ucciso persone solo per legittima difesa, dopo che ci hanno attaccato.~
+@16 /*Clara*/ = ~Sì, ma ci hanno attaccato solo perché abbiamo invaso le loro case. Se un branco di pazzi armati ti assalisse nella tua città e irrompesse in casa tua, non li attaccheresti?~
+@17 /*Mazzy*/ = ~Stai parlando delle caverne, delle foreste e dei sotterranei che esploriamo e dei mostri che uccidiamo lì? Sono malvagi.~
+@18 /*Clara*/ = ~Ma come facciamo a sapere che sono malvagi? Non è che parliamo mai con loro, e certamente non li lasciamo mai in pace, nemmeno quando ce lo chiedono.~
+@19 /*Clara*/ = ~Andiamo dove vogliamo, uccidiamo chi vogliamo e prendiamo ciò che vogliamo perché siamo più forti e loro più deboli. Come può essere virtuoso?~
+@20 /*Mazzy*/ = ~Non mi aspettavo che questa discussione diventasse così complicata.~
+@21 /*Clara*/ = ~È perché non consideri mai la possibilità di poterti sbagliare.~
+
+//3ª Conversazione
+@22 /*Mazzy*/ = ~Clara, ho riflettuto, e potresti avere ragione sull'ambiguità morale delle nostre azioni violente.~
+@23 /*Clara*/ = ~Sono molte parole solo per dire che ho ragione.~
+@24 /*Mazzy*/ = ~*sospira* Molto bene. Dimmi, Clara, cos'è la virtù?~
+@25 /*Clara*/ = ~La virtù è restare a casa e farsi gli affari propri.~
+@26 /*Mazzy*/ = ~Ma che dire di tutte le persone che hanno bisogno del nostro aiuto?~
+@27 /*Clara*/ = ~Che dire di loro? Metà delle volte ci mentono. Sono troppo deboli per combattere le proprie battaglie, quindi ci chiedono di combattere al loro posto perché siamo forti e ingenui.~
+@28 /*Clara*/ = ~Dicono: "Mio fratello mi ha rubato la gemma", quando in realtà la gemma non era mai stata sua. Dicono: "Gli gnoll stanno attaccando la mia fattoria", quando in realtà quella terra apparteneva prima agli gnoll.~
+@29 /*Clara*/ = ~E poi entriamo e uccidiamo tutti, e loro dicono: "Oh, siete fantastici, grazie eroi! Tenetevi tutti i soldi delle persone che avete ucciso come ricompensa!"~
+@30 /*Clara*/ = ~Così i deboli bugiardi che aiutiamo ottengono ciò che vogliono, noi non raccogliamo alcuna ricompensa dai bugiardi perché ci fa sembrare ancora più virtuosi, ma diventiamo comunque ricchi perché saccheggiamo i morti. E questo ci rende eroi.~
+@31 /*Clara*/ = ~Beh, Mazzy, non lo siamo! Siamo proprio come tutte le altre persone orribili in questo mondo miserabile!~
+@32 /*Mazzy*/ = ~Io... non sono sicura di cosa vorresti che facessimo.~
+@33 /*Clara*/ = ~Non lo so! Smettila solo di essere così moralista su tutto!~
+@34 /*Clara*/ = ~Non sei una persona migliore di tutti gli altri; sei solo più brava a uccidere di loro.~
+@35 /*Mazzy*/ = ~E quando vinco e loro sono morti, posso definirmi un'eroina? È questo?~
+@36 /*Clara*/ = ~Sì. Ognuno è l'eroe della propria storia.~
+@37 /*Mazzy*/ = ~Non sono d'accordo con te, Clara, ma... non posso dire con precisione quale parte del tuo ragionamento sia sbagliata.~
+@38 /*Mazzy*/ = ~Quindi continuiamo sul nostro cammino.~
+
+//4ª Conversazione
+@39 /*Mazzy*/ = ~Clara, non dovresti usare il tuo corpo per manipolare gli uomini intorno a te.~
+@40 /*Clara*/ = ~Un'altra predica? Molto bene, Mazzy, dimmi come dovrei comportarmi nel tuo mondo fantastico e perfetto.~
+@41 /*Mazzy*/ = ~L'atto fisico dell'amore è un'esperienza meravigliosa che coinvolge partecipanti consenzienti e porta piacere a entrambe le parti.~
+@42 /*Clara*/ = ~*ride* Scusa, ma che diavolo...?~
+@43 /*Mazzy*/ = ~Eppure quando trovi un uomo che è chiaramente interessato a te e fingi di mostrargli interesse in cambio, è ingiusto nei suoi confronti e potenzialmente pericoloso.~
+@44 /*Clara*/ = ~Ingiusto nei SUOI confronti? POTENZIALMENTE pericoloso?~
+@45 /*Clara*/ = ~Gli uomini mi hanno desiderata per gran parte della mia vita. Non gliene importava cosa volessi io ed erano SEMPRE pericolosi.~
+@46 /*Clara*/ = ~Ora, dopo anni e anni, ho finalmente capito come prendere quell'attenzione indesiderata e trasformarla a mio vantaggio e tu mi fai la predica sull'amore, l'affetto e il rispetto reciproco?~
+@47 /*Clara*/ = ~Cosa ti fa pensare che io sia mai stata a mille leghe da quelle cose?~
+@48 /*Mazzy*/ = ~Beh... io...~
+@49 /*Clara*/ = ~Vivi dentro un libro di fiabe, Mazzy. Noi altri dobbiamo vivere qui, nella realtà.~
+@50 /*Clara*/ = ~E nel mondo reale tutti usiamo gli strumenti che abbiamo per sopravvivere.~
+
+//4A - Se sposata con Cor - opzionale
+@51 /*Mazzy*/ = ~E Lord Cor Delryn? Ora siete sposati e sembra tenere a te. Sicuramente avrete avuto qualche legame fisico amoroso?~
+@52 /*Clara*/ = ~Ah! A Cor interessa solo cercare di piantare un nuovo figlio ed erede dentro di me.~
+@53 /*Clara*/ = ~Le nostre notti non riguardano mai me; potrebbe sostituirmi con chiunque.~
+
+//4B - Se sposata con Anomen - opzionale
+@54 /*Mazzy*/ = ~E Anomen? Ora siete sposati e sembra tenere a te. Sicuramente avrete avuto qualche legame fisico amoroso?~
+@55 /*Clara*/ = ~Anomen è innamorato della sua nobile moglie: Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn. Se fossi Clara-la-Ladra o Clara-la-Contadina, mi vorrebbe ancora? E Clara-la-Puttana?~
+@56 /*Clara*/ = ~Ho creato una donna per lui da amare e quando stanno insieme, lei si comporta esattamente come lui si aspetta che si comporti.~
+@57 /*Mazzy*/ = ~Ma *tu* sei Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn. Sei la donna di cui si è innamorato.~
+@58 /*Clara*/ = ~Ah, hai un'opinione fin troppo alta di un uomo che ti odia. Guardami negli occhi e dimmi, in tutta onestà, che credi davvero, nel tuo cuore, che Anomen mi amerebbe ancora se non fossi nessuno.~
+@59 /*Mazzy*/ = ~Oh molto bene, hai completamente ragione. Ma come potrà qualcuno amarti davvero se non gli permetti mai di vedere chi sei veramente?~
+
+//5ª Conversazione
+@60 /*Mazzy*/ = ~Clara, mi scuso per prima. Posso raccontarti una storia?~
+@61 /*Clara*/ = ~Una storia?~
+@62 /*Mazzy*/ = ~Sì. Su di me.~
+@63 /*Clara*/ = ~Va bene. Ma se ricominci a dirmi come vivere la mia vita, me ne vado.~
+@64 /*Mazzy*/ = ~Quando ero una giovane donna, più o meno della tua età, vivevo davvero nel mondo perfetto.~
+@65 /*Mazzy*/ = ~I miei genitori erano affettuosi, i miei amici erano numerosi, avevo sempre un tetto e cibo, e le mie... ehm... relazioni intime erano sempre reciprocamente soddisfacenti.~
+@66 /*Mazzy*/ = ~Sapevo vagamente che c'era il male nel mondo, e avevo vissuto qualche perdita... Il primo e unico ragazzo con cui ero stata era stato ucciso dai banditi un paio d'anni prima.~
+@67 /*Mazzy*/ = ~Ero determinata a rendere il mondo un posto migliore, così andai in guerra; una giovane e idealista ragazza halfling circondata per lo più da umani.~
+@68 /*Mazzy*/ = ~Un paio di soldatesse più anziane mi presero sotto la loro ala. Mi proteggevano così potevo imparare a interagire con gli altri soldati e deviare in sicurezza le attenzioni degli uomini.~
+@69 /*Mazzy*/ = ~Finché non saccheggiammo una città e i miei compagni uccisero, stuprarono e depredarono gli abitanti mentre le mie amiche, le donne che ammiravo, torturavano un vecchio per trovargli l'oro.~
+@70 /*Clara*/ = ~Tipico. E poi?~
+@71 /*Mazzy*/ = ~E non smettevano, così le uccisi... salvai il vecchio e sua nipote.~
+@72 /*Clara*/ = ~E così la piccola Mazzy imparò che il mondo era terribile. Allora perché sei sempre così insopportabile?~
+@73 /*Mazzy*/ = ~Perché il mondo può essere malvagio, ma può anche essere pieno di amore e speranza. E siamo noi a creare il mondo in cui viviamo.~
+
+//6ª Conversazione
+@74 /*Clara*/ = ~Mazzy, non sei stata solo tu ad avere un'infanzia idilliaca.~
+@75 /*Clara*/ = ~Ho avuto una bella vita. I miei genitori mi amavano. Eravamo felici!~
+@76 /*Mazzy*/ = ~Posso chiedere cosa è successo?~
+@77 /*Clara*/ = ~È successo il mondo, Mazzy. E io sono cresciuta.~

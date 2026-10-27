@@ -1,0 +1,24 @@
+@1 /*Hexxat morta - crea borsa*/ = ~Sconfiggi la vampira, ma lei si trasforma in nebbia e svanisce rapidamente. Nel punto in cui era in piedi rimane solo un vecchio sacco lasciato indietro.~
+@2 /*Hexxat morta - hai la borsa ma non il paletto*/ = ~Seguendo l'odore sul sacco, scopri che dopo la sconfitta la vampira si è ritirata in questa bara. Se possiedi un paletto di legno, prova a distruggerla del tutto.~
+@3 /*Hexxat morta - hai la borsa e il paletto*/ = ~Mentre l'incantesimo ha effetto, la forza vitale dissipata viene incanalata di nuovo nel corpo della povera vittima, restituendole anche il respiro.~
+@4 /*Diario*/ = ~La tomba di Dragomir era una trappola. Quella che conoscevo come Hexxat era una serva sotto il controllo di una vampira, che desiderava parlare con me. Ma io non tratto con i mostri. Ho ucciso la vampira e liberato l'anima di questa ragazza. Spero che ora sia più brava a fare conversazione.~
+
+@11 = ~Conficca il paletto di legno attraverso il suo cuore immondo.~
+@12 = ~Per ora, lascia stare.~
+@13 = ~Prima trova il paletto di legno.~
+@20 = ~La forza vitale di questa povera vittima è stata completamente prosciugata. Ora che l'artefice è stata distrutta, la vitalità rubata è stata rilasciata. Forse Ristorazione o magie simili potrebbero aiutare.~
+@21 = ~Fai lanciare Ristorazione Minore a <PLAYER1>.~
+@22 = ~Fai lanciare Ristorazione Minore a <PLAYER2>.~
+@23 = ~Fai lanciare Ristorazione Minore a <PLAYER3>.~
+@24 = ~Fai lanciare Ristorazione Minore a <PLAYER4>.~
+@25 = ~Fai lanciare Ristorazione Minore a <PLAYER5>.~
+@26 = ~Fai lanciare Ristorazione Minore a <PLAYER6>.~
+@30 = ~Usa una pergamena di Ristorazione.~
+@31 = ~Fai lanciare Ristorazione a <PLAYER1>.~
+@32 = ~Fai lanciare Ristorazione a <PLAYER2>.~
+@33 = ~Fai lanciare Ristorazione a <PLAYER3>.~
+@34 = ~Fai lanciare Ristorazione a <PLAYER4>.~
+@35 = ~Fai lanciare Ristorazione a <PLAYER5>.~
+@36 = ~Fai lanciare Ristorazione a <PLAYER6>.~
+@40 = ~Per ora, lasciala stare.~
+@41 = ~Prima prepara l'incantesimo.~

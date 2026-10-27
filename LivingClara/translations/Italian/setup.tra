@@ -1,0 +1,279 @@
+//Configurazione del file TRA
+@1 /*Begin*/ = ~Clara e Anomen Oscuro~
+@2 /*Clara Name*/ = ~Clara~
+@3 /*Clara Bio*/ = ~Clara è riluttante a raccontarti molto del suo passato, ma condividerà alcuni fatti se incalzata. La giovane donna è cresciuta in una fattoria ed è arrivata ad Athkatla diversi anni fa, sperando di trovare lavoro come attrice. Tuttavia, i suoi sforzi non hanno avuto successo, così ha imparato le basi del furto da un vecchio Ladro Ombra per sbarcare il lunario. Sebbene sia solo una ladra passabile, Clara guadagnava abbastanza per pagare le quote regolari della gilda per il permesso di lavorare in città, finché non cadde in balia di Hexxat.~
+@4 /*MORALE*/ = ~Ho... bisogno di aiuto!~ [YF_Cla01]
+@5 /*LEADER*/ = ~Una buona idea.~ [YF_Cla02]
+@6 /*TIRED*/ = ~*Sbadiglio*~ [YF_Cla03]
+@7 /*BORED*/ = ~Quanto devo aspettare prima di fare qualcosa di interessante?~ [NYMPH01]
+@8 /*BATTLE_CRY1*/ = ~Inseguili!~ [YF_Cla04]
+@9 /*BATTLE_CRY2*/ = ~Non ho paura.~ [YF_Cla05]
+@10 /*BATTLE_CRY3*/ = ~Ti sconfiggerò!~ [YF_Cla06]
+@11 /*BATTLE_CRY4*/ = ~Ti abbatterò.~ [YF_Cla07]
+@12 /*BATTLE_CRY5*/ = ~Oh, ti prendo!~ [YF_Cla34]
+@13 /*DAMAGE*/ = ~Che dolore! Come osi toccare una dama?~ [HVILLF06]
+@14 /*DYING*/ = ~Oh, no. È ora della mia scena di morte.~ [PEASF208]
+@15 /*HURT*/ = ~Credo... di sanguinare.~ [YF_Cla08]
+@16 /*AREA_FOREST*/ = ~Non mi piace il bosco. Ci sono troppi insetti.~
+@17 /*AREA_CITY*/ = ~Uomini da adulare, gente da truffare. È bello essere tornata dove appartengo.~
+@18 /*AREA_DUNGEON*/ = ~Caroline Louisa Audrey Rosanna Alexandra Silvershield è troppo raffinata per questo posto.~
+@19 /*AREA_DAY*/ = ~Il sole è bello ma preferisco il buio. È lì che brillo davvero.~
+@20 /*AREA_NIGHT*/ = ~È tempo di vedere e non essere visti.~ [YF_Cla09]
+@21 /*SELECT_COMMON1*/ = ~Sì?~ [YF_Cla10]
+@22 /*SELECT_COMMON2*/ = ~Cosa posso fare?~ [YF_Cla11]
+@23 /*SELECT_COMMON3*/ = ~Mmm-hmm?~ [YF_Cla12]
+@24 /*SELECT_COMMON4*/ = ~Sì?~ [YF_Cla13]
+@25 /*SELECT_COMMON5*/ = ~Pronta e in attesa.~ [YF_Cla14]
+@26 /*SELECT_COMMON6*/ = ~Hmm?~ [YF_Cla15]
+@27 /*SELECT_ACTION1*/ = ~Vado.~ [YF_Cla16]
+@28 /*SELECT_ACTION2*/ = ~Certo.~ [YF_Cla17]
+@29 /*SELECT_ACTION3*/ = ~È fatto.~ [YF_Cla18]
+@30 /*SELECT_ACTION4*/ = ~Ci penso io.~ [YF_Cla19]
+@31 /*SELECT_ACTION5*/ = ~Già andata.~ [YF_Cla20]
+@32 /*SELECT_ACTION6*/ = ~Ai vostri ordini.~ [YF_Cla21]
+@33 /*SELECT_ACTION7*/ = ~Immediatamente.~ [YF_Cla22]
+@34 /*SELECT_RARE1*/ = ~Attento.~ [YF_Cla23]
+@35 /*SELECT_RARE2*/ = ~Fallo di nuovo e te lo porto via.~ [YF_Cla24]
+@36 /*CRITICAL_HIT*/ = ~Ah, preso!~ [YF_Cla25]
+@37 /*CRITICAL_MISS*/ = ~Ops.~ [YF_Cla26]
+@38 /*TARGET_IMMUNE*/ = ~Dammi un'altra spada!~ [YF_Cla27]
+@39 /*INVENTORY_FULL*/ = ~Impossibile.~ [YF_Cla28]
+@40 /*HAPPY*/ = ~*Fischietta felice*~ [YF_Cla29]
+@41 /*UNHAPPY_ANNOYED*/ = ~Non voglio farlo.~
+@42 /*UNHAPPY_SERIOUS*/ = ~Uggh. Preferirei lavorare di nuovo per i Ladri Ombra.~
+@43 /*SET_A_TRAP*/ = ~Ed è così che si fa.~ [YF_Cla30]
+@44 /*HIDDEN_IN_SHADOWS*/ = ~Come un'ombra.~ [YF_Cla31]
+@45 /*PICKED_POCKET*/ = ~Ora è mio.~ [YF_Cla32]
+@46 /*REACT_TO_DIE_GENERAL*/ = ~Alzati, dannazione.~ [YF_Cla33]
+
+
+
+@47 /*Epilogo base di Clara*/ = ~Dopo aver lasciato la compagnia di <CHARNAME>, Caroline Louisa Audrey Rosanna Alexandra Silvershield di Beregost tornò ad Athkatla. Come la più ambita nuova damigella nobile della città, impressionò la città con il suo fascino e la sua grazia. Molti ricchi pretendenti cercarono di conquistare la sua mano, ma quell'onore andò al figlio maggiore di Lord Ketlaar Argrim, che era giovane, bello e amministratore delle numerose miniere d'oro di suo padre.
+
+Purtroppo, la loro felicità coniugale non durò. Quando la famiglia allargata di Caroline a Beregost seppe che era sopravvissuta all'attacco che aveva ucciso i suoi genitori, ne fu felicissima. La invitarono a tornare a casa e l'intera famiglia Argrim insistette per avventurarsi a nord per vederli, con i loro carri carichi di una fortuna in doni, vestiti, monete e gioielli. Anche pesantemente scortato, il loro convoglio si rivelò una preda troppo allettante e durante il viaggio fu sopraffatto dai banditi. Ogni membro della famiglia fu trovato morto, tranne Caroline, e si suppose che fosse stata catturata.
+
+Molti grandi cavalieri cavalcarono verso nord per sconfiggere i banditi e liberare la loro nobile prigioniera, ma mentre dozzine di briganti furono abbattuti e la maggior parte della fortuna degli Argrim recuperata, Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Argrim non fu mai più vista.~
+
+@78 /*Se Clara sposa Anomen*/ = ~Dopo aver lasciato la compagnia di <CHARNAME>, Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn tornò alla tenuta Delryn con suo marito, Anomen, e insieme lavorarono per ricostruire la fortuna della famiglia. La fortuna sembrava seguire la coppia ovunque andassero, poiché tutti i loro principali rivali commerciali si ritiravano improvvisamente o morivano. Nel giro di un anno, avevano cancellato i loro debiti e iniziato ad accumulare una piccola fortuna propria. Molti prevedevano che Caroline e suo marito avrebbero fatto crescere le proprietà Delryn fino a diventare un impero commerciale abbastanza grande da rivaleggiare con qualsiasi altro ad Amn.
+
+Infatti, è esattamente ciò che accadde. Nel decennio successivo, Lord e Lady Delryn divennero due dei mercanti più ricchi e potenti di Athkatla. Mentre suo marito si concentrava sul portare la loro famiglia a nuove vette, Lady Caroline governava la sua casa con pugno di ferro, sostenendo gli sforzi di Anomen come amica e confidente. Era la padrona di casa perfetta: aggraziata, educata e la regina di ogni ballo, e presto la Tenuta Delryn divenne il luogo dove i potenti si riunivano e si facevano vedere.
+
+Tali segreti furono pronunciati tra quelle mura, tali accordi commerciali furono conclusi, e se il risultato finale era sempre a favore di Lord Delryn, era solo come doveva essere dopotutto. Perché Lady Delryn era la moglie che ogni signore mercante desiderava e guardavano Anomen con invidia quando aveva Caroline al suo braccio.~
+
+@79 /*Se Clara sposa Cor e lui e Anomen sono morti*/ = ~Dopo aver lasciato la compagnia di <CHARNAME>, Clara tornò alla tenuta Delryn per ricostruire la fortuna del suo defunto marito. La fortuna sembrava seguire la donna ovunque andasse, poiché ogni importante rivale commerciale si ritirava improvvisamente o moriva e nel giro di un anno, aveva cancellato i debiti di suo marito e iniziato ad accumulare una piccola fortuna propria. Molti prevedevano che avrebbe fatto crescere le proprietà Delryn fino a diventare un impero commerciale abbastanza grande da rivaleggiare con qualsiasi altro ad Amn.
+
+Tuttavia, non fu così. Esattamente tre anni dopo il suo ritorno, la donna vendette tutto ciò che non poteva portare con sé, e Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn non fu mai più vista.~
+
+@80 /*Se Clara sposa Cor e lui e Anomen sono vivi*/ = ~Dopo aver lasciato la compagnia di <CHARNAME>, Clara tornò da suo marito, Cor, e visse il resto dei suoi giorni in beata vita coniugale. Purtroppo, furono solo tre brevi mesi prima che morisse pacificamente nel sonno e lasciasse la sua vedova sconvolta a capo della sua casa.
+
+Con il figlio di Cor, Anomen, continuamente lontano da casa, Clara ricostruì le fortune di suo marito con fascino e grazia. La fortuna sembrava seguirla ovunque andasse, ogni importante rivale commerciale si ritirava improvvisamente o moriva; nel giro di un anno aveva cancellato i debiti di suo marito e iniziato ad accumulare una piccola fortuna propria. Molti prevedevano che avrebbe fatto crescere le proprietà Delryn fino a diventare un impero commerciale abbastanza grande da rivaleggiare con qualsiasi altro ad Amn.
+
+Tuttavia, non fu così. Esattamente tre anni dopo la morte di suo marito, vendette tutto ciò che non poteva portare con sé, e Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn non fu mai più vista.~
+
+@81 /*Se Clara sposa Cor e solo Anomen è morto*/ = ~Dopo aver lasciato la compagnia di <CHARNAME>, Clara tornò da suo marito, Cor, e visse il resto dei suoi giorni in beata vita coniugale. Purtroppo, furono solo tre brevi mesi. L'uomo morì pacificamente nel sonno e lasciò alla sua vedova sconvolta tutto ciò che possedeva.
+
+Tuttavia, nonostante il suo dolore, Lady Delryn rilevò gli affari di suo marito e la fortuna sembrava seguire ogni passo della donna. Ogni suo importante rivale commerciale si ritirava improvvisamente o moriva, e nel giro di un anno aveva cancellato i debiti di suo marito e iniziato ad accumulare una piccola fortuna propria. Molti prevedevano che avrebbe fatto crescere le proprietà Delryn fino a diventare un impero commerciale abbastanza grande da rivaleggiare con qualsiasi altro ad Amn.
+
+Tuttavia, non fu così. Esattamente tre anni dopo la morte di suo marito, la donna vendette tutto ciò che non poteva portare con sé, e Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn non fu mai più vista.~
+
+@82 /*Se Clara sposa Cor e lui è morto ma Anomen è vivo*/ = ~Dopo aver lasciato la compagnia di <CHARNAME>, Clara tornò alla tenuta Delryn. Con il figlio di Cor, Anomen, continuamente lontano da casa, Clara ricostruì le fortune di suo marito con fascino e grazia. La dea Fortuna sorrise alla donna poiché ogni importante rivale commerciale si ritirava improvvisamente o moriva e nel giro di un anno, aveva cancellato i debiti di suo marito e iniziato ad accumulare una piccola fortuna propria. Molti prevedevano che presto avrebbe fatto crescere le proprietà Delryn fino a diventare un impero commerciale abbastanza grande da rivaleggiare con qualsiasi altro ad Amn.
+
+Tuttavia, non fu così. Esattamente tre anni dopo il suo ritorno, la donna vendette tutto ciò che non poteva portare con sé, e Lady Caroline Louisa Audrey Rosanna Alexandra Silvershield Delryn non fu mai più vista.~
+
+@83 /*Nuovo epilogo di Anomen se ha sposato Clara*/ = ~Dopo aver lasciato la compagnia di <CHARNAME>, Anomen tornò alla tenuta Delryn con sua moglie, Lady Caroline, e insieme lavorarono per ricostruire la fortuna della sua famiglia. La fortuna seguì la coppia in ogni impresa e presto il signore non solo aveva cancellato i debiti di suo padre ma iniziato ad accumulare una fortuna propria. Tuttavia, nonostante il suo nuovo status, Anomen rimase fedele ai precetti del suo dio. Sebbene a volte severo, il suo giudizio era sempre giusto e coloro che lavoravano per la sua famiglia sapevano che la loro lealtà sarebbe stata ricompensata a dovere.
+
+Alla fine, al giovane Lord Delryn fu offerta una posizione nel Consiglio dei Sei e sebbene nessuno conoscesse ufficialmente il suo status, il cambiamento nel governo di Athkatla fu ovvio per tutti. Sotto la direzione di Anomen, il governo iniziò a fare di più per aiutare la gente comune e di più per combattere il male nel mondo. Non si accontentava di lasciar passare l'ingiustizia ciecamente e coloro che gli si opponevano tendevano a cambiare rapidamente atteggiamento o a morire improvvisamente. Questo era abbastanza da coincidenza da suscitare diverse indagini, ma la moglie di Lord Delryn gli stette accanto e non fu mai trovata alcuna prova di illeciti.
+
+Infatti, quando gli giovani signori e i rivali gelosi gli chiedevano il segreto della sua buona fortuna, Anomen diceva solo con umiltà: "Sono stato molto fortunato. Ci è voluto duro lavoro, sì, per costruire questa attività fino a ciò che è oggi, ma non l'ho fatto da solo. Devo tutto al dio e al continuo sostegno della mia amata Caroline. Senza di lei, il mio cammino nella vita sarebbe stato molto diverso."~
+
+
+
+//Nuovi oggetti
+//Cintura di genere
+@680 /*NAME1*/ = ~Cintura~
+@68 /*NAME2*/ = ~Cintura della Femminilità/Mascolinità~
+@69 /*DESC*/ = ~Simile alla rara ma spesso discussa maledetta Cintura della Mascolinità/Femminilità, un oggetto magico che cambia il sesso di chi la indossa, questa versione non è maledetta e fu probabilmente creata semplicemente per divertimento. La magia della cintura colpisce solo gli halfling.
+
+STATISTICHE:
+
+Abilità equipaggiate:
+– Cambia il sesso di chi la indossa
+
+Peso: 2~
+
+//Cintura di genere che funziona solo su Clara
+@690 /*DESC*/ = ~Simile alla rara ma spesso discussa maledetta Cintura della Mascolinità/Femminilità, un oggetto magico che cambia il sesso di chi la indossa, questa particolare cintura fu specificamente incantata per funzionare solo su Clara come scherzo.
+
+STATISTICHE:
+
+Abilità equipaggiate:
+– Cambia il sesso di chi la indossa
+
+Peso: 2~
+
+//Cintura di genere che solo Edwin può usare
+@681 /*Script*/ = ~Edwin~
+@691 /*DESC*/ = ~Simile alla rara ma spesso discussa maledetta Cintura della Mascolinità/Femminilità, un oggetto magico che cambia il sesso di chi la indossa, questa particolare cintura fu incantata per essere utilizzabile solo da Edwin.
+
+STATISTICHE:
+
+Abilità equipaggiate:
+– Cambia il sesso di chi la indossa
+
+Peso: 2~
+
+//STATISTICHE:
+
+//Abilità equipaggiate:
+//– Cambia il sesso di chi la indossa
+
+//Peso: 2~
+
+//Occhiali di Clara
+@70 /*NAME*/ = ~Spettroscopi Jansen di Clara~
+@71 /*DESC*/ = ~Spettroscopi Micro-Macro marca Jansen (Spettroscopi Ufficiali della Confraternita Purpurea)
+Un'altra delle invenzioni di Jan Jansen, questi occhiali furono creati specificamente per Clara e le permettono di individuare l'invisibilità una volta al giorno. Aggiungono anche un ulteriore 25% alle abilità di individuazione e disinnesco trappole di Clara. Varie lenti sul congegno aumentano la capacità di Clara di individuare illusioni del 20%. Lo stile degli Spettroscopi è così ovvio che non ha quasi bisogno di essere menzionato.
+
+STATISTICHE:
+
+Abilità equipaggiate:
+– Individuazione Trappole: +25%
+– Individuazione Illusioni: +20%
+– Immunità alla cecità
+
+Abilità a cariche:
+– Individuazione Invisibilità una volta al giorno
+  Area di effetto: raggio di 4,5 m
+
+Peso: 0~
+
+//Frecce avvelenate di Clara
+@72 /*Name*/ = ~Crea Frecce Avvelenate~
+@73 /*DESC*/ = ~Questa abilità permette a Clara di creare 15 Frecce Mordenti avvelenate, aggiungendole al suo inventario. Maneggiare con cura!~
+
+//Guanti di Clara
+@74 /*NAME*/ = ~Guanti Tecno-Jansen di Clara~
+@75 /*DESC*/ = ~Guanti Gadgettizzatori Tecno-Furtivi marca Jansen di Clara—(TM)
+Questo set di strumenti da ladro dà a Clara un bonus aggiuntivo sia alle sue abilità di scasso che di borseggio. È l'unica che può usare questi guanti, poiché Jan li creò specificamente per la sua apprendista e la addestrò nel loro uso. Clara sembra non avere problemi a scivolare nelle ombre indossando i guanti, probabilmente perché questo paio è meno appariscente degli originali di Jan.
+
+STATISTICHE:
+
+Abilità equipaggiate:
+– Scassinare Serrature: +20%
+– Borseggiare: +20%
+– Nascondersi nell'Ombra: +10%
+
+Peso: 0~
+@750 /*Nota di utilizzabilità*/ = ~Clara~
+
+//Nuova versione della Katana di Yoshimo
+@76 /*NAME*/ = ~Katana di Yoshimo +3~
+@77 /*DESC*/ = ~Questa lama sembra essere diventata più forte da quando Yoshimo la regalò a Clara. Forse è la benedizione del defunto o forse la lama desidera riconquistare l'onore del suo precedente padrone il prima possibile.
+
+Qualunque sia la ragione, quest'arma prende vita nelle mani di Clara e la presenza di Yoshimo può essere percepita quando viene impugnata. La katana trema quando una trappola è vicina e sembra torcere il destino a favore della sua nuova padrona. In combattimento, la spada rafforza la sua portatrice con ogni assaggio di sangue così che Clara non cada prima che il nome di Yoshimo sia stato ripristinato. Infatti, solo il suo permesso consente di impugnare la katana. Nessun altro può estrarre l'arma dal suo fodero.
+
+STATISTICHE:
+
+Abilità equipaggiate:
+– Individuazione Trappole: +20%
+– Bonus Fortuna
+
+Abilità di combattimento:
+– Ogni colpo cura il portatore di 1 Punto Ferita
+– Attacchi per round: +1
+
+THAC0: +3
+Danno: 1d10+3 (tagliente)
+Fattore di Velocità: 3
+Tipo di Competenza: Katana
+Tipo: Una mano
+
+Richiede:
+ 6 Forza
+
+Peso: 5~
+
+@94 = ~Eredità della Famiglia Delryn +4~
+@95 = ~Questa è l'eredità della famiglia di Anomen, lo scudo originale gli era stato dato da suo padre. Ora è stato riforgiato e tutte le sue abilità sono state migliorate.
+
+STATISTICHE:
+
+Abilità equipaggiate:
+Bonus CA: +5, +7 vs. proiettili
+Resistenza a fuoco e freddo: +40%
+Resistenza ai danni da proiettile: +50%
+Resistenza alla Magia: +10%
+Immunità a Charme, Confusione, Dominazione e Blocca Persone
+Allineamento non individuabile
+
+Peso: 7~
+
+//Anello nuziale di Clara
+@96 /*Name*/ = ~Anello della Famiglia Delryn~
+@97 /*DESC*/ = ~Questa semplice fascia, sebbene non di grande valore materiale, è un cimelio di famiglia Delryn. Una volta indossato dalla sua cara sorella Moira, Anomen diede questo anello a Clara come simbolo del loro amore. Per proteggere la sua nobile sposa, fece incantare appositamente questo anello per proteggerla dagli sguardi indiscreti di coloro con intenzioni malvagie.
+
+STATISTICHE:
+
+Abilità equipaggiate:
++1 Carisma
+Bonus Fortuna
+L'allineamento del portatore è non individuabile
+Il portatore è non individuabile
+
+Abilità a cariche:
+– Charme su Creature 3 volte al giorno (Tiro salvezza contro Incantesimi a -1 nega)
+Raggio: 12 m
+Durata: 12 ore
+Area di effetto: 1 creatura
+
+Peso: 0~
+
+//Palla di Fuoco di Clara
+@105 /*NAME*/ = ~Piazza Trappola Palla di Fuoco~
+@106 /*DESC*/ = ~Questa abilità permette a Clara di creare una trappola Palla di Fuoco che rimarrà in posizione finché qualcuno non si avvicina troppo. Amico o nemico, la Palla di Fuoco esploderà poi per danni massicci.~
+
+@108 /*Begin*/ = ~NON consentire epiloghi multipli di TOB: Se installi questo componente, gli epiloghi di AllThingsMazzy sovrascriveranno gli epiloghi esistenti del gioco e la maggior parte degli epiloghi delle mod. Se non installi questo componente, il gioco consentirà epiloghi multipli degli NPC ove applicabile.~
+
+@110 = ~Non sono come loro. Sarò dimostrata innocente, e me ne andrò di qui prima o poi.~
+@111 = ~Sono innocente. Sto dicendo la verità.~
+
+@130 /*Spettro della Ragazza*/ = ~Piccola Clara~
+
+//Note PRINT (per Weidu Setup) - per lo più solo i nostri commenti di colore
+@137 = ~Wilson rilevato - aggiunta a Wilson interdia.2da - impostazione del file di battute di Wilson (BWILSON & BWILSO25)~
+@138 = ~Aggiunta dello script override ToB di Wilson~
+@139 = ~Aggiunta del contenuto di Clara~
+@140 = ~Aggiunta di nuovi oggetti e incantesimi~
+@141 = ~Configurazione di dialoghi e script~
+@142 = ~Voci del diario per Enhanced Edition (EE). Titoli richiesti~
+@143 = ~Aggiunta delle battute Crossmod di Saradust...~
+//Roba Crossmod NPC
+@144 = ~Mod 'Alora in BG2' rilevata - aggiunta easter egg crossmod~
+@145 = ~Mod 'Alora in BG2' non rilevata~
+@1440 = ~'BG1 NPCs in SoA & ToB' Alora rilevata - aggiunta easter egg crossmod~
+@1450 = ~'BG1 NPCs in SoA & ToB' NPC Alora non rilevata~
+@146 = ~Nephele rilevata - aggiunta easter egg crossmod~
+@147 = ~NPC Nephele non rilevato~
+@1460 = ~MOD Anomen's extended plot of Hidden Adventure rilevata~
+@1470 = ~MOD Anomen's extended plot of Hidden Adventure non rilevata~
+@148 = ~Petsy rilevata - aggiunta easter egg crossmod~
+@149 = ~NPC Petsy non rilevato~
+@150 = ~Saradas rilevato - aggiunta battute crossmod~
+@151 = ~NPC Saradas non rilevato~
+@52 = ~Mod All Thing Mazzy rilevata. A causa della funzionalità sovrapposta, si prega di non installare questa mod insieme ad essa.~
+@53 = ~Questa mod deve essere installata prima di EET_End sulla tua installazione EET.~
+@54 = ~Devi avere la mod principale installata.~
+@152 = ~Compilazione degli script~
+@153 = ~Estensione degli script di gioco esistenti~
+@154 = ~Modifica degli script finali~
+@155 = ~Reimposta File di Controllo: per aiutare con tutte le gioie della compatibilità delle mod.~
+@156 = ~Kit da ladro specifico rilevato - conversione di Clara in un ladro speciale.~
+@157 = ~Kit da ladro specifico non rilevato - il kit di Clara rimarrà Danzatore d'Ombre.~
+@158 = ~Ritratto opzionale in stile BG2 per Clara~
+@159 = ~Cambiare il ritratto di Clara?
+
+1.Cambiare solo il ritratto di Clara dopo il salvataggio
+
+2.Cambiare tutti i ritratti di Clara
+
+Scegli 1 o 2~

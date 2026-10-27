@@ -1,0 +1,20 @@
+//Se cacci via Clara
+@0 /*Clara*/ = ~Quindi credo che sia finita qui?~
+@1 /*Player*/ = ~No, voglio che tu resti.~
+@2 /*Player*/ = ~Aspetta qui. Tornerò a prenderti.~
+@3 /*Player*/ = ~Torna nel mio piano tascabile. Ti troverò lì più tardi.~
+@4 /*Clara*/ = ~Uggh, va bene. Lasciami pure qui all'inferno. Ma questo posto è orribile, quindi faresti meglio a tornare presto.~
+@5 /*Clara*/ = ~Va bene. Aspetterò. Ma faresti meglio a tornare presto.~
+@6 /*Clara*/ = ~Uggh, va bene. Teletrasportami pure all'inferno ogni volta che non mi vuoi. Ma il tuo piano tascabile è super noioso, quindi faresti meglio a venirmi a prendere presto!~
+
+//Se ti aspetta nel Piano Tascabile
+@7 /*Clara*/ = ~Ciao, <CHARNAME>. Posso *per favore* uscire di qui?~
+@8 /*Player*/ = ~Sì. Vieni allora.~
+@9 /*Player*/ = ~Scusa, Clara. Non ho ancora bisogno di te.~
+@10 /*Clara*/ = ~Sì, finalmente! Andiamo!~
+@11 /*Clara*/ = ~Uggh, va bene. Andrò a parlare con Cespanar. Mi sta raccontando storie sui Piani Infernali e sono davvero interessanti.~
+
+//Non nel Piano Tascabile
+@12 /*Clara*/ = ~Ciao, <CHARNAME>. Sei qui per riportarmi indietro?~
+@13 /*Player*/ = ~Scusa, Clara. Continua ad aspettarmi qui.~
+@14 /*Clara*/ = ~Certo, <CHARNAME>, a meno che non riceva un'offerta migliore.~

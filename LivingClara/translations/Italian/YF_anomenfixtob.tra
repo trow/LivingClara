@@ -1,0 +1,35 @@
+//Correzione del romanticismo di Anomen
+@0 /*Anomen*/ = ~Mia signora, temo che tra noi ci possa essere stato un malinteso. Desidero continuare come prima. Potete perdonarmi?~
+@1 /*CHARNAME*/ = ~No, Anomen, voglio solo che siamo amici.~
+@2 /*CHARNAME*/ = ~Certo, Anomen. Tutto è perdonato.~
+
+//Conversazione per scegliere il passato di Anomen in una nuova partita
+@3 /*Anomen*/ = ~<CHARNAME>, ti prego di raccontarmi del nostro tempo insieme ad Athkatla. Ho superato la mia prova? Sono un cavaliere dell'Ordine del Cuore Radioso?~
+@4 /*CHARNAME*/ = ~Sì, l'hai superata. Sei un cavaliere. Tuttavia tuo padre ti ha diseredato.~
+@5 /*CHARNAME*/ = ~No, non l'hai superata. Sei stato cacciato dall'Ordine.~
+@6 /*CHARNAME*/ = ~Non hai ancora affrontato la prova. Abbiamo a malapena viaggiato insieme ad Amn.~
+@7 /*Anomen*/ = ~Capisco. Sono stato coinvolto sentimentalmente?~
+@8 /*CHARNAME*/ = ~Sì, con me.~
+@9 /*CHARNAME*/ = ~Beh, hai cercato di corteggiare Clara, ma lei ti ha lasciato per tuo padre.~
+@10 /*CHARNAME*/ = ~No, non lo sei stato.~
+@11 /*CHARNAME*/ = ~Ci siamo dichiarati il nostro amore. Si è scoperto che Saerk era responsabile dell'omicidio di tua sorella e tuo padre è andato ad affrontarlo ed è stato ucciso anche lui. Abbiamo affrontato anche Saerk, ma abbiamo deciso di andarcene pacificamente e lasciare che la giustizia della città facesse il suo corso.~
+@12 /*Anomen*/ = ~Beh, è deprimente, ma almeno ho realizzato il sogno della mia vita di unirmi all'Ordine.~
+@13 /*Anomen*/ = ~Continuiamo.~
+
+@14 /*Anomen*/ = ~Sì, con Clara.~
+@15 /*Anomen*/ = ~E poi cosa è successo, amore mio?~
+@16 /*CHARNAME*/ = ~Ci siamo dichiarati il nostro amore, ma tuo padre ha cercato di diseredarti, così l'abbiamo ucciso.~
+@1600 /*CHARNAME*/ = ~Ci siamo dichiarati il nostro amore, ma poi le autorità di Athkatla hanno riferito che Saerk non era responsabile della morte di tua sorella. Tuo padre ti ha diseredato, così sei andato ad affrontarlo. Insieme abbiamo deciso di risparmiargli la vita.~
+@1601 /*Anomen*/ = ~Il vecchio ubriacone ha finalmente avuto ciò che si meritava. E poi?~
+@1602 /*CHARNAME*/ = ~Poi abbiamo incolpato dei briganti per l'omicidio, e sei diventato Lord Delryn. Abbiamo pagato un mago incappucciato per indagare sull'omicidio di Saerk e ripulire il tuo nome. Saerk è ufficialmente un villain e noi siamo ufficialmente eroi.~
+@1603 /*CHARNAME*/ = ~Quindi ho perso l'Ordine, la mia famiglia e la mia casa. Tutto ciò che ho sei tu, amore mio.~
+@17 /*Anomen*/ = ~È eccellente. Sapevo sempre che eravamo destinati. Altro?~
+@18 /*CHARNAME*/ = ~Abbiamo anche risolto completamente i problemi di sicurezza derivanti dalla guerra delle gilde. Quando ti incontri con il Consiglio dei Sei diversi mesi dopo, ti viene offerto il seggio vacante nel Consiglio, a condizione che tu diventi uno dei signori più ricchi di Amn.~
+@19 /*Anomen*/ = ~Sono stato impegnato. Continuiamo, amore mio.~
+
+@20 /*Anomen*/ = ~E poi cosa è successo?~
+@21 /*CHARNAME*/ = ~Tu e Clara vi siete dichiarati il vostro amore e vi siete sposati. Tuo padre ha cercato di diseredarti, così l'abbiamo ucciso e abbiamo incolpato dei briganti per l'omicidio, così tu e Clara siete diventati Lord e Lady Delryn. Poi abbiamo pagato un mago incappucciato per indagare sull'omicidio di Saerk e ripulire il tuo nome. Saerk è ufficialmente un villain e noi siamo tutti ufficialmente eroi.~
+@22 /*Anomen*/ = ~Sono stato impegnato. Continuiamo.~
+
+//Correzione del battibecco romantico DSA 1
+@23 /*Anomen*/ = ~Quando mi hai aiutato contro mio padre, mi hai insegnato che lo spargimento di sangue può essere necessario per il bene superiore. Eppure deve esserci anche qualche momento in cui mettiamo in pausa la nostra ricerca del conflitto e ci godiamo anche la vita.~

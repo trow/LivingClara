@@ -1,0 +1,30 @@
+//Dialogo dello Spirito del Fato per evocare Clara
+@0 /*Charname*/ = ~Portami Clara, la Danzatrice d'Ombre.~
+
+//se l'hai salvata in precedenza
+@1 /*Clara*/ = ~Ehi, <CHARNAME>, sei tu che hai evocato la nobile Caroline Louisa Audrey Rosanna Alexandra...~
+@2 /*Player*/ = ~Va bene, Clara, questo è il mio Piano Tascabile personale, e tutti qui sono amici. Ti ho chiamata perché voglio che ti unisca al mio gruppo.~
+@3 /*Player*/ = ~Basta—tutto ciò che devi sapere è che devi riunirti alla squadra.~
+@4 /*Player*/ = ~Ho bisogno della tua forza nel mio viaggio, Caroline. Ti prego, aiutami.~
+@5 /*Player*/ = ~Scusa, Clara. Ho cambiato idea. Aspetta qui per ora.~
+@6 /*Clara*/ = ~Va bene, <CHARNAME>, dato che mi hai chiamata, cos'altro posso fare? Iniziamo.~
+@7 /*Clara*/ = ~Diretta e concisa come sempre, <CHARNAME>. Ma è per questo che mi piaci. Andiamo!~
+@8 /*Clara*/ = ~Oh, <CHARNAME>, sono molto felice di esserti d'aiuto. Continuiamo il viaggio.~
+@9 /*Clara*/ = ~Mi lascerai proprio qui? Non è molto carino.~
+@10 /*Clara*/ = ~Va bene, aspetterò. Non sembra che abbia molta altra scelta.~
+
+//se non l'hai salvata in precedenza
+@11 /*Clara*/ = ~Cosa? Dove sono? Chi sei? Sembri familiare ma non riesco davvero a ricordare... sembra tutto un brutto sogno.~
+@12 /*Player*/ = ~Congratulazioni per esserti unita al gruppo. Spero che tu abbia qualche abilità utile.~
+@13 /*Player*/ = ~Abbiamo viaggiato insieme brevemente e ho di nuovo bisogno del tuo aiuto.~
+@14 /*Player*/ = ~Non so a cosa stavo pensando. Evocherò qualcun altro.~
+@15 /*Clara*/ = ~Cioè, suppongo di sì. Sono così confusa.~
+@17 /*Clara*/ = ~Era <CHARNAME>, vero? Penso di ricordare. Forse puoi dirmi di più.~
+@18 /*Clara*/ = ~Mi lascerai proprio qui? Non è molto carino.~
+
+//Quando aspetta e non si è ancora unita a te
+@20 /*Clara*/ = ~Oh, <CHARNAME>. Sei tornato. Posso viaggiare con te ora?~
+@21 /*Player*/ = ~Sì, Clara. Vieni con me.~
+@22 /*Player*/ = ~Scusa. Non ho ancora bisogno di te.~
+@23 /*Clara*/ = ~Dici sul serio? Oh, grazie al cielo. Andiamo via di qui.~
+@24 /*Clara*/ = ~Davvero? Va bene allora. Lasciami pure qui a morire di fame.~

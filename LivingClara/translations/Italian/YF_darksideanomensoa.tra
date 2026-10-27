@@ -1,0 +1,31 @@
+//Anomen usa la terza battuta CN
+
+@0 /*Keldorn*/ = ~Avete intenzione di attaccare un tempio del Cuore Radioso, <CHARNAME>? Sapete che non posso permetterlo.~
+@1 /*CHARNAME*/ = ~Keldorn, amico mio, devi rilassarti. Non riconosci uno scherzo quando lo senti?~
+@2 /*CHARNAME*/ = ~Calmati, Keldorn. Era un piano, a malapena... era solo il primo minuscolo accenno di un progetto, se non meno, il più vago schizzo della nozione della vaga possibilità di un complotto. Quindi questo non si realizza. Sopravviverò. Ne ho altri.~
+@3 /*CHARNAME*/ = ~Non puoi permetterlo? Allora non posso permettere che tu stia in piedi. Sfodera la lama!~
+
+//Dopo che Anomen fallisce la prova
+@4 /*CHARNAME*/ = ~Un giorno, Anomen, ma non ancora. Non siamo ancora abbastanza forti per prevalere.~
+@5 /*Anomen*/ = ~*sospira* Hai ragione come al solito, <CHARNAME>. Andiamo avanti. Il giorno del giudizio dell'Ordine può aspettare.~
+
+//Un'interiezione nella quest del paladino caduto.
+@6 /*Anomen*/ = ~Sembra che le regole oppressive dell'Ordine possano spezzare persino i loro lacchè più devoti.~
+
+//Dopo che Anomen fallisce la prova con Clara
+//@7 /*Anomen*/ = ~Clara, mia signora, invito anche voi ad assistere alla mia valutazione per la cavalleria. Con voi al mio fianco, avrò il coraggio di affrontare qualunque esito.~
+@8 /*Charname*/ = ~Calmati...~
+@9 /*Anomen*/ = ~Lasciami in pace! L'hai visto anche tu! Proteggono quella feccia invece di riconoscere che ho vendicato mia sorella! Che tipo di giustizia è questa? Che tipo di ordine?~
+@10 /*Clara*/ = ~*fa un passo avanti* Ho visto. Ho visto un fratello fare ciò che doveva essere fatto per sua sorella. Non è stato un crimine, Anomen. È stata giustizia.~
+@11 /*Anomen*/ = ~Giustizia? Ah! Mi hanno chiamato villain! Hanno detto che sono indegno della fiducia dell'Ordine! Non gliene importa nulla di me, e ancor meno di Moira!~
+@12 /*Clara*/ = ~Perché sono ciechi. Se ne stanno nelle loro torri aggrappati a regolamenti ammuffiti, avendo da tempo dimenticato cosa quei regolamenti dovevano proteggere. Tu ti sei ricordato di Moira. Hai saldato il suo debito di sangue—questo è molto più reale dei loro sigilli e delle loro fasce.~
+@13 /*Anomen*/ = ~*ansimando* Io... volevo solo che riposasse. Anche gli altri se lo meritavano... hanno protetto l'assassino, erano colpevoli anche loro!~
+@14 /*Clara*/ = ~Certo. Proteggere il male è essere male. Tu hai solo eseguito il vero giudizio—il giudizio che a loro mancava il coraggio di compiere.~
+@15 /*Anomen*/ = ~Ma... ora non sono nulla. Cacciato disonorevolmente dall'Ordine... non sono nulla.~
+@16 /*Clara*/ = ~No. Hai ancora te stesso. Hai ancora il nome Delryn. Hai ancora la tua spada. *pausa* E hai ancora tempo.~
+@17 /*Anomen*/ = ~Tempo? Ah, non aspetterò! Caricherò e macellerò coloro che hanno protetto i colpevoli!~
+@18 /*Clara*/ = ~Ascolta. Se carichi ora, dimostri solo che hanno ragione—che sei un pazzo fuori controllo. Ma se ti giri, vivi e sali più in alto di quanto loro potrebbero mai fare... un giorno, siederai sopra di loro e scriverai tu stesso quei regolamenti. Allora chi oserebbe cacciarti?~
+@19 /*Anomen*/ = ~*lungo silenzio* ...Salire più in alto.~
+@20 /*Clara*/ = ~Finché vivi, tutto è possibile. Muori qui, e sei davvero spazzatura. Vai via vivo, e un giorno si inginocchieranno e ti supplicheranno di tornare.~
+@21 /*Anomen*/ = ~*respiro profondo* ...Hai ragione. Non posso cadere qui. Glielo mostrerò—senza la loro approvazione, Anomen Delryn è ancora Anomen Delryn. Un giorno... un giorno tornerò, e tremeranno al ricordo di questa decisione.~
+@22 /*Clara*/ = ~*sorride* Ecco l'Anomen che conosco. Vieni. Lasciamoci alle spalle questo dannato posto. Ci stanno tutti guardando.~

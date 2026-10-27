@@ -1,0 +1,59 @@
+//Battibecco sui libri con Imoen
+@1 /*Imoen*/ = ~Ehi... cosa stai leggendo?~
+@2 /*Neera*/ = ~"Il Grimorio dell'Annichilazione Assoluta"! Lo adorerai!~
+@3 /*Imoen*/ = ~"...tradotto dallo Gnomesco e include tutti i diagrammi originali." Ooh, piccante.~
+@4 /*Imoen*/ = ~Posso leggere sopra la tua spalla?~
+@5 /*Neera*/ = ~Certo! Avvicinati. Puoi aiutarmi a capire alcuni passaggi, non credo di star capendo tutto.~
+
+//Battibecco sui libri con Nalia
+@6 /*Nalia*/ = ~Neera, hai letto quel libro in ogni momento libero. Cos'è?~
+@7 /*Neera*/ = ~Oh, questo? È "Il Grimorio dell'Annichilazione Assoluta". È fantastico!~
+@8 /*Neera*/ = ~Anche se non sono sicura di capire tutto e non voglio fare errori.~
+@9 /*Neera*/ = ~Vuoi fare un turno?~
+@10 /*Nalia*/ = ~Oh, posso? Sarebbe meraviglioso. Ricordo i libri di incantesimi nella rocca di mio padre... tante belle ore...~
+@11 /*Nalia*/ = ~Grazie, Neera!~
+
+//Battibecco sui libri con Aerie
+@12 /*Aerie*/ = ~È-è un libro gnomesco quello che stai leggendo? Sembra proprio uno di quelli con cui mi insegnava mio zio Quayle.~
+@13 /*Aerie*/ = ~Leggi anche lo gnomesco?~
+@14 /*Neera*/ = ~Io? No, è tradotto in comune. Ma ha tutte le immagini originali. Hai letto questo?~
+@15 /*Aerie*/ = ~"Il Grimorio dell'Annichilazione Assoluta". Sei sicura che sia sicuro?~
+@16 /*Neera*/ = ~Certo che no. Parla di imbrigliare il potere dell'universo per far saltare in aria le cose!~
+@17 /*Neera*/ = ~Vuoi prendere in prestito il libro quando non lo leggo?~
+@18 /*Aerie*/ = ~Oh, posso? Grazie, Neera! A volte piace anche a me far saltare in aria le cose.~
+
+//Battibecco sui libri con CN
+@19 /*Neera*/ = ~<CHARNAME>, Clara mi ha dato un libro che ho pensato potesse interessarti.~
+@20 /*Neera*/ = ~Si chiama "Il Grimorio dell'Annichilazione Assoluta". Puoi prenderlo in prestito quando non lo leggo, se vuoi.~
+@21 /*CHARNAME*/ = ~Grazie, Neera, ci darò un'occhiata.~
+@22 /*CHARNAME*/ = ~No grazie, Neera, l'ho già letto. Nell'originale gnomesco!~
+@23 /*CHARNAME*/ = ~Scusa, Neera, non mi piace leggere.~
+@24 /*Neera*/ = ~Prego! Me ne devi una.~
+@25 /*Neera*/ = ~Certo che l'hai letto. Beh... va bene allora!~
+@26 /*Neera*/ = ~Me ne sono accorta. Ci perdi tu.~
+
+//Battibecco sui libri con Edwin
+@27 /*Edwin*/ = ~"Il Grimorio dell'Annichilazione Assoluta", tradotto DALLO Gnomesco?~
+@28 /*Edwin*/ = ~Come, qualcuno si è addormentata durante le sue lezioni di gnomesco?~
+@29 /*Neera*/ = ~Non ho mai studiato gnomesco, ecco.~
+@30 /*Neera*/ = ~Perché mi stai comunque infastidendo? Non dirmi che vuoi prenderlo in prestito.~
+@31 /*Edwin*/ = ~Prendere in prestito il tuo "Grimorio per Idioti"? No, ho già letto la versione vera... in gnomesco, naturalmente.~
+@32 /*Neera*/ = ~Stronzo.~
+
+//Battibecco sui libri con Jan
+@33 /*Jan*/ = ~È quello "Il Grimorio dell'Annichilazione Assoluta"? Non l'ho mai letto.~
+@34 /*Neera*/ = ~Vuoi prenderlo in prestito?~
+@35 /*Jan*/ = ~Mi hai preso una versione tradotta DALLO Gnomesco?~
+@36 /*Jan*/ = ~Chiaramente non te ne rendi conto, Neera, ma io leggo lo gnomesco, quindi avrebbe avuto più senso prendermi una versione tradotta IN gnomesco.~
+@37 /*Neera*/ = ~Lo so! Non l'ho preso per...~
+@38 /*Jan*/ = ~Suppongo che potrei tradurlo io stesso in gnomesco. Me lo vedo già: "Il Grimorio dell'Annichilazione Assoluta, tradotto dallo Gnomesco e con tutti i diagrammi originali, ora ritradotto in gnomesco da Jan Jansen."~
+@39 /*Jan*/ = ~Ha tutti i numeri per diventare un bestseller. Beh, non tra voi umani, naturalmente, dato che nessuno di voi legge lo gnomesco...~
+@40 /*Neera*/ = ~Sono una mezz'elfa!~
+@41 /*Jan*/ = ~Non vedo nemmeno voi elfi comprarlo davvero, dato che siete tutti troppo snob per imparare lo gnomesco.~
+@42 /*Neera*/ = ~Sono una MEZZ'ELFA! Un genitore era un elfo e un genitore era un umano!~
+@43 /*Jan*/ = ~Non che abbia mai imparato nemmeno l'elfico. Infatti, non so come stiamo avendo questa conversazione dato che io parlo gnomesco e tu blateri in elfico.~
+@44 /*Neera*/ = ~Stia. Mo. Parlando. Entrambi. In. Comune!~
+@45 /*Jan*/ = ~Eccoci di nuovo, cara, che fai come se potessi capirti.~
+@46 /*Jan*/ = ~Prenderò comunque in prestito il tuo libro, grazie!~
+@47 /*Jan*/ = ~Oh guarda, è in Comune! Potresti non rendertene conto, dato che sono uno gnomo e non capisci una parola di quello che dico, ma leggo anche il Comune.~
+@48 /*Neera*/ = ~Aaaaaagh!~

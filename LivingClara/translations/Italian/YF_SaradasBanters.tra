@@ -1,0 +1,25 @@
+//1° Battibecco Clara-Saradas
+@1 /*Clara*/ = ~Ehi, Saradas, posso farti una domanda?~
+@2 /*Saradas*/ = ~Certo. Le menti curiose vanno premiate e i giovani non imparano se gli anziani non condividono la loro saggezza. Cosa desideri sapere?~
+@3 /*Clara*/ = ~Beh, sono sicura che non ti aspettavi di essere evocato da <CHARNAME>... qualcuno sentirà la tua mancanza? Hai una famiglia che aspetta il tuo ritorno?~
+@4 /*Saradas*/ = ~Ahh, temo di no. Ho passato molti anni a perseguire conoscenza e artefatti arcani, e sebbene non rimpianga la mia scelta, non ho mai avuto una famiglia o un posto da chiamare mio.~
+@5 /*Saradas*/ = ~Infatti, le voci di magie perdute hanno spesso guidato i miei passi e sebbene il tempio avrà notato la mia assenza, non è la prima volta che me ne vado improvvisamente.~
+@6 /*Clara*/ = ~Oh, bene. Sono contenta di sentirlo.~
+@7 /*Saradas*/ = ~Lo sei?~
+@8 /*Clara*/ = ~Sì, cioè, sei DAVVERO vecchio. Temevo che <CHARNAME> avesse rapito il bisnonno di qualcuno e che cercassero di rintracciarti.~
+@9 /*Clara*/ = ~Ma se non hai famiglia, significa che possiamo tenere le tue cose se muori nel sonno. Che sollievo! Grazie!~
+@10 /*Saradas*/ = ~Questo è stato... interessante.~
+
+//2° Battibecco
+@11 /*Saradas*/ = ~Stai fissando con molta intensità, Clara. C'è qualcosa di cui hai bisogno?~
+@12 /*Clara*/ = ~No, solo assicurarmi che sia ancora vivo.~
+@13 /*Saradas*/ = ~Infatti lo sono. Mi dispiace deluderti.~
+@14 /*Clara*/ = ~Non sono delusa. Sono impressionata. Non ho mai visto NESSUNO vecchio come te e voglio sapere il tuo segreto. Come hai fatto a restare vivo per secoli?~
+@15 /*Saradas*/ = ~Secoli— Quanti anni pensi che abbia?~
+@16 /*Clara*/ = ~Non lo so. Duecento? Sembri avere duecento anni. Ma combatti come un giovane.~
+@17 /*Saradas*/ = ~Sei una ragazza strana, Clara, con una strana visione della vita. Non so se sentirmi lusingato o offeso quando parli.~
+@18 /*Saradas*/ = ~Tuttavia, se desideri davvero conoscere i segreti della longevità, sarei lieto di istruirti se posso.~
+@19 /*Clara*/ = ~Davvero? È fantastico! Insegnami come vivere per sempre... Beh, purché sia facile e non debba cambiare affatto.~
+@20 /*Saradas*/ = ~Capisco...~
+@21 /*Saradas*/ = ~In tal caso, temo che sia magia, bambina, e tu semplicemente non hai l'abilità.~
+@22 /*Clara*/ = ~Aww. Peccato. Grazie comunque per averci provato.~
