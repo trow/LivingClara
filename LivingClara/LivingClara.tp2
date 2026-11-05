@@ -2,7 +2,7 @@ BACKUP ~LivingClara/backup~
 
 AUTHOR ~MephistoSatanDevil~
 
-VERSION ~Version 1.5.8~
+VERSION ~Version 1.6.0~
 
 README ~LivingClara/translations/%LANGUAGE%/readme.txt~ ~LivingClara/readme.md~
 
@@ -47,7 +47,10 @@ LANGUAGE ~Spanish~ ~spanish~
 		 
 LANGUAGE ~Czech~ ~czech~
 		 ~LivingClara/translations/czech/setup.tra~
-
+		 
+LANGUAGE ~Italiano (Italian)~ ~Italian~
+		 ~LivingClara/translations/Italian/setup.tra~
+		 
 BEGIN @1 /*~Living Clara~*/        //Any text written after Begin will appear as XXX in the Weidu install: Install XXX?
 DESIGNATED 0 LABEL ~LivingClara-main~
 	FORBID_COMPONENT ~AllThingsMazzy.tp2~ ~0~ @52
