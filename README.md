@@ -1,6 +1,6 @@
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20Chinese%20%7C%20Czech%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Polish%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
-![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2EE%20%7C%20EET&color=dodgerblue )
+![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG2EE%20%7C%20EET&color=dodgerblue)
 [![Downloads](https://img.shields.io/github/downloads/trow/LivingClara/total?color=41788a)](https://github.com/trow/LivingClara/releases)
 
 # Living Clara
@@ -10,7 +10,7 @@
 
 **Project Address:** https://github.com/trow/LivingClara 
 
-This mod transforms Clara into a fully fleshed‑out NPC, allowing you to save her when facing Hexxat. It also expands Anomen’s dark side path with new interactions.
+This mod transforms Clara into a fully fleshed‑out NPC, allowing you to turn on Hexxat after Clara's scripted death, kill her, and revive Clara. It also expands Anomen’s dark side path with new interactions.
 
 ![Clara Portrait](https://static.wikia.nocookie.net/baldursgategame/images/5/5f/Clara_OHHEX_Portrait_BG2EE.png )
 ![Another_Clara Portrait](https://github.com/trow/LivingClara/blob/main/LivingClara/characters/YF_ClarL.bmp)
@@ -21,8 +21,8 @@ This mod transforms Clara into a fully fleshed‑out NPC, allowing you to save h
 
 This mod includes two main features:
 
-### 1. Keepable Clara
-When facing Hexxat, Clara will no longer die. We've reworked the conclusion of Hexxat's companion quest, allowing you to permanently destroy Hexxat and save Clara.
+### 1. Revivable Clara
+During the confrontation with Hexxat, Clara still dies as scripted — but we've reworked the initial Hexxat tomb event so you can revive her and keep her in your party permanently.
 
 Clara is a Female Human Lawful Evil Thief. Though initially underpowered, she can rapidly level up through numerous interjections with party members, gaining various attribute and ability bonuses. She can also be directly summoned when starting a new *Throne of Bhaal* campaign.
 
@@ -46,7 +46,7 @@ She never learned sincerity, only optimization. Athkatla made her, and she becam
 If Anomen fails his knight trial and kills his father, he would normally be forced to leave the party permanently. However, this component allows him to remain if he enters a committed romance with Clara. Additionally, Anomen's career may take an unexpected turn.
 
 ## Note
-When encountering "Hexxat" at the Copper Coronet, the party can decline the whole thing through dialogue and never bother with it at all, or can temporarily decline and later, if desired, initiate contact and dialogue with "Hexxat" again and agree to take her to the tomb. This is identical to the original game's Hexxat quest. This must occur before Chapter 4 and will be unavailable after that time marker. So, either do it or don't by then.
+To access the Living Clara content, you must accept the initial Hexxat recruitment at the Copper Coronet and proceed to the tomb event before Chapter 4. As in the original game, you may decline or postpone this encounter, but if you decline for good or pass Chapter 4, the Clara content will not trigger.
 
 <details>
 <summary>Additional info</summary>
@@ -59,12 +59,12 @@ To prevent the Cloak of Dragomir and Dragomir's Respite from going to waste afte
 - Compatible with most mods
 - **Do NOT install alongside the Mazzy MegaMod** (the original mod from which the Clara content was derived, as it contains duplicate material).
 - **Do NOT install the "Nothing kills romances" component** from the Romance Cheats section of The Tweaks Anthology mod (as it will prevent Anomen and Clara from developing a romance).
-- **Do NOT install the "Disable Hexxat" component** from the A7-NoEENPCs MOD (this component blocks the appearance of the fake Hexxat, thereby making it impossible to accept the shared recruitment quest for Clara and Hexxat).
+- **Do NOT install the "Disable Hexxat" component** from the A7-NoEENPCs MOD (this component blocks the appearance of the fake Hexxat, thereby making it impossible to trigger the initial Hexxat tomb event).
 
 **Installation Order:**
 - Install after [Saradas Magic for BG2](https://github.com/Spellhold-Studios/Saradas-Magic-BG2) for proper Crossmod interjections
 - Install after Anomen's extended plot component of [Hidden Adventures](https://github.com/Gitjas/hiddenadventure)  to avoid plot logic errors
-- To keep Clara's kit as Shadowdancer, install this mod prior to the three kit mods mentioned below.
+- To keep Clara's kit as Shadowdancer, install this mod before any of the kit mods listed below.
   - Installing this mod after the Trickster kit from [The Artisan's Kitpack](https://github.com/TheArtisanBG/The-Artisan-s-Kitpack/) will change Clara's kit to Trickster.
   - Installing this mod after the qin06dz Kit from qinsisuo06's [qin06dz Kits](https://tieba.baidu.com/p/9409160849), and without the Trickster kit installed, will change Clara's kit to qin06dz.
   - Installing this mod after the Seducer Kit from semiticgoddess's [Expanded Classes and Kits](https://forums.beamdog.com/discussion/77859/), and without the Trickster kit or the qin06dz Kit installed, will change Clara's kit to Seducer.
@@ -72,7 +72,7 @@ To prevent the Cloak of Dragomir and Dragomir's Respite from going to waste afte
 - On EET installations: install before EET_End
 
 **Known Issue:**
-- In the scene where Clara assists Anomen in patricide, if Clara is chunked death, she will not be resurrected correctly. If you encounter this issue, please reload a previous save and replay this scene.
+- In the scene where Clara assists Anomen in patricide, if Clara is chunked, she will not be resurrected correctly. If you encounter this issue, please reload a previous save and replay this scene.
 
 **On Multilingual Translation**
 - Since Chinese is my native language, all translations into other languages were done with AI assistance. If you notice any text issues while playing, please feel free to report them. Pull requests for translations in other languages are warmly welcome!
