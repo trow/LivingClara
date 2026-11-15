@@ -1,12 +1,12 @@
-BACKUP ~LivingClara/backup~
+BACKUP ~%MOD_FOLDER%/backup~
 
 AUTHOR ~MephistoSatanDevil~
 
-VERSION ~Version 1.6.0~
+VERSION ~Version 1.6.1~
 
-README ~LivingClara/translations/%LANGUAGE%/readme.txt~ ~LivingClara/readme.md~
+README ~%MOD_FOLDER%/translations/%LANGUAGE%/readme.txt~ ~%MOD_FOLDER%/readme.md~
 
-AUTO_TRA ~LivingClara/translations/%s~
+AUTO_TRA ~%MOD_FOLDER%/translations/%s~
 
 ALWAYS
   ACTION_IF NOT VARIABLE_IS_SET bg2_chapter BEGIN
@@ -24,32 +24,32 @@ ALWAYS
 END
 
 LANGUAGE ~Simplified Chinese~ ~schinese~
-		 ~LivingClara/translations/schinese/setup.tra~
-		 ~LivingClara/translations/schinese/prompts.tra~
+		 ~%MOD_FOLDER%/translations/schinese/setup.tra~
+		 ~%MOD_FOLDER%/translations/schinese/prompts.tra~
 		 
 LANGUAGE ~English~ ~english~
-		 ~LivingClara/translations/english/setup.tra~
+		 ~%MOD_FOLDER%/translations/english/setup.tra~
 		 
 LANGUAGE ~Russian~ ~russian~
-		 ~LivingClara/translations/russian/setup.tra~
+		 ~%MOD_FOLDER%/translations/russian/setup.tra~
 		 
 LANGUAGE ~French~ ~french~
-		 ~LivingClara/translations/french/setup.tra~
+		 ~%MOD_FOLDER%/translations/french/setup.tra~
 		 
 LANGUAGE ~Deutsch~ ~deutsch~
-		 ~LivingClara/translations/deutsch/setup.tra~
+		 ~%MOD_FOLDER%/translations/deutsch/setup.tra~
 		 
 LANGUAGE ~Polish~ ~polish~
-		 ~LivingClara/translations/polish/setup.tra~
+		 ~%MOD_FOLDER%/translations/polish/setup.tra~
 		 
 LANGUAGE ~Spanish~ ~spanish~
-		 ~LivingClara/translations/spanish/setup.tra~
+		 ~%MOD_FOLDER%/translations/spanish/setup.tra~
 		 
 LANGUAGE ~Czech~ ~czech~
-		 ~LivingClara/translations/czech/setup.tra~
+		 ~%MOD_FOLDER%/translations/czech/setup.tra~
 		 
 LANGUAGE ~Italiano (Italian)~ ~Italian~
-		 ~LivingClara/translations/Italian/setup.tra~
+		 ~%MOD_FOLDER%/translations/Italian/setup.tra~
 		 
 BEGIN @1 /*~Living Clara~*/        //Any text written after Begin will appear as XXX in the Weidu install: Install XXX?
 DESIGNATED 0 LABEL ~LivingClara-main~
@@ -76,20 +76,20 @@ BUT_ONLY_IF_IT_CHANGES //This stops Weidu from repeating the action if another m
 
 //Dialogue Files
    ACTION_IF NOT (FILE_EXISTS_IN_GAME ~BWILSON.dlg~) THEN BEGIN
-   COMPILE ~LivingClara/dialogues/BWILSONFix.d~
+   COMPILE ~%MOD_FOLDER%/dialogues/BWILSONFix.d~
   END
    ACTION_IF NOT (FILE_EXISTS_IN_GAME ~BWILSO25.dlg~) THEN BEGIN
-   COMPILE ~LivingClara/dialogues/BWILSO25Fix.d~
+   COMPILE ~%MOD_FOLDER%/dialogues/BWILSO25Fix.d~
   END
     ACTION_IF NOT (FILE_EXISTS_IN_GAME ~WILSO25J.dlg~) THEN BEGIN
-   COMPILE ~LivingClara/dialogues/WILSO25JFix.d~
+   COMPILE ~%MOD_FOLDER%/dialogues/WILSO25JFix.d~
   END
 END
 
 //TOB Script
 ACTION_IF NOT (FILE_EXISTS_IN_GAME ~Wilson25.bcs~) THEN BEGIN
   PRINT @138 /*Wilson has no ToB override script? That must be changed!*/
-  COMPILE ~LivingClara/scripts/wilson25.baf~
+  COMPILE ~%MOD_FOLDER%/scripts/wilson25.baf~
 END
 
 COPY_EXISTING ~Wilson13.cre~ ~override~ // Wilson version summoned by Fate Spirit in new ToB game (this version will NOT be summoned in EET if Wilson was with the party in SoA)
@@ -142,7 +142,7 @@ PRINT @139 /*Clara not detected. Clara is hiding. Casting True Sight and adding 
 // ----- 安装 Clara 在 SOA (Shadows of Amn) 阶段的 CRE 文件 -----
 // 复制并重命名 Clara 的主要角色文件 (YF_clara.cre)。
 
-COPY ~LivingClara/characters/YF_clara.cre~ ~override~
+COPY ~%MOD_FOLDER%/characters/YF_clara.cre~ ~override~
     // 设置角色在游戏中的显示名称 (Name1) 和鼠标悬停名称 (Name2)。
 	SAY NAME1 @2 /*Clara*/
 	SAY NAME2 @2 /*Clara*/
@@ -205,7 +205,7 @@ COPY ~LivingClara/characters/YF_clara.cre~ ~override~
 	
 // ----- 安装 Clara 在 TOB (Throne of Bhaal) 阶段的 CRE 文件 -----
 // 复制并重命名 Clara 在 TOB 阶段的角色文件 (YF_cla25.cre)。
-COPY ~LivingClara/characters/YF_cla25.cre~ ~override~
+COPY ~%MOD_FOLDER%/characters/YF_cla25.cre~ ~override~
     // 为 TOB 阶段的 Clara 文件设置相同的名称、背景和语音，确保角色一致性。
 	SAY NAME1 @2 /*Clara*/
 	SAY NAME2 @2 /*Clara*/
@@ -265,7 +265,7 @@ PRINT @140 /*Adding new items and spells.*/
 
 // ----- Clara 的新物品和法术 -----
 // --- 物品: Clara's Jansen Spectroscopes (YF_SCOPE.itm) ---
-COPY ~LivingClara/items/YF_SCOPE.itm~ ~override~ //items that require additional text/script changes must be copied individually to avoid messing up the game.
+COPY ~%MOD_FOLDER%/items/YF_SCOPE.itm~ ~override~ //items that require additional text/script changes must be copied individually to avoid messing up the game.
     // 设置物品的名称和描述。
 SAY NAME1 @70 /*Clara's Jansen Spectroscopes*/
 SAY NAME2 @70 /*Clara's Jansen Spectroscopes*/
@@ -289,7 +289,7 @@ END// 结束 LPF 调用。
 
 // --- 物品: Clara's Jansen Techno-Gloves (YF_Glove.itm) ---
 // 复制需要修改文本/脚本的单个物品文件。
-COPY ~LivingClara/items/YF_Glove.itm~ ~override~
+COPY ~%MOD_FOLDER%/items/YF_Glove.itm~ ~override~
     // 设置物品的名称和描述。
 SAY NAME1 @74 /*Clara's Jansen Techno-Gloves*/
 SAY NAME2 @74 /*Clara's Jansen Techno-Gloves*/
@@ -309,7 +309,7 @@ END
 
 // --- 物品: Yoshimo's Katana +3 (YF_Kata.itm) ---
 // 复制物品文件。
-COPY ~LivingClara/items/YF_Kata.itm~ ~override~
+COPY ~%MOD_FOLDER%/items/YF_Kata.itm~ ~override~
     // 设置名称和描述。
 SAY NAME1 @76 /*Yoshimo's Katana +3*/
 SAY NAME2 @76 /*Yoshimo's Katana +3*/
@@ -329,7 +329,7 @@ END
 
 // --- 物品: Delryn Family Ring (YF_Rng45.itm) ---
 // 复制物品文件。
-COPY ~LivingClara/items/YF_Rng45.itm~ ~override~
+COPY ~%MOD_FOLDER%/items/YF_Rng45.itm~ ~override~
     // 设置名称和描述。
 SAY NAME1 @96 /*Delryn Family Ring*/
 SAY NAME2 @96 /*Delryn Family Ring*/
@@ -348,7 +348,7 @@ STR_VAR
 resource = YF_Clara// 限制给 "YF_Clara"
 END
 
-COPY ~LivingClara/items/YF_BELTC.itm~ ~override~ //Clara only version (actually made to work with a script. The gender effect tends to crash SOA randomly)
+COPY ~%MOD_FOLDER%/items/YF_BELTC.itm~ ~override~ //Clara only version (actually made to work with a script. The gender effect tends to crash SOA randomly)
 SAY NAME1 @680 /*Girdle*/
 SAY NAME2 @68 /*Girdle of Femininity/Masculinity*/
 SAY DESC @690 /*Similar to the rare yet oft-discussed cursed Girdle of Masculinity/Femininity, a magical item that changes the wearer's gender, this particular girdle was specifically enchanted to only work on Clara as a joke.*/
@@ -357,7 +357,7 @@ SAY DESC @690 /*Similar to the rare yet oft-discussed cursed Girdle of Masculini
 	
 // --- 物品: Girdle of Femininity/Masculinity - Edwin 专用版 (YF_BELTE.itm) ---
 // 复制 Edwin 专用版本的腰带。
-COPY ~LivingClara/items/YF_BELTE.itm~ ~override~ //Edwin only version
+COPY ~%MOD_FOLDER%/items/YF_BELTE.itm~ ~override~ //Edwin only version
     // 设置名称和描述。
 SAY NAME1 @680 /*Girdle*/
 SAY NAME2 @68 /*Girdle of Femininity/Masculinity*/
@@ -376,7 +376,7 @@ resource = Edwin// 限制给 "Edwin"
 END 
 
 //德尔林的家族遗产+4
-COPY ~LivingClara/items/YF_NPSHD.itm~ ~override~
+COPY ~%MOD_FOLDER%/items/YF_NPSHD.itm~ ~override~
 SAY NAME1  @94
 SAY NAME2  @94
 SAY DESC  @95
@@ -393,8 +393,8 @@ resource = ANOMEN
 END
 
 //给塞斯潘纳增加重铸阿诺门盾牌的对话
-EXTEND_BOTTOM ~BOTSMITH.bcs~ ~LivingClara/scripts/YF_BOTSMITH.baf~
-COMPILE ~LivingClara/dialogues/YF_BOTSMITH.d~
+EXTEND_BOTTOM ~BOTSMITH.bcs~ ~%MOD_FOLDER%/scripts/YF_BOTSMITH.baf~
+COMPILE ~%MOD_FOLDER%/dialogues/YF_BOTSMITH.d~
 
 //在2da文件中添加成员专用属性限制，以免万能巧手的队友可以随意使用
 ACTION_IF FILE_EXISTS_IN_GAME ~item_use.2da~ BEGIN
@@ -404,7 +404,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~item_use.2da~ BEGIN
 	APPEND ~item_use.2da~ ~YF_Kata YF_Clara 9382 2 %strref_clara% ~ UNLESS ~YF_Kata~
 	APPEND ~item_use.2da~ ~YF_Rng45 YF_Clara 9382 2 %strref_clara% ~ UNLESS ~YF_Rng45~
 	APPEND ~item_use.2da~ ~YF_BELTC YF_Clara 9382 2 %strref_clara% ~ UNLESS ~YF_BELTC~
-	APPEND ~item_use.2da~ ~YF_BELTE YF_Clara 9382 2 271 ~ UNLESS ~YF_BELTE~
+	APPEND ~item_use.2da~ ~YF_BELTE EDWIN 9382 2 271 ~ UNLESS ~YF_BELTE~
 	APPEND ~item_use.2da~ ~YF_NPSHD ANOMEN 9382 2 9138~ UNLESS ~YF_NPSHD~
 	
 	COPY_EXISTING ~item_use.2da~ ~override~
@@ -413,7 +413,7 @@ END
 
 // 单独复制需要修改文本或效果的物品文件。
 // 复制并修改 YF_BELT2.itm (Girdle of Femininity/Masculinity)。
-COPY ~LivingClara/items/YF_BELT2.itm~ ~override~ //If you do have to change text/add effects, you need to copy the item individually.
+COPY ~%MOD_FOLDER%/items/YF_BELT2.itm~ ~override~ //If you do have to change text/add effects, you need to copy the item individually.
     // 设置物品的名称和描述。
 SAY NAME1 @680 /*Girdle*/
 SAY NAME2 @68 /*Girdle of Femininity/Masculinity*/
@@ -422,10 +422,10 @@ SAY DESC @69 /*Similar to the rare yet oft-discussed cursed Girdle of Masculinit
 //If you don't have to change text, you can just copy files en masse
 //New Items & Spells for Clara
 
-//COPY ~LivingClara/items/YF_cask2.ITM~ ~override~
+//COPY ~%MOD_FOLDER%/items/YF_cask2.ITM~ ~override~
 
   	ACTION_IF !FILE_EXISTS ~luaAuto.cfg~ BEGIN
-  		COPY ~LivingClara/items/luaAuto.cfg~ ~luaAuto.cfg~
+  		COPY ~%MOD_FOLDER%/items/luaAuto.cfg~ ~luaAuto.cfg~
   	END
 
 //  	<<<<<<<< .../StoreItemYF_cask2Select.LUA
@@ -470,43 +470,43 @@ end
   	END
 
 
-COPY ~LivingClara/items/YF_BELT0.ITM~ ~override~
-COPY ~LivingClara/spells/YF_BKSTB.SPL~ ~override~
-COPY ~LivingClara/spells/YF_FTRAP.SPL~ ~override~
-COPY ~LivingClara/spells/YF_HIDE.SPL~ ~override~
-COPY ~LivingClara/spells/YF_intox.SPL~ ~override~
-COPY ~LivingClara/spells/YF_KATA.SPL~ ~override~
-COPY ~LivingClara/spells/YF_LOCKS.SPL~ ~override~
-COPY ~LivingClara/spells/YF_LONG.SPL~ ~override~
-COPY ~LivingClara/spells/YF_MOVE.SPL~ ~override~
-COPY ~LivingClara/spells/YF_NOND.SPL~ ~override~
-COPY ~LivingClara/spells/YF_PICKP.SPL~ ~override~
-COPY ~LivingClara/spells/YF_REP.SPL~ ~override~
-COPY ~LivingClara/spells/YF_SBOW.SPL~ ~override~
-COPY ~LivingClara/spells/YF_SDO.SPL~ ~override~
-COPY ~LivingClara/spells/YF_SSP.SPL~ ~override~
-COPY ~LivingClara/spells/YF_STRAP.SPL~ ~override~
-COPY ~LivingClara/spells/YF_TIRED.SPL~ ~override~
-COPY ~LivingClara/spells/YF_TRAP.SPL~ ~override~
-COPY ~LivingClara/spells/YF_AFall.SPL~ ~override~
+COPY ~%MOD_FOLDER%/items/YF_BELT0.ITM~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_BKSTB.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_FTRAP.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_HIDE.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_intox.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_KATA.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_LOCKS.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_LONG.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_MOVE.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_NOND.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_PICKP.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_REP.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_SBOW.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_SDO.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_SSP.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_STRAP.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_TIRED.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_TRAP.SPL~ ~override~
+COPY ~%MOD_FOLDER%/spells/YF_AFall.SPL~ ~override~
 
 // --- 法术: Create Poison Arrows (YF_PoisA.spl) ---
 // 复制 Clara 的新法术文件。
-COPY ~LivingClara/spells/YF_PoisA.spl~ ~override~ 
+COPY ~%MOD_FOLDER%/spells/YF_PoisA.spl~ ~override~ 
     // 设置法术的名称和未鉴定描述。
 SAY NAME1 @72 /*Create Poison Arrows*/
 SAY UNIDENTIFIED_DESC @73 /*This ability allows Clara to create 15 poisonous Arrows of Biting, adding them to her inventory. Handle with care!*/
 // --- 法术: Set Fireball Trap (YF_FIRE.spl) ---
 // 复制 Clara 的新法术文件。
-COPY ~LivingClara/spells/YF_FIRE.spl~ ~override~ 
+COPY ~%MOD_FOLDER%/spells/YF_FIRE.spl~ ~override~ 
     // 设置法术的名称和未鉴定描述。
 SAY NAME1 @105 /*Set Fireball Trap*/
 SAY UNIDENTIFIED_DESC @106 /*This ability allows Clara to create a Fireball trap that will stay in position until someone walks too close. Friend or foe, the Fireball will then explode for massive damage.*/
 
 // ----- 复制并设置用于幽魂场景的新生物 (CRE) 文件 -----
 // 复制 "Little Clara" 的幽魂生物文件，并设置其属性。
-  COPY ~LivingClara/characters/YF_LITCL.bmp~ ~override~
-  COPY ~LivingClara/characters/YF_LITCL.cre~ ~override~
+  COPY ~%MOD_FOLDER%/characters/YF_LITCL.bmp~ ~override~
+  COPY ~%MOD_FOLDER%/characters/YF_LITCL.cre~ ~override~
         // 设置名称。
   SAY NAME1 @130 /*Little Clara*/
   SAY NAME2 @130
@@ -517,7 +517,7 @@ SAY UNIDENTIFIED_DESC @106 /*This ability allows Clara to create a Fireball trap
 	WRITE_ASCII DEATHVAR "YF_LITCL" #32
 	WRITE_ASCII DIALOG "YF_LITCL" #8
   
-COPY ~LivingClara/characters/YF_Hdead.cre~ ~override~
+COPY ~%MOD_FOLDER%/characters/YF_Hdead.cre~ ~override~
 	WRITE_ASCII SCRIPT_DEFAULT "YF_HDEAD.BCS" #8
 	WRITE_ASCII DEATHVAR "YF_HDEAD" #32
 	WRITE_EVALUATED_ASCII DIALOG "YF_HDEAD.DLG"  #8
@@ -544,37 +544,37 @@ UNLESS ~YF_Clara~// 同样使用 UNLESS 防止重复添加。
 
 // ----- 编译 Clara 的对话文件 -----
 //EVALUATE_BUFFER is required on any file that uses the EET chapter code as a trigger. It can go on all files to be safe.
-COMPILE EVALUATE_BUFFER ~LivingClara/dialogues/bYF_cl25.d~
-	~LivingClara/dialogues/bYF_clar.d~
-	~LivingClara/dialogues/YF_cla25.d~
-	~LivingClara/dialogues/YF_cl25j.d~
-	~LivingClara/dialogues/YF_cl25p.d~
-	~LivingClara/dialogues/YF_clara.d~
-	~LivingClara/dialogues/YF_claraanomen.d~
-	~LivingClara/dialogues/YF_clarainterjections.d~
-	~LivingClara/dialogues/YF_clarj.d~
-	~LivingClara/dialogues/YF_ClaraMazzy.d~
-	~LivingClara/dialogues/YF_clarp.d~
-	~LivingClara/dialogues/YF_claraquest.d~
-	~LivingClara/dialogues/YF_hexxattalk.d~
-	~LivingClara/dialogues/YF_NeeraBook.d~
-	~LivingClara/dialogues/YF_ohhfakthieves.d~
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dialogues/bYF_cl25.d~
+	~%MOD_FOLDER%/dialogues/bYF_clar.d~
+	~%MOD_FOLDER%/dialogues/YF_cla25.d~
+	~%MOD_FOLDER%/dialogues/YF_cl25j.d~
+	~%MOD_FOLDER%/dialogues/YF_cl25p.d~
+	~%MOD_FOLDER%/dialogues/YF_clara.d~
+	~%MOD_FOLDER%/dialogues/YF_claraanomen.d~
+	~%MOD_FOLDER%/dialogues/YF_clarainterjections.d~
+	~%MOD_FOLDER%/dialogues/YF_clarj.d~
+	~%MOD_FOLDER%/dialogues/YF_ClaraMazzy.d~
+	~%MOD_FOLDER%/dialogues/YF_clarp.d~
+	~%MOD_FOLDER%/dialogues/YF_claraquest.d~
+	~%MOD_FOLDER%/dialogues/YF_hexxattalk.d~
+	~%MOD_FOLDER%/dialogues/YF_NeeraBook.d~
+	~%MOD_FOLDER%/dialogues/YF_ohhfakthieves.d~
 
 // ========== Living Clara NPC -Anomen's extended plot of Hidden Adventure Cross MOD==========
 ACTION_IF MOD_IS_INSTALLED ~hiddenadventure.tp2~ 1 BEGIN
   PRINT @1460 /*Anomen's extended plot of Hidden Adventure mod detected*/
-  COMPILE EVALUATE_BUFFER ~LivingClara/dialogues/YF_claraanomen8talkhiddenadventure.d~ USING ~LivingClara/translations/%LANGUAGE%/YF_ClaraAnomen.tra~
+  COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dialogues/YF_claraanomen8talkhiddenadventure.d~ USING ~%MOD_FOLDER%/translations/%LANGUAGE%/YF_ClaraAnomen.tra~
 END ELSE BEGIN
   PRINT @1470 /*Anomen's extended plot of Hidden Adventure mod not detected*/
-  COMPILE EVALUATE_BUFFER ~LivingClara/dialogues/YF_claraanomen8talknohiddenadventure.d~ USING ~LivingClara/translations/%LANGUAGE%/YF_ClaraAnomen.tra~ 
+  COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dialogues/YF_claraanomen8talknohiddenadventure.d~ USING ~%MOD_FOLDER%/translations/%LANGUAGE%/YF_ClaraAnomen.tra~ 
 END
 //Dialogue Files- always installed (this code means whole folder compiled. You can also compile each dialogue file individually if you list the names)
 // ----- 编译模组主线共用的 SOA 对话文件 -----
 // 编译 /soa 目录下的所有对话文件。
 // EVALUATE_BUFFER 确保处理文件中的变量。
-COMPILE EVALUATE_BUFFER ~LivingClara/dialogues/YF_anomenfixsoa.d~	
-	~LivingClara/dialogues/YF_darksideanomensoa.d~
-	~LivingClara/dialogues/YF_DSAnomenromancesoa.d~
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/dialogues/YF_anomenfixsoa.d~	
+	~%MOD_FOLDER%/dialogues/YF_darksideanomensoa.d~
+	~%MOD_FOLDER%/dialogues/YF_DSAnomenromancesoa.d~
 PRINT @152 /*Searching for pure, chaste Imoen.
 Error: Chaste Imoen not found.
 Adding inappropriate sex-loving Imoen.
@@ -583,30 +583,30 @@ Searching for halfling orgy.
 No orgy found. Insufficient halflings.*/
 // ----- 编译 TOB 阶段的模组主线对话文件 -----
 // 编译 /tob 目录下的所有对话文件。
-COMPILE ~LivingClara/dialogues/YF_anomenfixtob.d~
+COMPILE ~%MOD_FOLDER%/dialogues/YF_anomenfixtob.d~
 
 // ----- 编译 Clara 的行为脚本 (BAF -> BCS) -----
 // 编译 Clara 在 SOA 阶段的覆盖脚本 (YF_clara.baf -> YF_clara.bcs)。
-COMPILE EVALUATE_BUFFER ~LivingClara/scripts/YF_clara.baf~
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts/YF_clara.baf~
 // 编译 Clara 在 SOA 阶段的对话脚本 (YF_clard.baf -> YF_clard.bcs)。
-COMPILE EVALUATE_BUFFER ~LivingClara/scripts/YF_clard.baf~
+COMPILE EVALUATE_BUFFER ~%MOD_FOLDER%/scripts/YF_clard.baf~
 // 编译 Clara 在 TOB 阶段的覆盖脚本 (YF_cla25.baf -> YF_cla25.bcs)。
-COMPILE ~LivingClara/scripts/YF_cla25.baf~
+COMPILE ~%MOD_FOLDER%/scripts/YF_cla25.baf~
 // 编译 Clara 在 TOB 阶段的对话脚本 (YF_cl25d.baf -> YF_cl25d.bcs)。
-COMPILE ~LivingClara/scripts/YF_cl25d.baf~
+COMPILE ~%MOD_FOLDER%/scripts/YF_cl25d.baf~
 // 编译 Gereth 相关的脚本（用于 Clara 的第二个任务）。
-COMPILE ~LivingClara/scripts/YF_Geret.baf~ EVALUATE_BUFFER  //2nd Clara Quest
+COMPILE ~%MOD_FOLDER%/scripts/YF_Geret.baf~ EVALUATE_BUFFER  //2nd Clara Quest
 
 // ----- 扩展现有游戏脚本以整合 Clara 的剧情 -----
 // 将 Clara 的获取脚本 (YF_gettingclara.baf) 添加到游戏主脚本 baldur.bcs 的顶部 (EXTEND_TOP)。
 // 这样可以确保 Clara 相关的初始化或触发逻辑尽早执行。
 // EVALUATE_BUFFER 确保脚本中的变量被正确处理。
 // 注释警告：将代码放在脚本顶部可能很危险，因为持续触发的代码可能会阻止后续代码执行，需要仔细测试。
-EXTEND_TOP ~baldur.bcs~ ~LivingClara/scripts/YF_gettingclara.baf~ EVALUATE_BUFFER //Extend Top puts code at top of bcs file so it plays first. This can be dangerous since code that fires continuously will stop anything after it from triggering. TEST TEST TEST.
+EXTEND_TOP ~baldur.bcs~ ~%MOD_FOLDER%/scripts/YF_gettingclara.baf~ EVALUATE_BUFFER //Extend Top puts code at top of bcs file so it plays first. This can be dangerous since code that fires continuously will stop anything after it from triggering. TEST TEST TEST.
 
 //前面的脚本拆成两部分，第一部分保留在全局脚本，第二部分检查物品的代码太多，召唤老鼠YF_Hdead来承载by shohy
-COMPILE ~LivingClara/scripts/YF_Hdead.baf~ EVALUATE_BUFFER
-COMPILE ~LivingClara/dialogues/YF_Hdead.d~ EVALUATE_BUFFER
+COMPILE ~%MOD_FOLDER%/scripts/YF_Hdead.baf~ EVALUATE_BUFFER
+COMPILE ~%MOD_FOLDER%/dialogues/YF_Hdead.d~ EVALUATE_BUFFER
 
 
 //给伯里奇添加一个木桩by shohy
@@ -632,7 +632,7 @@ COPY_EXISTING ~oh7000.are~ ~override~
 // 将 Clara 与 "OHHFAK" NPC 的互动脚本 (YF_OHHFAKClara.baf)
 // 添加到 OHHFAK.bcs 脚本的底部 (EXTEND_BOTTOM)。
 // EVALUATE_BUFFER 同样用于处理脚本中的变量。
-EXTEND_BOTTOM ~OHHFAK.bcs~ ~LivingClara/scripts/YF_OHHFAKClara.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~OHHFAK.bcs~ ~%MOD_FOLDER%/scripts/YF_OHHFAKClara.baf~ EVALUATE_BUFFER
 
 //让克拉拉能够观礼阿诺门骑士评定
 COPY_EXISTING ~CUT11A.bcs~ ~override~
@@ -704,7 +704,7 @@ ACTION_IF GAME_IS ~eet~ THEN BEGIN
 END ELSE BEGIN // 如果游戏不是 EET，则执行以下不同的处理。//different Fate Spirit dialogue patching for any other platform than EET
     // 为非 EET 平台编译一个不同的 Fate Spirit 对话文件，使其能够召唤 Clara。
     // USING ~...~ 指定了编译时使用的翻译文件，确保召唤台词正确显示。
-  COMPILE ~LivingClara/dialogues/YF_FateSpirit.d~ USING ~LivingClara/translations/%LANGUAGE%/YF_cla25.tra~  //Fate Spirit Dialogue, same tra file as TOB dialogue with USING
+  COMPILE ~%MOD_FOLDER%/dialogues/YF_FateSpirit.d~ USING ~%MOD_FOLDER%/translations/%LANGUAGE%/YF_cla25.tra~  //Fate Spirit Dialogue, same tra file as TOB dialogue with USING
 END // 结束非 EET 平台的处理块。
 
 //给命运之灵召唤出来的赫克塞特对话里添加设置克拉拉死亡的部分
@@ -723,9 +723,9 @@ PRINT @142 /*EE Journal Entries. Titles needed.*/
 // 使用 ADD_JOURNAL 指令添加日志条目，并通过 TITLE 关键字指定标题。
 // 格式: ADD_JOURNAL TITLE (@title_ref) @entry1_ref @entry2_ref ... USING ~path/to/translation.tra~
 // 添加邪恶 Anomen (Darkside Anomen) 的日志。
-ADD_JOURNAL TITLE (@1000) @1001 @1002 @1003 USING ~LivingClara/translations/%LANGUAGE%/YF_DSAnomenromancesoa.tra~ //Darkside Anomen 
+ADD_JOURNAL TITLE (@1000) @1001 @1002 @1003 USING ~%MOD_FOLDER%/translations/%LANGUAGE%/YF_DSAnomenromancesoa.tra~ //Darkside Anomen 
 // 添加 Clara 的第二个图书馆任务日志。
-ADD_JOURNAL TITLE (@1005) @1006 @1007 @1008 @1009 @1010 @1011 @1012 USING ~LivingClara/translations/%LANGUAGE%/YF_claraquest.tra~ //2nd library quest
+ADD_JOURNAL TITLE (@1005) @1006 @1007 @1008 @1009 @1010 @1011 @1012 USING ~%MOD_FOLDER%/translations/%LANGUAGE%/YF_claraquest.tra~ //2nd library quest
 
 // ----- 复制主 Mod 的文件（法术、音乐等）-----
 // 打印信息，表明正在添加新物品、能力等。
@@ -772,7 +772,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~!sartob.cre~ THEN BEGIN //This code detects the S
     // 如果检测到 Saradas，则打印信息。
  PRINT @150 /*Saradas detected - adding crossmod banters*/
      // 编译 Clara 与 Saradas 之间的互动对话文件。
- COMPILE ~LivingClara/dialogues/YF_SaradasBanters.d~ 
+ COMPILE ~%MOD_FOLDER%/dialogues/YF_SaradasBanters.d~ 
 END ELSE BEGIN    // 如果未检测到 Saradas，则打印信息。
  PRINT @151 /*Saradas NPC not detected*/
 END // 结束 Saradas 不存在的处理块。
@@ -808,7 +808,7 @@ ACTION_IF MOD_IS_INSTALLED ~ExpandedClasses.tp2~ 8 BEGIN
     WRITE_SHORT 0x246 (IDS_OF_SYMBOL (~kit~ ~USSD77~))
   BUT_ONLY
 END ELSE BEGIN
-  PRINT @157 /*Trickster mod not detected - Clara will not be a Trickster.*/
+  PRINT @157 /*Seducer mod not detected - Clara will not be a Seducer.*/
 END
 
 // ========== Living Clara NPC -qin06dz宗派兼容 ==========
@@ -856,7 +856,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~ALORA09.cre~ THEN BEGIN //This code detects the A
     // 如果检测到，则打印信息。
 	PRINT @144 /*'Alora in BG2' mod detected - adding crossmod Easter egg*/
     // 将腰带效果的脚本扩展添加到 Alora 的 SoA 脚本底部。
-EXTEND_BOTTOM ~CMALORA.BCS~ ~LivingClara/scripts/YF_Alora.baf~ 
+EXTEND_BOTTOM ~CMALORA.BCS~ ~%MOD_FOLDER%/scripts/YF_Alora.baf~ 
 END ELSE BEGIN    // 如果未检测到，则打印信息。
  PRINT @145 /*'Alora in BG2' mod not detected*/
 END
@@ -864,7 +864,7 @@ END
 // 检测 "Alora in BG2" Mod 的 TOB 版本 (ALORA25.cre)。
 ACTION_IF FILE_EXISTS_IN_GAME ~ALORA25.cre~ THEN BEGIN //Alora belt code
     // 将腰带效果的脚本扩展添加到 Alora 的 TOB 脚本底部。
-EXTEND_BOTTOM ~CMALO25.BCS~ ~LivingClara/scripts/YF_Alora.baf~ 
+EXTEND_BOTTOM ~CMALO25.BCS~ ~%MOD_FOLDER%/scripts/YF_Alora.baf~ 
 END // 结束 Alora (TOB) 存在的处理块。
 
 //Crossmod Halfling Belt Code (Smiling Imp's Alora)
@@ -874,8 +874,8 @@ ACTION_IF FILE_EXISTS_IN_GAME ~7XCRE69.cre~ THEN BEGIN //This code detects the A
     // 如果检测到，则打印信息。
  PRINT @1440 /*'BG1 NPCs in SoA & ToB' Alora detected - adding crossmod Easter egg*/
     // 将特定的腰带效果脚本扩展添加到该版本 Alora 的 SoA 和 TOB 脚本底部。
-EXTEND_BOTTOM ~7xAlor.BCS~ ~LivingClara/scripts/YF_AloraImp.baf~ 
-EXTEND_BOTTOM ~7XAlor25.BCS~ ~LivingClara/scripts/YF_AloraImp.baf~ 
+EXTEND_BOTTOM ~7xAlor.BCS~ ~%MOD_FOLDER%/scripts/YF_AloraImp.baf~ 
+EXTEND_BOTTOM ~7XAlor25.BCS~ ~%MOD_FOLDER%/scripts/YF_AloraImp.baf~ 
 END ELSE BEGIN
     // 如果未检测到，则打印信息。
  PRINT @1450 /*'BG1 NPCs in SoA & ToB' Alora NPC not detected*/
@@ -887,7 +887,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~lk#neph.cre~ THEN BEGIN //This code detects the N
     // 如果检测到，则打印信息。
  PRINT @146 /*Nephele detected - adding crossmod Easter egg*/
     // 将腰带效果的脚本扩展添加到 Nephele 的 SoA 脚本底部。
-EXTEND_BOTTOM ~LK#NEPH.BCS~ ~LivingClara/scripts/YF_Neph.baf~ 
+EXTEND_BOTTOM ~LK#NEPH.BCS~ ~%MOD_FOLDER%/scripts/YF_Neph.baf~ 
 END ELSE BEGIN
 // 如果未检测到，则打印信息。
  PRINT @147 /*Nephele NPC not detected*/
@@ -896,7 +896,7 @@ END
 // 检测 Nephele NPC Mod 的 TOB 版本 (lk#ne25.cre)。
 ACTION_IF FILE_EXISTS_IN_GAME ~lk#ne25.cre~ THEN BEGIN //Nephele belt code
     // 将腰带效果的脚本扩展添加到 Nephele 的 TOB 脚本底部。
-EXTEND_BOTTOM ~LK#NE25.BCS~ ~LivingClara/scripts/YF_Neph.baf~ 
+EXTEND_BOTTOM ~LK#NE25.BCS~ ~%MOD_FOLDER%/scripts/YF_Neph.baf~ 
 END // 结束 Nephele (TOB) 存在的处理块。
 
 // --- 跨 Mod 侏儒腰带代码 (Petsy NPC Mod) ---
@@ -905,7 +905,7 @@ ACTION_IF FILE_EXISTS_IN_GAME ~L3Petsy.cre~ THEN BEGIN //This code detects the P
     // 如果检测到，则打印信息。
  PRINT @148 /*Petsy detected - adding crossmod Easter egg*/
     // 将腰带效果的脚本扩展添加到 Petsy 的 SoA 脚本底部。
-EXTEND_BOTTOM ~L3Petsy.BCS~ ~LivingClara/scripts/YF_Petsy.baf~ 
+EXTEND_BOTTOM ~L3Petsy.BCS~ ~%MOD_FOLDER%/scripts/YF_Petsy.baf~ 
 END ELSE BEGIN
  PRINT @149 /*Petsy NPC not detected*/
 // 结束 Petsy (SoA) 存在的处理块。
@@ -913,12 +913,12 @@ END
 // 检测 Petsy NPC Mod 的 TOB 版本 (L3Pet25.cre)。
 ACTION_IF FILE_EXISTS_IN_GAME ~L3Pet25.cre~ THEN BEGIN //Petsy belt code
     // 将腰带效果的脚本扩展添加到 Petsy 的 TOB 脚本底部。
-EXTEND_BOTTOM ~L3Pet25.BCS~ ~LivingClara/scripts/YF_Petsy.baf~ 
+EXTEND_BOTTOM ~L3Pet25.BCS~ ~%MOD_FOLDER%/scripts/YF_Petsy.baf~ 
  // 结束 Petsy (TOB) 存在的处理块。
 END
 
 
-//COPY ~LivingClara/audio/G3Blank.mus~ ~override~
+//COPY ~%MOD_FOLDER%/audio/G3Blank.mus~ ~override~
 // This code is also used by BG2 Fixpack - it would help you to run custom music for your NPC from "a clean slate", installing "blank" music you could run it with. Not everyone installs the Fixpack, though, so here we go:
 // Feel free to skip this code if you're not using any music in your mod, only your NPC's voice.
 //COPY_EXISTING ~songlist.2da~ ~override~
@@ -939,40 +939,40 @@ Miniaturization successful.*/
 // 将模组主线的通用脚本逻辑附加到游戏核心和 NPC 的脚本中。
 
 // 将模组主线的初始化逻辑添加到游戏主脚本 baldur.bcs 的顶部。
-EXTEND_TOP ~baldur.bcs~ ~LivingClara/scripts/YF_baldur.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~baldur.bcs~ ~%MOD_FOLDER%/scripts/YF_baldur.baf~ EVALUATE_BUFFER
 // 将 Anomen 的模组主线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~anomen.bcs~ ~LivingClara/scripts/YF_anomen.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~anomen.bcs~ ~%MOD_FOLDER%/scripts/YF_anomen.baf~ EVALUATE_BUFFER
 // 将 Anomen 的 D 对话脚本的模组主线逻辑添加到底部。
-EXTEND_BOTTOM ~anomend.bcs~ ~LivingClara/scripts/YF_anomend.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~anomend.bcs~ ~%MOD_FOLDER%/scripts/YF_anomend.baf~ EVALUATE_BUFFER
 // ----- 扩展特定区域脚本以支持 Mazzy 恋爱任务和其他剧情 -----
 // 将 Clara 与 Anomen 相关剧情的脚本逻辑添加到 AR1000 的顶部。
-EXTEND_TOP ~AR1000.bcs~ ~LivingClara/scripts/YF_AR1000.baf~ EVALUATE_BUFFER //Just for Clara-Anomen 
+EXTEND_TOP ~AR1000.bcs~ ~%MOD_FOLDER%/scripts/YF_AR1000.baf~ EVALUATE_BUFFER //Just for Clara-Anomen 
 // 将 Clara 与 Anomen 相关剧情的脚本逻辑添加到 AR1001 的顶部。
-EXTEND_TOP ~AR1001.bcs~ ~LivingClara/scripts/YF_AR1001.baf~ EVALUATE_BUFFER //Just for Clara-Anomen 
+EXTEND_TOP ~AR1001.bcs~ ~%MOD_FOLDER%/scripts/YF_AR1001.baf~ EVALUATE_BUFFER //Just for Clara-Anomen 
 // 将 Clara 的第二个任务相关的脚本逻辑添加到 AR0702 的顶部。
-EXTEND_TOP ~AR0702.bcs~ ~LivingClara/scripts/YF_AR0702.baf~ EVALUATE_BUFFER //2nd Clara Quest
+EXTEND_TOP ~AR0702.bcs~ ~%MOD_FOLDER%/scripts/YF_AR0702.baf~ EVALUATE_BUFFER //2nd Clara Quest
 // 将 Clara 的第二个任务相关的脚本逻辑添加到 AR1700 的顶部。
-EXTEND_TOP ~AR1700.bcs~ ~LivingClara/scripts/YF_AR1700.baf~ EVALUATE_BUFFER //2nd Clara Quest
+EXTEND_TOP ~AR1700.bcs~ ~%MOD_FOLDER%/scripts/YF_AR1700.baf~ EVALUATE_BUFFER //2nd Clara Quest
 
 // 将 Terl NPC 的对话后备脚本逻辑添加到 terl.bcs 的底部。
-EXTEND_TOP ~terl.bcs~ ~LivingClara/scripts/YF_Terl.baf~ EVALUATE_BUFFER //For all the Terl talks, mostly backup 
+EXTEND_TOP ~terl.bcs~ ~%MOD_FOLDER%/scripts/YF_Terl.baf~ EVALUATE_BUFFER //For all the Terl talks, mostly backup 
 
-EXTEND_BOTTOM ~Cor.bcs~ ~LivingClara/scripts/YF_Cor.baf~ //在阿诺门死后寇尔会继续攻击克拉拉，不会停下来触发对话
+EXTEND_BOTTOM ~Cor.bcs~ ~%MOD_FOLDER%/scripts/YF_Cor.baf~ //在阿诺门死后寇尔会继续攻击克拉拉，不会停下来触发对话
 
-EXTEND_BOTTOM ~dornd.bcs~ ~LivingClara/scripts/YF_dorn.baf~ EVALUATE_BUFFER//??
-EXTEND_BOTTOM ~dornd.bcs~ ~LivingClara/scripts/YF_dornd.baf~ EVALUATE_BUFFER//??
+EXTEND_BOTTOM ~dorn.bcs~ ~%MOD_FOLDER%/scripts/YF_dorn.baf~ EVALUATE_BUFFER//??
+EXTEND_BOTTOM ~dornd.bcs~ ~%MOD_FOLDER%/scripts/YF_dornd.baf~ EVALUATE_BUFFER//??
 // 将 Hexxat 的模组主线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~hexxat.bcs~ ~LivingClara/scripts/YF_hexxat.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~hexxat.bcs~ ~%MOD_FOLDER%/scripts/YF_hexxat.baf~ EVALUATE_BUFFER
 // 将 TOB 阶段 Anomen 的模组主线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~anom25.bcs~ ~LivingClara/scripts/YF_anomentob.baf~
+EXTEND_BOTTOM ~anom25.bcs~ ~%MOD_FOLDER%/scripts/YF_anomentob.baf~
 
 
 // 将 TOB 阶段 Dorn 的模组主线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~dorn25.bcs~ ~LivingClara/scripts/YF_dorntob.baf~
+EXTEND_BOTTOM ~dorn25.bcs~ ~%MOD_FOLDER%/scripts/YF_dorntob.baf~
 // 将 TOB 阶段 Dorn 的 D 对话脚本的模组主线逻辑添加到底部。
-EXTEND_BOTTOM ~dorn25d.bcs~ ~LivingClara/scripts/YF_dorndtob.baf~
+EXTEND_BOTTOM ~dorn25d.bcs~ ~%MOD_FOLDER%/scripts/YF_dorndtob.baf~
 // 将 TOB 阶段 Hexxat 的模组主线逻辑添加到其脚本底部。
-EXTEND_BOTTOM ~hexxa25.bcs~ ~LivingClara/scripts/YF_hexxattob.baf~
+EXTEND_BOTTOM ~hexxa25.bcs~ ~%MOD_FOLDER%/scripts/YF_hexxattob.baf~
 
 
 
@@ -986,11 +986,11 @@ EXTEND_BOTTOM ~hexxa25.bcs~ ~LivingClara/scripts/YF_hexxattob.baf~
 
 // ----- 编译各种过场动画脚本 -----
 // 编译 Clara-Anomen 幽魂剧情的开始脚本。
-COMPILE ~LivingClara/scripts/YF_LCla.baf~ //C-A Wraith Cutscene
+COMPILE ~%MOD_FOLDER%/scripts/YF_LCla.baf~ //C-A Wraith Cutscene
 // 编译 Clara-Anomen 幽魂剧情的结束脚本。
-COMPILE ~LivingClara/scripts/YF_LCla2.baf~ //End of Wraith Cutscene
+COMPILE ~%MOD_FOLDER%/scripts/YF_LCla2.baf~ //End of Wraith Cutscene
 // 编译 Clara 任务中与魔像互动的剧情脚本。
-COMPILE ~LivingClara/scripts/YF_Gol.baf~ //Golem Scene Clara Quest
+COMPILE ~%MOD_FOLDER%/scripts/YF_Gol.baf~ //Golem Scene Clara Quest
 
 //Epilogues:
 // ----- 结局处理 -----
@@ -1020,59 +1020,59 @@ BUT_ONLY_IF_IT_CHANGES
 // --- 使用 EXTEND_TOP 修改结局脚本 ---
 // 将自定义的结局控制逻辑脚本添加到 AR6200.bcs 的顶部，以确保它在原有结局逻辑之前执行。
 // 这个脚本 (YF_AR6200.baf) 可能包含了防止冲突结局同时触发的逻辑。
-EXTEND_TOP ~AR6200.bcs~ ~LivingClara/scripts/YF_AR6200.baf~
+EXTEND_TOP ~AR6200.bcs~ ~%MOD_FOLDER%/scripts/YF_AR6200.baf~
 
 //Clara
 // --- Clara 的结局 ---
-COPY ~LivingClara/epilogue/YF_Clara.2da~ ~override/YF_Cla01.2da~ //Basic Epilogue
+COPY ~%MOD_FOLDER%/epilogue/YF_Clara.2da~ ~override/YF_Cla01.2da~ //Basic Epilogue
 REPLACE ~99999~ @47
-COPY ~LivingClara/epilogue/YF_Clara.2da~ ~override/YF_Cla02.2da~ //Marries Anomen, not dead
+COPY ~%MOD_FOLDER%/epilogue/YF_Clara.2da~ ~override/YF_Cla02.2da~ //Marries Anomen, not dead
 REPLACE ~99999~ @78
-COPY ~LivingClara/epilogue/YF_Clara.2da~ ~override/YF_Cla03.2da~ //Both Cor & Anomen dead
+COPY ~%MOD_FOLDER%/epilogue/YF_Clara.2da~ ~override/YF_Cla03.2da~ //Both Cor & Anomen dead
 REPLACE ~99999~ @79
-COPY ~LivingClara/epilogue/YF_Clara.2da~ ~override/YF_Cla04.2da~ //Marries Cor, both alive
+COPY ~%MOD_FOLDER%/epilogue/YF_Clara.2da~ ~override/YF_Cla04.2da~ //Marries Cor, both alive
 REPLACE ~99999~ @80
-COPY ~LivingClara/epilogue/YF_Clara.2da~ ~override/YF_Cla05.2da~ //Marries Cor, A dead
+COPY ~%MOD_FOLDER%/epilogue/YF_Clara.2da~ ~override/YF_Cla05.2da~ //Marries Cor, A dead
 REPLACE ~99999~ @81
-COPY ~LivingClara/epilogue/YF_Clara.2da~ ~override/YF_Cla06.2da~ //Marries Cor, C dead, A alive
+COPY ~%MOD_FOLDER%/epilogue/YF_Clara.2da~ ~override/YF_Cla06.2da~ //Marries Cor, C dead, A alive
 REPLACE ~99999~ @82
 
 //Anomen
 // --- Anomen 的结局 ---
-COPY ~LivingClara/epilogue/YF_Anom.2da~ ~override/YF_Ano01.2da~ //Married Clara, not dead
+COPY ~%MOD_FOLDER%/epilogue/YF_Anom.2da~ ~override/YF_Ano01.2da~ //Married Clara, not dead
 REPLACE ~99999~ @83
-//COPY ~LivingClara/epilogue/YF_Anom.2da~ ~override/YF_Ano02.2da~ //Darkside Romance Epilogue
+//COPY ~%MOD_FOLDER%/epilogue/YF_Anom.2da~ ~override/YF_Ano02.2da~ //Darkside Romance Epilogue
 //REPLACE ~99999~ @98
-//COPY ~LivingClara/epilogue/YF_Anom.2da~ ~override/YF_Ano03.2da~ //Darkside Romance God Epilogue
+//COPY ~%MOD_FOLDER%/epilogue/YF_Anom.2da~ ~override/YF_Ano03.2da~ //Darkside Romance God Epilogue
 //REPLACE ~99999~ @99
 
 //BCaesar and Ratatoskr's Personal Rest Check Files (For all of them mods)
 PRINT @155 /*RestCheck Files: to help with all the joys of mod compatibility.*/
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~YF_rcstp.spl~ THEN BEGIN
-COPY ~LivingClara/restcheck/YF_rcstp.spl~ ~override~
-EXTEND_BOTTOM ~baldur.bcs~ ~LivingClara/restcheck/player1dreamsSoA.baf~
-EXTEND_BOTTOM ~baldur25.bcs~ ~LivingClara/restcheck/player1dreamsToB.baf~
-EXTEND_BOTTOM ~aerie.bcs~ ~LivingClara/restcheck/_rc_aerie.baf~
-EXTEND_BOTTOM ~aeri25.bcs~ ~LivingClara/restcheck/_rc_aeri25.baf~
-EXTEND_BOTTOM ~anomen.bcs~ ~LivingClara/restcheck/_rc_anomen.baf~
-EXTEND_BOTTOM ~dorn.bcs~ ~LivingClara/restcheck/_rc_dorn.baf~
-EXTEND_BOTTOM ~edwin.bcs~ ~LivingClara/restcheck/_rc_edwin.baf~
-EXTEND_BOTTOM ~haerdali.bcs~ ~LivingClara/restcheck/_rc_haerdali.baf~
-EXTEND_BOTTOM ~haer25.bcs~ ~LivingClara/restcheck/_rc_haer25.baf~
-EXTEND_BOTTOM ~hexxat.bcs~ ~LivingClara/restcheck/_rc_hexxat.baf~
-EXTEND_BOTTOM ~hexxa25.bcs~ ~LivingClara/restcheck/_rc_hexxa25.baf~
-EXTEND_BOTTOM ~imoen2.bcs~ ~LivingClara/restcheck/_rc_imoen2.baf~
-EXTEND_BOTTOM ~imoe25.bcs~ ~LivingClara/restcheck/_rc_imoe25.baf~
-EXTEND_BOTTOM ~jaheira.bcs~ ~LivingClara/restcheck/_rc_jaheira.baf~
-EXTEND_BOTTOM ~keldorn.bcs~ ~LivingClara/restcheck/_rc_keldorn.baf~
-EXTEND_BOTTOM ~keld25.bcs~ ~LivingClara/restcheck/_rc_keld25.baf~
-EXTEND_BOTTOM ~mazzy.bcs~ ~LivingClara/restcheck/_rc_mazzy.baf~
-EXTEND_BOTTOM ~nalia.bcs~ ~LivingClara/restcheck/_rc_nalia.baf~
-EXTEND_BOTTOM ~neer25.bcs~ ~LivingClara/restcheck/_rc_neera25.baf~
-EXTEND_BOTTOM ~rasaad.bcs~ ~LivingClara/restcheck/_rc_rasaad.baf~
-EXTEND_BOTTOM ~sarev25.bcs~ ~LivingClara/restcheck/_rc_sarev25.baf~
-EXTEND_BOTTOM ~viconia.bcs~ ~LivingClara/restcheck/_rc_viconia.baf~
-EXTEND_BOTTOM ~vico25.bcs~ ~LivingClara/restcheck/_rc_vico25.baf~
+COPY ~%MOD_FOLDER%/restcheck/YF_rcstp.spl~ ~override~
+EXTEND_BOTTOM ~baldur.bcs~ ~%MOD_FOLDER%/restcheck/player1dreamsSoA.baf~
+EXTEND_BOTTOM ~baldur25.bcs~ ~%MOD_FOLDER%/restcheck/player1dreamsToB.baf~
+EXTEND_BOTTOM ~aerie.bcs~ ~%MOD_FOLDER%/restcheck/_rc_aerie.baf~
+EXTEND_BOTTOM ~aeri25.bcs~ ~%MOD_FOLDER%/restcheck/_rc_aeri25.baf~
+EXTEND_BOTTOM ~anomen.bcs~ ~%MOD_FOLDER%/restcheck/_rc_anomen.baf~
+EXTEND_BOTTOM ~dorn.bcs~ ~%MOD_FOLDER%/restcheck/_rc_dorn.baf~
+EXTEND_BOTTOM ~edwin.bcs~ ~%MOD_FOLDER%/restcheck/_rc_edwin.baf~
+EXTEND_BOTTOM ~haerdali.bcs~ ~%MOD_FOLDER%/restcheck/_rc_haerdali.baf~
+EXTEND_BOTTOM ~haer25.bcs~ ~%MOD_FOLDER%/restcheck/_rc_haer25.baf~
+EXTEND_BOTTOM ~hexxat.bcs~ ~%MOD_FOLDER%/restcheck/_rc_hexxat.baf~
+EXTEND_BOTTOM ~hexxa25.bcs~ ~%MOD_FOLDER%/restcheck/_rc_hexxa25.baf~
+EXTEND_BOTTOM ~imoen2.bcs~ ~%MOD_FOLDER%/restcheck/_rc_imoen2.baf~
+EXTEND_BOTTOM ~imoe25.bcs~ ~%MOD_FOLDER%/restcheck/_rc_imoe25.baf~
+EXTEND_BOTTOM ~jaheira.bcs~ ~%MOD_FOLDER%/restcheck/_rc_jaheira.baf~
+EXTEND_BOTTOM ~keldorn.bcs~ ~%MOD_FOLDER%/restcheck/_rc_keldorn.baf~
+EXTEND_BOTTOM ~keld25.bcs~ ~%MOD_FOLDER%/restcheck/_rc_keld25.baf~
+EXTEND_BOTTOM ~mazzy.bcs~ ~%MOD_FOLDER%/restcheck/_rc_mazzy.baf~
+EXTEND_BOTTOM ~nalia.bcs~ ~%MOD_FOLDER%/restcheck/_rc_nalia.baf~
+EXTEND_BOTTOM ~neer25.bcs~ ~%MOD_FOLDER%/restcheck/_rc_neera25.baf~
+EXTEND_BOTTOM ~rasaad.bcs~ ~%MOD_FOLDER%/restcheck/_rc_rasaad.baf~
+EXTEND_BOTTOM ~sarev25.bcs~ ~%MOD_FOLDER%/restcheck/_rc_sarev25.baf~
+EXTEND_BOTTOM ~viconia.bcs~ ~%MOD_FOLDER%/restcheck/_rc_viconia.baf~
+EXTEND_BOTTOM ~vico25.bcs~ ~%MOD_FOLDER%/restcheck/_rc_vico25.baf~
 END
 
 //Code to make Malchor Harpell not come back after you kill him.
@@ -1097,7 +1097,7 @@ BUT_ONLY_IF_IT_CHANGES  //To stop this from happening endlessly
 //Area script file
     // ----- 扩展结局区域脚本 -----
     // 扩展结局区域 AR6200 的脚本顶部，添加一个脚本，当激活 LivingClara 的结局时，关闭现有的结局。
-EXTEND_TOP ~AR6200.bcs~ ~LivingClara/scripts/YF_AR6200X.baf~  //This script just turns off existing epilogues when ours are active.
+EXTEND_TOP ~AR6200.bcs~ ~%MOD_FOLDER%/scripts/YF_AR6200X.baf~  //This script just turns off existing epilogues when ours are active.
 
 //FtE Only portion
  // 结束对 FtE 部分的处理。
@@ -1106,9 +1106,9 @@ EXTEND_TOP ~AR6200.bcs~ ~LivingClara/scripts/YF_AR6200X.baf~  //This script just
 LAF HANDLE_AUDIO
         // 传递给函数的字符串变量，指定音频文件的路径。
   STR_VAR
-    audio_path = ~LivingClara/audio~// OGG 文件源路径
-    oggdec_path = ~LivingClara/audio~ // OGG 解码器路径 (可能未使用)
-    sox_path = ~LivingClara/audio~ // Sox 音频处理工具路径 (可能未使用)
+    audio_path = ~%MOD_FOLDER%/audio~// OGG 文件源路径
+    oggdec_path = ~%MOD_FOLDER%/audio~ // OGG 解码器路径 (可能未使用)
+    sox_path = ~%MOD_FOLDER%/audio~ // Sox 音频处理工具路径 (可能未使用)
 END
 
 COPY_EXISTING ~PEASF208.WAV~ ~override/OH102440.WAV~
@@ -1125,8 +1125,8 @@ OUTER_WHILE (!IS_AN_INT %how%) OR (%how% > 2) OR (%how% < 1) BEGIN
 END
 
 ACTION_IF (%how% = 1) THEN BEGIN
-COPY ~LivingClara/characters/YF_ClarL.bmp~ ~override/YF_ClarL.bmp~ 
-COPY ~LivingClara/characters/YF_ClarM.bmp~ ~override/YF_ClarM.bmp~ 
+COPY ~%MOD_FOLDER%/characters/YF_ClarL.bmp~ ~override/YF_ClarL.bmp~ 
+COPY ~%MOD_FOLDER%/characters/YF_ClarM.bmp~ ~override/YF_ClarM.bmp~ 
 
 COPY_EXISTING ~YF_Clara.cre~ ~override/YF_Clara.cre~
  WRITE_ASCII 0x34 ~YF_ClarM~ #8 //portraits
@@ -1143,8 +1143,8 @@ COPY_EXISTING ~YF_Cla25.cre~ ~override/YF_Cla25.cre~
 END
 
 ACTION_IF (%how% = 2) THEN BEGIN
-	COPY ~LivingClara/characters/YF_ClarL.bmp~ ~override/OHHEXL.BMP~ 
-	COPY ~LivingClara/characters/YF_ClarM.bmp~ ~override/OHHEXM.BMP~
+	COPY ~%MOD_FOLDER%/characters/YF_ClarL.bmp~ ~override/OHHEXL.BMP~ 
+	COPY ~%MOD_FOLDER%/characters/YF_ClarM.bmp~ ~override/OHHEXM.BMP~
 	ACTION_IF FILE_EXISTS_IN_GAME ~bdclara.cre~ THEN BEGIN
 		COPY_EXISTING ~bdclara.cre~ ~override/bdclara.cre~
 		WRITE_ASCII 0x34 ~OHHEXM~ #8 //portraits

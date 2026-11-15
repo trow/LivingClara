@@ -791,7 +791,7 @@ DO ~UndoExplore() SetGlobal("YF_BCLARANALIA","GLOBAL",5) ChangeStat("YF_Clara",C
 == BNALIA @314 /*No. He said I wore him out with that last number. But I think I just confused him when I tried to lead.*/
 == BYF_Clar @315 /*Hah! Well, there's plenty more to choose from. Try that sailor over there; he's got good legs – for dancing, of course.*/
 = @316 /*And here, a green one, just for luck....*/
-DO ~ActionOverride("Nalia",ApplySpellRES("YF_intox","Nalia")~
+DO ~ActionOverride("Nalia",ApplySpellRES("YF_intox","Nalia"))~
 == CROWEN01 IF ~AreaCheck("AR0021") InMyArea("YF_Clara")~ THEN @317 /*"In Athkatla fair city
                   Where the girls are so pretty
                   That's where I first met
