@@ -2,7 +2,7 @@ BACKUP ~%MOD_FOLDER%/backup~
 
 AUTHOR ~MephistoSatanDevil~
 
-VERSION ~Version 1.6.1~
+VERSION ~Version 1.6.3~
 
 README ~%MOD_FOLDER%/translations/%LANGUAGE%/readme.txt~ ~%MOD_FOLDER%/readme.md~
 
