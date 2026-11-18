@@ -158,7 +158,7 @@
 @139 /*Dorn*/ = ~Natürlich weißt du das nicht. Ein hübsches junges Mädchen wie du? Jeder Mann, mit dem du je geschlafen hast, hat dich mit jedem Atemzug begehrt. Du bist der Inbegriff der Begierde.~
 @140 /*Clara*/ = ~Oh. Nun... Ich hätte es richtig gut vorgetäuscht. Du wärst nicht enttäuscht gewesen.~
 @141 /*Dorn*/ = ~Hmpf. Ich bin die Lügen und Täuschungen leid. Wenigstens wissen wir beide so, woran wir sind.~
-@142 /*Clara*/ = ~Weißt du was, Dorn? Unter deinem bösen Killer-Aufzug bist du eigentlich ein ziemlich netter Kerl.~
+@142 /*Clara*/ = ~Weißt du was, Dorn? Die Böse-Mörder-Nummer ziehst du ganz schön durch, aber ich glaub nicht wirklich, dass du davon allein lebst.~
 @143 /*Dorn*/ = ~Haha. Ich habe Hunderte abgeschlachtet. Bauern. Frauen. Kinder. Ich würde dich im Handumdrehen niederschlagen, wenn es mir nütze.~
 @144 /*Clara*/ = ~Ja... aber ich glaube, es würde dir leidtun.~
 
@@ -300,17 +300,17 @@
 @264 /*HaerDalis*/ = ~Ahh, das ist schade. Ich werde mich damit begnügen, den vielen Masken zuzusehen, die du der Welt zeigst.~
 
 //Erstes Gespräch mit Edwin - männlich, keine CN-Romanze
-@265 /*Edwin*/ = ~Clara! Du bist hübsch genug. Du wirst heute Nacht mein Bett wärmen.~
+@265 /*Edwin*/ = ~Clara! Deine kleinen Tricks haben meine Aufmerksamkeit erregt. Komm heute Nacht in mein Zimmer. Ich habe eine Aufgabe für dich, die meines Genies würdig ist.~
 @266 /*Clara*/ = ~Nein. Warum sollte ich das tun?~
 @267 /*Edwin*/ = ~(Sie weist mich ab? Das ist unmöglich!)~
 @268 /*Edwin*/ = ~Ich bin Edwin Odesseiron, begreifst du das nicht? Das Gefüge des Universums biegt sich unter meiner Laune! Ich kann Dschinne und Kreaturen aus purem Feuer herbeirufen, um meine Feinde zu vernichten!~
 @269 /*Clara*/ = ~Nett. Du magst ein großer Magier sein, aber bist du ein reicher Kaufmann, der in Luxus lebt? Oder ein Adliger, der meinen Stand heben könnte? Du bist nicht einmal ein geschickter Söldner, der mich im Kampf retten könnte.~
-@270 /*Clara*/ = ~Was hätte ich davon außer Enttäuschung? Du bist viel zu arrogant, um im Bett so gut zu sein.~
+@270 /*Clara*/ = ~Was hätte ich davon außer kostenloser Arbeit und deiner Angeberei? Du bist viel zu arrogant, um ein guter Arbeitgeber zu sein.~
 @271 /*Clara - falls Anomen*/ = ~Außerdem läuft es mit Anomen ganz gut. Wenn ich es richtig anstelle, bekomme ich einen Titel für meine Mühen, und er ist ohnehin viel niedlicher als du.~
 @272 /*Clara - falls verheiratet*/ = ~Außerdem, falls es dir nicht aufgefallen ist: Ich bin bereits verheiratet. Warum sollte ich meinen Stand für eine so mittelmäßige Nacht mit dir riskieren?~
 @273 /*Edwin*/ = ~Aber... aber... ich bin Edwin Odesseiron!~
-@274 /*Clara*/ = ~Und Edwin Odesseiron wird allein schlafen. Ich bin sicher, dein Ego hält dich die ganze Nacht schön warm.~
-@275 /*Edwin*/ = ~(Diese Beleidigung ist unerträglich. Ich muss einen Weg finden, sie zu bekommen.)~
+@274 /*Clara*/ = ~Und Edwin Odesseiron wird sich allein um seine geniale Aufgabe kümmern. Ich bin sicher, dein Ego wird dich die ganze Nacht beschäftigt halten.~
+@275 /*Edwin*/ = ~(Diese Beleidigung ist unerträglich. Ich muss einen Weg finden, ihre Dienste zu bekommen.)~
 
 //Erstes Gespräch mit Nalia
 @276 /*Nalia*/ = ~Also... Clara. Du bist eine Adlige? Es ist nur... du benimmst dich nicht wie die meisten anderen Adligen, die ich kenne. Und nun... es gibt viele Silberschilde, und ich bin sicher, manche hatten Töchter, aber...~
@@ -449,14 +449,14 @@
 @384 /*Edwin*/ = ~Nicht so einer. Ich habe dich in diesen Kämpfen genau beobachtet, die unser so furchtloser Anführer ständig vom Zaun bricht. Du versteckst dich lieber im Schatten und stichst deine Feinde von hinten ab. (Eine anständige Strategie, wenn man nicht der große Edwin Odesseiron wäre.)~
 @385 /*Edwin*/ = ~Dieser Ohrring wird deine Bemühungen unterstützen, dich beschützen, wie du es von mir gefordert hast. Du musst ihn nur berühren, und ein Zauber hüllt dich in Illusionen, um deinen Feinden zu entkommen.~
 @386 /*Clara*/ = ~Wirklich? Das ist nützlich.~
-@387 /*Edwin*/ = ~Siehst du jetzt? Edwin Odesseiron ist jedem anderen deiner Bewerber weit überlegen. Was ist ein Adliger oder Kaufmann schon gegen meine schiere Brillanz? Beim nächsten Mal, wenn wir ruhen dürfen, wirst du dich zu mir ins Bett legen.~
+@387 /*Edwin*/ = ~Siehst du es jetzt? Edwin Odesseiron ist weit überlegen jedem anderen Mitarbeiter, den du haben könntest. Was ist ein Adliger oder ein Händler gegen meine schiere Brillanz? Nächstes Mal, wenn wir uns ausruhen dürfen, wirst du mir über die Wirkung des Ohrrings Bericht erstatten und zugeben, dass du Edwin Odesseiron einen Gefallen schuldest.~
 @388 /*Clara*/ = ~Nein, werde ich nicht.~
-@389 /*Clara*/ = ~Aber danke für den Ohrring. Wenigstens muss ich dein Starren nicht mehr ertragen.~
-@390 /*Edwin*/ = ~Verdammt! Sie ist entkommen! (Das lief nicht, wie ich erwartet hatte. Ich muss es noch einmal versuchen.)~
+@389 /*Clara*/ = ~Aber danke für den Ohrring. Wenigstens muss ich mir deine Angeberei nicht mehr anhören.~
+@390 /*Edwin*/ = ~Verdammt! Sie wagt es, undankbar zu sein! (Das lief nicht so, wie ich erwartet hatte. Ich muss mir eine andere Möglichkeit einfallen lassen, sie dazu zu bringen, mir einen Gefallen zu schulden.)~
 
 //Gespräch mit Edwin, während er Edwina ist
 @391 /*Clara*/ = ~Edwin, ich habe ein Geschenk für dich.~
-@392 /*Edwina*/ = ~Bemühe dich nicht. Ich bin sicher, dein „Geschenk“ wird nur enttäuschend sein. Ein dummes Wesen wie du hat einem wie mir nichts zu bieten. (Außer vielleicht deinen Körper. Verfluchte Form.)~
+@392 /*Edwina*/ = ~Bemühe dich nicht. Ich bin sicher, dein „Geschenk“ wird nur enttäuschend sein. Ein dummes Wesen wie du hat einem wie mir nichts zu bieten. (Dummer Affe.)~
 @393 /*Clara*/ = ~Wirklich? Nicht einmal etwas, um dein kleines Geschlechterproblem zu lösen? Ich habe einen Freund, der mit seltenen Gegenständen hantiert, und als ich ihnen von deinem Missgeschick erzählte, boten sie mir diesen Gürtel an. Den Gürtel der Weiblichkeit/Männlichkeit, glaube ich, nannten sie ihn... Und als ich ihn anlegte...~
 @394 /*Clara*/ = ~Tadaa! Clarence steht zu Diensten.~
 @395 /*Edwina*/ = ~Was? Du hast ihn gefunden? Gib mir sofort diesen Gürtel!~
@@ -619,16 +619,16 @@
 @557 /*Cernd*/ = ~Ich habe ein schlechtes Gefühl bei diesem Handel. Als hätte das Flattern eines Mottenflügels einen Orkan ausgelöst.~
 
 //Erstes Gespräch mit Anomen - falls mit Cor verheiratet
-@558 /*Clara*/ = ~Komm her, Anomen. Halte mir meinen Rucksack.~
+@558 /*Clara*/ = ~Komm her, Anomen. Halte meinen Rucksack für mich.~
 @559 /*Anomen*/ = ~Ich bin nicht dein Lasttier, Clara.~
-@560 /*Clara*/ = ~Für dich bin ich Mutter Herrin. Ist es nicht eure Pflicht, euren Eltern in allem zu gehorchen?~
+@560 /*Clara*/ = ~Für dich bin ich Lady Mutter. Ist es nicht eure Pflicht, eure Eltern in allen Dingen zu gehorchen?~
 @561 /*Anomen*/ = ~Du bist nicht meine Mutter!~
-@562 /*Anomen - tot Cor*/ = ~Du bist nichts als eine schwarze Witwe, die meinen Vater in den Tod gelockt hat!~
+@562 /*Anomen - dead Cor*/ = ~Du bist nichts als eine Schwarze Witwe, die meinen Vater in den Tod gelockt hat!~
 @563 /*Anomen*/ = ~Du bist nichts als eine Goldgräberin, die meinen Vater in ihr Bett gelockt hat!~
-@564 /*Anomen*/ = ~Es ist schlimm genug, dass ich mit dir reisen muss; ich werde mich nicht jedem deiner Launen beugen. Ich habe vielleicht meinen Familiennamen verloren, aber ich habe noch meinen Stolz.~
-@565 /*Clara*/ = ~Oh, stimmt, du bist kein Delryn mehr.~
-@566 /*Clara*/ = ~Verzeih mir, Anomen, du hast recht. Ich bin nicht deine Mutter Herrin, und du bist nicht der Sohn meines Mannes.~
-@567 /*Clara*/ = ~Du bist überhaupt niemand.~
+@564 /*Anomen*/ = ~Es ist schon schlimm genug, dass ich mit dir reisen muss; ich werde nicht jedem deiner Launen nachgeben. Ich mag meinen Familiennamen verloren haben, aber ich habe immer noch meinen Stolz.~
+@565 /*Clara*/ = ~Oh, stimmt ja, du wurdest aus der Familie Delryn verstoßen, nicht wahr?~
+@566 /*Clara*/ = ~Du hast recht, ich bin nicht deine Mutter. Und ich habe kein Interesse daran, diese Rolle zu spielen.~
+@567 /*Clara*/ = ~Aber solange du der Sohn meines Mannes bist, erwarte ich, dass du grundlegende Höflichkeit bewahrst.~
 
 //Erstes Gespräch mit Imoen - sie fängt an
 @568 /*Imoen*/ = ~Also bist du eine Diebin und eine Trickbetrügerin, was?~

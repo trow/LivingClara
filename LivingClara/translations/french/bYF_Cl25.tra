@@ -158,7 +158,7 @@
 @139 /*Dorn*/ = ~Bien sûr que non. Une jolie jeune fille comme toi ? Chaque homme avec qui tu as couché t'a désirée à chaque respiration. Tu es l'objet même du désir.~
 @140 /*Clara*/ = ~Oh. Eh bien... J'aurais très bien fait semblant. Tu n'aurais pas été déçu.~
 @141 /*Dorn*/ = ~Hmpf. Je suis fatigué des mensonges et de la tromperie. Au moins de cette façon, nous savons tous les deux où nous en sommes.~
-@142 /*Clara*/ = ~Tu sais quoi, Dorn ? Sous ta routine de méchant-assassin, tu es en fait un type plutôt gentil.~
+@142 /*Clara*/ = ~Tu sais quoi, Dorn ? Tu joues vachement bien le méchant, mais j'ai du mal à croire que tu ne vives que de ça.~
 @143 /*Dorn*/ = ~Hah. J'ai massacré des centaines de personnes. Paysans. Femmes. Enfants. Je t'abattrais en un clin d'œil si c'était à mon avantage.~
 @144 /*Clara*/ = ~Ouais... mais je pense que tu le regretterais.~
 
@@ -256,17 +256,17 @@
 @264 /*HaerDalis*/ = ~Ahh, c'est dommage. Je me contenterai de regarder les nombreux masques que tu montres au monde.~
 
 //1st Edwin Banter - male, no CN romance
-@265 /*Edwin*/ = ~Clara ! Tu es assez jolie. Tu viendras réchauffer mon lit ce soir.~
+@265 /*Edwin*/ = ~Clara ! Tes petites manœuvres ont retenu mon attention. Viens dans ma chambre ce soir. J'ai une tâche digne de mon génie à te confier.~
 @266 /*Clara*/ = ~Non. Pourquoi ferais-je une chose pareille ?~
 @267 /*Edwin*/ = ~(Elle me refuse ? C'est impossible !)~
 @268 /*Edwin*/ = ~Je suis Edwin Odesseiron, ne le comprends-tu pas ? Le tissu même de l'univers plie sous mes caprices ! Je peux invoquer des génies et des créatures de feu pur pour anéantir mes ennemis !~
 @269 /*Clara*/ = ~C'est bien. Tu es peut-être un grand sorcier, mais es-tu un riche marchand vivant dans le luxe ? Ou peut-être un seigneur noble qui améliorerait ma condition ? Tu n'es même pas un mercenaire compétent qui pourrait me sauver dans un combat.~
-@270 /*Clara*/ = ~Qu'est-ce que j'y gagnerais à part de la déception ? Tu es bien trop arrogant pour être si bon au lit.~
+@270 /*Clara*/ = ~Qu'est-ce que j'y gagnerais à part du travail gratuit et tes vantardises ? Tu es bien trop arrogant pour être un bon employeur.~
 @271 /*Clara - if Anomen*/ = ~De plus, j'ai quelque chose de bien avec Anomen. Si je m'y prends bien, j'aurai un titre pour mes peines et je le trouve de toute façon bien plus mignon que toi.~
 @272 /*Clara - if married*/ = ~De plus, au cas où tu ne l'aurais pas remarqué, je suis déjà mariée. Pourquoi risquerais-je ma position pour une nuit si médiocre avec toi ?~
 @273 /*Edwin*/ = ~Mais... Mais... Je suis Edwin Odesseiron !~
-@274 /*Clara*/ = ~Et Edwin Odesseiron dormira seul. Je suis sûre que ton ego te tiendra bien chaud toute la nuit.~
-@275 /*Edwin*/ = ~(Cette insulte est insupportable. Je dois trouver un moyen de l'avoir.)~
+@274 /*Clara*/ = ~Et Edwin Odesseiron s'occupera seul de sa tâche de génie. Je suis sûre que ton ego t'occupera toute la nuit.~
+@275 /*Edwin*/ = ~(Cette insulte est insupportable. Je dois trouver un moyen d'obtenir ses services.)~
 
 //1st Nalia Banter
 @276 /*Nalia*/ = ~Alors... Clara. Tu es noble ? C'est juste... tu n'agis pas comme la plupart des autres nobles que je connais. Et bon... il y a beaucoup de Silvershield et je suis sûre que certains avaient des filles, mais...~
@@ -403,16 +403,16 @@
 @384 /*Edwin*/ = ~Pas comme celle-ci. Je t'ai observée de près dans ces combats que notre chef si intrépide ne cesse de provoquer. Tu préfères te cacher dans l'ombre et poignarder tes ennemis par derrière. (Une stratégie décente si l'on n'est pas le grand Edwin Odesseiron.)~
 @385 /*Edwin*/ = ~Cette boucle d'oreille t'assistera dans tes efforts, te protégera comme tu as exigé que je le fasse. Tu n'as qu'à la toucher et un sort t'enveloppera d'illusions pour échapper à tes ennemis.~
 @386 /*Clara*/ = ~Vraiment ? C'est utile.~
-@387 /*Edwin*/ = ~Tu vois maintenant ? Edwin Odesseiron est bien supérieur à tout autre prétendant que tu pourrais avoir. Qu'est-ce qu'un noble ou un marchand comparé à ma brillance pure ? La prochaine fois que nous aurons la permission de nous reposer, tu me rejoindras dans mon lit.~
+@387 /*Edwin*/ = ~Tu vois maintenant ? Edwin Odesseiron est bien supérieur à tout autre collaborateur que tu pourrais avoir. Qu'est-ce qu'un noble ou un marchand comparé à ma pure brillance ? La prochaine fois que nous pourrons nous reposer, tu viendras me faire un rapport sur les effets de la boucle d'oreille et reconnaître que tu dois une faveur à Edwin Odesseiron.~
 @388 /*Clara*/ = ~Non. Je ne le ferai pas.~
-@389 /*Clara*/ = ~Mais merci pour la boucle d'oreille. Au moins, je n'aurai plus à supporter ton regard fixe.~
-@390 /*Edwin*/ = ~Fichtre ! Elle s'est échappée ! (Cela ne s'est pas passé comme je m'y attendais. Je devrai réessayer.)~
+@389 /*Clara*/ = ~Mais merci pour la boucle d'oreille. Au moins, je n'aurai plus à écouter tes vantardises.~
+@390 /*Edwin*/ = ~Fichtre ! Elle ose être ingrate ! (Cela ne s'est pas passé comme je m'y attendais. Je devrai trouver un autre moyen de lui faire devoir une faveur.)~
 
 //1st Sarevok Banter
 @226 /*Clara*/ = ~Alors... Sarevok. J'ai appris que tu as fait accuser <CHARNAME> du meurtre de ton père adoptif et que tu as ensuite essayé de prendre le contrôle de Baldur's Gate.~
 @227 /*Sarevok*/ = ~Et j'ai été tué pour mes peines. Si tu as l'intention de me faire la morale, économise ton souffle. Je n'ai pas besoin d'un autre pleutre pour dire que j'étais un imbécile.~
 @228 /*Clara*/ = ~Tu plaisantes ? J'admire ton ambition. Tu as failli mettre toute la Côte des Épées à tes pieds.~
-@229 /*Clara*/ = ~Bien sûr, ça ne s'est pas très bien terminé, mais moi, j'ai été tuée par un vampire. Je ne peux pas vraiment parler. Au moins, tu as touché les étoiles avant de tomber. Tu aurais été une légende si <CHARNAME> n'avait pas tout gâché.~
+@229 /*Clara*/ = ~Bien sûr, ça ne s'est pas très bien terminé, mais moi, j'ai été tuée par un vampire. Je ne peux pas vraiment parler. Au moins, tu avais presque toute la Côte des Épées entre tes mains. Tu aurais été une légende si <CHARNAME> n'avait pas tout gâché.~
 @230 /*Sarevok*/ = ~Eh bien, c'est un changement rafraîchissant. La plupart des compagnons de mon frère continuent de saisir leurs armes chaque fois que je passe.~ ~Eh bien, c'est un changement rafraîchissant. La plupart des compagnons de ma sœur continuent de saisir leurs armes chaque fois que je passe.~
 @231 /*Clara*/ = ~Ce serait stupide de ma part. Si je voulais te tuer, j'attendrais que tu sois distrait et puis je te poignarderais dans le dos.~
 @232 /*Sarevok*/ = ~Hah ! Je crois que je t'aime bien, Clara. C'est toujours agréable de rencontrer quelqu'un qui ne cache pas ses sentiments derrière des convenances sociales.~
@@ -637,9 +637,9 @@
 @562 /*Anomen - Cor mort*/ = ~Tu n'es qu'une veuve noire qui a attiré mon père vers sa mort !~
 @563 /*Anomen*/ = ~Tu n'es qu'une coureuse d'or qui a attiré mon père dans son lit !~
 @564 /*Anomen*/ = ~C'est déjà assez terrible que je doive voyager avec toi ; je ne me plierai pas à tous tes caprices. J'ai peut-être perdu mon nom de famille, mais j'ai encore ma fierté.~
-@565 /*Clara*/ = ~Oh c'est vrai, tu n'es plus un Delryn.~
-@566 /*Clara*/ = ~Pardonne-moi, Anomen, tu as raison. Je ne suis pas ta Mère Dame, et tu n'es pas le fils de mon mari.~
-@567 /*Clara*/ = ~Tu n'es personne du tout.~
+@565 /*Clara*/ = ~Oh, c'est vrai, tu as été renié par la famille Delryn, n'est-ce pas ?~
+@566 /*Clara*/ = ~Tu as raison, je ne suis pas ta mère. Et je n'ai aucun intérêt à jouer ce rôle.~
+@567 /*Clara*/ = ~Mais tant que tu restes le fils de mon mari, j'attends de toi que tu gardes une politesse élémentaire.~
 
 //1ère discussion avec Imoen - elle parle en premier
 @568 /*Imoen*/ = ~Donc tu es un voleur et un escroc, hein ?~
@@ -898,7 +898,7 @@
 
 //Discussion avec Edwina - ajoutée car certains mods changent Edwin en femme (identique à SOA, juste une numérotation différente)
 @790 /*Clara*/ = ~Edwin, j'ai un cadeau pour toi.~
-@791 /*Edwina*/ = ~Ne te donne pas cette peine. Je suis sûre que ton "cadeau" ne sera qu'une déception. Une créature aussi terne que toi n'a rien à offrir à quelqu'un comme moi. (Sauf peut-être ton corps. Maudite soit cette forme maudite.)~
+@791 /*Edwina*/ = ~Ne te donne pas cette peine. Je suis sûre que ton "cadeau" ne sera qu'une déception. Une créature aussi terne que toi n'a rien à offrir à quelqu'un comme moi. (Stupide singe.)~
 @792 /*Clara*/ = ~Vraiment ? Même pas un moyen de régler ton petit problème de genre ? J'ai un ami qui touche à certains objets rares et quand je leur ai parlé de ton mésaventure, ils m'ont offert cette ceinture. La Ceinture de Féminité/Masculinité, je crois qu'ils l'appelaient... Et quand je la mets...~
 @793 /*Clara*/ = ~Ta-da ! Clarence à votre service.~
 @794 /*Edwina*/ = ~Quoi ? Tu l'as trouvée ? Donne-moi cette ceinture instantanément !~

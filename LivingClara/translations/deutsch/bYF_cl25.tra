@@ -158,7 +158,7 @@
 @139 /*Dorn*/ = ~Natürlich weißt du das nicht. Ein hübsches junges Mädchen wie du? Jeder Mann, mit dem du geschlafen hast, hat dich mit jedem Atemzug begehrt. Du bist der Inbegriff der Begierde.~
 @140 /*Clara*/ = ~Oh. Nun... ich hätte mich wirklich gut verstellt. Du wärst nicht enttäuscht gewesen.~
 @141 /*Dorn*/ = ~Hmpf. Ich bin Lügen und Täuschung müde. So wissen wir wenigstens beide, woran wir sind.~
-@142 /*Clara*/ = ~Weißt du was, Dorn? Unter deiner bösen-Mörder-Nummer bist du eigentlich ein ziemlich süßer Kerl.~
+@142 /*Clara*/ = ~Weißt du was, Dorn? Die Böse-Mörder-Nummer ziehst du ganz schön durch, aber ich glaub nicht wirklich, dass du davon allein lebst.~
 @143 /*Dorn*/ = ~Hah. Ich habe Hunderte abgeschlachtet. Bauern. Frauen. Kinder. Ich würde dich im Herzschlag niederschlagen, wenn es mir nützte.~
 @144 /*Clara*/ = ~Ja... aber ich glaube, du würdest dich schlecht dabei fühlen.~
 
@@ -256,17 +256,17 @@
 @264 /*HaerDalis*/ = ~Ahh, das ist schade. Ich werde mich damit begnügen müssen, den vielen Masken zuzusehen, die du der Welt zeigst.~
 
 //1st Edwin Banter - male, no CN romance
-@265 /*Edwin*/ = ~Clara! Du bist hübsch genug. Du wirst heute Nacht mein Bett wärmen.~
+@265 /*Edwin*/ = ~Clara! Deine kleinen Tricks haben meine Aufmerksamkeit erregt. Komm heute Nacht in mein Zimmer. Ich habe eine Aufgabe für dich, die meines Genies würdig ist.~
 @266 /*Clara*/ = ~Nein. Warum sollte ich das tun?~
 @267 /*Edwin*/ = ~(Sie weist mich ab? Das ist nicht möglich!)~
 @268 /*Edwin*/ = ~Ich bin Edwin Odesseiron, verstehst du das nicht? Der gesamte Stoff des Universums biegt sich unter meinen Launen! Ich kann Dschinn und Kreaturen aus reinem Feuer beschwören, um meine Feinde zu vernichten!~
 @269 /*Clara*/ = ~Das ist nett. Du magst ein großer Zauberer sein, aber bist du ein reicher Händler, der im Luxus lebt? Oder vielleicht ein edler Lord, der meine Umstände verbessern würde? Du bist nicht einmal ein geschickter Söldner, der mich in einem Kampf retten könnte.~
-@270 /*Clara*/ = ~Was hätte ich davon außer Enttäuschung? Du bist viel zu arrogant, um im Bett so großartig zu sein.~
+@270 /*Clara*/ = ~Was hätte ich davon außer kostenloser Arbeit und deiner Angeberei? Du bist viel zu arrogant, um ein guter Arbeitgeber zu sein.~
 @271 /*Clara - if Anomen*/ = ~Außerdem habe ich mit Anomen etwas Gutes am Laufen. Wenn ich das richtig anstelle, bekomme ich einen Titel für meine Mühen, und ich finde ihn sowieso viel niedlicher als dich.~
 @272 /*Clara - if married*/ = ~Außerdem bin ich, falls es dir nicht aufgefallen ist, bereits verheiratet. Warum sollte ich meine Position für eine so lala Nacht mit dir riskieren?~
 @273 /*Edwin*/ = ~Aber... Aber... Ich bin Edwin Odesseiron!~
-@274 /*Clara*/ = ~Und Edwin Odesseiron wird allein schlafen. Ich bin sicher, dein Ego wird dich die ganze Nacht über warm genug halten.~
-@275 /*Edwin*/ = ~(Diese Beleidigung ist unerträglich. Ich muss einen Weg finden, sie zu bekommen.)~
+@274 /*Clara*/ = ~Und Edwin Odesseiron wird sich allein um seine geniale Aufgabe kümmern. Ich bin sicher, dein Ego wird dich die ganze Nacht beschäftigt halten.~
+@275 /*Edwin*/ = ~(Diese Beleidigung ist unerträglich. Ich muss einen Weg finden, ihre Dienste zu bekommen.)~
 
 //1st Nalia Banter
 @276 /*Nalia*/ = ~Also... Clara. Du bist eine Adlige? Es ist nur... du verhältst dich nicht wie die meisten anderen Adligen, die ich kenne. Und nun... es gibt viele Silvershields, und ich bin sicher, einige von ihnen hatten Töchter, aber...~
@@ -403,16 +403,16 @@
 @384 /*Edwin*/ = ~Nicht wie diesen. Ich habe dich genau beobachtet in diesen Kämpfen, die unser oh-so-furchtloser Anführer ständig vom Zaun bricht. Du ziehst es vor, dich in den Schatten zu verstecken und deine Feinde von hinten zu erstechen. (Eine anständige Strategie, wenn man nicht der große Edwin Odesseiron ist.)~
 @385 /*Edwin*/ = ~Dieser Ohrring wird dir bei deinen Bemühungen helfen, dich schützen, wie du es von mir verlangt hast. Du musst ihn nur berühren, und ein Zauber wird dich in Illusionen hüllen, um deinen Feinden zu entkommen.~
 @386 /*Clara*/ = ~Wirklich? Das ist nützlich.~
-@387 /*Edwin*/ = ~Siehst du es jetzt? Edwin Odesseiron ist weit überlegen jedem anderen Verehrer, den du haben könntest. Was ist ein Adliger oder ein Händler gegen meine schiere Brillanz? Nächstes Mal, wenn wir ruhen dürfen, wirst du mich in meinem Bett besuchen.~
+@387 /*Edwin*/ = ~Siehst du es jetzt? Edwin Odesseiron ist weit überlegen jedem anderen Mitarbeiter, den du haben könntest. Was ist ein Adliger oder ein Händler gegen meine schiere Brillanz? Nächstes Mal, wenn wir uns ausruhen dürfen, wirst du mir über die Wirkung des Ohrrings Bericht erstatten und zugeben, dass du Edwin Odesseiron einen Gefallen schuldest.~
 @388 /*Clara*/ = ~Nein. Werde ich nicht.~
-@389 /*Clara*/ = ~Aber danke für den Ohrring. Wenigstens muss ich dein Starren nicht mehr ertragen.~
-@390 /*Edwin*/ = ~Verdammt! Sie ist entkommen! (Das lief nicht so, wie ich erwartet hatte. Ich muss es noch einmal versuchen.)~
+@389 /*Clara*/ = ~Aber danke für den Ohrring. Wenigstens muss ich mir deine Angeberei nicht mehr anhören.~
+@390 /*Edwin*/ = ~Verdammt! Sie wagt es, undankbar zu sein! (Das lief nicht so, wie ich erwartet hatte. Ich muss mir eine andere Möglichkeit einfallen lassen, sie dazu zu bringen, mir einen Gefallen zu schulden.)~
 
 //1st Sarevok Banter 
 @226 /*Clara*/ = ~Also... Sarevok. Ich habe gehört, du hast <CHARNAME> für den Mord an deinem Adoptivvater beschuldigt und dann versucht, Baldur's Gate zu übernehmen.~
 @227 /*Sarevok*/ = ~Und ich wurde dafür getötet. Wenn du mir eine Lektion über Recht und Unrecht erteilen willst, spar dir deinen Atem. Ich brauche keinen weiteren jammernden Feigling, der sagt, ich war ein Narr.~
 @228 /*Clara*/ = ~Machst du Witze? Ich bewundere deinen Ehrgeiz. Du hattest fast die gesamte Schwertküste dazu gebracht, dir zu Füßen zu liegen.~
-@229 /*Clara*/ = ~Sicher, es endete nicht allzu gut, aber ich wurde von einem Vampir getötet. Ich kann wirklich nicht mitreden. Wenigstens hast du die Sterne berührt, bevor du gefallen bist. Du wärst eine Legende geworden, wenn <CHARNAME> nicht alles ruiniert hätte.~
+@229 /*Clara*/ = ~Sicher, es endete nicht allzu gut, aber ich wurde von einem Vampir getötet. Ich kann wirklich nicht mitreden. Wenigstens hattest du fast die ganze Schwertküste in deinen Händen. Du wärst eine Legende geworden, wenn <CHARNAME> nicht alles ruiniert hätte.~
 @230 /*Sarevok*/ = ~Nun, das ist eine erfrischende Abwechslung. Die meisten Gefährten meines <PRO_BROTHERSISTER> greifen immer noch nach ihren Waffen, wann immer ich vorbeigehe.~
 @231 /*Clara*/ = ~Das wäre dumm von mir. Wenn ich dich töten wollte, würde ich warten, bis du abgelenkt bist, und dich dann von hinten erstechen.~
 @232 /*Sarevok*/ = ~Hah! Ich glaube, du gefällst mir, Clara. Es ist immer schön, jemanden zu treffen, der seine Gefühle nicht hinter gesellschaftlichen Konventionen versteckt.~
@@ -637,9 +637,9 @@
 @562 /*Anomen - dead Cor*/ = ~Du bist nichts als eine Schwarze Witwe, die meinen Vater in den Tod gelockt hat!~
 @563 /*Anomen*/ = ~Du bist nichts als eine Goldgräberin, die meinen Vater in ihr Bett gelockt hat!~
 @564 /*Anomen*/ = ~Es ist schon schlimm genug, dass ich mit dir reisen muss; ich werde nicht jedem deiner Launen nachgeben. Ich mag meinen Familiennamen verloren haben, aber ich habe immer noch meinen Stolz.~
-@565 /*Clara*/ = ~Oh, das stimmt, du bist kein Delryn mehr.~
-@566 /*Clara*/ = ~Verzeih mir, Anomen, du hast recht. Ich bin nicht deine Lady Mutter, und du bist nicht der Sohn meines Mannes.~
-@567 /*Clara*/ = ~Du bist gar niemand.~
+@565 /*Clara*/ = ~Oh, stimmt ja, du wurdest aus der Familie Delryn verstoßen, nicht wahr?~
+@566 /*Clara*/ = ~Du hast recht, ich bin nicht deine Mutter. Und ich habe kein Interesse daran, diese Rolle zu spielen.~
+@567 /*Clara*/ = ~Aber solange du der Sohn meines Mannes bist, erwarte ich, dass du grundlegende Höflichkeit bewahrst.~
 
 //1st Imoen Banter - she talks first
 @568 /*Imoen*/ = ~Also du bist eine Diebin und eine Betrügerin, was?~
@@ -898,7 +898,7 @@
 
 //Edwina Banter - added because some mods change Edwin back into a woman (same as SOA, just different numbering)
 @790 /*Clara*/ = ~Edwin, ich habe ein Geschenk für dich.~
-@791 /*Edwina*/ = ~Stör mich nicht. Ich bin sicher, dein „Geschenk" wird nur enttäuschend sein. Eine langweilige Kreatur wie du hat nichts anzubieten für eine wie mich. (Außer vielleicht deinen Körper. Verfluchte Gestalt.)~
+@791 /*Edwina*/ = ~Stör mich nicht. Ich bin sicher, dein „Geschenk" wird nur enttäuschend sein. Eine langweilige Kreatur wie du hat nichts anzubieten für eine wie mich. (Dummer Affe.)~
 @792 /*Clara*/ = ~Wirklich? Nicht einmal einen Weg, dein kleines Geschlechtsproblem zu beheben? Ich habe einen Freund, der in bestimmte seltene Gegenstände verwickelt ist, und als ich ihnen von deinem Missgeschick erzählte, gaben sie mir diesen Gürtel. Der Gürtel der Weiblichkeit/Männlichkeit, glaube ich, haben sie ihn genannt... Und wenn ich ihn anlege...~
 @793 /*Clara*/ = ~Ta-da! Clarence zu deinen Diensten.~
 @794 /*Edwina*/ = ~Was? Du hast ihn gefunden? Gib mir diesen Gürtel sofort!~

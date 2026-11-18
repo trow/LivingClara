@@ -158,7 +158,7 @@
 @139 /*Dorn*/ = ~Of course you don't. A pretty young girl like you? Every man you've lain with has craved you with their every breath. You are the very object of desire.~
 @140 /*Clara*/ = ~Oh. Well... I would've pretended really well. You wouldn't have been disappointed.~
 @141 /*Dorn*/ = ~Hmpf. I am tired of lies and deception. At least this way, we both know where we stand.~
-@142 /*Clara*/ = ~You know what, Dorn? Under your evil-murderer-routine, you're actually a pretty sweet guy.~
+@142 /*Clara*/ = ~You know what, Dorn? You play the villain pretty hard, but I don't quite buy that you live on that alone.~
 @143 /*Dorn*/ = ~Hah. I have slaughtered hundreds. Peasants. Women. Children. I'd strike you down in a heart-beat if it was to my advantage.~
 @144 /*Clara*/ = ~Yeah... but I think you'd feel bad about it.~
 
@@ -309,17 +309,17 @@
 @264 /*HaerDalis*/ = ~Ahh, that is a pity. I shall content myself with watching the many masks you show the world.~
 
 //1st Edwin Banter - male, no CN romance
-@265 /*Edwin*/ = ~Clara! You are pretty enough. You will warm my bed tonight.~
+@265 /*Edwin*/ = ~Clara! Your little tricks have caught my attention. Come to my room tonight. I have a task worthy of my genius for you.~
 @266 /*Clara*/ = ~No. Why would I do that?~
 @267 /*Edwin*/ = ~(She refuses me? This is not possible!)~
 @268 /*Edwin*/ = ~I am Edwin Odesseiron, do you not understand? The very fabric of the universe bends beneath my whims! I can summon genies and creatures of pure fire to destroy my enemies!~
 @269 /*Clara*/ = ~That's nice. You may be a great wizard, but are you a rich merchant who lives in luxury? Or perhaps a noble lord who would raise my circumstances? You're not even a skilled mercenary who could save me in a fight.~
-@270 /*Clara*/ = ~What would I get out of this but disappointment? You are far too arrogant to be that great in bed.~
+@270 /*Clara*/ = ~What would I get out of this but free labor and your boasting? You are far too arrogant to be a good employer.~
 @271 /*Clara - if Anomen*/ = ~Besides, I've got something good going on with Anomen. If I play this right, I'll get a title for my troubles and I think he's much cuter than you are anyway.~
 @272 /*Clara - if married*/ = ~Besides, in case you haven't noticed, I'm already married. Why would I risk my position for one so-so night with you?~
 @273 /*Edwin*/ = ~But... But... I am Edwin Odesseiron!~
-@274 /*Clara*/ = ~And Edwin Odesseiron will be sleeping by himself. I'm sure your ego will keep you plenty warm throughout the night.~
-@275 /*Edwin*/ = ~(This insult cannot be borne. I must find a way to have her.)~
+@274 /*Clara*/ = ~And Edwin Odesseiron will be handling his genius task alone. I'm sure your ego will keep you busy all night.~
+@275 /*Edwin*/ = ~(This insult cannot be borne. I must find a way to secure her services.)~
 
 //1st Nalia Banter
 @276 /*Nalia*/ = ~So... Clara. You're a noble? It's just... you don't act like most of the other nobles that I know. And well... there's lots of Silvershields and I'm sure some of them had daughters, but...~
@@ -458,14 +458,14 @@
 @384 /*Edwin*/ = ~Not like this. I have watched you closely in these fights our oh-so-fearless leader keeps on starting. You prefer to hide in the shadows and stab your foes from behind. (A decent strategy if one is not the great Edwin Odesseiron.)~
 @385 /*Edwin*/ = ~This earring will assist you in your efforts, protect you as you've demanded that I do. You need only touch it and a spell will wrap you in illusions to escape your enemies.~
 @386 /*Clara*/ = ~Really? That is useful.~
-@387 /*Edwin*/ = ~You see now? Edwin Odesseiron is far superior to any other suitor you could have. What is a noble or a merchant compared to my sheer brilliance? Next time we are allowed to rest, you will join me in my bed.~
+@387 /*Edwin*/ = ~You see now? Edwin Odesseiron is far superior to any other collaborator you could have. What is a noble or a merchant compared to my sheer brilliance? Next time we are allowed to rest, you will come report to me on the earring's effects and admit that you owe Edwin Odesseiron a favor.~
 @388 /*Clara*/ = ~No. I won't.~
-@389 /*Clara*/ = ~But thank you for the earring. At least I won't have to put up with your staring anymore.~
-@390 /*Edwin*/ = ~Blast! She got away! (That did not go as I expected. I shall have to try again.)~
+@389 /*Clara*/ = ~But thank you for the earring. At least I won't have to listen to your boasting anymore.~
+@390 /*Edwin*/ = ~Blast! She dares to be ungrateful! (That did not go as I expected. I shall have to think of another way to make her owe me a favor.)~
 
 //Edwin Banter while he's Edwina
 @391 /*Clara*/ = ~Edwin, I have a present for you.~
-@392 /*Edwina*/ = ~Do not bother. I am sure your "gift" will only be a disappointment. A dull creature like you has nothing to offer one such as myself. (Except perhaps your body. Damn this cursed form.)~
+@392 /*Edwina*/ = ~Do not bother. I am sure your "gift" will only be a disappointment. A dull creature like you has nothing to offer one such as myself. (Stupid monkey.)~
 @393 /*Clara*/ = ~Really? Not even a way to fix your little gender issue? I have a friend who dabbles in certain rare items and when I told them about your mishap, they offered me this belt. The Girdle of Femininity/Masculinity, I think they called it... And when I put it on...~
 @394 /*Clara*/ = ~Ta-da! Clarence at your service.~
 @395 /*Edwina*/ = ~What? You found it? Give me that belt this instant!~
@@ -635,9 +635,9 @@
 @562 /*Anomen - dead Cor*/ = ~You are nothing but a black widow who lured my father to his death!~
 @563 /*Anomen*/ = ~You are nothing but a gold digger who lured my father to her bed!~
 @564 /*Anomen*/ = ~It is bad enough that I must travel with you; I will not bow to your every whim. I may have lost my family name, but I still have my pride.~
-@565 /*Clara*/ = ~Oh that's right, you are no longer a Delryn.~
-@566 /*Clara*/ = ~Forgive me, Anomen, you are correct. I am not your Lady Mother, and you are not my husband's son.~
-@567 /*Clara*/ = ~You are no one at all.~
+@565 /*Clara*/ = ~Oh, that's right, you've been cast out of the Delryn family, haven't you?~
+@566 /*Clara*/ = ~You're right, I'm not your mother. Nor do I have any interest in playing that role.~
+@567 /*Clara*/ = ~But as long as you remain my husband's son, I expect you to maintain basic courtesy.~
 
 //1st Imoen Banter - she talks first
 @568 /*Imoen*/ = ~So you're a thief and a conman, huh?~

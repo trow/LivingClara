@@ -158,7 +158,7 @@
 @139 /*Dorn*/ = ~Samozřejmě ne. Taková hezká mladá holka jako ty? Každý muž, s nímž jsi spala, po tobě toužil každým nádechem. Jsi ztělesněním touhy.~
 @140 /*Clara*/ = ~Ach. No... předstírala bych velmi dobře. Nebyl bys zklamaný.~
 @141 /*Dorn*/ = ~Ha. Mám dost lží a podvodů. Aspoň takhle oba víme, na čem jsme.~
-@142 /*Clara*/ = ~Víš co, Dorne? Pod maskou zlého zabijáka jsi docela milý chlap.~
+@142 /*Clara*/ = ~Víš co, Dorne? Tu roli zloducha hraješ dost přesvědčivě, ale moc nevěřím, že bys z toho úplně žil.~
 @143 /*Dorn*/ = ~Ha ha. Povraždil jsem stovky. Sedláky. Ženy. Děti. Kdyby bylo třeba, bez váhání bych zabil i tebe.~
 @144 /*Clara*/ = ~Ano... ale myslím, že by ti to bylo líto.~
 
@@ -300,17 +300,17 @@
 @264 /*HaerDalis*/ = ~Ach, to je škoda. Budu se muset spokojit s pozorováním mnoha masek, které ukazuješ světu.~
 
 //1st Edwin Banter - male, no CN romance
-@265 /*Edwin*/ = ~Kláro! Jsi okouzlující. Zahřej mé lože této noci.~
+@265 /*Edwin*/ = ~Kláro! Tvé malé triky upoutaly mou pozornost. Přijď dnes večer do mého pokoje. Mám pro tebe úkol hodný mého génia.~
 @266 /*Clara*/ = ~Ne. Proč bych to měla dělat?~
 @267 /*Edwin*/ = ~(Odmítá mě? To není možné!)~
 @268 /*Edwin*/ = ~Já jsem Edwin Odesseiron, nechápeš? Samotná tkáň vesmíru se ohýbá podle mého rozmaru! Mohu přivolat džiny a bytosti čistého ohně, aby zničily mé nepřátele!~
 @269 /*Clara*/ = ~To je hezké. Možná jsi skvělý čaroděj, ale jsi bohatý kupec žijící v přepychu? Nebo urozený pán, který by povýšil mé postavení? Nejsi ani zkušený žoldnéř, který by mě ochránil v boji.~
-@270 /*Clara*/ = ~Co bych z toho měla, kromě zklamání? Jsi příliš arogantní, abys byl dobrý v posteli.~
+@270 /*Clara*/ = ~Co bych z toho měla, kromě práce zadarmo a tvého vychloubání? Jsi příliš arogantní, abys byl dobrý zaměstnavatel.~
 @271 /*Clara - if Anomen*/ = ~Navíc mi to s Anomenem jde dobře. Pokud to dobře zahraji, mohu získat titul za své úsilí, a navíc si myslím, že je mnohem milější než ty.~
 @272 /*Clara - if married*/ = ~Navíc, nevšiml sis, že jsem vdaná. Proč bych riskovala své postavení kvůli jedné noci s tebou?~
 @273 /*Edwin*/ = ~Ale... ale... Já jsem Edwin Odesseiron!~
-@274 /*Clara*/ = ~A Edwin Odesseiron bude spát sám. Jsem si jistá, že tvé ego ti bude dostatečně hřát celou noc.~
-@275 /*Edwin*/ = ~(Tato urážka je nesnesitelná. Musím najít způsob, jak ji získat.)~
+@274 /*Clara*/ = ~A Edwin Odesseiron bude svůj geniální úkol řešit sám. Jsem si jistá, že tvé ego tě zaměstná na celou noc.~
+@275 /*Edwin*/ = ~(Tato urážka je nesnesitelná. Musím najít způsob, jak získat její služby.)~
 
 //1st Nalia Banter
 @276 /*Nalia*/ = ~Takže... Kláro. Jsi opravdu šlechtična? Jen... nechováš se jako většina šlechty, kterou znám... a... je mnoho rodů Stříbrných štítů, jsem si jistá, že někteří mají dcery, ale...~
@@ -443,14 +443,14 @@
 @384 /*Edwin*/ = ~Ne takovou. Pozoroval jsem tě v těch bojích, které náš nebojácný vůdce neustále vyvolává. Raději se schováváš ve stínech a bodáš nepřátele do zad. (To je dobrá strategie, pokud nejsi velký Edwin Odesseiron.)~
 @385 /*Edwin*/ = ~Tato náušnice ti pomůže v tvém úsilí a ochrání tě, jak jsi vždy žádala. Stačí se jí dotknout a kouzlo tě zahalí iluzemi, které ti pomohou uniknout nepřátelům.~
 @386 /*Clara*/ = ~Opravdu? To se hodí.~
-@387 /*Edwin*/ = ~Nyní vidíš? Edwin Odesseiron daleko převyšuje ostatní tvé nápadníky. Co je šlechtic nebo kupec ve srovnání s mým čirým leskem? Až příště odpočíváme, připojíš se ke mně v mém loži.~
+@387 /*Edwin*/ = ~Nyní vidíš? Edwin Odesseiron daleko převyšuje jakéhokoli jiného spolupracovníka, kterého bys mohl mít. Co je šlechtic nebo kupec ve srovnání s mým čirým leskem? Až si příště budeme moci odpočinout, přijdeš mi podat zprávu o účincích náušnice a přiznáš, že Edvinu Odesseironovi dlužíš laskavost.~
 @388 /*Clara*/ = ~Ne. Nepřipojím se.~
-@389 /*Clara*/ = ~Ale díky za náušnici. Alespoň už nebudu muset snášet tvé zírání.~
-@390 /*Edwin*/ = ~Sakra! Zmizela! (To nedopadlo tak, jak jsem čekal. Musím to zkusit znovu.)~
+@389 /*Clara*/ = ~Ale díky za náušnici. Alespoň už nebudu muset poslouchat tvé vychloubání.~
+@390 /*Edwin*/ = ~Sakra! Ona si dovoluje být nevděčná! (To nedopadlo tak, jak jsem očekával. Budu muset vymyslet jiný způsob, jak ji přimět, aby mi dlužila laskavost.)~
 
 //Edwin Banter while he's Edwina
 @391 /*Clara*/ = ~Edwine, mám pro tebe dárek.~
-@392 /*Edwina*/ = ~Nezlob mě. Jsem si jistý, že tvůj „dárek“ bude jen zklamáním. Taková nudná bytost jako ty nemá co nabídnout někomu, jako jsem já. (Kromě možná tvého těla. Už mě to prokletí.)~
+@392 /*Edwina*/ = ~Nezlob mě. Jsem si jistý, že tvůj „dárek“ bude jen zklamáním. Taková nudná bytost jako ty nemá co nabídnout někomu, jako jsem já. (Hloupá opice.)~
 @393 /*Clara*/ = ~Opravdu? I způsob, jak vyřešit tvůj malý genderový problém? Mám přátele, kteří obchodují se vzácnými předměty, a když jsem jim vyprávěla o tvém neštěstí, dali mi tento pás. Myslím, že ho nazývají Pás změny pohlaví... Když jsem si ho nasadila...~
 @394 /*Clara*/ = ~Tadá! Clarence k vašim službám.~
 @395 /*Edwina*/ = ~Co? Našla jsi ho? Dej mi ten pás okamžitě!~
@@ -620,9 +620,9 @@
 @562 /*Anomen - dead Cor*/ = ~Jsi černá vdova, která svedla mého otce, aby ho zabila!~
 @563 /*Anomen*/ = ~Jsi zlatokopka, která svedla mého otce a vlezla mu do postele!~
 @564 /*Anomen*/ = ~Už tak je dost špatné, že s tebou musím cestovat; nebudu se podřizovat tvým rozmarům. Možná jsem ztratil rodinné jméno, ale pořád mám hrdost.~
-@565 /*Clara*/ = ~Ach, to je pravda, už nejsi Delryn.~
-@566 /*Clara*/ = ~Odpusť mi, Anomene, máš pravdu. Nejsem tvá paní matka a ty nejsi syn mého manžela.~
-@567 /*Clara*/ = ~Nejsi nic.~
+@565 /*Clara*/ = ~Ach, to je pravda, byl jsi vyhoštěn z rodiny Delrynů, že?~
+@566 /*Clara*/ = ~Máš pravdu, nejsem tvá matka. A nemám zájem hrát tu roli.~
+@567 /*Clara*/ = ~Ale dokud jsi synem mého manžela, očekávám, že si zachováš základní zdvořilost.~
 
 //1st Imoen Banter - she talks first
 @568 /*Imoen*/ = ~Takže jsi zlodějka a podvodnice, co?~
